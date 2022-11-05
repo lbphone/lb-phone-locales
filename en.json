@@ -9,7 +9,7 @@
             "BACK": "Back",
             "DONE": "Done",
             "EDIT": "Edit",
-            
+
             "AIRPLANE_MODE": "Airplane Mode",
             "STREAMER_MODE": "Streamer Mode",
             "BLUETOOTH": "Bluetooth",
@@ -41,7 +41,7 @@
             "LANGUAGE": "Language",
             "TEMPERATURE": "Temperature",
             "BATTERY": "Battery",
-            
+
             "SOUND_HAPTICS": "Sound & Haptics",
             "SOUND_HAPTICS_PATTERNS": "Sound and haptics patterns",
             "RINGTONE": "Ringtone",
@@ -220,7 +220,7 @@
             "TODAY": "Today",
             "GAMES": "Games",
             "WHAT_WE_PLAYING": "What we're playing",
-            "INFORMATION:": "Information",
+            "INFORMATION": "Information",
             "PROVIDER": "Provider",
             "SIZE": "Size",
             "COMPATIBILITY": "Compatibility",
