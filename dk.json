@@ -287,7 +287,7 @@
             "NOT_DELIVERED": "Ikke sendt",
             "PLACEHOLDER": "Tekst Besked",
             "DONE": "Færdig",
-            "CANCEL": "Anniller",
+            "CANCEL": "Annuller",
             "SEND": "Send",
             "UNKNOWN": "Ukendt Nummer",
             "TO": "Til",
@@ -342,7 +342,7 @@
                 "CALL_BUTTON_CANCEL": "Annuller",
                 "CALL_BUTTON_CALL": "Ring",
 
-                "NO_CALLER_ID": "Intet Opkalds ID",
+                "NO_CALLER_ID": "Skjult nummer",
                 "UNKNOWN": "Ukendt",
                 "USER_BUSY": "Vedkommende er optaget",
                 "USER_UNAVAILABLE": "Vedkommende er ikke tilgængelig",
@@ -397,7 +397,7 @@
                 "BLOCK_NUMBER_TITLE": "Bloker Nummer",
                 "BLOCK_NUMBER_TEXT": "Er du sikker på du vil blokere {number}?",
                 "BLOCK_NUMBER_BUTTON_CANCEL": "Annuller",
-                "BLOCK_NUMBER_BUTTON_BLOCK": "Blockere"
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Bloker"
             },
             "FAVOURITES": {
                 "TITLE": "Favoritter",
@@ -484,7 +484,7 @@
             "LOCK_POPUP": {
                 "TITLE": "{toggle} Bolig",
                 "TEXT": "Vil du {toggle} din bolig?",
-                "CANCEL": "Anuller",
+                "CANCEL": "Annuller",
                 "PROCEED": "Bekræft"
             },
             "GIVE_KEY_POPUP": {
@@ -503,37 +503,37 @@
         },
         "MARKETPLACE": {
             "CANCEL": "Annuller",
-            "SEARCH": "Søg efter lister eller numre",
-            "NEW_POST": "Nyt Post",
+            "SEARCH": "Søg efter opslag eller numre",
+            "NEW_POST": "Nyt opslag",
             "TITLE": "Titel",
-            "DESCRIPTION": "Bekrivelse",
+            "DESCRIPTION": "Beskrivelse",
             "PRICE": "Pris",
-            "POST": "Post",
+            "POST": "Slå op",
             "CONTACT": "Kontakt",
             "REMOVE": "Slet",
 
             "DELETE_POPUP": {
-                "TITLE": "Slet Post",
-                "TEXT": "Er du sikker på du vil slette dit post?",
+                "TITLE": "Slet opslag",
+                "TEXT": "Er du sikker på du vil slette dit opslag?",
                 "CANCEL": "Annuller",
                 "PROCEED": "Slet"
             }
         },
         "YELLOWPAGES": {
-            "SEARCH": "Søg efter post eller numre",
+            "SEARCH": "Søg efter opslag eller numre",
             "FROM": "Fra",
             "CANCEL": "Annuller",
-            "NEW_POST": "Nyt Post",
+            "NEW_POST": "Nyt opslag",
 
             "TITLE": "Titel",
-            "DESCRIPTION": "Bekrivelse",
+            "DESCRIPTION": "Beskrivelse",
             "PRICE": "Pris",
-            "POST": "Post",
+            "POST": "Slå op",
             "CALL": "Ring op",
 
             "DELETE_POPUP": {
-                "TITLE": "Slet Post",
-                "TEXT": "Er du sikker på du vil slette dette post?",
+                "TITLE": "Slet opslag",
+                "TEXT": "Er du sikker på du vil slette dette opslag?",
                 "CANCEL": "Annuller",
                 "PROCEED": "Slet"
             }
@@ -590,12 +590,12 @@
         "CREATE_PASSCODE_TEXT": "En adgangskode beskytter dine data og bruges til at låse din telefon op.",
         "SKIP": "Spring over",
 
-        "FACE_ID_SETUP": "Ansigts ID Opsættelse",
+        "FACE_ID_SETUP": "Face ID Opsættelse",
         "FACE_ID_TEXT": "Konfigurer Face ID for automatisk at låse din telefon op, mens dit ansigt er foran kammeraet.",
-        "ENABLE_FACE_ID": "Aktiver Ansigts ID",
+        "ENABLE_FACE_ID": "Aktiver Face ID",
 
-        "APPEARANCE": "Udseende",
-        "APPEARANCE_TEXT": "Vælg et lyst eller mørkt udseende",
+        "APPEARANCE": "Lystilstand",
+        "APPEARANCE_TEXT": "Vælg et lyst eller mørkt lystilstand",
 
         "CONTINUE": "Fortsæt",
         "WELCOME_TO": "Velkommen til",
