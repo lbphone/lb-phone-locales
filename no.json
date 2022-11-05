@@ -1,7 +1,7 @@
 {
     "LABEL": "Norsk",
-    "Søk": "Søk",
-    "Avbryt": "Avbryt",
+    "SEARCH": "Søk",
+    "CANCEL": "Avbryt",
 
     "APPS": {
         "SETTINGS": {
@@ -76,7 +76,7 @@
             "UNBLOCK_POPUP": {
                 "TITLE": "Fjern Blokkering",
                 "TEXT": "Er du sikker på at du vil fjerne blokkeringen?",
-                "Avbryt": "Avbryt",
+                "CANCEL": "Avbryt",
                 "CONFIRM": "Fjern"
             },
 
@@ -91,20 +91,20 @@
             "DISABLE_FACE_ID_POPUP": {
                 "TITLE": "Skru av Face ID",
                 "TEXT": "Er du sikker på at du vil skru av Face ID?",
-                "Avbryt": "Avbryt",
+                "CANCEL": "Avbryt",
                 "CONFIRM": "Skru Av"
             },
 
             "ENABLE_FACE_ID_POPUP": {
                 "TITLE": "Skru på Face ID",
                 "TEXT": "Er du sikker på at du vil skru på Face ID?",
-                "Avbryt": "Avbryt",
+                "CANCEL": "Avbryt",
                 "CONFIRM": "Skru På"
             },
             "DISABLE_PIN_POPUP": {
                 "TITLE": "Skru av Pin-kode",
                 "TEXT": "Er du sikker på at du vil skru av pin-koden? (Dette vil også skru av Face ID)",
-                "Avbryt": "Avbryt",
+                "CANCEL": "Avbryt",
                 "CONFIRM": "Bekreft"
             },
             "TURN_PASSCODE_OFF": "Skru pin-kode Av",
@@ -116,14 +116,14 @@
             "SAVE_BACKUP_POPUP": {
                 "TITLE": "Lagre",
                 "TEXT": "Er du sikker på at du vil kopiere dine data? (Lagrer kontakter, bilder og innstillinger)",
-                "Avbryt": "Avbryt",
+                "CANCEL": "Avbryt",
                 "CONFIRM": "Lagre"
             },
             "BACKUPS": "Sikkerhetskopieringer",
             "APPLY_BACKUP_POPUP": {
                 "TITLE": "Bruk Sikkerhetskopiering",
                 "TEXT": "Er du sikker på at du vil bruke denne kopien? (Overskriver kontakter, bilder og innstillinger)",
-                "Avbryt": "Avbryt",
+                "CANCEL": "Avbryt",
                 "CONFIRM": "Bekreft"
             },
             "SUCCESS": "Vellykket",
@@ -132,7 +132,7 @@
             "REMOVE_BACKUP_POPUP": {
                 "TITLE": "Fjern Sikkerhetskopiering",
                 "TEXT": "Er du sikker på at du fjerne Sikkerhetskopieringen?",
-                "Avbryt": "Avbryt",
+                "CANCEL": "Avbryt",
                 "CONFIRM": "Slett"
             },
             "ON": "På"
@@ -158,7 +158,7 @@
             "ALARM": {
                 "TITLE": "Alarm",
                 "ADD": "Legg til Alarm",
-                "Avbryt": "Avbryt",
+                "CANCEL": "Avbryt",
                 "EDIT": "Endre",
                 "DONE": "Ferdig",
                 "SAVE": "Lagre",
@@ -181,7 +181,7 @@
                 "TITLE": "Timer",
                 "START": "Start",
                 "STOP": "Stopp",
-                "Avbryt": "Avbryt",
+                "CANCEL": "Avbryt",
                 "HOURS": "timer",
                 "MINUTES": "min",
                 "SECONDS": "sek"
@@ -200,7 +200,7 @@
             "TITLE": "Dark Chat",
             "USERNAME": "Brukernavn",
             "SET_USERNAME": "Sett ditt brukernavn. OBS: DETTE KAN KUN GJØRES EN GANG.",
-            "Avbryt": "Avbryt",
+            "CANCEL": "Avbryt",
             "SET": "Sett",
             "JOIN": "Join",
             "LEAVE": "Forlat",
@@ -214,7 +214,7 @@
         },
         "APPSTORE": {
             "TITLE": "Apper",
-            "Søk": "Søk",
+            "SEARCH": "Søk",
             "GET": "Skaff",
             "OPEN": "Åpne",
             "TODAY": "I dag",
@@ -229,7 +229,7 @@
         "PHOTOS": {
             "TITLE": "Bilder",
             "Velg": "Velg",
-            "Avbryt": "Avbryt",
+            "CANCEL": "Avbryt",
             "SELECT_ITEMS": "Velg Bilder",
             "SELECTED_COUNT": "{count} Bilder Valgt",
             "PHOTO_COUNT": "{count} bilder",
@@ -287,11 +287,11 @@
             "NOT_DELIVERED": "Ikke levert",
             "PLACEHOLDER": "Tekstmelding",
             "DONE": "Ferdig",
-            "Avbryt": "Avbryt",
+            "CANCEL": "Avbryt",
             "SEND": "Send",
             "UNKNOWN": "Ukjent",
             "TO": "Til",
-            "Søk": "Søk",
+            "SEARCH": "Søk",
             "ADD_MEMBER": "Legg til medlem",
             "SHARE_LOCATION": "Del min Lokasjon",
             "LEAVE_GROUP": "Forlat Samtale",
@@ -301,7 +301,7 @@
             "REMOVE_POPUP": {
                 "TITLE": "Fjern medlem",
                 "TEXT": "Er du sikker på at du vil fjerne {name} fra gruppen?",
-                "Slett": "Slett"
+                "DELETE": "Slett"
             },
             "LEAVE_POPUP": {
                 "TITLE": "Forlat gruppe",
@@ -316,7 +316,7 @@
             "SEND_LOCATION_POPUP": {
                 "TITLE": "Del Lokasjon",
                 "TEXT": "Vil du dele din lokasjon?",
-                "Avbryt": "Avbryt",
+                "CANCEL": "Avbryt",
                 "SEND": "Send"
             },
             "PAY": {
@@ -334,7 +334,7 @@
             "TITLE": "Telefon",
             "DONE": "Ferdig",
             "EDIT": "Andre",
-            "Avbryt": "Avbryt",
+            "CANCEL": "Avbryt",
 
             "CALL": {
                 "CALL_TITLE": "Ring {name}",
@@ -448,14 +448,14 @@
             "WAYPOINT_POPUP": {
                 "TITLE": "Sett Veipunkt",
                 "TEXT": "Vil du sette veipunkt til din {model}?",
-                "Avbryt": "Avbryt",
+                "CANCEL": "Avbryt",
                 "PROCEED": "Fortsett"
             },
             "VALET_POPUP": {
                 "TITLE": "Valet",
                 "TEXT": "Vil du få tilkjørt din {model} ({plate})?",
                 "TEXT_PAID": "Vil du få tilkjørt din {model} ({plate}) for {amount}?",
-                "Avbryt": "Avbryt",
+                "CANCEL": "Avbryt",
                 "PROCEED": "Fortsett"
             }
         },
@@ -478,51 +478,51 @@
             "WAYPOINT_POPUP": {
                 "TITLE": "Sett Veipunkt",
                 "TEXT": "Vil du sette veipunkt til {home}?",
-                "Avbryt": "Avbryt",
+                "CANCEL": "Avbryt",
                 "PROCEED": "Fortsett"
             },
             "LOCK_POPUP": {
                 "TITLE": "{toggle} Hjem",
                 "TEXT": "Vil du {toggle} ditt hjem?",
-                "Avbryt": "Avbryt",
+                "CANCEL": "Avbryt",
                 "PROCEED": "Fortsett"
             },
             "GIVE_KEY_POPUP": {
                 "TITLE": "Gi Nøkkel",
                 "TEXT": "Skriv ID på personen du vil gi nøkkel til",
-                "Avbryt": "Avbryt",
+                "CANCEL": "Avbryt",
                 "PROCEED": "Fortsett"
             },
 
             "REMOVE_KEY_POPUP": {
                 "TITLE": "Fjern nøkkelholder",
                 "TEXT": "Vil du fjerne tilgangen til {name}?",
-                "Avbryt": "Avbryt",
+                "CANCEL": "Avbryt",
                 "PROCEED": "Fortsett"
             }
         },
         "MARKETPLACE": {
-            "Avbryt": "Avbryt",
-            "Søk": "Søk etter annonser eller nummer",
+            "CANCEL": "Avbryt",
+            "SEARCH": "Søk etter annonser eller nummer",
             "NEW_POST": "Ny Annonse",
             "TITLE": "Tittel",
             "DESCRIPTION": "Beskrivelse",
             "PRICE": "Pris",
             "POST": "Legg ut",
             "CONTACT": "Kontakt",
-            "Slett": "Slett",
+            "DELETE": "Slett",
 
             "DELETE_POPUP": {
                 "TITLE": "Slett Annonse",
                 "TEXT": "Er du sikker på at du vil slette annonsen?",
-                "Avbryt": "Avbryt",
+                "CANCEL": "Avbryt",
                 "PROCEED": "Slett"
             }
         },
         "YELLOWPAGES": {
-            "Søk": "Søk etter innlegg eller nummer",
+            "SEARCH": "Søk etter innlegg eller nummer",
             "FROM": "Fra",
-            "Avbryt": "Avbryt",
+            "CANCEL": "Avbryt",
             "NEW_POST": "Nytt Innlegg",
 
             "TITLE": "Tittel",
@@ -534,14 +534,14 @@
             "DELETE_POPUP": {
                 "TITLE": "Slett Innlegg",
                 "TEXT": "Er du sikker på at du vil slette innlegget?",
-                "Avbryt": "Avbryt",
+                "CANCEL": "Avbryt",
                 "PROCEED": "Slett"
             }
         }
     },
     "COMPONENTS": {
         "CONTEXT_MENU": {
-            "Avbryt": "Avbryt",
+            "CANCEL": "Avbryt",
             "CALL": "Anrop",
             "VIDEO_CALL": "Videoanrop",
             "MESSAGE": "Melding"
@@ -550,7 +550,7 @@
             "SAVE_TO_GALLERY": "Lagre til Galleri"
         },
         "GALLERY": {
-            "Avbryt": "Avbryt",
+            "CANCEL": "Avbryt",
             "EXTERNAL_URL": "Ekstern URL"
         },
         "NOTIFICATIONS": {
@@ -568,7 +568,7 @@
             "WALLPAPER_POPUP": {
                 "TITLE": "Bruk som Bakgrunn",
                 "TEXT": "Er du sikker på at du vil bruke dette bildet som bakgrunn?",
-                "Avbryt": "Avbryt",
+                "CANCEL": "Avbryt",
                 "PROCEED": "Forsett"
             }
         },
@@ -603,13 +603,13 @@
     },
     "HOMESCREEN": {
         "DONE": "Ferdig",
-        "Slett": "Slett",
+        "DELETE": "Slett",
         "REMOVE_TEXT": "Sletting av appen vil IKKE slette dataen. Appen kan lastes ned på nytt fra App Store.",
         "BUTTON_CANCEL": "Avbryt",
         "BUTTON_DELETE": "Slett"
     },
     "LOCKSCREEN": {
         "ENTER_PASSCODE": "Skriv Pin-kode",
-        "Slett": "Slett"
+        "DELETE": "Slett"
     }
 }
