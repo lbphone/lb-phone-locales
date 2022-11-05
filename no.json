@@ -1,0 +1,615 @@
+{
+    "LABEL": "Norsk",
+    "Søk": "Søk",
+    "Avbryt": "Avbryt",
+
+    "APPS": {
+        "SETTINGS": {
+            "TITLE": "Instillinger",
+            "BACK": "Tilbake",
+            "DONE": "Ferdig",
+            "EDIT": "Endre",
+
+            "AIRPLANE_MODE": "Flymodus",
+            "STREAMER_MODE": "Streamermodus",
+            "BLUETOOTH": "Bluetooth",
+            "GENERAL": "Generelt",
+
+            "ABOUT": "Om",
+            "NAME": "Navn",
+            "VERSION": "Versjon",
+            "MODEL_NAME": "Modelnavn",
+            "SERIAL_NUMBER": "Serienummer",
+            "DEVELOPED_BY": "Utviklet av",
+            "PURCHASE_AT": "Kjøp hos",
+            "SONGS": "Sanger",
+            "VIDEOS": "Videoer",
+            "PHOTOS": "Bilder",
+            "APPLICATIONS": "Applikasjoner",
+            "CAPACITY": "Kapasitet",
+            "AVAILABLE": "Tilgjengelig",
+
+            "SOFTWARE_UPDATE": "Programvareoppdatering",
+            "AUTOMATIC_UPDATES": "Automatiske Oppdateringer",
+
+            "DATE_TIME": "Dato & Tid",
+            "24_HOUR_TIME": "24 Timers Tid",
+            "SET_AUTOMATICALLY": "Sett Automatisk",
+            "TIME_ZONE": "Tidssone",
+
+            "LANGUAGE_REGION": "Språk & Region",
+            "LANGUAGE": "Språk",
+            "TEMPERATURE": "Temperatur",
+            "BATTERY": "Batteri",
+
+            "SOUND_HAPTICS": "Lyd & Vibrasjoner",
+            "SOUND_HAPTICS_PATTERNS": "Lyd- og Vibrasjonsmønster",
+            "RINGTONE": "Ringetone",
+            "TEXT_TONE": "Meldingstone",
+            "RINGTONE_VOLUME": "Ringetone- og varselvolum",
+            "DEFAULT": "Standard",
+
+            "PHONE_STORAGE": "Telefonlagring",
+            "STORAGE": "Lagring",
+            "USED": "Brukt",
+            "OF": "av",
+
+            "DISPLAY_BRIGHTNESS": "Skjerm & Lysstyrke",
+            "APPEARANCE": "Utseende",
+            "AUTOMATIC": "Automatisk",
+            "BRIGHTNESS": "Lysstyrke",
+            "PHONE_SCALE": "Telefonskala",
+
+            "WALLPAPER": "Bakgrunn",
+            "WALLPAPERS": "Bakgrunner",
+            "CHOOSE_NEW_WALLPAPER": "Velg en ny bakgrunn",
+
+            "NOTIFICATIONS": "Varsler",
+            "ALLOW_NOTIFICATIONS": "Godta Varsler",
+            "SOUNDS": "Lyder",
+
+            "PHONE": "Telefon",
+            "BLOCKED_CONTACTS": "Blokkerte Kontakter",
+            "MY_NUMBER": "Mitt Nummer",
+            "SHOW_CALLER_ID": "Vis oppringer ID",
+
+            "UNBLOCK_POPUP": {
+                "TITLE": "Fjern Blokkering",
+                "TEXT": "Er du sikker på at du vil fjerne blokkeringen?",
+                "Avbryt": "Avbryt",
+                "CONFIRM": "Fjern"
+            },
+
+            "FACE_ID_PASSWORD": "Face ID & Pin-kode",
+            "ENTER_PASSCODE": "Skriv Pin-kode",
+            "PASSCODE": "Pin-kode",
+            "FACE_ID": "Face ID",
+            "RESET_FACE_ID": "Tilbakestill Face ID",
+            "ENABLE_FACE_ID": "Skru på Face ID",
+            "PIN_CODE": "Pin-kode",
+
+            "DISABLE_FACE_ID_POPUP": {
+                "TITLE": "Skru av Face ID",
+                "TEXT": "Er du sikker på at du vil skru av Face ID?",
+                "Avbryt": "Avbryt",
+                "CONFIRM": "Skru Av"
+            },
+
+            "ENABLE_FACE_ID_POPUP": {
+                "TITLE": "Skru på Face ID",
+                "TEXT": "Er du sikker på at du vil skru på Face ID?",
+                "Avbryt": "Avbryt",
+                "CONFIRM": "Skru På"
+            },
+            "DISABLE_PIN_POPUP": {
+                "TITLE": "Skru av Pin-kode",
+                "TEXT": "Er du sikker på at du vil skru av pin-koden? (Dette vil også skru av Face ID)",
+                "Avbryt": "Avbryt",
+                "CONFIRM": "Bekreft"
+            },
+            "TURN_PASSCODE_OFF": "Skru pin-kode Av",
+            "TURN_PASSCODE_ON": "Skru pin-kode På",
+            "CHANGE_PASSCODE": "Endre Pin-kode",
+            "CLOUD_BACKUP": "Sikkerhetskopiering",
+            "YOUR_PROFILE": "Din profil",
+            "CREATE_BACKUP": "Opprett Sikkerhetskopiering",
+            "SAVE_BACKUP_POPUP": {
+                "TITLE": "Lagre",
+                "TEXT": "Er du sikker på at du vil kopiere dine data? (Lagrer kontakter, bilder og innstillinger)",
+                "Avbryt": "Avbryt",
+                "CONFIRM": "Lagre"
+            },
+            "BACKUPS": "Sikkerhetskopieringer",
+            "APPLY_BACKUP_POPUP": {
+                "TITLE": "Bruk Sikkerhetskopiering",
+                "TEXT": "Er du sikker på at du vil bruke denne kopien? (Overskriver kontakter, bilder og innstillinger)",
+                "Avbryt": "Avbryt",
+                "CONFIRM": "Bekreft"
+            },
+            "SUCCESS": "Vellykket",
+            "SUCCESS_TEXT": "Telefonen starter på nytt om 5 sekunder...",
+            "OK": "OK",
+            "REMOVE_BACKUP_POPUP": {
+                "TITLE": "Fjern Sikkerhetskopiering",
+                "TEXT": "Er du sikker på at du fjerne Sikkerhetskopieringen?",
+                "Avbryt": "Avbryt",
+                "CONFIRM": "Slett"
+            },
+            "ON": "På"
+        },
+        "NOTES": {
+            "TITLE": "Notater",
+            "SEARCH_PLACEHOLDER": "Søk",
+            "FOOTER": "{amount} Notater",
+            "NEW_NOTE": "Nytt Notat",
+            "LAST_EDITED": "Sist Endret: {date}",
+            "DELETE_TITLE": "Slett {title}",
+            "DELETE_TEXT": "Er du sikker på at du vil slette '{title}'?",
+            "BUTTON_CANCEL": "Avbryt",
+            "BUTTON_DELETE": "Slett"
+        },
+        "CLOCK": {
+            "WORLDCLOCK": {
+                "TITLE": "Verdensklokke",
+                "TODAY": "I dag",
+                "TOMORROW": "I morgen",
+                "YESTERDAY": "I går"
+            },
+            "ALARM": {
+                "TITLE": "Alarm",
+                "ADD": "Legg til Alarm",
+                "Avbryt": "Avbryt",
+                "EDIT": "Endre",
+                "DONE": "Ferdig",
+                "SAVE": "Lagre",
+                "LABEL": "Merknad",
+                "SOUND": "Lyd",
+                "SNOOZE": "Snooze",
+                "DELETE_TITLE": "Slett Alarm",
+                "DELETE_TEXT": "Er du sikker på at du vil slette alarmen?",
+                "BUTTON_CANCEL": "Avbryt",
+                "BUTTON_DELETE": "Slett"
+            },
+            "STOPWATCH": {
+                "TITLE": "Stoppeklokke",
+                "START": "Start",
+                "STOP": "Stopp",
+                "RESET": "Resett",
+                "LAP": "Lap"
+            },
+            "TIMER": {
+                "TITLE": "Timer",
+                "START": "Start",
+                "STOP": "Stopp",
+                "Avbryt": "Avbryt",
+                "HOURS": "timer",
+                "MINUTES": "min",
+                "SECONDS": "sek"
+            },
+            "ALERT": {
+                "STOP": "Stopp"
+            }
+        },
+        "CAMERA": {
+            "VIDEO": "Video",
+            "PHOTO": "Bilde",
+            "LANDSCAPE": "Landskap",
+            "UPLOADING": "Laster opp"
+        },
+        "DARKCHAT": {
+            "TITLE": "Dark Chat",
+            "USERNAME": "Brukernavn",
+            "SET_USERNAME": "Sett ditt brukernavn. OBS: DETTE KAN KUN GJØRES EN GANG.",
+            "Avbryt": "Avbryt",
+            "SET": "Sett",
+            "JOIN": "Join",
+            "LEAVE": "Forlat",
+            "NEW_ROOM": "Nytt Rom",
+            "NEW_ROOM_TEXT": "Skriv inn en romkode for å bli med i eller opprette et rom.",
+            "ROOM_CODE": "Romkode",
+            "LEAVE_ROOM": "Forlat Rom",
+            "LEAVE_ROOM_TEXT": "Er du sikker på at du vil forlate rommet?",
+            "NOW": "Nå",
+            "INPUT_PLACEHOLDER": "Skriv en melding..."
+        },
+        "APPSTORE": {
+            "TITLE": "Apper",
+            "Søk": "Søk",
+            "GET": "Skaff",
+            "OPEN": "Åpne",
+            "TODAY": "I dag",
+            "GAMES": "Spill",
+            "WHAT_WE_PLAYING": "Hva vi spiller",
+            "INFORMATION": "Informasjon",
+            "PROVIDER": "Leverandør",
+            "SIZE": "Størrelse",
+            "COMPATIBILITY": "Kompatibilitet",
+            "IN_APP_PURCHASES": "Kjøp I App"
+        },
+        "PHOTOS": {
+            "TITLE": "Bilder",
+            "Velg": "Velg",
+            "Avbryt": "Avbryt",
+            "SELECT_ITEMS": "Velg Bilder",
+            "SELECTED_COUNT": "{count} Bilder Valgt",
+            "PHOTO_COUNT": "{count} bilder",
+
+            "DELETE_TITLE": "Slett {count} bilder",
+            "DELETE_TEXT": "Vil du slette {count} bilder",
+            "DELETE_BUTTON_CANCEL": "Avbryt",
+            "DELETE_BUTTON_DELETE": "Slett",
+
+            "DELETE_IMAGE_TITLE": "Slett Bilde",
+            "DELETE_IMAGE_TEXT": "Vil du slette dette bildet?",
+            "DELETE_IMAGE_BUTTON_CANCEL": "Avbryt",
+            "DELETE_IMAGE_BUTTON_DELETE": "Slett"
+        },
+        "WEATHER": {
+            "TITLE": "Vær",
+            "HOURLY_FORECAST": "Timevarsel",
+            "NOW": "Nå",
+            "FEELS_LIKE": "Føles som",
+            "FEELS_LIKE_SAME": "Føles som den faktiske temperaturen.",
+            "FEELS_LIKE_HUMIDITY": "Luftfuktigheten får det til å føles varmere.",
+            "FEELS_LIKE_WIND": "Vind får det til å føles kaldere.",
+
+            "SUNRISE": "Soloppgang",
+            "SUNSET": "Solnedgang",
+            "WIND": "Vind",
+            "PRECIPITATION": "Nedbør",
+            "LAST_24H": "de siste 24t",
+            "EXPECTED_24H": "forventet neste 24t",
+
+            "TYPES": {
+                "CLOUDY": "Skyet",
+                "LIGHT_RAIN": "Lett Regn",
+                "HEAVY_RAIN": "Mye Regn",
+                "RAIN": "Regn",
+                "SNOW": "Snø",
+                "FOG": "Tåke",
+                "CLEAR": "Klart",
+                "MOSTLY_CLEAR": "For det meste klart",
+                "THUNDER": "Torden",
+                "TORNADO": "Tornado",
+                "WINDY": "Vindfullt"
+            }
+        },
+        "MESSAGES": {
+            "TITLE": "Meldinger",
+            "NEW_MESSAGE": "Ny Melding",
+            "PEOPLE": "Personer",
+            "MEMBERS": "Medlemmer",
+            "OTHER": "Annet",
+            "SENT_A_PHOTO": "Sendte et bilde",
+            "SENT": "Sendt",
+            "REQUESTED": "Forespurt",
+            "MISSED_CALL": "{number} prøvde å ringe deg, men du svarte ikke. Trykk på numeret for å ringe opp igjen",
+            "NOT_DELIVERED": "Ikke levert",
+            "PLACEHOLDER": "Tekstmelding",
+            "DONE": "Ferdig",
+            "Avbryt": "Avbryt",
+            "SEND": "Send",
+            "UNKNOWN": "Ukjent",
+            "TO": "Til",
+            "Søk": "Søk",
+            "ADD_MEMBER": "Legg til medlem",
+            "SHARE_LOCATION": "Del min Lokasjon",
+            "LEAVE_GROUP": "Forlat Samtale",
+            "SENT_LOCATION": " Deler sin lokasjon, trykk for å åpne i Maps",
+            "SENT_LOCATION_SHORT": "Deler sin lokasjon",
+
+            "REMOVE_POPUP": {
+                "TITLE": "Fjern medlem",
+                "TEXT": "Er du sikker på at du vil fjerne {name} fra gruppen?",
+                "Slett": "Slett"
+            },
+            "LEAVE_POPUP": {
+                "TITLE": "Forlat gruppe",
+                "TEXT": "Er du sikker på at du vil forlate gruppen?",
+                "LEAVE": "Forlat"
+            },
+            "ADD_POPUP": {
+                "TITLE": "Legg til medlem",
+                "TEXT": "Skriv inn et nummer for å legge til i '{name}'",
+                "ADD": "Legg til"
+            },
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "Del Lokasjon",
+                "TEXT": "Vil du dele din lokasjon?",
+                "Avbryt": "Avbryt",
+                "SEND": "Send"
+            },
+            "PAY": {
+                "REQUEST": "Forespør",
+                "REQUESTED": "Forespurt",
+                "PAY": "Betal",
+                "SEND": "Send",
+                "SEND_TITLE": "Send {amount}{currency}",
+                "SEND_DESCRIPTION": "Vil du sende {amount}{currency} til {name}?",
+                "SEND_BUTTON_CANCEL": "Avbryt",
+                "SEND_BUTTON_SEND": "Send"
+            }
+        },
+        "PHONE": {
+            "TITLE": "Telefon",
+            "DONE": "Ferdig",
+            "EDIT": "Andre",
+            "Avbryt": "Avbryt",
+
+            "CALL": {
+                "CALL_TITLE": "Ring {name}",
+                "CALL_TEXT": "Er du sikker på at du vil ringe {name}?",
+                "CALL_BUTTON_CANCEL": "Avbryt",
+                "CALL_BUTTON_CALL": "Ring",
+
+                "NO_CALLER_ID": "Ingen anrops-ID",
+                "UNKNOWN": "Ukjent",
+                "USER_BUSY": "Bruker Opptatt",
+                "USER_UNAVAILABLE": "Bruker Utilgjengelig",
+                "CALL_BACK": "Ring Tilbake",
+                "DECLINE": "Avslå",
+                "ACCEPT": "Godta",
+                "END": "Avslutt",
+                "VIDEO_CALL": "Videosamtale",
+
+                "MUTE": "mute",
+                "KEYPAD": "keypad",
+                "SPEAKER": "høyttaler",
+                "ADD_CALL": "legg til i samtale",
+                "VIDEO": "video",
+                "CONTACTS": "kontakter",
+                "MOBILE": "Mobil"
+            },
+
+            "CONTACTS": {
+                "TITLE": "Kontakter",
+                "FIRST_NAME": "Fornavn",
+                "LAST_NAME": "Etternavn",
+                "PHONE_NUMBER": "Telefonnummer",
+                "MY_CARD": "Mitt Kort",
+                "ADD_PHOTO": "Legg til Bilde",
+
+                "REMOVE_CONTACT_TITLE": "Slett Kontakt",
+                "REMOVE_CONTACT_TEXT": "Er du sikker på at du vil slette denne kontakten?",
+                "REMOVE_CONTACT_BUTTON_CANCEL": "Avbryt",
+                "REMOVE_CONTACT_BUTTON_DELETE": "Slett",
+                "DELETE_CONTACT": "Slett kontakt",
+
+                "MESSAGE": "melding",
+                "CALL": "anrop",
+                "VIDEO": "video",
+                "MAIN": "main",
+
+                "SHARE_CONTACT": "Del Kontakt",
+                "SHARE_LOCATION": "Del min lokasjon",
+                "REMOVE_FAVORITE": "Fjern fra Favoritter",
+                "ADD_FAVORITE": "Legg til i Favoritter",
+                "ADD_CONTACT": "Legg til i Kontakter",
+
+                "UNBLOCK_CALLER": "Fjern blokkering",
+                "BLOCK_CALLER": "Blokker denne personen",
+
+                "UNBLOCK_NUMBER_TITLE": "Fjern blokkering",
+                "UNBLOCK_NUMBER_TEXT": "Er du sikker på at du vil fjerne blokkeringen av {number}?",
+                "UNBLOCK_NUMBER_BUTTON_CANCEL": "Avbryt",
+                "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Fjern",
+
+                "BLOCK_NUMBER_TITLE": "Blokker Nummer",
+                "BLOCK_NUMBER_TEXT": "Er du sikker på at du vil blokker {number}?",
+                "BLOCK_NUMBER_BUTTON_CANCEL": "Avbryt",
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Blokker"
+            },
+            "FAVOURITES": {
+                "TITLE": "Favoritter",
+
+                "REMOVE_TITLE": "Fjern fra Favorites",
+                "REMOVE_TEXT": "Er du sikker på at du vil fjerne kontakten fra favoritter?",
+                "REMOVE_BUTTON_CANCEL": "Avbryt",
+                "REMOVE_BUTTON_REMOVE": "Slett"
+            },
+            "KEYPAD": {
+                "TITLE": "Tastatur",
+                "ADD_NUMBER": "Legg til Nummer"
+            },
+            "RECENTS": {
+                "TITLE": "Siste"
+            }
+        },
+        "WALLET": {
+            "TITLE": "Wallet",
+            "BALANCE": "Balanse",
+            "SEND": "Send",
+            "NEXT": "Neste",
+            "DONE": "Ferdig",
+            "DONE_SUBTITLE": "Du sendte {amount} til {number}",
+
+            "NO_REFUNDS": "Betalinger kan ikke refunderes, dobbeltsjekk nummeret.",
+            "NEW_BALANCE": "Ny Saldo",
+            "LATEST_TRANSACTIONS": "Siste Transaksjoner",
+
+            "NOW": "Nå",
+            "AGO": "siden"
+        },
+        "GARAGE": {
+            "TITLTE": "Garasje",
+
+            "ACTIONS": "Handlinger",
+            "MY_CARS": "Mine Kjøretøy",
+            "OUT": "Ute",
+            "GARAGE": "Garasje",
+            "LOCATION": "Lokasjon",
+            "SUMMON": "Tilkall",
+            "VALET": "Valet",
+            "STATISTICS": "Statistikk",
+            "FUEL": "Drivstoff",
+            "ENGINE": "Motor",
+            "BODY": "Karosseri",
+
+            "WAYPOINT_POPUP": {
+                "TITLE": "Sett Veipunkt",
+                "TEXT": "Vil du sette veipunkt til din {model}?",
+                "Avbryt": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "VALET_POPUP": {
+                "TITLE": "Valet",
+                "TEXT": "Vil du få tilkjørt din {model} ({plate})?",
+                "TEXT_PAID": "Vil du få tilkjørt din {model} ({plate}) for {amount}?",
+                "Avbryt": "Avbryt",
+                "PROCEED": "Fortsett"
+            }
+        },
+        "HOME": {
+            "TITLE": "Hjem",
+            "MY_HOMES": "Mine Hjem",
+            "MY_HOME": "Mitt Hjem",
+            "KEY_ACCESS": "Nøkler",
+            "ACTIONS": "Handlinger",
+            "FRONT_DOOR": "Inngangsdør",
+            "LOCATION": "Lokasjon",
+            "SET_WAYPOINT": "Sett Veipunkt",
+            "UNLOCK": "Lås opp",
+            "UNLOCKED": "Opplåst",
+            "LOCK": "Lås",
+            "LOCKED": "Låst",
+            "GIVE_KEY": "Gi Nøkler",
+            "MANAGE": "Administrer",
+
+            "WAYPOINT_POPUP": {
+                "TITLE": "Sett Veipunkt",
+                "TEXT": "Vil du sette veipunkt til {home}?",
+                "Avbryt": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} Hjem",
+                "TEXT": "Vil du {toggle} ditt hjem?",
+                "Avbryt": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "GIVE_KEY_POPUP": {
+                "TITLE": "Gi Nøkkel",
+                "TEXT": "Skriv ID på personen du vil gi nøkkel til",
+                "Avbryt": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+
+            "REMOVE_KEY_POPUP": {
+                "TITLE": "Fjern nøkkelholder",
+                "TEXT": "Vil du fjerne tilgangen til {name}?",
+                "Avbryt": "Avbryt",
+                "PROCEED": "Fortsett"
+            }
+        },
+        "MARKETPLACE": {
+            "Avbryt": "Avbryt",
+            "Søk": "Søk etter annonser eller nummer",
+            "NEW_POST": "Ny Annonse",
+            "TITLE": "Tittel",
+            "DESCRIPTION": "Beskrivelse",
+            "PRICE": "Pris",
+            "POST": "Legg ut",
+            "CONTACT": "Kontakt",
+            "Slett": "Slett",
+
+            "DELETE_POPUP": {
+                "TITLE": "Slett Annonse",
+                "TEXT": "Er du sikker på at du vil slette annonsen?",
+                "Avbryt": "Avbryt",
+                "PROCEED": "Slett"
+            }
+        },
+        "YELLOWPAGES": {
+            "Søk": "Søk etter innlegg eller nummer",
+            "FROM": "Fra",
+            "Avbryt": "Avbryt",
+            "NEW_POST": "Nytt Innlegg",
+
+            "TITLE": "Tittel",
+            "DESCRIPTION": "Beskrivelse",
+            "PRICE": "Pris",
+            "POST": "Legg ut",
+            "CALL": "Ring",
+
+            "DELETE_POPUP": {
+                "TITLE": "Slett Innlegg",
+                "TEXT": "Er du sikker på at du vil slette innlegget?",
+                "Avbryt": "Avbryt",
+                "PROCEED": "Slett"
+            }
+        }
+    },
+    "COMPONENTS": {
+        "CONTEXT_MENU": {
+            "Avbryt": "Avbryt",
+            "CALL": "Anrop",
+            "VIDEO_CALL": "Videoanrop",
+            "MESSAGE": "Melding"
+        },
+        "IMAGE": {
+            "SAVE_TO_GALLERY": "Lagre til Galleri"
+        },
+        "GALLERY": {
+            "Avbryt": "Avbryt",
+            "EXTERNAL_URL": "Ekstern URL"
+        },
+        "NOTIFICATIONS": {
+            "SENT_PHOTO": "Sendte et bilde",
+            "SENT_GIF": "Sendte en GIF",
+            "NOW": "nå"
+        },
+        "SHARE": {
+            "COPY_PHOTO": "Kopier Bilde",
+            "USE_WALLPAPER": "Bruk som Bakgrunn",
+            "COPY_NUMBER": "Kopier Nummer",
+
+            "AIRDROP_SENT": "Sendt",
+
+            "WALLPAPER_POPUP": {
+                "TITLE": "Bruk som Bakgrunn",
+                "TEXT": "Er du sikker på at du vil bruke dette bildet som bakgrunn?",
+                "Avbryt": "Avbryt",
+                "PROCEED": "Forsett"
+            }
+        },
+        "AIRDROP": {
+            "TITLE": "Airdrop",
+            "TEXT": "{sender} vil dele {type}",
+            "VIDEO": "video",
+            "PHOTO": "bilde",
+            "CONTACT": "kontakt",
+            "DECLINE": "Avslå",
+            "ACCEPT": "Godta"
+        }
+    },
+    "SETUP": {
+        "HELLO": "Hei",
+        "NEXT": "Klikk for å åpne",
+
+        "CREATE_PASSCODE": "Opprett Pin-kode",
+        "CREATE_PASSCODE_TEXT": "En pin-kode beskytter dine data og brukes for å låse opp din telefon.",
+        "SKIP": "Hopp over",
+
+        "FACE_ID_SETUP": "Face ID Oppsett",
+        "FACE_ID_TEXT": "Sett opp Face ID for å automatisk låse opp din telefon med ansiktet ditt.",
+        "ENABLE_FACE_ID": "Skru på Face ID",
+
+        "APPEARANCE": "Utseende",
+        "APPEARANCE_TEXT": "Velg lyst eller mørkt utseende",
+
+        "CONTINUE": "Forsett",
+        "WELCOME_TO": "Velkommen til",
+        "CLICK": "Trykk for å starte"
+    },
+    "HOMESCREEN": {
+        "DONE": "Ferdig",
+        "Slett": "Slett",
+        "REMOVE_TEXT": "Sletting av appen vil IKKE slette dataen. Appen kan lastes ned på nytt fra App Store.",
+        "BUTTON_CANCEL": "Avbryt",
+        "BUTTON_DELETE": "Slett"
+    },
+    "LOCKSCREEN": {
+        "ENTER_PASSCODE": "Skriv Pin-kode",
+        "Slett": "Slett"
+    }
+}
