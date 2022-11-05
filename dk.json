@@ -30,7 +30,7 @@
             "AVAILABLE": "Tilgængelig",
 
             "SOFTWARE_UPDATE": "Software Opdatering",
-            "AUTOMATIC_UPDATES": "Automatisk Opdatering",
+            "AUTOMATIC_UPDATES": "Automatiske Opdateringer",
 
             "DATE_TIME": "Dato & Tid",
             "24_HOUR_TIME": "24 Timers Tid",
@@ -42,27 +42,27 @@
             "TEMPERATURE": "Temperatur",
             "BATTERY": "Batteri",
 
-            "SOUND_HAPTICS": "Sound & Haptics",
-            "SOUND_HAPTICS_PATTERNS": "Lydmønster",
+            "SOUND_HAPTICS": "Lyde & haptisk feedback",
+            "SOUND_HAPTICS_PATTERNS": "Lyde & Vibrationsmønster",
             "RINGTONE": "Ringetone",
-            "TEXT_TONE": "Besked Tone",
-            "RINGTONE_VOLUME": "Ringetone & notifikations lydstykre",
+            "TEXT_TONE": "Beskedtone",
+            "RINGTONE_VOLUME": "Ringetone & notifikations lydstyrke",
             "DEFAULT": "Standard",
 
-            "PHONE_STORAGE": "Telefon Lager",
-            "STORAGE": "Lager",
+            "PHONE_STORAGE": "Lagerplads",
+            "STORAGE": "Lagerplads",
             "USED": "Brugt",
-            "OF": "af",
+            "OF": "Af",
 
-            "DISPLAY_BRIGHTNESS": "Display & Lysstyrke",
-            "APPEARANCE": "Appearance",
+            "DISPLAY_BRIGHTNESS": "Skærm & Lysstyrke",
+            "APPEARANCE": "Udseende",
             "AUTOMATIC": "Automatisk",
             "BRIGHTNESS": "Lysstyrke",
-            "PHONE_SCALE": "Phone Scale",
+            "PHONE_SCALE": "Skærm Størrelse",
 
             "WALLPAPER": "Baggrund",
             "WALLPAPERS": "Baggrunde",
-            "CHOOSE_NEW_WALLPAPER": "Vælg en ny baggrund",
+            "CHOOSE_NEW_WALLPAPER": "Vælg ny baggrund",
 
             "NOTIFICATIONS": "Notifikationer",
             "ALLOW_NOTIFICATIONS": "Tillad Notifikationer",
@@ -74,55 +74,55 @@
             "SHOW_CALLER_ID": "Vis Opkalder ID",
 
             "UNBLOCK_POPUP": {
-                "TITLE": "Fjern blokering af nummer",
-                "TEXT": "Er du sikker på du vil blokere dette nummer?",
+                "TITLE": "Fjern blokering",
+                "TEXT": "Er du sikker?",
                 "CANCEL": "Annuller",
                 "CONFIRM": "Fjern Blokering"
             },
 
-            "FACE_ID_PASSWORD": "Ansigts ID & Adgangskode",
+            "FACE_ID_PASSWORD": "Ansigts Godkendelse & Adgangskode",
             "ENTER_PASSCODE": "Indtast Adgangskode",
             "PASSCODE": "Adgangskode",
-            "FACE_ID": "Ansigts ID",
-            "RESET_FACE_ID": "Nulstil Ansigts ID",
-            "ENABLE_FACE_ID": "Aktiver Ansigts ID",
+            "FACE_ID": "Ansigts Godkendelse",
+            "RESET_FACE_ID": "Nulstil Ansigts Godkendelse",
+            "ENABLE_FACE_ID": "Aktiver Ansigts Godkendelse",
             "PIN_CODE": "Pinkode",
 
             "DISABLE_FACE_ID_POPUP": {
-                "TITLE": "Slå Ansigts ID Fra",
-                "TEXT": "Er du sikker på du vil slå Ansigts ID fra?",
+                "TITLE": "Slå Ansigts Godkendelse Fra",
+                "TEXT": "Er du sikker på du vil slå Ansigts Godkendelse fra?",
                 "CANCEL": "Annuller",
                 "CONFIRM": "Slå Fra"
             },
 
             "ENABLE_FACE_ID_POPUP": {
-                "TITLE": "Aktiver Ansigts ID",
-                "TEXT": "Er du sikker på du vil aktiver Ansigts ID?",
+                "TITLE": "Aktiver Ansigts Godkendelse",
+                "TEXT": "Er du sikker på du vil aktivere Ansigts Godkendelse?",
                 "CANCEL": "Anuller",
                 "CONFIRM": "Aktiver"
             },
             "DISABLE_PIN_POPUP": {
                 "TITLE": "Slå Pinkode Fra",
-                "TEXT": "Er du sikker på du vil slå pinkode fra? (Dette vil også slå Ansigts ID fra)",
+                "TEXT": "Er du sikker på du vil slå pinkode fra? (Dette vil også slå Ansigts Godkendelse fra)",
                 "CANCEL": "Annuller",
                 "CONFIRM": "Bekræft"
             },
             "TURN_PASSCODE_OFF": "Slå Adgangskode Fra",
             "TURN_PASSCODE_ON": "Slå Adgangskode Til",
             "CHANGE_PASSCODE": "Skift Adgangskode",
-            "CLOUD_BACKUP": "Cloud Backup",
+            "CLOUD_BACKUP": "Cloud Sikkerhedskopier",
             "YOUR_PROFILE": "Din Profil",
-            "CREATE_BACKUP": "Opret Backup",
+            "CREATE_BACKUP": "Opret Sikkerhedskopi",
             "SAVE_BACKUP_POPUP": {
-                "TITLE": "Gem Backup",
-                "TEXT": "Er du sikker på du vil gemme en backup? (Vil gemme billeder, kontakter & indstillinger)",
+                "TITLE": "Gem Sikkerhedskopi",
+                "TEXT": "Er du sikker på du vil gemme en kopi af dine data? (Gemmer kontakter, billeder og indstillinger)",
                 "CANCEL": "Annuller",
-                "CONFIRM": "Gen"
+                "CONFIRM": "Gem"
             },
-            "BACKUPS": "Backups",
+            "BACKUPS": "Sikkerhedskopier",
             "APPLY_BACKUP_POPUP": {
-                "TITLE": "Anvend Backup",
-                "TEXT": "Er du sikker på du vil anvende denne backup? (Overskriver dine kontakter, billeder og indstillinger)",
+                "TITLE": "Anvend sikkerhedskopi",
+                "TEXT": "Er du sikker på du vil anvende denne sikkerhedskopi? (Overskriver dine kontakter, billeder og indstillinger)",
                 "CANCEL": "Annuller",
                 "CONFIRM": "Anvend"
             },
@@ -130,8 +130,8 @@
             "SUCCESS_TEXT": "Telefon genstarter om 5 sekunder...",
             "OK": "OK",
             "REMOVE_BACKUP_POPUP": {
-                "TITLE": "Slet Backup",
-                "TEXT": "Er du sikker på du vil fjerne denne backup?",
+                "TITLE": "Slet Sikkerhedskopi",
+                "TEXT": "Er du sikker på du vil fjerne denne sikkerhedskopi?",
                 "CANCEL": "Annuller",
                 "CONFIRM": "Slet"
             },
@@ -152,7 +152,7 @@
             "WORLDCLOCK": {
                 "TITLE": "Verdensur",
                 "TODAY": "I dag",
-                "TOMORROW": "Imorgen",
+                "TOMORROW": "I morgen",
                 "YESTERDAY": "I går"
             },
             "ALARM": {
@@ -175,16 +175,16 @@
                 "START": "Start",
                 "STOP": "Stop",
                 "RESET": "Nulstil",
-                "LAP": "Runde"
+                "LAP": "Omgang"
             },
             "TIMER": {
-                "TITLE": "Timer",
+                "TITLE": "Tidtagning",
                 "START": "Start",
-                "STOP": "Stop",
+                "STOP": "Annuller",
                 "CANCEL": "Annuller",
                 "HOURS": "timer",
-                "MINUTES": "min",
-                "SECONDS": "sek"
+                "MINUTES": "min.",
+                "SECONDS": "sek."
             },
             "ALERT": {
                 "STOP": "Stop"
@@ -199,43 +199,43 @@
         "DARKCHAT": {
             "TITLE": "Dark Chat",
             "USERNAME": "Brugernavn",
-            "SET_USERNAME": "Indtast dit brugernavn. NOTE: KAN KUN BLIVE SAT EN GANG.",
+            "SET_USERNAME": "Indtast dit brugernavn. NOTE: DETTE KAN KUN LAVES EN GANG.",
             "CANCEL": "Annuller",
             "SET": "Set",
             "JOIN": "Tilslut",
             "LEAVE": "Forlad",
-            "NEW_ROOM": "Nyt Room",
-            "NEW_ROOM_TEXT": "Indtast kode til et rum, for at tilslutte eller oprette",
+            "NEW_ROOM": "Nyt Rum",
+            "NEW_ROOM_TEXT": "Indtast kode til et rum, for at Tilslutte eller Oprette et rum",
             "ROOM_CODE": "Kode til Rum",
             "LEAVE_ROOM": "Forlad Rum",
             "LEAVE_ROOM_TEXT": "Er du sikker på du vil forlade dette rum?",
             "NOW": "Nu",
-            "INPUT_PLACEHOLDER": "Indtast et besked..."
+            "INPUT_PLACEHOLDER": "Indtast en besked..."
         },
         "APPSTORE": {
             "TITLE": "Apps",
             "SEARCH": "Søg",
-            "GET": "Få",
+            "GET": "Hent",
             "OPEN": "Åbn",
             "TODAY": "I dag",
             "GAMES": "Spil",
-            "WHAT_WE_PLAYING": "Hvad vi spiller",
+            "WHAT_WE_PLAYING": "Det her spiller vi",
             "INFORMATION": "Information",
-            "PROVIDER": "Udbyder",
+            "PROVIDER": "Udvikler",
             "SIZE": "Størrelse",
             "COMPATIBILITY": "Kompatibilitet",
-            "IN_APP_PURCHASES": "Indkøb i appen"
+            "IN_APP_PURCHASES": "Køb i app"
         },
         "PHOTOS": {
             "TITLE": "Fotos",
             "SELECT": "Vælg",
             "CANCEL": "Annuller",
             "SELECT_ITEMS": "Vælg elementer",
-            "SELECTED_COUNT": "{count} elementer valg",
+            "SELECTED_COUNT": "{count} elementer valgt",
             "PHOTO_COUNT": "{count} fotos",
 
             "DELETE_TITLE": "Slet {count} billeder",
-            "DELETE_TEXT": "Vil du slette {count} billeder",
+            "DELETE_TEXT": "Vil du slette {count} billeder?",
             "DELETE_BUTTON_CANCEL": "Annuller",
             "DELETE_BUTTON_DELETE": "Slet",
 
@@ -258,7 +258,7 @@
             "WIND": "Vind",
             "PRECIPITATION": "Nedbør",
             "LAST_24H": "inden for de sidste 24 timer",
-            "EXPECTED_24H": "forventet de næste 24 timer",
+            "EXPECTED_24H": "forventes indenfor de næste 24 timer",
 
             "TYPES": {
                 "CLOUDY": "Overskyet",
@@ -267,8 +267,8 @@
                 "RAIN": "Regn",
                 "SNOW": "Sne",
                 "FOG": "Tåge",
-                "CLEAR": "Klar",
-                "MOSTLY_CLEAR": "Stortset Klar",
+                "CLEAR": "Klart vejr",
+                "MOSTLY_CLEAR": "Stortset Klart",
                 "THUNDER": "Torden",
                 "TORNADO": "Tornado",
                 "WINDY": "Blæsende"
@@ -277,7 +277,7 @@
         "MESSAGES": {
             "TITLE": "Beskeder",
             "NEW_MESSAGE": "Ny Besked",
-            "PEOPLE": "Mennesker",
+            "PEOPLE": "Kontakter",
             "MEMBERS": "Medlemmer",
             "OTHER": "Andet",
             "SENT_A_PHOTO": "Sendte et billede",
@@ -287,7 +287,7 @@
             "NOT_DELIVERED": "Ikke sendt",
             "PLACEHOLDER": "Tekst Besked",
             "DONE": "Færdig",
-            "CANCEL": "Anniller",
+            "CANCEL": "Annuller",
             "SEND": "Send",
             "UNKNOWN": "Ukendt Nummer",
             "TO": "Til",
@@ -352,8 +352,8 @@
                 "END": "Slut",
                 "VIDEO_CALL": "Videoopkald",
 
-                "MUTE": "mute",
-                "KEYPAD": "keypad",
+                "MUTE": "lydløs",
+                "KEYPAD": "nummerisk blok",
                 "SPEAKER": "højtaler",
                 "ADD_CALL": "tilføj opkald",
                 "VIDEO": "video",
@@ -386,10 +386,10 @@
                 "ADD_FAVORITE": "Tilføj til Favoritter",
                 "ADD_CONTACT": "Tilføj til Kontakter",
 
-                "UNBLOCK_CALLER": "Fjern blokering af dette nummer",
-                "BLOCK_CALLER": "Blokerer nummer",
+                "UNBLOCK_CALLER": "Fjern blokering",
+                "BLOCK_CALLER": "Bloker nummer",
 
-                "UNBLOCK_NUMBER_TITLE": "Fjern blokering af dette nummer",
+                "UNBLOCK_NUMBER_TITLE": "Fjern blokering",
                 "UNBLOCK_NUMBER_TEXT": "Er du sikker på du vil fjerne blokeringen af {number}?",
                 "UNBLOCK_NUMBER_BUTTON_CANCEL": "Annuller",
                 "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Fjern Blokering",
@@ -397,7 +397,7 @@
                 "BLOCK_NUMBER_TITLE": "Bloker Nummer",
                 "BLOCK_NUMBER_TEXT": "Er du sikker på du vil blokere {number}?",
                 "BLOCK_NUMBER_BUTTON_CANCEL": "Annuller",
-                "BLOCK_NUMBER_BUTTON_BLOCK": "Blockere"
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Blocker"
             },
             "FAVOURITES": {
                 "TITLE": "Favoritter",
@@ -408,7 +408,7 @@
                 "REMOVE_BUTTON_REMOVE": "Fjern"
             },
             "KEYPAD": {
-                "TITLE": "Keypad",
+                "TITLE": "Tastatur",
                 "ADD_NUMBER": "Tilføj Nummer"
             },
             "RECENTS": {
@@ -440,7 +440,7 @@
             "LOCATION": "Lokation",
             "SUMMON": "Tilkald",
             "VALET": "Valet",
-            "STATISTICS": "Stati",
+            "STATISTICS": "Statistiker",
             "FUEL": "Brændstof",
             "ENGINE": "Motor",
             "BODY": "Karosseri",
@@ -504,35 +504,35 @@
         "MARKETPLACE": {
             "CANCEL": "Annuller",
             "SEARCH": "Søg efter lister eller numre",
-            "NEW_POST": "Nyt Post",
+            "NEW_POST": "Nyt Opslag",
             "TITLE": "Titel",
             "DESCRIPTION": "Bekrivelse",
             "PRICE": "Pris",
-            "POST": "Post",
+            "POST": "Slå op",
             "CONTACT": "Kontakt",
             "REMOVE": "Slet",
 
             "DELETE_POPUP": {
-                "TITLE": "Slet Post",
+                "TITLE": "Slet Opslag",
                 "TEXT": "Er du sikker på du vil slette dit post?",
                 "CANCEL": "Annuller",
                 "PROCEED": "Slet"
             }
         },
         "YELLOWPAGES": {
-            "SEARCH": "Søg efter post eller numre",
+            "SEARCH": "Søg efter opslag eller numre",
             "FROM": "Fra",
             "CANCEL": "Annuller",
-            "NEW_POST": "Nyt Post",
+            "NEW_POST": "Nyt Opslag",
 
             "TITLE": "Titel",
             "DESCRIPTION": "Bekrivelse",
             "PRICE": "Pris",
-            "POST": "Post",
+            "POST": "Slå op",
             "CALL": "Ring op",
 
             "DELETE_POPUP": {
-                "TITLE": "Slet Post",
+                "TITLE": "Slet Opslag",
                 "TEXT": "Er du sikker på du vil slette dette post?",
                 "CANCEL": "Annuller",
                 "PROCEED": "Slet"
@@ -574,7 +574,7 @@
         },
         "AIRDROP": {
             "TITLE": "Airdrop",
-            "TEXT": "{sender} vil gerne dele {type}",
+            "TEXT": "{sender} vil gerne dele et {type}",
             "VIDEO": "video",
             "PHOTO": "billede",
             "CONTACT": "kontakt",
@@ -604,7 +604,7 @@
     "HOMESCREEN": {
         "DONE": "Færdig",
         "REMOVE": "Slet",
-        "REMOVE_TEXT": "Dataen vil ikke blive slettet, hvis du sletter appen.",
+        "REMOVE_TEXT": "Dataen vil IKKE blive slettet, hvis du sletter appen. Appen kan installeres igen i appstoren",
         "BUTTON_CANCEL": "Annuller",
         "BUTTON_DELETE": "Slet"
     },
