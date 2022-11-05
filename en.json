@@ -7,10 +7,9 @@
         "SETTINGS": {
             "TITLE": "Settings",
             "BACK": "Back",
-
             "DONE": "Done",
             "EDIT": "Edit",
-
+            
             "AIRPLANE_MODE": "Airplane Mode",
             "STREAMER_MODE": "Streamer Mode",
             "BLUETOOTH": "Bluetooth",
@@ -41,9 +40,8 @@
             "LANGUAGE_REGION": "Language & Region",
             "LANGUAGE": "Language",
             "TEMPERATURE": "Temperature",
-
             "BATTERY": "Battery",
-
+            
             "SOUND_HAPTICS": "Sound & Haptics",
             "SOUND_HAPTICS_PATTERNS": "Sound and haptics patterns",
             "RINGTONE": "Ringtone",
@@ -137,7 +135,6 @@
                 "CANCEL": "Cancel",
                 "CONFIRM": "Remove"
             },
-
             "ON": "On"
         },
         "NOTES": {
@@ -185,7 +182,6 @@
                 "START": "Start",
                 "STOP": "Stop",
                 "CANCEL": "Cancel",
-
                 "HOURS": "hours",
                 "MINUTES": "min",
                 "SECONDS": "sec"
@@ -208,13 +204,11 @@
             "SET": "Set",
             "JOIN": "Join",
             "LEAVE": "Leave",
-
             "NEW_ROOM": "New Room",
             "NEW_ROOM_TEXT": "Type in a room code to Join or Create a room",
             "ROOM_CODE": "Room Code",
             "LEAVE_ROOM": "Leave Room",
             "LEAVE_ROOM_TEXT": "Are you sure you want to leave this room?",
-
             "NOW": "Now",
             "INPUT_PLACEHOLDER": "Type a message..."
         },
@@ -223,10 +217,8 @@
             "SEARCH": "Search",
             "GET": "Get",
             "OPEN": "Open",
-
             "TODAY": "Today",
             "GAMES": "Games",
-
             "WHAT_WE_PLAYING": "What we're playing",
             "INFORMATION:": "Information",
             "PROVIDER": "Provider",
@@ -288,19 +280,16 @@
             "PEOPLE": "People",
             "MEMBERS": "Members",
             "OTHER": "Other",
-
             "SENT_A_PHOTO": "Sent a photo",
             "SENT": "Sent",
             "REQUESTED": "Requested",
             "MISSED_CALL": "{number} tried to call you but you didn't answer, press the number to call back",
             "NOT_DELIVERED": "Not delivered",
             "PLACEHOLDER": "Text Message",
-
             "DONE": "Done",
             "CANCEL": "Cancel",
             "SEND": "Send",
             "UNKNOWN": "Unknown",
-
             "TO": "To",
             "SEARCH": "Search",
             "ADD_MEMBER": "Add Member",
@@ -355,10 +344,8 @@
 
                 "NO_CALLER_ID": "No Caller ID",
                 "UNKNOWN": "Unknown",
-
                 "USER_BUSY": "User Busy",
                 "USER_UNAVAILABLE": "User Unavailable",
-
                 "CALL_BACK": "Call Back",
                 "DECLINE": "Decline",
                 "ACCEPT": "Accept",
@@ -371,7 +358,6 @@
                 "ADD_CALL": "add call",
                 "VIDEO": "video",
                 "CONTACTS": "contacts",
-
                 "MOBILE": "Mobile"
             },
 
@@ -432,7 +418,6 @@
         "WALLET": {
             "TITLE": "Wallet",
             "BALANCE": "Balance",
-
             "SEND": "Send",
             "NEXT": "Next",
             "DONE": "Done",
@@ -440,7 +425,6 @@
 
             "NO_REFUNDS": "Payments are non refundable, double check the number.",
             "NEW_BALANCE": "New Balance",
-
             "LATEST_TRANSACTIONS": "Latest Transactions",
 
             "NOW": "Now",
@@ -479,10 +463,8 @@
             "TITLE": "Home",
             "MY_HOMES": "My Homes",
             "MY_HOME": "My Home",
-
             "KEY_ACCESS": "Key Access",
             "ACTIONS": "Actions",
-
             "FRONT_DOOR": "Front Door",
             "LOCATION": "Location",
             "SET_WAYPOINT": "Set Waypoint",
@@ -490,7 +472,6 @@
             "UNLOCKED": "Unlocked",
             "LOCK": "Lock",
             "LOCKED": "Locked",
-
             "GIVE_KEY": "Give Key",
             "MANAGE": "Manage",
 
@@ -594,11 +575,9 @@
         "AIRDROP": {
             "TITLE": "Airdrop",
             "TEXT": "{sender} would like to share a {type}",
-
             "VIDEO": "video",
             "PHOTO": "photo",
             "CONTACT": "contact",
-
             "DECLINE": "Decline",
             "ACCEPT": "Accept"
         }
