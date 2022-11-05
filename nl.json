@@ -1,0 +1,615 @@
+{
+    "LABEL": "Nederlands",
+    "SEARCH": "Zoeken",
+    "CANCEL": "Annuleren",
+
+    "APPS": {
+        "SETTINGS": {
+            "TITLE": "Instellingen",
+            "BACK": "Terug",
+            "DONE": "Accepteren",
+            "EDIT": "Bewerken",
+
+            "AIRPLANE_MODE": "Vliegtuig Modus",
+            "STREAMER_MODE": "Streamer Modus",
+            "BLUETOOTH": "Bluetooth",
+            "GENERAL": "Algemeen",
+
+            "ABOUT": "Over",
+            "NAME": "Naam",
+            "VERSION": "Versie",
+            "MODEL_NAME": "Model Naam",
+            "SERIAL_NUMBER": "Serienummer",
+            "DEVELOPED_BY": "Ontwikkeld door",
+            "PURCHASE_AT": "Aanschaffen bij",
+            "SONGS": "Nummers",
+            "VIDEOS": "Videos",
+            "PHOTOS": "Fotos",
+            "APPLICATIONS": "Applicaties",
+            "CAPACITY": "Capaciteit",
+            "AVAILABLE": "Verkrijgbaar",
+
+            "SOFTWARE_UPDATE": "Software Update",
+            "AUTOMATIC_UPDATES": "Automatische Updates",
+
+            "DATE_TIME": "Datum & Tijd",
+            "24_HOUR_TIME": "24 Uur Tijd",
+            "SET_AUTOMATICALLY": "Automatisch Instellen",
+            "TIME_ZONE": "Tijdzone",
+
+            "LANGUAGE_REGION": "Taal & Regio",
+            "LANGUAGE": "Taal",
+            "TEMPERATURE": "Temperatuur",
+            "BATTERY": "Batterij",
+
+            "SOUND_HAPTICS": "Geluid & Haptiek",
+            "SOUND_HAPTICS_PATTERNS": "Geluid en haptische patronen",
+            "RINGTONE": "Ringtone",
+            "TEXT_TONE": "Bericht Toon",
+            "RINGTONE_VOLUME": "Ringtone en melding volume",
+            "DEFAULT": "Standaard",
+
+            "PHONE_STORAGE": "Apparaatopslag",
+            "STORAGE": "Opslag",
+            "USED": "Gebruikt",
+            "OF": "van",
+
+            "DISPLAY_BRIGHTNESS": "Display & Helderheid",
+            "APPEARANCE": "Uiterlijk",
+            "AUTOMATIC": "Automatisch",
+            "BRIGHTNESS": "Helderheid",
+            "PHONE_SCALE": "Telefoon Grootte",
+
+            "WALLPAPER": "Achtergrond",
+            "WALLPAPERS": "Achtergronden",
+            "CHOOSE_NEW_WALLPAPER": "Kies een nieuwe achtergrond",
+
+            "NOTIFICATIONS": "Notificaties",
+            "ALLOW_NOTIFICATIONS": "Notificaties toestaan",
+            "SOUNDS": "Geluiden",
+
+            "PHONE": "Telefoon",
+            "BLOCKED_CONTACTS": "Geblokeerde Contacten",
+            "MY_NUMBER": "Mijn Telefoonnummer",
+            "SHOW_CALLER_ID": "Beller ID Tonen",
+
+            "UNBLOCK_POPUP": {
+                "TITLE": "Nummer Deblokkeren",
+                "TEXT": "Weet je zeker dat je dit nummer wilt deblokkeren?",
+                "CANCEL": "Annuleren",
+                "CONFIRM": "Deblokkeren"
+            },
+
+            "FACE_ID_PASSWORD": "Face ID & Toegangscode",
+            "ENTER_PASSCODE": "Toegangscode Invoeren",
+            "PASSCODE": "Toegangscode",
+            "FACE_ID": "Face ID",
+            "RESET_FACE_ID": "Face ID Resetten",
+            "ENABLE_FACE_ID": "Face ID Inschakelen",
+            "PIN_CODE": "Pin Code",
+
+            "DISABLE_FACE_ID_POPUP": {
+                "TITLE": "Face ID Uitschakelen",
+                "TEXT": "Weet je zeker dat je Face ID wilt uitschakelen?",
+                "CANCEL": "Annuleren",
+                "CONFIRM": "Uitschakelen"
+            },
+
+            "ENABLE_FACE_ID_POPUP": {
+                "TITLE": "Face ID Inschakelen",
+                "TEXT": "Weet je zeker dat je Face ID wilt inschakelen?",
+                "CANCEL": "Annuleren",
+                "CONFIRM": "Inschakelen"
+            },
+            "DISABLE_PIN_POPUP": {
+                "TITLE": "Toegangscode Uitschakelen",
+                "TEXT": "Weet je zeker dat je Toegangscode wilt uitschakelen? (Dit zal ook Face ID uitschakelen)",
+                "CANCEL": "Annuleren",
+                "CONFIRM": "Bevestigen"
+            },
+            "TURN_PASSCODE_OFF": "Toegangscode Uitschakelen",
+            "TURN_PASSCODE_ON": "Toegangscode Inschakelen",
+            "CHANGE_PASSCODE": "Toegangscode Wijzigen",
+            "CLOUD_BACKUP": "Cloud Backup",
+            "YOUR_PROFILE": "Je Profiel",
+            "CREATE_BACKUP": "Backup Maken",
+            "SAVE_BACKUP_POPUP": {
+                "TITLE": "Backup Opslaan",
+                "TEXT": "Weet je zeker dat je een backup wilt maken? (Dit zal contacten, fotos en instellingen opslaan)",
+                "CANCEL": "Annuleren",
+                "CONFIRM": "Opslaan"
+            },
+            "BACKUPS": "Backups",
+            "APPLY_BACKUP_POPUP": {
+                "TITLE": "Backup Toepassen",
+                "TEXT": "Wil je deze backup toepassen? (Dit zal contacten, fotos en instellingen overschrijven)",
+                "CANCEL": "Annuleren",
+                "CONFIRM": "Toepassen"
+            },
+            "SUCCESS": "Success",
+            "SUCCESS_TEXT": "Toestel zal in 5 seconden herstarten...",
+            "OK": "OK",
+            "REMOVE_BACKUP_POPUP": {
+                "TITLE": "Backup Verwijderen",
+                "TEXT": "Weet je zeker dat je deze backup wilt verwijderen?",
+                "CANCEL": "Annuleren",
+                "CONFIRM": "Verwijder"
+            },
+            "ON": "Aan"
+        },
+        "NOTES": {
+            "TITLE": "Notities",
+            "SEARCH_PLACEHOLDER": "Zoeken",
+            "FOOTER": "{amount} Notities",
+            "NEW_NOTE": "Nieuwe Notitie",
+            "LAST_EDITED": "Laatst Gewijzigd: {date}",
+            "DELETE_TITLE": "{title} Verwijderen",
+            "DELETE_TEXT": "Weet je zeker dat je '{title}' wilt verwijderen?",
+            "BUTTON_CANCEL": "Annuleren",
+            "BUTTON_DELETE": "Verwijder"
+        },
+        "CLOCK": {
+            "WORLDCLOCK": {
+                "TITLE": "Wereldklok",
+                "TODAY": "Vandaag",
+                "TOMORROW": "Morgen",
+                "YESTERDAY": "Gisteren"
+            },
+            "ALARM": {
+                "TITLE": "Alarm",
+                "ADD": "Alarm Toevoegen",
+                "CANCEL": "Annuleren",
+                "EDIT": "Wijzigen",
+                "DONE": "Opslaan",
+                "SAVE": "Opslaan",
+                "LABEL": "Label",
+                "SOUND": "Geluid",
+                "SNOOZE": "Sluimeren",
+                "DELETE_TITLE": "Alarm Verwijderen",
+                "DELETE_TEXT": "Weet je zeker dat je dit alarm wilt verwijderen?",
+                "BUTTON_CANCEL": "Annuleren",
+                "BUTTON_DELETE": "Verwijderen"
+            },
+            "STOPWATCH": {
+                "TITLE": "Stopwatch",
+                "START": "Start",
+                "STOP": "Stop",
+                "RESET": "Reset",
+                "LAP": "Ronde"
+            },
+            "TIMER": {
+                "TITLE": "Timer",
+                "START": "Start",
+                "STOP": "Stop",
+                "CANCEL": "Annuleren",
+                "HOURS": "uren",
+                "MINUTES": "min",
+                "SECONDS": "sec"
+            },
+            "ALERT": {
+                "STOP": "Stop"
+            }
+        },
+        "CAMERA": {
+            "VIDEO": "Video",
+            "PHOTO": "Foto",
+            "LANDSCAPE": "Landschap",
+            "UPLOADING": "Uploaden"
+        },
+        "DARKCHAT": {
+            "TITLE": "Dark Chat",
+            "USERNAME": "Gebruikersnaam",
+            "SET_USERNAME": "Gebruikersnaam instellen. WAARSCHUWING: DIT KAN MAAR EENMAAL WORDEN INGESTELD.",
+            "CANCEL": "Annuleren",
+            "SET": "Instellen",
+            "JOIN": "Lid worden",
+            "LEAVE": "Verlaten",
+            "NEW_ROOM": "Nieuwe Ruimte",
+            "NEW_ROOM_TEXT": "Voer een ruimte code in om lid te worden of Maak een ruimte",
+            "ROOM_CODE": "Ruimtecode",
+            "LEAVE_ROOM": "Verlaat Ruimte",
+            "LEAVE_ROOM_TEXT": "Weet je zeker dat je deze ruimte wilt verlaten?",
+            "NOW": "Nu",
+            "INPUT_PLACEHOLDER": "Bericht typen..."
+        },
+        "APPSTORE": {
+            "TITLE": "Apps",
+            "SEARCH": "Zoeken",
+            "GET": "Installeren",
+            "OPEN": "Open",
+            "TODAY": "Vandaag",
+            "GAMES": "Games",
+            "WHAT_WE_PLAYING": "Wat we spelen",
+            "INFORMATION": "Informatie",
+            "PROVIDER": "Provider",
+            "SIZE": "Grootte",
+            "COMPATIBILITY": "Compatibiliteit",
+            "IN_APP_PURCHASES": "In-App Aankopen"
+        },
+        "PHOTOS": {
+            "TITLE": "Gallerij",
+            "SELECT": "Selecteer",
+            "CANCEL": "Annuleren",
+            "SELECT_ITEMS": "Selecteer Items",
+            "SELECTED_COUNT": "{count} Items geselecteerd",
+            "PHOTO_COUNT": "{count} afbeeldingen",
+
+            "DELETE_TITLE": "{count} afbeeldingen verwijderen",
+            "DELETE_TEXT": "Wil je {count} afbeeldingen verwijderen?",
+            "DELETE_BUTTON_CANCEL": "Annuleren",
+            "DELETE_BUTTON_DELETE": "Verwijderen",
+
+            "DELETE_IMAGE_TITLE": "Delete image",
+            "DELETE_IMAGE_TEXT": "Do you want to delete this image?",
+            "DELETE_IMAGE_BUTTON_CANCEL": "Annuleren",
+            "DELETE_IMAGE_BUTTON_DELETE": "Verwijderen"
+        },
+        "WEATHER": {
+            "TITLE": "Weer",
+            "HOURLY_FORECAST": "Uurlijkse Voorspelling",
+            "NOW": "Nu",
+            "FEELS_LIKE": "Voelt als",
+            "FEELS_LIKE_SAME": "Vergelijkbaar met daadwerkelijke temperatuur",
+            "FEELS_LIKE_HUMIDITY": "Door vochtigheid voelt het warmer",
+            "FEELS_LIKE_WIND": "Door wind voelt het kouder",
+
+            "SUNRISE": "Zonsopgang",
+            "SUNSET": "Zonsondergang",
+            "WIND": "Wind",
+            "PRECIPITATION": "Neerslag",
+            "LAST_24H": "in de laatste 24h",
+            "EXPECTED_24H": "verwacht in de komende 24h",
+
+            "TYPES": {
+                "CLOUDY": "Bewolkt",
+                "LIGHT_RAIN": "Lichte Regenbui",
+                "HEAVY_RAIN": "Zware Regenbui",
+                "RAIN": "Regen",
+                "SNOW": "Sneeuw",
+                "FOG": "Mist",
+                "CLEAR": "Helder",
+                "MOSTLY_CLEAR": "Voornamelijk Helder",
+                "THUNDER": "Onweer",
+                "TORNADO": "Tornado",
+                "WINDY": "Winderig"
+            }
+        },
+        "MESSAGES": {
+            "TITLE": "Berichten",
+            "NEW_MESSAGE": "Nieuw Bericht",
+            "PEOPLE": "Mensen",
+            "MEMBERS": "Leden",
+            "OTHER": "Ander",
+            "SENT_A_PHOTO": "Heeft een afbeelding verstuurd",
+            "SENT": "Verzonden",
+            "REQUESTED": "Verzocht",
+            "MISSED_CALL": "{number} probeerde je te bellen maar kreeg geen antwoord. Druk op het nummer om terug te bellen",
+            "NOT_DELIVERED": "Niet afgeleverd",
+            "PLACEHOLDER": "Bericht",
+            "DONE": "Opslaan",
+            "CANCEL": "Annuleren",
+            "SEND": "Versturen",
+            "UNKNOWN": "Onbekend",
+            "TO": "Naar",
+            "SEARCH": "Zoek",
+            "ADD_MEMBER": "Lid toevoegen",
+            "SHARE_LOCATION": "Mijn locatie delen",
+            "LEAVE_GROUP": "Gesprek verlaten",
+            "SENT_LOCATION": "Heeft een locatie gedeeld, druk om in Maps te openen",
+            "SENT_LOCATION_SHORT": "Heeft hun locatie gedeeld",
+
+            "REMOVE_POPUP": {
+                "TITLE": "Lid verwijderen",
+                "TEXT": "Weet je zeker dat je {name} uit de groep wilt verwijderen?",
+                "REMOVE": "Verwijder"
+            },
+            "LEAVE_POPUP": {
+                "TITLE": "Groep Verlaten",
+                "TEXT": "Weet je zeker dat je de groep wilt verlaten?",
+                "LEAVE": "Verlaten"
+            },
+            "ADD_POPUP": {
+                "TITLE": "Lid Toevoegen",
+                "TEXT": "Vul een nummer in om '{name}' aan de groep toe te voegen",
+                "ADD": "Toevoegen"
+            },
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "Locatie Delen",
+                "TEXT": "Wil je je locatie delen?",
+                "CANCEL": "Annuleren",
+                "SEND": "Versturen"
+            },
+            "PAY": {
+                "REQUEST": "Verzoek",
+                "REQUESTED": "Verzocht",
+                "PAY": "Betaal",
+                "SEND": "Versturen",
+                "SEND_TITLE": "{currency}{amount} Overboeken",
+                "SEND_DESCRIPTION": "Wil je {currency}{amount} overboeken naar {name}?",
+                "SEND_BUTTON_CANCEL": "Annuleren",
+                "SEND_BUTTON_SEND": "Versturen"
+            }
+        },
+        "PHONE": {
+            "TITLE": "Telefoon",
+            "DONE": "Opslaan",
+            "EDIT": "Wijzigen",
+            "CANCEL": "Annuleren",
+
+            "CALL": {
+                "CALL_TITLE": "{name} Bellen",
+                "CALL_TEXT": "Wil je {name} bellen?",
+                "CALL_BUTTON_CANCEL": "Annuleren",
+                "CALL_BUTTON_CALL": "Bellen",
+
+                "NO_CALLER_ID": "Geen Beller ID",
+                "UNKNOWN": "Onbekend",
+                "USER_BUSY": "Lijn Bezet",
+                "USER_UNAVAILABLE": "Nummer Onbereikbaar",
+                "CALL_BACK": "Terugbellen",
+                "DECLINE": "Weigeren",
+                "ACCEPT": "Opnemen",
+                "END": "Beëndigen",
+                "VIDEO_CALL": "Videogesprek",
+
+                "MUTE": "dempen",
+                "KEYPAD": "toetsen",
+                "SPEAKER": "speaker",
+                "ADD_CALL": "gesprek toevoegen",
+                "VIDEO": "video",
+                "CONTACTS": "contacten",
+                "MOBILE": "Mobiel"
+            },
+
+            "CONTACTS": {
+                "TITLE": "Contacten",
+                "FIRST_NAME": "Voornaam",
+                "LAST_NAME": "Achternaam",
+                "PHONE_NUMBER": "Telefoonnummer",
+                "MY_CARD": "Mijn Visitekaartje",
+                "ADD_PHOTO": "Foto toevoegen",
+
+                "REMOVE_CONTACT_TITLE": "Contact Verwijderen",
+                "REMOVE_CONTACT_TEXT": "Weet je zeker dat je dit contact wilt verwijderen?",
+                "REMOVE_CONTACT_BUTTON_CANCEL": "Annuleren",
+                "REMOVE_CONTACT_BUTTON_DELETE": "Verwijderen",
+                "DELETE_CONTACT": "Contact Verwijderen",
+
+                "MESSAGE": "bericht",
+                "CALL": "bellen",
+                "VIDEO": "video",
+                "MAIN": "hoofd",
+
+                "SHARE_CONTACT": "Contact Delen",
+                "SHARE_LOCATION": "Mijn locatie delen",
+                "REMOVE_FAVORITE": "Uit Favorieten verwijderen",
+                "ADD_FAVORITE": "Aan Favorieten toevoegen",
+                "ADD_CONTACT": "Aan Contacten toevoegen",
+
+                "UNBLOCK_CALLER": "Deblokkeer Beller",
+                "BLOCK_CALLER": "Blokkeer Beller",
+
+                "UNBLOCK_NUMBER_TITLE": "Nummer Deblokkeren",
+                "UNBLOCK_NUMBER_TEXT": "Weet je zeker dat je {number} wilt deblokkeren?",
+                "UNBLOCK_NUMBER_BUTTON_CANCEL": "Annuleren",
+                "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Deblokkeren",
+
+                "BLOCK_NUMBER_TITLE": "Nummer Blokkeren",
+                "BLOCK_NUMBER_TEXT": "Weet je zeker dat je {number} wilt blokkeren?",
+                "BLOCK_NUMBER_BUTTON_CANCEL": "Annuleren",
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Blokkeren"
+            },
+            "FAVOURITES": {
+                "TITLE": "Favorieten",
+
+                "REMOVE_TITLE": "Uit Favorieten Verwijderen",
+                "REMOVE_TEXT": "Weet je zeker dat je dit contact uit je favorieten wilt verwijderen?",
+                "REMOVE_BUTTON_CANCEL": "Annuleren",
+                "REMOVE_BUTTON_REMOVE": "Verwijderen"
+            },
+            "KEYPAD": {
+                "TITLE": "Toetsen",
+                "ADD_NUMBER": "Nummer Toevoegen"
+            },
+            "RECENTS": {
+                "TITLE": "Recent"
+            }
+        },
+        "WALLET": {
+            "TITLE": "Portemonnee",
+            "BALANCE": "Saldo",
+            "SEND": "Versturen",
+            "NEXT": "Volgende",
+            "DONE": "Opslaan",
+            "DONE_SUBTITLE": "Je hebt {amount} naar {number} overgeboekt",
+
+            "NO_REFUNDS": "Betalingen worden niet vergoed, controleer het nummer goed.",
+            "NEW_BALANCE": "Nieuw Saldo",
+            "LATEST_TRANSACTIONS": "Recente Transacties",
+
+            "NOW": "Nu",
+            "AGO": "geleden"
+        },
+        "GARAGE": {
+            "TITLTE": "Garage",
+
+            "ACTIONS": "Handelingen",
+            "MY_CARS": "Mijn Voertuigen",
+            "OUT": "Uit",
+            "GARAGE": "Garage",
+            "LOCATION": "Locatie",
+            "SUMMON": "Oproepen",
+            "VALET": "Valet",
+            "STATISTICS": "Statistieken",
+            "FUEL": "Brandstof",
+            "ENGINE": "Motorblok",
+            "BODY": "Carrosserie",
+
+            "WAYPOINT_POPUP": {
+                "TITLE": "Route Instellen",
+                "TEXT": "Wil je een route naar je {model} instellen?",
+                "CANCEL": "Annuleren",
+                "PROCEED": "Bevestigen"
+            },
+            "VALET_POPUP": {
+                "TITLE": "Valet",
+                "TEXT": "Wil je een valet voor je {model} met kenteken {plate}?",
+                "TEXT_PAID": "Wil je een valet voor je {model} met kenteken ({plate}) voor {amount}?",
+                "CANCEL": "Annuleren",
+                "PROCEED": "Bevestigen"
+            }
+        },
+        "HOME": {
+            "TITLE": "Woning",
+            "MY_HOMES": "Mijn Woningen",
+            "MY_HOME": "Mijn Woning",
+            "KEY_ACCESS": "Sleuteltoegang",
+            "ACTIONS": "Handelingen",
+            "FRONT_DOOR": "Voordeur",
+            "LOCATION": "Locatie",
+            "SET_WAYPOINT": "Route Instellen",
+            "UNLOCK": "Ontgrendel",
+            "UNLOCKED": "Vergrendel",
+            "LOCK": "Slot",
+            "LOCKED": "Gesloten",
+            "GIVE_KEY": "Geef Sleutel",
+            "MANAGE": "Beheer",
+
+            "WAYPOINT_POPUP": {
+                "TITLE": "Route Instellen",
+                "TEXT": "Wil je een route naar je {home} instellen?",
+                "CANCEL": "Annuleren",
+                "PROCEED": "Bevestigen"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} Woning",
+                "TEXT": "Wil je je woning {toggle}?",
+                "CANCEL": "Annuleren",
+                "PROCEED": "Bevestigen"
+            },
+            "GIVE_KEY_POPUP": {
+                "TITLE": "Sleutelafgifte",
+                "TEXT": "Geef het ID van de persoon waar je een sleutel aan wilt geven op",
+                "CANCEL": "Annuleren",
+                "PROCEED": "Bevestigen"
+            },
+
+            "REMOVE_KEY_POPUP": {
+                "TITLE": "Sleutelhouder",
+                "TEXT": "Weet je zeker dat je de toegang van {name} wilt ontzeggen?",
+                "CANCEL": "Annuleren",
+                "PROCEED": "Bevestigen"
+            }
+        },
+        "MARKETPLACE": {
+            "CANCEL": "Annuleren",
+            "SEARCH": "Zoeken naar advertenties of nummers",
+            "NEW_POST": "Nieuwe Advertentie",
+            "TITLE": "Titel",
+            "DESCRIPTION": "Beschrijving",
+            "PRICE": "Prijs",
+            "POST": "Plaatsen",
+            "CONTACT": "Contact",
+            "REMOVE": "Verwijder",
+
+            "DELETE_POPUP": {
+                "TITLE": "Advertentie Verwijderen",
+                "TEXT": "Weet je zeker dat je deze advertentie wilt verwijderen?",
+                "CANCEL": "Annuleren",
+                "PROCEED": "Verwijderen"
+            }
+        },
+        "YELLOWPAGES": {
+            "SEARCH": "Zoeken naar advertenties of nummers",
+            "FROM": "Van",
+            "CANCEL": "Annuleren",
+            "NEW_POST": "Nieuwe Advertentie",
+
+            "TITLE": "Titel",
+            "DESCRIPTION": "Beschrijving",
+            "PRICE": "Prijs",
+            "POST": "Plaatsen",
+            "CALL": "Bellen",
+
+            "DELETE_POPUP": {
+                "TITLE": "Advertentie Verwijderen",
+                "TEXT": "Weet je zeker dat je deze advertentie wilt verwijderen?",
+                "CANCEL": "Annuleren",
+                "PROCEED": "Verwijderen"
+            }
+        }
+    },
+    "COMPONENTS": {
+        "CONTEXT_MENU": {
+            "CANCEL": "Annuleren",
+            "CALL": "Bellen",
+            "VIDEO_CALL": "Videobellen",
+            "MESSAGE": "Bericht"
+        },
+        "IMAGE": {
+            "SAVE_TO_GALLERY": "Opslaan naar Gallerij"
+        },
+        "GALLERY": {
+            "CANCEL": "Annuleren",
+            "EXTERNAL_URL": "Externe URL"
+        },
+        "NOTIFICATIONS": {
+            "SENT_PHOTO": "Heeft een afbeelding gestuurd",
+            "SENT_GIF": "Heeft een GIF gestuurd",
+            "NOW": "now"
+        },
+        "SHARE": {
+            "COPY_PHOTO": "Foto Kopieëren",
+            "USE_WALLPAPER": "Als Achtergrond Gebruiken",
+            "COPY_NUMBER": "Nummer Kopieëren",
+
+            "AIRDROP_SENT": "Verstuurd",
+
+            "WALLPAPER_POPUP": {
+                "TITLE": "Als Achtergrond Gebruiken",
+                "TEXT": "Weet je zeker dat je deze afbeelding als achtergrond wilt gebruiken?",
+                "CANCEL": "Annuleren",
+                "PROCEED": "Bevestigen"
+            }
+        },
+        "AIRDROP": {
+            "TITLE": "Airdrop",
+            "TEXT": "{sender} wilt {type} met je delen",
+            "VIDEO": "video",
+            "PHOTO": "afbeelding",
+            "CONTACT": "contact",
+            "DECLINE": "Weigeren",
+            "ACCEPT": "Accepteren"
+        }
+    },
+    "SETUP": {
+        "HELLO": "Hallo",
+        "NEXT": "Tik om te openen",
+
+        "CREATE_PASSCODE": "Toegangscode creëren",
+        "CREATE_PASSCODE_TEXT": "Een toegangscode beschermt je gegevens en wordt gebruikt om je toestel te ontgrendelen.",
+        "SKIP": "Stap overslaan",
+
+        "FACE_ID_SETUP": "Face ID Instellen",
+        "FACE_ID_TEXT": "Stel een Face ID in om automatisch je toestel te ontgrendelen zodra je gezicht in het frame is.",
+        "ENABLE_FACE_ID": "Face ID Inschakelen",
+
+        "APPEARANCE": "Uiterlijk",
+        "APPEARANCE_TEXT": "Selecteer een licht of een donker uiterlijk.",
+
+        "CONTINUE": "Doorgaan",
+        "WELCOME_TO": "Welkom bij",
+        "CLICK": "Tik om te beginnen"
+    },
+    "HOMESCREEN": {
+        "DONE": "Opslaan",
+        "REMOVE": "Verwijder",
+        "REMOVE_TEXT": "Het verwijderen van deze app verwijdert GEEN app data. De app kan later worden geïnstalleerd vanuit de App Store.",
+        "BUTTON_CANCEL": "Annuleren",
+        "BUTTON_DELETE": "Verwijderen"
+    },
+    "LOCKSCREEN": {
+        "ENTER_PASSCODE": "Toegangscode Invoeren",
+        "DELETE": "Verwijderen"
+    }
+}
