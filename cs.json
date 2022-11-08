@@ -1,0 +1,615 @@
+{
+    "LABEL": "Czech",
+    "SEARCH": "Hledat",
+    "CANCEL": "Zrušit",
+
+    "APPS": {
+        "SETTINGS": {
+            "TITLE": "Nastavení",
+            "BACK": "Zpět",
+            "DONE": "Hotovo",
+            "EDIT": "Editovat",
+
+            "AIRPLANE_MODE": "Režim Letadlo",
+            "STREAMER_MODE": "Live Stream Mode",
+            "BLUETOOTH": "Bluetooth",
+            "GENERAL": "Všeobecné",
+
+            "ABOUT": "O",
+            "NAME": "Jméno",
+            "VERSION": "Verze",
+            "MODEL_NAME": "Jmeno Modelu",
+            "SERIAL_NUMBER": "Seriové Číslo",
+            "DEVELOPED_BY": "Vytvořeno",
+            "PURCHASE_AT": "Zakoupeno",
+            "SONGS": "Písničky",
+            "VIDEOS": "Videa",
+            "PHOTOS": "Fotografie",
+            "APPLICATIONS": "Aplikace",
+            "CAPACITY": "Kapacite",
+            "AVAILABLE": "Dostupný",
+
+            "SOFTWARE_UPDATE": "Aktualizace",
+            "AUTOMATIC_UPDATES": "Automatické Aktualizace",
+
+            "DATE_TIME": "Datum & Čas",
+            "24_HOUR_TIME": "24 Hodinový Čas",
+            "SET_AUTOMATICALLY": "Nastavit Automacticky",
+            "TIME_ZONE": "Časová zóna",
+
+            "LANGUAGE_REGION": "Jazyk & Region",
+            "LANGUAGE": "Jazyk",
+            "TEMPERATURE": "Teplota",
+            "BATTERY": "Baterie",
+
+            "SOUND_HAPTICS": "Zvuk & Haptika",
+            "SOUND_HAPTICS_PATTERNS": "Zvukové a haptické vzory",
+            "RINGTONE": "Vyzváněcí tón",
+            "TEXT_TONE": "Textový tón",
+            "RINGTONE_VOLUME": "Hlasitost vyzvánění a upozornění",
+            "DEFAULT": "Výchozí",
+
+            "PHONE_STORAGE": "Uložiště Telefonu",
+            "STORAGE": "Uložiště",
+            "USED": "Použito",
+            "OF": "z",
+
+            "DISPLAY_BRIGHTNESS": "Displej a jas",
+            "APPEARANCE": "Vzhled",
+            "AUTOMATIC": "Automatický",
+            "BRIGHTNESS": "Jas",
+            "PHONE_SCALE": "Měřítko telefonu",
+
+            "WALLPAPER": "Tapeta",
+            "WALLPAPERS": "Tapety",
+            "CHOOSE_NEW_WALLPAPER": "Vybrat novou tapetu",
+
+            "NOTIFICATIONS": "Notifikace",
+            "ALLOW_NOTIFICATIONS": "Povolit Notifikace",
+            "SOUNDS": "Zvuky",
+
+            "PHONE": "Telefon",
+            "BLOCKED_CONTACTS": "Zablokované Kontakty",
+            "MY_NUMBER": "Moje Tel. Číslo",
+            "SHOW_CALLER_ID": "Zobrazit ID volajícího",
+
+            "UNBLOCK_POPUP": {
+                "TITLE": "Odblokovat",
+                "TEXT": "Opravdu chcete toto číslo odblokovat?",
+                "CANCEL": "Zrušit",
+                "CONFIRM": "Odblokovat"
+            },
+
+            "FACE_ID_PASSWORD": "Face ID a Pin",
+            "ENTER_PASSCODE": "Zadejte Pin",
+            "PASSCODE": "Pin",
+            "FACE_ID": "Face ID",
+            "RESET_FACE_ID": "Reinstal Face ID",
+            "ENABLE_FACE_ID": "Povolit Face ID",
+            "PIN_CODE": "Pin",
+
+            "DISABLE_FACE_ID_POPUP": {
+                "TITLE": "Vypnout Face ID",
+                "TEXT": "Opravdu chcete vypnout Face ID?",
+                "CANCEL": "Zrušit",
+                "CONFIRM": "Vypnout"
+            },
+
+            "ENABLE_FACE_ID_POPUP": {
+                "TITLE": "Povolit Face ID",
+                "TEXT": "Opravdu chcete aktivovat Face ID?",
+                "CANCEL": "Zrušit",
+                "CONFIRM": "Povolit"
+            },
+            "DISABLE_PIN_POPUP": {
+                "TITLE": "Vypnout Pin",
+                "TEXT": "Opravdu chcete vypnout kód PIN? (Tím také deaktivujete Face ID)",
+                "CANCEL": "Zrušit",
+                "CONFIRM": "Potvrdit"
+            },
+            "TURN_PASSCODE_OFF": "Vypněte přístupový kód",
+            "TURN_PASSCODE_ON": "Zapněte heslo",
+            "CHANGE_PASSCODE": "Změňte přístupový kód",
+            "CLOUD_BACKUP": "Cloudové zálohování",
+            "YOUR_PROFILE": "Tvůj profil",
+            "CREATE_BACKUP": "Vytvořit zálohu",
+            "SAVE_BACKUP_POPUP": {
+                "TITLE": "Uložit zálohu",
+                "TEXT": "Opravdu chcete uložit zálohu svých dat? (Uloží vaše kontakty, fotografie a nastavení)",
+                "CANCEL": "Zrušit",
+                "CONFIRM": "Uložit"
+            },
+            "BACKUPS": "Zálohy",
+            "APPLY_BACKUP_POPUP": {
+                "TITLE": "Použít zálohu",
+                "TEXT": "Opravdu chcete použít tuto zálohu? (Přepíše vaše kontakty, fotografie a nastavení)",
+                "CANCEL": "Zrušit",
+                "CONFIRM": "Použít"
+            },
+            "SUCCESS": "Povedlo se",
+            "SUCCESS_TEXT": "Telefon se za 5 sekund restartuje...",
+            "OK": "OK",
+            "REMOVE_BACKUP_POPUP": {
+                "TITLE": "Odebrat zálohu",
+                "TEXT": "opravdu chcete odstranit tuto zálohu?",
+                "CANCEL": "Zrušit",
+                "CONFIRM": "Vymazat"
+            },
+            "ON": "Použito [Zapnuto]"
+        },
+        "NOTES": {
+            "TITLE": "Poznámky",
+            "SEARCH_PLACEHOLDER": "Vyhledat",
+            "FOOTER": "{amount} Poznámek",
+            "NEW_NOTE": "Nová Poznámka",
+            "LAST_EDITED": "Poslední Úprava: {date}",
+            "DELETE_TITLE": "Vymazat {title}",
+            "DELETE_TEXT": "Jste si jistí, že to chcete smazat '{title}'?",
+            "BUTTON_CANCEL": "Zrušit",
+            "BUTTON_DELETE": "Vymazat"
+        },
+        "CLOCK": {
+            "WORLDCLOCK": {
+                "TITLE": "Světové hodiny",
+                "TODAY": "Dnešek",
+                "TOMORROW": "Zítřek",
+                "YESTERDAY": "Včerejšek"
+            },
+            "ALARM": {
+                "TITLE": "Budík",
+                "ADD": "Přidat Budík",
+                "CANCEL": "Zrušit",
+                "EDIT": "Editovat",
+                "DONE": "Hotovo",
+                "SAVE": "Uložit",
+                "LABEL": "Jméno",
+                "SOUND": "Zvuk",
+                "SNOOZE": "Opakování",
+                "DELETE_TITLE": "Vymazat Budík",
+                "DELETE_TEXT": "Opravdu chcete tento alarm smazat?",
+                "BUTTON_CANCEL": "Zrušit",
+                "BUTTON_DELETE": "Vymazat"
+            },
+            "STOPWATCH": {
+                "TITLE": "Stopky",
+                "START": "Začít",
+                "STOP": "Pozastavit",
+                "RESET": "Restartotvat",
+                "LAP": "Kolo"
+            },
+            "TIMER": {
+                "TITLE": "Časovač",
+                "START": "Spustit",
+                "STOP": "Zastavit",
+                "CANCEL": "Zrušit",
+                "HOURS": "Hodiny",
+                "MINUTES": "min",
+                "SECONDS": "sec"
+            },
+            "ALERT": {
+                "STOP": "Zastavit"
+            }
+        },
+        "CAMERA": {
+            "VIDEO": "Video",
+            "PHOTO": "Fotografie",
+            "LANDSCAPE": "Krajina",
+            "UPLOADING": "Nahrávání"
+        },
+        "DARKCHAT": {
+            "TITLE": "Dark Chat",
+            "USERNAME": "uživatelské jméno",
+            "SET_USERNAME": "Nastavte si uživatelské jméno. POZNÁMKA: TOTO LZE NASTAVIT POUZE JEDNOU.",
+            "CANCEL": "Zrušit",
+            "SET": "Nastavit",
+            "JOIN": "Připojit",
+            "LEAVE": "Odejít",
+            "NEW_ROOM": "Nový Chat",
+            "NEW_ROOM_TEXT": "Chcete-li se připojit nebo vytvořit místnost, zadejte kód místnosti",
+            "ROOM_CODE": "Kód místnosti",
+            "LEAVE_ROOM": "Odejít",
+            "LEAVE_ROOM_TEXT": "Opravdu chcete opustit tuto místnost?",
+            "NOW": "Teď",
+            "INPUT_PLACEHOLDER": "Napište zprávu..."
+        },
+        "APPSTORE": {
+            "TITLE": "Apklikace",
+            "SEARCH": "Vyhledat",
+            "GET": "Stáhnout",
+            "OPEN": "Otevřít",
+            "TODAY": "Dnes",
+            "GAMES": "Hry",
+            "WHAT_WE_PLAYING": "Co hrajeme",
+            "INFORMATION": "Informace",
+            "PROVIDER": "Provozovatel",
+            "SIZE": "Velikost",
+            "COMPATIBILITY": "Kompatibilita",
+            "IN_APP_PURCHASES": "Nákupy v aplikaci"
+        },
+        "PHOTOS": {
+            "TITLE": "Fotografie",
+            "SELECT": "Vybrat",
+            "CANCEL": "Zrušit",
+            "SELECT_ITEMS": "Vybrat",
+            "SELECTED_COUNT": "{count} Vybráno",
+            "PHOTO_COUNT": "{count} Fotografie",
+
+            "DELETE_TITLE": "Odstranit {count} Obrázků",
+            "DELETE_TEXT": "Chcete smazat? {count} Obrázků",
+            "DELETE_BUTTON_CANCEL": "Zrušit",
+            "DELETE_BUTTON_DELETE": "Vymazat",
+
+            "DELETE_IMAGE_TITLE": "Vymazat Obrázky",
+            "DELETE_IMAGE_TEXT": "Chcete tento obrázek smazat?",
+            "DELETE_IMAGE_BUTTON_CANCEL": "Zrušit",
+            "DELETE_IMAGE_BUTTON_DELETE": "Vymazat"
+        },
+        "WEATHER": {
+            "TITLE": "Počasí",
+            "HOURLY_FORECAST": "Hodinová předpověď",
+            "NOW": "Teď",
+            "FEELS_LIKE": "Pocitově",
+            "FEELS_LIKE_SAME": "Podobně jako skutečná teplota.",
+            "FEELS_LIKE_HUMIDITY": "Díky vlhkosti je pocitově teplejší",
+            "FEELS_LIKE_WIND": "Díky větru se cítí chladněji",
+
+            "SUNRISE": "východ slunce",
+            "SUNSET": "Západ slunce",
+            "WIND": "Vítr",
+            "PRECIPITATION": "Srážky",
+            "LAST_24H": "za posledních 24h",
+            "EXPECTED_24H": "očekáváno v příštích 24 hodinách",
+
+            "TYPES": {
+                "CLOUDY": "Zataženo",
+                "LIGHT_RAIN": "Lehký déšť",
+                "HEAVY_RAIN": "Hustý déšť",
+                "RAIN": "déšt",
+                "SNOW": "Sníh",
+                "FOG": "Mlha",
+                "CLEAR": "jasně",
+                "MOSTLY_CLEAR": "Skoro jasno",
+                "THUNDER": "Bouřka",
+                "TORNADO": "Tornado",
+                "WINDY": "Větrný"
+            }
+        },
+        "MESSAGES": {
+            "TITLE": "Zprávy",
+            "NEW_MESSAGE": "Nová zpráva",
+            "PEOPLE": "Lidé",
+            "MEMBERS": "členové",
+            "OTHER": "Ostatní",
+            "SENT_A_PHOTO": "Poslat Obrázek",
+            "SENT": "Odeslat",
+            "REQUESTED": "Zažádat",
+            "MISSED_CALL": "{number} se vám pokusil dovolat, ale neodpověděli jste, stisknutím čísla zavoláte zpět",
+            "NOT_DELIVERED": "Nedoručeno",
+            "PLACEHOLDER": "Textová zpráva",
+            "DONE": "Hotovo",
+            "CANCEL": "Zrušit",
+            "SEND": "Odeslat",
+            "UNKNOWN": "Neznámý",
+            "TO": "Pro",
+            "SEARCH": "Vyhledat",
+            "ADD_MEMBER": "Přidat Člena",
+            "SHARE_LOCATION": "Sdílet moji polohu",
+            "LEAVE_GROUP": "Opustit konverzaci",
+            "SENT_LOCATION": "Sdíleli svou polohu, kliknutím otevřete v Mapách",
+            "SENT_LOCATION_SHORT": "Sdíleli svou polohu",
+
+            "REMOVE_POPUP": {
+                "TITLE": "Odstranit Uživatele",
+                "TEXT": "Opravdu chcete odstranit {name} ze skupiny?",
+                "REMOVE": "Odebrat"
+            },
+            "LEAVE_POPUP": {
+                "TITLE": "Opustiť skuponu",
+                "TEXT": "Opravdu chcete opustit tuto skupinu?",
+                "LEAVE": "Odstranit"
+            },
+            "ADD_POPUP": {
+                "TITLE": "Přidat člena",
+                "TEXT": "Zadejte číslo, které chcete přidat '{name}' skupina?",
+                "ADD": "Přidat"
+            },
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "Sdílejte polohu",
+                "TEXT": "Chcete sdílet svou polohu?",
+                "CANCEL": "Zrušit",
+                "SEND": "Odeslat"
+            },
+            "PAY": {
+                "REQUEST": "Žádost",
+                "REQUESTED": "Zažádáno",
+                "PAY": "Platit",
+                "SEND": "Odeslat",
+                "SEND_TITLE": "Odeslat {currency}{amount}",
+                "SEND_DESCRIPTION": "Chcete odeslat {currency}{amount} na {name}?",
+                "SEND_BUTTON_CANCEL": "Zrušit",
+                "SEND_BUTTON_SEND": "Odeslat"
+            }
+        },
+        "PHONE": {
+            "TITLE": "Telefon",
+            "DONE": "Hotovo",
+            "EDIT": "Upravit",
+            "CANCEL": "Zrušit",
+
+            "CALL": {
+                "CALL_TITLE": "Volání {name}",
+                "CALL_TEXT": "Opravdu chcete zavolat? {name}?",
+                "CALL_BUTTON_CANCEL": "Zrušit",
+                "CALL_BUTTON_CALL": "Volaní",
+
+                "NO_CALLER_ID": "Žádné ID volajícího",
+                "UNKNOWN": "Neznámý",
+                "USER_BUSY": "Uživatel je zaneprázdněn",
+                "USER_UNAVAILABLE": "Uživatel nedostupný",
+                "CALL_BACK": "Zavolejte zpět",
+                "DECLINE": "Zavolejte zpět",
+                "ACCEPT": "Příjmout",
+                "END": "Ukončit",
+                "VIDEO_CALL": "Video Hovor",
+
+                "MUTE": "Ztlumit",
+                "KEYPAD": "klávesnice",
+                "SPEAKER": "Hlasiťe",
+                "ADD_CALL": "Přidat hovor",
+                "VIDEO": "video",
+                "CONTACTS": "Kontakty",
+                "MOBILE": "Mobile"
+            },
+
+            "CONTACTS": {
+                "TITLE": "Kodntaky",
+                "FIRST_NAME": "Jméno",
+                "LAST_NAME": "Příjmení",
+                "PHONE_NUMBER": "Tel. Číslo",
+                "MY_CARD": "Moje karta",
+                "ADD_PHOTO": "Přidat fotografi",
+
+                "REMOVE_CONTACT_TITLE": "Odstranit Kontakt",
+                "REMOVE_CONTACT_TEXT": "Opravdu chcete tento kontakt odstranit?",
+                "REMOVE_CONTACT_BUTTON_CANCEL": "zrušení",
+                "REMOVE_CONTACT_BUTTON_DELETE": "Vymazat",
+                "DELETE_CONTACT": "Vymazat Kontakt",
+
+                "MESSAGE": "Zprava",
+                "CALL": "Hovor",
+                "VIDEO": "Video",
+                "MAIN": "Hlavní",
+
+                "SHARE_CONTACT": "Sdílet kontakt",
+                "SHARE_LOCATION": "Sdílet moji polohu",
+                "REMOVE_FAVORITE": "Odebrat z oblíbenýchs",
+                "ADD_FAVORITE": "Odebrat z oblíbenýchOdebrat z oblíbených",
+                "ADD_CONTACT": "Odebrat z oblíbených",
+
+                "UNBLOCK_CALLER": "Odblokujte tohoto volajícího",
+                "BLOCK_CALLER": "Blokovat tohoto volajícího",
+
+                "UNBLOCK_NUMBER_TITLE": "Odblokovat číslo",
+                "UNBLOCK_NUMBER_TEXT": "Opravdu chcete odblokovat? {number}?",
+                "UNBLOCK_NUMBER_BUTTON_CANCEL": "zrušení",
+                "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Odblokovat",
+
+                "BLOCK_NUMBER_TITLE": "Číslo bloku",
+                "BLOCK_NUMBER_TEXT": "Opravdu chcete blokovat {number}?",
+                "BLOCK_NUMBER_BUTTON_CANCEL": "Zrušit",
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Blokovat"
+            },
+            "FAVOURITES": {
+                "TITLE": "Oblíbené",
+
+                "REMOVE_TITLE": "Odstranit z oblíbených",
+                "REMOVE_TEXT": "Opravdu chcete tento kontakt odstranit z oblíbených?",
+                "REMOVE_BUTTON_CANCEL": "Zrušit",
+                "REMOVE_BUTTON_REMOVE": "Odstranit"
+            },
+            "KEYPAD": {
+                "TITLE": "Klávesnice",
+                "ADD_NUMBER": "Přidat Číslo"
+            },
+            "RECENTS": {
+                "TITLE": "Historie"
+            }
+        },
+        "WALLET": {
+            "TITLE": "Peněženka",
+            "BALANCE": "Zůstatek",
+            "SEND": "Odeslat",
+            "NEXT": "Další",
+            "DONE": "Hotovo",
+            "DONE_SUBTITLE": "Poslal jsi {amount} na {number}",
+
+            "NO_REFUNDS": "Platby jsou nevratné, zkontrolujte číslo.",
+            "NEW_BALANCE": "Nový Zůstatek",
+            "LATEST_TRANSACTIONS": "Nejnovější transakce",
+
+            "NOW": "Teď",
+            "AGO": "Před"
+        },
+        "GARAGE": {
+            "TITLTE": "Garáž",
+
+            "ACTIONS": "Akce",
+            "MY_CARS": "Moje Vozidlo",
+            "OUT": "Vyndáno",
+            "GARAGE": "Garáž",
+            "LOCATION": "Lokace",
+            "SUMMON": "Vyvolat",
+            "VALET": "Peněžekna",
+            "STATISTICS": "Statistika",
+            "FUEL": "Benzín",
+            "ENGINE": "Motor",
+            "BODY": "Lak",
+
+            "WAYPOINT_POPUP": {
+                "TITLE": "Nastavit bod na cestě",
+                "TEXT": "Chcete nastavit průjezdní bod k vašemu {model}?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Pokračovat"
+            },
+            "VALET_POPUP": {
+                "TITLE": "Valet",
+                "TEXT": "Chcete si udělat komorníka {model} ({plate})?",
+                "TEXT_PAID": "Chcete si udělat komorníka {model} ({plate}) za {amount}?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Pokračovat"
+            }
+        },
+        "HOME": {
+            "TITLE": "Domy",
+            "MY_HOMES": "Moje Domy",
+            "MY_HOME": "Můj domov",
+            "KEY_ACCESS": "Klíče",
+            "ACTIONS": "Akce",
+            "FRONT_DOOR": "Vchodové Dveře",
+            "LOCATION": "Lokace",
+            "SET_WAYPOINT": "Nastavit GPS",
+            "UNLOCK": "Odemknout",
+            "UNLOCKED": "Odemknout",
+            "LOCK": "Zamknout",
+            "LOCKED": "Zamknuto",
+            "GIVE_KEY": "Dát Klíče",
+            "MANAGE": "Možnosti",
+
+            "WAYPOINT_POPUP": {
+                "TITLE": "Nastavit GPS",
+                "TEXT": "Chcete nastavit GPS na {home}?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Pokračovat"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} Domov",
+                "TEXT": "Do you want to {toggle} your home?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Pokračovat"
+            },
+            "GIVE_KEY_POPUP": {
+                "TITLE": "Dát Klíče",
+                "TEXT": "Vložte ID osoby, které chcete předat klíč",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Pokračovat"
+            },
+
+            "REMOVE_KEY_POPUP": {
+                "TITLE": "Odebrat Klíč",
+                "TEXT": "Ajste si jisti, že chcete odebrat přístup z{name}?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Pokračovat"
+            }
+        },
+        "MARKETPLACE": {
+            "CANCEL": "Zrušit",
+            "SEARCH": "Hledejte výpisy nebo čísla",
+            "NEW_POST": "Nový Post",
+            "TITLE": "Nadpis",
+            "DESCRIPTION": "popis",
+            "PRICE": "Částka",
+            "POST": "Zveřejnit",
+            "CONTACT": "Kontakt",
+            "REMOVE": "Odstranit",
+
+            "DELETE_POPUP": {
+                "TITLE": "Smazat výpis",
+                "TEXT": "Opravdu chcete tento zápis smazat?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "VYMAZAT"
+            }
+        },
+        "YELLOWPAGES": {
+            "SEARCH": "Hledejte příspěvky nebo čísla",
+            "FROM": "Od",
+            "CANCEL": "Zrušit",
+            "NEW_POST": "Nový příspěvek",
+
+            "TITLE": "Nadpis",
+            "DESCRIPTION": "popis",
+            "PRICE": "Částka",
+            "POST": "Odeslat",
+            "CALL": "Zavolat",
+
+            "DELETE_POPUP": {
+                "TITLE": "Smazat příspěvek",
+                "TEXT": "Opravdu chcete tento příspěvek smazat?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "VYMAZAT"
+            }
+        }
+    },
+    "COMPONENTS": {
+        "CONTEXT_MENU": {
+            "CANCEL": "Zrušit",
+            "CALL": "Zavolat",
+            "VIDEO_CALL": "Video Hovor",
+            "MESSAGE": "Message"
+        },
+        "IMAGE": {
+            "SAVE_TO_GALLERY": "Uložit do Galerie"
+        },
+        "GALLERY": {
+            "CANCEL": "Zrušit",
+            "EXTERNAL_URL": "Externí URL"
+        },
+        "NOTIFICATIONS": {
+            "SENT_PHOTO": "Poslat Fotku",
+            "SENT_GIF": "Poslat GIF",
+            "NOW": "Teď"
+        },
+        "SHARE": {
+            "COPY_PHOTO": "Kopírovat Fotku",
+            "USE_WALLPAPER": "Použít jako Poadí",
+            "COPY_NUMBER": "Kopírovat Číslo",
+
+            "AIRDROP_SENT": "Odeslat",
+
+            "WALLPAPER_POPUP": {
+                "TITLE": "Použít pozadí",
+                "TEXT": "Opravdu chcete tento obrázek nastavit jako tapetu?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Použit"
+            }
+        },
+        "AIRDROP": {
+            "TITLE": "Airdrop",
+            "TEXT": "{sender} rád bych se podělil a {type}",
+            "VIDEO": "video",
+            "PHOTO": "Fotka",
+            "CONTACT": "kontakt",
+            "DECLINE": "odmítnout",
+            "ACCEPT": "Příjmout"
+        }
+    },
+    "SETUP": {
+        "HELLO": "Vítejte",
+        "NEXT": "Zmáčki pro pokračování",
+
+        "CREATE_PASSCODE": "Vytvořte přístupový kód",
+        "CREATE_PASSCODE_TEXT": "Přístupový kód chrání vaše data a používá se k odemknutí telefonu.",
+        "SKIP": "Přeskočit",
+
+        "FACE_ID_SETUP": "Nastavení Face ID",
+        "FACE_ID_TEXT": "Nastavte Face ID tak, aby se telefon automaticky odemykal, když je váš obličej v záběru.",
+        "ENABLE_FACE_ID": "Povolit Face ID",
+
+        "APPEARANCE": "Vzhled",
+        "APPEARANCE_TEXT": "Vyberte světlý nebo tmavý vzhled",
+
+        "CONTINUE": "Pokračovat",
+        "WELCOME_TO": "Vítejte v",
+        "CLICK": "Začněte kliknutím"
+    },
+    "HOMESCREEN": {
+        "DONE": "Hotovo",
+        "REMOVE": "Odstranit",
+        "REMOVE_TEXT": "Smazáním této aplikace NEVYMAZÁTE její data. Aplikaci lze později znovu nainstalovat z App Store.",
+        "BUTTON_CANCEL": "Zrušit",
+        "BUTTON_DELETE": "Vymazat"
+    },
+    "LOCKSCREEN": {
+        "ENTER_PASSCODE": "Zadejte přístupový kód",
+        "DELETE": "Vymazat"
+    }
+}
