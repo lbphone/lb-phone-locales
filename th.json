@@ -1,0 +1,615 @@
+{
+    "LABEL": "ไทย",
+    "SEARCH": "ค้นหา",
+    "CANCEL": "ยกเลิก",
+
+    "APPS": {
+        "SETTINGS": {
+            "TITLE": "ตั้งค่า",
+            "BACK": "กลับ",
+            "DONE": "เสร็จสิ้น",
+            "EDIT": "แก้ไข",
+
+            "AIRPLANE_MODE": "โหมดเครื่องบิน",
+            "STREAMER_MODE": "โหมดสตรีมเมอร์",
+            "BLUETOOTH": "บลูทูธ",
+            "GENERAL": "ทั่วไป",
+
+            "ABOUT": "เกี่ยวกับ",
+            "NAME": "ชื่อ",
+            "VERSION": "รุ่น",
+            "MODEL_NAME": "ชื่อรุ่น",
+            "SERIAL_NUMBER": "หมายเลขซีเรียล",
+            "DEVELOPED_BY": "พัฒนาโดย",
+            "PURCHASE_AT": "ซื้อที่",
+            "SONGS": "เพลง",
+            "VIDEOS": "วิดีโอ",
+            "PHOTOS": "รูปภาพ",
+            "APPLICATIONS": "แอปพลิเคชั่น",
+            "CAPACITY": "ความจุ",
+            "AVAILABLE": "เหลือ",
+
+            "SOFTWARE_UPDATE": "อัพเดตซอฟต์แวร์",
+            "AUTOMATIC_UPDATES": "อัพเดตอัติโนมัติ",
+
+            "DATE_TIME": "วันที่และเวลา",
+            "24_HOUR_TIME": "เวลา 24 ชั่วโมง",
+            "SET_AUTOMATICALLY": "ตั้งอัติโนมัติ",
+            "TIME_ZONE": "เขตเวลา",
+
+            "LANGUAGE_REGION": "ภาษาและภูมิภาค",
+            "LANGUAGE": "ภาษา",
+            "TEMPERATURE": "อุณหภูมิ",
+            "BATTERY": "แบตเตอรี่",
+
+            "SOUND_HAPTICS": "เสียงและสัมผัส",
+            "SOUND_HAPTICS_PATTERNS": "รูปแบบเสียงและสัมผัส",
+            "RINGTONE": "ริงโทน",
+            "TEXT_TONE": "เสียงข้อความ",
+            "RINGTONE_VOLUME": "เสียงเรียกเข้าและเสียงเตือน",
+            "DEFAULT": "ค่าเริ่มต้น",
+
+            "PHONE_STORAGE": "พื้นที่โทรศัพท์",
+            "STORAGE": "พื้นที่",
+            "USED": "ใช้แล้ว",
+            "OF": "ของ",
+
+            "DISPLAY_BRIGHTNESS": "ความสว่างจอแสดงผล",
+            "APPEARANCE": "ลักษณะภายนอก",
+            "AUTOMATIC": "อัตโนมัติ",
+            "BRIGHTNESS": "ความสว่าง",
+            "PHONE_SCALE": "ขนาดโทรศัพท์",
+
+            "WALLPAPER": "วอลล์เปเปอร์",
+            "WALLPAPERS": "วอลล์เปเปอร์",
+            "CHOOSE_NEW_WALLPAPER": "เลือกวอลเปเปอร์ใหม่",
+
+            "NOTIFICATIONS": "การแจ้งเตือน",
+            "ALLOW_NOTIFICATIONS": "อนุญาตการแจ้งเตือน",
+            "SOUNDS": "เสียง",
+
+            "PHONE": "โทรศัพท์",
+            "BLOCKED_CONTACTS": "ผู้ติดต่อที่ถูกบล็อก",
+            "MY_NUMBER": "หมายเลขโทรศัพท์ของฉัน",
+            "SHOW_CALLER_ID": "แสดงหมายเลขผู้โทร",
+
+            "UNBLOCK_POPUP": {
+                "TITLE": "ปลดบล็อคหมายเลข",
+                "TEXT": "คุณแน่ใจหรือไม่ว่าต้องการเลิกบล็อกหมายเลขนี้",
+                "CANCEL": "ยกเลิก",
+                "CONFIRM": "เลิกบล็อก"
+            },
+
+            "FACE_ID_PASSWORD": "Face ID และรหัสผ่าน",
+            "ENTER_PASSCODE": "ใส่รหัสผ่าน",
+            "PASSCODE": "และรหัสผ่าน",
+            "FACE_ID": "Face ID",
+            "RESET_FACE_ID": "รีเซ็ต Face ID",
+            "ENABLE_FACE_ID": "เปิดใช้งาน Face ID",
+            "PIN_CODE": "รหัสพิน",
+
+            "DISABLE_FACE_ID_POPUP": {
+                "TITLE": "ปิดใช้งาน Face ID",
+                "TEXT": "คุณแน่ใจหรือไม่ว่าต้องการปิด Face ID?",
+                "CANCEL": "ยกเลิก",
+                "CONFIRM": "ปิด"
+            },
+
+            "ENABLE_FACE_ID_POPUP": {
+                "TITLE": "เปิดใช้งาน Face ID",
+                "TEXT": "คุณแน่ใจหรือไม่ว่าต้องการเปิดใช้งาน Face ID?",
+                "CANCEL": "ยกเลิก",
+                "CONFIRM": "เปิดใช้งาน"
+            },
+            "DISABLE_PIN_POPUP": {
+                "TITLE": "ปิดใช้งานรหัสพิน",
+                "TEXT": "คุณแน่ใจหรือไม่ว่าต้องการปิดรหัสพิน (สิ่งนี้จะปิดการใช้งาน Face ID ด้วย)",
+                "CANCEL": "ยกเลิก",
+                "CONFIRM": "ยืนยัน"
+            },
+            "TURN_PASSCODE_OFF": "ปิดรหัสผ่าน",
+            "TURN_PASSCODE_ON": "เปิดรหัสผ่าน",
+            "CHANGE_PASSCODE": "เปลี่ยนรหัสผ่าน",
+            "CLOUD_BACKUP": "การสำรองข้อมูลบนคลาวด์",
+            "YOUR_PROFILE": "โปรไฟล์ของคุณ",
+            "CREATE_BACKUP": "สร้างการสำรองข้อมูล",
+            "SAVE_BACKUP_POPUP": {
+                "TITLE": "บันทึกข้อมูลสำรอง",
+                "TEXT": "คุณแน่ใจหรือไม่ว่าต้องการบันทึกข้อมูลสำรองของคุณ (บันทึกรายชื่อ รูปภาพ และการตั้งค่าของคุณ)",
+                "CANCEL": "ยกเลิก",
+                "CONFIRM": "บันทึก"
+            },
+            "BACKUPS": "สำรองข้อมูล",
+            "APPLY_BACKUP_POPUP": {
+                "TITLE": "ใช้การสำรองข้อมูล",
+                "TEXT": "คุณแน่ใจหรือไม่ว่าต้องการใช้ข้อมูลสำรองนี้ (เขียนทับรายชื่อ รูปภาพ และการตั้งค่าของคุณ)",
+                "CANCEL": "ยกเลิก",
+                "CONFIRM": "ยืนยัน"
+            },
+            "SUCCESS": "สำเร็จ",
+            "SUCCESS_TEXT": "โทรศัพท์จะรีสตาร์ทใน 5 วินาที...",
+            "OK": "OK",
+            "REMOVE_BACKUP_POPUP": {
+                "TITLE": "ลบข้อมูลสำรอง",
+                "TEXT": "คุณแน่ใจหรือไม่ว่าต้องการลบข้อมูลสำรองนี้",
+                "CANCEL": "ยกเลิก",
+                "CONFIRM": "ลบ"
+            },
+            "ON": "On"
+        },
+        "NOTES": {
+            "TITLE": "โน้ต",
+            "SEARCH_PLACEHOLDER": "ค้นหา",
+            "FOOTER": "{จำนวน} โน้ต",
+            "NEW_NOTE": "โน้ตใหม่",
+            "LAST_EDITED": "แก้ไขล่าสุด: {วันที่}",
+            "DELETE_TITLE": "ลบ {ชื่อ}",
+            "DELETE_TEXT": "คุณแน่ใจหรือว่าต้องการลบ '{ชื่อ}'?",
+            "BUTTON_CANCEL": "ยกเลิก",
+            "BUTTON_DELETE": "ลบ"
+        },
+        "CLOCK": {
+            "WORLDCLOCK": {
+                "TITLE": "นาฬิกาโลก",
+                "TODAY": "วันนี้",
+                "TOMORROW": "พรุ่งนี้",
+                "YESTERDAY": "เมื่อวาน"
+            },
+            "ALARM": {
+                "TITLE": "นาฬิกาปลุก",
+                "ADD": "เพิ่มนาฬิกาปลุก",
+                "CANCEL": "ยกเลิก",
+                "EDIT": "แก้ไข",
+                "DONE": "เสร็จสิ้น",
+                "SAVE": "บันทึก",
+                "LABEL": "ป้าย",
+                "SOUND": "เสียง",
+                "SNOOZE": "เลื่อน",
+                "DELETE_TITLE": "ลบนาฬิกาปลุก",
+                "DELETE_TEXT": "คุณแน่ใจหรือไม่ว่าต้องการลบการปลุกนี้",
+                "BUTTON_CANCEL": "ยกเลิก",
+                "BUTTON_DELETE": "ลบ"
+            },
+            "STOPWATCH": {
+                "TITLE": "นาฬิกาจับเวลา",
+                "START": "เริ่ม",
+                "STOP": "หยุด",
+                "RESET": "รีเซ็ต",
+                "LAP": "รอบ"
+            },
+            "TIMER": {
+                "TITLE": "ตั้งเวลา",
+                "START": "เริ่มต้น",
+                "STOP": "หยุด",
+                "CANCEL": "ยกเลิก",
+                "HOURS": "ชั่วโมง",
+                "MINUTES": "นาที",
+                "SECONDS": "วินาที"
+            },
+            "ALERT": {
+                "STOP": "หยุด"
+            }
+        },
+        "CAMERA": {
+            "VIDEO": "วิดีโอ",
+            "PHOTO": "รูปภาพ",
+            "LANDSCAPE": "ทิวทัศน์",
+            "UPLOADING": "กำลังอัปโหลด"
+        },
+        "DARKCHAT": {
+            "TITLE": "Dark Chat",
+            "USERNAME": "ชื่อผู้ใช้",
+            "SET_USERNAME": "ตั้งค่าชื่อผู้ใช้ของคุณ หมายเหตุ: สามารถตั้งค่านี้ได้เพียงครั้งเดียวเท่านั้น",
+            "CANCEL": "ยกเลิก",
+            "SET": "ตั้ง",
+            "JOIN": "เข้าร่วม",
+            "LEAVE": "ออก",
+            "NEW_ROOM": "ห้องใหม่",
+            "NEW_ROOM_TEXT": "พิมพ์รหัสห้องเพื่อเข้าร่วมหรือสร้างห้อง",
+            "ROOM_CODE": "รหัสห้อง",
+            "LEAVE_ROOM": "ออกจากห้อง",
+            "LEAVE_ROOM_TEXT": "คุณแน่ใจหรือไม่ว่าต้องการออกจากห้องนี้",
+            "NOW": "ตอนนี้",
+            "INPUT_PLACEHOLDER": "พิมพ์ข้อความ..."
+        },
+        "APPSTORE": {
+            "TITLE": "แอพ",
+            "SEARCH": "ค้นหา",
+            "GET": "รับ",
+            "OPEN": "เปิด",
+            "TODAY": "วันนี้",
+            "GAMES": "เกม",
+            "WHAT_WE_PLAYING": "เรากำลังเล่นอะไรอยู่",
+            "INFORMATION": "ข้อมูล",
+            "PROVIDER": "ผู้ให้บริการ",
+            "SIZE": "ขนาด",
+            "COMPATIBILITY": "ความตรงกัน",
+            "IN_APP_PURCHASES": "การซื้อภายในแอพ"
+        },
+        "PHOTOS": {
+            "TITLE": "รูปภาพ",
+            "SELECT": "เลือก",
+            "CANCEL": "ยกเลิก",
+            "SELECT_ITEMS": "เลือกรายการ",
+            "SELECTED_COUNT": "{จำนวน} รายการที่เลือก",
+            "PHOTO_COUNT": "{จำนวน} รูป",
+
+            "DELETE_TITLE": "ลบ {จำนวน} ภาพ",
+            "DELETE_TEXT": "คุณต้องการลบ {จำนวน} ภาพ",
+            "DELETE_BUTTON_CANCEL": "ยกเลิก",
+            "DELETE_BUTTON_DELETE": "ลบ",
+
+            "DELETE_IMAGE_TITLE": "ลบรูปภาพ",
+            "DELETE_IMAGE_TEXT": "คุณต้องการลบภาพนี้หรือไม่?",
+            "DELETE_IMAGE_BUTTON_CANCEL": "ยกเลิก",
+            "DELETE_IMAGE_BUTTON_DELETE": "ลบ"
+        },
+        "WEATHER": {
+            "TITLE": "สภาพอากาศ",
+            "HOURLY_FORECAST": "พยากรณ์รายชั่วโมง",
+            "NOW": "ตอนนี้",
+            "FEELS_LIKE": "รู้สึกเหมือน",
+            "FEELS_LIKE_SAME": "ใกล้เคียงกับอุณหภูมิจริง",
+            "FEELS_LIKE_HUMIDITY": "ความชื้นทำให้รู้สึกอบอุ่นขึ้น",
+            "FEELS_LIKE_WIND": "ลมทำให้รู้สึกเย็นขึ้น",
+
+            "SUNRISE": "พระอาทิตย์ขึ้น",
+            "SUNSET": "พระอาทิตย์ขึ้น",
+            "WIND": "ลม",
+            "PRECIPITATION": "ปริมาณน้ำฝน",
+            "LAST_24H": "ในช่วง 24 ชั่วโมงที่ผ่านมา",
+            "EXPECTED_24H": "คาดว่าในอีก 24 ชั่วโมงข้างหน้า",
+
+            "TYPES": {
+                "CLOUDY": "เมฆมาก",
+                "LIGHT_RAIN": "ฝนตกปรอยๆ",
+                "HEAVY_RAIN": "ฝนตกหนัก",
+                "RAIN": "ฝน",
+                "SNOW": "หิมะ",
+                "FOG": "หมอก",
+                "CLEAR": "โปร่ง",
+                "MOSTLY_CLEAR": "ส่วนใหญ่โปร่ง",
+                "THUNDER": "ฟ้าร้อง",
+                "TORNADO": "พายุทอร์นาโด",
+                "WINDY": "ลมแรง"
+            }
+        },
+        "MESSAGES": {
+            "TITLE": "ข้อความ",
+            "NEW_MESSAGE": "ข้อความใหม่",
+            "PEOPLE": "คน",
+            "MEMBERS": "สมาชิก",
+            "OTHER": "อื่นๆ",
+            "SENT_A_PHOTO": "ส่งรูปภาพแล้ว",
+            "SENT": "ส่งแล้ว",
+            "REQUESTED": "ขอแล้ว",
+            "MISSED_CALL": "{หมายเลข} พยายามโทรหาคุณแต่คุณไม่รับ กดหมายเลขเพื่อโทรกลับ",
+            "NOT_DELIVERED": "ส่งไม่สำเร็จ",
+            "PLACEHOLDER": "เขียนข้อความ",
+            "DONE": "เสร็จสิ้น",
+            "CANCEL": "ยกเลิก",
+            "SEND": "ส่ง",
+            "UNKNOWN": "ไม่รู้จัก",
+            "TO": "ถึง",
+            "SEARCH": "ค้นหา",
+            "ADD_MEMBER": "เพิ่มสมาชิก",
+            "SHARE_LOCATION": "แบ่งปันตำแหน่งของฉัน",
+            "LEAVE_GROUP": "ออกจากการสนทนา",
+            "SENT_LOCATION": "แชร์ตำแหน่ง คลิกเพื่อเปิดใน Maps",
+            "SENT_LOCATION_SHORT": "แชร์ตำแหน่ง",
+
+            "REMOVE_POPUP": {
+                "TITLE": "ลบสมาชิก",
+                "TEXT": "คุณแน่ใจหรือไม่ว่าต้องการลบ {ชื่อ} ออกจากกลุ่ม",
+                "REMOVE": "ลบ"
+            },
+            "LEAVE_POPUP": {
+                "TITLE": "ออกกลุ่ม",
+                "TEXT": "คุณแน่ใจหรือว่าต้องการออกจากกลุ่มนี้?",
+                "LEAVE": "ออก"
+            },
+            "ADD_POPUP": {
+                "TITLE": "เพิ่มสมาชิก",
+                "TEXT": "พิมพ์หมายเลขเพื่อเพิ่มใน '{ชื่อ}' ในกลุ่มหรือไม่",
+                "ADD": "เพิ่ม"
+            },
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "แชร์ตำแหน่ง",
+                "TEXT": "คุณต้องการแชร์ตำแหน่งของคุณหรือไม่?",
+                "CANCEL": "ยกเลิก",
+                "SEND": "ส่ง"
+            },
+            "PAY": {
+                "REQUEST": "ขอร้อง",
+                "REQUESTED": "ขอร้องแล้ว",
+                "PAY": "จ่าย",
+                "SEND": "ส่ง",
+                "SEND_TITLE": "ส่ง {สกุลเงิน}{จำนวน}",
+                "SEND_DESCRIPTION": "คุณต้องการส่ง {สกุลเงิน}{จำนวน} ไปที่ {ชื่อ} หรือไม่?",
+                "SEND_BUTTON_CANCEL": "ยกเลิก",
+                "SEND_BUTTON_SEND": "ส่ง"
+            }
+        },
+        "PHONE": {
+            "TITLE": "โทรศัพท์",
+            "DONE": "เสร็จสิ้น",
+            "EDIT": "แก้ไข",
+            "CANCEL": "ยกเลิก",
+
+            "CALL": {
+                "CALL_TITLE": "โทร {ชื่อ}",
+                "CALL_TEXT": "คุณแน่ใจหรือว่าต้องการโทรหา {name}?",
+                "CALL_BUTTON_CANCEL": "ยกเลิก",
+                "CALL_BUTTON_CALL": "โทร",
+
+                "NO_CALLER_ID": "ไม่มี ID ผู้โทร",
+                "UNKNOWN": "ไม่รู้จัก",
+                "USER_BUSY": "ผู้ใช้ไม่ว่าง",
+                "USER_UNAVAILABLE": "ผู้ใช้ไม่พร้อมใช้งาน",
+                "CALL_BACK": "โทรกลับ",
+                "DECLINE": "ปฏิเสธ",
+                "ACCEPT": "ตกลง",
+                "END": "จบ",
+                "VIDEO_CALL": "วิดีโอคอล",
+
+                "MUTE": "ปิดเสียง",
+                "KEYPAD": "ปุ่มกด",
+                "SPEAKER": "ลำโพง",
+                "ADD_CALL": "เพิ่มการโทร",
+                "VIDEO": "วิดีโอ",
+                "CONTACTS": "รายชื่อผู้ติดต่อ",
+                "MOBILE": "มือถือ"
+            },
+
+            "CONTACTS": {
+                "TITLE": "รายชื่อติดต่อ",
+                "FIRST_NAME": "ชื่อจริง",
+                "LAST_NAME": "นามสกุล",
+                "PHONE_NUMBER": "หมายเลขโทรศัพท์",
+                "MY_CARD": "การ์ดของฉัน",
+                "ADD_PHOTO": "เพิ่มรูปภาพ",
+
+                "REMOVE_CONTACT_TITLE": "ลบผู้ติดต่อ",
+                "REMOVE_CONTACT_TEXT": "Aคุณแน่ใจหรือไม่ว่าต้องการลบรายชื่อติดต่อนี้",
+                "REMOVE_CONTACT_BUTTON_CANCEL": "ยกเลิก",
+                "REMOVE_CONTACT_BUTTON_DELETE": "ลบ",
+                "DELETE_CONTACT": "ลบรายชื่อติดต่อ",
+
+                "MESSAGE": "ข้อความ",
+                "CALL": "โทรศัพท์",
+                "VIDEO": "วิดีโอ",
+                "MAIN": "หลัก",
+
+                "SHARE_CONTACT": "แบ่งปันการติดต่อ",
+                "SHARE_LOCATION": "แบ่งปันตำแหน่งของฉัน",
+                "REMOVE_FAVORITE": "ลบออกจากรายการโปรด",
+                "ADD_FAVORITE": "เพิ่มในรายการโปรด",
+                "ADD_CONTACT": "เพิ่มในรายชื่อติดต่อ",
+
+                "UNBLOCK_CALLER": "เลิกบล็อกผู้โทรนี้",
+                "BLOCK_CALLER": "บล็อกผู้โทรนี้",
+
+                "UNBLOCK_NUMBER_TITLE": "ปลดบล็อคหมายเลข",
+                "UNBLOCK_NUMBER_TEXT": "คุณแน่ใจหรือไม่ว่าต้องการเลิกบล็อก {number}",
+                "UNBLOCK_NUMBER_BUTTON_CANCEL": "ยกเลิก",
+                "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "เลิกบล็อค",
+
+                "BLOCK_NUMBER_TITLE": "บล็อคหมายเลข",
+                "BLOCK_NUMBER_TEXT": "คุณแน่ใจหรือไม่ว่าต้องการบล็อก {number}",
+                "BLOCK_NUMBER_BUTTON_CANCEL": "ยกเลิก",
+                "BLOCK_NUMBER_BUTTON_BLOCK": "บล็อค"
+            },
+            "FAVOURITES": {
+                "TITLE": "รายการโปรด",
+
+                "REMOVE_TITLE": "ลบออกจากรายการโปรด",
+                "REMOVE_TEXT": "คุณแน่ใจหรือไม่ว่าต้องการลบผู้ติดต่อนี้ออกจากรายการโปรดของคุณ",
+                "REMOVE_BUTTON_CANCEL": "ยกเลิก",
+                "REMOVE_BUTTON_REMOVE": "ลบ"
+            },
+            "KEYPAD": {
+                "TITLE": "ปุ่มกด",
+                "ADD_NUMBER": "เพิ่มหมายเลข"
+            },
+            "RECENTS": {
+                "TITLE": "ล่าสุด"
+            }
+        },
+        "WALLET": {
+            "TITLE": "กระเป๋าสตางค์",
+            "BALANCE": "ยอดคงเหลือ",
+            "SEND": "ส่ง",
+            "NEXT": "ต่อไป",
+            "DONE": "เสร็จสิ้น",
+            "DONE_SUBTITLE": "คุณส่ง {amount} ถึง {number}",
+
+            "NO_REFUNDS": "การชำระเงินไม่สามารถคืนเงินได้ โปรดตรวจสอบหมายเลขอีกครั้ง",
+            "NEW_BALANCE": "ยอดคงเหลือใหม่",
+            "LATEST_TRANSACTIONS": "ธุรกรรมล่าสุด",
+
+            "NOW": "ตอนนี้",
+            "AGO": "ที่ผ่านมา"
+        },
+        "GARAGE": {
+            "TITLTE": "โรงรถ",
+
+            "ACTIONS": "การกระทำ",
+            "MY_CARS": "รถของฉัน",
+            "OUT": "ออก",
+            "GARAGE": "โรงรถ",
+            "LOCATION": "ตำแหน่ง",
+            "SUMMON": "เรียก",
+            "VALET": "บริการรับจอดรถ",
+            "STATISTICS": "สถิติ",
+            "FUEL": "เชื้อเพลิง",
+            "ENGINE": "เครื่องยนต์",
+            "BODY": "ตัวเครื่อง",
+
+            "WAYPOINT_POPUP": {
+                "TITLE": "ตั้งเป้าหมาย",
+                "TEXT": "คุณต้องการตั้งค่าเป้าหมาย ให้กับ {model} ของคุณหรือไม่?",
+                "CANCEL": "ยกเลิก",
+                "PROCEED": "ดำเนินการต่อ"
+            },
+            "VALET_POPUP": {
+                "TITLE": "บริการรับจอดรถ",
+                "TEXT": "คุณต้องการบริการรับจอดรถ {model} ({plate}) ของคุณหรือไม่?",
+                "TEXT_PAID": "คุณต้องการบริการรับจอดรถ {model} ({plate}) ของคุณเป็นจำนวน {amount} หรือไม่?ห",
+                "CANCEL": "ยกเลิก",
+                "PROCEED": "ดำเนินการต่อ"
+            }
+        },
+        "HOME": {
+            "TITLE": "บ้าน",
+            "MY_HOMES": "บ้านของฉัน",
+            "MY_HOME": "บ้านของฉัน",
+            "KEY_ACCESS": "Key Access",
+            "ACTIONS": "การกระทำ",
+            "FRONT_DOOR": "ประตูหน้าบ้าน",
+            "LOCATION": "ตำแหน่ง",
+            "SET_WAYPOINT": "ตั้งเป้าหมาย",
+            "UNLOCK": "ปลดล็อค",
+            "UNLOCKED": "ปลดล็อคแล้ว",
+            "LOCK": "ล็อค",
+            "LOCKED": "ล็อคแล้ว",
+            "GIVE_KEY": "Give Key",
+            "MANAGE": "จัดการ",
+
+            "WAYPOINT_POPUP": {
+                "TITLE": "ตั้งเป้าหมาย",
+                "TEXT": "คุณต้องการตั้งค่าเป้าหมายเป็น {บ้าน} หรือไม่?",
+                "CANCEL": "ยกเลิก",
+                "PROCEED": "ดำเนินการต่อ"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} หน้าแรก",
+                "TEXT": "คุณต้องการ {toggle} บ้านของคุณหรือไม่?",
+                "CANCEL": "ยกเลิก",
+                "PROCEED": "ดำเนินการต่อ"
+            },
+            "GIVE_KEY_POPUP": {
+                "TITLE": "ใส่คีย์",
+                "TEXT": "ใส่ ID ของบุคคลที่คุณต้องการให้รหัส",
+                "CANCEL": "ยกเลิก",
+                "PROCEED": "ดำเนินการต่อ"
+            },
+
+            "REMOVE_KEY_POPUP": {
+                "TITLE": "Remove Keyholder",
+                "TEXT": "คุณแน่ใจหรือไม่ว่าต้องการลบการเข้าถึงจาก {ชื่อ}?",
+                "CANCEL": "ยกเลิก",
+                "PROCEED": "ดำเนินการต่อ"
+            }
+        },
+        "MARKETPLACE": {
+            "CANCEL": "คุณแน่ใจหรือไม่ว่าต้องการลบรายชื่อนี้",
+            "SEARCH": "ค้นหารายการหรือหมายเลข",
+            "NEW_POST": "โพสต์ใหม่",
+            "TITLE": "ชื่อ",
+            "DESCRIPTION": "คำอธิบาย",
+            "PRICE": "ราคา",
+            "POST": "โพสต์",
+            "CONTACT": "ติดต่อ",
+            "REMOVE": "ลบ",
+
+            "DELETE_POPUP": {
+                "TITLE": "ลบรายการ",
+                "TEXT": "คุณแน่ใจหรือไม่ว่าต้องการลบรายชื่อนี้",
+                "CANCEL": "ยกเลิก",
+                "PROCEED": "ลบ"
+            }
+        },
+        "YELLOWPAGES": {
+            "SEARCH": "ค้นหาโพสต์หรือตัวเลข",
+            "FROM": "จาก",
+            "CANCEL": "ยกเลิก",
+            "NEW_POST": "โพสต์ใหม่",
+
+            "TITLE": "หัวข้อ",
+            "DESCRIPTION": "คำอธิบาย",
+            "PRICE": "ราคา",
+            "POST": "โพสต์",
+            "CALL": "คอล",
+
+            "DELETE_POPUP": {
+                "TITLE": "ลบโพสต์",
+                "TEXT": "คุณแน่ใจหรือไม่ว่าต้องการลบโพสต์นี้",
+                "CANCEL": "ยกเลิก",
+                "PROCEED": "ลบ"
+            }
+        }
+    },
+    "COMPONENTS": {
+        "CONTEXT_MENU": {
+            "CANCEL": "ยกเลิก",
+            "CALL": "คอล",
+            "VIDEO_CALL": "วิดีโอคอล",
+            "MESSAGE": "ข้อความ"
+        },
+        "IMAGE": {
+            "SAVE_TO_GALLERY": "บันทึกในแกลเลอรี่"
+        },
+        "GALLERY": {
+            "CANCEL": "ยกเลิก",
+            "EXTERNAL_URL": "URL ภายนอก"
+        },
+        "NOTIFICATIONS": {
+            "SENT_PHOTO": "ส่งรูปภาพแล้ว",
+            "SENT_GIF": "ส่ง GIF แล้ว",
+            "NOW": "ตอนนี้"
+        },
+        "SHARE": {
+            "COPY_PHOTO": "คัดลอกรูปภาพ",
+            "USE_WALLPAPER": "ใช้เป็นวอลเปเปอร์",
+            "COPY_NUMBER": "คัดลอกหมายเลข",
+
+            "AIRDROP_SENT": "ส่งแล้ว",
+
+            "WALLPAPER_POPUP": {
+                "TITLE": "ใช้เป็นวอลเปเปอร์",
+                "TEXT": "คุณแน่ใจหรือไม่ว่าต้องการตั้งค่ารูปภาพนี้เป็นวอลเปเปอร์ของคุณ",
+                "CANCEL": "ยกเลิก",
+                "PROCEED": "ดำเนินการต่อ"
+            }
+        },
+        "AIRDROP": {
+            "TITLE": "Airdrop",
+            "TEXT": "{ผู้ส่ง} ต้องการแบ่งปัน {ประเภท}",
+            "VIDEO": "วิดีโอ",
+            "PHOTO": "รูปภาพ",
+            "CONTACT": "รายชื่อผู้ติดต่อ",
+            "DECLINE": "ปฏิเสธ",
+            "ACCEPT": "ตกลง"
+        }
+    },
+    "SETUP": {
+        "HELLO": "สวัสดี",
+        "NEXT": "ต่อไป",
+
+        "CREATE_PASSCODE": "สร้างรหัส",
+        "CREATE_PASSCODE_TEXT": "รหัสผ่านเพื่อปกป้องข้อมูลของคุณและใช้เพื่อปลดล็อกโทรศัพท์ของคุณ",
+        "SKIP": "ข้ามขั้นตอนนี้",
+
+        "FACE_ID_SETUP": "ตั้งค่า Face ID",
+        "FACE_ID_TEXT": "ตั้งค่า Face ID เพื่อปลดล็อกโทรศัพท์โดยอัตโนมัติขณะที่คุณอยู่หน้าจอ",
+        "ENABLE_FACE_ID": "เปิดใช้งาน Face ID",
+
+        "APPEARANCE": "ลักษณะภายนอก",
+        "APPEARANCE_TEXT": "เลือกลักษณะภายนอกที่สว่างหรือมืด",
+
+        "CONTINUE": "ต่อไป",
+        "WELCOME_TO": "ยินดีต้อนรับสู่",
+        "CLICK": "กดเพื่อเริ่มต้น"
+    },
+    "HOMESCREEN": {
+        "DONE": "เสร็จสิ้น",
+        "REMOVE": "ลบ",
+        "REMOVE_TEXT": "การลบแอปนี้จะไม่ลบข้อมูลของแอป สามารถติดตั้งแอพใหม่ได้ในภายหลัง",
+        "BUTTON_CANCEL": "ยกเลิก",
+        "BUTTON_DELETE": "ลบ"
+    },
+    "LOCKSCREEN": {
+        "ENTER_PASSCODE": "ใส่รหัส",
+        "DELETE": "ลบ"
+    }
+}
