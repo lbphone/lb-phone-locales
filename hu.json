@@ -1,0 +1,615 @@
+{
+    "LABEL": "Magyar",
+    "SEARCH": "Keresés",
+    "CANCEL": "Mégsem",
+
+    "APPS": {
+        "SETTINGS": {
+            "TITLE": "Beállítások",
+            "BACK": "Vissza",
+            "DONE": "Befejez",
+            "EDIT": "Szerkesztés",
+
+            "AIRPLANE_MODE": "Repülőgép mód",
+            "STREAMER_MODE": "Streamer Mód",
+            "BLUETOOTH": "Bluetooth",
+            "GENERAL": "Általános",
+
+            "ABOUT": "Információk",
+            "NAME": "Név",
+            "VERSION": "Verzió",
+            "MODEL_NAME": "Model Név",
+            "SERIAL_NUMBER": "Szériaszám",
+            "DEVELOPED_BY": "Fejlesztve",
+            "PURCHASE_AT": "Vásárolva innét",
+            "SONGS": "Zenék",
+            "VIDEOS": "Videók",
+            "PHOTOS": "Fotók",
+            "APPLICATIONS": "Alkalmazások",
+            "CAPACITY": "Tárhely",
+            "AVAILABLE": "Elérhető",
+
+            "SOFTWARE_UPDATE": "Szoftver frissítés",
+            "AUTOMATIC_UPDATES": "Autómatikus frissítések",
+
+            "DATE_TIME": "Dátum és idő",
+            "24_HOUR_TIME": "24 órás idő",
+            "SET_AUTOMATICALLY": "Beállítás autómatikusan",
+            "TIME_ZONE": "Időzóna",
+
+            "LANGUAGE_REGION": "Nyelv és hely",
+            "LANGUAGE": "Nyelv",
+            "TEMPERATURE": "Hőmérséklet",
+            "BATTERY": "Akkumulátor",
+
+            "SOUND_HAPTICS": "Hangok",
+            "SOUND_HAPTICS_PATTERNS": "Csengőhang és értesítések",
+            "RINGTONE": "Csengőhang",
+            "TEXT_TONE": "Értesítések",
+            "RINGTONE_VOLUME": "Hívások és értesítések hangereje",
+            "DEFAULT": "Alapértelmezett",
+
+            "PHONE_STORAGE": "Telefon tárhely",
+            "STORAGE": "Tárhely",
+            "USED": "Felhasználva",
+            "OF": "ennyiből",
+
+            "DISPLAY_BRIGHTNESS": "Kijelző & Fényerő",
+            "APPEARANCE": "Megjelenés",
+            "AUTOMATIC": "Autómatikus",
+            "BRIGHTNESS": "Féynerő",
+            "PHONE_SCALE": "Telefon mérete",
+
+            "WALLPAPER": "Háttér",
+            "WALLPAPERS": "Hátterek",
+            "CHOOSE_NEW_WALLPAPER": "Válassz új hátteret",
+
+            "NOTIFICATIONS": "Értesítések",
+            "ALLOW_NOTIFICATIONS": "Értesítések engedélyezése",
+            "SOUNDS": "Hangok",
+
+            "PHONE": "Telefon",
+            "BLOCKED_CONTACTS": "Tiltott kontaktok",
+            "MY_NUMBER": "Saját számom",
+            "SHOW_CALLER_ID": "Hívás azonosító mutatása",
+
+            "UNBLOCK_POPUP": {
+                "TITLE": "Telefonszám feloldása",
+                "TEXT": "Biztosan feloldod ezt a számot?",
+                "CANCEL": "Mégsem",
+                "CONFIRM": "Feloldás"
+            },
+
+            "FACE_ID_PASSWORD": "Face ID & jelszó",
+            "ENTER_PASSCODE": "Írd be a jelszót",
+            "PASSCODE": "Jelszó",
+            "FACE_ID": "Face ID",
+            "RESET_FACE_ID": "Face ID visszaállítása",
+            "ENABLE_FACE_ID": "Face ID bekapcsolása",
+            "PIN_CODE": "Pin kód",
+
+            "DISABLE_FACE_ID_POPUP": {
+                "TITLE": "Face ID kikapcsolása",
+                "TEXT": "Biztosan ki akarod kapcsolni a Face ID-t?",
+                "CANCEL": "Mégsem",
+                "CONFIRM": "Kikapcsolás"
+            },
+
+            "ENABLE_FACE_ID_POPUP": {
+                "TITLE": "Face ID bekapcsolása",
+                "TEXT": "Biztosan bekapcsolod a Face ID-t?",
+                "CANCEL": "Mégsem",
+                "CONFIRM": "Bekapcsolás"
+            },
+            "DISABLE_PIN_POPUP": {
+                "TITLE": "Pin Code kikapcsolása",
+                "TEXT": "Biztosan kikapcsolod a Pin Code-ot? (Ez kikapcsolja a Face ID-t is)",
+                "CANCEL": "Mégsem",
+                "CONFIRM": "Kikapcsolás"
+            },
+            "TURN_PASSCODE_OFF": "Jelszó kikapcsolása",
+            "TURN_PASSCODE_ON": "Jelszó bekapcsolása",
+            "CHANGE_PASSCODE": "Jelszó megváltoztatása",
+            "CLOUD_BACKUP": "Felhőbeli mentés",
+            "YOUR_PROFILE": "Saját profil",
+            "CREATE_BACKUP": "Biztonsági mentés készítése",
+            "SAVE_BACKUP_POPUP": {
+                "TITLE": "Biztonsági mentés készítése",
+                "TEXT": "Biztosan elmentesz a felhőbe mindent? (Elmenti a kontaktokat, a galériát és a beállításokat)",
+                "CANCEL": "Mégsem",
+                "CONFIRM": "Mentés"
+            },
+            "BACKUPS": "Mentések",
+            "APPLY_BACKUP_POPUP": {
+                "TITLE": "Mentés betöltése",
+                "TEXT": "Biztosan betöltöd ezt a mentést? (Felül fogja írni a jelenlegi kontaktokat, galériát és a beállításaidat)",
+                "CANCEL": "Mégsem",
+                "CONFIRM": "Betöltés"
+            },
+            "SUCCESS": "Sikeres",
+            "SUCCESS_TEXT": "A telefon újraindul 5 másodpercen belül...",
+            "OK": "OK",
+            "REMOVE_BACKUP_POPUP": {
+                "TITLE": "Mentés eltávolítása",
+                "TEXT": "Biztosan eltávolítod ezt a mentést?",
+                "CANCEL": "Mégsem",
+                "CONFIRM": "Eltávolítás"
+            },
+            "ON": "On"
+        },
+        "NOTES": {
+            "TITLE": "Jegyzetek",
+            "SEARCH_PLACEHOLDER": "Keresés",
+            "FOOTER": "{amount} Jegyzetek",
+            "NEW_NOTE": "Új jegyzet",
+            "LAST_EDITED": "Utoljára szerkesztve: {date}",
+            "DELETE_TITLE": "Törlés {title}",
+            "DELETE_TEXT": "Biztosan törlöd ezt '{title}'?",
+            "BUTTON_CANCEL": "Mégsem",
+            "BUTTON_DELETE": "Törlés"
+        },
+        "CLOCK": {
+            "WORLDCLOCK": {
+                "TITLE": "Világóra",
+                "TODAY": "Ma",
+                "TOMORROW": "Holnap",
+                "YESTERDAY": "Tegnap"
+            },
+            "ALARM": {
+                "TITLE": "Ébresztő",
+                "ADD": "Ébresztő hozzáadása",
+                "CANCEL": "Mégsem",
+                "EDIT": "Szerkesztés",
+                "DONE": "Kész",
+                "SAVE": "Mentés",
+                "LABEL": "Elnevezés",
+                "SOUND": "Hang",
+                "SNOOZE": "Szundi",
+                "DELETE_TITLE": "Ébresztés törlése",
+                "DELETE_TEXT": "Biztosan törlöd ezt az ébresztést?",
+                "BUTTON_CANCEL": "Mégsem",
+                "BUTTON_DELETE": "Törlés"
+            },
+            "STOPWATCH": {
+                "TITLE": "Időzítő",
+                "START": "Start",
+                "STOP": "Stop",
+                "RESET": "Nullázás",
+                "LAP": "Kör"
+            },
+            "TIMER": {
+                "TITLE": "Visszaszámláló",
+                "START": "Start",
+                "STOP": "Stop",
+                "CANCEL": "Mégsem",
+                "HOURS": "óra",
+                "MINUTES": "perc",
+                "SECONDS": "másodperc"
+            },
+            "ALERT": {
+                "STOP": "Stop"
+            }
+        },
+        "CAMERA": {
+            "VIDEO": "Videó",
+            "PHOTO": "Fotó",
+            "LANDSCAPE": "Portré",
+            "UPLOADING": "Feltöltés"
+        },
+        "DARKCHAT": {
+            "TITLE": "Dark Chat",
+            "USERNAME": "Felhasználónév",
+            "SET_USERNAME": "Állítsd be a felhasználóneved. MEGJEGYZÉS: CSAK EGYSZER ÁLLÍTHATÓ BE.",
+            "CANCEL": "Mégsem",
+            "SET": "Beállítás",
+            "JOIN": "Csatlakozás",
+            "LEAVE": "Kilépés",
+            "NEW_ROOM": "Új csatorna",
+            "NEW_ROOM_TEXT": "Írd be egy csatorna kódját, hogy csatlakozz vagy hozz létre eggyet",
+            "ROOM_CODE": "Csatorna kódja",
+            "LEAVE_ROOM": "CSatorna elhagyása",
+            "LEAVE_ROOM_TEXT": "Biztosan elhagyod ezt a csatornát?",
+            "NOW": "Most",
+            "INPUT_PLACEHOLDER": "Írd üzenetet..."
+        },
+        "APPSTORE": {
+            "TITLE": "Alkalmazások",
+            "SEARCH": "Keresés",
+            "GET": "Letöltés",
+            "OPEN": "Megynitás",
+            "TODAY": "Ma",
+            "GAMES": "Játékok",
+            "WHAT_WE_PLAYING": "Mit játszunk?",
+            "INFORMATION": "Információ",
+            "PROVIDER": "Fejlesztő",
+            "SIZE": "Méret",
+            "COMPATIBILITY": "Kompatibilitás",
+            "IN_APP_PURCHASES": "Alkalmazáson belüli vásárlások"
+        },
+        "PHOTOS": {
+            "TITLE": "Galéria",
+            "SELECT": "Kiválasztás",
+            "CANCEL": "Mégsem",
+            "SELECT_ITEMS": "Elemek kiválasztása",
+            "SELECTED_COUNT": "{count} Elem kiválasztva",
+            "PHOTO_COUNT": "{count} fotó",
+
+            "DELETE_TITLE": "{count} kép törlése",
+            "DELETE_TEXT": "Biztosan kitörölsz {count} képet?",
+            "DELETE_BUTTON_CANCEL": "Mégsem",
+            "DELETE_BUTTON_DELETE": "Törlés",
+
+            "DELETE_IMAGE_TITLE": "Kép törlése",
+            "DELETE_IMAGE_TEXT": "Biztosan kitörlöd ezt a képet?",
+            "DELETE_IMAGE_BUTTON_CANCEL": "Mégsem",
+            "DELETE_IMAGE_BUTTON_DELETE": "Törlés"
+        },
+        "WEATHER": {
+            "TITLE": "Időjárás",
+            "HOURLY_FORECAST": "Óránkénti előrejelzés",
+            "NOW": "Most",
+            "FEELS_LIKE": "Érzékelhető",
+            "FEELS_LIKE_SAME": "Hasonló a jelenlegi hőmérséklethez.",
+            "FEELS_LIKE_HUMIDITY": "A páratartalomnak köszönhetően melegebbnek érezhető",
+            "FEELS_LIKE_WIND": "A szl miatt hűvösebb",
+
+            "SUNRISE": "Napfelkelte",
+            "SUNSET": "Naplemente",
+            "WIND": "Szél",
+            "PRECIPITATION": "Csapadék",
+            "LAST_24H": "elmúlt 24 órában",
+            "EXPECTED_24H": "előreláthatólag a következő 24 órában",
+
+            "TYPES": {
+                "CLOUDY": "Felhős",
+                "LIGHT_RAIN": "Enyhe esőzés",
+                "HEAVY_RAIN": "Viharos eső",
+                "RAIN": "Eső",
+                "SNOW": "Havazás",
+                "FOG": "Köd",
+                "CLEAR": "Felhőtlen",
+                "MOSTLY_CLEAR": "Javarészt felhőtlen",
+                "THUNDER": "Vihar",
+                "TORNADO": "Tornádó",
+                "WINDY": "Szellős"
+            }
+        },
+        "MESSAGES": {
+            "TITLE": "Üzenetek",
+            "NEW_MESSAGE": "Új üzenetek",
+            "PEOPLE": "Emberek",
+            "MEMBERS": "Tagok",
+            "OTHER": "Egyéb",
+            "SENT_A_PHOTO": "Fotó küldése",
+            "SENT": "Elküldve",
+            "REQUESTED": "Igényelve",
+            "MISSED_CALL": "{number} hívni próbélt, de nem válaszoltál, nyomd meg a számot, hogy visszahívd",
+            "NOT_DELIVERED": "Nincs átküldve",
+            "PLACEHOLDER": "Szöveges üzenet",
+            "DONE": "Kész",
+            "CANCEL": "Mégsem",
+            "SEND": "Elküldés",
+            "UNKNOWN": "Ismeretlen",
+            "TO": "Neki",
+            "SEARCH": "Keresés",
+            "ADD_MEMBER": "Tag hozzáadása",
+            "SHARE_LOCATION": "Pozíció megosztása",
+            "LEAVE_GROUP": "BEszélgetés elhagyása",
+            "SENT_LOCATION": "Megosztotta a helyzetét, kattints rá, hogy megnyisd a térképen",
+            "SENT_LOCATION_SHORT": "Megosztotta a helyzetét",
+
+            "REMOVE_POPUP": {
+                "TITLE": "Tag eltávolítása",
+                "TEXT": "Biztosan eltávolítod őt {name} a beszélgetésből?",
+                "REMOVE": "Eltávolítás"
+            },
+            "LEAVE_POPUP": {
+                "TITLE": "BEszélgetés elhagyása",
+                "TEXT": "Biztosan elhagyod ezt a beszélgetést?",
+                "LEAVE": "Elhagyás"
+            },
+            "ADD_POPUP": {
+                "TITLE": "Tag hozzáadása",
+                "TEXT": "Írd be a számát annak, akit hozzá szeretnél adni ehhez a csoporhoz '{name}'",
+                "ADD": "Hozzáadás"
+            },
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "Pozíció megosztása",
+                "TEXT": "Biztosan megosztod a helyzeted?",
+                "CANCEL": "Mégsem",
+                "SEND": "Küldés"
+            },
+            "PAY": {
+                "REQUEST": "Igénylés",
+                "REQUESTED": "Igényelve",
+                "PAY": "Fizetés",
+                "SEND": "SKüldés",
+                "SEND_TITLE": "Küldés {currency}{amount}",
+                "SEND_DESCRIPTION": "Biztosan elküldesz ennyit {currency}{amount} neki {name}?",
+                "SEND_BUTTON_CANCEL": "Mégsem",
+                "SEND_BUTTON_SEND": "Küldés"
+            }
+        },
+        "PHONE": {
+            "TITLE": "Telefon",
+            "DONE": "Kész",
+            "EDIT": "Szerkesztés",
+            "CANCEL": "Mégsem",
+
+            "CALL": {
+                "CALL_TITLE": "Felhívás {name}",
+                "CALL_TEXT": "Biztosan felhívod {name}?",
+                "CALL_BUTTON_CANCEL": "Mégsem",
+                "CALL_BUTTON_CALL": "Hívás",
+
+                "NO_CALLER_ID": "Nincs hívás azonosító",
+                "UNKNOWN": "Ismeretlen",
+                "USER_BUSY": "Foglalt",
+                "USER_UNAVAILABLE": "Nem elérhető",
+                "CALL_BACK": "Visszahívás",
+                "DECLINE": "Elutasítás",
+                "ACCEPT": "Elfogadás",
+                "END": "Befejez",
+                "VIDEO_CALL": "Videó hívás",
+
+                "MUTE": "némítás",
+                "KEYPAD": "billentyűk",
+                "SPEAKER": "kihangosítás",
+                "ADD_CALL": "hívás hozzáadása",
+                "VIDEO": "videó",
+                "CONTACTS": "kontaktok",
+                "MOBILE": "Mobil"
+            },
+
+            "CONTACTS": {
+                "TITLE": "Kontaktok",
+                "FIRST_NAME": "Vezetéknév",
+                "LAST_NAME": "Keresztnév",
+                "PHONE_NUMBER": "Telefonszám",
+                "MY_CARD": "Saját kártya",
+                "ADD_PHOTO": "Fotó hozzáadása",
+
+                "REMOVE_CONTACT_TITLE": "Kontakt eltávolítása",
+                "REMOVE_CONTACT_TEXT": "Biztosan eltávolítod ezt a kontaktot?",
+                "REMOVE_CONTACT_BUTTON_CANCEL": "Mégsem",
+                "REMOVE_CONTACT_BUTTON_DELETE": "Eltávoltítás",
+                "DELETE_CONTACT": "Kontakt törlése",
+
+                "MESSAGE": "üzenet",
+                "CALL": "hanghívás",
+                "VIDEO": "videóhívás",
+                "MAIN": "telefonszám",
+
+                "SHARE_CONTACT": "Kontakt megosztása",
+                "SHARE_LOCATION": "Helyzetem megosztása",
+                "REMOVE_FAVORITE": "Eltávolítás a kedvencekből",
+                "ADD_FAVORITE": "Kedvencekhez adás",
+                "ADD_CONTACT": "Mentés ak ontaktokba",
+
+                "UNBLOCK_CALLER": "Hívó feloldása",
+                "BLOCK_CALLER": "Hívó blokkolása",
+
+                "UNBLOCK_NUMBER_TITLE": "Telefonszám feloldása",
+                "UNBLOCK_NUMBER_TEXT": "Biztosan feloldod ezt a számot {number}?",
+                "UNBLOCK_NUMBER_BUTTON_CANCEL": "Mégsem",
+                "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Feloldás",
+
+                "BLOCK_NUMBER_TITLE": "Telefonszám blokkolása",
+                "BLOCK_NUMBER_TEXT": "Biztosan szeretnéd blokkolni ezt a számot {number}?",
+                "BLOCK_NUMBER_BUTTON_CANCEL": "Mégsem",
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Blokkolás"
+            },
+            "FAVOURITES": {
+                "TITLE": "Kedvencek",
+
+                "REMOVE_TITLE": "Eltávolítás a kedvencekből",
+                "REMOVE_TEXT": "Biztopsan eltávolítod ezt a kontaktok a kedvencekből?",
+                "REMOVE_BUTTON_CANCEL": "Mégsem",
+                "REMOVE_BUTTON_REMOVE": "Eltávolítás"
+            },
+            "KEYPAD": {
+                "TITLE": "Billentyűzet",
+                "ADD_NUMBER": "Szám hozzáadása"
+            },
+            "RECENTS": {
+                "TITLE": "Előzmények"
+            }
+        },
+        "WALLET": {
+            "TITLE": "Wallet",
+            "BALANCE": "Egyenleg",
+            "SEND": "Küldés",
+            "NEXT": "Következő",
+            "DONE": "Kész",
+            "DONE_SUBTITLE": "Elküldve {amount} neki {number}",
+
+            "NO_REFUNDS": "A kifizetések nem visszavonhatóak, ellenőrizd a számot kétszer.",
+            "NEW_BALANCE": "Új egyenleg",
+            "LATEST_TRANSACTIONS": "Tranzakció előzmények",
+
+            "NOW": "Most",
+            "AGO": "ideje"
+        },
+        "GARAGE": {
+            "TITLTE": "Garázs",
+
+            "ACTIONS": "Lehetőségek",
+            "MY_CARS": "Járműveim",
+            "OUT": "Kint",
+            "GARAGE": "Garázs",
+            "LOCATION": "Elhelyezkedése",
+            "SUMMON": "Megidézés",
+            "VALET": "Valet",
+            "STATISTICS": "Statisztikák",
+            "FUEL": "Üzemanyag",
+            "ENGINE": "Motor",
+            "BODY": "Karosszéria",
+
+            "WAYPOINT_POPUP": {
+                "TITLE": "Jelöléss térképen",
+                "TEXT": "Szeretnél egy jelölést a térképen ehhez {model}?",
+                "CANCEL": "Mégsem",
+                "PROCEED": "Mehet"
+            },
+            "VALET_POPUP": {
+                "TITLE": "Valet",
+                "TEXT": "Do you want to valet your {model} ({plate})?",
+                "TEXT_PAID": "Do you want to valet your {model} ({plate}) for {amount}?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            }
+        },
+        "HOME": {
+            "TITLE": "Otthon",
+            "MY_HOMES": "Otthonaim",
+            "MY_HOME": "Otthonom",
+            "KEY_ACCESS": "Kulcs hozzáférés",
+            "ACTIONS": "Lehetőségek",
+            "FRONT_DOOR": "Bejárati ajtó",
+            "LOCATION": "Terület",
+            "SET_WAYPOINT": "Jelölés a térképen",
+            "UNLOCK": "Kinyitás",
+            "UNLOCKED": "Kinyitva",
+            "LOCK": "Bezárás",
+            "LOCKED": "Bezárva",
+            "GIVE_KEY": "Kulcs adása",
+            "MANAGE": "Kezelés",
+
+            "WAYPOINT_POPUP": {
+                "TITLE": "Célpont beállítása",
+                "TEXT": "Biztosan szeretnéd a célállomásodat erre állítani {home}?",
+                "CANCEL": "Mégsem",
+                "PROCEED": "Induljunk"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} Otthon",
+                "TEXT": "Biztosan szeretnéd {toggle} az otthonod?",
+                "CANCEL": "Mégsem",
+                "PROCEED": "Mehet"
+            },
+            "GIVE_KEY_POPUP": {
+                "TITLE": "Kulcs adása",
+                "TEXT": "Írd be a játékos számát akinek a kulcsot szeretnéd adni",
+                "CANCEL": "Mégsem",
+                "PROCEED": "Mehet"
+            },
+
+            "REMOVE_KEY_POPUP": {
+                "TITLE": "Kulcstartó eltávolítása",
+                "TEXT": "Biztosan elveszed a hozzáférést ettől a háztól {name}?",
+                "CANCEL": "Mégsem",
+                "PROCEED": "Mehet"
+            }
+        },
+        "MARKETPLACE": {
+            "CANCEL": "Mégsem",
+            "SEARCH": "Keressen listákat vagy számokat",
+            "NEW_POST": "Új poszt",
+            "TITLE": "Cím",
+            "DESCRIPTION": "Leíráss",
+            "PRICE": "ÁR",
+            "POST": "Poszt",
+            "CONTACT": "Kontakt",
+            "REMOVE": "Eltávolítás",
+
+            "DELETE_POPUP": {
+                "TITLE": "Eltávolítás a listából",
+                "TEXT": "Biztossan törlöd a listátból?",
+                "CANCEL": "Mégsem",
+                "PROCEED": "TÖRLÉS"
+            }
+        },
+        "YELLOWPAGES": {
+            "SEARCH": "Keress posztokat vagy számokat",
+            "FROM": "Tőle",
+            "CANCEL": "Mégsem",
+            "NEW_POST": "Úk poszt",
+
+            "TITLE": "Cím",
+            "DESCRIPTION": "Leírás",
+            "PRICE": "ÁR",
+            "POST": "Poszt",
+            "CALL": "Hívás",
+
+            "DELETE_POPUP": {
+                "TITLE": "Poszt törlése",
+                "TEXT": "Biztosan törlöd ezt a posztot?",
+                "CANCEL": "Mégsem",
+                "PROCEED": "Törlés"
+            }
+        }
+    },
+    "COMPONENTS": {
+        "CONTEXT_MENU": {
+            "CANCEL": "Mégsem",
+            "CALL": "Hívás",
+            "VIDEO_CALL": "Videó hívás",
+            "MESSAGE": "Üzenet"
+        },
+        "IMAGE": {
+            "SAVE_TO_GALLERY": "Mentés galériába"
+        },
+        "GALLERY": {
+            "CANCEL": "Mégsem",
+            "EXTERNAL_URL": "Külső URL"
+        },
+        "NOTIFICATIONS": {
+            "SENT_PHOTO": "Fényképet küldött",
+            "SENT_GIF": "GIF-et küldött",
+            "NOW": "most"
+        },
+        "SHARE": {
+            "COPY_PHOTO": "Kép másolása",
+            "USE_WALLPAPER": "Beállítás háttérképként",
+            "COPY_NUMBER": "telefonszám másolása",
+
+            "AIRDROP_SENT": "Elküldve",
+
+            "WALLPAPER_POPUP": {
+                "TITLE": "Beállítás háttérképként",
+                "TEXT": "Biztosan beállítod háttérképként?",
+                "CANCEL": "Mégsem",
+                "PROCEED": "Beállítás"
+            }
+        },
+        "AIRDROP": {
+            "TITLE": "Airdrop",
+            "TEXT": "{sender} meg szeretne osztani egy {type}",
+            "VIDEO": "videót",
+            "PHOTO": "fényképet",
+            "CONTACT": "kontaktot",
+            "DECLINE": "Elutasítás",
+            "ACCEPT": "Elfogadás"
+        }
+    },
+    "SETUP": {
+        "HELLO": "Szia",
+        "NEXT": "Kattints a megnyitáshoz",
+
+        "CREATE_PASSCODE": "Készíts egy jelszót",
+        "CREATE_PASSCODE_TEXT": "A jeslzó megvédi az adataidat és atelefonodat.",
+        "SKIP": "Lépés átugrása",
+
+        "FACE_ID_SETUP": "Face ID Beállíása",
+        "FACE_ID_TEXT": "A Face ID autómatikusan feloldja a elefonod ha a kamerába nézel.",
+        "ENABLE_FACE_ID": "Face ID bekapcsolása",
+
+        "APPEARANCE": "Megjelenés",
+        "APPEARANCE_TEXT": "Válassz a világos és sötét megjelenések közül",
+
+        "CONTINUE": "Folyatás",
+        "WELCOME_TO": "Üdbözlünk",
+        "CLICK": "Kattints a kezdéshez"
+    },
+    "HOMESCREEN": {
+        "DONE": "Kész",
+        "REMOVE": "Eltávolítás",
+        "REMOVE_TEXT": "Az alkalmazás törlésekor az adat nem vész el. Az alkalmazás továbbra is elérhető marad az AppStore-ban.",
+        "BUTTON_CANCEL": "Mégsem",
+        "BUTTON_DELETE": "Eltávolítás"
+    },
+    "LOCKSCREEN": {
+        "ENTER_PASSCODE": "Írd be a jelszót",
+        "DELETE": "Törlés"
+    }
+}
