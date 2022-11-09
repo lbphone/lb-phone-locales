@@ -228,7 +228,7 @@
         },
         "PHOTOS": {
             "TITLE": "Bilder",
-            "Velg": "Velg",
+            "SELECT": "Velg",
             "CANCEL": "Avbryt",
             "SELECT_ITEMS": "Velg Bilder",
             "SELECTED_COUNT": "{count} Bilder Valgt",
@@ -333,7 +333,7 @@
         "PHONE": {
             "TITLE": "Telefon",
             "DONE": "Ferdig",
-            "EDIT": "Endre",
+            "EDIT": "Andre",
             "CANCEL": "Avbryt",
 
             "CALL": {
@@ -511,7 +511,7 @@
             "POST": "Legg ut",
             "CONTACT": "Kontakt",
             "DELETE": "Slett",
-
+            "REMOVE": "Fjern",
             "DELETE_POPUP": {
                 "TITLE": "Slett Annonse",
                 "TEXT": "Er du sikker på at du vil slette annonsen?",
