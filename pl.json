@@ -1,0 +1,615 @@
+{
+    "LABEL": "Polski",
+    "SEARCH": "Szukaj",
+    "CANCEL": "Anuluj",
+
+    "APPS": {
+        "SETTINGS": {
+            "TITLE": "Ustawienia",
+            "BACK": "Wróć",
+            "DONE": "Gotowe",
+            "EDIT": "Edytuj",
+
+            "AIRPLANE_MODE": "Tryb samolotowy",
+            "STREAMER_MODE": "Tryb streamera",
+            "BLUETOOTH": "Bluetooth",
+            "GENERAL": "Główne",
+
+            "ABOUT": "O mnie",
+            "NAME": "Nazwa",
+            "VERSION": "Wersja",
+            "MODEL_NAME": "Model",
+            "SERIAL_NUMBER": "Numer Seryjny",
+            "DEVELOPED_BY": "Opracowany Przez",
+            "PURCHASE_AT": "Zakupione na",
+            "SONGS": "Piosenki",
+            "VIDEOS": "Wideo",
+            "PHOTOS": "Zdjęcia",
+            "APPLICATIONS": "Aplikacje",
+            "CAPACITY": "Pojemność",
+            "AVAILABLE": "Dostępne",
+
+            "SOFTWARE_UPDATE": "Aktualizacja Oprogramowania",
+            "AUTOMATIC_UPDATES": "Automatyczne Aktualizacje",
+
+            "DATE_TIME": "Data i Czas",
+            "24_HOUR_TIME": "Format 24 Godzinny",
+            "SET_AUTOMATICALLY": "Ustaw Automatycznie",
+            "TIME_ZONE": "Strefa Czasowa",
+
+            "LANGUAGE_REGION": "Język i Region",
+            "LANGUAGE": "Język",
+            "TEMPERATURE": "Temperatura",
+            "BATTERY": "Bateria",
+
+            "SOUND_HAPTICS": "Dźwięki i haptyka",
+            "SOUND_HAPTICS_PATTERNS": "Wzory dźwięku i haptyki",
+            "RINGTONE": "Dzwonek",
+            "TEXT_TONE": "Dźwięk Tekstowy",
+            "RINGTONE_VOLUME": "Głośność dzwonka i powiadomienia",
+            "DEFAULT": "Domyślne",
+
+            "PHONE_STORAGE": "Pamięć Telefonu",
+            "STORAGE": "Pamięć",
+            "USED": "Użyte",
+            "OF": "Z",
+
+            "DISPLAY_BRIGHTNESS": "Wyświetlacz i Jasność",
+            "APPEARANCE": "Wygląd",
+            "AUTOMATIC": "Automatyczne",
+            "BRIGHTNESS": "Jasność",
+            "PHONE_SCALE": "Skala Telefonu",
+
+            "WALLPAPER": "Tapeta",
+            "WALLPAPERS": "Tapety",
+            "CHOOSE_NEW_WALLPAPER": "Wybierz nową tapete",
+
+            "NOTIFICATIONS": "Powiadomienia",
+            "ALLOW_NOTIFICATIONS": "Zezwól na powiadomienia",
+            "SOUNDS": "Dźwięki",
+
+            "PHONE": "Telefon",
+            "BLOCKED_CONTACTS": "Zablokowane Kontakty",
+            "MY_NUMBER": "Mój numer",
+            "SHOW_CALLER_ID": "Pokaż ID rozmówcy",
+
+            "UNBLOCK_POPUP": {
+                "TITLE": "Odblokuj numer",
+                "TEXT": "Czy na pewno chcesz odblokować ten numer?",
+                "CANCEL": "Anuluj",
+                "CONFIRM": "Odblokuj"
+            },
+
+            "FACE_ID_PASSWORD": "Face ID & PIN",
+            "ENTER_PASSCODE": "Wprowadź PIN",
+            "PASSCODE": "PIN",
+            "FACE_ID": "Face ID",
+            "RESET_FACE_ID": "Restartuj Face ID",
+            "ENABLE_FACE_ID": "Włącz Face ID",
+            "PIN_CODE": "Kod PIN",
+
+            "DISABLE_FACE_ID_POPUP": {
+                "TITLE": "Wyłącz Face ID",
+                "TEXT": "Czy na pewno chcesz wyłączyć Face ID?",
+                "CANCEL": "Anuluj",
+                "CONFIRM": "Wyłącz"
+            },
+
+            "ENABLE_FACE_ID_POPUP": {
+                "TITLE": "Włącz Face ID",
+                "TEXT": "Czy na pewno chcesz włączyć Face ID?",
+                "CANCEL": "Anuluj",
+                "CONFIRM": "Włącz"
+            },
+            "DISABLE_PIN_POPUP": {
+                "TITLE": "Wyłącz kod PIN",
+                "TEXT": "Czy na pewno chczesz wyłączyć kod PIN? (Spowoduje to również wyłączenie Face ID)",
+                "CANCEL": "Anuluj",
+                "CONFIRM": "Wyłącz"
+            },
+            "TURN_PASSCODE_OFF": "Wyłącz Hasło",
+            "TURN_PASSCODE_ON": "Włącz Hasło",
+            "CHANGE_PASSCODE": "Zmień hasło",
+            "CLOUD_BACKUP": "Kopia Zapasowa",
+            "YOUR_PROFILE": "Twój profil",
+            "CREATE_BACKUP": "Stwórz kopie zapasową",
+            "SAVE_BACKUP_POPUP": {
+                "TITLE": "Zapisz kopie zapasową",
+                "TEXT": "Czy na pewno chcesz zapisać kopię zapasową swoich danych? (Zapisuje Twoje kontakty, zdjęcia i ustawienia)",
+                "CANCEL": "Anuluj",
+                "CONFIRM": "Zapisz"
+            },
+            "BACKUPS": "Kopie Zapasowe",
+            "APPLY_BACKUP_POPUP": {
+                "TITLE": "Użyj kopię zapasową",
+                "TEXT": "Czy na pewno chcesz użyć tę kopię zapasową? (Zastąpi Twoje kontakty, zdjęcia i ustawienia)",
+                "CANCEL": "Anuluj",
+                "CONFIRM": "Użyj"
+            },
+            "SUCCESS": "Udało się!",
+            "SUCCESS_TEXT": "Telefon uruchomi się ponownie za 5 sekund...",
+            "OK": "OK",
+            "REMOVE_BACKUP_POPUP": {
+                "TITLE": "Usuń kopię zapasowa",
+                "TEXT": "Czy na pewno chcesz usunąć tę kopię zapasową??",
+                "CANCEL": "Anuluj",
+                "CONFIRM": "Usuń"
+            },
+            "ON": "Włącz"
+        },
+        "NOTES": {
+            "TITLE": "Notatki",
+            "SEARCH_PLACEHOLDER": "Szukaj",
+            "FOOTER": "{amount} Notatek",
+            "NEW_NOTE": "Nowa notatka",
+            "LAST_EDITED": "Ostatnio edytowane: {date}",
+            "DELETE_TITLE": "Usuń {title}",
+            "DELETE_TEXT": "Czy napewno chcesz usunąć '{title}'?",
+            "BUTTON_CANCEL": "Anuluj",
+            "BUTTON_DELETE": "Usuń"
+        },
+        "CLOCK": {
+            "WORLDCLOCK": {
+                "TITLE": "Zegar światowy",
+                "TODAY": "Dziś",
+                "TOMORROW": "Jutro",
+                "YESTERDAY": "Wczoraj"
+            },
+            "ALARM": {
+                "TITLE": "Alarm",
+                "ADD": "Dodawj Alarm",
+                "CANCEL": "Anuluj",
+                "EDIT": "Edytuj",
+                "DONE": "Gotowe",
+                "SAVE": "Zapisz",
+                "LABEL": "Etykieta",
+                "SOUND": "Dźwięk",
+                "SNOOZE": "Drzemka",
+                "DELETE_TITLE": "Usuń Alarm",
+                "DELETE_TEXT": "Czy na pewno chcesz usunąć ten alarm??",
+                "BUTTON_CANCEL": "Anuluj",
+                "BUTTON_DELETE": "Usuń"
+            },
+            "STOPWATCH": {
+                "TITLE": "Stoper",
+                "START": "Start",
+                "STOP": "Stop",
+                "RESET": "Resetuj",
+                "LAP": "Pomiar"
+            },
+            "TIMER": {
+                "TITLE": "Minutnik",
+                "START": "Start",
+                "STOP": "Stop",
+                "CANCEL": "Anuluj",
+                "HOURS": "Godziny",
+                "MINUTES": "Minuty",
+                "SECONDS": "Sekundy"
+            },
+            "ALERT": {
+                "STOP": "Stop"
+            }
+        },
+        "CAMERA": {
+            "VIDEO": "Wideo",
+            "PHOTO": "Zdjęcia",
+            "LANDSCAPE": "Krajobraz",
+            "UPLOADING": "Przesyłanie"
+        },
+        "DARKCHAT": {
+            "TITLE": "Dark Chat",
+            "USERNAME": "Nazwa użytkownika",
+            "SET_USERNAME": "Ustaw swoją nazwę użytkownika. UWAGA: MOŻNA TO USTAWIĆ TYLKO RAZ.",
+            "CANCEL": "Anuluj",
+            "SET": "Ustaw",
+            "JOIN": "Dołącz",
+            "LEAVE": "Opuść",
+            "NEW_ROOM": "Nowy pokój",
+            "NEW_ROOM_TEXT": "Wpisz kod, aby dołączyć lub utworzyć pokój",
+            "ROOM_CODE": "Kod Pokoju",
+            "LEAVE_ROOM": "Opuść pokój",
+            "LEAVE_ROOM_TEXT": "Czy na pewno chcesz opuścić ten pokój??",
+            "NOW": "Teraz",
+            "INPUT_PLACEHOLDER": "Napisz wiadomość..."
+        },
+        "APPSTORE": {
+            "TITLE": "Aplikacje",
+            "SEARCH": "Szukaj",
+            "GET": "Pobierz",
+            "OPEN": "Otwórz",
+            "TODAY": "Dziś",
+            "GAMES": "Gry",
+            "WHAT_WE_PLAYING": "W co gramy",
+            "INFORMATION": "Informacje",
+            "PROVIDER": "Dostawca",
+            "SIZE": "Rozmiar",
+            "COMPATIBILITY": "Zgodność",
+            "IN_APP_PURCHASES": "Zakupy w aplikacji"
+        },
+        "PHOTOS": {
+            "TITLE": "Zdjęcia",
+            "SELECT": "Wybierz",
+            "CANCEL": "Anuluj",
+            "SELECT_ITEMS": "Wybrane zdjęcia",
+            "SELECTED_COUNT": "{count} wybranych zdjęć",
+            "PHOTO_COUNT": "{count} Zdjęc",
+
+            "DELETE_TITLE": "Usuń {count} images",
+            "DELETE_TEXT": "Czy na pewno chcesz usunąć {count} zdjęć",
+            "DELETE_BUTTON_CANCEL": "Anuluj",
+            "DELETE_BUTTON_DELETE": "Usuń",
+
+            "DELETE_IMAGE_TITLE": "Usuń zdjęcie",
+            "DELETE_IMAGE_TEXT": "Czy na pewno chcesz usunąć to zdjęcie?",
+            "DELETE_IMAGE_BUTTON_CANCEL": "Anuluj",
+            "DELETE_IMAGE_BUTTON_DELETE": "Usuń"
+        },
+        "WEATHER": {
+            "TITLE": "Pogoda",
+            "HOURLY_FORECAST": "Prognoza",
+            "NOW": "Teraz",
+            "FEELS_LIKE": "Odczuwalna",
+            "FEELS_LIKE_SAME": "Odczuwalna temperatura.",
+            "FEELS_LIKE_HUMIDITY": "Wilgotność sprawia, że ​​jest cieplej",
+            "FEELS_LIKE_WIND": "Wiatr sprawia, że ​​jest chłodniej",
+
+            "SUNRISE": "Wschód słońca",
+            "SUNSET": "Zachód słońca",
+            "WIND": "Wiatr",
+            "PRECIPITATION": "Opad atmosferyczny",
+            "LAST_24H": "W ciągu ostatnich 24 godzin",
+            "EXPECTED_24H": "Następne 24 godziny",
+
+            "TYPES": {
+                "CLOUDY": "Pochmurnie",
+                "LIGHT_RAIN": "Lekki deszcz",
+                "HEAVY_RAIN": "Ulewa",
+                "RAIN": "Deszcz",
+                "SNOW": "Śnieg",
+                "FOG": "Mgła",
+                "CLEAR": "Przejrzyste",
+                "MOSTLY_CLEAR": "W większości przejrzyste",
+                "THUNDER": "Burza",
+                "TORNADO": "Tornado",
+                "WINDY": "Wietrznie"
+            }
+        },
+        "MESSAGES": {
+            "TITLE": "Wiadomości",
+            "NEW_MESSAGE": "Nowa wiadomość",
+            "PEOPLE": "Osoby",
+            "MEMBERS": "Członkowie",
+            "OTHER": "Inne",
+            "SENT_A_PHOTO": "Wyślij zdjęcie",
+            "SENT": "Wysłano",
+            "REQUESTED": "Wymagane",
+            "MISSED_CALL": "{number} próbował się do Ciebie dodzwnonić, ale nie odebrałeś, naciśnij na numer aby oddzwonić",
+            "NOT_DELIVERED": "Nie dostarczony",
+            "PLACEHOLDER": "Wiadomość tekstowa",
+            "DONE": "Gotowe",
+            "CANCEL": "Anuluj",
+            "SEND": "Wyślij",
+            "UNKNOWN": "Nieznany",
+            "TO": "Do",
+            "SEARCH": "Szukaj",
+            "ADD_MEMBER": "Dodaj członka",
+            "SHARE_LOCATION": "Udostępnij moją lokalizację",
+            "LEAVE_GROUP": "Opuść rozmowę",
+            "SENT_LOCATION": "Udostępnił swoją lokalizację, kliknij, aby otworzyć w Mapach",
+            "SENT_LOCATION_SHORT": "Udostępnił swoją lokalizację",
+
+            "REMOVE_POPUP": {
+                "TITLE": "Usuń członka",
+                "TEXT": "Czy na pewno chcesz usunąć {name} z tej grupy?",
+                "REMOVE": "Usuń"
+            },
+            "LEAVE_POPUP": {
+                "TITLE": "Opuść Grupę",
+                "TEXT": "Czy na pewno chcesz opuścić tą grupę?",
+                "LEAVE": "Opuść"
+            },
+            "ADD_POPUP": {
+                "TITLE": "Dodaj członka",
+                "TEXT": "Wpisz numer, aby dodać do '{name}'?",
+                "ADD": "Dodaj"
+            },
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "Udostępnij lokalizację",
+                "TEXT": "Czy chcesz udostępnić swoją lokalizację?",
+                "CANCEL": "Anuluj",
+                "SEND": "Wyślij"
+            },
+            "PAY": {
+                "REQUEST": "Żądanie",
+                "REQUESTED": "Zarządane",
+                "PAY": "Zapłać",
+                "SEND": "Wyślij",
+                "SEND_TITLE": "Wyślij {amount}{currency}",
+                "SEND_DESCRIPTION": "Czy na pewno chcesz wysłać {amount}{currency} do {name}?",
+                "SEND_BUTTON_CANCEL": "Anuluj",
+                "SEND_BUTTON_SEND": "Wyślij"
+            }
+        },
+        "PHONE": {
+            "TITLE": "Telefon",
+            "DONE": "Gotowe",
+            "EDIT": "Edytuj",
+            "CANCEL": "Anuluj",
+
+            "CALL": {
+                "CALL_TITLE": "Zadzwoń {name}",
+                "CALL_TEXT": "Czy na pewno chcesz zadzwonić do {name}?",
+                "CALL_BUTTON_CANCEL": "Anuluj",
+                "CALL_BUTTON_CALL": "Zadzwoń",
+
+                "NO_CALLER_ID": "Brak ID dzwoniącego",
+                "UNKNOWN": "Nieznany",
+                "USER_BUSY": "Użytkownik zajęty",
+                "USER_UNAVAILABLE": "Użytkownik niedostępny",
+                "CALL_BACK": "Oddzwoń",
+                "DECLINE": "Odrzuć",
+                "ACCEPT": "Akceptuj",
+                "END": "Zakończ",
+                "VIDEO_CALL": "Wideo Rozmowa",
+
+                "MUTE": "Wycisz",
+                "KEYPAD": "Klawiatura",
+                "SPEAKER": "Głośnik",
+                "ADD_CALL": "Dodaj do rozmowy",
+                "VIDEO": "Wideo",
+                "CONTACTS": "Kontakty",
+                "MOBILE": "Przenośny"
+            },
+
+            "CONTACTS": {
+                "TITLE": "Kontakty",
+                "FIRST_NAME": "Imię",
+                "LAST_NAME": "Nazwisko",
+                "PHONE_NUMBER": "Numer telefonu",
+                "MY_CARD": "Moja karta",
+                "ADD_PHOTO": "Dodaj zdjęcie",
+
+                "REMOVE_CONTACT_TITLE": "Usuń kontakt",
+                "REMOVE_CONTACT_TEXT": "Czy na pewno chcesz usunąc ten kontakt?",
+                "REMOVE_CONTACT_BUTTON_CANCEL": "Anuluj",
+                "REMOVE_CONTACT_BUTTON_DELETE": "Usuń",
+                "DELETE_CONTACT": "Usuń kontakt",
+
+                "MESSAGE": "Wiadomość",
+                "CALL": "Zadzwoń",
+                "VIDEO": "Wideo",
+                "MAIN": "Komórka",
+
+                "SHARE_CONTACT": "Udostępnij Kontakt",
+                "SHARE_LOCATION": "Udostępnij moją lokalizację",
+                "REMOVE_FAVORITE": "Usuń z ulubionych",
+                "ADD_FAVORITE": "Dodaj do ulubionych",
+                "ADD_CONTACT": "Dodaj do kontaktów",
+
+                "UNBLOCK_CALLER": "Odblokuj",
+                "BLOCK_CALLER": "Zablokuj",
+
+                "UNBLOCK_NUMBER_TITLE": "Odblokuj numer",
+                "UNBLOCK_NUMBER_TEXT": "Czy na pewno chcesz odblokować ten numer {number}?",
+                "UNBLOCK_NUMBER_BUTTON_CANCEL": "Anuluj",
+                "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Odblokuj",
+
+                "BLOCK_NUMBER_TITLE": "Zablokuj numer",
+                "BLOCK_NUMBER_TEXT": "Czy na pewno chcesz zablokować ten numer {number}?",
+                "BLOCK_NUMBER_BUTTON_CANCEL": "Anuluj",
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Zablokuj"
+            },
+            "FAVOURITES": {
+                "TITLE": "Ulubione",
+
+                "REMOVE_TITLE": "Usuń z ulubionych",
+                "REMOVE_TEXT": "Czy na pewno chcesz usunąć ten numer z ulubionych?",
+                "REMOVE_BUTTON_CANCEL": "Anuluj",
+                "REMOVE_BUTTON_REMOVE": "Usuń"
+            },
+            "KEYPAD": {
+                "TITLE": "Klawiatura",
+                "ADD_NUMBER": "Dodaj numer"
+            },
+            "RECENTS": {
+                "TITLE": "Ostatnie"
+            }
+        },
+        "WALLET": {
+            "TITLE": "Portfel",
+            "BALANCE": "Saldo",
+            "SEND": "Wyślij",
+            "NEXT": "Nastepne",
+            "DONE": "Gotowe",
+            "DONE_SUBTITLE": "Wysłałeś {amount} do {number}",
+
+            "NO_REFUNDS": "Płatności nie podlegają zwrotowi, sprawdź dokładnie numer.",
+            "NEW_BALANCE": "Nowe saldo",
+            "LATEST_TRANSACTIONS": "Ostatnie transakcje",
+
+            "NOW": "Teraz",
+            "AGO": "Temu"
+        },
+        "GARAGE": {
+            "TITLTE": "Garaż",
+
+            "ACTIONS": "Działania",
+            "MY_CARS": "Moje auta",
+            "OUT": "Na zewnątrz",
+            "GARAGE": "Garaż",
+            "LOCATION": "Lokalizacja",
+            "SUMMON": "Wezwij",
+            "VALET": "Valet",
+            "STATISTICS": "Statystyki",
+            "FUEL": "Paliwo",
+            "ENGINE": "Silnik",
+            "BODY": "Karoseria",
+
+            "WAYPOINT_POPUP": {
+                "TITLE": "Set Waypoint",
+                "TEXT": "Do you want to set a waypoint to your {model}?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+            "VALET_POPUP": {
+                "TITLE": "Valet",
+                "TEXT": "Do you want to valet your {model} ({plate})?",
+                "TEXT_PAID": "Do you want to valet your {model} ({plate}) for {amount}?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            }
+        },
+        "HOME": {
+            "TITLE": "Home",
+            "MY_HOMES": "My Homes",
+            "MY_HOME": "My Home",
+            "KEY_ACCESS": "Key Access",
+            "ACTIONS": "Actions",
+            "FRONT_DOOR": "Front Door",
+            "LOCATION": "Location",
+            "SET_WAYPOINT": "Set Waypoint",
+            "UNLOCK": "Unlock",
+            "UNLOCKED": "Unlocked",
+            "LOCK": "Lock",
+            "LOCKED": "Locked",
+            "GIVE_KEY": "Give Key",
+            "MANAGE": "Manage",
+
+            "WAYPOINT_POPUP": {
+                "TITLE": "Set Waypoint",
+                "TEXT": "Do you want to set a waypoint to {home}?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} Home",
+                "TEXT": "Do you want to {toggle} your home?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+            "GIVE_KEY_POPUP": {
+                "TITLE": "Give Key",
+                "TEXT": "Insert the ID of the person you want to give a key to",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+
+            "REMOVE_KEY_POPUP": {
+                "TITLE": "Remove Keyholder",
+                "TEXT": "Are you sure you want to remove access from {name}?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            }
+        },
+        "MARKETPLACE": {
+            "CANCEL": "Anuluj",
+            "SEARCH": "Szukaj ofert lub numeró",
+            "NEW_POST": "Nowy Post",
+            "TITLE": "Tytuł",
+            "DESCRIPTION": "Opis",
+            "PRICE": "Cena",
+            "POST": "Udostępnij",
+            "CONTACT": "Kontakt",
+            "REMOVE": "Usuń",
+
+            "DELETE_POPUP": {
+                "TITLE": "Usuń",
+                "TEXT": "Czy na pewno chcesz usunąć?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Usuń"
+            }
+        },
+        "YELLOWPAGES": {
+            "SEARCH": "Szukaj postów lub numerów",
+            "FROM": "Z",
+            "CANCEL": "Anuluj",
+            "NEW_POST": "Nowy post",
+
+            "TITLE": "Tytuł",
+            "DESCRIPTION": "Opis",
+            "PRICE": "Cena",
+            "POST": "Udostępnij",
+            "CALL": "Zadzwoń",
+
+            "DELETE_POPUP": {
+                "TITLE": "Usuń",
+                "TEXT": "Czy na pewno chcesz to usunąć?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Usuń"
+            }
+        }
+    },
+    "COMPONENTS": {
+        "CONTEXT_MENU": {
+            "CANCEL": "Anuluj",
+            "CALL": "Zadzwoń",
+            "VIDEO_CALL": "Wideo rozmowa",
+            "MESSAGE": "Wiadomość"
+        },
+        "IMAGE": {
+            "SAVE_TO_GALLERY": "Zapisz w galerii"
+        },
+        "GALLERY": {
+            "CANCEL": "Anuluj",
+            "EXTERNAL_URL": "Zewnętrzny adres URL"
+        },
+        "NOTIFICATIONS": {
+            "SENT_PHOTO": "Wyślij zdjęcie",
+            "SENT_GIF": "Wyślij GIF",
+            "NOW": "Teraz"
+        },
+        "SHARE": {
+            "COPY_PHOTO": "Kopiuj zdjęcie",
+            "USE_WALLPAPER": "Użyj jako tapetę",
+            "COPY_NUMBER": "Kopiuj numer",
+
+            "AIRDROP_SENT": "Wysłano",
+
+            "WALLPAPER_POPUP": {
+                "TITLE": "Użyj jako tapetę",
+                "TEXT": "Czy na pewno chcesz użyć to zdjęcie jako tapetę?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Ustaw"
+            }
+        },
+        "AIRDROP": {
+            "TITLE": "Airdrop",
+            "TEXT": "{sender} chciałby udostępnić {type}",
+            "VIDEO": "Wideo",
+            "PHOTO": "Zdjęcie",
+            "CONTACT": "Kontakt",
+            "DECLINE": "Odrzuć",
+            "ACCEPT": "Akceptuj"
+        }
+    },
+    "SETUP": {
+        "HELLO": "Cześć",
+        "NEXT": "Kliknij, aby rozpocząć",
+
+        "CREATE_PASSCODE": "Ustaw hasło",
+        "CREATE_PASSCODE_TEXT": "Hasło chroni Twoje dane i służy do odblokowywania telefonu.",
+        "SKIP": "Pomiń ten krok",
+
+        "FACE_ID_SETUP": "Ustaw Face ID",
+        "FACE_ID_TEXT": "Skonfiguruj funkcję Face ID, aby automatycznie odblokowywać telefon, gdy Twoja twarz jest w ramce.",
+        "ENABLE_FACE_ID": "Włącz Face ID",
+
+        "APPEARANCE": "Wygląd",
+        "APPEARANCE_TEXT": "Wybierz jasny albo ciemny motyw",
+
+        "CONTINUE": "Kontynuuj",
+        "WELCOME_TO": "Witaj w",
+        "CLICK": "Kliknij, aby rozpocząć"
+    },
+    "HOMESCREEN": {
+        "DONE": "Gotowe",
+        "REMOVE": "Usuń",
+        "REMOVE_TEXT": "Usunięcie tej aplikacji nie spowoduje usnięcia danych. Aplikację można później ponownie zainstalować W App Store",
+        "BUTTON_CANCEL": "Anuluj",
+        "BUTTON_DELETE": "Usuń"
+    },
+    "LOCKSCREEN": {
+        "ENTER_PASSCODE": "Wprowadź hasło",
+        "DELETE": "Usuń"
+    }
+}
