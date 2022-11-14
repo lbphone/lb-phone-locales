@@ -439,66 +439,66 @@
             "GARAGE": "Garaż",
             "LOCATION": "Lokalizacja",
             "SUMMON": "Wezwij",
-            "VALET": "Valet",
+            "VALET": "Dostarcz",
             "STATISTICS": "Statystyki",
             "FUEL": "Paliwo",
             "ENGINE": "Silnik",
             "BODY": "Karoseria",
 
             "WAYPOINT_POPUP": {
-                "TITLE": "Set Waypoint",
-                "TEXT": "Do you want to set a waypoint to your {model}?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
+                "TITLE": "Pokaż na mapie",
+                "TEXT": "Zaznaczyć na mapie gdzie jest {model}?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Wykonaj"
             },
             "VALET_POPUP": {
-                "TITLE": "Valet",
-                "TEXT": "Do you want to valet your {model} ({plate})?",
-                "TEXT_PAID": "Do you want to valet your {model} ({plate}) for {amount}?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
+                "TITLE": "Dostarcz",
+                "TEXT": "Chcesz, aby dostarczyć {model} ({plate})?",
+                "TEXT_PAID": "Chcesz, aby dostarczyć {model} ({plate}) za {amount}?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Wykonaj"
             }
         },
         "HOME": {
-            "TITLE": "Home",
-            "MY_HOMES": "My Homes",
-            "MY_HOME": "My Home",
-            "KEY_ACCESS": "Key Access",
-            "ACTIONS": "Actions",
-            "FRONT_DOOR": "Front Door",
-            "LOCATION": "Location",
-            "SET_WAYPOINT": "Set Waypoint",
-            "UNLOCK": "Unlock",
-            "UNLOCKED": "Unlocked",
-            "LOCK": "Lock",
-            "LOCKED": "Locked",
-            "GIVE_KEY": "Give Key",
-            "MANAGE": "Manage",
+            "TITLE": "Dom",
+            "MY_HOMES": "Moje domy",
+            "MY_HOME": "Mój dom",
+            "KEY_ACCESS": "Klucze",
+            "ACTIONS": "Akcje",
+            "FRONT_DOOR": "Drzwi",
+            "LOCATION": "Lokalizacja",
+            "SET_WAYPOINT": "Pokaż na mapie",
+            "UNLOCK": "Otwórz",
+            "UNLOCKED": "Otwarte",
+            "LOCK": "Zamknij",
+            "LOCKED": "Zamknięte",
+            "GIVE_KEY": "Wręcz klucz",
+            "MANAGE": "Zarządzaj",
 
             "WAYPOINT_POPUP": {
-                "TITLE": "Set Waypoint",
-                "TEXT": "Do you want to set a waypoint to {home}?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
+                "TITLE": "Pokaż na mapie",
+                "TEXT": "Chcesz ustawić znacznik na mapie do {home}?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Wykonaj"
             },
             "LOCK_POPUP": {
-                "TITLE": "{toggle} Home",
-                "TEXT": "Do you want to {toggle} your home?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
+                "TITLE": "{toggle} dom",
+                "TEXT": "Chcesz {toggle} dom?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Wykonaj"
             },
             "GIVE_KEY_POPUP": {
-                "TITLE": "Give Key",
-                "TEXT": "Insert the ID of the person you want to give a key to",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
+                "TITLE": "Wręcz klucz",
+                "TEXT": "Podaj ID osoby, której chcesz dać klucze",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Wykonaj"
             },
 
             "REMOVE_KEY_POPUP": {
-                "TITLE": "Remove Keyholder",
-                "TEXT": "Are you sure you want to remove access from {name}?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
+                "TITLE": "Zabierz klucze",
+                "TEXT": "Na pewno chcesz zabrać klucze {name}?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Wykonaj"
             }
         },
         "MARKETPLACE": {
