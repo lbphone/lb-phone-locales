@@ -150,7 +150,7 @@
         },
         "CLOCK": {
             "WORLDCLOCK": {
-                "TITLE": "Weltzeituhr",
+                "TITLE": "Weltuhr",
                 "TODAY": "Heute",
                 "TOMORROW": "Morgen",
                 "YESTERDAY": "Gestern"
@@ -164,7 +164,7 @@
                 "SAVE": "Speichern",
                 "LABEL": "Label",
                 "SOUND": "Sound",
-                "SNOOZE": "Snooze",
+                "SNOOZE": "Schlummern",
                 "DELETE_TITLE": "Wecker löschen",
                 "DELETE_TEXT": "Bist du dir sicher, dass du diesen Wecker löschen möchtest?",
                 "BUTTON_CANCEL": "Abbrechen",
@@ -174,7 +174,7 @@
                 "TITLE": "Stoppuhr",
                 "START": "Start",
                 "STOP": "Stop",
-                "RESET": "Zurücksetzen",
+                "RESET": "Löschen",
                 "LAP": "Runde"
             },
             "TIMER": {
@@ -182,9 +182,9 @@
                 "START": "Start",
                 "STOP": "Stop",
                 "CANCEL": "Abbrechen",
-                "HOURS": "stunden",
-                "MINUTES": "min",
-                "SECONDS": "sek"
+                "HOURS": "Stunden",
+                "MINUTES": "Min.",
+                "SECONDS": "Sek."
             },
             "ALERT": {
                 "STOP": "Stop"
@@ -208,19 +208,19 @@
             "NEW_ROOM_TEXT": "Gib einen Raum-Code ein um einen neuen Raum zu erstellen oder einem bestehenden Raum beizutreten",
             "ROOM_CODE": "Raum-Code",
             "LEAVE_ROOM": "Raum verlassen",
-            "LEAVE_ROOM_TEXT": "Bist du dir sicher, dass du den Raum verlassen möchtest?",
+            "LEAVE_ROOM_TEXT": "Bist du sicher, dass du den Raum verlassen möchtest?",
             "NOW": "Jetzt",
             "INPUT_PLACEHOLDER": "Nachricht eingeben..."
         },
         "APPSTORE": {
             "TITLE": "Apps",
-            "SEARCH": "Suche",
-            "GET": "Runterladen",
+            "SEARCH": "Suchen",
+            "GET": "Herunterladen",
             "OPEN": "Öffnen",
             "TODAY": "Heute",
             "GAMES": "Spiele",
-            "WHAT_WE_PLAYING": "Was wir spielen",
-            "INFORMATION": "Information",
+            "WHAT_WE_PLAYING": "Was wir gerade spielen",
+            "INFORMATION": "Informationen",
             "PROVIDER": "Anbieter",
             "SIZE": "Größe",
             "COMPATIBILITY": "Kompatibilität",
@@ -240,7 +240,7 @@
             "DELETE_BUTTON_DELETE": "Löschen",
 
             "DELETE_IMAGE_TITLE": "Foto löschen",
-            "DELETE_IMAGE_TEXT": "Willst du wirklich dieses Foto löschen?",
+            "DELETE_IMAGE_TEXT": "Willst du dieses Foto wirklich löschen?",
             "DELETE_IMAGE_BUTTON_CANCEL": "Abbrechen",
             "DELETE_IMAGE_BUTTON_DELETE": "Löschen"
         },
@@ -283,9 +283,9 @@
             "SENT_A_PHOTO": "hat ein Foto gesendet",
             "SENT": "Gesendet",
             "REQUESTED": "Angefordert",
-            "MISSED_CALL": "{number} hat versucht dich anzurufen, aber du bist nicht rangegangen, drücke auf die Nummer um zurückzurufen",
+            "MISSED_CALL": "{number} hat versucht dich anzurufen, aber du bist nicht rangegangen. Drücke auf die Nummer um zurückzurufen",
             "NOT_DELIVERED": "Nicht zugestellt",
-            "PLACEHOLDER": "Nachricht eingeben...",
+            "PLACEHOLDER": "SMS-Nachricht",
             "DONE": "Fertig",
             "CANCEL": "Abbrechen",
             "SEND": "Senden",
@@ -300,12 +300,12 @@
 
             "REMOVE_POPUP": {
                 "TITLE": "Mitglied entfernen",
-                "TEXT": "Willst du wirklich {name} aus der Gruppe entfernen?",
+                "TEXT": "Willst du {name} wirklich aus der Gruppe entfernen?",
                 "REMOVE": "Entfernen"
             },
             "LEAVE_POPUP": {
                 "TITLE": "Gruppe verlassen",
-                "TEXT": "Willst du wirklich die Gruppe verlassen?",
+                "TEXT": "Willst du die Gruppe wirklich verlassen?",
                 "LEAVE": "Verlassen"
             },
             "ADD_POPUP": {
@@ -315,7 +315,7 @@
             },
             "SEND_LOCATION_POPUP": {
                 "TITLE": "Standort teilen",
-                "TEXT": "Willst du wirklich deinen Standort teilen?",
+                "TEXT": "Willst du deinen Standort wirklich teilen?",
                 "CANCEL": "Abbrechen",
                 "SEND": "Senden"
             },
@@ -337,7 +337,7 @@
             "CANCEL": "Abbrechen",
 
             "CALL": {
-                "CALL_TITLE": "{name} anruden",
+                "CALL_TITLE": "{name} anrufen",
                 "CALL_TEXT": "Bist du dir sicher, dass du {name} anrufen willst?",
                 "CALL_BUTTON_CANCEL": "Abbrechen",
                 "CALL_BUTTON_CALL": "Anrufen",
@@ -366,7 +366,7 @@
                 "FIRST_NAME": "Vorname",
                 "LAST_NAME": "Nachname",
                 "PHONE_NUMBER": "Telefonnummer",
-                "MY_CARD": "Meine Visitenkarte",
+                "MY_CARD": "Meine Karte",
                 "ADD_PHOTO": "Foto hinzufügen",
 
                 "REMOVE_CONTACT_TITLE": "Kontakt entfernen",
@@ -378,7 +378,7 @@
                 "MESSAGE": "Nachricht",
                 "CALL": "Anrufen",
                 "VIDEO": "Videoanruf",
-                "MAIN": "Hauptnummer",
+                "MAIN": "iPhone",
 
                 "SHARE_CONTACT": "Kontakt teilen",
                 "SHARE_LOCATION": "Standort teilen",
@@ -390,12 +390,12 @@
                 "BLOCK_CALLER": "Anrufer sperren",
 
                 "UNBLOCK_NUMBER_TITLE": "Nummer freigeben",
-                "UNBLOCK_NUMBER_TEXT": "Bist du dir sicher, dass du die Nummer {number} freigeben wilst?",
+                "UNBLOCK_NUMBER_TEXT": "Bist du sicher, dass du die Nummer {number} freigeben wilst?",
                 "UNBLOCK_NUMBER_BUTTON_CANCEL": "Abbrechen",
                 "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Freigeben",
 
                 "BLOCK_NUMBER_TITLE": "Nummer sperren",
-                "BLOCK_NUMBER_TEXT": "Bist du dir sicher, dass du die Nummer {number} sperren willst?",
+                "BLOCK_NUMBER_TEXT": "Bist du sicher, dass du die Nummer {number} sperren willst?",
                 "BLOCK_NUMBER_BUTTON_CANCEL": "Abbrechen",
                 "BLOCK_NUMBER_BUTTON_BLOCK": "Sperren"
             },
@@ -423,12 +423,12 @@
             "DONE": "Fertig",
             "DONE_SUBTITLE": "Du hast {amount} an {number} gesendet",
 
-            "NO_REFUNDS": "Zahlungen können nicht erstattet werden, überprüfe die Nummer.",
+            "NO_REFUNDS": "Zahlungen können nicht erstattet werden. Überprüfe die Nummer.",
             "NEW_BALANCE": "Neuer Saldo",
-            "LATEST_TRANSACTIONS": "Letzten Tranksaktionen",
+            "LATEST_TRANSACTIONS": "Letzte Tranksaktionen",
 
             "NOW": "Jetzt",
-            "AGO": "vor"
+            "AGO": "Vor"
         },
         "GARAGE": {
             "TITLTE": "Garage",
@@ -439,7 +439,7 @@
             "GARAGE": "Garage",
             "LOCATION": "Standort",
             "SUMMON": "Anfordern",
-            "VALET": "Valet",
+            "VALET": "Parkservice",
             "STATISTICS": "Statistiken",
             "FUEL": "Tankfüllstand",
             "ENGINE": "Motor",
@@ -452,9 +452,9 @@
                 "PROCEED": "Weiter"
             },
             "VALET_POPUP": {
-                "TITLE": "Valet",
+                "TITLE": "Parkservice",
                 "TEXT": "Willst du wirklich dein {model} ({plate}) anfordern?",
-                "TEXT_PAID": "Willst du wirklich dein {model} ({plate}) anfordern für {amount}?",
+                "TEXT_PAID": "Willst du wirklich dein {model} ({plate}) für {amount} anfordern?",
                 "CANCEL": "Abbrechen",
                 "PROCEED": "Weiter"
             }
@@ -556,7 +556,7 @@
         "NOTIFICATIONS": {
             "SENT_PHOTO": "hat ein Foto gesendet",
             "SENT_GIF": "hat ein GIF gesendet",
-            "NOW": "jetzt"
+            "NOW": "Jetzt"
         },
         "SHARE": {
             "COPY_PHOTO": "Foto kopieren",
@@ -574,7 +574,7 @@
         },
         "AIRDROP": {
             "TITLE": "Airdrop",
-            "TEXT": "{sender} will mit dir ein {type} teilen",
+            "TEXT": "{sender} will ein {type} mit dir teilen",
             "VIDEO": "Video",
             "PHOTO": "Foto",
             "CONTACT": "Kontakt",
