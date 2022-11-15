@@ -1,5 +1,5 @@
 {
-    "LABEL": "Czech",
+    "LABEL": "Čeština",
     "SEARCH": "Hledat",
     "CANCEL": "Zrušit",
 
@@ -8,14 +8,14 @@
             "TITLE": "Nastavení",
             "BACK": "Zpět",
             "DONE": "Hotovo",
-            "EDIT": "Editovat",
+            "EDIT": "Upravit",
 
             "AIRPLANE_MODE": "Režim Letadlo",
             "STREAMER_MODE": "Live Stream Mode",
             "BLUETOOTH": "Bluetooth",
-            "GENERAL": "Všeobecné",
+            "GENERAL": "Obecné",
 
-            "ABOUT": "O",
+            "ABOUT": "Informace",
             "NAME": "Jméno",
             "VERSION": "Verze",
             "MODEL_NAME": "Jmeno Modelu",
@@ -29,32 +29,32 @@
             "CAPACITY": "Kapacite",
             "AVAILABLE": "Dostupný",
 
-            "SOFTWARE_UPDATE": "Aktualizace",
+            "SOFTWARE_UPDATE": "Aktualizace softwaru",
             "AUTOMATIC_UPDATES": "Automatické Aktualizace",
 
-            "DATE_TIME": "Datum & Čas",
+            "DATE_TIME": "Datum a čas",
             "24_HOUR_TIME": "24 Hodinový Čas",
             "SET_AUTOMATICALLY": "Nastavit Automacticky",
             "TIME_ZONE": "Časová zóna",
 
-            "LANGUAGE_REGION": "Jazyk & Region",
+            "LANGUAGE_REGION": "Jazyk a oblast",
             "LANGUAGE": "Jazyk",
             "TEMPERATURE": "Teplota",
             "BATTERY": "Baterie",
 
-            "SOUND_HAPTICS": "Zvuk & Haptika",
+            "SOUND_HAPTICS": "Zvuky a haptika",
             "SOUND_HAPTICS_PATTERNS": "Zvukové a haptické vzory",
             "RINGTONE": "Vyzváněcí tón",
             "TEXT_TONE": "Textový tón",
             "RINGTONE_VOLUME": "Hlasitost vyzvánění a upozornění",
             "DEFAULT": "Výchozí",
 
-            "PHONE_STORAGE": "Uložiště Telefonu",
+            "PHONE_STORAGE": "Uložiště: LB Phone",
             "STORAGE": "Uložiště",
             "USED": "Použito",
             "OF": "z",
 
-            "DISPLAY_BRIGHTNESS": "Displej a jas",
+            "DISPLAY_BRIGHTNESS": "Zobrazení a jas",
             "APPEARANCE": "Vzhled",
             "AUTOMATIC": "Automatický",
             "BRIGHTNESS": "Jas",
@@ -64,13 +64,13 @@
             "WALLPAPERS": "Tapety",
             "CHOOSE_NEW_WALLPAPER": "Vybrat novou tapetu",
 
-            "NOTIFICATIONS": "Notifikace",
-            "ALLOW_NOTIFICATIONS": "Povolit Notifikace",
+            "NOTIFICATIONS": "Oznámení",
+            "ALLOW_NOTIFICATIONS": "Povolit oznámení",
             "SOUNDS": "Zvuky",
 
             "PHONE": "Telefon",
             "BLOCKED_CONTACTS": "Zablokované Kontakty",
-            "MY_NUMBER": "Moje Tel. Číslo",
+            "MY_NUMBER": "Moje číslo",
             "SHOW_CALLER_ID": "Zobrazit ID volajícího",
 
             "UNBLOCK_POPUP": {
@@ -80,11 +80,11 @@
                 "CONFIRM": "Odblokovat"
             },
 
-            "FACE_ID_PASSWORD": "Face ID a Pin",
+            "FACE_ID_PASSWORD": "Face ID a kód",
             "ENTER_PASSCODE": "Zadejte Pin",
             "PASSCODE": "Pin",
             "FACE_ID": "Face ID",
-            "RESET_FACE_ID": "Reinstal Face ID",
+            "RESET_FACE_ID": "Resetovat Face ID",
             "ENABLE_FACE_ID": "Povolit Face ID",
             "PIN_CODE": "Pin",
 
@@ -107,10 +107,10 @@
                 "CANCEL": "Zrušit",
                 "CONFIRM": "Potvrdit"
             },
-            "TURN_PASSCODE_OFF": "Vypněte přístupový kód",
-            "TURN_PASSCODE_ON": "Zapněte heslo",
-            "CHANGE_PASSCODE": "Změňte přístupový kód",
-            "CLOUD_BACKUP": "Cloudové zálohování",
+            "TURN_PASSCODE_OFF": "Vynout kódvý zámek",
+            "TURN_PASSCODE_ON": "Zapnout kódvý zámek",
+            "CHANGE_PASSCODE": "Změnít kód zámku",
+            "CLOUD_BACKUP": "Apple ID",
             "YOUR_PROFILE": "Tvůj profil",
             "CREATE_BACKUP": "Vytvořit zálohu",
             "SAVE_BACKUP_POPUP": {
@@ -150,7 +150,7 @@
         },
         "CLOCK": {
             "WORLDCLOCK": {
-                "TITLE": "Světové hodiny",
+                "TITLE": "Světový čas",
                 "TODAY": "Dnešek",
                 "TOMORROW": "Zítřek",
                 "YESTERDAY": "Včerejšek"
@@ -159,7 +159,7 @@
                 "TITLE": "Budík",
                 "ADD": "Přidat Budík",
                 "CANCEL": "Zrušit",
-                "EDIT": "Editovat",
+                "EDIT": "Upravit",
                 "DONE": "Hotovo",
                 "SAVE": "Uložit",
                 "LABEL": "Jméno",
@@ -178,7 +178,7 @@
                 "LAP": "Kolo"
             },
             "TIMER": {
-                "TITLE": "Časovač",
+                "TITLE": "Minutka",
                 "START": "Spustit",
                 "STOP": "Zastavit",
                 "CANCEL": "Zrušit",
@@ -198,7 +198,7 @@
         },
         "DARKCHAT": {
             "TITLE": "Dark Chat",
-            "USERNAME": "uživatelské jméno",
+            "USERNAME": "Uživatelské jméno",
             "SET_USERNAME": "Nastavte si uživatelské jméno. POZNÁMKA: TOTO LZE NASTAVIT POUZE JEDNOU.",
             "CANCEL": "Zrušit",
             "SET": "Nastavit",
@@ -214,8 +214,8 @@
         },
         "APPSTORE": {
             "TITLE": "Apklikace",
-            "SEARCH": "Vyhledat",
-            "GET": "Stáhnout",
+            "SEARCH": "Hledat",
+            "GET": "Získat",
             "OPEN": "Otevřít",
             "TODAY": "Dnes",
             "GAMES": "Hry",
@@ -267,7 +267,7 @@
                 "RAIN": "déšt",
                 "SNOW": "Sníh",
                 "FOG": "Mlha",
-                "CLEAR": "jasně",
+                "CLEAR": "Jasno",
                 "MOSTLY_CLEAR": "Skoro jasno",
                 "THUNDER": "Bouřka",
                 "TORNADO": "Tornado",
@@ -506,7 +506,7 @@
             "SEARCH": "Hledejte výpisy nebo čísla",
             "NEW_POST": "Nový Post",
             "TITLE": "Nadpis",
-            "DESCRIPTION": "popis",
+            "DESCRIPTION": "Popis",
             "PRICE": "Částka",
             "POST": "Zveřejnit",
             "CONTACT": "Kontakt",
@@ -526,7 +526,7 @@
             "NEW_POST": "Nový příspěvek",
 
             "TITLE": "Nadpis",
-            "DESCRIPTION": "popis",
+            "DESCRIPTION": "Popis",
             "PRICE": "Částka",
             "POST": "Odeslat",
             "CALL": "Zavolat",
