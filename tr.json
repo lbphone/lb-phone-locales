@@ -1,0 +1,615 @@
+{
+    "LABEL": "Türkçe",
+    "SEARCH": "Ara",
+    "CANCEL": "İptal",
+
+    "APPS": {
+        "SETTINGS": {
+            "TITLE": "Ayarlar",
+            "BACK": "Geri",
+            "DONE": "Tamamla",
+            "EDIT": "Düzenle",
+
+            "AIRPLANE_MODE": "Uçak Modu",
+            "STREAMER_MODE": "Yayıncı Modu",
+            "BLUETOOTH": "Bluetooth",
+            "GENERAL": "Genel",
+
+            "ABOUT": "Hakkında",
+            "NAME": "İsim",
+            "VERSION": "Versiyon",
+            "MODEL_NAME": "Model İsmi",
+            "SERIAL_NUMBER": "Seri Numara",
+            "DEVELOPED_BY": "Geliştirici:",
+            "PURCHASE_AT": "Şurada satın al:",
+            "SONGS": "Şarkılar",
+            "VIDEOS": "Videolar",
+            "PHOTOS": "Fotoğraflar",
+            "APPLICATIONS": "Uygulamalar",
+            "CAPACITY": "Kapasite",
+            "AVAILABLE": "Müsait",
+
+            "SOFTWARE_UPDATE": "Yazılım Güncellemesi",
+            "AUTOMATIC_UPDATES": "Otomatik Güncellemeler",
+
+            "DATE_TIME": "Tarih & Zaman",
+            "24_HOUR_TIME": "24 Saatlik Zaman",
+            "SET_AUTOMATICALLY": "Otomatik Ayarla",
+            "TIME_ZONE": "Zaman Dilimi",
+
+            "LANGUAGE_REGION": "Dil & Bölge",
+            "LANGUAGE": "Dil",
+            "TEMPERATURE": "Sıcaklık",
+            "BATTERY": "Batarya",
+
+            "SOUND_HAPTICS": "Ses & Haptik",
+            "SOUND_HAPTICS_PATTERNS": "Ses ve haptik şablon",
+            "RINGTONE": "Zil sesi",
+            "TEXT_TONE": "Yazı Sesi",
+            "RINGTONE_VOLUME": "Zil ve bildirim sesi",
+            "DEFAULT": "Varsayılan",
+
+            "PHONE_STORAGE": "Telefon Depolaması",
+            "STORAGE": "Depo",
+            "USED": "Kullanılmış",
+            "OF": "of",
+
+            "DISPLAY_BRIGHTNESS": "Görüntü & Parlaklık",
+            "APPEARANCE": "Dış Görünüş",
+            "AUTOMATIC": "Otomatik",
+            "BRIGHTNESS": "Parlaklık",
+            "PHONE_SCALE": "Telefon Boyutu",
+
+            "WALLPAPER": "Arkaplan",
+            "WALLPAPERS": "Arkaplanlar",
+            "CHOOSE_NEW_WALLPAPER": "Yeni bir arkaplan seç",
+
+            "NOTIFICATIONS": "Bildirimler",
+            "ALLOW_NOTIFICATIONS": "Bildirimlere izin ver",
+            "SOUNDS": "Sesler",
+
+            "PHONE": "Telefon",
+            "BLOCKED_CONTACTS": "Engellenmiş Kişiler",
+            "MY_NUMBER": "Numaram",
+            "SHOW_CALLER_ID": "Arayanın ID'sini göster",
+
+            "UNBLOCK_POPUP": {
+                "TITLE": "Numaranın engelini kaldır",
+                "TEXT": "Bu numaranın engelini kaldırmak istediğine emin misin?",
+                "CANCEL": "İptal",
+                "CONFIRM": "Kaldır"
+            },
+
+            "FACE_ID_PASSWORD": "Yüz Tanıma & şifre",
+            "ENTER_PASSCODE": "Şifre Gir",
+            "PASSCODE": "Şifre",
+            "FACE_ID": "Yüz Tanıma",
+            "RESET_FACE_ID": "Yüz tanımayı sıfırla",
+            "ENABLE_FACE_ID": "Yüz tanımayı etkinleştir",
+            "PIN_CODE": "Pin kodu",
+
+            "DISABLE_FACE_ID_POPUP": {
+                "TITLE": "Yüz Tanımayı Kapat",
+                "TEXT": "Yüz tanımayı kapatmak istediğine emin misin?",
+                "CANCEL": "İptal",
+                "CONFIRM": "Kapat"
+            },
+
+            "ENABLE_FACE_ID_POPUP": {
+                "TITLE": "Yüz Tanımayı Etkinleştir",
+                "TEXT": "Yüz tanımayı etkinleştirmek istediğine emin misin?",
+                "CANCEL": "İptal",
+                "CONFIRM": "Etkinleştir"
+            },
+            "DISABLE_PIN_POPUP": {
+                "TITLE": "Pin Kodunu Kapat",
+                "TEXT": "Pin kodu korumasını kapatmak istediğine emin misin? (Bu eylem yüz tanımayı da kapatacak)",
+                "CANCEL": "İptal",
+                "CONFIRM": "Onayla"
+            },
+            "TURN_PASSCODE_OFF": "Şifreyi kapat",
+            "TURN_PASSCODE_ON": "Şifreyi aç",
+            "CHANGE_PASSCODE": "Şifreyi değiştir",
+            "CLOUD_BACKUP": "Bulut Yedeklemesi",
+            "YOUR_PROFILE": "Profilin",
+            "CREATE_BACKUP": "Yedekleme Oluştur",
+            "SAVE_BACKUP_POPUP": {
+                "TITLE": "Yedeklemeyi Kaydet",
+                "TEXT": "Bilgilerini yedeklemek istediğine emin misin? (Kişiler, fotoğraflar ve ayarlarını kaydedecek)",
+                "CANCEL": "İptal",
+                "CONFIRM": "Kaydet"
+            },
+            "BACKUPS": "Yedeklemeler",
+            "APPLY_BACKUP_POPUP": {
+                "TITLE": "Yedeklemeyi Uygula",
+                "TEXT": "Bu yedeklemeyi uygulamak istediğine emin misin? (Kişiler, fotoğraflar ve ayarların yerine kaydedecek)",
+                "CANCEL": "İptal",
+                "CONFIRM": "Uygula"
+            },
+            "SUCCESS": "Başarılı",
+            "SUCCESS_TEXT": "Telefon 5 saniye içinde yeniden başlatılacak...",
+            "OK": "TAMAM",
+            "REMOVE_BACKUP_POPUP": {
+                "TITLE": "Yedeklemeyi Kaldır",
+                "TEXT": "Yedeklemeyi kaldırmak istediğine emin misin?",
+                "CANCEL": "İptal",
+                "CONFIRM": "Kaldır"
+            },
+            "ON": "On"
+        },
+        "NOTES": {
+            "TITLE": "Notlar",
+            "SEARCH_PLACEHOLDER": "Ara",
+            "FOOTER": "{amount} Notlar",
+            "NEW_NOTE": "Yeni Not",
+            "LAST_EDITED": "Son Düzenlenme: {date}",
+            "DELETE_TITLE": "Şunu sil: {title}",
+            "DELETE_TEXT": "Şunu silmek istediğine emin misin: '{title}'?",
+            "BUTTON_CANCEL": "İptal",
+            "BUTTON_DELETE": "Sil"
+        },
+        "CLOCK": {
+            "WORLDCLOCK": {
+                "TITLE": "Dünya Saati",
+                "TODAY": "Bugün",
+                "TOMORROW": "Yarın",
+                "YESTERDAY": "Dün"
+            },
+            "ALARM": {
+                "TITLE": "Alarm",
+                "ADD": "Alarm Ekle",
+                "CANCEL": "İptal",
+                "EDIT": "Düzenle",
+                "DONE": "Tamamla",
+                "SAVE": "Kaydet",
+                "LABEL": "Başlık",
+                "SOUND": "Ses",
+                "SNOOZE": "Ertele",
+                "DELETE_TITLE": "Alarmı Sil",
+                "DELETE_TEXT": "Bu alarmı silmek istediğine emin misin?",
+                "BUTTON_CANCEL": "İptal",
+                "BUTTON_DELETE": "Sil"
+            },
+            "STOPWATCH": {
+                "TITLE": "Kronometre",
+                "START": "Başlat",
+                "STOP": "Durdur",
+                "RESET": "Reset",
+                "LAP": "Tur"
+            },
+            "TIMER": {
+                "TITLE": "Zamanlayıcı",
+                "START": "Bşlat",
+                "STOP": "Durdur",
+                "CANCEL": "İptal",
+                "HOURS": "saat",
+                "MINUTES": "dk",
+                "SECONDS": "sn"
+            },
+            "ALERT": {
+                "STOP": "Dur"
+            }
+        },
+        "CAMERA": {
+            "VIDEO": "Video",
+            "PHOTO": "Fotoğraf",
+            "LANDSCAPE": "Manzara",
+            "UPLOADING": "Yükleniyor"
+        },
+        "DARKCHAT": {
+            "TITLE": "Dark Chat",
+            "USERNAME": "Kullanıcı Adı",
+            "SET_USERNAME": "Kullanıcı adını belirle. NOT: SADECE BıR KERE AYARLANABıLıR.",
+            "CANCEL": "İptal",
+            "SET": "Ayarla",
+            "JOIN": "Katıl",
+            "LEAVE": "Ayrıl",
+            "NEW_ROOM": "Yeni Oda",
+            "NEW_ROOM_TEXT": "Oda oluşturmak veya odaya katılmak için bir kod gir.",
+            "ROOM_CODE": "Oda Kodu",
+            "LEAVE_ROOM": "Odadan Ayrıl",
+            "LEAVE_ROOM_TEXT": "Odadan ayrılmak istediğine emin misin?",
+            "NOW": "Şimdi",
+            "INPUT_PLACEHOLDER": "Bir mesaj yaz..."
+        },
+        "APPSTORE": {
+            "TITLE": "Uygulamalar",
+            "SEARCH": "Ara",
+            "GET": "Al",
+            "OPEN": "Aç",
+            "TODAY": "Bugün",
+            "GAMES": "Oyunlar",
+            "WHAT_WE_PLAYING": "Ne oynuyoruz",
+            "INFORMATION": "Bilgi",
+            "PROVIDER": "Sağlayıcı",
+            "SIZE": "Boyut",
+            "COMPATIBILITY": "Uyumluluk",
+            "IN_APP_PURCHASES": "Uygulama içi satın alım"
+        },
+        "PHOTOS": {
+            "TITLE": "Fotoğraflar",
+            "SELECT": "Seç",
+            "CANCEL": "İptal",
+            "SELECT_ITEMS": "Öğeleri Seç",
+            "SELECTED_COUNT": "{count} kadar öğe seçildi",
+            "PHOTO_COUNT": "{count} tane fotoğraf",
+
+            "DELETE_TITLE": "{count} fotoğraf sil",
+            "DELETE_TEXT": "{count} fotoğraf silmek istediğine emin misin?",
+            "DELETE_BUTTON_CANCEL": "İptal",
+            "DELETE_BUTTON_DELETE": "Sil",
+
+            "DELETE_IMAGE_TITLE": "Görsel sil",
+            "DELETE_IMAGE_TEXT": "Bu görseli silmek istediğine emin misin?",
+            "DELETE_IMAGE_BUTTON_CANCEL": "İptal",
+            "DELETE_IMAGE_BUTTON_DELETE": "Sil"
+        },
+        "WEATHER": {
+            "TITLE": "Hava Durumu",
+            "HOURLY_FORECAST": "Saatlik Tahmin",
+            "NOW": "Şu an",
+            "FEELS_LIKE": "Gibi hissettiriyor",
+            "FEELS_LIKE_SAME": "Gerçek sıcaklığa benzer.",
+            "FEELS_LIKE_HUMIDITY": "Nem daha sıcak hissettiriyor",
+            "FEELS_LIKE_WIND": "Rüzgar daha soğuk hissettiriyor",
+
+            "SUNRISE": "Gündoğumu",
+            "SUNSET": "Gün Batımı",
+            "WIND": "Rüzgar",
+            "PRECIPITATION": "Yağış",
+            "LAST_24H": "Son 24 saatte",
+            "EXPECTED_24H": "önümüzdeki 24 saat içinde beklenen",
+
+            "TYPES": {
+                "CLOUDY": "Bulutlu",
+                "LIGHT_RAIN": "Hafif Yağmur",
+                "HEAVY_RAIN": "Sağanak Yağmur",
+                "RAIN": "Yağmur",
+                "SNOW": "Kar",
+                "FOG": "Sis",
+                "CLEAR": "Açık",
+                "MOSTLY_CLEAR": "Çoğunlukla Açık",
+                "THUNDER": "Gök Gürültüsü",
+                "TORNADO": "Hortum",
+                "WINDY": "Rüzgarlı"
+            }
+        },
+        "MESSAGES": {
+            "TITLE": "Mesajlar",
+            "NEW_MESSAGE": "Yeni Mesaj",
+            "PEOPLE": "Kişiler",
+            "MEMBERS": "Üyeler",
+            "OTHER": "Diğer",
+            "SENT_A_PHOTO": "Bir fotoğraf gönder",
+            "SENT": "Gönderildi",
+            "REQUESTED": "Talep edildi",
+            "MISSED_CALL": "{number} seni aradı ancak açmadın, geri aramak için dokun",
+            "NOT_DELIVERED": "ıletilmedi",
+            "PLACEHOLDER": "Mesaj",
+            "DONE": "Tamamlandı",
+            "CANCEL": "İptal",
+            "SEND": "Gönder",
+            "UNKNOWN": "Bilinmeyen",
+            "TO": "ıle",
+            "SEARCH": "Ara",
+            "ADD_MEMBER": "Üye Ekle",
+            "SHARE_LOCATION": "Konumumu Paylaş",
+            "LEAVE_GROUP": "Konuşmadan Ayrıl",
+            "SENT_LOCATION": "Konumunu paylaştı, haritalarda açmak için dokun",
+            "SENT_LOCATION_SHORT": "Konumunu paylaştı",
+
+            "REMOVE_POPUP": {
+                "TITLE": "Üyeyi At",
+                "TEXT": "Bu üyeyi gruptan atmak istediğine emin misin: {name}",
+                "REMOVE": "At"
+            },
+            "LEAVE_POPUP": {
+                "TITLE": "Gruptan ayrıl",
+                "TEXT": "Gruptan ayrılmak istediğine emin misin?",
+                "LEAVE": "Ayrıl"
+            },
+            "ADD_POPUP": {
+                "TITLE": "Üye ekle",
+                "TEXT": "Type in a number to add to '{name}' the group?",
+                "ADD": "Ekle"
+            },
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "Konumu Paylaş",
+                "TEXT": "Konumunu paylaşmak istediğine emin misin?",
+                "CANCEL": "İptal",
+                "SEND": "Paylaş"
+            },
+            "PAY": {
+                "REQUEST": "ıste",
+                "REQUESTED": "ıstendi",
+                "PAY": "Öde",
+                "SEND": "Gönder",
+                "SEND_TITLE": "Gönder: {currency}{amount}",
+                "SEND_DESCRIPTION": "{name} kişisine {currency}{amount} miktarında para göndermek istediğine emin misin?",
+                "SEND_BUTTON_CANCEL": "İptal",
+                "SEND_BUTTON_SEND": "Gönder"
+            }
+        },
+        "PHONE": {
+            "TITLE": "Telefon",
+            "DONE": "Tamamlandı",
+            "EDIT": "Düzenle",
+            "CANCEL": "İptal",
+
+            "CALL": {
+                "CALL_TITLE": "{name} kişisini ara",
+                "CALL_TEXT": "Şu kişiyi aramak istediğine emin misin: {name}?",
+                "CALL_BUTTON_CANCEL": "İptal",
+                "CALL_BUTTON_CALL": "Ara",
+
+                "NO_CALLER_ID": "Arayan kişinin ID'si yok",
+                "UNKNOWN": "Bilinmeyen",
+                "USER_BUSY": "Kullanıcı Meşgul",
+                "USER_UNAVAILABLE": "Kullanıcı Müsait Değil",
+                "CALL_BACK": "Geri Ara",
+                "DECLINE": "Reddet",
+                "ACCEPT": "Kabul Et",
+                "END": "Bitir",
+                "VIDEO_CALL": "Video Araması",
+
+                "MUTE": "sustur",
+                "KEYPAD": "klavye",
+                "SPEAKER": "hoparlör",
+                "ADD_CALL": "arama ekle",
+                "VIDEO": "video",
+                "CONTACTS": "kişiler",
+                "MOBILE": "Mobil"
+            },
+
+            "CONTACTS": {
+                "TITLE": "Kişiler",
+                "FIRST_NAME": "ısim",
+                "LAST_NAME": "Soyisim",
+                "PHONE_NUMBER": "Telefon Numarası",
+                "MY_CARD": "Kartım",
+                "ADD_PHOTO": "Fotoğraf Ekle",
+
+                "REMOVE_CONTACT_TITLE": "Kişiyi Sil",
+                "REMOVE_CONTACT_TEXT": "Bu kişiyi silmek istediğine emin misin?",
+                "REMOVE_CONTACT_BUTTON_CANCEL": "İptal",
+                "REMOVE_CONTACT_BUTTON_DELETE": "Sil",
+                "DELETE_CONTACT": "Kişiyi Sil",
+
+                "MESSAGE": "mesaj",
+                "CALL": "ara",
+                "VIDEO": "video",
+                "MAIN": "başlıca",
+
+                "SHARE_CONTACT": "Kişi Paylaş",
+                "SHARE_LOCATION": "Konumumu Paylaş",
+                "REMOVE_FAVORITE": "Favorilerden Kaldır",
+                "ADD_FAVORITE": "Favorilere Ekle",
+                "ADD_CONTACT": "Kişilere Ekle",
+
+                "UNBLOCK_CALLER": "Arayan kişinin engelini kaldır",
+                "BLOCK_CALLER": "Arayan kişiyi engelle",
+
+                "UNBLOCK_NUMBER_TITLE": "Numaranın engelini kaldır",
+                "UNBLOCK_NUMBER_TEXT": "Bu numaranın engelini kaldırmak istediğine emin misin: {number}?",
+                "UNBLOCK_NUMBER_BUTTON_CANCEL": "İptal",
+                "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Kaldır",
+
+                "BLOCK_NUMBER_TITLE": "Numarayı Engelle",
+                "BLOCK_NUMBER_TEXT": "Bu numarayı engellemek istediğine emin misin: {number}?",
+                "BLOCK_NUMBER_BUTTON_CANCEL": "İptal",
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Engelle"
+            },
+            "FAVOURITES": {
+                "TITLE": "Favoriler",
+
+                "REMOVE_TITLE": "Favorilerden Kaldır",
+                "REMOVE_TEXT": "Bu kişiyi favorilerden kaldırmak istediğine emin misin?",
+                "REMOVE_BUTTON_CANCEL": "İptal",
+                "REMOVE_BUTTON_REMOVE": "Kaldır"
+            },
+            "KEYPAD": {
+                "TITLE": "Klavye",
+                "ADD_NUMBER": "Numara Ekle"
+            },
+            "RECENTS": {
+                "TITLE": "Yeni"
+            }
+        },
+        "WALLET": {
+            "TITLE": "Cüzdan",
+            "BALANCE": "Bakiye",
+            "SEND": "Gönder",
+            "NEXT": "Sıradaki",
+            "DONE": "Tamamlandı",
+            "DONE_SUBTITLE": "{number} numarasına {amount} miktarında para aktardın.",
+
+            "NO_REFUNDS": "Ödemelerin iadesi yoktur, miktarı iki kere kontrol ediniz.",
+            "NEW_BALANCE": "Yeni Bakiye",
+            "LATEST_TRANSACTIONS": "Son ışlemler",
+
+            "NOW": "Şimdi",
+            "AGO": "önce"
+        },
+        "GARAGE": {
+            "TITLTE": "Garaj",
+
+            "ACTIONS": "Eylemler",
+            "MY_CARS": "Araçlarım",
+            "OUT": "Dışarı",
+            "GARAGE": "Garaj",
+            "LOCATION": "Lokasyon",
+            "SUMMON": "Çağır",
+            "VALET": "Vale",
+            "STATISTICS": "ıstatistikler",
+            "FUEL": "Yakıt",
+            "ENGINE": "Motor",
+            "BODY": "Gövde",
+
+            "WAYPOINT_POPUP": {
+                "TITLE": "Yer ımleci Ayarla",
+                "TEXT": "Şu aracın konuma yer imleci ayarla: {model}?",
+                "CANCEL": "İptal",
+                "PROCEED": "Ayarla"
+            },
+            "VALET_POPUP": {
+                "TITLE": "Vale",
+                "TEXT": "Bu aracını vale etmek ister misin: {model} ({plate})?",
+                "TEXT_PAID": "Bu aracına {amount} karşılığında vale etmek ister misin: {model} ({plate})?",
+                "CANCEL": "İptal",
+                "PROCEED": "Onayla"
+            }
+        },
+        "HOME": {
+            "TITLE": "Ev",
+            "MY_HOMES": "Evlerim",
+            "MY_HOME": "Evim",
+            "KEY_ACCESS": "Anahtar Erişimi",
+            "ACTIONS": "Eylemler",
+            "FRONT_DOOR": "Ön Kapı",
+            "LOCATION": "Lokasyon",
+            "SET_WAYPOINT": "Yer imleci ayarla",
+            "UNLOCK": "Kilidini aç",
+            "UNLOCKED": "Kilidi açıldı",
+            "LOCK": "Kilitle",
+            "LOCKED": "Kilitlendi",
+            "GIVE_KEY": "Anahtar Ver",
+            "MANAGE": "Yönet",
+
+            "WAYPOINT_POPUP": {
+                "TITLE": "Yer ımleci Ayarla",
+                "TEXT": "Şu konuma yer imleci ayarlamak istediğine emin misin: {home}?",
+                "CANCEL": "İptal",
+                "PROCEED": "Ayarla"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} Ev",
+                "TEXT": "Evi {toggle} yapmak istediğine emin misin?",
+                "CANCEL": "İptal",
+                "PROCEED": "Evet"
+            },
+            "GIVE_KEY_POPUP": {
+                "TITLE": "Anahtarı Ver",
+                "TEXT": "Anahtarı vermek istediğin kişinin ID'sini yaz",
+                "CANCEL": "İptal",
+                "PROCEED": "Onayla"
+            },
+
+            "REMOVE_KEY_POPUP": {
+                "TITLE": "Anahtarı Geri Al",
+                "TEXT": "Bu kişinin eve erişimini engellemek istediğine emin misin: {name}?",
+                "CANCEL": "İptal",
+                "PROCEED": "Onayla"
+            }
+        },
+        "MARKETPLACE": {
+            "CANCEL": "İptal",
+            "SEARCH": "Listemeleri veya numaraları ara",
+            "NEW_POST": "Yeni Gönderi",
+            "TITLE": "Başlık",
+            "DESCRIPTION": "Açıklama",
+            "PRICE": "Ücret",
+            "POST": "Gönderi",
+            "CONTACT": "ıletişim",
+            "REMOVE": "Kaldır",
+
+            "DELETE_POPUP": {
+                "TITLE": "Gönderiyi Kaldır",
+                "TEXT": "Bu gönderiyi kaldırmak istediğine emin misin?",
+                "CANCEL": "İptal",
+                "PROCEED": "KALDIR"
+            }
+        },
+        "YELLOWPAGES": {
+            "SEARCH": "Gönderileri veya numaraları ara",
+            "FROM": "Nereden",
+            "CANCEL": "İptal",
+            "NEW_POST": "Yeni Gönderi",
+
+            "TITLE": "Başlık",
+            "DESCRIPTION": "Açıklama",
+            "PRICE": "Fiyat",
+            "POST": "Paylaş",
+            "CALL": "Ara",
+
+            "DELETE_POPUP": {
+                "TITLE": "Gönderiyi Sil",
+                "TEXT": "Bu gönderiyi silmek istediğine emin misin?",
+                "CANCEL": "İptal",
+                "PROCEED": "Sil"
+            }
+        }
+    },
+    "COMPONENTS": {
+        "CONTEXT_MENU": {
+            "CANCEL": "İptal",
+            "CALL": "Arama",
+            "VIDEO_CALL": "Video Araması",
+            "MESSAGE": "Mesaj"
+        },
+        "IMAGE": {
+            "SAVE_TO_GALLERY": "Galeriye Kaydet"
+        },
+        "GALLERY": {
+            "CANCEL": "İptal",
+            "EXTERNAL_URL": "Harici URL"
+        },
+        "NOTIFICATIONS": {
+            "SENT_PHOTO": "Fotoğraf Gönderildi",
+            "SENT_GIF": "GIF Gönderildi",
+            "NOW": "Şimdi"
+        },
+        "SHARE": {
+            "COPY_PHOTO": "Fotoğrafı kopyala",
+            "USE_WALLPAPER": "Arkaplan olarak kullan",
+            "COPY_NUMBER": "Numarayı kopyala",
+
+            "AIRDROP_SENT": "Gönderildi",
+
+            "WALLPAPER_POPUP": {
+                "TITLE": "Arkaplan olarak kullan",
+                "TEXT": "Bu görseli arkaplan olarak kullanmak istediğine emin misin?",
+                "CANCEL": "İptal",
+                "PROCEED": "Kullan"
+            }
+        },
+        "AIRDROP": {
+            "TITLE": "Airdrop",
+            "TEXT": "{sender} paylaşmak istiyor: {type}",
+            "VIDEO": "Video",
+            "PHOTO": "Fotoğraf",
+            "CONTACT": "Bağlantı",
+            "DECLINE": "Reddet",
+            "ACCEPT": "Kabul Et"
+        }
+    },
+    "SETUP": {
+        "HELLO": "Merhaba",
+        "NEXT": "Açmak için dokun",
+
+        "CREATE_PASSCODE": "Bir şifre belirle",
+        "CREATE_PASSCODE_TEXT": "Şifre bilgilerini korur ve telefonu açmak için kullanılır.",
+        "SKIP": "Bu adımı atla.",
+
+        "FACE_ID_SETUP": "Yüz Tanıma Kurulumu",
+        "FACE_ID_TEXT": "Yüz tanımayı kurduğun zaman telefonun kilidini açmak için ekrana bakman yeterli olacak.",
+        "ENABLE_FACE_ID": "Yüz tanımayı etkinleştir",
+
+        "APPEARANCE": "Görünüm",
+        "APPEARANCE_TEXT": "Açık veya koyu bir görünüm seçin.",
+
+        "CONTINUE": "Devam et",
+        "WELCOME_TO": "Hoşgeldin:",
+        "CLICK": "Başlamak için dokun"
+    },
+    "HOMESCREEN": {
+        "DONE": "Tamamla",
+        "REMOVE": "Kaldır",
+        "REMOVE_TEXT": "Bu uygulamayı kaldırmak bilgilerini silmez. Uygulamayı daha sonra App Store'dan tekrar indirebilirsin.",
+        "BUTTON_CANCEL": "İptal",
+        "BUTTON_DELETE": "Sil"
+    },
+    "LOCKSCREEN": {
+        "ENTER_PASSCODE": "Şifreyi Gir",
+        "DELETE": "Sil"
+    }
+}
