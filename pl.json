@@ -449,14 +449,14 @@
                 "TITLE": "Pokaż na mapie",
                 "TEXT": "Zaznaczyć na mapie gdzie jest {model}?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Wykonaj"
+                "PROCEED": "Tak"
             },
             "VALET_POPUP": {
                 "TITLE": "Dostarcz",
                 "TEXT": "Chcesz, aby dostarczyć {model} ({plate})?",
                 "TEXT_PAID": "Chcesz, aby dostarczyć {model} ({plate}) za {amount}?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Wykonaj"
+                "PROCEED": "Tak"
             }
         },
         "HOME": {
@@ -479,26 +479,26 @@
                 "TITLE": "Pokaż na mapie",
                 "TEXT": "Chcesz ustawić znacznik na mapie do {home}?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Wykonaj"
+                "PROCEED": "Tak"
             },
             "LOCK_POPUP": {
                 "TITLE": "{toggle} dom",
                 "TEXT": "Chcesz {toggle} dom?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Wykonaj"
+                "PROCEED": "Tak"
             },
             "GIVE_KEY_POPUP": {
                 "TITLE": "Wręcz klucz",
                 "TEXT": "Podaj ID osoby, której chcesz dać klucze",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Wykonaj"
+                "PROCEED": "Tak"
             },
 
             "REMOVE_KEY_POPUP": {
                 "TITLE": "Zabierz klucze",
                 "TEXT": "Na pewno chcesz zabrać klucze {name}?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Wykonaj"
+                "PROCEED": "Tak"
             }
         },
         "MARKETPLACE": {
@@ -516,7 +516,7 @@
                 "TITLE": "Usuń",
                 "TEXT": "Czy na pewno chcesz usunąć?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Usuń"
+                "PROCEED": "Tak"
             }
         },
         "YELLOWPAGES": {
@@ -535,7 +535,22 @@
                 "TITLE": "Usuń",
                 "TEXT": "Czy na pewno chcesz to usunąć?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Usuń"
+                "PROCEED": "Tak"
+            }
+        },
+        "MAIL": {
+            "TITLE": "Poczta",
+            "YOU": "Ty",
+            "UPDATED_NOW": "Aktualne",
+            "INBOX": "Odebrane",
+            "TO": "Do",
+            "FROM": "Od",
+
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Wyloguj",
+                "DESCRIPTION": "Jesteś pewny/a że chcesz się wylogować?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Tak"
             }
         }
     },
