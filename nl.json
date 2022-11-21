@@ -537,6 +537,22 @@
                 "CANCEL": "Annuleer",
                 "PROCEED": "Verwijder"
             }
+        },
+        
+        "MAIL": {
+            "TITLE": "Mail",
+            "YOU": "U",
+            "UPDATED_NOW": "Zojuist bijgewerkt",
+            "INBOX": "Inkomend",
+            "TO": "Aan",
+            "FROM": "Van",
+
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Afmelden",
+                "DESCRIPTION": "Weet je zeker dat je wilt afmelden?",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Afmelden"
+            }
         }
     },
     "COMPONENTS": {
