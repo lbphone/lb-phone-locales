@@ -13,7 +13,7 @@
             "AIRPLANE_MODE": "Mode avion",
             "STREAMER_MODE": "Mode streamer",
             "BLUETOOTH": "Bluetooth",
-            "GENERAL": "General",
+            "GENERAL": "Général",
 
             "ABOUT": "À propos de",
             "NAME": "Nom",
@@ -42,8 +42,8 @@
             "TEMPERATURE": "Temperature",
             "BATTERY": "Batterie",
 
-            "SOUND_HAPTICS": "Son & Haptique",
-            "SOUND_HAPTICS_PATTERNS": "Motifs sonores et haptiques",
+            "SOUND_HAPTICS": "Son & interface",
+            "SOUND_HAPTICS_PATTERNS": "Motifs sonores et interface",
             "RINGTONE": "Sonnerie",
             "TEXT_TONE": "Message",
             "RINGTONE_VOLUME": "Volume de la sonnerie et de l'alerte",
@@ -77,7 +77,7 @@
                 "TITLE": "Débloquer le numéro",
                 "TEXT": "Voulez-vous vraiment débloquer ce numéro ?",
                 "CANCEL": "Annuler",
-                "CONFIRM": "Débloquer"
+                "CONFIRM": "Confirmer"
             },
 
             "FACE_ID_PASSWORD": "Face ID et mot de passe",
@@ -133,7 +133,7 @@
                 "TITLE": "Supprimer la sauvegarde",
                 "TEXT": "Voulez-vous vraiment supprimer cette sauvegarde ??",
                 "CANCEL": "Annuler",
-                "CONFIRM": "Supprimer"
+                "CONFIRM": "Confirmer"
             },
             "ON": "On"
         },
@@ -164,11 +164,11 @@
                 "SAVE": "Sauvegarder",
                 "LABEL": "Étiquette",
                 "SOUND": "Sonnerie",
-                "SNOOZE": "Snooze",
+                "SNOOZE": "Rappel",
                 "DELETE_TITLE": "Supprimer l'alarme",
                 "DELETE_TEXT": "Êtes-vous sûr de vouloir supprimer cette alarme?",
                 "BUTTON_CANCEL": "Annuler",
-                "BUTTON_DELETE": "Effacer"
+                "BUTTON_DELETE": "Supprimer"
             },
             "STOPWATCH": {
                 "TITLE": "Chronomètre",
@@ -356,7 +356,7 @@
                 "KEYPAD": "clavier",
                 "SPEAKER": "speaker",
                 "ADD_CALL": "ajouter un appel",
-                "VIDEO": "video",
+                "VIDEO": "vidéo",
                 "CONTACTS": "contacts",
                 "MOBILE": "Mobile"
             },
@@ -377,7 +377,7 @@
 
                 "MESSAGE": "message",
                 "CALL": "appel",
-                "VIDEO": "video",
+                "VIDEO": "vidéo",
                 "MAIN": "principal",
 
                 "SHARE_CONTACT": "Partager les contacts",
