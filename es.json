@@ -297,6 +297,7 @@
             "LEAVE_GROUP": "Abandonar Conversación",
             "SENT_LOCATION": "Compartió su ubicación, haga clic para abrir en Maps",
             "SENT_LOCATION_SHORT": "Compartieron su ubicación",
+            "DELETE": "Eliminar",
 
             "REMOVE_POPUP": {
                 "TITLE": "Eliminar miembro",
@@ -537,6 +538,300 @@
                 "CANCEL": "Cancelar",
                 "PROCEED": "Eliminar"
             }
+        },
+        
+        "MAIL": {
+            "TITLE": "Correo",
+            "YOU": "Tú",
+            "UPDATED_NOW": "Actualizado justo ahora",
+            "NEW_MESSAGE": "Nuevo mensaje",
+            "INBOX": "Bandeja de entrada",
+            "TO": "A",
+            "FROM": "De",
+            "SUBJECT": "Asunto",
+            "MESSAGE": "Mensaje",
+
+            "CANCEL": "Cancelar",
+            "SEND": "Enviar",
+
+            "EMAIL": "Correo electrónico",
+            "EMAIL_INVALID": "Correo electrónico no valido",
+            "EMAIL_EXISTS": "El correo electrónico ya existe",
+            "PASSWORD": "Contreseña",
+            "WRONG_PASSWORD": "Contraseña incorrecta",
+
+            "LOGIN": "Acceso",
+            "NO_EMAIL": "No tienes correo electrónico?",
+            "CREATE_ONE": "Crea uno",
+
+            "CREATE_MAIL": "Crear correo electrónico",
+            "ALREADY_HAVE": "Ya tienes un correo electrónico?",
+
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Cerrar sesión",
+                "DESCRIPTION": "Seguro que quieres salir?",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Proceder"
+            }
+        },
+        "MAPS": {
+            "TITLE": "Mapas",
+            "GO": "Ir"
+        },
+        "MUSIC": {
+            "TITLE": "Musica",
+
+            "LIBRARY": "Biblioteca",
+            "SEARCH": "Buscar",
+
+            "ADD_QUEUE": "Añadir a la cola",
+            "ADD_PLAYLIST": "Agregar a la Playlist",
+            "REMOVE_SONG": "Eliminar canción",
+            "NOT_PLAYING": "No reproduciendo",
+            "DELETE_PLAYLIST": "Eliminar Playlist",
+            "SEARCH_PLACEHOLDER": "Artistas, Canciones, Álbumes, Playlists",
+
+            "SONGS": "Canciones",
+            "ALBUMS": "Álbumes",
+            "PLAY": "Play",
+            "SHUFFLE": "Aleatorio",
+
+            "ARTIST": "Artista",
+            "ALBUM": "Álbum",
+            "PLAYLIST": "Playlist",
+            "SONG": "Canción",
+
+            "SONG_EXISTS_POPUP": {
+                "TITLE": "La canción ya existe",
+                "DESCRIPTION": "Esta canción ya existe en la playlist",
+                "CANCEL": "Cancelar"
+            },
+            "NEW_PLAYLIST_POPUP": {
+                "TITLE": "Nueva Playlist",
+                "DESCRIPTION": "Crear una nueva playlist",
+                "PLACEHOLDER": "Nombre de la Playlist",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Proceder"
+            }
+        },
+        "TINDER": {
+            "TITLE": "Tinder",
+
+            "LIKES_YOU_TOO": "tambien le gustas!",
+            "KEEP_SWIPING": "Sigue deslizando",
+            "SAY_SOMETHING_NICE": "Di algo agradable",
+            "NO_MORE": "Nos hemos quedado sin personas para que deslices, vuelve a consultar más tarde.",
+            "SEND": "Enviar",
+
+            "AGREE_TERMS": "Al presionar 'Crear cuenta', acepta nuestros Términos de servicio y Política de privacidad",
+            "CREATE_ACCOUNT": "Crear una cuenta",
+            "AGE_PUBLIC": "Tu edad será pública",
+            "BE_OVER_18": "Debes ser mayor de 18 años para usar este servicio",
+            "NAME_MINIMUM": "Tu nombre debe tener al menos 3 caracteres",
+            "ADD_PHOTOS": "Agregar fotos",
+            "PHOTOS_MINIMUM": "Debes tener al menos una foto.",
+            "DESCRIPTION": "Cuéntanos un poco sobre ti",
+            "DESCRIPTION_MINIMUM": "Tu descripción debe tener al menos 10 caracteres",
+            "SHOW_ME": "Muéstrame",
+            "WOMEN": "Mujeres",
+            "MEN": "Hombres",
+            "EVERYONE": "Todos",
+            "EVERYTHING": "Todo",
+            "I_AM": "Soy un/a",
+            "MALE": "Hombre",
+            "FEMALE": "Mujer",
+            "CONTINUE": "Continuar",
+
+            "NAME": "Nombre",
+            "PHOTOS": "Fotos",
+            "ABOUT_ME": "Sobre mí",
+            "INTERESTED_IN": "Interesado/a en",
+            "GENDER": "Genero",
+            "SAVE": "Guardar",
+
+            "NEW_MATCHES": "Nuevos Matches",
+            "MESSAGES": "Mensajes",
+            "SEARCH_MATCHES": "Buscar Matches"
+        },
+        "INSTAGRAM": {
+            "TITLE": "Instagram",
+
+            "SEND": "Enviar",
+            "POST": "Publicar",
+            "MESSAGE_PLACEHOLDER": "Mensaje...",
+            "NEW_MESSAGE": "Nuevo mensaje",
+            "NOW": "Ahora",
+
+            "GO_LIVE_POPUP": {
+                "TITLE": "Instagram Live",
+                "DESCRIPTION": "Seguro que quieres transmitir en vivo?",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Proceder"
+            },
+            "END_LIVE_POPUP": {
+                "TITLE": "Terminar live",
+                "DESCRIPTION": "Seguro que quieres {action} con el live?",
+                "CANCEL": "Cancelar",
+                "END": "Terminar",
+                "LEAVE": "Abandonar"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Dejar de seguir",
+                "DESCRIPTION": "Seguro que quieres dejar de seguir a {name}?",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Proceder"
+            },
+            "DELETE_POST_POPUP": {
+                "TITLE": "Eliminar mensaje",
+                "DESCRIPTION": "¿Seguro que quieres eliminar esta publicación?",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Proceder"
+            },
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Desconectar",
+                "DESCRIPTION": "¿Seguro de que quieres cerrar sesión?",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Proceder"
+            },
+
+            "LIVE_ENDED": "Live terminado",
+            "COMMENT_PLACEHOLDER": "Comentar",
+            "LIVE": "Live",
+            "YOUR_STORY": "Tu historia",
+            "CREATE_STORY": "Crear historia",
+            "GO_LIVE": "Go Live",
+            "EMPTY_FEED": "Comienza a seguir personas para ver sus fotos y videos aquí",
+            "COMMENTS": "Comentarios",
+            "ADD_COMMENT_AS": "Añadir comentario como {name}",
+            "NEW_POST": "Nueva publicación",
+            "NEXT": "Seguir",
+            "CAPTION_PLACEHOLDER": "Escribe un pie de foto o video...",
+            "ACTIVITY": "Actividad",
+
+            "FOLLOW": "Seguir",
+            "FOLLOWING": "Siguiendo",
+            "FOLLOWERS": "Seguidores",
+            "FOLLOWER": "Seguidor",
+            "LIKES": "Me gusta",
+            "LIKED_BY": "Me gusta por",
+            "VIEW_ALL_COMMENTS": "Ver los {count} comentarios",
+            "FIRST_COMMENT": "Se el primero en comentar...",
+
+            "NO_ACCOUNT": "No hay cuenta con este nombre de usuario",
+            "WRONG_USERNAME_OR_PASSWORD": "Nombre de usuario o contraseña incorrectos",
+            "LOG_IN": "Iniciar sesión",
+
+            "ACCOUNT_WITH_USERNAME": "Ya existe una cuenta con este nombre de usuario",
+            "CREATE_ACCOUNT": "Crear una cuenta",
+            "USERNAME_PLACEHOLDER": "Nombre de usuario",
+            "NAME_PLACEHOLDER": "Nombre",
+            "PASSWORD_PLACEHOLDER": "Contraseña",
+            "NOT_HAVE_ACCOUNT": "¿No tienes una cuenta?",
+            "HAVE_ACCOUNT": "¿Tienes una cuenta?",
+
+            "LIKED_PHOTO": "le gustó tu foto.",
+            "LIKED_COMMENT": "le gustó tu comentario: {comment}",
+            "COMMENTED": "comentó en tu publicación: {comment}",
+            "FOLLOWED": "comenzó a seguirte.",
+
+            "DONE": "Hecho",
+            "EDIT_PROFILE": "Editar perfil",
+            "CHANGE_PICTURE": "Cambiar foto de perfil",
+            "NAME": "Nombre",
+            "BIO": "Presentación",
+            "SIGN_OUT": "Cerrar sesión",
+            "POSTS": "Publicaciones",
+            "MESSAGE": "Mensaje",
+
+            "SENT_A_PHOTO": "envió una foto",
+            "TO": "A"
+        },
+        "TWITTER": {
+            "TITLE": "Twitter",
+
+            "SEARCH_FOR": "Buscar '{search}'",
+            "START_SEARCHING": "Comienza a buscar para explorar twitter",
+            "TRENDING_HASHTAGS": "Hashtags de tendencia",
+            "SENT_ATTACHMENT": "envió un archivo adjunto",
+            "TO": "A",
+
+            "TWEETS": "Tweets",
+            "REPLIES": "Respuestas",
+            "MEDIA": "Media",
+            "LIKES": "Me gusta",
+            "CANCEL": "Cancelar",
+            "TWEET": "Tweet",
+            "TWEET_REPLY": "Tuitea tu respuesta",
+            "TWEET_GENERAL": "Qué esta pasando?",
+
+            "EDIT_PROFILE": "Editar perfil",
+            "SAVE": "Guardar",
+            "NAME": "Nombre",
+            "JOIN_DATE": "Fecha de Ingreso",
+            "BIO": "Biografia",
+            "SIGN_OUT": "Cerrar sesión",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Cerrar sesión",
+                "DESCRIPTION": "¿Seguro de que quieres cerrar sesión??",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Proceder"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Dejar de seguir",
+                "DESCRIPTION": "¿Seguro que quieres dejar de seguir a {name}?",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Proceder"
+            },
+            "RETWEET_POPUP": {
+                "RETWEET": "Retuitear",
+                "UNDO_RETWEET": "Deshacer Retweet",
+                "DESCRIPTION": "Seguro que quieres {action}?",
+                "CANCEL": "Cancelar"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "Eliminar tweet",
+                "DESCRIPTION": "¿Seguro de que quieres eliminar este tweet?",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Proceder"
+            },
+
+            "YOU": "Tú",
+            "FOLLOW": "Seguir",
+            "FOLLOWING": "Siguiendo",
+            "FOLLOWERS": "Seguidores",
+            "RETWEETED": "Retuiteado",
+            "REPLYING_TO": "Respondiendo a {name}",
+            "RETWEETED_BY": "Retuiteado por",
+            "LIKED_BY": "Me gusta por",
+
+            "ALL": "Todos",
+            "NOTIFICATIONS": "Notificaciones",
+
+            "FOLLOWS_YOU": "Te sigue",
+            "JOINED": "Se unió en {date}",
+
+            "LIKED_TWEET": "le gustó tu tweet",
+            "RETWEETED_TWEET": "retuiteó tu tweet",
+            "FOLLOWED": "comenzó a seguirte",
+
+            "SIGN_UP_TEXT": "Mira lo que está pasando en el mundo ahora mismo",
+            "TERMS_OF_SERVICE": "Al suscribirse usted acepta nuestros términos de servicio y política de privacidad.",
+            "HAS_ACCOUNT": "¿Ya tienes una cuenta?",
+            "CREATE_YOUR_ACCOUNT": "Crea tu cuenta",
+            "NAME_PLACEHOLDER": "Nombre",
+            "USERNAME_PLACEHOLDER": "Nombre de usuario",
+            "PASSWORD_PLACEHOLDER": "Contraseña",
+            "GET_STARTED": "Para comenzar, primero ingrese su @nombredeusuario",
+            "FORGOT_PASSWORD": "¿Se te olvidó tu contraseña?",
+            "ENTER_PASSWORD": "Ingresa tu contraseña",
+
+            "SEARCH_DIRECT_MESSAGES": "Buscar mensajes directos",
+            "SEARCH_TWITTER": "Buscar Twitter",
+            "MESSAGE_PLACEHOLDER": "Mensaje...",
+            "NOW": "Ahora",
+
+            "LOGIN": "Iniciar sesión",
+            "CREATE_ACCOUNT": "Crear una cuenta"
         }
     },
     "COMPONENTS": {
@@ -551,7 +846,8 @@
         },
         "GALLERY": {
             "CANCEL": "Cancelar",
-            "EXTERNAL_URL": "URL Externa"
+            "EXTERNAL_URL": "URL Externa",
+            "NO_IMAGES": "Sin imágenes"
         },
         "NOTIFICATIONS": {
             "SENT_PHOTO": "Enviar una foto",
