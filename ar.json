@@ -5,7 +5,7 @@
 
     "APPS": {
         "SETTINGS": {
-            "TITLE": "الإعدادات",
+            "TITLE": "أعدادات",
             "BACK": "رجوع",
             "DONE": "انهاء",
             "EDIT": "تعديل",
@@ -16,61 +16,61 @@
             "GENERAL": "عام",
 
             "ABOUT": "حول",
-            "NAME": "الاسم",
-            "VERSION": "الإصدار",
+            "NAME": "اسم",
+            "VERSION": "إصدار",
             "MODEL_NAME": "اسم النموذج",
-            "SERIAL_NUMBER": "الرقم التسلسلي",
+            "SERIAL_NUMBER": "رقم التسلسل",
             "DEVELOPED_BY": "تم تطويره بواسطة",
             "PURCHASE_AT": "الشراء من",
-            "SONGS": "الأغاني",
-            "VIDEOS": "الفيديوهات",
-            "PHOTOS": "الصور",
-            "APPLICATIONS": "التطبيقات",
-            "CAPACITY": "السعة",
+            "SONGS": "أغاني",
+            "VIDEOS": "فيديوهات",
+            "PHOTOS": "صور",
+            "APPLICATIONS": "تطبيقات",
+            "CAPACITY": "سعة",
             "AVAILABLE": "متوفر",
 
             "SOFTWARE_UPDATE": "تحديث النظام",
             "AUTOMATIC_UPDATES": "التحديثات التلقائية",
 
-            "DATE_TIME": "الوقت والتاريخ",
-            "24_HOUR_TIME": "الوقت بتنسيق 24 ساعة",
-            "SET_AUTOMATICALLY": "الإعداد تلقائيا",
+            "DATE_TIME": "التاريخ والوقت",
+            "24_HOUR_TIME": "نظام التوقيت ٢٤ ساعة",
+            "SET_AUTOMATICALLY": "اضبط تلقائيًا",
             "TIME_ZONE": "المنطقة الزمنية",
 
             "LANGUAGE_REGION": "اللغة والمنطقة",
-            "LANGUAGE": "اللغة",
+            "LANGUAGE": "لغة",
             "TEMPERATURE": "درجة الحرارة",
-            "BATTERY": "البطارية",
+            "BATTERY": "بطارية",
 
-            "SOUND_HAPTICS": "الصوت و الحس اللمسي",
-            "SOUND_HAPTICS_PATTERNS": "أنماط الصوت والحس اللمسي",
+            "SOUND_HAPTICS": "الصوت واللمس",
+            "SOUND_HAPTICS_PATTERNS": "أنماط الصوت واللمس",
             "RINGTONE": "نغمة الرنين",
             "TEXT_TONE": "لهجة النص",
-            "RINGTONE_VOLUME": "مستوى صوت نغمات الرنين",
+            "RINGTONE_VOLUME": "صوت المنبه ونغمة الرنين",
             "DEFAULT": "الأعدادات الأساسية",
 
             "PHONE_STORAGE": "ذاكرة الهاتف",
-            "STORAGE": "التخزين",
+            "STORAGE": "تخزين",
             "USED": "مستخدم",
-            "OF": "من",
+            "OF": "مغلق",
 
-            "DISPLAY_BRIGHTNESS": "شاشة العرض والإضاءة",
-            "APPEARANCE": "المظهر",
+            "DISPLAY_BRIGHTNESS": "الشاشة والسطوع",
+            "APPEARANCE": "مظهر",
             "AUTOMATIC": "تلقائي",
-            "BRIGHTNESS": "السطوع",
+            "BRIGHTNESS": "سطوع",
             "PHONE_SCALE": "مقياس الهاتف",
 
             "WALLPAPER": "خلفية الشاشة",
             "WALLPAPERS": "خلفيات الشاشة",
             "CHOOSE_NEW_WALLPAPER": "اختر خلفية جديدة",
 
-            "NOTIFICATIONS": "الإشعارات",
+            "NOTIFICATIONS": "إشعارات",
             "ALLOW_NOTIFICATIONS": "السماح بالإشعارات",
-            "SOUNDS": "الاصوات",
+            "SOUNDS": "اصوات",
 
-            "PHONE": "الهاتف",
+            "PHONE": "هاتف",
             "BLOCKED_CONTACTS": "جهات الاتصال المحضورة",
-            "MY_NUMBER": "الرقم المحمول",
+            "MY_NUMBER": "رقمي",
             "SHOW_CALLER_ID": "إظهار هوية المتصل",
 
             "UNBLOCK_POPUP": {
@@ -80,17 +80,17 @@
                 "CONFIRM": "رفع الحظر"
             },
 
-            "FACE_ID_PASSWORD": "بصمة الوجه ورمز الدخول",
-            "ENTER_PASSCODE": "أدخل رمز الدخول",
-            "PASSCODE": "رمز الدخول",
+            "FACE_ID_PASSWORD": "معرف الوجه ورمز المرور",
+            "ENTER_PASSCODE": "أدخل رمز المرور",
+            "PASSCODE": "رمز المرور",
             "FACE_ID": "بصمة الوجه",
             "RESET_FACE_ID": "إعادة تعيين بصمة الوجه",
             "ENABLE_FACE_ID": "تفعيل بصمة الوجه",
-            "PIN_CODE": "رمز الدخول",
+            "PIN_CODE": "الرقم السري",
 
             "DISABLE_FACE_ID_POPUP": {
                 "TITLE": "إيقاف تشغيل بصمة الوجه",
-                "TEXT": "هل أنت متأكد من أنك تريد إيقاف تشغيل بصمة الوجه؟",
+                "TEXT": "هل أنت متأكد من أنك تريد إيقاف تشغيل بصمة بصمة الوجه؟",
                 "CANCEL": "إلغاء",
                 "CONFIRM": "إيقاف التشغيل"
             },
@@ -103,14 +103,14 @@
             },
             "DISABLE_PIN_POPUP": {
                 "TITLE": "إيقاف تشغيل الرقم السري",
-                "TEXT": "هل أنت متأكد أنك تريد إيقاف رمز الدخول؟ سيؤدي ذلك أيضًا إلى ايقاف تشغيل بصمة الوجه",
+                "TEXT": "هل أنت متأكد أنك تريد إيقاف الرقم السري؟ (سيؤدي ذلك أيضًا إلى ايقاف تشغيل بصمة الوجه)",
                 "CANCEL": "إلغاء",
                 "CONFIRM": "تأكيد"
             },
-            "TURN_PASSCODE_OFF": "إيقاف تشغيل رمز الدخول",
-            "TURN_PASSCODE_ON": "تشغيل رمز الدخول",
-            "CHANGE_PASSCODE": "تغيير رمز الدخول",
-            "CLOUD_BACKUP": "نسخ احتياطي",
+            "TURN_PASSCODE_OFF": "إيقاف تشغيل رمز المرور",
+            "TURN_PASSCODE_ON": "تشغيل رمز المرور",
+            "CHANGE_PASSCODE": "تغيير رمز المرور",
+            "CLOUD_BACKUP": "نسخ احتياطي ",
             "YOUR_PROFILE": "ملفك الشخصي",
             "CREATE_BACKUP": "انشئ نسخة احتياطية",
             "SAVE_BACKUP_POPUP": {
@@ -121,13 +121,13 @@
             },
             "BACKUPS": "النسخ الاحتياطية",
             "APPLY_BACKUP_POPUP": {
-                "TITLE": "تطبيق النسخة الاحتياطية",
-                "TEXT": "هل أنت متأكد أنك تريد تطبيق هذه النسخة الاحتياطية؟ سيتم استبدال جهات الاتصال، الصور والإعدادات الخاصة بك",
+                "TITLE": "تطبيق النسخ الاحتياطي",
+                "TEXT": "هل أنت متأكد أنك تريد تطبيق هذه النسخة الاحتياطية؟ (سيتم استبدال جهات الاتصال، الصور والإعدادات الخاصة بك)",
                 "CANCEL": "إلغاء",
                 "CONFIRM": "تطبيق"
             },
             "SUCCESS": "نجاح",
-            "SUCCESS_TEXT": "سيتم إعادة تشغيل الهاتف في 5 ثوان",
+            "SUCCESS_TEXT": "سيتم إعادة تشغيل الهاتف في 5 ثوان  ...",
             "OK": "موافق",
             "REMOVE_BACKUP_POPUP": {
                 "TITLE": "إزالة النسخة الاحتياطية",
@@ -138,9 +138,9 @@
             "ON": "يعمل"
         },
         "NOTES": {
-            "TITLE": "الملاحظات",
-            "SEARCH_PLACEHOLDER": "البحث",
-            "FOOTER": "الملاحظات {amount}",
+            "TITLE": "ملاحظات",
+            "SEARCH_PLACEHOLDER": "بحث",
+            "FOOTER": "ملاحظات {amount}",
             "NEW_NOTE": "ملاحظة جديدة",
             "LAST_EDITED": "آخر تعديل: {date}",
             "DELETE_TITLE": "حذف {title}",
@@ -150,20 +150,20 @@
         },
         "CLOCK": {
             "WORLDCLOCK": {
-                "TITLE": "الساعات العالمية",
+                "TITLE": "الساعة العالمية",
                 "TODAY": "اليوم",
                 "TOMORROW": "غداً",
                 "YESTERDAY": "أمس"
             },
             "ALARM": {
-                "TITLE": "المنبه",
+                "TITLE": "منبه",
                 "ADD": "أضف منبه",
                 "CANCEL": "إلغاء",
                 "EDIT": "تعديل",
                 "DONE": "انهاء",
                 "SAVE": "حفظ",
                 "LABEL": "ملصق",
-                "SOUND": "الصوت",
+                "SOUND": "صوت",
                 "SNOOZE": "غفوة",
                 "DELETE_TITLE": "حذف المنبه",
                 "DELETE_TEXT": "هل أنت متأكد أنك تريد حذف هذا المنبه؟",
@@ -171,16 +171,16 @@
                 "BUTTON_DELETE": "حذف"
             },
             "STOPWATCH": {
-                "TITLE": "ساعة الإيقاف",
-                "START": "بداية",
-                "STOP": "إيقاف",
-                "RESET": "إعادة تعيين",
-                "LAP": "جولة"
+                "TITLE": "ساعة التوقيف",
+                "START": "ابدأ",
+                "STOP": "توقف",
+                "RESET": "إعادة ضبط",
+                "LAP": "تعين جولة"
             },
             "TIMER": {
-                "TITLE": "المؤقت",
-                "START": "بداية",
-                "STOP": "إيقاف",
+                "TITLE": "موقت",
+                "START": "ابدأ",
+                "STOP": "توقف",
                 "CANCEL": "إلغاء",
                 "HOURS": "ساعات",
                 "MINUTES": "دقائق",
@@ -193,13 +193,13 @@
         "CAMERA": {
             "VIDEO": "فيديو",
             "PHOTO": "صورة",
-            "LANDSCAPE": "صورة أفقية",
-            "UPLOADING": "رفع الصورة"
+            "LANDSCAPE": "منظر الطبيعي",
+            "UPLOADING": "تحميل"
         },
         "DARKCHAT": {
-            "TITLE": "المحادثات المظلمة",
+            "TITLE": "محادثة مظلمة",
             "USERNAME": "اسم المستخدم",
-            "SET_USERNAME": "قم بتعيين اسم المستخدم الخاص بك. ملاحظة: يمكن ضبط هذا مرة واحدة فقط",
+            "SET_USERNAME": "قم بتعيين اسم المستخدم الخاص بك. ملاحظة: يمكن ضبط هذا مرة واحدة فقط.",
             "CANCEL": "إلغاء",
             "SET": "تعيين",
             "JOIN": "انضمام",
@@ -213,7 +213,7 @@
             "INPUT_PLACEHOLDER": "اكتب رسالة ..."
         },
         "APPSTORE": {
-            "TITLE": "APP Store",
+            "TITLE": "تطبيقات",
             "SEARCH": "بحث",
             "GET": "الحصول على",
             "OPEN": "افتح",
@@ -221,13 +221,13 @@
             "GAMES": "ألعاب",
             "WHAT_WE_PLAYING": "ما الذي نلعبه؟",
             "INFORMATION": "معلومات",
-            "PROVIDER": "البائع",
-            "SIZE": "الحجم",
+            "PROVIDER": "مزود",
+            "SIZE": "حجم",
             "COMPATIBILITY": "توافق",
             "IN_APP_PURCHASES": "عمليات الشراء داخل التطبيق"
         },
         "PHOTOS": {
-            "TITLE": "الصور",
+            "TITLE": "صور",
             "SELECT": "تحديد",
             "CANCEL": "إلغاء",
             "SELECT_ITEMS": "حدد العناصر",
@@ -239,23 +239,23 @@
             "DELETE_BUTTON_CANCEL": "إلغاء",
             "DELETE_BUTTON_DELETE": "حذف",
 
-            "DELETE_IMAGE_TITLE": "حذف الصورة",
+            "DELETE_IMAGE_TITLE": "حذف صورة",
             "DELETE_IMAGE_TEXT": "هل تريد حذف هذه الصورة؟",
             "DELETE_IMAGE_BUTTON_CANCEL": "إلغاء",
             "DELETE_IMAGE_BUTTON_DELETE": "حذف"
         },
         "WEATHER": {
-            "TITLE": "الطقس",
+            "TITLE": "طقس",
             "HOURLY_FORECAST": "نشرة جوية كل ساعة",
             "NOW": "الآن",
-            "FEELS_LIKE": "تشعر به",
+            "FEELS_LIKE": "يشعر وكأنها",
             "FEELS_LIKE_SAME": "مماثلة لدرجة الحرارة الفعلية.",
             "FEELS_LIKE_HUMIDITY": "الرطوبة تجعلها أكثر دفئًا",
             "FEELS_LIKE_WIND": "تجعل الرياح الجو أكثر برودة",
 
             "SUNRISE": "شروق الشمس",
             "SUNSET": "غروب الشمس",
-            "WIND": "الرياح",
+            "WIND": "ريح",
             "PRECIPITATION": "ترسب",
             "LAST_24H": "في آخر ٢٤ ساعة",
             "EXPECTED_24H": "متوقع في ٢٤ ساعة القادمة",
@@ -275,7 +275,7 @@
             }
         },
         "MESSAGES": {
-            "TITLE": "الرسائل",
+            "TITLE": "رسائل",
             "NEW_MESSAGE": "رسالة جديدة",
             "PEOPLE": "اشخاص",
             "MEMBERS": "أعضاء",
@@ -324,8 +324,8 @@
                 "REQUESTED": "تم الطلب",
                 "PAY": "دفع",
                 "SEND": "إرسال",
-                "SEND_TITLE": "{currency}{amount} إرسال ",
-                "SEND_DESCRIPTION": "هل تريد أن ترسل  {currency}{amount} الى {name}؟",
+                "SEND_TITLE": "{amount} إرسال ",
+                "SEND_DESCRIPTION": "هل تريد أن ترسل {amount} الى {name}؟",
                 "SEND_BUTTON_CANCEL": "إلغاء",
                 "SEND_BUTTON_SEND": "إرسال"
             }
@@ -400,9 +400,9 @@
                 "BLOCK_NUMBER_BUTTON_BLOCK": "حظر"
             },
             "FAVOURITES": {
-                "TITLE": "المفضلة",
+                "TITLE": "مفضلات",
 
-                "REMOVE_TITLE": "إزالة من المفضلة",
+                "REMOVE_TITLE": "إزالة من المفضلات",
                 "REMOVE_TEXT": "هل أنت متأكد أنك تريد إزالة جهة الاتصال هذه من المفضلة؟",
                 "REMOVE_BUTTON_CANCEL": "إلغاء",
                 "REMOVE_BUTTON_REMOVE": "إزالة"
@@ -412,11 +412,11 @@
                 "ADD_NUMBER": "أضف رقم"
             },
             "RECENTS": {
-                "TITLE": "حديثة"
+                "TITLE": "مؤخرًا"
             }
         },
         "WALLET": {
-            "TITLE": "المحفظة",
+            "TITLE": "محفظة",
             "BALANCE": "الرصيد",
             "SEND": "إرسال",
             "NEXT": "التالي",
@@ -431,7 +431,7 @@
             "AGO": "في الماضي"
         },
         "GARAGE": {
-            "TITLTE": "الكراج",
+            "TITLTE": "كراج",
 
             "ACTIONS": "أجراءات",
             "MY_CARS": "سياراتي",
@@ -460,7 +460,7 @@
             }
         },
         "HOME": {
-            "TITLE": "البيت",
+            "TITLE": "بيت",
             "MY_HOMES": "منازلى",
             "MY_HOME": "منزلي",
             "KEY_ACCESS": "مفتاح الدخول ",
@@ -504,7 +504,7 @@
         "MARKETPLACE": {
             "CANCEL": "إلغاء",
             "SEARCH": "ابحث عن قوائم أو أرقام",
-            "NEW_POST": "إعلان جديد",
+            "NEW_POST": "منشور جديد",
             "TITLE": "عنوان",
             "DESCRIPTION": "وصف",
             "PRICE": "سعر",
@@ -513,8 +513,8 @@
             "REMOVE": "إزالة",
 
             "DELETE_POPUP": {
-                "TITLE": "حذف الإعلان",
-                "TEXT": "هل أنت متأكد أنك تريد حذف هذه الإعلان",
+                "TITLE": "حذف القائمة",
+                "TEXT": "هل أنت متأكد أنك تريد حذف هذه القائمة؟",
                 "CANCEL": "إلغاء",
                 "PROCEED": "حذف"
             }
@@ -523,7 +523,7 @@
             "SEARCH": "ابحث عن بريد أو أرقام",
             "FROM": "من",
             "CANCEL": "إلغاء",
-            "NEW_POST": "إعلان جديد",
+            "NEW_POST": "بريد جديد",
 
             "TITLE": "عنوان",
             "DESCRIPTION": "وصف",
@@ -532,8 +532,8 @@
             "CALL": "مكالمة",
 
             "DELETE_POPUP": {
-                "TITLE": "حذف الإعلان",
-                "TEXT": "هل أنت متأكد أنك تريد حذف هذا الإعلان؟",
+                "TITLE": "حذف بريد",
+                "TEXT": "هل أنت متأكد أنك تريد حذف هذه المشاركة؟",
                 "CANCEL": "إلغاء",
                 "PROCEED": "حذف"
             }
@@ -547,7 +547,7 @@
             "MESSAGE": "رسالة"
         },
         "IMAGE": {
-            "SAVE_TO_GALLERY": "حفظ في مجلد الصور"
+            "SAVE_TO_GALLERY": "حفظ في المعرض"
         },
         "GALLERY": {
             "CANCEL": "إلغاء",
@@ -573,7 +573,7 @@
             }
         },
         "AIRDROP": {
-            "TITLE": "AirDrop",
+            "TITLE": "الواردات",
             "TEXT": "يرغب {sender} في مشاركة {type}",
             "VIDEO": "فيديو",
             "PHOTO": "صورة",
@@ -586,13 +586,13 @@
         "HELLO": "مرحبًا",
         "NEXT": "انقر لفتح",
 
-        "CREATE_PASSCODE": "قم بإنشاء رمز الدخول",
-        "CREATE_PASSCODE_TEXT": "يحمي رمز المرور بياناتك ويستخدم لفتح جهازك",
+        "CREATE_PASSCODE": "قم بإنشاء رمز مرور",
+        "CREATE_PASSCODE_TEXT": "يحمي رمز المرور بياناتك ويستخدم لفتح جهازك.",
         "SKIP": "تخطي هذه الخطوة",
 
-        "FACE_ID_SETUP": "إعداد بصمة الوجه",
-        "FACE_ID_TEXT": "قم بإعداد بصمة الوجه لإلغاء قفل هاتفك تلقائيًا عندما يكون وجهك في الإطار",
-        "ENABLE_FACE_ID": "تفعيل بصمة الوجه",
+        "FACE_ID_SETUP": "إعداد جهاز التعرف على الوجه",
+        "FACE_ID_TEXT": "قم بإعداد معرف الوجه لإلغاء قفل هاتفك تلقائيًا عندما يكون وجهك في الإطار.",
+        "ENABLE_FACE_ID": "تفعيل معرف الوجه",
 
         "APPEARANCE": "مظهر",
         "APPEARANCE_TEXT": "حدد مظهرًا فاتحًا أو داكنًا",
@@ -604,7 +604,7 @@
     "HOMESCREEN": {
         "DONE": "انهاء",
         "REMOVE": "إزالة",
-        "REMOVE_TEXT": "لن يؤدي حذف هذا التطبيق إلى حذف بياناته. يمكن إعادة تثبيت التطبيق في وقت لاحق من متجر التطبيقات",
+        "REMOVE_TEXT": "لن يؤدي حذف هذا التطبيق إلى حذف بياناته. يمكن إعادة تثبيت التطبيق في وقت لاحق من متجر التطبيقات.",
         "BUTTON_CANCEL": "إلغاء",
         "BUTTON_DELETE": "حذف"
     },

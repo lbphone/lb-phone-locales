@@ -324,8 +324,8 @@
                 "REQUESTED": "ıstendi",
                 "PAY": "Öde",
                 "SEND": "Gönder",
-                "SEND_TITLE": "Gönder: {currency}{amount}",
-                "SEND_DESCRIPTION": "{name} kişisine {currency}{amount} miktarında para göndermek istediğine emin misin?",
+                "SEND_TITLE": "Gönder: {amount}",
+                "SEND_DESCRIPTION": "{name} kişisine {amount} miktarında para göndermek istediğine emin misin?",
                 "SEND_BUTTON_CANCEL": "İptal",
                 "SEND_BUTTON_SEND": "Gönder"
             }

@@ -324,8 +324,8 @@
                 "REQUESTED": "Anmodet",
                 "PAY": "Betal",
                 "SEND": "Send",
-                "SEND_TITLE": "Send {amount}{currency}",
-                "SEND_DESCRIPTION": "Vil du sende {amount}{currency} til {name}?",
+                "SEND_TITLE": "Send {amount}",
+                "SEND_DESCRIPTION": "Vil du sende {amount} til {name}?",
                 "SEND_BUTTON_CANCEL": "Annuller",
                 "SEND_BUTTON_SEND": "Send"
             }

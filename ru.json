@@ -324,8 +324,8 @@
                 "REQUESTED": "Запрошено",
                 "PAY": "Платить",
                 "SEND": "Отправить",
-                "SEND_TITLE": "Отправить {currency}{amount}",
-                "SEND_DESCRIPTION": "Вы хотите отправить {currency}{amount} {name}?",
+                "SEND_TITLE": "Отправить {amount}",
+                "SEND_DESCRIPTION": "Вы хотите отправить {amount} {name}?",
                 "SEND_BUTTON_CANCEL": "Отмена",
                 "SEND_BUTTON_SEND": "Отправить"
             }

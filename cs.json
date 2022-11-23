@@ -324,8 +324,8 @@
                 "REQUESTED": "Zažádáno",
                 "PAY": "Platit",
                 "SEND": "Odeslat",
-                "SEND_TITLE": "Odeslat {currency}{amount}",
-                "SEND_DESCRIPTION": "Chcete odeslat {currency}{amount} na {name}?",
+                "SEND_TITLE": "Odeslat {amount}",
+                "SEND_DESCRIPTION": "Chcete odeslat {amount} na {name}?",
                 "SEND_BUTTON_CANCEL": "Zrušit",
                 "SEND_BUTTON_SEND": "Odeslat"
             }

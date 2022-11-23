@@ -324,8 +324,8 @@
                 "REQUESTED": "Angefordert",
                 "PAY": "Zahlen",
                 "SEND": "Senden",
-                "SEND_TITLE": "{currency}{amount} senden",
-                "SEND_DESCRIPTION": "Willst du {currency}{amount} an {name} senden?",
+                "SEND_TITLE": "{amount} senden",
+                "SEND_DESCRIPTION": "Willst du {amount} an {name} senden?",
                 "SEND_BUTTON_CANCEL": "Abbrechen",
                 "SEND_BUTTON_SEND": "Senden"
             }

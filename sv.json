@@ -32,7 +32,7 @@
             "SOFTWARE_UPDATE": "Mjukvaru Uppdatering",
             "AUTOMATIC_UPDATES": "Automatisk Uppdatering",
 
-            "DATE_TIME": "Datum & Tid",
+            "DATE_TIME": "Data & Tid",
             "24_HOUR_TIME": "24 Timmar Tid",
             "SET_AUTOMATICALLY": "Sätt automatiskt",
             "TIME_ZONE": "Tids Zon",
@@ -324,8 +324,8 @@
                 "REQUESTED": "Begäran skickad",
                 "PAY": "Betala",
                 "SEND": "Skicka",
-                "SEND_TITLE": "Skicka {currency}{amount}",
-                "SEND_DESCRIPTION": "Vill du skicka {currency}{amount} till {name}?",
+                "SEND_TITLE": "Skicka {amount}",
+                "SEND_DESCRIPTION": "Vill du skicka {amount} till {name}?",
                 "SEND_BUTTON_CANCEL": "Avbryt",
                 "SEND_BUTTON_SEND": "Skicka"
             }

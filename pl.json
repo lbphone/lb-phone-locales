@@ -324,8 +324,8 @@
                 "REQUESTED": "Zarządane",
                 "PAY": "Zapłać",
                 "SEND": "Wyślij",
-                "SEND_TITLE": "Wyślij {amount}{currency}",
-                "SEND_DESCRIPTION": "Czy na pewno chcesz wysłać {amount}{currency} do {name}?",
+                "SEND_TITLE": "Wyślij {amount}",
+                "SEND_DESCRIPTION": "Czy na pewno chcesz wysłać {amount} do {name}?",
                 "SEND_BUTTON_CANCEL": "Anuluj",
                 "SEND_BUTTON_SEND": "Wyślij"
             }
