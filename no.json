@@ -2,19 +2,16 @@
     "LABEL": "Norsk",
     "SEARCH": "Søk",
     "CANCEL": "Avbryt",
-
     "APPS": {
         "SETTINGS": {
             "TITLE": "Innstillinger",
             "BACK": "Tilbake",
             "DONE": "Ferdig",
             "EDIT": "Endre",
-
             "AIRPLANE_MODE": "Flymodus",
             "STREAMER_MODE": "Streamermodus",
             "BLUETOOTH": "Bluetooth",
             "GENERAL": "Generelt",
-
             "ABOUT": "Om",
             "NAME": "Navn",
             "VERSION": "Versjon",
@@ -28,58 +25,47 @@
             "APPLICATIONS": "Applikasjoner",
             "CAPACITY": "Kapasitet",
             "AVAILABLE": "Tilgjengelig",
-
             "SOFTWARE_UPDATE": "Programvareoppdatering",
             "AUTOMATIC_UPDATES": "Automatiske Oppdateringer",
-
             "DATE_TIME": "Dato & Tid",
             "24_HOUR_TIME": "24 Timers Tid",
             "SET_AUTOMATICALLY": "Sett Automatisk",
             "TIME_ZONE": "Tidssone",
-
             "LANGUAGE_REGION": "Språk & Region",
             "LANGUAGE": "Språk",
             "TEMPERATURE": "Temperatur",
             "BATTERY": "Batteri",
-
             "SOUND_HAPTICS": "Lyd & Vibrasjoner",
             "SOUND_HAPTICS_PATTERNS": "Lyd- og Vibrasjonsmønster",
             "RINGTONE": "Ringetone",
             "TEXT_TONE": "Meldingstone",
             "RINGTONE_VOLUME": "Ringetone- og varselvolum",
             "DEFAULT": "Standard",
-
             "PHONE_STORAGE": "Telefonlagring",
             "STORAGE": "Lagring",
             "USED": "Brukt",
             "OF": "av",
-
             "DISPLAY_BRIGHTNESS": "Skjerm & Lysstyrke",
             "APPEARANCE": "Utseende",
             "AUTOMATIC": "Automatisk",
             "BRIGHTNESS": "Lysstyrke",
             "PHONE_SCALE": "Telefonskala",
-
             "WALLPAPER": "Bakgrunn",
             "WALLPAPERS": "Bakgrunner",
             "CHOOSE_NEW_WALLPAPER": "Velg en ny bakgrunn",
-
             "NOTIFICATIONS": "Varsler",
             "ALLOW_NOTIFICATIONS": "Godta Varsler",
             "SOUNDS": "Lyder",
-
             "PHONE": "Telefon",
             "BLOCKED_CONTACTS": "Blokkerte Kontakter",
             "MY_NUMBER": "Mitt Nummer",
             "SHOW_CALLER_ID": "Vis oppringer ID",
-
             "UNBLOCK_POPUP": {
                 "TITLE": "Fjern Blokkering",
                 "TEXT": "Er du sikker på at du vil fjerne blokkeringen?",
                 "CANCEL": "Avbryt",
                 "CONFIRM": "Fjern"
             },
-
             "FACE_ID_PASSWORD": "Face ID & Pin-kode",
             "ENTER_PASSCODE": "Skriv Pin-kode",
             "PASSCODE": "Pin-kode",
@@ -87,14 +73,12 @@
             "RESET_FACE_ID": "Tilbakestill Face ID",
             "ENABLE_FACE_ID": "Skru på Face ID",
             "PIN_CODE": "Pin-kode",
-
             "DISABLE_FACE_ID_POPUP": {
                 "TITLE": "Skru av Face ID",
                 "TEXT": "Er du sikker på at du vil skru av Face ID?",
                 "CANCEL": "Avbryt",
                 "CONFIRM": "Skru Av"
             },
-
             "ENABLE_FACE_ID_POPUP": {
                 "TITLE": "Skru på Face ID",
                 "TEXT": "Er du sikker på at du vil skru på Face ID?",
@@ -233,12 +217,10 @@
             "SELECT_ITEMS": "Velg Bilder",
             "SELECTED_COUNT": "{count} Bilder Valgt",
             "PHOTO_COUNT": "{count} bilder",
-
             "DELETE_TITLE": "Slett {count} bilder",
             "DELETE_TEXT": "Vil du slette {count} bilder",
             "DELETE_BUTTON_CANCEL": "Avbryt",
             "DELETE_BUTTON_DELETE": "Slett",
-
             "DELETE_IMAGE_TITLE": "Slett Bilde",
             "DELETE_IMAGE_TEXT": "Vil du slette dette bildet?",
             "DELETE_IMAGE_BUTTON_CANCEL": "Avbryt",
@@ -252,14 +234,12 @@
             "FEELS_LIKE_SAME": "Føles som den faktiske temperaturen.",
             "FEELS_LIKE_HUMIDITY": "Luftfuktigheten får det til å føles varmere.",
             "FEELS_LIKE_WIND": "Vind får det til å føles kaldere.",
-
             "SUNRISE": "Soloppgang",
             "SUNSET": "Solnedgang",
             "WIND": "Vind",
             "PRECIPITATION": "Nedbør",
             "LAST_24H": "de siste 24t",
             "EXPECTED_24H": "forventet neste 24t",
-
             "TYPES": {
                 "CLOUDY": "Skyet",
                 "LIGHT_RAIN": "Lett Regn",
@@ -297,7 +277,6 @@
             "LEAVE_GROUP": "Forlat Samtale",
             "SENT_LOCATION": " Deler sin lokasjon, trykk for å åpne i Maps",
             "SENT_LOCATION_SHORT": "Deler sin lokasjon",
-
             "REMOVE_POPUP": {
                 "TITLE": "Fjern medlem",
                 "TEXT": "Er du sikker på at du vil fjerne {name} fra gruppen?",
@@ -324,8 +303,8 @@
                 "REQUESTED": "Forespurt",
                 "PAY": "Betal",
                 "SEND": "Send",
-                "SEND_TITLE": "Send {amount}{currency}",
-                "SEND_DESCRIPTION": "Vil du sende {amount}{currency} til {name}?",
+                "SEND_TITLE": "Send {amount}",
+                "SEND_DESCRIPTION": "Vil du sende {amount} til {name}?",
                 "SEND_BUTTON_CANCEL": "Avbryt",
                 "SEND_BUTTON_SEND": "Send"
             }
@@ -335,13 +314,11 @@
             "DONE": "Ferdig",
             "EDIT": "Andre",
             "CANCEL": "Avbryt",
-
             "CALL": {
                 "CALL_TITLE": "Ring {name}",
                 "CALL_TEXT": "Er du sikker på at du vil ringe {name}?",
                 "CALL_BUTTON_CANCEL": "Avbryt",
                 "CALL_BUTTON_CALL": "Ring",
-
                 "NO_CALLER_ID": "Ingen anrops-ID",
                 "UNKNOWN": "Ukjent",
                 "USER_BUSY": "Bruker Opptatt",
@@ -351,7 +328,6 @@
                 "ACCEPT": "Godta",
                 "END": "Avslutt",
                 "VIDEO_CALL": "Videosamtale",
-
                 "MUTE": "mute",
                 "KEYPAD": "keypad",
                 "SPEAKER": "høyttaler",
@@ -360,7 +336,6 @@
                 "CONTACTS": "kontakter",
                 "MOBILE": "Mobil"
             },
-
             "CONTACTS": {
                 "TITLE": "Kontakter",
                 "FIRST_NAME": "Fornavn",
@@ -368,32 +343,26 @@
                 "PHONE_NUMBER": "Telefonnummer",
                 "MY_CARD": "Mitt Kort",
                 "ADD_PHOTO": "Legg til Bilde",
-
                 "REMOVE_CONTACT_TITLE": "Slett Kontakt",
                 "REMOVE_CONTACT_TEXT": "Er du sikker på at du vil slette denne kontakten?",
                 "REMOVE_CONTACT_BUTTON_CANCEL": "Avbryt",
                 "REMOVE_CONTACT_BUTTON_DELETE": "Slett",
                 "DELETE_CONTACT": "Slett kontakt",
-
                 "MESSAGE": "melding",
                 "CALL": "anrop",
                 "VIDEO": "video",
                 "MAIN": "main",
-
                 "SHARE_CONTACT": "Del Kontakt",
                 "SHARE_LOCATION": "Del min lokasjon",
                 "REMOVE_FAVORITE": "Fjern fra Favoritter",
                 "ADD_FAVORITE": "Legg til i Favoritter",
                 "ADD_CONTACT": "Legg til i Kontakter",
-
                 "UNBLOCK_CALLER": "Fjern blokkering",
                 "BLOCK_CALLER": "Blokker denne personen",
-
                 "UNBLOCK_NUMBER_TITLE": "Fjern blokkering",
                 "UNBLOCK_NUMBER_TEXT": "Er du sikker på at du vil fjerne blokkeringen av {number}?",
                 "UNBLOCK_NUMBER_BUTTON_CANCEL": "Avbryt",
                 "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Fjern",
-
                 "BLOCK_NUMBER_TITLE": "Blokker Nummer",
                 "BLOCK_NUMBER_TEXT": "Er du sikker på at du vil blokker {number}?",
                 "BLOCK_NUMBER_BUTTON_CANCEL": "Avbryt",
@@ -401,7 +370,6 @@
             },
             "FAVOURITES": {
                 "TITLE": "Favoritter",
-
                 "REMOVE_TITLE": "Fjern fra Favorites",
                 "REMOVE_TEXT": "Er du sikker på at du vil fjerne kontakten fra favoritter?",
                 "REMOVE_BUTTON_CANCEL": "Avbryt",
@@ -422,17 +390,14 @@
             "NEXT": "Neste",
             "DONE": "Ferdig",
             "DONE_SUBTITLE": "Du sendte {amount} til {number}",
-
             "NO_REFUNDS": "Betalinger kan ikke refunderes, dobbeltsjekk nummeret.",
             "NEW_BALANCE": "Ny Saldo",
             "LATEST_TRANSACTIONS": "Siste Transaksjoner",
-
             "NOW": "Nå",
             "AGO": "siden"
         },
         "GARAGE": {
             "TITLTE": "Garasje",
-
             "ACTIONS": "Handlinger",
             "MY_CARS": "Mine Kjøretøy",
             "OUT": "Ute",
@@ -444,7 +409,6 @@
             "FUEL": "Drivstoff",
             "ENGINE": "Motor",
             "BODY": "Karosseri",
-
             "WAYPOINT_POPUP": {
                 "TITLE": "Sett Veipunkt",
                 "TEXT": "Vil du sette veipunkt til din {model}?",
@@ -474,7 +438,6 @@
             "LOCKED": "Låst",
             "GIVE_KEY": "Gi Nøkler",
             "MANAGE": "Administrer",
-
             "WAYPOINT_POPUP": {
                 "TITLE": "Sett Veipunkt",
                 "TEXT": "Vil du sette veipunkt til {home}?",
@@ -493,7 +456,6 @@
                 "CANCEL": "Avbryt",
                 "PROCEED": "Fortsett"
             },
-
             "REMOVE_KEY_POPUP": {
                 "TITLE": "Fjern nøkkelholder",
                 "TEXT": "Vil du fjerne tilgangen til {name}?",
@@ -524,13 +486,11 @@
             "FROM": "Fra",
             "CANCEL": "Avbryt",
             "NEW_POST": "Nytt Innlegg",
-
             "TITLE": "Tittel",
             "DESCRIPTION": "Beskrivelse",
             "PRICE": "Pris",
             "POST": "Legg ut",
             "CALL": "Ring",
-
             "DELETE_POPUP": {
                 "TITLE": "Slett Innlegg",
                 "TEXT": "Er du sikker på at du vil slette innlegget?",
@@ -562,9 +522,7 @@
             "COPY_PHOTO": "Kopier Bilde",
             "USE_WALLPAPER": "Bruk som Bakgrunn",
             "COPY_NUMBER": "Kopier Nummer",
-
             "AIRDROP_SENT": "Sendt",
-
             "WALLPAPER_POPUP": {
                 "TITLE": "Bruk som Bakgrunn",
                 "TEXT": "Er du sikker på at du vil bruke dette bildet som bakgrunn?",
@@ -585,18 +543,14 @@
     "SETUP": {
         "HELLO": "Hei",
         "NEXT": "Klikk for å åpne",
-
         "CREATE_PASSCODE": "Opprett Pin-kode",
         "CREATE_PASSCODE_TEXT": "En pin-kode beskytter dine data og brukes for å låse opp din telefon.",
         "SKIP": "Hopp over",
-
         "FACE_ID_SETUP": "Face ID Oppsett",
         "FACE_ID_TEXT": "Sett opp Face ID for å automatisk låse opp din telefon med ansiktet ditt.",
         "ENABLE_FACE_ID": "Skru på Face ID",
-
         "APPEARANCE": "Utseende",
         "APPEARANCE_TEXT": "Velg lyst eller mørkt utseende",
-
         "CONTINUE": "Forsett",
         "WELCOME_TO": "Velkommen til",
         "CLICK": "Trykk for å starte"

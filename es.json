@@ -324,8 +324,8 @@
                 "REQUESTED": "Solicitado",
                 "PAY": "Pagar",
                 "SEND": "Enviar",
-                "SEND_TITLE": "Enviar {currency}{amount}",
-                "SEND_DESCRIPTION": "¿Quieres enviar {currency}{amount} a {name}?",
+                "SEND_TITLE": "Enviar {amount}",
+                "SEND_DESCRIPTION": "¿Quieres enviar {amount} a {name}?",
                 "SEND_BUTTON_CANCEL": "Cancelar",
                 "SEND_BUTTON_SEND": "Enviar"
             }
@@ -516,7 +516,7 @@
                 "TITLE": "Eliminar Listado",
                 "TEXT": "¿Está seguro de que desea eliminar este listado?",
                 "CANCEL": "Cancelar",
-                "PROCEED": "ELIMINAR"
+                "PROCEED": "Eliminar"
             }
         },
         "YELLOWPAGES": {

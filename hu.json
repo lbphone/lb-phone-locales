@@ -324,8 +324,8 @@
                 "REQUESTED": "Igényelve",
                 "PAY": "Fizetés",
                 "SEND": "SKüldés",
-                "SEND_TITLE": "Küldés {currency}{amount}",
-                "SEND_DESCRIPTION": "Biztosan elküldesz ennyit {currency}{amount} neki {name}?",
+                "SEND_TITLE": "Küldés {amount}",
+                "SEND_DESCRIPTION": "Biztosan elküldesz ennyit {amount} neki {name}?",
                 "SEND_BUTTON_CANCEL": "Mégsem",
                 "SEND_BUTTON_SEND": "Küldés"
             }
