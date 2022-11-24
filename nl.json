@@ -324,8 +324,8 @@
                 "REQUESTED": "Verzocht",
                 "PAY": "Betaal",
                 "SEND": "Versturen",
-                "SEND_TITLE": "{currency}{amount} overboeken",
-                "SEND_DESCRIPTION": "Wil je {currency}{amount} overboeken naar {name}?",
+                "SEND_TITLE": "{amount} overboeken",
+                "SEND_DESCRIPTION": "Wil je {amount} overboeken naar {name}?",
                 "SEND_BUTTON_CANCEL": "Annuleren",
                 "SEND_BUTTON_SEND": "Versturen"
             }
