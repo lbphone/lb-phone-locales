@@ -537,6 +537,299 @@
                 "CANCEL": "Annuler",
                 "PROCEED": "Supprimer"
             }
+        },
+
+        "MAIL": {
+            "TITLE": "Mail",
+            "YOU": "Toi",
+            "UPDATED_NOW": "Mis à jour a l'instant",
+            "NEW_MESSAGE": "Nouveau Message",
+            "INBOX": "Inbox",
+            "TO": "À",
+            "FROM": "De",
+            "SUBJECT": "Objet",
+            "MESSAGE": "Message",
+
+            "CANCEL": "Annuler",
+            "SEND": "Envoyer",
+
+            "EMAIL": "Email",
+            "EMAIL_INVALID": "Adresse mail invalide",
+            "EMAIL_EXISTS": "Adresse mail déjà existante",
+            "PASSWORD": "Mot de passe",
+            "WRONG_PASSWORD": "Mot de passe incorrect",
+
+            "LOGIN": "Login",
+            "NO_EMAIL": "Vous n'avez pas d'adresse mail ?",
+            "CREATE_ONE": "Créez-en une",
+
+            "CREATE_MAIL": "Créez une adresse mail",
+            "ALREADY_HAVE": "Vous avez déjà une adresse mail?",
+
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Se déconnecter",
+                "DESCRIPTION": "Êtes-vous surs de vouloir vous déconnecter?",
+                "CANCEL": "Annuler",
+                "PROCEED": "Suivant"
+            }
+        },
+        "MAPS": {
+            "TITLE": "Maps",
+            "GO": "Go"
+        },
+        "MUSIC": {
+            "TITLE": "Music",
+
+            "LIBRARY": "Bibliothèque",
+            "SEARCH": "Rechercher",
+
+            "ADD_QUEUE": "Ajouter à la file d'attente",
+            "ADD_PLAYLIST": "Ajouter à la playlist",
+            "REMOVE_SONG": "Enlever la musique",
+            "NOT_PLAYING": "Pas jouée actuellement",
+            "DELETE_PLAYLIST": "Supprimer la playlist",
+            "SEARCH_PLACEHOLDER": "Artistes, Musiques, Albums, Playlists",
+
+            "SONGS": "Musiques",
+            "ALBUMS": "Albums",
+            "PLAY": "Play",
+            "SHUFFLE": "Aléatoire",
+
+            "ARTIST": "Artistes",
+            "ALBUM": "Album",
+            "PLAYLIST": "Playlist",
+            "SONG": "Musique",
+
+            "SONG_EXISTS_POPUP": {
+                "TITLE": "Cette musique existe déjà",
+                "DESCRIPTION": "Cette musique est déjà dans cette playlist",
+                "CANCEL": "Annuler"
+            },
+            "NEW_PLAYLIST_POPUP": {
+                "TITLE": "Nouvelle Playlist",
+                "DESCRIPTION": "Créer une nouvelle playlist",
+                "PLACEHOLDER": "Nom de la playlist",
+                "CANCEL": "Annuler",
+                "PROCEED": "Suivant"
+            }
+        },
+        "TINDER": {
+            "TITLE": "Tinder",
+
+            "LIKES_YOU_TOO": "t'a liké aussi!",
+            "KEEP_SWIPING": "Continue de swipe",
+            "SAY_SOMETHING_NICE": "Dis-lui quelque chose...",
+            "NO_MORE": "Il n'y a plus personne a swipe pour le moment, reviens plus tard!",
+            "SEND": "Envoyer",
+
+            "AGREE_TERMS": "By pressing 'Create Account' you agree to our Terms of Service and Privacy Policy",
+            "CREATE_ACCOUNT": "Créer un compte",
+            "AGE_PUBLIC": "Votre âge sera publique",
+            "BE_OVER_18": "Vous devez avoir au moins 18 ans pour utiliser Tinder",
+            "NAME_MINIMUM": "Votre nom doit avoir au moins 3 caractères",
+            "ADD_PHOTOS": "Ajouter des Photos",
+            "PHOTOS_MINIMUM": "Vous devez avoir au moins une photo",
+            "DESCRIPTION": "Dis-nous en un peu plus sur toi...",
+            "DESCRIPTION_MINIMUM": "Votre description doit faire au moins 10 caractères",
+            "SHOW_ME": "Montrez-moi",
+            "WOMEN": "Femme",
+            "MEN": "Homme",
+            "EVERYONE": "Tout le monde",
+            "EVERYTHING": "Tout",
+            "I_AM": "Je suis",
+            "MALE": "Homme",
+            "FEMALE": "Femme",
+            "CONTINUE": "Continuer",
+
+            "NAME": "Nom",
+            "PHOTOS": "Photos",
+            "ABOUT_ME": "A propos de moi",
+            "INTERESTED_IN": "Interessé par",
+            "GENDER": "Genre",
+            "SAVE": "Sauvegarder",
+
+            "NEW_MATCHES": "Nouveaux matchs",
+            "MESSAGES": "Messages",
+            "SEARCH_MATCHES": "Rechercher les matchs"
+        },
+        "INSTAGRAM": {
+            "TITLE": "Instagram",
+
+            "SEND": "Envoyer",
+            "POST": "Post",
+            "MESSAGE_PLACEHOLDER": "Envoyer un Message...",
+            "NEW_MESSAGE": "Nouveau Message",
+            "NOW": "Now",
+
+            "GO_LIVE_POPUP": {
+                "TITLE": "Lancer un Live",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir lancer le live?",
+                "CANCEL": "Annuler",
+                "PROCEED": "Suivant"
+            },
+            "END_LIVE_POPUP": {
+                "TITLE": "Terminer le Live",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir {action} ce live?",
+                "CANCEL": "Annuler",
+                "END": "Terminer",
+                "LEAVE": "Quitter"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Unfollow",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir unfollow {name}?",
+                "CANCEL": "Annuler",
+                "PROCEED": "Suivant"
+            },
+            "DELETE_POST_POPUP": {
+                "TITLE": "Supprimer ce post",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer ce post?",
+                "CANCEL": "Annuler",
+                "PROCEED": "Suivant"
+            },
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Se déconnecter",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir vous déconnecter?",
+                "CANCEL": "Annuler",
+                "PROCEED": "Suivant"
+            },
+
+            "LIVE_ENDED": "Fin du live",
+            "COMMENT_PLACEHOLDER": "Commentaire",
+            "LIVE": "Live",
+            "YOUR_STORY": "Votre Story",
+            "CREATE_STORY": "Créer votre Story",
+            "GO_LIVE": "Lancer un Live",
+            "EMPTY_FEED": "Commencez par suivre des gens pour voir leurs photos et vidéos ici",
+            "COMMENTS": "Commentaires",
+            "ADD_COMMENT_AS": "Ajouter des commentaires en tant que {name}",
+            "NEW_POST": "Nouveau post",
+            "NEXT": "Suivant",
+            "CAPTION_PLACEHOLDER": "Écrivez une description...",
+            "ACTIVITY": "Activité",
+
+            "FOLLOW": "Follow",
+            "FOLLOWING": "Following",
+            "FOLLOWERS": "Followers",
+            "FOLLOWER": "Follower",
+            "LIKES": "Likes",
+            "LIKED_BY": "Liké par",
+            "VIEW_ALL_COMMENTS": "Voir les {count} commentaires",
+            "FIRST_COMMENT": "Soyez le premier à commenter...",
+
+            "NO_ACCOUNT": "Il n'y a aucun compte avec ce nom d'utilisateur",
+            "WRONG_USERNAME_OR_PASSWORD": "Mauvais nom d'utilisateur ou mot de passe",
+            "LOG_IN": "Connectez-vous",
+
+            "ACCOUNT_WITH_USERNAME": "Un compte avec ce nom d'utilisateur existe déjà",
+            "CREATE_ACCOUNT": "Créez un compte",
+            "USERNAME_PLACEHOLDER": "Nom d'utilisateur",
+            "NAME_PLACEHOLDER": "Nom",
+            "PASSWORD_PLACEHOLDER": "Mot de passe",
+            "NOT_HAVE_ACCOUNT": "Vous n'avez pas de compte?",
+            "HAVE_ACCOUNT": "Vous avez déjà un compte?",
+
+            "LIKED_PHOTO": "a liké votre photo.",
+            "LIKED_COMMENT": "a liké votre commentaire: {comment}",
+            "COMMENTED": "a commenté votre post: {comment}",
+            "FOLLOWED": "a commencé à vous follow.",
+
+            "DONE": "Fait",
+            "EDIT_PROFILE": "Modifier votre profil",
+            "CHANGE_PICTURE": "Changer votre photo de profil",
+            "NAME": "Nom",
+            "BIO": "Bio",
+            "SIGN_OUT": "Se déconnecter",
+            "POSTS": "Posts",
+            "MESSAGE": "Message",
+
+            "SENT_A_PHOTO": "a envoyé une photo",
+            "TO": "A"
+        },
+        "TWITTER": {
+            "TITLE": "Twitter",
+
+            "SEARCH_FOR": "Rechercher '{search}'",
+            "START_SEARCHING": "Commencez à explorer Twitter",
+            "TRENDING_HASHTAGS": "Top tendance",
+            "SENT_ATTACHMENT": "a envoyé une pièce jointe",
+            "TO": "A",
+
+            "TWEETS": "Tweets",
+            "REPLIES": "Réponses",
+            "MEDIA": "Media",
+            "LIKES": "Likes",
+            "CANCEL": "Annuler",
+            "TWEET": "Tweet",
+            "TWEET_REPLY": "Tweet ta réponse",
+            "TWEET_GENERAL": "Que se passe-t-il?",
+
+            "EDIT_PROFILE": "Modifier votre profil",
+            "SAVE": "Sauvegarder",
+            "NAME": "Nom",
+            "JOIN_DATE": "Ajouter une date",
+            "BIO": "Bio",
+            "SIGN_OUT": "Se déconnecter",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Se déconnecter",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir vous déconnecter?",
+                "CANCEL": "Annuler",
+                "PROCEED": "Suivant"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Unfollow",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir unfollow {name}?",
+                "CANCEL": "Annuler",
+                "PROCEED": "Suivant"
+            },
+            "RETWEET_POPUP": {
+                "RETWEET": "Retweet",
+                "UNDO_RETWEET": "Annuler le Retweet",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir {action}?",
+                "CANCEL": "Annuler"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "Supprimer ce Tweet",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer ce tweet?",
+                "CANCEL": "Annuler",
+                "PROCEED": "Suivant"
+            },
+            "YOU": "Vous",
+            "FOLLOW": "Follow",
+            "FOLLOWING": "Following",
+            "FOLLOWERS": "Followers",
+            "RETWEETED": "Retweeté",
+            "REPLYING_TO": "Répondre à {name}",
+            "RETWEETED_BY": "Retweeté par",
+            "LIKED_BY": "Liké par",
+
+            "ALL": "Tout",
+            "NOTIFICATIONS": "Notifications",
+
+            "FOLLOWS_YOU": "Vous follow",
+            "JOINED": "A rejoins {date}",
+
+            "LIKED_TWEET": "a liké votre tweet",
+            "RETWEETED_TWEET": "a retweeté votre tweet",
+            "FOLLOWED": "vous follow",
+
+            "SIGN_UP_TEXT": "Regardez ce qu'il se passe dans le monde actuellement",
+            "TERMS_OF_SERVICE": "En vous inscrivant, vous acceptez les CGU ainsi que la politique de vie privée",
+            "HAS_ACCOUNT": "Vous avez déjà un compte?",
+            "CREATE_YOUR_ACCOUNT": "Créez votre compte",
+            "NAME_PLACEHOLDER": "Nom",
+            "USERNAME_PLACEHOLDER": "Nom d'utilisateur",
+            "PASSWORD_PLACEHOLDER": "Mot de passe",
+            "GET_STARTED": "Pour commencer, entrez votre @username",
+            "FORGOT_PASSWORD": "Mot de passe oublié?",
+            "ENTER_PASSWORD": "Entrez votre mot de passe",
+
+            "SEARCH_DIRECT_MESSAGES": "Recherchez un message direct",
+            "SEARCH_TWITTER": "Recherchez sur Twitter",
+            "MESSAGE_PLACEHOLDER": "Message...",
+            "NOW": "Maintenant",
+
+            "LOGIN": "Se connecter",
+            "CREATE_ACCOUNT": "Create Account"
         }
     },
     "COMPONENTS": {
