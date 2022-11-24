@@ -2,6 +2,10 @@
     "LABEL": "English",
     "SEARCH": "Search",
     "CANCEL": "Cancel",
+    "NOW": "now",
+    "H": "h",
+    "M", "m",
+    "S": "s",
 
     "APPS": {
         "SETTINGS": {
@@ -219,6 +223,7 @@
             "OPEN": "Open",
             "TODAY": "Today",
             "GAMES": "Games",
+            "APPS": "Apps",
             "WHAT_WE_PLAYING": "What we're playing",
             "INFORMATION": "Information",
             "PROVIDER": "Provider",
@@ -563,6 +568,7 @@
             "LOGIN": "Login",
             "NO_EMAIL": "Don't have an email address?",
             "CREATE_ONE": "Create one",
+            "UNREAD": "Unread",
 
             "CREATE_MAIL": "Create Email",
             "ALREADY_HAVE": "Already have an email address?",
