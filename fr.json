@@ -2,6 +2,10 @@
     "LABEL": "Français",
     "SEARCH": "Chercher",
     "CANCEL": "Annuler",
+    "NOW": "maintenant",
+    "H": "h",
+    "M": "m",
+    "S": "s",
 
     "APPS": {
         "SETTINGS": {
@@ -541,7 +545,7 @@
 
         "MAIL": {
             "TITLE": "Mail",
-            "YOU": "Toi",
+            "YOU": "You",
             "UPDATED_NOW": "Mis à jour a l'instant",
             "NEW_MESSAGE": "Nouveau Message",
             "INBOX": "Inbox",
@@ -563,6 +567,7 @@
             "NO_EMAIL": "Vous n'avez pas d'adresse mail ?",
             "CREATE_ONE": "Créez-en une",
 
+            "UNREAD": "Non lu",
             "CREATE_MAIL": "Créez une adresse mail",
             "ALREADY_HAVE": "Vous avez déjà une adresse mail?",
 
