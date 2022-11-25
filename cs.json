@@ -2,6 +2,11 @@
     "LABEL": "Čeština",
     "SEARCH": "Hledat",
     "CANCEL": "Zrušit",
+    "NOW": "Nyní",
+    "D": "d",
+    "H": "h",
+    "M": "m",
+    "S": "s",
 
     "APPS": {
         "SETTINGS": {
@@ -9,12 +14,10 @@
             "BACK": "Zpět",
             "DONE": "Hotovo",
             "EDIT": "Upravit",
-
             "AIRPLANE_MODE": "Režim Letadlo",
             "STREAMER_MODE": "Live Stream Mode",
             "BLUETOOTH": "Bluetooth",
             "GENERAL": "Obecné",
-
             "ABOUT": "Informace",
             "NAME": "Jméno",
             "VERSION": "Verze",
@@ -28,58 +31,49 @@
             "APPLICATIONS": "Aplikace",
             "CAPACITY": "Kapacita",
             "AVAILABLE": "Dostupný",
-
             "SOFTWARE_UPDATE": "Aktualizace softwaru",
             "AUTOMATIC_UPDATES": "Automatické aktualizace",
-
             "DATE_TIME": "Datum a čas",
             "24_HOUR_TIME": "24 Hodinový Čas",
             "SET_AUTOMATICALLY": "Nastavit automaticky",
             "TIME_ZONE": "Časová zóna",
-
             "LANGUAGE_REGION": "Jazyk a oblast",
             "LANGUAGE": "Jazyk",
             "TEMPERATURE": "Teplota",
+            "CELCIUS": "Celsius",
+            "FAHRENHEIT": "Fahrenheit",
             "BATTERY": "Baterie",
-
             "SOUND_HAPTICS": "Zvuky a haptika",
             "SOUND_HAPTICS_PATTERNS": "Zvukové a haptické vzory",
             "RINGTONE": "Vyzváněcí tón",
             "TEXT_TONE": "Textový tón",
             "RINGTONE_VOLUME": "Hlasitost vyzvánění a upozornění",
             "DEFAULT": "Výchozí",
-
             "PHONE_STORAGE": "Úložiště: LB Phone",
             "STORAGE": "Úložiště",
             "USED": "Použito",
             "OF": "z",
-
             "DISPLAY_BRIGHTNESS": "Zobrazení a jas",
             "APPEARANCE": "Vzhled",
             "AUTOMATIC": "Automatický",
             "BRIGHTNESS": "Jas",
             "PHONE_SCALE": "Měřítko telefonu",
-
             "WALLPAPER": "Tapeta",
             "WALLPAPERS": "Tapety",
             "CHOOSE_NEW_WALLPAPER": "Vybrat novou tapetu",
-
             "NOTIFICATIONS": "Oznámení",
             "ALLOW_NOTIFICATIONS": "Povolit oznámení",
             "SOUNDS": "Zvuky",
-
             "PHONE": "Telefon",
             "BLOCKED_CONTACTS": "Zablokované kontakty",
             "MY_NUMBER": "Moje číslo",
             "SHOW_CALLER_ID": "Zobrazit ID volajícího",
-
             "UNBLOCK_POPUP": {
                 "TITLE": "Odblokovat",
                 "TEXT": "Opravdu chcete toto číslo odblokovat?",
                 "CANCEL": "Zrušit",
                 "CONFIRM": "Odblokovat"
             },
-
             "FACE_ID_PASSWORD": "Face ID a kód",
             "ENTER_PASSCODE": "Zadejte pin",
             "PASSCODE": "Pin",
@@ -87,14 +81,12 @@
             "RESET_FACE_ID": "Resetovat Face ID",
             "ENABLE_FACE_ID": "Povolit Face ID",
             "PIN_CODE": "Pin",
-
             "DISABLE_FACE_ID_POPUP": {
                 "TITLE": "Vypnout Face ID",
                 "TEXT": "Opravdu chcete vypnout Face ID?",
                 "CANCEL": "Zrušit",
                 "CONFIRM": "Vypnout"
             },
-
             "ENABLE_FACE_ID_POPUP": {
                 "TITLE": "Povolit Face ID",
                 "TEXT": "Opravdu chcete aktivovat Face ID?",
@@ -219,6 +211,7 @@
             "OPEN": "Otevřít",
             "TODAY": "Dnes",
             "GAMES": "Hry",
+            "APPS": "Aplikace",
             "WHAT_WE_PLAYING": "Co hrajeme",
             "INFORMATION": "Informace",
             "PROVIDER": "Provozovatel",
@@ -233,12 +226,10 @@
             "SELECT_ITEMS": "Vybrat",
             "SELECTED_COUNT": "{count} Vybráno",
             "PHOTO_COUNT": "{count} Fotografie",
-
             "DELETE_TITLE": "Odstranit {count} obrázků",
             "DELETE_TEXT": "Chcete smazat? {count} obrázků",
             "DELETE_BUTTON_CANCEL": "Zrušit",
             "DELETE_BUTTON_DELETE": "Vymazat",
-
             "DELETE_IMAGE_TITLE": "Vymazat obrázky",
             "DELETE_IMAGE_TEXT": "Chcete tento obrázek smazat?",
             "DELETE_IMAGE_BUTTON_CANCEL": "Zrušit",
@@ -252,14 +243,12 @@
             "FEELS_LIKE_SAME": "Podobně jako skutečná teplota.",
             "FEELS_LIKE_HUMIDITY": "Díky vlhkosti je pocitově teplejší",
             "FEELS_LIKE_WIND": "Díky větru se cítí chladněji",
-
             "SUNRISE": "východ slunce",
             "SUNSET": "Západ slunce",
             "WIND": "Vítr",
             "PRECIPITATION": "Srážky",
             "LAST_24H": "za posledních 24h",
             "EXPECTED_24H": "očekáváno v příštích 24 hodinách",
-
             "TYPES": {
                 "CLOUDY": "Zataženo",
                 "LIGHT_RAIN": "Lehký déšť",
@@ -297,7 +286,7 @@
             "LEAVE_GROUP": "Opustit konverzaci",
             "SENT_LOCATION": "Sdíleli svou polohu, kliknutím otevřete v mapách",
             "SENT_LOCATION_SHORT": "Sdíleli svou polohu",
-
+            "DELETE": "Smazat",
             "REMOVE_POPUP": {
                 "TITLE": "Odstranit uživatele",
                 "TEXT": "Opravdu chcete odstranit {name} ze skupiny?",
@@ -335,13 +324,11 @@
             "DONE": "Hotovo",
             "EDIT": "Upravit",
             "CANCEL": "Zrušit",
-
             "CALL": {
                 "CALL_TITLE": "Volání {name}",
                 "CALL_TEXT": "Opravdu chcete zavolat? {name}?",
                 "CALL_BUTTON_CANCEL": "Zrušit",
                 "CALL_BUTTON_CALL": "Volaní",
-
                 "NO_CALLER_ID": "Žádné ID volajícího",
                 "UNKNOWN": "Neznámý",
                 "USER_BUSY": "Uživatel je zaneprázdněn",
@@ -351,7 +338,6 @@
                 "ACCEPT": "Příjmout",
                 "END": "Ukončit",
                 "VIDEO_CALL": "Video Hovor",
-
                 "MUTE": "Ztlumit",
                 "KEYPAD": "klávesnice",
                 "SPEAKER": "Hlasité",
@@ -360,7 +346,6 @@
                 "CONTACTS": "Kontakty",
                 "MOBILE": "Mobil"
             },
-
             "CONTACTS": {
                 "TITLE": "Kontakty",
                 "FIRST_NAME": "Jméno",
@@ -368,32 +353,26 @@
                 "PHONE_NUMBER": "Tel. číslo",
                 "MY_CARD": "Moje karta",
                 "ADD_PHOTO": "Přidat fotografi",
-
                 "REMOVE_CONTACT_TITLE": "Odstranit kontakt",
                 "REMOVE_CONTACT_TEXT": "Opravdu chcete tento kontakt odstranit?",
                 "REMOVE_CONTACT_BUTTON_CANCEL": "Zrušení",
                 "REMOVE_CONTACT_BUTTON_DELETE": "Vymazat",
                 "DELETE_CONTACT": "Vymazat kontakt",
-
                 "MESSAGE": "Zprava",
                 "CALL": "Hovor",
                 "VIDEO": "Video",
                 "MAIN": "Hlavní",
-
                 "SHARE_CONTACT": "Sdílet kontakt",
                 "SHARE_LOCATION": "Sdílet moji polohu",
                 "REMOVE_FAVORITE": "Odebrat z oblíbených",
                 "ADD_FAVORITE": "Přidat do oblíbených",
                 "ADD_CONTACT": "Přidat kontakt",
-
                 "UNBLOCK_CALLER": "Odblokujte tohoto volajícího",
                 "BLOCK_CALLER": "Blokovat tohoto volajícího",
-
                 "UNBLOCK_NUMBER_TITLE": "Odblokovat číslo",
                 "UNBLOCK_NUMBER_TEXT": "Opravdu chcete odblokovat? {number}?",
                 "UNBLOCK_NUMBER_BUTTON_CANCEL": "Zrušení",
                 "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Odblokovat",
-
                 "BLOCK_NUMBER_TITLE": "Číslo bloku",
                 "BLOCK_NUMBER_TEXT": "Opravdu chcete blokovat {number}?",
                 "BLOCK_NUMBER_BUTTON_CANCEL": "Zrušit",
@@ -401,7 +380,6 @@
             },
             "FAVOURITES": {
                 "TITLE": "Oblíbené",
-
                 "REMOVE_TITLE": "Odstranit z oblíbených",
                 "REMOVE_TEXT": "Opravdu chcete tento kontakt odstranit z oblíbených?",
                 "REMOVE_BUTTON_CANCEL": "Zrušit",
@@ -422,17 +400,16 @@
             "NEXT": "Další",
             "DONE": "Hotovo",
             "DONE_SUBTITLE": "Poslal jsi {amount} na {number}",
-
             "NO_REFUNDS": "Platby jsou nevratné, zkontrolujte číslo.",
             "NEW_BALANCE": "Nový zůstatek",
             "LATEST_TRANSACTIONS": "Nejnovější transakce",
-
             "NOW": "Teď",
             "AGO": "Před"
+            "NUMBER_DOES_NOT_EXIST": "Číslo neexistuje",
+            "NOT_ENOUGH_MONEY": "Nemáte dostatek peněz."
         },
         "GARAGE": {
             "TITLTE": "Garáž",
-
             "ACTIONS": "Akce",
             "MY_CARS": "Moje vozidlo",
             "OUT": "Mimo garáž",
@@ -444,7 +421,6 @@
             "FUEL": "Benzín",
             "ENGINE": "Motor",
             "BODY": "Lak",
-
             "WAYPOINT_POPUP": {
                 "TITLE": "Nastavit bod na cestě",
                 "TEXT": "Chcete nastavit průjezdní bod k vašemu {model}?",
@@ -474,7 +450,6 @@
             "LOCKED": "Zamknuto",
             "GIVE_KEY": "Dát klíče",
             "MANAGE": "Možnosti",
-
             "WAYPOINT_POPUP": {
                 "TITLE": "Nastavit GPS",
                 "TEXT": "Chcete nastavit GPS na {home}?",
@@ -493,7 +468,6 @@
                 "CANCEL": "Zrušit",
                 "PROCEED": "Pokračovat"
             },
-
             "REMOVE_KEY_POPUP": {
                 "TITLE": "Odebrat Klíč",
                 "TEXT": "Jste si jisti, že chcete odebrat přístup z {name}?",
@@ -511,7 +485,6 @@
             "POST": "Zveřejnit",
             "CONTACT": "Kontakt",
             "REMOVE": "Odstranit",
-
             "DELETE_POPUP": {
                 "TITLE": "Smazat výpis",
                 "TEXT": "Opravdu chcete tento zápis smazat?",
@@ -524,19 +497,278 @@
             "FROM": "Od",
             "CANCEL": "Zrušit",
             "NEW_POST": "Nový příspěvek",
-
             "TITLE": "Nadpis",
             "DESCRIPTION": "Popis",
             "PRICE": "Částka",
             "POST": "Odeslat",
             "CALL": "Zavolat",
-
             "DELETE_POPUP": {
                 "TITLE": "Smazat příspěvek",
                 "TEXT": "Opravdu chcete tento příspěvek smazat?",
                 "CANCEL": "Zrušit",
                 "PROCEED": "VYMAZAT"
             }
+        },
+        "MAIL": {
+            "TITLE": "Mail",
+            "YOU": "Ty",
+            "UPDATED_NOW": "Aktualizováno",
+            "NEW_MESSAGE": "Nový email",
+            "INBOX": "Příchozí",
+            "TO": "Pro",
+            "FROM": "Od",
+            "SUBJECT": "Předmět",
+            "MESSAGE": "Zpráva",
+            "CANCEL": "Zrušit",
+            "SEND": "Poslat",
+            "EMAIL": "Email",
+            "EMAIL_INVALID": "Špatná emailová adresa",
+            "EMAIL_EXISTS": "Email již existuje",
+            "PASSWORD": "Heslo",
+            "WRONG_PASSWORD": "Špatné heslo",
+            "LOGIN": "Přihlášení",
+            "NO_EMAIL": "Nemáš ještě emailovou adresu?",
+            "CREATE_ONE": "Vytvořit email",
+            "UNREAD": "Nepřečtené",
+            "CREATE_MAIL": "Nový email",
+            "ALREADY_HAVE": "Máte už emailovou adresu?",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Odhlásit",
+                "DESCRIPTION": "Opravdu se chcete odhlásit?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Potvrdit"
+            }
+        },
+        "MAPS": {
+            "TITLE": "Mapy",
+            "GO": "Jít"
+        },
+        "MUSIC": {
+            "TITLE": "Hudba",
+            "LIBRARY": "Knihovna",
+            "SEARCH": "Hledat",
+            "ADD_QUEUE": "Přidat do fronty",
+            "ADD_PLAYLIST": "Přidat do playlistu",
+            "REMOVE_SONG": "Vymazat skladbu",
+            "NOT_PLAYING": "Nehraje",
+            "DELETE_PLAYLIST": "Vymazat playlist",
+            "SEARCH_PLACEHOLDER": "Umělec, Skladby, Alba, Playlisty",
+            "SONGS": "Skladby",
+            "ALBUMS": "Alba",
+            "PLAY": "Hrát",
+            "SHUFFLE": "Náhodně",
+            "ARTIST": "Umělec",
+            "ALBUM": "Album",
+            "PLAYLIST": "Playlist",
+            "SONG": "Skladba",
+            "SONG_EXISTS_POPUP": {
+                "TITLE": "Skladba již existuje",
+                "DESCRIPTION": "Tato skladba je již v playlistu",
+                "CANCEL": "Zrušit"
+            },
+            "NEW_PLAYLIST_POPUP": {
+                "TITLE": "Nový playlist",
+                "DESCRIPTION": "Vytvořit nový playlist",
+                "PLACEHOLDER": "Název playlistu",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Potvrdit"
+            }
+        },
+        "TINDER": {
+            "TITLE": "Tinder",
+            "LIKES_YOU_TOO": "Vzájemná sympatie!",
+            "KEEP_SWIPING": "Pokračuj",
+            "SAY_SOMETHING_NICE": "Řekněte něco hezkého",
+            "NO_MORE": "Došli nám lidé, na které se můžete podívat, zkontrolujte to později!",
+            "SEND": "Poslat",
+            "AGREE_TERMS": "Stisknutím tlačítka 'Vytvořit účet' souhlasíte s našimi podmínkami služby a zásadami ochrany osobních údajů.",
+            "CREATE_ACCOUNT": "Vytvořit účet",
+            "AGE_PUBLIC": "Váš věk bude zveřejněn",
+            "BE_OVER_18": "Tuto službu můžete využívat pouze od 18 let.",
+            "NAME_MINIMUM": "Vaše jméno musí mít alespoň 3 znaky",
+            "ADD_PHOTOS": "Přidat fotografie",
+            "PHOTOS_MINIMUM": "Musíte mít alespoň jednu fotografii",
+            "DESCRIPTION": "Řekněte nám něco o sobě",
+            "DESCRIPTION_MINIMUM": "Váš popis musí mít alespoň 10 znaků",
+            "SHOW_ME": "Ukaž mě",
+            "WOMEN": "Žena",
+            "MEN": "Muž",
+            "EVERYONE": "Všichni",
+            "EVERYTHING": "Všechno",
+            "I_AM": "Já jsem",
+            "MALE": "Muž",
+            "FEMALE": "Žena",
+            "CONTINUE": "Pokračovat",
+            "NAME": "Jméno",
+            "PHOTOS": "Fotografie",
+            "ABOUT_ME": "O mně",
+            "INTERESTED_IN": "Zájem o",
+            "GENDER": "Pohlaví",
+            "SAVE": "Uložit",
+            "NEW_MATCHES": "Nové sympatie",
+            "MESSAGES": "Zprávy",
+            "SEARCH_MATCHES": "Hledat sympatie"
+        },
+        "INSTAGRAM": {
+            "TITLE": "Instagram",
+            "SEND": "Poslat",
+            "POST": "Příspěvek",
+            "MESSAGE_PLACEHOLDER": "Zpráva...",
+            "NEW_MESSAGE": "Nová zpráva",
+            "NOW": "Nyní",
+            "GO_LIVE_POPUP": {
+                "TITLE": "Jít živě",
+                "DESCRIPTION": "Jste si jisti, že chcete přejít na živé vysílání?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Potvrdit"
+            },
+            "END_LIVE_POPUP": {
+                "TITLE": "Konec živého vysílání",
+                "DESCRIPTION": "Jsi si jistý, že chceš {action} na živo?",
+                "CANCEL": "Zrušit",
+                "END": "Konec",
+                "LEAVE": "Opustit"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Zrušit sledování",
+                "DESCRIPTION": "Jste si jisti, že chcete zrušit sledování {name}?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Potvrdit"
+            },
+            "DELETE_POST_POPUP": {
+                "TITLE": "Smazat příspěvek",
+                "DESCRIPTION": "Opravdu chcete tento příspěvek smazat?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Pokračovat"
+            },
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Odhlásit se",
+                "DESCRIPTION": "Opravdu se chcete odhlásit?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Pokračovat"
+            },
+            "LIVE_ENDED": "Živý přenos ukončen",
+            "COMMENT_PLACEHOLDER": "Komentář",
+            "LIVE": "Živě",
+            "YOUR_STORY": "Váš příběh",
+            "CREATE_STORY": "Vytvořit příběh",
+            "GO_LIVE": "Přejít na živé vysílání",
+            "EMPTY_FEED": "Začněte sledovat lidi, abyste viděli jejich fotografie a videa",
+            "COMMENTS": "Komentáře",
+            "ADD_COMMENT_AS": "Přidat komentář jako {name}",
+            "NEW_POST": "Nový příspěvek",
+            "NEXT": "Další",
+            "CAPTION_PLACEHOLDER": "Napište popisek...",
+            "ACTIVITY": "Aktivita",
+            "FOLLOW": "Sledovat",
+            "FOLLOWING": "Sledování",
+            "FOLLOWERS": "Sledujících",
+            "FOLLOWER": "Sledující",
+            "LIKES": "Líbí se mi",
+            "LIKED_BY": "Líbí se mi",
+            "VIEW_ALL_COMMENTS": "Zobrazit všechny komentáře {count}",
+            "FIRST_COMMENT": "Buďte první, kdo okomentuje...",
+            "NO_ACCOUNT": "S tímto uživatelským jménem není žádný účet",
+            "WRONG_USERNAME_OR_PASSWORD": "Špatné uživatelské jméno nebo heslo",
+            "LOG_IN": "Přihlásit se",
+            "ACCOUNT_WITH_USERNAME": "Účet s tímto uživatelským jménem již existuje",
+            "CREATE_ACCOUNT": "Vytvořit účet",
+            "USERNAME_PLACEHOLDER": "Uživatelské jméno",
+            "NAME_PLACEHOLDER": "Jméno",
+            "PASSWORD_PLACEHOLDER": "Heslo",
+            "NOT_HAVE_ACCOUNT": "Nemáte účet?",
+            "HAVE_ACCOUNT": "Máte účet?",
+            "LIKED_PHOTO": "Líbilo se jim vaše fotografie.",
+            "LIKED_COMMENT": "líbí se mi váš komentář: {comment}",
+            "COMMENTED": "komentoval váš příspěvek: {comment}",
+            "FOLLOWED": "začal vás sledovat.",
+            "DONE": "Hotovo",
+            "EDIT_PROFILE": "Upravit profil",
+            "CHANGE_PICTURE": "Změna profilového obrázku",
+            "NAME": "Název",
+            "BIO": "Bio",
+            "SIGN_OUT": "Odhlásit se",
+            "POSTS": "Příspěvky",
+            "MESSAGE": "Zpráva",
+            "SENT_A_PHOTO": "poslal fotku",
+            "TO": "Pro"
+        },
+        "TWITTER": {
+            "TITLE": "Twitter",
+            "SEARCH_FOR": "Vyhledávání '{search}'",
+            "START_SEARCHING": "Začněte vyhledávat a prozkoumejte Twitter",
+            "TRENDING_HASHTAGS": "Trendy hashtagy",
+            "SENT_ATTACHMENT": "odeslaná příloha",
+            "TO": "Pro",
+            "TWEETS": "Tweety",
+            "REPLIES": "Odpovědi",
+            "MEDIA": "Média",
+            "LIKES": "Líbí se mi",
+            "CANCEL": "Zrušit",
+            "TWEET": "Tweet",
+            "TWEET_REPLY": "Tweetni svou odpověď",
+            "TWEET_GENERAL": "Co se děje?",
+            "EDIT_PROFILE": "Upravit profil",
+            "SAVE": "Uložit",
+            "NAME": "Jméno",
+            "JOIN_DATE": "Datum připojení",
+            "BIO": "Bio",
+            "SIGN_OUT": "Odhlásit se",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Odhlásit se",
+                "DESCRIPTION": "Opravdu se chcete odhlásit?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Potvrdit"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Zrušit sledování",
+                "DESCRIPTION": "Jste si jisti, že chcete zrušit sledování {name}?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Potvrdit"
+            },
+            "RETWEET_POPUP": {
+                "RETWEET": "Retweet",
+                "UNDO_RETWEET": "Zrušit Retweet",
+                "DESCRIPTION": "Jste si jisti, že chcete {action}?",
+                "CANCEL": "Zrušit"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "Smazat Tweet",
+                "DESCRIPTION": "Jste si jisti, že chcete tento tweet smazat?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Potvrdit"
+            },
+            "YOU": "Vy",
+            "FOLLOW": "Sledujte",
+            "FOLLOWING": "Sledování",
+            "FOLLOWERS": "Sledující",
+            "RETWEETED": "Retweetováno",
+            "REPLYING_TO": "Odpověď na {name}",
+            "RETWEETED_BY": "Retweetoval",
+            "LIKED_BY": "Líbí se mi od",
+            "ALL": "Vše",
+            "NOTIFICATIONS": "Oznámení",
+            "FOLLOWS_YOU": "Sleduje vás",
+            "JOINED": "Připojil se k {date}",
+            "LIKED_TWEET": "líbí se mi váš tweet",
+            "RETWEETED_TWEET": "retweetnul váš tweet",
+            "FOLLOWED": "sledoval vás",
+            "SIGN_UP_TEXT": "Podívejte se, co se právě teď děje ve světě.",
+            "TERMS_OF_SERVICE": "Registrací souhlasíte s našimi podmínkami služby a zásadami ochrany osobních údajů.",
+            "HAS_ACCOUNT": "Máte již účet?",
+            "CREATE_YOUR_ACCOUNT": "Vytvořte si účet",
+            "NAME_PLACEHOLDER": "Jméno",
+            "USERNAME_PLACEHOLDER": "Uživatelské jméno",
+            "PASSWORD_PLACEHOLDER": "Heslo",
+            "GET_STARTED": "Chcete-li začít, zadejte nejprve své @uživatelské jméno.",
+            "FORGOT_PASSWORD": "Zapomněli jste heslo?",
+            "ENTER_PASSWORD": "Zadejte své heslo",
+            "SEARCH_DIRECT_MESSAGES": "Vyhledávání přímých zpráv",
+            "SEARCH_TWITTER": "Vyhledávání na Twitteru",
+            "MESSAGE_PLACEHOLDER": "Zprávy...",
+            "NOW": "Nyní",
+            "LOGIN": "Přihlášení",
+            "CREATE_ACCOUNT": "Vytvořit účet"
         }
     },
     "COMPONENTS": {
@@ -552,6 +784,7 @@
         "GALLERY": {
             "CANCEL": "Zrušit",
             "EXTERNAL_URL": "Externí URL"
+            "NO_IMAGES": "Žádné obrázky"
         },
         "NOTIFICATIONS": {
             "SENT_PHOTO": "Poslat fotku",
@@ -562,9 +795,7 @@
             "COPY_PHOTO": "Kopírovat fotku",
             "USE_WALLPAPER": "Použít jako pozadí",
             "COPY_NUMBER": "Kopírovat číslo",
-
             "AIRDROP_SENT": "Odeslat",
-
             "WALLPAPER_POPUP": {
                 "TITLE": "Použít pozadí",
                 "TEXT": "Opravdu chcete tento obrázek nastavit jako tapetu?",
@@ -585,18 +816,14 @@
     "SETUP": {
         "HELLO": "Vítejte",
         "NEXT": "Zmáčkni pro pokračování",
-
         "CREATE_PASSCODE": "Vytvořte přístupový kód",
         "CREATE_PASSCODE_TEXT": "Přístupový kód chrání vaše data a používá se k odemknutí telefonu.",
         "SKIP": "Přeskočit",
-
         "FACE_ID_SETUP": "Nastavení Face ID",
         "FACE_ID_TEXT": "Nastavte Face ID tak, aby se telefon automaticky odemykal, když je váš obličej v záběru.",
         "ENABLE_FACE_ID": "Povolit Face ID",
-
         "APPEARANCE": "Vzhled",
         "APPEARANCE_TEXT": "Vyberte světlý nebo tmavý vzhled",
-
         "CONTINUE": "Pokračovat",
         "WELCOME_TO": "Vítejte v",
         "CLICK": "Začněte kliknutím"
