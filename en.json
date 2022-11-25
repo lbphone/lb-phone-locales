@@ -738,6 +738,14 @@
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             },
+            "NOTIFICATIONS_POPUP": {
+                "TITLE": "Notifications",
+                "DESCRIPTION": "Are you sure you want to {action} notifications on @{name}?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed",
+                "ENABLE": "Enable",
+                "DISABLE": "Disable"
+            },
             "YOU": "You",
             "FOLLOW": "Follow",
             "FOLLOWING": "Following",
