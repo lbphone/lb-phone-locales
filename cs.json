@@ -738,6 +738,14 @@
                 "CANCEL": "Zrušit",
                 "PROCEED": "Potvrdit"
             },
+            "NOTIFICATIONS_POPUP": {
+                "TITLE": "Oznámení",
+                "DESCRIPTION": "Jste si jisti, že chcete {action} oznámení na @{name}?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Potvrdit",
+                "ENABLE": "Povolit",
+                "DISABLE": "Zakázat"
+            },
             "YOU": "Vy",
             "FOLLOW": "Sledujte",
             "FOLLOWING": "Sledování",
