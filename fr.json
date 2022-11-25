@@ -3,6 +3,7 @@
     "SEARCH": "Chercher",
     "CANCEL": "Annuler",
     "NOW": "maintenant",
+    "D": "d",
     "H": "h",
     "M": "m",
     "S": "s",
@@ -13,12 +14,10 @@
             "BACK": "Retour",
             "DONE": "Done",
             "EDIT": "Éditer",
-
             "AIRPLANE_MODE": "Mode avion",
             "STREAMER_MODE": "Mode streamer",
             "BLUETOOTH": "Bluetooth",
             "GENERAL": "General",
-
             "ABOUT": "À propos de",
             "NAME": "Nom",
             "VERSION": "Version",
@@ -32,58 +31,49 @@
             "APPLICATIONS": "Applications",
             "CAPACITY": "Capacité",
             "AVAILABLE": "Disponible",
-
             "SOFTWARE_UPDATE": "Mise à jour logicielle",
             "AUTOMATIC_UPDATES": "Mises à jour automatiques",
-
             "DATE_TIME": "Date et heure",
             "24_HOUR_TIME": "Mode 24H",
             "SET_AUTOMATICALLY": "Définir automatiquement",
             "TIME_ZONE": "Fuseau horaire",
-
             "LANGUAGE_REGION": "Langue & Région",
             "LANGUAGE": "Langue",
             "TEMPERATURE": "Temperature",
+            "CELCIUS": "Celsius",
+            "FAHRENHEIT": "Fahrenheit",
             "BATTERY": "Batterie",
-
             "SOUND_HAPTICS": "Son & Haptique",
             "SOUND_HAPTICS_PATTERNS": "Motifs sonores et haptiques",
             "RINGTONE": "Sonnerie",
             "TEXT_TONE": "Message",
             "RINGTONE_VOLUME": "Volume de la sonnerie et de l'alerte",
             "DEFAULT": "Défaut",
-
             "PHONE_STORAGE": "Stockage de téléphone",
             "STORAGE": "Stockage",
             "USED": "Utilisé",
             "OF": "sur",
-
             "DISPLAY_BRIGHTNESS": "Affichage et luminosité",
             "APPEARANCE": "Apparence",
             "AUTOMATIC": "Automatique",
             "BRIGHTNESS": "Luminosité",
             "PHONE_SCALE": "Échelle de téléphone",
-
             "WALLPAPER": "Fond d'écran",
             "WALLPAPERS": "Fonds d'écran",
             "CHOOSE_NEW_WALLPAPER": "Nouveau fond d'écran",
-
             "NOTIFICATIONS": "Notifications",
             "ALLOW_NOTIFICATIONS": "Autoriser les notifications",
             "SOUNDS": "Sons",
-
             "PHONE": "Téléphone",
             "BLOCKED_CONTACTS": "Contacts bloqués",
             "MY_NUMBER": "Mon numéro",
             "SHOW_CALLER_ID": "Afficher l'ID de l'appelant",
-
             "UNBLOCK_POPUP": {
                 "TITLE": "Débloquer le numéro",
                 "TEXT": "Voulez-vous vraiment débloquer ce numéro ?",
                 "CANCEL": "Annuler",
                 "CONFIRM": "Débloquer"
             },
-
             "FACE_ID_PASSWORD": "Face ID et mot de passe",
             "ENTER_PASSCODE": "Entrer le mot de passe",
             "PASSCODE": "Code d'accès",
@@ -91,14 +81,12 @@
             "RESET_FACE_ID": "Réinitialiser Face ID",
             "ENABLE_FACE_ID": "Activer Face ID",
             "PIN_CODE": "Code PIN",
-
             "DISABLE_FACE_ID_POPUP": {
                 "TITLE": "Désactiver Face ID",
                 "TEXT": "Voulez-vous vraiment désactiver Face ID ?",
                 "CANCEL": "Annuler",
                 "CONFIRM": "Confirmer"
             },
-
             "ENABLE_FACE_ID_POPUP": {
                 "TITLE": "Activer Face ID",
                 "TEXT": "Voulez-vous vraiment activer Face ID?",
@@ -238,12 +226,10 @@
             "SELECT_ITEMS": "Sélectionnez les éléments",
             "SELECTED_COUNT": "{count} éléments sélectionnés",
             "PHOTO_COUNT": "{count} photos",
-
             "DELETE_TITLE": "Supprimer {count} images",
             "DELETE_TEXT": "Voulez-vous supprimer {count} images",
             "DELETE_BUTTON_CANCEL": "Annuler",
             "DELETE_BUTTON_DELETE": "Supprimer",
-
             "DELETE_IMAGE_TITLE": "Supprimer l'image",
             "DELETE_IMAGE_TEXT": "Voulez-vous supprimer cette image?",
             "DELETE_IMAGE_BUTTON_CANCEL": "Annuler",
@@ -257,14 +243,12 @@
             "FEELS_LIKE_SAME": "Semblable à la température réelle.",
             "FEELS_LIKE_HUMIDITY": "L'humidité rend la sensation plus chaude",
             "FEELS_LIKE_WIND": "Le vent rend la sensation plus fraîche",
-
             "SUNRISE": "Lever du soleil",
             "SUNSET": "Coucher du soleil",
             "WIND": "Vent",
             "PRECIPITATION": "Précipitation",
             "LAST_24H": "dans les dernières 24h",
             "EXPECTED_24H": "prévu dans les prochaines 24h",
-
             "TYPES": {
                 "CLOUDY": "Nuageux",
                 "LIGHT_RAIN": "Pluie légère",
@@ -303,7 +287,6 @@
             "SENT_LOCATION": "A partagé son emplacement, cliquez pour ouvrir dans Maps",
             "SENT_LOCATION_SHORT": "A partagé sa position",
             "DELETE": "Supprimer",
-
             "REMOVE_POPUP": {
                 "TITLE": "Supprimer un membre",
                 "TEXT": "Voulez-vous vraiment supprimer {name} du groupe ??",
@@ -341,13 +324,11 @@
             "DONE": "Confirmer",
             "EDIT": "Editer",
             "CANCEL": "Annuler",
-
             "CALL": {
                 "CALL_TITLE": "Appeler {name}",
                 "CALL_TEXT": "Êtes-vous sûr de vouloir appeler {name}?",
                 "CALL_BUTTON_CANCEL": "Annuler",
                 "CALL_BUTTON_CALL": "Téléphoner",
-
                 "NO_CALLER_ID": "Pas d'identification de l'appelant",
                 "UNKNOWN": "Inconnue",
                 "USER_BUSY": "Utilisateur occupé",
@@ -357,7 +338,6 @@
                 "ACCEPT": "Accepter",
                 "END": "Fin",
                 "VIDEO_CALL": "Appel vidéo",
-
                 "MUTE": "muet",
                 "KEYPAD": "clavier",
                 "SPEAKER": "speaker",
@@ -366,7 +346,6 @@
                 "CONTACTS": "contacts",
                 "MOBILE": "Mobile"
             },
-
             "CONTACTS": {
                 "TITLE": "Contacts",
                 "FIRST_NAME": "Prénom",
@@ -374,32 +353,26 @@
                 "PHONE_NUMBER": "Numéro de téléphone",
                 "MY_CARD": "Ma carte",
                 "ADD_PHOTO": "Ajouter une photo",
-
                 "REMOVE_CONTACT_TITLE": "Supprimer contact",
                 "REMOVE_CONTACT_TEXT": "Voulez-vous vraiment supprimer ce contact ?",
                 "REMOVE_CONTACT_BUTTON_CANCEL": "Annuler",
                 "REMOVE_CONTACT_BUTTON_DELETE": "Effacer",
                 "DELETE_CONTACT": "Supprimer le contact",
-
                 "MESSAGE": "message",
                 "CALL": "appel",
                 "VIDEO": "video",
                 "MAIN": "principal",
-
                 "SHARE_CONTACT": "Partager les contacts",
                 "SHARE_LOCATION": "Partager ma position",
                 "REMOVE_FAVORITE": "Retirer des favoris",
                 "ADD_FAVORITE": "Ajouter aux Favoris",
                 "ADD_CONTACT": "Ajouter aux contacts",
-
                 "UNBLOCK_CALLER": "Débloquer cet appelant",
                 "BLOCK_CALLER": "Bloquer cet appelant",
-
                 "UNBLOCK_NUMBER_TITLE": "Débloquer le numéro",
                 "UNBLOCK_NUMBER_TEXT": "Êtes-vous sûr de vouloir débloquer {number}?",
                 "UNBLOCK_NUMBER_BUTTON_CANCEL": "Annuler",
                 "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Débloquer",
-
                 "BLOCK_NUMBER_TITLE": "Bloquer",
                 "BLOCK_NUMBER_TEXT": "Êtes-vous sûr de vouloir bloquer {number}?",
                 "BLOCK_NUMBER_BUTTON_CANCEL": "Annuler",
@@ -407,7 +380,6 @@
             },
             "FAVOURITES": {
                 "TITLE": "Favoris",
-
                 "REMOVE_TITLE": "Retirer des favoris",
                 "REMOVE_TEXT": "Voulez-vous vraiment supprimer ce contact de vos favoris ?",
                 "REMOVE_BUTTON_CANCEL": "Annuler",
@@ -428,17 +400,16 @@
             "NEXT": "Suivant",
             "DONE": "Confirmer",
             "DONE_SUBTITLE": "Vous avez envoyé {amount} à {number}",
-
             "NO_REFUNDS": "Les paiements ne sont pas remboursables, vérifiez le numéro.",
             "NEW_BALANCE": "Nouveau solde",
             "LATEST_TRANSACTIONS": "Dernières transactions",
-
             "NOW": "À présent",
-            "AGO": "depuis"
+            "AGO": "depuis",
+            "NUMBER_DOES_NOT_EXIST": "Le numéro n'existe pas",
+            "NOT_ENOUGH_MONEY": "Vous n'avez pas assez d'argent"
         },
         "GARAGE": {
             "TITLTE": "Garage",
-
             "ACTIONS": "Actions",
             "MY_CARS": "Mes voitures",
             "OUT": "Dehors",
@@ -450,7 +421,6 @@
             "FUEL": "Carburant",
             "ENGINE": "Moteur",
             "BODY": "Etat",
-
             "WAYPOINT_POPUP": {
                 "TITLE": "Définir un point GPS",
                 "TEXT": "Voulez-vous définir une destination pour votre {modèle}?",
@@ -480,7 +450,6 @@
             "LOCKED": "Fermé à clé",
             "GIVE_KEY": "Donner la clé",
             "MANAGE": "Faire en sorte",
-
             "WAYPOINT_POPUP": {
                 "TITLE": "Définir une destination",
                 "TEXT": "Voulez-vous définir une destination vers {home} ?",
@@ -517,7 +486,6 @@
             "POST": "Poste",
             "CONTACT": "Contact",
             "REMOVE": "Supprimer",
-
             "DELETE_POPUP": {
                 "TITLE": "Supprimer l'annonce",
                 "TEXT": "Êtes-vous sûr de vouloir supprimer cette annonce?",
@@ -530,13 +498,11 @@
             "FROM": "De",
             "CANCEL": "Annuler",
             "NEW_POST": "Nouveau poste",
-
             "TITLE": "Titre",
             "DESCRIPTION": "Description",
             "PRICE": "Prix",
             "POST": "Publication",
             "CALL": "Téléphoner",
-
             "DELETE_POPUP": {
                 "TITLE": "Supprimer publication",
                 "TEXT": "Es-tu sur de vouloir supprimer cette annonce?",
@@ -544,7 +510,6 @@
                 "PROCEED": "Supprimer"
             }
         },
-
         "MAIL": {
             "TITLE": "Mail",
             "YOU": "You",
@@ -555,24 +520,19 @@
             "FROM": "De",
             "SUBJECT": "Objet",
             "MESSAGE": "Message",
-
             "CANCEL": "Annuler",
             "SEND": "Envoyer",
-
             "EMAIL": "Email",
             "EMAIL_INVALID": "Adresse mail invalide",
             "EMAIL_EXISTS": "Adresse mail déjà existante",
             "PASSWORD": "Mot de passe",
             "WRONG_PASSWORD": "Mot de passe incorrect",
-
             "LOGIN": "Login",
             "NO_EMAIL": "Vous n'avez pas d'adresse mail ?",
             "CREATE_ONE": "Créez-en une",
-
             "UNREAD": "Non lu",
             "CREATE_MAIL": "Créez une adresse mail",
             "ALREADY_HAVE": "Vous avez déjà une adresse mail?",
-
             "SIGN_OUT_POPUP": {
                 "TITLE": "Se déconnecter",
                 "DESCRIPTION": "Êtes-vous surs de vouloir vous déconnecter?",
@@ -586,27 +546,22 @@
         },
         "MUSIC": {
             "TITLE": "Music",
-
             "LIBRARY": "Bibliothèque",
             "SEARCH": "Rechercher",
-
             "ADD_QUEUE": "Ajouter à la file d'attente",
             "ADD_PLAYLIST": "Ajouter à la playlist",
             "REMOVE_SONG": "Enlever la musique",
             "NOT_PLAYING": "Pas jouée actuellement",
             "DELETE_PLAYLIST": "Supprimer la playlist",
             "SEARCH_PLACEHOLDER": "Artistes, Musiques, Albums, Playlists",
-
             "SONGS": "Musiques",
             "ALBUMS": "Albums",
             "PLAY": "Play",
             "SHUFFLE": "Aléatoire",
-
             "ARTIST": "Artistes",
             "ALBUM": "Album",
             "PLAYLIST": "Playlist",
             "SONG": "Musique",
-
             "SONG_EXISTS_POPUP": {
                 "TITLE": "Cette musique existe déjà",
                 "DESCRIPTION": "Cette musique est déjà dans cette playlist",
@@ -622,13 +577,11 @@
         },
         "TINDER": {
             "TITLE": "Tinder",
-
             "LIKES_YOU_TOO": "t'a liké aussi!",
             "KEEP_SWIPING": "Continue de swipe",
             "SAY_SOMETHING_NICE": "Dis-lui quelque chose...",
             "NO_MORE": "Il n'y a plus personne a swipe pour le moment, reviens plus tard!",
             "SEND": "Envoyer",
-
             "AGREE_TERMS": "By pressing 'Create Account' you agree to our Terms of Service and Privacy Policy",
             "CREATE_ACCOUNT": "Créer un compte",
             "AGE_PUBLIC": "Votre âge sera publique",
@@ -647,27 +600,23 @@
             "MALE": "Homme",
             "FEMALE": "Femme",
             "CONTINUE": "Continuer",
-
             "NAME": "Nom",
             "PHOTOS": "Photos",
             "ABOUT_ME": "A propos de moi",
             "INTERESTED_IN": "Interessé par",
             "GENDER": "Genre",
             "SAVE": "Sauvegarder",
-
             "NEW_MATCHES": "Nouveaux matchs",
             "MESSAGES": "Messages",
             "SEARCH_MATCHES": "Rechercher les matchs"
         },
         "INSTAGRAM": {
             "TITLE": "Instagram",
-
             "SEND": "Envoyer",
             "POST": "Post",
             "MESSAGE_PLACEHOLDER": "Envoyer un Message...",
             "NEW_MESSAGE": "Nouveau Message",
             "NOW": "Now",
-
             "GO_LIVE_POPUP": {
                 "TITLE": "Lancer un Live",
                 "DESCRIPTION": "Êtes-vous sûr de vouloir lancer le live?",
@@ -699,7 +648,6 @@
                 "CANCEL": "Annuler",
                 "PROCEED": "Suivant"
             },
-
             "LIVE_ENDED": "Fin du live",
             "COMMENT_PLACEHOLDER": "Commentaire",
             "LIVE": "Live",
@@ -713,7 +661,6 @@
             "NEXT": "Suivant",
             "CAPTION_PLACEHOLDER": "Écrivez une description...",
             "ACTIVITY": "Activité",
-
             "FOLLOW": "Follow",
             "FOLLOWING": "Following",
             "FOLLOWERS": "Followers",
@@ -722,11 +669,9 @@
             "LIKED_BY": "Liké par",
             "VIEW_ALL_COMMENTS": "Voir les {count} commentaires",
             "FIRST_COMMENT": "Soyez le premier à commenter...",
-
             "NO_ACCOUNT": "Il n'y a aucun compte avec ce nom d'utilisateur",
             "WRONG_USERNAME_OR_PASSWORD": "Mauvais nom d'utilisateur ou mot de passe",
             "LOG_IN": "Connectez-vous",
-
             "ACCOUNT_WITH_USERNAME": "Un compte avec ce nom d'utilisateur existe déjà",
             "CREATE_ACCOUNT": "Créez un compte",
             "USERNAME_PLACEHOLDER": "Nom d'utilisateur",
@@ -734,12 +679,10 @@
             "PASSWORD_PLACEHOLDER": "Mot de passe",
             "NOT_HAVE_ACCOUNT": "Vous n'avez pas de compte?",
             "HAVE_ACCOUNT": "Vous avez déjà un compte?",
-
             "LIKED_PHOTO": "a liké votre photo.",
             "LIKED_COMMENT": "a liké votre commentaire: {comment}",
             "COMMENTED": "a commenté votre post: {comment}",
             "FOLLOWED": "a commencé à vous follow.",
-
             "DONE": "Fait",
             "EDIT_PROFILE": "Modifier votre profil",
             "CHANGE_PICTURE": "Changer votre photo de profil",
@@ -748,19 +691,16 @@
             "SIGN_OUT": "Se déconnecter",
             "POSTS": "Posts",
             "MESSAGE": "Message",
-
             "SENT_A_PHOTO": "a envoyé une photo",
             "TO": "A"
         },
         "TWITTER": {
             "TITLE": "Twitter",
-
             "SEARCH_FOR": "Rechercher '{search}'",
             "START_SEARCHING": "Commencez à explorer Twitter",
             "TRENDING_HASHTAGS": "Top tendance",
             "SENT_ATTACHMENT": "a envoyé une pièce jointe",
             "TO": "A",
-
             "TWEETS": "Tweets",
             "REPLIES": "Réponses",
             "MEDIA": "Media",
@@ -769,7 +709,6 @@
             "TWEET": "Tweet",
             "TWEET_REPLY": "Tweet ta réponse",
             "TWEET_GENERAL": "Que se passe-t-il?",
-
             "EDIT_PROFILE": "Modifier votre profil",
             "SAVE": "Sauvegarder",
             "NAME": "Nom",
@@ -800,7 +739,6 @@
                 "CANCEL": "Annuler",
                 "PROCEED": "Suivant"
             },
-
             "YOU": "Vous",
             "FOLLOW": "Follow",
             "FOLLOWING": "Following",
@@ -809,17 +747,13 @@
             "REPLYING_TO": "Répondre à {name}",
             "RETWEETED_BY": "Retweeté par",
             "LIKED_BY": "Liké par",
-
             "ALL": "Tout",
             "NOTIFICATIONS": "Notifications",
-
             "FOLLOWS_YOU": "Vous follow",
             "JOINED": "A rejoins {date}",
-
             "LIKED_TWEET": "a liké votre tweet",
             "RETWEETED_TWEET": "a retweeté votre tweet",
             "FOLLOWED": "vous follow",
-
             "SIGN_UP_TEXT": "Regardez ce qu'il se passe dans le monde actuellement",
             "TERMS_OF_SERVICE": "En vous inscrivant, vous acceptez les CGU ainsi que la politique de vie privée",
             "HAS_ACCOUNT": "Vous avez déjà un compte?",
@@ -830,12 +764,10 @@
             "GET_STARTED": "Pour commencer, entrez votre @username",
             "FORGOT_PASSWORD": "Mot de passe oublié?",
             "ENTER_PASSWORD": "Entrez votre mot de passe",
-
             "SEARCH_DIRECT_MESSAGES": "Recherchez un message direct",
             "SEARCH_TWITTER": "Recherchez sur Twitter",
             "MESSAGE_PLACEHOLDER": "Message...",
             "NOW": "Maintenant",
-
             "LOGIN": "Se connecter",
             "CREATE_ACCOUNT": "Create Account"
         }
@@ -887,18 +819,14 @@
     "SETUP": {
         "HELLO": "Bonjour",
         "NEXT": "Cliquez pour ouvrir",
-
         "CREATE_PASSCODE": "Créer un mot de passe",
         "CREATE_PASSCODE_TEXT": "Un mot de passe protège vos données et est utilisé pour déverrouiller votre téléphone.",
         "SKIP": "Passer cette étape",
-
         "FACE_ID_SETUP": "Configuration de Face ID",
         "FACE_ID_TEXT": "Configurez Face ID pour déverrouiller automatiquement votre téléphone lorsque votre visage est dans le cadre.",
         "ENABLE_FACE_ID": "Activer Face ID",
-
         "APPEARANCE": "Apparence",
         "APPEARANCE_TEXT": "Sélectionnez une apparence claire ou foncée",
-
         "CONTINUE": "Continuer",
         "WELCOME_TO": "Bienvenue sur",
         "CLICK": "Cliquez pour commencer"
