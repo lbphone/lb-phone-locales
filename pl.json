@@ -795,7 +795,15 @@
                 "CANCEL": "Anuluj",
                 "PROCEED": "Tak"
             },
-
+            "NOTIFICATIONS_POPUP": {
+                "TITLE": "Powiadomienia",
+                "DESCRIPTION": "Na pewno chcesz {action} powiadomienia od @{name}?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Tak",
+                "ENABLE": "Włączyć",
+                "DISABLE": "Wyłączyć"
+            },
+            
             "YOU": "Ty",
             "FOLLOW": "Obserwuj",
             "FOLLOWING": "Obserwujesz",
