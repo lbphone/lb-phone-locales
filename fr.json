@@ -223,6 +223,7 @@
             "OPEN": "Ouvrir",
             "TODAY": "Aujourd'hui",
             "GAMES": "Jeux",
+            "APPS": "Apps",
             "WHAT_WE_PLAYING": "Ce à quoi nous jouons",
             "INFORMATION": "Information",
             "PROVIDER": "Fournisseur",
@@ -301,6 +302,7 @@
             "LEAVE_GROUP": "Quitter la conversation",
             "SENT_LOCATION": "A partagé son emplacement, cliquez pour ouvrir dans Maps",
             "SENT_LOCATION_SHORT": "A partagé sa position",
+            "DELETE": "Supprimer",
 
             "REMOVE_POPUP": {
                 "TITLE": "Supprimer un membre",
@@ -798,6 +800,7 @@
                 "CANCEL": "Annuler",
                 "PROCEED": "Suivant"
             },
+
             "YOU": "Vous",
             "FOLLOW": "Follow",
             "FOLLOWING": "Following",
@@ -849,7 +852,8 @@
         },
         "GALLERY": {
             "CANCEL": "Annuler",
-            "EXTERNAL_URL": "URL externe"
+            "EXTERNAL_URL": "URL externe",
+            "NO_IMAGES": "Pas d'images"
         },
         "NOTIFICATIONS": {
             "SENT_PHOTO": "Envoyer une photo",
