@@ -2,6 +2,11 @@
     "LABEL": "Nederlands",
     "SEARCH": "Zoeken",
     "CANCEL": "Annuleren",
+    "NOW": "nu",
+    "D": "d",
+    "H": "u",
+    "M": "m",
+    "S": "s",
 
     "APPS": {
         "SETTINGS": {
@@ -40,6 +45,8 @@
             "LANGUAGE_REGION": "Taal en regio",
             "LANGUAGE": "Taal",
             "TEMPERATURE": "Temperatuur",
+            "CELCIUS": "Celsius",
+            "FAHRENHEIT": "Fahrenheit",
             "BATTERY": "Batterij",
 
             "SOUND_HAPTICS": "Horen en voelen",
@@ -101,24 +108,28 @@
                 "CANCEL": "Annuleer",
                 "CONFIRM": "Inschakelen"
             },
+
             "DISABLE_PIN_POPUP": {
                 "TITLE": "Toegangscode uitschakelen",
                 "TEXT": "Weet je zeker dat je toegangscode wilt uitschakelen? (Dit zal ook Face ID uitschakelen)",
                 "CANCEL": "Annuleer",
                 "CONFIRM": "Bevestigen"
             },
+
             "TURN_PASSCODE_OFF": "Toegangscode uitschakelen",
             "TURN_PASSCODE_ON": "Toegangscode inschakelen",
             "CHANGE_PASSCODE": "Toegangscode wijzigen",
             "CLOUD_BACKUP": "Cloud-reservekopie",
             "YOUR_PROFILE": "Je profiel",
             "CREATE_BACKUP": "Reservekopie maken",
+
             "SAVE_BACKUP_POPUP": {
                 "TITLE": "Reservekopie opslaan",
                 "TEXT": "Weet je zeker dat je een reservekopie wilt maken? (Dit zal contacten, foto's en instellingen opslaan)",
                 "CANCEL": "Annuleer",
                 "CONFIRM": "Opslaan"
             },
+
             "BACKUPS": "Reservekopieën",
             "APPLY_BACKUP_POPUP": {
                 "TITLE": "Reservekopie toepassen",
@@ -126,17 +137,21 @@
                 "CANCEL": "Annuleer",
                 "CONFIRM": "Toepassen"
             },
+
             "SUCCESS": "Success",
             "SUCCESS_TEXT": "Toestel zal in 5 seconden herstarten...",
             "OK": "OK",
+
             "REMOVE_BACKUP_POPUP": {
                 "TITLE": "Reservekopie verwijderen",
                 "TEXT": "Weet je zeker dat je deze reservekopie wilt verwijderen?",
                 "CANCEL": "Annuleer",
                 "CONFIRM": "Verwijder"
             },
+
             "ON": "Aan"
         },
+
         "NOTES": {
             "TITLE": "Notities",
             "SEARCH_PLACEHOLDER": "Zoeken",
@@ -148,6 +163,7 @@
             "BUTTON_CANCEL": "Annuleer",
             "BUTTON_DELETE": "Verwijder"
         },
+
         "CLOCK": {
             "WORLDCLOCK": {
                 "TITLE": "Wereldklok",
@@ -155,6 +171,7 @@
                 "TOMORROW": "Morgen",
                 "YESTERDAY": "Gisteren"
             },
+
             "ALARM": {
                 "TITLE": "Wekker",
                 "ADD": "Wekker toevoegen",
@@ -170,6 +187,7 @@
                 "BUTTON_CANCEL": "Annuleer",
                 "BUTTON_DELETE": "Verwijder"
             },
+
             "STOPWATCH": {
                 "TITLE": "Stopwatch",
                 "START": "Start",
@@ -177,6 +195,7 @@
                 "RESET": "Reset",
                 "LAP": "Ronde"
             },
+
             "TIMER": {
                 "TITLE": "Timer",
                 "START": "Start",
@@ -186,16 +205,19 @@
                 "MINUTES": "min.",
                 "SECONDS": "sec."
             },
+
             "ALERT": {
                 "STOP": "Stop"
             }
         },
+
         "CAMERA": {
             "VIDEO": "Video",
             "PHOTO": "Foto",
             "LANDSCAPE": "Landscape",
             "UPLOADING": "Uploaden"
         },
+
         "DARKCHAT": {
             "TITLE": "Dark Chat",
             "USERNAME": "Gebruikersnaam",
@@ -212,6 +234,7 @@
             "NOW": "Nu",
             "INPUT_PLACEHOLDER": "Bericht typen..."
         },
+
         "APPSTORE": {
             "TITLE": "Apps",
             "SEARCH": "Zoek",
@@ -219,6 +242,7 @@
             "OPEN": "OPEN",
             "TODAY": "Vandaag",
             "GAMES": "Games",
+            "APPS": "Apps",
             "WHAT_WE_PLAYING": "Wat we spelen",
             "INFORMATION": "Informatie",
             "PROVIDER": "Provider",
@@ -226,6 +250,7 @@
             "COMPATIBILITY": "Compatibiliteit",
             "IN_APP_PURCHASES": "In-App aankopen"
         },
+
         "PHOTOS": {
             "TITLE": "Foto's",
             "SELECT": "Selecteer",
@@ -244,6 +269,7 @@
             "DELETE_IMAGE_BUTTON_CANCEL": "Annuleer",
             "DELETE_IMAGE_BUTTON_DELETE": "Verwijder"
         },
+
         "WEATHER": {
             "TITLE": "Weer",
             "HOURLY_FORECAST": "Verwachting per uur",
@@ -274,6 +300,7 @@
                 "WINDY": "Winderig"
             }
         },
+
         "MESSAGES": {
             "TITLE": "Berichten",
             "NEW_MESSAGE": "Nieuw bericht",
@@ -297,28 +324,33 @@
             "LEAVE_GROUP": "Gesprek verlaten",
             "SENT_LOCATION": "Heeft een locatie gedeeld, druk om in Maps te openen",
             "SENT_LOCATION_SHORT": "Heeft zijn locatie gedeeld",
+            "DELETE": "Verwijder",
 
             "REMOVE_POPUP": {
                 "TITLE": "Lid verwijderen",
                 "TEXT": "Weet je zeker dat je {name} uit de groep wilt verwijderen?",
                 "REMOVE": "Verwijder"
             },
+
             "LEAVE_POPUP": {
                 "TITLE": "Groep verlaten",
                 "TEXT": "Weet je zeker dat je de groep wilt verlaten?",
                 "LEAVE": "Verlaten"
             },
+
             "ADD_POPUP": {
                 "TITLE": "Lid toevoegen",
                 "TEXT": "Vul een nummer in om '{name}' aan de groep toe te voegen",
                 "ADD": "Toevoegen"
             },
+
             "SEND_LOCATION_POPUP": {
                 "TITLE": "Locatie delen",
                 "TEXT": "Wil je je locatie delen?",
                 "CANCEL": "Annuleer",
                 "SEND": "Verstuur"
             },
+
             "PAY": {
                 "REQUEST": "Verzoek",
                 "REQUESTED": "Verzocht",
@@ -330,6 +362,7 @@
                 "SEND_BUTTON_SEND": "Versturen"
             }
         },
+
         "PHONE": {
             "TITLE": "Telefoon",
             "DONE": "Opslaan",
@@ -399,6 +432,7 @@
                 "BLOCK_NUMBER_BUTTON_CANCEL": "Annuleer",
                 "BLOCK_NUMBER_BUTTON_BLOCK": "Blokkeer"
             },
+
             "FAVOURITES": {
                 "TITLE": "Favorieten",
 
@@ -407,14 +441,17 @@
                 "REMOVE_BUTTON_CANCEL": "Annuleren",
                 "REMOVE_BUTTON_REMOVE": "Verwijderen"
             },
+
             "KEYPAD": {
                 "TITLE": "Toetsen",
                 "ADD_NUMBER": "Voeg nummer toe"
             },
+
             "RECENTS": {
                 "TITLE": "Recent"
             }
         },
+
         "WALLET": {
             "TITLE": "Wallet",
             "BALANCE": "Saldo",
@@ -428,8 +465,11 @@
             "LATEST_TRANSACTIONS": "Recente transacties",
 
             "NOW": "Nu",
-            "AGO": "geleden"
+            "AGO": "geleden",
+            "NUMBER_DOES_NOT_EXIST": "Nummer bestaat niet",
+            "NOT_ENOUGH_MONEY": "Je hebt niet genoeg geld"
         },
+
         "GARAGE": {
             "TITLTE": "Garage",
 
@@ -451,6 +491,7 @@
                 "CANCEL": "Annuleer",
                 "PROCEED": "Bevestigen"
             },
+
             "VALET_POPUP": {
                 "TITLE": "Valet",
                 "TEXT": "Wil je een valet voor je {model} met kenteken {plate}?",
@@ -459,6 +500,7 @@
                 "PROCEED": "Bevestig"
             }
         },
+
         "HOME": {
             "TITLE": "Woning",
             "MY_HOMES": "Mijn woningen",
@@ -481,12 +523,14 @@
                 "CANCEL": "Annuleer",
                 "PROCEED": "Bevestig"
             },
+
             "LOCK_POPUP": {
                 "TITLE": "{toggle} woning",
                 "TEXT": "Wil je je woning {toggle}?",
                 "CANCEL": "Annuleer",
                 "PROCEED": "Bevestig"
             },
+
             "GIVE_KEY_POPUP": {
                 "TITLE": "Sleutelafgifte",
                 "TEXT": "Vul het ID van de persoon waar je een sleutel aan wilt geven in",
@@ -501,6 +545,7 @@
                 "PROCEED": "Bevestig"
             }
         },
+
         "MARKETPLACE": {
             "CANCEL": "Annuleer",
             "SEARCH": "Zoeken naar advertenties of nummers",
@@ -519,6 +564,7 @@
                 "PROCEED": "Verwijder"
             }
         },
+        
         "YELLOWPAGES": {
             "SEARCH": "Zoeken naar advertenties of nummers",
             "FROM": "Van",
@@ -537,32 +583,324 @@
                 "CANCEL": "Annuleer",
                 "PROCEED": "Verwijder"
             }
+        },
+
+        "MAIL": {
+            "TITLE": "Email",
+            "YOU": "Jij",
+            "UPDATED_NOW": "Zojuist geüpdate",
+            "NEW_MESSAGE": "Nieuw bericht",
+            "INBOX": "Inbox",
+            "TO": "Naar",
+            "FROM": "Van",
+            "SUBJECT": "Onderwerp",
+            "MESSAGE": "Bericht",
+            "CANCEL": "Annuleren",
+            "SEND": "Verstuur",
+            "EMAIL": "Email",
+            "EMAIL_INVALID": "Ongeldig email adres",
+            "EMAIL_EXISTS": "Email bestaat al",
+            "PASSWORD": "Wachtwoord",
+            "WRONG_PASSWORD": "Verkeerd wachtwoord",
+            "LOGIN": "Inloggen",
+            "NO_EMAIL": "Heb je geen email adres?",
+            "CREATE_ONE": "Een aanmaken",
+            "UNREAD": "Ongelezen",
+            "CREATE_MAIL": "Email aanmaken",
+            "ALREADY_HAVE": "Heb je al een email adres?",
+
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Uitloggen",
+                "DESCRIPTION": "Weet je zeker dat je wilt uitloggen?",
+                "CANCEL": "Annuleren",
+                "PROCEED": "Doorgaan"
+            }
+        },
+
+        "MAPS": {
+            "TITLE": "Maps",
+            "GO": "Gaan"
+        },
+
+        "MUSIC": {
+            "TITLE": "Muziek",
+            "LIBRARY": "Bibliotheek",
+            "SEARCH": "Zoeken",
+            "ADD_QUEUE": "Toevoegen aan wachtrij",
+            "ADD_PLAYLIST": "Toevoegen aan afspeelijst",
+            "REMOVE_SONG": "Nummer verwijderen",
+            "NOT_PLAYING": "Niet aan het afspelen",
+            "DELETE_PLAYLIST": "Verwijder Playlist",
+            "SEARCH_PLACEHOLDER": "Artiest, Nummers, Albums, Afspeellijsten",
+            "SONGS": "Nummers",
+            "ALBUMS": "Albums",
+            "PLAY": "Afspelen",
+            "SHUFFLE": "Shuffle",
+            "ARTIST": "Artiest",
+            "ALBUM": "Album",
+            "PLAYLIST": "Afspeellijst",
+            "SONG": "Nummer",
+
+            "SONG_EXISTS_POPUP": {
+                "TITLE": "Nummer bestaat al",
+                "DESCRIPTION": "Dit nummer staat al in de afspeellijst",
+                "CANCEL": "Annuleren"
+            },
+
+            "NEW_PLAYLIST_POPUP": {
+                "TITLE": "Nieuwe afspeellijst",
+                "DESCRIPTION": "Nieuwe afspeellijst aanmaken",
+                "PLACEHOLDER": "Afspeellijst Titel",
+                "CANCEL": "Annuleren",
+                "PROCEED": "Doorgaan"
+            }
+        },
+
+        "TINDER": {
+            "TITLE": "Tinder",
+            "LIKES_YOU_TOO": "vindt jou ook leuk",
+            "KEEP_SWIPING": "Ga door met swipen",
+            "SAY_SOMETHING_NICE": "Zeg iets aardigs",
+            "NO_MORE": "We hebben geen mensen voor je om te swipen. Kom later terug!",
+            "SEND": "Verstuur",
+            "AGREE_TERMS": "Door een account aan te maken ga je akkoord met de Algemene Voorwaarden",
+            "CREATE_ACCOUNT": "Account aanmaken",
+            "AGE_PUBLIC": "Je leeftijd is openbaar",
+            "BE_OVER_18": "Je moet 18 jaar of ouder zijn om deze service te gebruiken",
+            "NAME_MINIMUM": "Je naam moet minstens 3 karakters lang zijn",
+            "ADD_PHOTOS": "Afbeeldingen toevoegen",
+            "PHOTOS_MINIMUM": "Je moet minstens een afbeelding toevoegen",
+            "DESCRIPTION": "Vertel wat over jezelf",
+            "DESCRIPTION_MINIMUM": "Je omschrijving moet minimaal 18 karakters lang zijn",
+            "SHOW_ME": "Laat me zien",
+            "WOMEN": "Vrouwen",
+            "MEN": "Mannen",
+            "EVERYONE": "Iedereen",
+            "EVERYTHING": "Alles",
+            "I_AM": "Ik ben een",
+            "MALE": "Man",
+            "FEMALE": "Vrouw",
+            "CONTINUE": "Doorgaan",
+            "NAME": "Naam",
+            "PHOTOS": "Fotos",
+            "ABOUT_ME": "Over mij",
+            "INTERESTED_IN": "Geïnteresseerd in",
+            "GENDER": "Geslacht",
+            "SAVE": "Opslaan",
+            "NEW_MATCHES": "Nieuwe Matches",
+            "MESSAGES": "Berichten",
+            "SEARCH_MATCHES": "Zoek Matches"
+        },
+        "INSTAGRAM": {
+            "TITLE": "Instagram",
+
+            "SEND": "Versturen",
+            "POST": "Bericht",
+            "MESSAGE_PLACEHOLDER": "Bericht...",
+            "NEW_MESSAGE": "Nieuw bericht",
+            "NOW": "Zojuist",
+
+            "GO_LIVE_POPUP": {
+                "TITLE": "Livevideo starten",
+                "DESCRIPTION": "Weet je zeker dat je een livevideo wilt starten?",
+                "CANCEL": "Annuleren",
+                "PROCEED": "Doorgaan"
+            },
+            "END_LIVE_POPUP": {
+                "TITLE": "Livevideo beëindigen",
+                "DESCRIPTION": "Weet je zeker dat je deze livevideo wilt {action}?",
+                "CANCEL": "Annuleren",
+                "END": "Nu beëindigen",
+                "LEAVE": "Verlaten"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Niet meer volgen",
+                "DESCRIPTION": "Weet je zeker dat je {name} niet meer wilt volgen?",
+                "CANCEL": "Annuleren",
+                "PROCEED": "Niet meer volgen"
+            },
+            "DELETE_POST_POPUP": {
+                "TITLE": "Bericht verwijderen",
+                "DESCRIPTION": "Weet je zeker dat je dit bericht wilt verwijderen?",
+                "CANCEL": "Annuleren",
+                "PROCEED": "Verwijderen"
+            },
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Afmelden",
+                "DESCRIPTION": "Weet je zeker dat je je wilt afmelden?",
+                "CANCEL": "Annuleren",
+                "PROCEED": "Afmelden"
+            },
+
+            "LIVE_ENDED": "Livevideo is Beëindigd",
+            "COMMENT_PLACEHOLDER": "Opmerking",
+            "LIVE": "Live",
+            "YOUR_STORY": "Je verhaal",
+            "CREATE_STORY": "Verhaal maken",
+            "GO_LIVE": "Livevideo starten",
+            "EMPTY_FEED": "Volg mensen om hun foto's en video's hier te bekijken",
+            "COMMENTS": "Opmerkingen",
+            "ADD_COMMENT_AS": "Opmerking toevoegen als {name}",
+            "NEW_POST": "Nieuw bericht",
+            "NEXT": "Volgende",
+            "CAPTION_PLACEHOLDER": "Schrijf een bijschrift...",
+            "ACTIVITY": "Activiteit",
+
+            "FOLLOW": "Volgen",
+            "FOLLOWING": "Volgend",
+            "FOLLOWERS": "Volgers",
+            "FOLLOWER": "Volger",
+            "LIKES": "Vind ik leuks",
+            "LIKED_BY": "Vind ik leuk door",
+            "VIEW_ALL_COMMENTS": "View all {count} comments",
+            "FIRST_COMMENT": "Voeg de eerste opmerking toe...",
+
+            "NO_ACCOUNT": "De ingevoerde gebruikersnaam hoort niet bij een account",
+            "WRONG_USERNAME_OR_PASSWORD": "Onjuiste gebruikersnaam of wachtwoord",
+            "LOG_IN": "Aanmelden",
+
+            "ACCOUNT_WITH_USERNAME": "An account with this username already exists",
+            "CREATE_ACCOUNT": "Registreren",
+            "USERNAME_PLACEHOLDER": "Gebruikersnaam",
+            "NAME_PLACEHOLDER": "Naam",
+            "PASSWORD_PLACEHOLDER": "Wachtwoord",
+            "NOT_HAVE_ACCOUNT": "Heb je geen account?",
+            "HAVE_ACCOUNT": "Heb je een account?",
+
+            "LIKED_PHOTO": "vindt je foto leuk.",
+            "LIKED_COMMENT": "vindt je opmerking leuk: {comment}",
+            "COMMENTED": "heeft een opmerking geplaatst: {comment}",
+            "FOLLOWED": "volgt je nu.",
+
+            "DONE": "Klaar",
+            "EDIT_PROFILE": "Profiel bewerken",
+            "CHANGE_PICTURE": "Profielfoto bewerken",
+            "NAME": "Naam",
+            "BIO": "Bio",
+            "SIGN_OUT": "Afmelden",
+            "POSTS": "Berichten",
+            "MESSAGE": "Bericht",
+
+            "SENT_A_PHOTO": "heeft een foto gestuurd",
+            "TO": "Aan"
+        },
+        "TWITTER": {
+            "TITLE": "Twitter",
+
+            "SEARCH_FOR": "Zoeken naar '{search}'",
+            "START_SEARCHING": "Start met zoeken om Twitter te ontdekken",
+            "TRENDING_HASHTAGS": "Trending hashtags",
+            "SENT_ATTACHMENT": "heeft een bijlage gestuurd",
+            "TO": "Aan",
+
+            "TWEETS": "Tweets",
+            "REPLIES": "Antwoorden",
+            "MEDIA": "Media",
+            "LIKES": "Vind-ik-leuks",
+            "CANCEL": "Annuleer",
+            "TWEET": "Tweet",
+            "TWEET_REPLY": "Tweet je antwoord",
+            "TWEET_GENERAL": "Wat houdt je bezig?",
+
+            "EDIT_PROFILE": "Bewerk profiel",
+            "SAVE": "Bewaar",
+            "NAME": "Naam",
+            "JOIN_DATE": "Lid sinds",
+            "BIO": "Bio",
+            "SIGN_OUT": "Log uit",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Uitloggen",
+                "DESCRIPTION": "Weet je zeker dat je uit wilt loggen?",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Uitloggen"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Ontvolgen",
+                "DESCRIPTION": "Weet je zeker dat je {name} wilt ontvolgen?",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Ontvolgen"
+            },
+            "RETWEET_POPUP": {
+                "RETWEET": "Retweet",
+                "UNDO_RETWEET": "Maak Retweet ongedaan",
+                "DESCRIPTION": "Weet je zeker dat je {action}?",
+                "CANCEL": "Annuleer"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "Verwijder Tweet",
+                "DESCRIPTION": "Weet je zeker dat je deze Tweet wilt verwijderen?",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Verwijder"
+            },
+            "YOU": "Jij",
+            "FOLLOW": "Volg",
+            "FOLLOWING": "Volgend",
+            "FOLLOWERS": "Volgers",
+            "RETWEETED": "Geretweet",
+            "REPLYING_TO": "Antwoorden op {name}",
+            "RETWEETED_BY": "Geretweet door",
+            "LIKED_BY": "Vind-ik-leuk door",
+
+            "ALL": "Alle",
+            "NOTIFICATIONS": "Meldingen",
+
+            "FOLLOWS_YOU": "Volgt je nu",
+            "JOINED": "Lid sinds {date}",
+
+            "LIKED_TWEET": "vind je tweet leuk",
+            "RETWEETED_TWEET": "heeft je Tweet geretweet",
+            "FOLLOWED": "volgt je nu",
+
+            "SIGN_UP_TEXT": "Bekijk wat er nu in de wereld gebeurt.",
+            "TERMS_OF_SERVICE": "Door je te registreren, ga je akkoord met de Algemene voorwaarden en het Privacybeleid.",
+            "HAS_ACCOUNT": "Heb je al een account?",
+            "CREATE_YOUR_ACCOUNT": "Maak een account",
+            "NAME_PLACEHOLDER": "Naam",
+            "USERNAME_PLACEHOLDER": "Gebruikersnaam",
+            "PASSWORD_PLACEHOLDER": "Wachtwoord",
+            "GET_STARTED": "Voer om te beginnen eerst je @gebruikersnaam in",
+            "FORGOT_PASSWORD": "Wachtwoord vergeten?",
+            "ENTER_PASSWORD": "Voer je wachtwoord in",
+
+            "SEARCH_DIRECT_MESSAGES": "Doorzoek privéberichten",
+            "SEARCH_TWITTER": "Doorzoek Twitter",
+            "MESSAGE_PLACEHOLDER": "Bericht...",
+            "NOW": "Zojuist",
+
+            "LOGIN": "Inloggen",
+            "CREATE_ACCOUNT": "Account aanmaken"
         }
     },
+
     "COMPONENTS": {
+
         "CONTEXT_MENU": {
             "CANCEL": "Annuleer",
             "CALL": "Bellen",
             "VIDEO_CALL": "Videobellen",
             "MESSAGE": "Bericht"
         },
+
         "IMAGE": {
             "SAVE_TO_GALLERY": "Zet in foto's"
         },
+
         "GALLERY": {
             "CANCEL": "Annuleer",
-            "EXTERNAL_URL": "Externe URL"
+            "EXTERNAL_URL": "Externe URL",
+            "NO_IMAGES": "Geen afbeeldingen"
         },
+
         "NOTIFICATIONS": {
             "SENT_PHOTO": "Heeft een afbeelding gestuurd",
             "SENT_GIF": "Heeft een GIF gestuurd",
             "NOW": "nu"
         },
+
         "SHARE": {
             "COPY_PHOTO": "Foto kopiëren",
             "USE_WALLPAPER": "Als achtergrond gebruiken",
             "COPY_NUMBER": "Nummer kopiëren",
-
             "AIRDROP_SENT": "Verstuurd",
 
             "WALLPAPER_POPUP": {
@@ -572,6 +910,7 @@
                 "PROCEED": "Bevestig"
             }
         },
+
         "AIRDROP": {
             "TITLE": "AirDrop",
             "TEXT": "{sender} wilt {type} met je delen",
@@ -582,6 +921,7 @@
             "ACCEPT": "Accepteer"
         }
     },
+
     "SETUP": {
         "HELLO": "Hallo",
         "NEXT": "Tik om te openen",
@@ -601,6 +941,7 @@
         "WELCOME_TO": "Welkom bij",
         "CLICK": "Tik om te beginnen"
     },
+
     "HOMESCREEN": {
         "DONE": "Opslaan",
         "REMOVE": "Verwijder",
@@ -608,6 +949,7 @@
         "BUTTON_CANCEL": "Annuleer",
         "BUTTON_DELETE": "Verwijder"
     },
+
     "LOCKSCREEN": {
         "ENTER_PASSCODE": "Voer toegangscode in",
         "DELETE": "Verwijder"
