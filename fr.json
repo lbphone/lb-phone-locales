@@ -7,7 +7,6 @@
     "H": "h",
     "M": "m",
     "S": "s",
-
     "APPS": {
         "SETTINGS": {
             "TITLE": "Réglages",
@@ -468,7 +467,6 @@
                 "CANCEL": "Annuler",
                 "PROCEED": "Procéder"
             },
-
             "REMOVE_KEY_POPUP": {
                 "TITLE": "Supprimer le porte-clés",
                 "TEXT": "Voulez-vous vraiment supprimer l'accès de {name} ?",
@@ -739,6 +737,14 @@
                 "CANCEL": "Annuler",
                 "PROCEED": "Suivant"
             },
+            "NOTIFICATIONS_POPUP": {
+                "TITLE": "Notifications",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir {action} notifications sur @{name}?",
+                "CANCEL": "Annuler",
+                "PROCEED": "Procéder",
+                "ENABLE": "Activer",
+                "DISABLE": "Désactiver"
+            },
             "YOU": "Vous",
             "FOLLOW": "Follow",
             "FOLLOWING": "Following",
@@ -796,9 +802,7 @@
             "COPY_PHOTO": "Copier une photo",
             "USE_WALLPAPER": "Utiliser en fond d'écran",
             "COPY_NUMBER": "Copier numéro",
-
             "AIRDROP_SENT": "Envoyer",
-
             "WALLPAPER_POPUP": {
                 "TITLE": "Utiliser comme fond d'écran",
                 "TEXT": "Êtes-vous sûr de vouloir définir cette image comme fond d'écran?",
@@ -841,5 +845,34 @@
     "LOCKSCREEN": {
         "ENTER_PASSCODE": "Entrer le mot de passe",
         "DELETE": "Supprimer"
+    },
+    "BACKEND": {
+        "CALLS": {
+            "NO_CALLER_ID": "Pas d'identification de l'appelant",
+            "MISSED_CALL": "Appel manqué"
+        },
+        "GARAGE": {
+            "VALET": "Valet",
+            "COULDNT_FIND": "Véhicule introuvable.",
+            "ALREADY_OUT": "Le véhicule est déjà sorti.",
+            "NO_MONEY": "Vous n'avez pas assez d'argent.",
+            "ON_WAY": "Votre véhicule est en route.",
+            "MARKED": "Votre véhicule a été marqué sur votre GPS."
+        },
+        "INSTAGRAM": {
+            "NOT_ALLOWED_LIVE": "Vous n'êtes pas autorisé à aller en direct",
+            "STARTED_LIVE": "{username} a commencé une vidéo en direct"
+        },
+        "TINDER": {
+            "NEW_MATCH": "Nouveau match",
+            "MATCHED_WITH": "Vous avez matché avec {name}"
+        },
+        "CAMERA": {
+            "TAKE_PHOTO": "Appuyez sur {key} pour prendre une photo",
+            "FLIP_CAMERA": "Appuyez sur {key} pour retourner l'appareil photo",
+            "TOGGLE_FLASH": "Appuyez sur {key} pour retourner l'appareil photo",
+            "TOGGLE_CURSOR": "Appuyez sur {key} pour basculer le curseur et regarder autour de vous",
+            "CHANGE_MODE": "Appuyez sur {key} {key2} pour changer le mode de l'appareil photo"
+        }
     }
 }
