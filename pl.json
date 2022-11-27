@@ -916,5 +916,34 @@
     "LOCKSCREEN": {
         "ENTER_PASSCODE": "Wprowadź hasło",
         "DELETE": "Usuń"
+    },
+    "BACKEND": {
+        "CALLS": {
+            "NO_CALLER_ID": "Numer zastrzeżony",
+            "MISSED_CALL": "Nieodebrane"
+        },
+        "GARAGE": {
+            "VALET": "Dostarcz",
+            "COULDNT_FIND": "Nie znaleziono pojazdu.",
+            "ALREADY_OUT": "Pojazd jest poza garażem.",
+            "NO_MONEY": "Nie masz tyle pieniędzy.",
+            "ON_WAY": "Pojazd w drodze.",
+            "MARKED": "Pojazd oznaczony na GPS."
+        },
+        "INSTAGRAM": {
+            "NOT_ALLOWED_LIVE": "Nie możesz zrobić live",
+            "STARTED_LIVE": "{username} rozpoczął live!"
+        },
+        "TINDER": {
+            "NEW_MATCH": "Nowa para",
+            "MATCHED_WITH": "Masz pare z {name}"
+        },
+        "CAMERA": {
+            "TAKE_PHOTO": "Naciśnij {key}, aby zrobić zdjęcie",
+            "FLIP_CAMERA": "Naciśnij {key}, aby obrócić kamere",
+            "TOGGLE_FLASH": "Naciśnij {key}, aby włączyć/wyłączyć flesha",
+            "TOGGLE_CURSOR": "Naciśnij {key}, aby włączyć obracanie",
+            "CHANGE_MODE": "Naciśnij {key} {key2}, aby zmienić tryb kamery"
+        }
     }
 }
