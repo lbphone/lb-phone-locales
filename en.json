@@ -2,6 +2,11 @@
     "LABEL": "English",
     "SEARCH": "Search",
     "CANCEL": "Cancel",
+    "NOW": "now",
+    "D": "d",
+    "H": "h",
+    "M": "m",
+    "S": "s",
 
     "APPS": {
         "SETTINGS": {
@@ -9,12 +14,10 @@
             "BACK": "Back",
             "DONE": "Done",
             "EDIT": "Edit",
-
             "AIRPLANE_MODE": "Airplane Mode",
             "STREAMER_MODE": "Streamer Mode",
             "BLUETOOTH": "Bluetooth",
             "GENERAL": "General",
-
             "ABOUT": "About",
             "NAME": "Name",
             "VERSION": "Version",
@@ -28,58 +31,49 @@
             "APPLICATIONS": "Applications",
             "CAPACITY": "Capacity",
             "AVAILABLE": "Available",
-
             "SOFTWARE_UPDATE": "Software Update",
             "AUTOMATIC_UPDATES": "Automatic Updates",
-
             "DATE_TIME": "Date & Time",
             "24_HOUR_TIME": "24 Hour Time",
             "SET_AUTOMATICALLY": "Set Automatically",
             "TIME_ZONE": "Time Zone",
-
             "LANGUAGE_REGION": "Language & Region",
             "LANGUAGE": "Language",
             "TEMPERATURE": "Temperature",
+            "CELCIUS": "Celsius",
+            "FAHRENHEIT": "Fahrenheit",
             "BATTERY": "Battery",
-
             "SOUND_HAPTICS": "Sound & Haptics",
             "SOUND_HAPTICS_PATTERNS": "Sound and haptics patterns",
             "RINGTONE": "Ringtone",
             "TEXT_TONE": "Text Tone",
             "RINGTONE_VOLUME": "Ringtone and alert volume",
             "DEFAULT": "Default",
-
             "PHONE_STORAGE": "Phone Storage",
             "STORAGE": "Storage",
             "USED": "Used",
             "OF": "of",
-
             "DISPLAY_BRIGHTNESS": "Display & Brightness",
             "APPEARANCE": "Appearance",
             "AUTOMATIC": "Automatic",
             "BRIGHTNESS": "Brightness",
             "PHONE_SCALE": "Phone Scale",
-
             "WALLPAPER": "Wallpaper",
             "WALLPAPERS": "Wallpapers",
             "CHOOSE_NEW_WALLPAPER": "Choose a New Wallpaper",
-
             "NOTIFICATIONS": "Notifications",
             "ALLOW_NOTIFICATIONS": "Allow Notifications",
             "SOUNDS": "Sounds",
-
             "PHONE": "Phone",
             "BLOCKED_CONTACTS": "Blocked Contacts",
             "MY_NUMBER": "My Number",
             "SHOW_CALLER_ID": "Show Caller ID",
-
             "UNBLOCK_POPUP": {
                 "TITLE": "Unblock Number",
                 "TEXT": "Are you sure you want to unblock this number?",
                 "CANCEL": "Cancel",
                 "CONFIRM": "Unblock"
             },
-
             "FACE_ID_PASSWORD": "Face ID & Passcode",
             "ENTER_PASSCODE": "Enter Passcode",
             "PASSCODE": "Passcode",
@@ -87,14 +81,12 @@
             "RESET_FACE_ID": "Reset Face ID",
             "ENABLE_FACE_ID": "Enable Face ID",
             "PIN_CODE": "Pin code",
-
             "DISABLE_FACE_ID_POPUP": {
                 "TITLE": "Turn Off Face ID",
                 "TEXT": "Are you sure you want to turn off Face ID?",
                 "CANCEL": "Cancel",
                 "CONFIRM": "Turn Off"
             },
-
             "ENABLE_FACE_ID_POPUP": {
                 "TITLE": "Enable Face ID",
                 "TEXT": "Are you sure you want to enable Face ID?",
@@ -219,6 +211,7 @@
             "OPEN": "Open",
             "TODAY": "Today",
             "GAMES": "Games",
+            "APPS": "Apps",
             "WHAT_WE_PLAYING": "What we're playing",
             "INFORMATION": "Information",
             "PROVIDER": "Provider",
@@ -233,12 +226,10 @@
             "SELECT_ITEMS": "Select Items",
             "SELECTED_COUNT": "{count} Items selected",
             "PHOTO_COUNT": "{count} photos",
-
             "DELETE_TITLE": "Delete {count} images",
             "DELETE_TEXT": "Do you want to delete {count} images",
             "DELETE_BUTTON_CANCEL": "Cancel",
             "DELETE_BUTTON_DELETE": "Delete",
-
             "DELETE_IMAGE_TITLE": "Delete image",
             "DELETE_IMAGE_TEXT": "Do you want to delete this image?",
             "DELETE_IMAGE_BUTTON_CANCEL": "Cancel",
@@ -252,14 +243,12 @@
             "FEELS_LIKE_SAME": "Similar to the actual temperature.",
             "FEELS_LIKE_HUMIDITY": "Humidity is making it feel warmer",
             "FEELS_LIKE_WIND": "Wind is making it feel cooler",
-
             "SUNRISE": "Sunrise",
             "SUNSET": "Sunset",
             "WIND": "Wind",
             "PRECIPITATION": "Precipitation",
             "LAST_24H": "in the last 24h",
             "EXPECTED_24H": "expected in the next 24h",
-
             "TYPES": {
                 "CLOUDY": "Cloudy",
                 "LIGHT_RAIN": "Light Rain",
@@ -298,7 +287,6 @@
             "SENT_LOCATION": "Shared their location, click to open in Maps",
             "SENT_LOCATION_SHORT": "Shared their location",
             "DELETE": "Delete",
-
             "REMOVE_POPUP": {
                 "TITLE": "Remove member",
                 "TEXT": "Are you sure you want to remove {name} from the group?",
@@ -336,13 +324,11 @@
             "DONE": "Done",
             "EDIT": "Edit",
             "CANCEL": "Cancel",
-
             "CALL": {
                 "CALL_TITLE": "Call {name}",
                 "CALL_TEXT": "Are you sure you want to call {name}?",
                 "CALL_BUTTON_CANCEL": "Cancel",
                 "CALL_BUTTON_CALL": "Call",
-
                 "NO_CALLER_ID": "No Caller ID",
                 "UNKNOWN": "Unknown",
                 "USER_BUSY": "User Busy",
@@ -352,7 +338,6 @@
                 "ACCEPT": "Accept",
                 "END": "End",
                 "VIDEO_CALL": "Video Call",
-
                 "MUTE": "mute",
                 "KEYPAD": "keypad",
                 "SPEAKER": "speaker",
@@ -361,7 +346,6 @@
                 "CONTACTS": "contacts",
                 "MOBILE": "Mobile"
             },
-
             "CONTACTS": {
                 "TITLE": "Contacts",
                 "FIRST_NAME": "First Name",
@@ -369,32 +353,26 @@
                 "PHONE_NUMBER": "Phone Number",
                 "MY_CARD": "My Card",
                 "ADD_PHOTO": "Add Photo",
-
                 "REMOVE_CONTACT_TITLE": "Remove Contact",
                 "REMOVE_CONTACT_TEXT": "Are you sure you want to remove this contact?",
                 "REMOVE_CONTACT_BUTTON_CANCEL": "Cancel",
                 "REMOVE_CONTACT_BUTTON_DELETE": "Delete",
                 "DELETE_CONTACT": "Delete Contact",
-
                 "MESSAGE": "message",
                 "CALL": "call",
                 "VIDEO": "video",
                 "MAIN": "main",
-
                 "SHARE_CONTACT": "Share Contact",
                 "SHARE_LOCATION": "Share my Location",
                 "REMOVE_FAVORITE": "Remove from Favorites",
                 "ADD_FAVORITE": "Add to Favorites",
                 "ADD_CONTACT": "Add to Contacts",
-
                 "UNBLOCK_CALLER": "Unblock this Caller",
                 "BLOCK_CALLER": "Block this Caller",
-
                 "UNBLOCK_NUMBER_TITLE": "Unblock Number",
                 "UNBLOCK_NUMBER_TEXT": "Are you sure you want to unblock {number}?",
                 "UNBLOCK_NUMBER_BUTTON_CANCEL": "Cancel",
                 "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Unblock",
-
                 "BLOCK_NUMBER_TITLE": "Block Number",
                 "BLOCK_NUMBER_TEXT": "Are you sure you want to block {number}?",
                 "BLOCK_NUMBER_BUTTON_CANCEL": "Cancel",
@@ -402,7 +380,6 @@
             },
             "FAVOURITES": {
                 "TITLE": "Favorites",
-
                 "REMOVE_TITLE": "Remove from Favorites",
                 "REMOVE_TEXT": "Are you sure you want to remove this contact from your favorites?",
                 "REMOVE_BUTTON_CANCEL": "Cancel",
@@ -423,17 +400,16 @@
             "NEXT": "Next",
             "DONE": "Done",
             "DONE_SUBTITLE": "You sent {amount} to {number}",
-
             "NO_REFUNDS": "Payments are non refundable, double check the number.",
             "NEW_BALANCE": "New Balance",
             "LATEST_TRANSACTIONS": "Latest Transactions",
-
             "NOW": "Now",
-            "AGO": "ago"
+            "AGO": "ago",
+            "NUMBER_DOES_NOT_EXIST": "Number does not exist",
+            "NOT_ENOUGH_MONEY": "You do not have enough money"
         },
         "GARAGE": {
             "TITLTE": "Garage",
-
             "ACTIONS": "Actions",
             "MY_CARS": "My Cars",
             "OUT": "Out",
@@ -445,7 +421,6 @@
             "FUEL": "Fuel",
             "ENGINE": "Engine",
             "BODY": "Body",
-
             "WAYPOINT_POPUP": {
                 "TITLE": "Set Waypoint",
                 "TEXT": "Do you want to set a waypoint to your {model}?",
@@ -475,7 +450,6 @@
             "LOCKED": "Locked",
             "GIVE_KEY": "Give Key",
             "MANAGE": "Manage",
-
             "WAYPOINT_POPUP": {
                 "TITLE": "Set Waypoint",
                 "TEXT": "Do you want to set a waypoint to {home}?",
@@ -494,7 +468,6 @@
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             },
-
             "REMOVE_KEY_POPUP": {
                 "TITLE": "Remove Keyholder",
                 "TEXT": "Are you sure you want to remove access from {name}?",
@@ -512,7 +485,6 @@
             "POST": "Post",
             "CONTACT": "Contact",
             "REMOVE": "Remove",
-
             "DELETE_POPUP": {
                 "TITLE": "Delete Listing",
                 "TEXT": "Are you sure you want to delete this listing?",
@@ -525,13 +497,11 @@
             "FROM": "From",
             "CANCEL": "Cancel",
             "NEW_POST": "New Post",
-
             "TITLE": "Title",
             "DESCRIPTION": "Description",
             "PRICE": "Price",
             "POST": "Post",
             "CALL": "Call",
-
             "DELETE_POPUP": {
                 "TITLE": "Delete Post",
                 "TEXT": "Are you sure you want to delete this post?",
@@ -539,7 +509,6 @@
                 "PROCEED": "Delete"
             }
         },
-
         "MAIL": {
             "TITLE": "Mail",
             "YOU": "You",
@@ -550,23 +519,19 @@
             "FROM": "From",
             "SUBJECT": "Subject",
             "MESSAGE": "Message",
-
             "CANCEL": "Cancel",
             "SEND": "Send",
-
             "EMAIL": "Email",
             "EMAIL_INVALID": "Invalid email address",
             "EMAIL_EXISTS": "Email already exists",
             "PASSWORD": "Password",
             "WRONG_PASSWORD": "Wrong password",
-
             "LOGIN": "Login",
             "NO_EMAIL": "Don't have an email address?",
             "CREATE_ONE": "Create one",
-
+            "UNREAD": "Unread",
             "CREATE_MAIL": "Create Email",
             "ALREADY_HAVE": "Already have an email address?",
-
             "SIGN_OUT_POPUP": {
                 "TITLE": "Sign Out",
                 "DESCRIPTION": "Are you sure you want to sign out?",
@@ -580,27 +545,22 @@
         },
         "MUSIC": {
             "TITLE": "Music",
-
             "LIBRARY": "Library",
             "SEARCH": "Search",
-
             "ADD_QUEUE": "Add to Queue",
             "ADD_PLAYLIST": "Add to Playlist",
             "REMOVE_SONG": "Remove Song",
             "NOT_PLAYING": "Not Playing",
             "DELETE_PLAYLIST": "Delete Playlist",
             "SEARCH_PLACEHOLDER": "Artists, Songs, Albums, Playlists",
-
             "SONGS": "Songs",
             "ALBUMS": "Albums",
             "PLAY": "Play",
             "SHUFFLE": "Shuffle",
-
             "ARTIST": "Artist",
             "ALBUM": "Album",
             "PLAYLIST": "Playlist",
             "SONG": "Song",
-
             "SONG_EXISTS_POPUP": {
                 "TITLE": "Song already exists",
                 "DESCRIPTION": "This song already exists in this playlist",
@@ -616,13 +576,11 @@
         },
         "TINDER": {
             "TITLE": "Tinder",
-
             "LIKES_YOU_TOO": "likes you too!",
             "KEEP_SWIPING": "Keep swiping",
             "SAY_SOMETHING_NICE": "Say something nice",
             "NO_MORE": "We've run out of people for you to swipe on, check back later!",
             "SEND": "Send",
-
             "AGREE_TERMS": "By pressing 'Create Account' you agree to our Terms of Service and Privacy Policy",
             "CREATE_ACCOUNT": "Create Account",
             "AGE_PUBLIC": "Your age will be public",
@@ -641,27 +599,23 @@
             "MALE": "Male",
             "FEMALE": "Female",
             "CONTINUE": "Continue",
-
             "NAME": "Name",
             "PHOTOS": "Photos",
             "ABOUT_ME": "About Me",
             "INTERESTED_IN": "Interested In",
             "GENDER": "Gender",
             "SAVE": "Save",
-
             "NEW_MATCHES": "New Matches",
             "MESSAGES": "Messages",
             "SEARCH_MATCHES": "Search Matches"
         },
         "INSTAGRAM": {
             "TITLE": "Instagram",
-
             "SEND": "Send",
             "POST": "Post",
             "MESSAGE_PLACEHOLDER": "Message...",
             "NEW_MESSAGE": "New Message",
             "NOW": "Now",
-
             "GO_LIVE_POPUP": {
                 "TITLE": "Go Live",
                 "DESCRIPTION": "Are you sure you want to go live?",
@@ -693,7 +647,6 @@
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             },
-
             "LIVE_ENDED": "Live Ended",
             "COMMENT_PLACEHOLDER": "Comment",
             "LIVE": "Live",
@@ -707,7 +660,6 @@
             "NEXT": "Next",
             "CAPTION_PLACEHOLDER": "Write a caption...",
             "ACTIVITY": "Activity",
-
             "FOLLOW": "Follow",
             "FOLLOWING": "Following",
             "FOLLOWERS": "Followers",
@@ -716,11 +668,9 @@
             "LIKED_BY": "Liked by",
             "VIEW_ALL_COMMENTS": "View all {count} comments",
             "FIRST_COMMENT": "Be the first to comment...",
-
             "NO_ACCOUNT": "There's no account with this username",
             "WRONG_USERNAME_OR_PASSWORD": "Wrong username or password",
             "LOG_IN": "Log In",
-
             "ACCOUNT_WITH_USERNAME": "An account with this username already exists",
             "CREATE_ACCOUNT": "Create Account",
             "USERNAME_PLACEHOLDER": "Username",
@@ -728,12 +678,10 @@
             "PASSWORD_PLACEHOLDER": "Password",
             "NOT_HAVE_ACCOUNT": "Don't have an account?",
             "HAVE_ACCOUNT": "Have an account?",
-
             "LIKED_PHOTO": "liked your photo.",
             "LIKED_COMMENT": "liked your comment: {comment}",
             "COMMENTED": "commented on your post: {comment}",
             "FOLLOWED": "started following you.",
-
             "DONE": "Done",
             "EDIT_PROFILE": "Edit Profile",
             "CHANGE_PICTURE": "Change profile picture",
@@ -742,19 +690,16 @@
             "SIGN_OUT": "Sign Out",
             "POSTS": "Posts",
             "MESSAGE": "Message",
-
             "SENT_A_PHOTO": "sent a photo",
             "TO": "To"
         },
         "TWITTER": {
             "TITLE": "Twitter",
-
             "SEARCH_FOR": "Search for '{search}'",
             "START_SEARCHING": "Start searching to explore Twitter",
             "TRENDING_HASHTAGS": "Trending hashtags",
             "SENT_ATTACHMENT": "sent an attachment",
             "TO": "To",
-
             "TWEETS": "Tweets",
             "REPLIES": "Replies",
             "MEDIA": "Media",
@@ -763,7 +708,6 @@
             "TWEET": "Tweet",
             "TWEET_REPLY": "Tweet your reply",
             "TWEET_GENERAL": "What's happening?",
-
             "EDIT_PROFILE": "Edit Profile",
             "SAVE": "Save",
             "NAME": "Name",
@@ -794,7 +738,14 @@
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             },
-
+            "NOTIFICATIONS_POPUP": {
+                "TITLE": "Notifications",
+                "DESCRIPTION": "Are you sure you want to {action} notifications on @{name}?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed",
+                "ENABLE": "Enable",
+                "DISABLE": "Disable"
+            },
             "YOU": "You",
             "FOLLOW": "Follow",
             "FOLLOWING": "Following",
@@ -803,17 +754,13 @@
             "REPLYING_TO": "Replying to {name}",
             "RETWEETED_BY": "Retweeted By",
             "LIKED_BY": "Liked By",
-
             "ALL": "All",
             "NOTIFICATIONS": "Notifications",
-
             "FOLLOWS_YOU": "Follows you",
             "JOINED": "Joined {date}",
-
             "LIKED_TWEET": "liked your tweet",
             "RETWEETED_TWEET": "retweeted your tweet",
             "FOLLOWED": "followed you",
-
             "SIGN_UP_TEXT": "See what's happening in the world right now",
             "TERMS_OF_SERVICE": "By signing up, you agree to our Terms of Service and Privacy Policy.",
             "HAS_ACCOUNT": "Have an account already?",
@@ -824,12 +771,10 @@
             "GET_STARTED": "To get started, first enter your @username",
             "FORGOT_PASSWORD": "Forgot password?",
             "ENTER_PASSWORD": "Enter your password",
-
             "SEARCH_DIRECT_MESSAGES": "Search direct messages",
             "SEARCH_TWITTER": "Search Twitter",
             "MESSAGE_PLACEHOLDER": "Message...",
             "NOW": "Now",
-
             "LOGIN": "Log In",
             "CREATE_ACCOUNT": "Create Account"
         }
@@ -858,9 +803,7 @@
             "COPY_PHOTO": "Copy Photo",
             "USE_WALLPAPER": "Use as Wallpaper",
             "COPY_NUMBER": "Copy Number",
-
             "AIRDROP_SENT": "Sent",
-
             "WALLPAPER_POPUP": {
                 "TITLE": "Use as Wallpaper",
                 "TEXT": "Are you sure you want to set this image as your wallpaper?",
@@ -881,18 +824,14 @@
     "SETUP": {
         "HELLO": "Hello",
         "NEXT": "Click to open",
-
         "CREATE_PASSCODE": "Create a Passcode",
         "CREATE_PASSCODE_TEXT": "A passcode protects your data and is used to unlock your Phone.",
         "SKIP": "Skip this step",
-
         "FACE_ID_SETUP": "Face ID Setup",
         "FACE_ID_TEXT": "Set up Face ID to automatically unlock your phone whilst you're face is in frame.",
         "ENABLE_FACE_ID": "Enable Face ID",
-
         "APPEARANCE": "Appearance",
         "APPEARANCE_TEXT": "Select a light or dark appearance",
-
         "CONTINUE": "Continue",
         "WELCOME_TO": "Welcome to",
         "CLICK": "Click to get started"
