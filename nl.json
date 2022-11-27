@@ -611,5 +611,33 @@
     "LOCKSCREEN": {
         "ENTER_PASSCODE": "Voer toegangscode in",
         "DELETE": "Verwijder"
-    }
+    },
+    "BACKEND": {
+        "CALLS": {
+            "NO_CALLER_ID": "Onbekend nummer",
+            "MISSED_CALL": "Gemiste oproep"
+        },
+        "GARAGE": {
+            "VALET": "Valet",
+            "COULDNT_FIND": "Voertuig niet gevonden.",
+            "ALREADY_OUT": "Dit voertuig is al uit de garage.",
+            "NO_MONEY": "Je hebt niet genoeg geld.",
+            "ON_WAY": "Je voertuig is onderweg.",
+            "MARKED": "Je voertuig is gemarkeerd op de GPS."
+        },
+        "INSTAGRAM": {
+            "NOT_ALLOWED_LIVE": "Je hebt geen toegang om live te gaan",
+            "STARTED_LIVE": "{username} is een livevideo gestart"
+        },
+        "TINDER": {
+            "NEW_MATCH": "Nieuwe match",
+            "MATCHED_WITH": "Je hebt een match met {name}"
+        },
+        "CAMERA": {
+            "TAKE_PHOTO": "Druk op {key} om een foto te nemen",
+            "FLIP_CAMERA": "Druk op {key} om de camera om te draaien",
+            "TOGGLE_FLASH": "Druk op {key} om de flits aan/uit te zetten",
+            "TOGGLE_CURSOR": "Druk op {key} om de cursor aan/uit te zetten",
+            "CHANGE_MODE": "Druk op {key} {key2} om de camera modus te veranderen"
+        }
 }
