@@ -2,6 +2,11 @@
     "LABEL": "Polski",
     "SEARCH": "Szukaj",
     "CANCEL": "Anuluj",
+    "NOW": "teraz",
+    "D": "d",
+    "H": "h",
+    "M": "m",
+    "S": "s",
 
     "APPS": {
         "SETTINGS": {
