@@ -841,5 +841,34 @@
     "LOCKSCREEN": {
         "ENTER_PASSCODE": "Entrer le mot de passe",
         "DELETE": "Supprimer"
+    },
+    "BACKEND": {
+        "CALLS": {
+            "NO_CALLER_ID": "Pas d'identification de l'appelant",
+            "MISSED_CALL": "Appel manqué"
+        },
+        "GARAGE": {
+            "VALET": "Valet",
+            "COULDNT_FIND": "Véhicule introuvable.",
+            "ALREADY_OUT": "Le véhicule est déjà sorti.",
+            "NO_MONEY": "Vous n'avez pas assez d'argent.",
+            "ON_WAY": "Votre véhicule est en route.",
+            "MARKED": "Votre véhicule a été placé sur votre GPS."
+        },
+        "INSTAGRAM": {
+            "NOT_ALLOWED_LIVE": "Vous n'êtes pas autorisé à lancer un live",
+            "STARTED_LIVE": "{username} a commencé un live"
+        },
+        "TINDER": {
+            "NEW_MATCH": "Nouveau match",
+            "MATCHED_WITH": "Vous avez matché avec {name}"
+        },
+        "CAMERA": {
+            "TAKE_PHOTO": "Appuyiez sur {key} pour prendre une photo",
+            "FLIP_CAMERA": "Appuyiez sur {key} pour retourner la caméra",
+            "TOGGLE_FLASH": "Appuyiez sur {key} pour activer le flash",
+            "TOGGLE_CURSOR": "Appuyiez sur {key} pour activer le boutton et regarder autour de vous",
+            "CHANGE_MODE": "Appuyiez sur {key} {key2} pour changer de mode de caméra"
+        }    
     }
 }
