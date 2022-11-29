@@ -640,4 +640,5 @@
             "TOGGLE_CURSOR": "Druk op {key} om de cursor aan/uit te zetten",
             "CHANGE_MODE": "Druk op {key} {key2} om de camera modus te veranderen"
         }
+    }
 }
