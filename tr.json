@@ -2,24 +2,27 @@
     "LABEL": "Türkçe",
     "SEARCH": "Ara",
     "CANCEL": "İptal",
-
+    "NOW": "simdi",
+    "D": "g",
+    "H": "s",
+    "M": "d",
+    "S": "sn",
+    
     "APPS": {
         "SETTINGS": {
             "TITLE": "Ayarlar",
             "BACK": "Geri",
             "DONE": "Tamamla",
             "EDIT": "Düzenle",
-
             "AIRPLANE_MODE": "Uçak Modu",
             "STREAMER_MODE": "Yayıncı Modu",
             "BLUETOOTH": "Bluetooth",
             "GENERAL": "Genel",
-
             "ABOUT": "Hakkında",
             "NAME": "İsim",
             "VERSION": "Versiyon",
             "MODEL_NAME": "Model İsmi",
-            "SERIAL_NUMBER": "Seri Numara",
+            "SERIAL_NUMBER": "Seri Numarası",
             "DEVELOPED_BY": "Geliştirici:",
             "PURCHASE_AT": "Şurada satın al:",
             "SONGS": "Şarkılar",
@@ -28,73 +31,60 @@
             "APPLICATIONS": "Uygulamalar",
             "CAPACITY": "Kapasite",
             "AVAILABLE": "Müsait",
-
             "SOFTWARE_UPDATE": "Yazılım Güncellemesi",
             "AUTOMATIC_UPDATES": "Otomatik Güncellemeler",
-
             "DATE_TIME": "Tarih & Zaman",
             "24_HOUR_TIME": "24 Saatlik Zaman",
             "SET_AUTOMATICALLY": "Otomatik Ayarla",
             "TIME_ZONE": "Zaman Dilimi",
-
             "LANGUAGE_REGION": "Dil & Bölge",
             "LANGUAGE": "Dil",
             "TEMPERATURE": "Sıcaklık",
             "BATTERY": "Batarya",
-
             "SOUND_HAPTICS": "Ses & Haptik",
             "SOUND_HAPTICS_PATTERNS": "Ses ve haptik şablon",
             "RINGTONE": "Zil sesi",
             "TEXT_TONE": "Yazı Sesi",
             "RINGTONE_VOLUME": "Zil ve bildirim sesi",
             "DEFAULT": "Varsayılan",
-
             "PHONE_STORAGE": "Telefon Depolaması",
             "STORAGE": "Depo",
             "USED": "Kullanılmış",
             "OF": "of",
-
             "DISPLAY_BRIGHTNESS": "Görüntü & Parlaklık",
             "APPEARANCE": "Dış Görünüş",
             "AUTOMATIC": "Otomatik",
             "BRIGHTNESS": "Parlaklık",
             "PHONE_SCALE": "Telefon Boyutu",
-
             "WALLPAPER": "Arkaplan",
             "WALLPAPERS": "Arkaplanlar",
             "CHOOSE_NEW_WALLPAPER": "Yeni bir arkaplan seç",
-
             "NOTIFICATIONS": "Bildirimler",
             "ALLOW_NOTIFICATIONS": "Bildirimlere izin ver",
             "SOUNDS": "Sesler",
-
             "PHONE": "Telefon",
             "BLOCKED_CONTACTS": "Engellenmiş Kişiler",
             "MY_NUMBER": "Numaram",
             "SHOW_CALLER_ID": "Arayanın ID'sini göster",
-
             "UNBLOCK_POPUP": {
                 "TITLE": "Numaranın engelini kaldır",
                 "TEXT": "Bu numaranın engelini kaldırmak istediğine emin misin?",
                 "CANCEL": "İptal",
                 "CONFIRM": "Kaldır"
             },
-
-            "FACE_ID_PASSWORD": "Yüz Tanıma & şifre",
+            "FACE_ID_PASSWORD": "Yüz Tanıma & Şifre",
             "ENTER_PASSCODE": "Şifre Gir",
             "PASSCODE": "Şifre",
             "FACE_ID": "Yüz Tanıma",
             "RESET_FACE_ID": "Yüz tanımayı sıfırla",
             "ENABLE_FACE_ID": "Yüz tanımayı etkinleştir",
             "PIN_CODE": "Pin kodu",
-
             "DISABLE_FACE_ID_POPUP": {
                 "TITLE": "Yüz Tanımayı Kapat",
                 "TEXT": "Yüz tanımayı kapatmak istediğine emin misin?",
                 "CANCEL": "İptal",
                 "CONFIRM": "Kapat"
             },
-
             "ENABLE_FACE_ID_POPUP": {
                 "TITLE": "Yüz Tanımayı Etkinleştir",
                 "TEXT": "Yüz tanımayı etkinleştirmek istediğine emin misin?",
@@ -140,7 +130,7 @@
         "NOTES": {
             "TITLE": "Notlar",
             "SEARCH_PLACEHOLDER": "Ara",
-            "FOOTER": "{amount} Notlar",
+            "FOOTER": "{amount} Ader Not",
             "NEW_NOTE": "Yeni Not",
             "LAST_EDITED": "Son Düzenlenme: {date}",
             "DELETE_TITLE": "Şunu sil: {title}",
@@ -199,7 +189,7 @@
         "DARKCHAT": {
             "TITLE": "Dark Chat",
             "USERNAME": "Kullanıcı Adı",
-            "SET_USERNAME": "Kullanıcı adını belirle. NOT: SADECE BıR KERE AYARLANABıLıR.",
+            "SET_USERNAME": "Kullanıcı adını belirle. NOT: SADECE BİR KERE AYARLANABİLİR.",
             "CANCEL": "İptal",
             "SET": "Ayarla",
             "JOIN": "Katıl",
@@ -233,12 +223,10 @@
             "SELECT_ITEMS": "Öğeleri Seç",
             "SELECTED_COUNT": "{count} kadar öğe seçildi",
             "PHOTO_COUNT": "{count} tane fotoğraf",
-
             "DELETE_TITLE": "{count} fotoğraf sil",
             "DELETE_TEXT": "{count} fotoğraf silmek istediğine emin misin?",
             "DELETE_BUTTON_CANCEL": "İptal",
             "DELETE_BUTTON_DELETE": "Sil",
-
             "DELETE_IMAGE_TITLE": "Görsel sil",
             "DELETE_IMAGE_TEXT": "Bu görseli silmek istediğine emin misin?",
             "DELETE_IMAGE_BUTTON_CANCEL": "İptal",
@@ -252,14 +240,12 @@
             "FEELS_LIKE_SAME": "Gerçek sıcaklığa benzer.",
             "FEELS_LIKE_HUMIDITY": "Nem daha sıcak hissettiriyor",
             "FEELS_LIKE_WIND": "Rüzgar daha soğuk hissettiriyor",
-
             "SUNRISE": "Gündoğumu",
             "SUNSET": "Gün Batımı",
             "WIND": "Rüzgar",
             "PRECIPITATION": "Yağış",
             "LAST_24H": "Son 24 saatte",
             "EXPECTED_24H": "önümüzdeki 24 saat içinde beklenen",
-
             "TYPES": {
                 "CLOUDY": "Bulutlu",
                 "LIGHT_RAIN": "Hafif Yağmur",
@@ -284,20 +270,19 @@
             "SENT": "Gönderildi",
             "REQUESTED": "Talep edildi",
             "MISSED_CALL": "{number} seni aradı ancak açmadın, geri aramak için dokun",
-            "NOT_DELIVERED": "ıletilmedi",
+            "NOT_DELIVERED": "İletilmedi",
             "PLACEHOLDER": "Mesaj",
             "DONE": "Tamamlandı",
             "CANCEL": "İptal",
             "SEND": "Gönder",
             "UNKNOWN": "Bilinmeyen",
-            "TO": "ıle",
+            "TO": "İle",
             "SEARCH": "Ara",
             "ADD_MEMBER": "Üye Ekle",
             "SHARE_LOCATION": "Konumumu Paylaş",
             "LEAVE_GROUP": "Konuşmadan Ayrıl",
             "SENT_LOCATION": "Konumunu paylaştı, haritalarda açmak için dokun",
             "SENT_LOCATION_SHORT": "Konumunu paylaştı",
-
             "REMOVE_POPUP": {
                 "TITLE": "Üyeyi At",
                 "TEXT": "Bu üyeyi gruptan atmak istediğine emin misin: {name}",
@@ -320,12 +305,12 @@
                 "SEND": "Paylaş"
             },
             "PAY": {
-                "REQUEST": "ıste",
-                "REQUESTED": "ıstendi",
+                "REQUEST": "İste",
+                "REQUESTED": "İstendi",
                 "PAY": "Öde",
                 "SEND": "Gönder",
-                "SEND_TITLE": "Gönder: {amount}",
-                "SEND_DESCRIPTION": "{name} kişisine {amount} miktarında para göndermek istediğine emin misin?",
+                "SEND_TITLE": "Gönder: {currency}{amount}",
+                "SEND_DESCRIPTION": "{name} kişisine {currency}{amount} miktarında para göndermek istediğine emin misin?",
                 "SEND_BUTTON_CANCEL": "İptal",
                 "SEND_BUTTON_SEND": "Gönder"
             }
@@ -335,13 +320,11 @@
             "DONE": "Tamamlandı",
             "EDIT": "Düzenle",
             "CANCEL": "İptal",
-
             "CALL": {
                 "CALL_TITLE": "{name} kişisini ara",
                 "CALL_TEXT": "Şu kişiyi aramak istediğine emin misin: {name}?",
                 "CALL_BUTTON_CANCEL": "İptal",
                 "CALL_BUTTON_CALL": "Ara",
-
                 "NO_CALLER_ID": "Arayan kişinin ID'si yok",
                 "UNKNOWN": "Bilinmeyen",
                 "USER_BUSY": "Kullanıcı Meşgul",
@@ -351,7 +334,6 @@
                 "ACCEPT": "Kabul Et",
                 "END": "Bitir",
                 "VIDEO_CALL": "Video Araması",
-
                 "MUTE": "sustur",
                 "KEYPAD": "klavye",
                 "SPEAKER": "hoparlör",
@@ -360,40 +342,33 @@
                 "CONTACTS": "kişiler",
                 "MOBILE": "Mobil"
             },
-
             "CONTACTS": {
                 "TITLE": "Kişiler",
-                "FIRST_NAME": "ısim",
+                "FIRST_NAME": "İsim",
                 "LAST_NAME": "Soyisim",
                 "PHONE_NUMBER": "Telefon Numarası",
                 "MY_CARD": "Kartım",
                 "ADD_PHOTO": "Fotoğraf Ekle",
-
                 "REMOVE_CONTACT_TITLE": "Kişiyi Sil",
                 "REMOVE_CONTACT_TEXT": "Bu kişiyi silmek istediğine emin misin?",
                 "REMOVE_CONTACT_BUTTON_CANCEL": "İptal",
                 "REMOVE_CONTACT_BUTTON_DELETE": "Sil",
                 "DELETE_CONTACT": "Kişiyi Sil",
-
                 "MESSAGE": "mesaj",
                 "CALL": "ara",
                 "VIDEO": "video",
                 "MAIN": "başlıca",
-
                 "SHARE_CONTACT": "Kişi Paylaş",
                 "SHARE_LOCATION": "Konumumu Paylaş",
                 "REMOVE_FAVORITE": "Favorilerden Kaldır",
                 "ADD_FAVORITE": "Favorilere Ekle",
                 "ADD_CONTACT": "Kişilere Ekle",
-
                 "UNBLOCK_CALLER": "Arayan kişinin engelini kaldır",
                 "BLOCK_CALLER": "Arayan kişiyi engelle",
-
                 "UNBLOCK_NUMBER_TITLE": "Numaranın engelini kaldır",
                 "UNBLOCK_NUMBER_TEXT": "Bu numaranın engelini kaldırmak istediğine emin misin: {number}?",
                 "UNBLOCK_NUMBER_BUTTON_CANCEL": "İptal",
                 "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Kaldır",
-
                 "BLOCK_NUMBER_TITLE": "Numarayı Engelle",
                 "BLOCK_NUMBER_TEXT": "Bu numarayı engellemek istediğine emin misin: {number}?",
                 "BLOCK_NUMBER_BUTTON_CANCEL": "İptal",
@@ -401,7 +376,6 @@
             },
             "FAVOURITES": {
                 "TITLE": "Favoriler",
-
                 "REMOVE_TITLE": "Favorilerden Kaldır",
                 "REMOVE_TEXT": "Bu kişiyi favorilerden kaldırmak istediğine emin misin?",
                 "REMOVE_BUTTON_CANCEL": "İptal",
@@ -422,17 +396,14 @@
             "NEXT": "Sıradaki",
             "DONE": "Tamamlandı",
             "DONE_SUBTITLE": "{number} numarasına {amount} miktarında para aktardın.",
-
             "NO_REFUNDS": "Ödemelerin iadesi yoktur, miktarı iki kere kontrol ediniz.",
             "NEW_BALANCE": "Yeni Bakiye",
-            "LATEST_TRANSACTIONS": "Son ışlemler",
-
+            "LATEST_TRANSACTIONS": "Son İşlemler",
             "NOW": "Şimdi",
             "AGO": "önce"
         },
         "GARAGE": {
             "TITLTE": "Garaj",
-
             "ACTIONS": "Eylemler",
             "MY_CARS": "Araçlarım",
             "OUT": "Dışarı",
@@ -440,13 +411,12 @@
             "LOCATION": "Lokasyon",
             "SUMMON": "Çağır",
             "VALET": "Vale",
-            "STATISTICS": "ıstatistikler",
+            "STATISTICS": "İstatistikler",
             "FUEL": "Yakıt",
             "ENGINE": "Motor",
             "BODY": "Gövde",
-
             "WAYPOINT_POPUP": {
-                "TITLE": "Yer ımleci Ayarla",
+                "TITLE": "Yer İmleci Ayarla",
                 "TEXT": "Şu aracın konuma yer imleci ayarla: {model}?",
                 "CANCEL": "İptal",
                 "PROCEED": "Ayarla"
@@ -474,9 +444,8 @@
             "LOCKED": "Kilitlendi",
             "GIVE_KEY": "Anahtar Ver",
             "MANAGE": "Yönet",
-
             "WAYPOINT_POPUP": {
-                "TITLE": "Yer ımleci Ayarla",
+                "TITLE": "Yer İmleci Ayarla",
                 "TEXT": "Şu konuma yer imleci ayarlamak istediğine emin misin: {home}?",
                 "CANCEL": "İptal",
                 "PROCEED": "Ayarla"
@@ -493,7 +462,6 @@
                 "CANCEL": "İptal",
                 "PROCEED": "Onayla"
             },
-
             "REMOVE_KEY_POPUP": {
                 "TITLE": "Anahtarı Geri Al",
                 "TEXT": "Bu kişinin eve erişimini engellemek istediğine emin misin: {name}?",
@@ -509,9 +477,8 @@
             "DESCRIPTION": "Açıklama",
             "PRICE": "Ücret",
             "POST": "Gönderi",
-            "CONTACT": "ıletişim",
+            "CONTACT": "İletişim",
             "REMOVE": "Kaldır",
-
             "DELETE_POPUP": {
                 "TITLE": "Gönderiyi Kaldır",
                 "TEXT": "Bu gönderiyi kaldırmak istediğine emin misin?",
@@ -524,13 +491,11 @@
             "FROM": "Nereden",
             "CANCEL": "İptal",
             "NEW_POST": "Yeni Gönderi",
-
             "TITLE": "Başlık",
             "DESCRIPTION": "Açıklama",
             "PRICE": "Fiyat",
             "POST": "Paylaş",
             "CALL": "Ara",
-
             "DELETE_POPUP": {
                 "TITLE": "Gönderiyi Sil",
                 "TEXT": "Bu gönderiyi silmek istediğine emin misin?",
@@ -538,6 +503,274 @@
                 "PROCEED": "Sil"
             }
         }
+    },
+    "MAIL": {
+        "TITLE": "Mail",
+        "YOU": "Sen",
+        "UPDATED_NOW": "Şimdi güncellendi",
+        "NEW_MESSAGE": "Yeni Mesaj",
+        "INBOX": "Gelen Kutusu",
+        "TO": "Şuna:",
+        "FROM": "Şundan:",
+        "SUBJECT": "Konu",
+        "MESSAGE": "Mesaj",
+        "CANCEL": "İptal",
+        "SEND": "Gönder",
+        "EMAIL": "Email",
+        "EMAIL_INVALID": "Geçersiz email adresi",
+        "EMAIL_EXISTS": "Email zaten mevcut",
+        "PASSWORD": "Şifre",
+        "WRONG_PASSWORD": "Hatalı şifre",
+        "LOGIN": "Giriş Yap",
+        "NO_EMAIL": "Email adresin yok mu?",
+        "CREATE_ONE": "Bir tane oluştur",
+        "CREATE_MAIL": "Email Oluştur",
+        "ALREADY_HAVE": "Zaten bir email adresin var mı?",
+        "SIGN_OUT_POPUP": {
+            "TITLE": "Çıkış Yap",
+            "DESCRIPTION": "Çıkış yapmak istediğine emin misin?",
+            "CANCEL": "İptal",
+            "PROCEED": "Onayla"
+        }
+    },
+    "MAPS": {
+        "TITLE": "Haritalar",
+        "GO": "Git"
+    },
+    "MUSIC": {
+        "TITLE": "Müzik",
+        "LIBRARY": "Kütüphane",
+        "SEARCH": "Arama",
+        "ADD_QUEUE": "Sıraya Ekle",
+        "ADD_PLAYLIST": "Çalma Listesine Ekle",
+        "REMOVE_SONG": "Şarkıyı Kaldır",
+        "NOT_PLAYING": "Çalmıyor",
+        "DELETE_PLAYLIST": "Çalma Listesini Kaldır",
+        "SEARCH_PLACEHOLDER": "Sanatçılar, Şarkılar, Albümler, Çalma Listeleri",
+        "SONGS": "Şarkılar",
+        "ALBUMS": "Albümler",
+        "PLAY": "Oynat",
+        "SHUFFLE": "Karıştır",
+        "ARTIST": "Sanatçı",
+        "ALBUM": "Albüm",
+        "PLAYLIST": "Çalma Listesi",
+        "SONG": "Şarkı",
+        "SONG_EXISTS_POPUP": {
+            "TITLE": "Şarkı zaten bulunmakta",
+            "DESCRIPTION": "Bu şarkı zaten bu çalma listesinde mevcut.",
+            "CANCEL": "İptal"
+        },
+        "NEW_PLAYLIST_POPUP": {
+            "TITLE": "Yeni Çalma Listesi",
+            "DESCRIPTION": "Yeni bir çalma listesi oluştur",
+            "PLACEHOLDER": "Çalma Listesi İsmi",
+            "CANCEL": "İptal",
+            "PROCEED": "Onayla"
+        }
+    },
+    "TINDER": {
+        "TITLE": "Tinder",
+        "LIKES_YOU_TOO": "'da seni beğeniyor!",
+        "KEEP_SWIPING": "Kaydırmaya devam et",
+        "SAY_SOMETHING_NICE": "Güzel bir şey söyle",
+        "NO_MORE": "Kaydıracak kimse kalmadı, daha sonra tekrar kontrol et!",
+        "SEND": "Gönder",
+        "AGREE_TERMS": "'Hesap Oluştur'a basarak Hizmet Şartlarımızı ve Gizlilik Politikamızı kabul etmiş olursunuz.",
+        "CREATE_ACCOUNT": "Hesap Oluştur",
+        "AGE_PUBLIC": "Yaşınız herkese açık olacak",
+        "BE_OVER_18": "Bu hizmeti kullanmak için 18+ olmanız gerekmekte",
+        "NAME_MINIMUM": "İsminiz en az 3 karakter uzunluğunda olmak zorunda",
+        "ADD_PHOTOS": "Fotoğraf Ekle",
+        "PHOTOS_MINIMUM": "En az bir fotoğrafınızın olması gerekmekte",
+        "DESCRIPTION": "Bize biraz kendinden bahset",
+        "DESCRIPTION_MINIMUM": "Açıklaman en az 10 karakter uzunluğunda olmalı",
+        "SHOW_ME": "Göster:",
+        "WOMEN": "Kadın",
+        "MEN": "Erkek",
+        "EVERYONE": "Herkes",
+        "EVERYTHING": "Her Şey",
+        "I_AM": "Cinsiyetim:",
+        "MALE": "Erkek",
+        "FEMALE": "Kadın",
+        "CONTINUE": "Devam Et",
+        "NAME": "İsim",
+        "PHOTOS": "Fotoğraflar",
+        "ABOUT_ME": "Hakkımda",
+        "INTERESTED_IN": "İlgilendiklerim:",
+        "GENDER": "Cinsiyet",
+        "SAVE": "Kaydet",
+        "NEW_MATCHES": "Yeni Eşleşmeler",
+        "MESSAGES": "Mesajlar",
+        "SEARCH_MATCHES": "Eşleşme Ara"
+    },
+    "INSTAGRAM": {
+        "TITLE": "Instagram",
+        "SEND": "Gönder",
+        "POST": "Paylaş",
+        "MESSAGE_PLACEHOLDER": "Mesaj...",
+        "NEW_MESSAGE": "Yeni Mesaj",
+        "NOW": "Şimdi",
+        "GO_LIVE_POPUP": {
+            "TITLE": "Canlı",
+            "DESCRIPTION": "Canlı yayın başlatmak istediğine emin misin?",
+            "CANCEL": "İptal",
+            "PROCEED": "Onayla"
+        },
+        "END_LIVE_POPUP": {
+            "TITLE": "Sonlandır",
+            "DESCRIPTION": "Bu canlı yayını {action} istediğine emin misin?",
+            "CANCEL": "İptal",
+            "END": "Sonlandır",
+            "LEAVE": "Çık"
+        },
+        "UNFOLLOW_POPUP": {
+            "TITLE": "Takibi Bırak",
+            "DESCRIPTION": "Bu kişiyi takip etmeyi bırakmak istediğine emin misin: {name}?",
+            "CANCEL": "İptal",
+            "PROCEED": "Onayla"
+        },
+        "DELETE_POST_POPUP": {
+            "TITLE": "Gönderiyi Sil",
+            "DESCRIPTION": "Bu gönderiyi silmek istediğine emin misin?",
+            "CANCEL": "İptal",
+            "PROCEED": "Onayla"
+        },
+        "SIGN_OUT_POPUP": {
+            "TITLE": "Çıkış Yap",
+            "DESCRIPTION": "Çıkış yapmak istediğine emin misin?",
+            "CANCEL": "İptal",
+            "PROCEED": "Onayla"
+        },
+        "LIVE_ENDED": "Canlı Yayın Sonlandı",
+        "COMMENT_PLACEHOLDER": "Yorum",
+        "LIVE": "Canlı",
+        "YOUR_STORY": "Hikayen",
+        "CREATE_STORY": "Hikaye Oluştur",
+        "GO_LIVE": "Canlı Yayın Yap",
+        "EMPTY_FEED": "Fotoğraflarını ve videolarını burada görmek için insanları takip etmeye başlayın",
+        "COMMENTS": "Yorumlar",
+        "ADD_COMMENT_AS": "{name} olarak yorum yazın",
+        "NEW_POST": "Yeni Gönderi",
+        "NEXT": "Sıradaki",
+        "CAPTION_PLACEHOLDER": "Açıklama yaz...",
+        "ACTIVITY": "Aktivite",
+        "FOLLOW": "Takip Et",
+        "FOLLOWING": "Takip Ediliyor",
+        "FOLLOWERS": "Takip Edenler",
+        "FOLLOWER": "Takipçi",
+        "LIKES": "Beğeniler",
+        "LIKED_BY": "Beğenen:",
+        "VIEW_ALL_COMMENTS": "{count} yorumun tümünü göster",
+        "FIRST_COMMENT": "İlk yorum yapan ol...",
+        "NO_ACCOUNT": "Bu kullanıcı adıyla hiçbir hesap yok",
+        "WRONG_USERNAME_OR_PASSWORD": "Yanlış kullanıcı adı ya da şifre",
+        "LOG_IN": "Giriş Yap",
+        "ACCOUNT_WITH_USERNAME": "Bu kullanıcı adını kullanan bir hesap zaten bulunmakta",
+        "CREATE_ACCOUNT": "Hesap Oluştur",
+        "USERNAME_PLACEHOLDER": "Kullanıcı Adı",
+        "NAME_PLACEHOLDER": "İsim",
+        "PASSWORD_PLACEHOLDER": "Şifre",
+        "NOT_HAVE_ACCOUNT": "Bir hesabın yok mu?",
+        "HAVE_ACCOUNT": "Bir hesabın mı var?",
+        "LIKED_PHOTO": "fotoğrafını beğendi",
+        "LIKED_COMMENT": "yorumunu beğendi: {comment}",
+        "COMMENTED": "gönderine yorum yaptı: {comment}",
+        "FOLLOWED": "seni takip etmeye başladı.",
+        "DONE": "Tamamlandı",
+        "EDIT_PROFILE": "Profili Düzenle",
+        "CHANGE_PICTURE": "Profil fotoğrafını düzenle",
+        "NAME": "İsim",
+        "BIO": "Hakkında",
+        "SIGN_OUT": "Çıkış Yap",
+        "POSTS": "Gönderiler",
+        "MESSAGE": "Mesaj",
+        "SENT_A_PHOTO": "bir fotoğraf gönderdi.",
+        "TO": "To"
+    },
+    "TWITTER": {
+        "TITLE": "Twitter",
+        "SEARCH_FOR": "Ara: '{search}'",
+        "START_SEARCHING": "Twitter'ı keşfetmek için aramaya başla",
+        "TRENDING_HASHTAGS": "Trend hashtag'ler",
+        "SENT_ATTACHMENT": "bir ek gönderdi",
+        "TO": "To",
+        "TWEETS": "Tweetler",
+        "REPLIES": "Cevaplar",
+        "MEDIA": "Medya",
+        "LIKES": "Beğeniler",
+        "CANCEL": "İptal",
+        "TWEET": "Tweet",
+        "TWEET_REPLY": "Cevabını tweet at",
+        "TWEET_GENERAL": "Neler oluyor?",
+        "EDIT_PROFILE": "Profili Düzenle",
+        "SAVE": "Kaydet",
+        "NAME": "İsim",
+        "JOIN_DATE": "Katılma Tarihi",
+        "BIO": "Hakkında",
+        "SIGN_OUT": "Çıkış Yap",
+        "SIGN_OUT_POPUP": {
+            "TITLE": "Çıkış Yap",
+            "DESCRIPTION": "Çıkış yapmak istediğine emin misin?",
+            "CANCEL": "İptal",
+            "PROCEED": "Onayla"
+        },
+        "UNFOLLOW_POPUP": {
+            "TITLE": "Takipten Çıkar",
+            "DESCRIPTION": "Bu kişiyi takipten çıkarmak istediğine emin misin: {name}?",
+            "CANCEL": "İptal",
+            "PROCEED": "Onayla"
+        },
+        "RETWEET_POPUP": {
+            "RETWEET": "Retweet",
+            "UNDO_RETWEET": "Retweet'i Geri Al",
+            "DESCRIPTION": "{action} yapmak istediğine emin misin?",
+            "CANCEL": "İptal"
+        },
+        "DELETE_POPUP": {
+            "TITLE": "Tweet'i Sil",
+            "DESCRIPTION": "Bu tweet'i silmek istediğine emin misin?",
+            "CANCEL": "İptal",
+            "PROCEED": "Onayla"
+        },
+        "NOTIFICATIONS_POPUP": {
+            "TITLE": "Bildirimler",
+            "DESCRIPTION": "@{name} kişisi için bildirimleri {action} etmek istediğine emin misin?",
+            "CANCEL": "İptal",
+            "PROCEED": "Onayla",
+            "ENABLE": "Aktif Et",
+            "DISABLE": "Devre Dışı Bırak"
+        },
+        "YOU": "Sen",
+        "FOLLOW": "Takip Et",
+        "FOLLOWING": "Takip Edilenler",
+        "FOLLOWERS": "Takip Edenler",
+        "RETWEETED": "Retweetlenenler",
+        "REPLYING_TO": "Şu kişiye cevap veriliyor: {name}",
+        "RETWEETED_BY": "Retweetleyen: ",
+        "LIKED_BY": "Beğenen: ",
+        "ALL": "Hepsi",
+        "NOTIFICATIONS": "Bildirimler",
+        "FOLLOWS_YOU": "Takip ediyor",
+        "JOINED": "Katılma Tarihi: {date}",
+        "LIKED_TWEET": "tweetini beğendi",
+        "RETWEETED_TWEET": "tweetini retweetedledi",
+        "FOLLOWED": "seni takip etti",
+        "SIGN_UP_TEXT": "Şu anda dünyada neler olduğunu görün",
+        "TERMS_OF_SERVICE": "Kaydolarak, Hizmet Şartlarımızı ve Gizlilik Politikamızı kabul etmiş olursunuz.",
+        "HAS_ACCOUNT": "Zaten bir hesabın var mı?",
+        "CREATE_YOUR_ACCOUNT": "Hesap Oluştur",
+        "NAME_PLACEHOLDER": "İsim",
+        "USERNAME_PLACEHOLDER": "Kullanıcı Adı",
+        "PASSWORD_PLACEHOLDER": "Şifre",
+        "GET_STARTED": "Başlamak için önce @kullanıcıadı gir",
+        "FORGOT_PASSWORD": "Şifreni mi unuttun?",
+        "ENTER_PASSWORD": "Şifreni gir",
+        "SEARCH_DIRECT_MESSAGES": "Direkt mesajlarda ara",
+        "SEARCH_TWITTER": "Twitter'da Ara",
+        "MESSAGE_PLACEHOLDER": "Mesaj...",
+        "NOW": "Şimdi",
+        "LOGIN": "Giriş Yap",
+        "CREATE_ACCOUNT": "Hesap Oluştur"
     },
     "COMPONENTS": {
         "CONTEXT_MENU": {
@@ -551,20 +784,19 @@
         },
         "GALLERY": {
             "CANCEL": "İptal",
-            "EXTERNAL_URL": "Harici URL"
+            "EXTERNAL_URL": "Harici URL",
+            "NO_IMAGES": "Görsel Yok"
         },
         "NOTIFICATIONS": {
             "SENT_PHOTO": "Fotoğraf Gönderildi",
             "SENT_GIF": "GIF Gönderildi",
-            "NOW": "Şimdi"
+            "NOW": "şimdi"
         },
         "SHARE": {
             "COPY_PHOTO": "Fotoğrafı kopyala",
             "USE_WALLPAPER": "Arkaplan olarak kullan",
             "COPY_NUMBER": "Numarayı kopyala",
-
             "AIRDROP_SENT": "Gönderildi",
-
             "WALLPAPER_POPUP": {
                 "TITLE": "Arkaplan olarak kullan",
                 "TEXT": "Bu görseli arkaplan olarak kullanmak istediğine emin misin?",
@@ -585,18 +817,14 @@
     "SETUP": {
         "HELLO": "Merhaba",
         "NEXT": "Açmak için dokun",
-
         "CREATE_PASSCODE": "Bir şifre belirle",
         "CREATE_PASSCODE_TEXT": "Şifre bilgilerini korur ve telefonu açmak için kullanılır.",
         "SKIP": "Bu adımı atla.",
-
         "FACE_ID_SETUP": "Yüz Tanıma Kurulumu",
         "FACE_ID_TEXT": "Yüz tanımayı kurduğun zaman telefonun kilidini açmak için ekrana bakman yeterli olacak.",
         "ENABLE_FACE_ID": "Yüz tanımayı etkinleştir",
-
         "APPEARANCE": "Görünüm",
         "APPEARANCE_TEXT": "Açık veya koyu bir görünüm seçin.",
-
         "CONTINUE": "Devam et",
         "WELCOME_TO": "Hoşgeldin:",
         "CLICK": "Başlamak için dokun"
@@ -608,8 +836,45 @@
         "BUTTON_CANCEL": "İptal",
         "BUTTON_DELETE": "Sil"
     },
+    "NOTIFICATIONS_POPUP": {
+       "TITLE": "Bildirimler",
+       "DESCRIPTION": "Bildirimleri @{name} için {action} yapmak ister misin?",
+       "CANCEL": "İptal",
+       "PROCEED": "Devam Et",
+       "ENABLE": "Aç",
+       "DISABLE": "Kapat"
+    },
     "LOCKSCREEN": {
         "ENTER_PASSCODE": "Şifreyi Gir",
         "DELETE": "Sil"
+    },
+    "BACKEND": {
+        "CALLS": {
+            "NO_CALLER_ID": "Arayan Kimliği Yok",
+            "MISSED_CALL": "Cevapsız çağrı"
+        },
+        "GARAGE": {
+            "VALET": "Vale",
+            "COULDNT_FIND": "Araç bulunamadı.",
+            "ALREADY_OUT": "Araç zaten dışarıda.",
+            "NO_MONEY": "Yeterince paran yok.",
+            "ON_WAY": "Aracınız yola çıktı.",
+            "MARKED": "Aracınız GPS üzerinde işaretlenmiştir."
+        },
+        "INSTAGRAM": {
+            "NOT_ALLOWED_LIVE": "Canlı yayın yapmanıza izin verilmiyor",
+            "STARTED_LIVE": "{username} canlı yayın başlattı"
+        },
+        "TINDER": {
+            "NEW_MATCH": "Yeni eşleşme",
+            "MATCHED_WITH": "{name} ile eşleştin!"
+        },
+        "CAMERA": {
+            "TAKE_PHOTO": "{key} Fotoğraf Çek",
+            "FLIP_CAMERA": "{key} Kamerayı Çevir",
+            "TOGGLE_FLASH": "{key} Flash Aç/Kapat",
+            "TOGGLE_CURSOR": "{key} İmleç Aç/Kapat",
+            "CHANGE_MODE": "{key} {key2} Kamera Modunu Değiştir"
+        }
     }
 }
