@@ -833,5 +833,34 @@
     "LOCKSCREEN": {
         "ENTER_PASSCODE": "Şifreyi Gir",
         "DELETE": "Sil"
+    },
+    "BACKEND": {
+        "CALLS": {
+            "NO_CALLER_ID": "Arayan Kimliği Yok",
+            "MISSED_CALL": "Cevapsız çağrı"
+        },
+        "GARAGE": {
+            "VALET": "Vale",
+            "COULDNT_FIND": "Araç bulunamadı.",
+            "ALREADY_OUT": "Araç zaten dışarıda.",
+            "NO_MONEY": "Yeterince paran yok.",
+            "ON_WAY": "Aracınız yola çıktı.",
+            "MARKED": "Aracınız GPS üzerinde işaretlenmiştir."
+        },
+        "INSTAGRAM": {
+            "NOT_ALLOWED_LIVE": "Canlı yayın yapmanıza izin verilmiyor",
+            "STARTED_LIVE": "{username} canlı yayın başlattı"
+        },
+        "TINDER": {
+            "NEW_MATCH": "Yeni eşleşme",
+            "MATCHED_WITH": "{name} ile eşleştin!"
+        },
+        "CAMERA": {
+            "TAKE_PHOTO": "{key} Fotoğraf Çek",
+            "FLIP_CAMERA": "{key} Kamerayı Çevir",
+            "TOGGLE_FLASH": "{key} Flash Aç/Kapat",
+            "TOGGLE_CURSOR": "{key} İmleç Aç/Kapat",
+            "CHANGE_MODE": "{key} {key2} Kamera Modunu Değiştir"
+        }
     }
 }
