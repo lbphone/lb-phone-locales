@@ -2,6 +2,12 @@
     "LABEL": "Norsk",
     "SEARCH": "Søk",
     "CANCEL": "Avbryt",
+    "NOW": "nå",
+    "D": "d",
+    "H": "t",
+    "M": "m",
+    "S": "s",
+
     "APPS": {
         "SETTINGS": {
             "TITLE": "Innstillinger",
@@ -497,6 +503,275 @@
                 "CANCEL": "Avbryt",
                 "PROCEED": "Slett"
             }
+        },
+        "MAIL": {
+            "TITLE": "Mail",
+            "YOU": "Du",
+            "UPDATED_NOW": "Oppdatert akkurat nå",
+            "NEW_MESSAGE": "Ny melding",
+            "INBOX": "Innboks",
+            "TO": "Til",
+            "FROM": "Fra",
+            "SUBJECT": "Emne",
+            "MESSAGE": "Melding",
+            "CANCEL": "Avbryt",
+            "SEND": "Send",
+            "EMAIL": "E-post",
+            "EMAIL_INVALID": "Ugyldig epostadresse",
+            "EMAIL_EXISTS": "E-post eksisterer allerede",
+            "PASSWORD": "Passord",
+            "WRONG_PASSWORD": "Feil passord",
+            "LOGIN": "Logg Inn",
+            "NO_EMAIL": "Har du ikke en e-postadresse?",
+            "CREATE_ONE": "Lag en",
+            "UNREAD": "Ulest",
+            "CREATE_MAIL": "Opprett e-post",
+            "ALREADY_HAVE": "Har du allerede en e-postadresse?",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Logg ut",
+                "DESCRIPTION": "Er du sikker på at du vil logge ut?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            }
+        },
+        "MAPS": {
+            "TITLE": "Maps",
+            "GO": "Sett GPS"
+        },
+        "MUSIC": {
+            "TITLE": "Musikk",
+            "LIBRARY": "Bibliotek",
+            "SEARCH": "Søk",
+            "ADD_QUEUE": "Legg til i kø",
+            "ADD_PLAYLIST": "Legg til i spilleliste",
+            "REMOVE_SONG": "Fjern Sang",
+            "NOT_PLAYING": "Spiller Ikke",
+            "DELETE_PLAYLIST": "Slett Spilleliste",
+            "SEARCH_PLACEHOLDER": "Artister, Sanger, Album, Spillelister",
+            "SONGS": "Sanger",
+            "ALBUMS": "Album",
+            "PLAY": "Spill",
+            "SHUFFLE": "Aktiver Gjenta",
+            "ARTIST": "Artist",
+            "ALBUM": "Album",
+            "PLAYLIST": "Spilleliste",
+            "SONG": "Sang",
+            "SONG_EXISTS_POPUP": {
+                "TITLE": "Sangen eksisterer allerede",
+                "DESCRIPTION": "Denne sangen finnes allerede i denne spillelisten",
+                "CANCEL": "Avbryt"
+            },
+            "NEW_PLAYLIST_POPUP": {
+                "TITLE": "Ny spilleliste",
+                "DESCRIPTION": "Opprett en ny spilleliste",
+                "PLACEHOLDER": "Spilleliste Navn",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            }
+        },
+        "TINDER": {
+            "TITLE": "Tinder",
+            "LIKES_YOU_TOO": "liker deg også!",
+            "KEEP_SWIPING": "Fortsett å sveipe",
+            "SAY_SOMETHING_NICE": "Si noe hyggelig",
+            "NO_MORE": "Vi har gått tom for folk du kan sveipe på, kom tilbake senere!",
+            "SEND": "Send",
+            "AGREE_TERMS": "Ved å trykke 'Opprett konto' godtar du våre vilkår for bruk og personvernerklæring",
+            "CREATE_ACCOUNT": "Opprett konto",
+            "AGE_PUBLIC": "Din alder vil være offentlig",
+            "BE_OVER_18": "Du må være over 18 år for å bruke denne tjenesten",
+            "NAME_MINIMUM": "Navnet ditt må være på minst 3 tegn",
+            "ADD_PHOTOS": "Legg til bilder",
+            "PHOTOS_MINIMUM": "Du må ha minst ett bilde",
+            "DESCRIPTION": "Fortell oss litt om deg selv",
+            "DESCRIPTION_MINIMUM": "Beskrivelsen din må være på minst 10 tegn",
+            "SHOW_ME": "Vis Meg",
+            "WOMEN": "Kvinner",
+            "MEN": "Menn",
+            "EVERYONE": "Alle",
+            "EVERYTHING": "Alt",
+            "I_AM": "Jeg er en",
+            "MALE": "Mann",
+            "FEMALE": "Kvinne",
+            "CONTINUE": "Fortsett",
+            "NAME": "Navn",
+            "PHOTOS": "Bilder",
+            "ABOUT_ME": "Om meg",
+            "INTERESTED_IN": "Interessert i",
+            "GENDER": "Kjønn",
+            "SAVE": "Lagre",
+            "NEW_MATCHES": "Nye Matches",
+            "MESSAGES": "Meldinger",
+            "SEARCH_MATCHES": "Søk Matches"
+        },
+        "INSTAGRAM": {
+            "TITLE": "Instagram",
+            "SEND": "Send",
+            "POST": "Post",
+            "MESSAGE_PLACEHOLDER": "Melding...",
+            "NEW_MESSAGE": "Ny Melding",
+            "NOW": "Nå",
+            "GO_LIVE_POPUP": {
+                "TITLE": "Gå Live",
+                "DESCRIPTION": "Er du sikker på at du vil gå live?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "END_LIVE_POPUP": {
+                "TITLE": "Avslutt Live",
+                "DESCRIPTION": "Er du sikker på at du vil {action} denne liven?",
+                "CANCEL": "Avbryt",
+                "END": "Avslutt",
+                "LEAVE": "Forlat"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Slutt å følge",
+                "DESCRIPTION": "Er du sikker på at du vil slutte å følge {name}?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "DELETE_POST_POPUP": {
+                "TITLE": "Slett Innlegg",
+                "DESCRIPTION": "Er du sikker på at du vil slette dette innlegget?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Logg ut",
+                "DESCRIPTION": "Er du sikker på at du vil logge ut?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "LIVE_ENDED": "Live avsluttet",
+            "COMMENT_PLACEHOLDER": "Kommentar",
+            "LIVE": "Live",
+            "YOUR_STORY": "Din Historie",
+            "CREATE_STORY": "Lag Historie",
+            "GO_LIVE": "Gå Live",
+            "EMPTY_FEED": "Begynn å følge folk for å se bildene og videoene deres her",
+            "COMMENTS": "Kommentarer",
+            "ADD_COMMENT_AS": "Legg til kommentar som {name}",
+            "NEW_POST": "Nytt Innlegg",
+            "NEXT": "Neste",
+            "CAPTION_PLACEHOLDER": "Skriv en caption...",
+            "ACTIVITY": "Aktivitet",
+            "FOLLOW": "Følg",
+            "FOLLOWING": "Følger",
+            "FOLLOWERS": "Følgere",
+            "FOLLOWER": "Følger",
+            "LIKES": "Likes",
+            "LIKED_BY": "Likt av",
+            "VIEW_ALL_COMMENTS": "Se alle {count} kommentarer",
+            "FIRST_COMMENT": "Vær den første til å kommentere...",
+            "NO_ACCOUNT": "Det er ingen konto med dette brukernavnet",
+            "WRONG_USERNAME_OR_PASSWORD": "Feil brukernavn eller passord",
+            "LOG_IN": "Logg Inn",
+            "ACCOUNT_WITH_USERNAME": "Det finnes allerede en konto med dette brukernavnet",
+            "CREATE_ACCOUNT": "Opprett Konto",
+            "USERNAME_PLACEHOLDER": "Brukernavn",
+            "NAME_PLACEHOLDER": "Navn",
+            "PASSWORD_PLACEHOLDER": "Passord",
+            "NOT_HAVE_ACCOUNT": "Har du ikke en konto?",
+            "HAVE_ACCOUNT": "Har du en konto?",
+            "LIKED_PHOTO": "likte bildet ditt.",
+            "LIKED_COMMENT": "likte kommentaren din: {comment}",
+            "COMMENTED": "kommenterte innlegget ditt: {comment}",
+            "FOLLOWED": "begynt å følge deg.",
+            "DONE": "Gjort",
+            "EDIT_PROFILE": "Rediger profil",
+            "CHANGE_PICTURE": "Bytt profilbilde",
+            "NAME": "Navn",
+            "BIO": "Bio",
+            "SIGN_OUT": "Logg ut",
+            "POSTS": "Innlegg",
+            "MESSAGE": "Melding",
+            "SENT_A_PHOTO": "sendte et bilde",
+            "TO": "Til"
+        },
+        "TWITTER": {
+            "TITLE": "Twitter",
+            "SEARCH_FOR": "Søk etter '{search}'",
+            "START_SEARCHING": "Begynn å søke for å utforske Twitter",
+            "TRENDING_HASHTAGS": "Trending hashtags",
+            "SENT_ATTACHMENT": "sendte et vedlegg",
+            "TO": "Til",
+            "TWEETS": "Tweets",
+            "REPLIES": "Svar",
+            "MEDIA": "Media",
+            "LIKES": "Likes",
+            "CANCEL": "Avbryt",
+            "TWEET": "Tweet",
+            "TWEET_REPLY": "Tweet svaret ditt",
+            "TWEET_GENERAL": "Hva skjer?",
+            "EDIT_PROFILE": "Rediger profil",
+            "SAVE": "Lagre",
+            "NAME": "Navn",
+            "JOIN_DATE": "Bli med på Date",
+            "BIO": "Bio",
+            "SIGN_OUT": "Logg ut",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Logg ut",
+                "DESCRIPTION": "Er du sikker på at du vil logge ut?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Slutt å følge",
+                "DESCRIPTION": "Er du sikker på at du vil slutte å følge {name}?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "RETWEET_POPUP": {
+                "RETWEET": "Retweet",
+                "UNDO_RETWEET": "Angre Retweet",
+                "DESCRIPTION": "Er du sikker på at du vil {action}?",
+                "CANCEL": "Avbryt"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "Delete Tweet",
+                "DESCRIPTION": "Er du sikker på at du vil slette denne tweeten?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "NOTIFICATIONS_POPUP": {
+                "TITLE": "Varsler",
+                "DESCRIPTION": "Er du sikker på at du vil {action} varsler på @{name}?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett",
+                "ENABLE": "Aktivere",
+                "DISABLE": "Deaktivere"
+            },
+            "YOU": "Du",
+            "FOLLOW": "Følg",
+            "FOLLOWING": "Følger",
+            "FOLLOWERS": "Følgere",
+            "RETWEETED": "Retweeted",
+            "REPLYING_TO": "Svarer til {name}",
+            "RETWEETED_BY": "Retweeted Av",
+            "LIKED_BY": "Likt av",
+            "ALL": "Alle",
+            "NOTIFICATIONS": "Varsler",
+            "FOLLOWS_YOU": "Følger deg",
+            "JOINED": "Ble med {date}",
+            "LIKED_TWEET": "likte tweeten din",
+            "RETWEETED_TWEET": "retweetet tweeten din",
+            "FOLLOWED": "fulgte deg",
+            "SIGN_UP_TEXT": "Se hva som skjer i verden akkurat nå",
+            "TERMS_OF_SERVICE": "Ved å registrere deg godtar du våre vilkår for bruk og personvernerklæring.",
+            "HAS_ACCOUNT": "Har du allerede en konto?",
+            "CREATE_YOUR_ACCOUNT": "Lag din konto",
+            "NAME_PLACEHOLDER": "Navn",
+            "USERNAME_PLACEHOLDER": "Brukernavn",
+            "PASSWORD_PLACEHOLDER": "Passord",
+            "GET_STARTED": "For å komme i gang, skriv først inn @brukernavnet ditt",
+            "FORGOT_PASSWORD": "Glemt passord?",
+            "ENTER_PASSWORD": "Skriv inn passordet ditt",
+            "SEARCH_DIRECT_MESSAGES": "Søk på direktemeldinger",
+            "SEARCH_TWITTER": "Søk på Twitter",
+            "MESSAGE_PLACEHOLDER": "Melding...",
+            "NOW": "Nå",
+            "LOGIN": "Logg Inn",
+            "CREATE_ACCOUNT": "Opprett konto"
         }
     },
     "COMPONENTS": {
@@ -565,5 +840,34 @@
     "LOCKSCREEN": {
         "ENTER_PASSCODE": "Skriv Pin-kode",
         "DELETE": "Slett"
+    },
+    "BACKEND": {
+        "CALLS": {
+            "NO_CALLER_ID": "Ingen Anrops-ID",
+            "MISSED_CALL": "Ubesvart anrop"
+        },
+        "GARAGE": {
+            "VALET": "Valet",
+            "COULDNT_FIND": "Kunne ikke finne kjøretøyet.",
+            "ALREADY_OUT": "Kjøretøyet er allerede ute.",
+            "NO_MONEY": "Du har ikke nok penger.",
+            "ON_WAY": "Kjøretøyet ditt er på vei.",
+            "MARKED": "Kjøretøyet ditt er merket på GPS-en."
+        },
+        "INSTAGRAM": {
+            "NOT_ALLOWED_LIVE": "Du har ikke lov til å gå live",
+            "STARTED_LIVE": "{username} startet en direktesending"
+        },
+        "TINDER": {
+            "NEW_MATCH": "Ny match",
+            "MATCHED_WITH": "Du matchet med {name}"
+        },
+        "CAMERA": {
+            "TAKE_PHOTO": "Trykk {key} for å ta et bilde",
+            "FLIP_CAMERA": "Trykk {key} for å snu kameraet",
+            "TOGGLE_FLASH": "Trykk {key} for å slå på/av blitsen",
+            "TOGGLE_CURSOR": "Trykk {key} for å toggle med markøren og se deg rundt",
+            "CHANGE_MODE": "Trykk {key} {key2} for å endre kameramodus"
+        }
     }
 }
