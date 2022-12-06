@@ -18,7 +18,7 @@
             "ABOUT": "Hakkında",
             "NAME": "İsim",
             "VERSION": "Versiyon",
-            "MODEL_NAME": "Model İsmi",
+            "MODEL_NAME": "Model Adı",
             "SERIAL_NUMBER": "Seri Numara",
             "DEVELOPED_BY": "Geliştirici:",
             "PURCHASE_AT": "Şurada satın al:",
@@ -51,8 +51,8 @@
 
             "PHONE_STORAGE": "Telefon Depolaması",
             "STORAGE": "Depo",
-            "USED": "Kullanılmış",
-            "OF": "of",
+            "USED": "Kullanılan",
+            "OF": "de",
 
             "DISPLAY_BRIGHTNESS": "Görüntü & Parlaklık",
             "APPEARANCE": "Dış Görünüş",
@@ -135,7 +135,7 @@
                 "CANCEL": "İptal",
                 "CONFIRM": "Kaldır"
             },
-            "ON": "On"
+            "ON": "Aktif"
         },
         "NOTES": {
             "TITLE": "Notlar",
