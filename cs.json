@@ -777,6 +777,59 @@
             "NOW": "Nyní",
             "LOGIN": "Přihlášení",
             "CREATE_ACCOUNT": "Vytvořit účet"
+        },
+        "SERVICES": {
+            "ACTIONS": "Akce",
+            "COMPANIES": "Společnosti",
+            "MESSAGES": "Zprávy",
+
+            "CLOSED": "Uzavřeno",
+            "YOUR_MESSAGES": "Vaše zprávy",
+            "JOB_MESSAGES": "Pracovní zprávy",
+
+            "DUTY": "Služba",
+            "GO_ON_DUTY": "Jít do služby",
+            "GO_OFF_DUTY": "Odejít ze služby",
+            "BALANCE": "Zůstatek",
+            "MANAGE_EMPLOYEES": "Správa zaměstnanců",
+            "HIRE": "Nabírání zaměstnanců",
+            "SET_GRADE": "Nastavit třídu",
+            "UNEMPLOYED": "Jste nezaměstnaní",
+
+            "DEPOSIT_POPUP": {
+                "TITLE": "Vložit",
+                "DESCRIPTION": "Vložit peníze na firemní účet",
+                "AMOUNT": "Zůstatek",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Potvrdit"
+            },
+            "WITHDRAW_POPUP": {
+                "TITLE": "Vybrat",
+                "DESCRIPTION": "Vybrat peníze z firemního účtu",
+                "AMOUNT": "Zůstatek",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Potvrdit"
+            },
+            "HIRE_POPUP": {
+                "TITLE": "Najmout",
+                "DESCRIPTION": "Najmout nového zaměstnance",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Potvrdit"
+            },
+            "FIRE_POPUP": {
+                "TITLE": "Propustit",
+                "DESCRIPTION": "Opravdu, chcete propustit {name}?",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Potvrdit"
+            },
+            "CALL_POPUP": {
+                "TITLE": "Hovor",
+                "DESCRIPTION": "Opravdu, chcete zavolat {name}?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Potvrdit"
+            }
         }
     },
     "COMPONENTS": {
@@ -846,5 +899,34 @@
     "LOCKSCREEN": {
         "ENTER_PASSCODE": "Zadejte přístupový kód",
         "DELETE": "Vymazat"
+    },
+    "BACKEND": {
+        "CALLS": {
+            "NO_CALLER_ID": "Neznámý volející",
+            "MISSED_CALL": "Zmeškaný hovor"
+        },
+        "GARAGE": {
+            "VALET": "Peněženka",
+            "COULDNT_FIND": "Nelze najít vozidlo.",
+            "ALREADY_OUT": "Vozidlo je mimo garáž.",
+            "NO_MONEY": "Nemáš dostatek peněz na účtě.",
+            "ON_WAY": "Tvé vozidlo je na cestě.",
+            "MARKED": "Tvé vozidlo bylo označeno na GPS."
+        },
+        "INSTAGRAM": {
+            "NOT_ALLOWED_LIVE": "Nemůžeš jít live.",
+            "STARTED_LIVE": "{username} začal streamovat video."
+        },
+        "TINDER": {
+            "NEW_MATCH": "Nová sympatie",
+            "MATCHED_WITH": "Mate sympatii s {name}"
+        },
+        "CAMERA": {
+            "TAKE_PHOTO": "Stiskni {key} pro fotku",
+            "FLIP_CAMERA": "Stiskni {key} pro druhou kameru",
+            "TOGGLE_FLASH": "Stiskni {key} pro aktivaci blesku",
+            "TOGGLE_CURSOR": "Stiskni {key} pro kurzor a rozhlížení se",
+            "CHANGE_MODE": "Stiskni {key} {key2} pro změnu módu"
+        }
     }
 }
