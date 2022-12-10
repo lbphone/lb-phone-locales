@@ -777,6 +777,59 @@
             "NOW": "Now",
             "LOGIN": "Log In",
             "CREATE_ACCOUNT": "Create Account"
+        },
+        "SERVICES": {
+            "ACTIONS": "Actions",
+            "COMPANIES": "Companies",
+            "MESSAGES": "Messages",
+
+            "CLOSED": "Closed",
+            "YOUR_MESSAGES": "Your Messages",
+            "JOB_MESSAGES": "Job Messages",
+
+            "DUTY": "Duty",
+            "GO_ON_DUTY": "Go on Duty",
+            "GO_OFF_DUTY": "Go off Duty",
+            "BALANCE": "Balance",
+            "MANAGE_EMPLOYEES": "Manage Employees",
+            "HIRE": "Hire",
+            "SET_GRADE": "Set Grade",
+            "UNEMPLOYED": "You're unemployed",
+
+            "DEPOSIT_POPUP": {
+                "TITLE": "Deposit",
+                "DESCRIPTION": "Deposit money into the company account",
+                "AMOUNT": "Amount",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+            "WITHDRAW_POPUP": {
+                "TITLE": "Withdraw",
+                "DESCRIPTION": "Withdraw money from the company account",
+                "AMOUNT": "Amount",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+            "HIRE_POPUP": {
+                "TITLE": "Hire",
+                "DESCRIPTION": "Hire a new employee",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+            "FIRE_POPUP": {
+                "TITLE": "Fire",
+                "DESCRIPTION": "Are you sure you want to fire {name}?",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+            "CALL_POPUP": {
+                "TITLE": "Call",
+                "DESCRIPTION": "Are you sure you want to call {name}?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            }
         }
     },
     "COMPONENTS": {
