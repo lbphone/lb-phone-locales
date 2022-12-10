@@ -772,6 +772,59 @@
             "NOW": "Nå",
             "LOGIN": "Logg Inn",
             "CREATE_ACCOUNT": "Opprett konto"
+        },
+        "SERVICES": {
+            "ACTIONS": "Handlinger",
+            "COMPANIES": "Bedrifter",
+            "MESSAGES": "Meldinger",
+
+            "CLOSED": "Lukket",
+            "YOUR_MESSAGES": "Dine Meldinger",
+            "JOB_MESSAGES": "Jobbmeldinger",
+
+            "DUTY": "Vakt",
+            "GO_ON_DUTY": "Gå på Vakt",
+            "GO_OFF_DUTY": "Gå av Vakt",
+            "BALANCE": "Saldo",
+            "MANAGE_EMPLOYEES": "Administrer ansatte",
+            "HIRE": "Ansett",
+            "SET_GRADE": "Sett Gradering",
+            "UNEMPLOYED": "Du er arbeidsledig",
+
+            "DEPOSIT_POPUP": {
+                "TITLE": "Innskudd",
+                "DESCRIPTION": "Sett inn penger på firmakontoen",
+                "AMOUNT": "Beløp",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "WITHDRAW_POPUP": {
+                "TITLE": "Ta ut",
+                "DESCRIPTION": "Ta ut penger fra firmakontoen",
+                "AMOUNT": "Amount",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "HIRE_POPUP": {
+                "TITLE": "Ansett",
+                "DESCRIPTION": "Ansett en ny arbeider",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "FIRE_POPUP": {
+                "TITLE": "Spark",
+                "DESCRIPTION": "Er du sikker på at du vil sparke {name}?",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "CALL_POPUP": {
+                "TITLE": "Ring",
+                "DESCRIPTION": "Er du sikker på at du vil ringe {name}?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            }
         }
     },
     "COMPONENTS": {
