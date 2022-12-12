@@ -776,8 +776,62 @@
             "NOW": "Maintenant",
             "LOGIN": "Se connecter",
             "CREATE_ACCOUNT": "Create Account"
+		},
+        "SERVICES": {
+            "ACTIONS": "Actions",
+            "COMPANIES": "Entreprises",
+            "MESSAGES": "Messages",
+
+            "CLOSED": "Fermée",
+            "YOUR_MESSAGES": "Tes messages",
+            "JOB_MESSAGES": "Job Messages",
+
+            "DUTY": "Duty",
+            "GO_ON_DUTY": "Aller en service",
+            "GO_OFF_DUTY": "Sortir du service",
+            "BALANCE": "Balance",
+            "MANAGE_EMPLOYEES": "Gérer les employés",
+            "HIRE": "Embaucher",
+            "SET_GRADE": "Promouvoir",
+            "UNEMPLOYED": "Vous êtes au chômage",
+
+            "DEPOSIT_POPUP": {
+                "TITLE": "Déposer",
+                "DESCRIPTION": "Déposer de l'argent sur le compte de l'entreprise",
+                "AMOUNT": "Montant",
+                "CANCEL": "Annuler",
+                "PROCEED": "Procéder"
+            },
+            "WITHDRAW_POPUP": {
+                "TITLE": "Retirer",
+                "DESCRIPTION": "Retirer de l'argent du compte de l'entreprise",
+                "AMOUNT": "Montant",
+                "CANCEL": "Annuler",
+                "PROCEED": "Procéder"
+            },
+            "HIRE_POPUP": {
+                "TITLE": "Embaucher",
+                "DESCRIPTION": "Embaucher un nouvel employé",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Annuler",
+                "PROCEED": "Procéder"
+            },
+            "FIRE_POPUP": {
+                "TITLE": "Virer",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir virer {name}?",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Annuler",
+                "PROCEED": "Procéder"
+            },
+            "CALL_POPUP": {
+                "TITLE": "Appel",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir appeler {name}?",
+                "CANCEL": "Annuler",
+                "PROCEED": "Procéder"
+            }
         }
     },
+	
     "COMPONENTS": {
         "CONTEXT_MENU": {
             "CANCEL": "Annuler",
