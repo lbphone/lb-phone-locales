@@ -3,6 +3,7 @@
     "SEARCH": "Zoeken",
     "CANCEL": "Annuleren",
     "NOW": "nu",
+    "D": "d",
     "H": "u",
     "M": "m",
     "S": "s",
@@ -847,6 +848,59 @@
 
             "LOGIN": "Inloggen",
             "CREATE_ACCOUNT": "Account aanmaken"
+        },
+        "SERVICES": {
+            "ACTIONS": "Acties",
+            "COMPANIES": "Bedrijven",
+            "MESSAGES": "Berichten",
+
+            "CLOSED": "Gesloten",
+            "YOUR_MESSAGES": "Jouw berichten",
+            "JOB_MESSAGES": "Bedrijf berichten",
+
+            "DUTY": "Dienst",
+            "GO_ON_DUTY": "Ga in dienst",
+            "GO_OFF_DUTY": "Ga uit dienst",
+            "BALANCE": "Balans",
+            "MANAGE_EMPLOYEES": "Werknemer management",
+            "HIRE": "Aannemen",
+            "SET_GRADE": "Verander rang",
+            "UNEMPLOYED": "Je bent werkloos",
+
+            "DEPOSIT_POPUP": {
+                "TITLE": "Storten",
+                "DESCRIPTION": "Stort geld in het bedrijfsaccount",
+                "AMOUNT": "Bedrag",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Doorgaan"
+            },
+            "WITHDRAW_POPUP": {
+                "TITLE": "Opnemen",
+                "DESCRIPTION": "Geld opnemen vanuit het bedrijfsaccount",
+                "AMOUNT": "Bedrag",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Doorgaan"
+            },
+            "HIRE_POPUP": {
+                "TITLE": "Aannemen",
+                "DESCRIPTION": "Neem een werknemer aan",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Doorgaan"
+            },
+            "FIRE_POPUP": {
+                "TITLE": "Ontslaan",
+                "DESCRIPTION": "Weet je zeker dat je {name} wilt ontslaan?",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Doorgaan"
+            },
+            "CALL_POPUP": {
+                "TITLE": "Bellen",
+                "DESCRIPTION": "Weet je zeker dat je {name} wilt bellen?",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Doorgaan"
+            }
         }
     },
     "COMPONENTS": {
