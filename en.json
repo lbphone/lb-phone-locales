@@ -541,7 +541,26 @@
         },
         "MAPS": {
             "TITLE": "Maps",
-            "GO": "Go"
+            "GO": "Go",
+            "ADD": "Add",
+            "EDIT": "Edit",
+            "DELETE": "Delete",
+            "SET_WAYPOINT": "Set Waypoint",
+
+            "ADD_LOCATION_POPUP": {
+                "TITLE": "Add Location",
+                "DESCRIPTION": "Enter the name of the location you want to add",
+                "PLACEHOLDER": "Name", 
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+            "CHANGE_NAME_POPUP": {
+                "TITLE": "Change Name",
+                "DESCRIPTION": "Enter the new name of the location",
+                "PLACEHOLDER": "Name", 
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            }
         },
         "MUSIC": {
             "TITLE": "Music",
@@ -691,7 +710,8 @@
             "POSTS": "Posts",
             "MESSAGE": "Message",
             "SENT_A_PHOTO": "sent a photo",
-            "TO": "To"
+            "TO": "To",
+            "SEND_A_MESSAGE": "Send a message..."
         },
         "TWITTER": {
             "TITLE": "Twitter",
@@ -746,6 +766,12 @@
                 "ENABLE": "Enable",
                 "DISABLE": "Disable"
             },
+            "PROMOTE_POPUP": {
+                "TITLE": "Promote Tweet",
+                "DESCRIPTION": "Do you want to promote this tweet for {price} for {views} views?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
             "YOU": "You",
             "FOLLOW": "Follow",
             "FOLLOWING": "Following",
@@ -776,7 +802,8 @@
             "MESSAGE_PLACEHOLDER": "Message...",
             "NOW": "Now",
             "LOGIN": "Log In",
-            "CREATE_ACCOUNT": "Create Account"
+            "CREATE_ACCOUNT": "Create Account",
+            "PROMOTE": "Promote"
         },
         "SERVICES": {
             "ACTIONS": "Actions",
@@ -927,6 +954,9 @@
             "TOGGLE_FLASH": "Press {key} to toggle the flash",
             "TOGGLE_CURSOR": "Press {key} to toggle the cursor and look around",
             "CHANGE_MODE": "Press {key} {key2} to change the camera mode"
+        },
+        "SERVICES": {
+            "NEW_MESSAGE":"New Message"
         }
     }
 }
