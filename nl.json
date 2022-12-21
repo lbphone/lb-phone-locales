@@ -14,12 +14,10 @@
             "BACK": "Terug",
             "DONE": "Accepteren",
             "EDIT": "Bewerken",
-
             "AIRPLANE_MODE": "Vliegtuigmodus",
             "STREAMER_MODE": "Streamermodus",
             "BLUETOOTH": "Bluetooth",
             "GENERAL": "Algemeen",
-
             "ABOUT": "Info",
             "NAME": "Naam",
             "VERSION": "Versie",
@@ -33,22 +31,18 @@
             "APPLICATIONS": "Apps",
             "CAPACITY": "Capaciteit",
             "AVAILABLE": "Beschikbaar",
-
             "SOFTWARE_UPDATE": "Software-update",
             "AUTOMATIC_UPDATES": "Automatische updates",
-
             "DATE_TIME": "Datum en tijd",
             "24_HOUR_TIME": "24 uursklok",
             "SET_AUTOMATICALLY": "Stel automatisch in",
             "TIME_ZONE": "Tijdzone",
-
             "LANGUAGE_REGION": "Taal en regio",
             "LANGUAGE": "Taal",
             "TEMPERATURE": "Temperatuur",
             "CELCIUS": "Celsius",
             "FAHRENHEIT": "Fahrenheit",
             "BATTERY": "Batterij",
-
             "SOUND_HAPTICS": "Horen en voelen",
             "SOUND_HAPTICS_PATTERNS": "Geluid en haptische patronen",
             "RINGTONE": "Beltoon",
@@ -585,7 +579,26 @@
         },
         "MAPS": {
             "TITLE": "Kaarten",
-            "GO": "GAAN"
+            "GO": "GAAN",
+            "ADD": "Toevoegen",
+            "EDIT": "Bewerken",
+            "DELETE": "Verwijder",
+            "SET_WAYPOINT": "Markering zetten",
+
+            "ADD_LOCATION_POPUP": {
+                "TITLE": "Locatie toevoegen",
+                "DESCRIPTION": "Vul de naam in van de locatie die je wilt zetten",
+                "PLACEHOLDER": "Naam", 
+                "CANCEL": "Annuleer",
+                "PROCEED": "Doorgaan"
+            },
+            "CHANGE_NAME_POPUP": {
+                "TITLE": "Verander naam",
+                "DESCRIPTION": "Vul de nieuwe naam voor de locatie in",
+                "PLACEHOLDER": "Naam", 
+                "CANCEL": "Annuleer",
+                "PROCEED": "Doorgaan"
+            }
         },
         "MUSIC": {
             "TITLE": "Muziek",
@@ -753,7 +766,8 @@
             "MESSAGE": "Bericht",
 
             "SENT_A_PHOTO": "heeft een foto gestuurd",
-            "TO": "Aan"
+            "TO": "Aan",
+            "SEND_A_MESSAGE": "Chatbericht sturen.."
         },
         "TWITTER": {
             "TITLE": "Twitter",
@@ -811,6 +825,12 @@
                 "ENABLE": "Aan",
                 "DISABLE": "Uit"
             },
+            "PROMOTE_POPUP": {
+                "TITLE": "Tweet uitlichten",
+                "DESCRIPTION": "Wil je deze Tweet uitlichten voor {price} voor {views} views?",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Doorgaan"
+            },
             "YOU": "Jij",
             "FOLLOW": "Volg",
             "FOLLOWING": "Volgend",
@@ -847,11 +867,12 @@
             "NOW": "Zojuist",
 
             "LOGIN": "Inloggen",
-            "CREATE_ACCOUNT": "Account aanmaken"
+            "CREATE_ACCOUNT": "Account aanmaken",
+            "PROMOTE": "Uitlichten"
         },
         "SERVICES": {
             "ACTIONS": "Acties",
-            "COMPANIES": "Bedrijven",
+            "COMPANIES": "Hulpdiensten",
             "MESSAGES": "Berichten",
 
             "CLOSED": "Gesloten",
@@ -1004,6 +1025,9 @@
             "TOGGLE_FLASH": "Druk op {key} om de flits aan/uit te zetten",
             "TOGGLE_CURSOR": "Druk op {key} om de cursor aan/uit te zetten",
             "CHANGE_MODE": "Druk op {key} {key2} om de camera modus te veranderen"
+        },
+        "SERVICES": {
+            "NEW_MESSAGE": "Nieuw bericht van hulpdienst"
         }
     }
 }
