@@ -318,7 +318,7 @@
         "PHONE": {
             "TITLE": "Telefon",
             "DONE": "Ferdig",
-            "EDIT": "Andre",
+            "EDIT": "Endre",
             "CANCEL": "Avbryt",
             "CALL": {
                 "CALL_TITLE": "Ring {name}",
