@@ -748,7 +748,7 @@
                 "CANCEL": "Avbryt"
             },
             "DELETE_POPUP": {
-                "TITLE": "Delete Tweet",
+                "TITLE": "Slett Tweet",
                 "DESCRIPTION": "Er du sikker på at du vil slette denne tweeten?",
                 "CANCEL": "Avbryt",
                 "PROCEED": "Fortsett"
