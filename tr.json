@@ -498,6 +498,60 @@
             }
         }
     },
+    "SERVICES": {
+            "ACTIONS": "Eylemler",
+            "COMPANIES": "Şirketler",
+            "MESSAGES": "Mesajlar",
+
+            "CLOSED": "Kapalı",
+            "YOUR_MESSAGES": "Mesajlarınız",
+            "JOB_MESSAGES": "İş Mesajları",
+
+            "DUTY": "Mesai",
+            "GO_ON_DUTY": "Mesaiye Gir",
+            "GO_OFF_DUTY": "Mesaiden Ayrıl",
+            "BALANCE": "Bakiye",
+            "MANAGE_EMPLOYEES": "Çalışanları Yönet",
+            "HIRE": "İşe Al",
+            "SET_GRADE": "Rütbeyi Ayarla",
+            "UNEMPLOYED": "İşsizsin",
+
+            "DEPOSIT_POPUP": {
+                "TITLE": "Depozito",
+                "DESCRIPTION": "Şirket hesabına para yatır",
+                "AMOUNT": "Tutar",
+                "CANCEL": "İptal",
+                "PROCEED": "Onayla"
+            },
+            "WITHDRAW_POPUP": {
+                "TITLE": "Para Çek",
+                 "DESCRIPTION": "Şirket hesabından para çek",
+                  "AMOUNT": "Tutar",
+                   "CANCEL": "İptal",
+                "PROCEED": "Onayla"
+            },
+            "HIRE_POPUP": {
+                "TITLE": "İşe Al",
+                 "DESCRIPTION": "Yeni bir çalışan işe alın",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "İptal",
+                "PROCEED": "Onayla"
+            },
+            "FIRE_POPUP": {
+                "TITLE": "Çalışan Kov",
+                 "DESCRIPTION": "{name}'i kovmak istediğinizden emin misiniz?",
+                "PLACEHOLDER": "ID",
+                "İPTAL": "İptal",
+                "PROCEED": "Onayla"
+            },
+            "CALL_POPUP": {
+                "TITLE": "Çağrı",
+                 "DESCRIPTION": "{name}'i aramak istediğinizden emin misiniz?",
+                  "CANCEL": "İptal",
+                "PROCEED": "Onayla"
+            }
+        }
+    },
     "MAIL": {
         "TITLE": "Mail",
         "YOU": "Sen",
@@ -528,8 +582,27 @@
         }
     },
     "MAPS": {
-        "TITLE": "Haritalar",
-        "GO": "Git"
+            "TITLE": "Haritalar",
+            "GO": "Git",
+            "ADD": "Ekle",
+            "EDIT": "Düzenle",
+            "DELETE": "Sil",
+            "SET_WAYPOINT": "İşaretle",
+
+            "ADD_LOCATION_POPUP": {
+                "TITLE": "Konum Ekle",
+                 "DESCRIPTION": "Eklemek istediğiniz konumun adını girin",
+                "PLACEHOLDER": "İsim", 
+                "CANCEL": "İptal",
+                "PROCEED": "Onayla"
+            },
+            "CHANGE_NAME_POPUP": {
+                "TITLE": "Konum İsmini Değiştir",
+                "DESCRIPTION": "Konumun yeni adını girin",
+                "PLACEHOLDER": "İsim", 
+                "CANCEL": "İptal",
+                "PROCEED": "Onayla"
+            }
     },
     "MUSIC": {
         "TITLE": "Müzik",
