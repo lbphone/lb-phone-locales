@@ -121,13 +121,19 @@
             "SUCCESS": "Success",
             "SUCCESS_TEXT": "Phone will restart in 5 seconds...",
             "OK": "OK",
+            "ON": "On",
             "REMOVE_BACKUP_POPUP": {
                 "TITLE": "Remove Backup",
                 "TEXT": "Are you sure you want to remove this backup?",
                 "CANCEL": "Cancel",
                 "CONFIRM": "Remove"
             },
-            "ON": "On"
+            "RESET_POPUP": {
+                "TITLE": "Reset Phone",
+                "TEXT": "Are you sure you want to reset your phone? [THIS WILL REMOVE EVERYTHING]",
+                "CANCEL": "Cancel",
+                "CONFIRM": "Reset"
+            }
         },
         "NOTES": {
             "TITLE": "Notes",
@@ -270,6 +276,7 @@
             "MEMBERS": "Members",
             "OTHER": "Other",
             "SENT_A_PHOTO": "Sent a photo",
+            "SENT_AUDIO_MESSAGE": "Sent an audio message",
             "SENT": "Sent",
             "REQUESTED": "Requested",
             "MISSED_CALL": "{number} tried to call you but you didn't answer, press the number to call back",
@@ -550,14 +557,14 @@
             "ADD_LOCATION_POPUP": {
                 "TITLE": "Add Location",
                 "DESCRIPTION": "Enter the name of the location you want to add",
-                "PLACEHOLDER": "Name", 
+                "PLACEHOLDER": "Name",
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             },
             "CHANGE_NAME_POPUP": {
                 "TITLE": "Change Name",
                 "DESCRIPTION": "Enter the new name of the location",
-                "PLACEHOLDER": "Name", 
+                "PLACEHOLDER": "Name",
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             }
@@ -803,7 +810,9 @@
             "NOW": "Now",
             "LOGIN": "Log In",
             "CREATE_ACCOUNT": "Create Account",
-            "PROMOTE": "Promote"
+            "PROMOTE": "Promote",
+            "PIN": "Pin Tweet",
+            "UNPIN": "Unpin Tweet"
         },
         "SERVICES": {
             "ACTIONS": "Actions",
@@ -884,6 +893,8 @@
             "USE_WALLPAPER": "Use as Wallpaper",
             "COPY_NUMBER": "Copy Number",
             "AIRDROP_SENT": "Sent",
+            "AIRDROP_ACCEPTED": "Accepted",
+            "AIRDROP_DECLINED": "Declined",
             "WALLPAPER_POPUP": {
                 "TITLE": "Use as Wallpaper",
                 "TEXT": "Are you sure you want to set this image as your wallpaper?",
@@ -956,7 +967,7 @@
             "CHANGE_MODE": "Press {key} {key2} to change the camera mode"
         },
         "SERVICES": {
-            "NEW_MESSAGE":"New Message"
+            "NEW_MESSAGE": "New Message"
         }
     }
 }
