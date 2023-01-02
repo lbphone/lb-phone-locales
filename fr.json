@@ -931,36 +931,36 @@
         "ENTER_PASSCODE": "Entrer le mot de passe",
         "DELETE": "Supprimer"
   },
-  "BACKEND": {
-    "CALLS": {
-      "NO_CALLER_ID": "No Caller ID",
-      "MISSED_CALL": "Missed call"
-    },
-    "GARAGE": {
-      "VALET": "Valet",
-      "COULDNT_FIND": "Couldn't find vehicle.",
-      "ALREADY_OUT": "The vehicle is already out.",
-      "NO_MONEY": "You don't have enough money.",
-      "ON_WAY": "Your vehicle is on its way.",
-      "MARKED": "Your vehicle has been marked on your GPS."
-    },
-    "INSTAGRAM": {
-      "NOT_ALLOWED_LIVE": "You are not allowed to go live",
-      "STARTED_LIVE": "{username} started a live video"
-    },
-    "TINDER": {
-      "NEW_MATCH": "New match",
-      "MATCHED_WITH": "You matched with {name}"
-    },
-    "CAMERA": {
-      "TAKE_PHOTO": "Press {key} to take a photo",
-      "FLIP_CAMERA": "Press {key} to flip the camera",
-      "TOGGLE_FLASH": "Press {key} to toggle the flash",
-      "TOGGLE_CURSOR": "Press {key} to toggle the cursor and look around",
-      "CHANGE_MODE": "Press {key} {key2} to change the camera mode"
-    },
-    "SERVICES": {
-        "NEW_MESSAGE": "Nouveau message"
+    "BACKEND": {
+        "CALLS": {
+            "NO_CALLER_ID": "Numéro inconnu",
+            "MISSED_CALL": "Appel manqué"
+        },
+        "GARAGE": {
+            "VALET": "Valet",
+            "COULDNT_FIND": "Véhicule introuvable.",
+            "ALREADY_OUT": "Le véhicule est déjà sorti.",
+            "NO_MONEY": "Vous n'avez pas assez d'argent.",
+            "ON_WAY": "Votre véhicule est en route.",
+            "MARKED": "Votre véhicule a été indiquer sur votre GPS."
+        },
+        "INSTAGRAM": {
+            "NOT_ALLOWED_LIVE": "Vous n'êtes pas autorisé à lancer un live",
+            "STARTED_LIVE": "{username} a commencé un live"
+        },
+        "TINDER": {
+            "NEW_MATCH": "Nouveau match",
+            "MATCHED_WITH": "Vous matché avec {name}"
+        },
+        "CAMERA": {
+            "TAKE_PHOTO": "Appuyez sur {key} pour prendre une photo",
+            "FLIP_CAMERA": "Appuyez sur {key} pour retourner l'appareil photo",
+            "TOGGLE_FLASH": "Appuyez sur {key} pour basculer le flash",
+            "TOGGLE_CURSOR": "Appuyez sur {key} pour basculer le curseur",
+            "CHANGE_MODE": "Appuyez sur {key} {key2} pour changer le mode de l'appareil photo"
+        },
+        "SERVICES": {
+            "NEW_MESSAGE": "Nouveau message"
         }
     }
 }
