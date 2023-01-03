@@ -130,13 +130,19 @@
             "SUCCESS": "Success",
             "SUCCESS_TEXT": "Toestel zal in 5 seconden herstarten...",
             "OK": "OK",
+            "ON": "Aan",
             "REMOVE_BACKUP_POPUP": {
                 "TITLE": "Reservekopie verwijderen",
                 "TEXT": "Weet je zeker dat je deze reservekopie wilt verwijderen?",
                 "CANCEL": "Annuleer",
                 "CONFIRM": "Verwijder"
             },
-            "ON": "Aan"
+            "RESET_POPUP": {
+                "TITLE": "Stel telefoon opnieuw in",
+                "TEXT": "Weet je zeker dat je je telefoon opnieuw wilt instellen? [DIT ZAL ALLES VAN JE TELEFOON VERWIJDEREN]",
+                "CANCEL": "Annuleer",
+                "CONFIRM": "Stel opnieuw in"
+            }
         },
         "NOTES": {
             "TITLE": "Notities",
@@ -283,6 +289,7 @@
             "MEMBERS": "Leden",
             "OTHER": "Ander",
             "SENT_A_PHOTO": "Heeft een afbeelding verstuurd",
+            "SENT_AUDIO_MESSAGE": "Heeft een audiobericht verstuurd",
             "SENT": "Verzonden",
             "REQUESTED": "Verzocht",
             "MISSED_CALL": "Gemiste oproep van {number}. Druk op het nummer om terug te bellen",
@@ -868,7 +875,9 @@
 
             "LOGIN": "Inloggen",
             "CREATE_ACCOUNT": "Account aanmaken",
-            "PROMOTE": "Uitlichten"
+            "PROMOTE": "Uitlichten",
+            "PIN": "Tweet vastpinnen"
+            
         },
         "SERVICES": {
             "ACTIONS": "Acties",
@@ -950,7 +959,8 @@
             "COPY_NUMBER": "Nummer kopiëren",
 
             "AIRDROP_SENT": "Verstuurd",
-
+            "AIRDROP_ACCEPTED": "Accepteren",
+            "AIRDROP_DECLINED": "Weigeren",
             "WALLPAPER_POPUP": {
                 "TITLE": "Als achtergrond gebruiken",
                 "TEXT": "Weet je zeker dat je deze afbeelding als achtergrond wilt gebruiken?",
