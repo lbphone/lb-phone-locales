@@ -549,29 +549,29 @@
         "MAPS": {
             "TITLE": "Maps",
             "GO": "Go",
-            "ADD": "Add",
-            "EDIT": "Edit",
-            "DELETE": "Delete",
-            "SET_WAYPOINT": "Set Waypoint",
-            "SHARE": "Share",
+            "ADD": "Ajouter",
+            "EDIT": "Editer",
+            "DELETE": "Supprimer",
+            "SET_WAYPOINT": "Modifier localisation",
+            "SHARE": "Partager",
 
             "ADD_LOCATION_POPUP": {
-                "TITLE": "Add Location",
-                "DESCRIPTION": "Enter the name of the location you want to add",
-                "PLACEHOLDER": "Name",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
+                "TITLE": "Ajouter localisation",
+                "DESCRIPTION": "Entrez le nom de l'emplacement que vous souhaitez ajouter",
+                "PLACEHOLDER": "Nom",
+                "CANCEL": "Annuler",
+                "PROCEED": "Confirmer"
             },
             "CHANGE_NAME_POPUP": {
-                "TITLE": "Change Name",
-                "DESCRIPTION": "Enter the new name of the location",
-                "PLACEHOLDER": "Name",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
+                "TITLE": "Changer de nom",
+                "DESCRIPTION": "Entrez le nouveau nom de l'emplacement",
+                "PLACEHOLDER": "Nom",
+                "CANCEL": "Annuler",
+                "PROCEED": "Confirmer"
             }
         },
         "MUSIC": {
-            "TITLE": "Music",
+            "TITLE": "Musique",
             "LIBRARY": "Bibliothèque",
             "SEARCH": "Rechercher",
             "ADD_QUEUE": "Ajouter à la file d'attente",
