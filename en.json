@@ -428,6 +428,13 @@
             "FUEL": "Fuel",
             "ENGINE": "Engine",
             "BODY": "Body",
+            "VEHICLE": "Vehicle",
+            "STATUS": "Status",
+            "LOCKED": "Locked",
+            "LOCK": "Lock",
+            "UNLOCKED": "Unlocked",
+            "UNLOCK": "Unlock",
+
             "WAYPOINT_POPUP": {
                 "TITLE": "Set Waypoint",
                 "TEXT": "Do you want to set a waypoint to your {model}?",
@@ -438,6 +445,12 @@
                 "TITLE": "Valet",
                 "TEXT": "Do you want to valet your {model} ({plate})?",
                 "TEXT_PAID": "Do you want to valet your {model} ({plate}) for {amount}?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} vehicle",
+                "TEXT": "Do you want to {toggle} your vehicle?",
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             }
@@ -553,6 +566,7 @@
             "EDIT": "Edit",
             "DELETE": "Delete",
             "SET_WAYPOINT": "Set Waypoint",
+            "SHARE": "Share",
 
             "ADD_LOCATION_POPUP": {
                 "TITLE": "Add Location",
@@ -757,7 +771,8 @@
                 "RETWEET": "Retweet",
                 "UNDO_RETWEET": "Undo Retweet",
                 "DESCRIPTION": "Are you sure you want to {action}?",
-                "CANCEL": "Cancel"
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
             },
             "DELETE_POPUP": {
                 "TITLE": "Delete Tweet",
@@ -908,6 +923,9 @@
             "VIDEO": "video",
             "PHOTO": "photo",
             "CONTACT": "contact",
+            "LOCATION": "location",
+            "NOTE": "note",
+            "PLAYLIST": "playlist",
             "DECLINE": "Decline",
             "ACCEPT": "Accept"
         }
@@ -919,7 +937,7 @@
         "CREATE_PASSCODE_TEXT": "A passcode protects your data and is used to unlock your Phone.",
         "SKIP": "Skip this step",
         "FACE_ID_SETUP": "Face ID Setup",
-        "FACE_ID_TEXT": "Set up Face ID to automatically unlock your phone whilst you're face is in frame.",
+        "FACE_ID_TEXT": "Set up Face ID to automatically unlock your phone whilst your face is in frame.",
         "ENABLE_FACE_ID": "Enable Face ID",
         "APPEARANCE": "Appearance",
         "APPEARANCE_TEXT": "Select a light or dark appearance",
