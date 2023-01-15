@@ -422,6 +422,13 @@
             "FUEL": "Drivstoff",
             "ENGINE": "Motor",
             "BODY": "Karosseri",
+            "VEHICLE": "Kjøretøy",
+            "STATUS": "Status",
+            "LOCKED": "Låst",
+            "LOCK": "Lås",
+            "UNLOCKED": "Ulåst",
+            "UNLOCK": "Lås opp",
+
             "WAYPOINT_POPUP": {
                 "TITLE": "Sett Veipunkt",
                 "TEXT": "Vil du sette veipunkt til din {model}?",
@@ -432,6 +439,12 @@
                 "TITLE": "Valet",
                 "TEXT": "Vil du få tilkjørt din {model} ({plate})?",
                 "TEXT_PAID": "Vil du få tilkjørt din {model} ({plate}) for {amount}?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} kjøretøy",
+                "TEXT": "Vil du {toggle} kjøretøyet ditt?",
                 "CANCEL": "Avbryt",
                 "PROCEED": "Fortsett"
             }
@@ -548,6 +561,7 @@
             "EDIT": "Rediger",
             "DELETE": "Slett",
             "SET_WAYPOINT": "Sett Veipunkt",
+            "SHARE": "Del",
 
             "ADD_LOCATION_POPUP": {
                 "TITLE": "Legg til lokasjon",
@@ -752,7 +766,8 @@
                 "RETWEET": "Retweet",
                 "UNDO_RETWEET": "Angre Retweet",
                 "DESCRIPTION": "Er du sikker på at du vil {action}?",
-                "CANCEL": "Avbryt"
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
             },
             "DELETE_POPUP": {
                 "TITLE": "Slett Tweet",
@@ -902,6 +917,9 @@
             "VIDEO": "video",
             "PHOTO": "bilde",
             "CONTACT": "kontakt",
+            "LOCATION": "lokasjon",
+            "NOTE": "notat",
+            "PLAYLIST": "spilleliste",
             "DECLINE": "Avslå",
             "ACCEPT": "Godta"
         }
