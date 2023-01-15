@@ -19,24 +19,24 @@
             "BLUETOOTH": "Bluetooth",
             "GENERAL": "Obecné",
             "ABOUT": "Informace",
-            "NAME": "Jméno",
+            "NAME": "Název",
             "VERSION": "Verze",
-            "MODEL_NAME": "Jméno modelu",
+            "MODEL_NAME": "Název modelu",
             "SERIAL_NUMBER": "Sériové číslo",
             "DEVELOPED_BY": "Vytvořeno",
             "PURCHASE_AT": "Zakoupeno",
-            "SONGS": "Písničky",
+            "SONGS": "Skladby",
             "VIDEOS": "Videa",
-            "PHOTOS": "Fotografie",
+            "PHOTOS": "Fotky",
             "APPLICATIONS": "Aplikace",
             "CAPACITY": "Kapacita",
-            "AVAILABLE": "Dostupný",
+            "AVAILABLE": "K dispozici",
             "SOFTWARE_UPDATE": "Aktualizace softwaru",
             "AUTOMATIC_UPDATES": "Automatické aktualizace",
             "DATE_TIME": "Datum a čas",
-            "24_HOUR_TIME": "24 Hodinový Čas",
+            "24_HOUR_TIME": "24hodinový čas",
             "SET_AUTOMATICALLY": "Nastavit automaticky",
-            "TIME_ZONE": "Časová zóna",
+            "TIME_ZONE": "Časové pásmo",
             "LANGUAGE_REGION": "Jazyk a oblast",
             "LANGUAGE": "Jazyk",
             "TEMPERATURE": "Teplota",
@@ -46,12 +46,12 @@
             "SOUND_HAPTICS": "Zvuky a haptika",
             "SOUND_HAPTICS_PATTERNS": "Zvukové a haptické vzory",
             "RINGTONE": "Vyzváněcí tón",
-            "TEXT_TONE": "Textový tón",
+            "TEXT_TONE": "Zvuk SMS",
             "RINGTONE_VOLUME": "Hlasitost vyzvánění a upozornění",
             "DEFAULT": "Výchozí",
             "PHONE_STORAGE": "Úložiště: LB Phone",
             "STORAGE": "Úložiště",
-            "USED": "Použito",
+            "USED": "Využito",
             "OF": "z",
             "DISPLAY_BRIGHTNESS": "Zobrazení a jas",
             "APPEARANCE": "Vzhled",
@@ -121,13 +121,19 @@
             "SUCCESS": "Povedlo se",
             "SUCCESS_TEXT": "Telefon se za 5 sekund restartuje...",
             "OK": "OK",
+            "ON": "Zapnuto",
             "REMOVE_BACKUP_POPUP": {
                 "TITLE": "Odebrat zálohu",
                 "TEXT": "opravdu chcete odstranit tuto zálohu?",
                 "CANCEL": "Zrušit",
                 "CONFIRM": "Vymazat"
             },
-            "ON": "Použito [Zapnuto]"
+            "RESET_POPUP": {
+                "TITLE": "Resetovat telefon",
+                "TEXT": "Opravdu chcete resetovat telefon? [Vymaže všechny data]",
+                "CANCEL": "Zrušit",
+                "CONFIRM": "Resetovat"
+            }
         },
         "NOTES": {
             "TITLE": "Poznámky",
@@ -143,7 +149,7 @@
         "CLOCK": {
             "WORLDCLOCK": {
                 "TITLE": "Světový čas",
-                "TODAY": "Dnešek",
+                "TODAY": "Dnes",
                 "TOMORROW": "Zítřek",
                 "YESTERDAY": "Včerejšek"
             },
@@ -154,29 +160,29 @@
                 "EDIT": "Upravit",
                 "DONE": "Hotovo",
                 "SAVE": "Uložit",
-                "LABEL": "Jméno",
+                "LABEL": "Popis",
                 "SOUND": "Zvuk",
-                "SNOOZE": "Opakování",
-                "DELETE_TITLE": "Vymazat budík",
+                "SNOOZE": "Opakovat",
+                "DELETE_TITLE": "Smazat budík",
                 "DELETE_TEXT": "Opravdu chcete tento alarm smazat?",
                 "BUTTON_CANCEL": "Zrušit",
                 "BUTTON_DELETE": "Vymazat"
             },
             "STOPWATCH": {
                 "TITLE": "Stopky",
-                "START": "Začít",
-                "STOP": "Pozastavit",
-                "RESET": "Restartotvat",
-                "LAP": "Kolo"
+                "START": "Spustit",
+                "STOP": "Zastavit",
+                "RESET": "Smazat",
+                "LAP": "Mezičas"
             },
             "TIMER": {
                 "TITLE": "Minutka",
                 "START": "Spustit",
                 "STOP": "Zastavit",
                 "CANCEL": "Zrušit",
-                "HOURS": "Hodiny",
+                "HOURS": "hod",
                 "MINUTES": "min",
-                "SECONDS": "sec"
+                "SECONDS": "s"
             },
             "ALERT": {
                 "STOP": "Zastavit"
@@ -270,6 +276,7 @@
             "MEMBERS": "Členové",
             "OTHER": "Ostatní",
             "SENT_A_PHOTO": "Poslat obrázek",
+            "SENT_AUDIO_MESSAGE": "Poslat hlasovou zprávu",
             "SENT": "Odeslat",
             "REQUESTED": "Zažádat",
             "MISSED_CALL": "{number} se vám pokusil dovolat, ale neodpověděli jste, stisknutím čísla zavoláte zpět",
@@ -541,7 +548,26 @@
         },
         "MAPS": {
             "TITLE": "Mapy",
-            "GO": "Jít"
+            "GO": "Mastavit GPS",
+            "ADD": "Přidat",
+            "EDIT": "Editovat",
+            "DELETE": "Vymazat",
+            "SET_WAYPOINT": "Nastavit bod trasy",
+
+            "ADD_LOCATION_POPUP": {
+                "TITLE": "Přidání lokace",
+                "DESCRIPTION": "Napište jméno lokace, kterou chcete přidat",
+                "PLACEHOLDER": "Jméno",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Potvrdit"
+            },
+            "CHANGE_NAME_POPUP": {
+                "TITLE": "Změnit jméno",
+                "DESCRIPTION": "Vložit nové jméno lokace",
+                "PLACEHOLDER": "Jméno",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Potvrdit"
+            }
         },
         "MUSIC": {
             "TITLE": "Hudba",
@@ -691,7 +717,8 @@
             "POSTS": "Příspěvky",
             "MESSAGE": "Zpráva",
             "SENT_A_PHOTO": "poslal fotku",
-            "TO": "Pro"
+            "TO": "Pro",
+            "SEND_A_MESSAGE": "Poslat zprávu..."
         },
         "TWITTER": {
             "TITLE": "Twitter",
@@ -746,6 +773,12 @@
                 "ENABLE": "Povolit",
                 "DISABLE": "Zakázat"
             },
+            "PROMOTE_POPUP": {
+                "TITLE": "Propagovat tweet",
+                "DESCRIPTION": "Chcete propagovat tento tweet za {price} pro {views} zobrazení?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Potvrdit"
+            },
             "YOU": "Vy",
             "FOLLOW": "Sledujte",
             "FOLLOWING": "Sledování",
@@ -776,7 +809,10 @@
             "MESSAGE_PLACEHOLDER": "Zprávy...",
             "NOW": "Nyní",
             "LOGIN": "Přihlášení",
-            "CREATE_ACCOUNT": "Vytvořit účet"
+            "CREATE_ACCOUNT": "Vytvořit účet",
+            "PROMOTE": "Propagovat",
+            "PIN": "Připnout tweet",
+            "UNPIN": "Zrušit připnutí tweetu"
         },
         "SERVICES": {
             "ACTIONS": "Akce",
@@ -857,6 +893,8 @@
             "USE_WALLPAPER": "Použít jako pozadí",
             "COPY_NUMBER": "Kopírovat číslo",
             "AIRDROP_SENT": "Odeslat",
+            "AIRDROP_ACCEPTED": "Přijato",
+            "AIRDROP_DECLINED": "Zrušeno",
             "WALLPAPER_POPUP": {
                 "TITLE": "Použít pozadí",
                 "TEXT": "Opravdu chcete tento obrázek nastavit jako tapetu?",
@@ -927,6 +965,9 @@
             "TOGGLE_FLASH": "Stiskni {key} pro aktivaci blesku",
             "TOGGLE_CURSOR": "Stiskni {key} pro kurzor a rozhlížení se",
             "CHANGE_MODE": "Stiskni {key} {key2} pro změnu módu"
+        },
+        "SERVICES": {
+            "NEW_MESSAGE": "Nová zpráva"
         }
     }
 }
