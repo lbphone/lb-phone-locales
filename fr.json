@@ -121,13 +121,19 @@
             "SUCCESS": "Succès",
             "SUCCESS_TEXT": "Le téléphone va redémarrer dans 5 secondes...",
             "OK": "OK",
+             "ON": "On",
             "REMOVE_BACKUP_POPUP": {
                 "TITLE": "Supprimer la sauvegarde",
                 "TEXT": "Voulez-vous vraiment supprimer cette sauvegarde ??",
                 "CANCEL": "Annuler",
                 "CONFIRM": "Supprimer"
             },
-            "ON": "On"
+            "RESET_POPUP": {
+                "TITLE": "Reset Phone",
+                "TEXT": "Are you sure you want to reset your phone? [THIS WILL REMOVE EVERYTHING]",
+                "CANCEL": "Cancel",
+                "CONFIRM": "Reset"
+            }
         },
         "NOTES": {
             "TITLE": "Note",
@@ -270,6 +276,7 @@
             "MEMBERS": "Membres",
             "OTHER": "Autre",
             "SENT_A_PHOTO": "Envoyé une photo",
+            "SENT_AUDIO_MESSAGE": "Sent an audio message",
             "SENT": "Expédié",
             "REQUESTED": "Demandé",
             "MISSED_CALL": "{number} essayé de vous appeler mais vous n'avez pas répondu, appuyez sur le numéro pour rappeler",
@@ -468,7 +475,6 @@
                 "CANCEL": "Annuler",
                 "PROCEED": "Procéder"
             },
-
             "REMOVE_KEY_POPUP": {
                 "TITLE": "Supprimer le porte-clés",
                 "TEXT": "Voulez-vous vraiment supprimer l'accès de {name} ?",
@@ -542,10 +548,30 @@
         },
         "MAPS": {
             "TITLE": "Maps",
-            "GO": "Go"
+            "GO": "Go",
+            "ADD": "Ajouter",
+            "EDIT": "Editer",
+            "DELETE": "Supprimer",
+            "SET_WAYPOINT": "Modifier localisation",
+            "SHARE": "Partager",
+
+            "ADD_LOCATION_POPUP": {
+                "TITLE": "Ajouter localisation",
+                "DESCRIPTION": "Entrez le nom de l'emplacement que vous souhaitez ajouter",
+                "PLACEHOLDER": "Nom",
+                "CANCEL": "Annuler",
+                "PROCEED": "Confirmer"
+            },
+            "CHANGE_NAME_POPUP": {
+                "TITLE": "Changer de nom",
+                "DESCRIPTION": "Entrez le nouveau nom de l'emplacement",
+                "PLACEHOLDER": "Nom",
+                "CANCEL": "Annuler",
+                "PROCEED": "Confirmer"
+            }
         },
         "MUSIC": {
-            "TITLE": "Music",
+            "TITLE": "Musique",
             "LIBRARY": "Bibliothèque",
             "SEARCH": "Rechercher",
             "ADD_QUEUE": "Ajouter à la file d'attente",
@@ -691,8 +717,9 @@
             "SIGN_OUT": "Se déconnecter",
             "POSTS": "Posts",
             "MESSAGE": "Message",
-            "SENT_A_PHOTO": "a envoyé une photo",
-            "TO": "A"
+            "SENT_A_PHOTO": "sent a photo",
+            "TO": "To",
+            "SEND_A_MESSAGE": "Send a message..."
         },
         "TWITTER": {
             "TITLE": "Twitter",
@@ -729,15 +756,30 @@
             },
             "RETWEET_POPUP": {
                 "RETWEET": "Retweet",
-                "UNDO_RETWEET": "Annuler le Retweet",
-                "DESCRIPTION": "Êtes-vous sûr de vouloir {action}?",
-                "CANCEL": "Annuler"
+                "UNDO_RETWEET": "Annuler le retweet",
+                "DESCRIPTION": "Voulez-vous vraiment {action} ?",
+                "CANCEL": "Annuler",
+                "PROCEED": "Confirmer"
             },
             "DELETE_POPUP": {
-                "TITLE": "Supprimer ce Tweet",
-                "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer ce tweet?",
+                "TITLE": "Supprimer le tweet",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer ce tweet ?",
                 "CANCEL": "Annuler",
-                "PROCEED": "Suivant"
+                "PROCEED": "Confirmer"
+            },
+            "NOTIFICATIONS_POPUP": {
+                "TITLE": "Notifications",
+                "DESCRIPTION": "Voulez-vous vraiment recevoir des notifications {action} sur @{name} ?",
+                "CANCEL": "Annuler",
+                "PROCEED": "Confirmer",
+                "ENABLE": "Permettre",
+                "DISABLE": "Désactiver"
+            },
+            "PROMOTE_POPUP": {
+                "TITLE": "Promouvoir le tweet",
+                "DESCRIPTION": "Voulez-vous promouvoir ce tweet pour {price} pour {views} vues ?",
+                "CANCEL": "Annuler",
+                "PROCEED": "Confirmer"
             },
             "YOU": "Vous",
             "FOLLOW": "Follow",
@@ -768,8 +810,64 @@
             "SEARCH_TWITTER": "Recherchez sur Twitter",
             "MESSAGE_PLACEHOLDER": "Message...",
             "NOW": "Maintenant",
-            "LOGIN": "Se connecter",
-            "CREATE_ACCOUNT": "Create Account"
+            "LOGIN": "Connexion",
+            "CREATE_ACCOUNT": "Créer un compte",
+            "PROMOTE": "Promouvoir",
+            "PIN": "Épingler Tweet",
+            "UNPIN": "Désépingler le Tweet"
+        },
+        "SERVICES": {
+            "ACTIONS": "Actions",
+            "COMPANIES": "Entreprises",
+            "MESSAGES": "Messages",
+
+            "CLOSED": "Fermé",
+            "YOUR_MESSAGES": "Tes messages",
+            "JOB_MESSAGES": "SMS Job",
+
+            "DUTY": "Service",
+            "GO_ON_DUTY": "En service",
+            "GO_OFF_DUTY": "Hors Service",
+            "BALANCE": "Solde",
+            "MANAGE_EMPLOYEES": "Gérer les employés",
+            "HIRE": "Embaucher",
+            "SET_GRADE": "Définir le grade",
+            "UNEMPLOYED": "Vous êtes au chômage",
+
+            "DEPOSIT_POPUP": {
+                "TITLE": "Depot",
+                "DESCRIPTION": "Déposer de l'argent sur le compte de l'entreprise",
+                "AMOUNT": "Montant",
+                "CANCEL": "Annuler",
+                "PROCEED": "Confirmer"
+            },
+            "WITHDRAW_POPUP": {
+                "TITLE": "Retirer",
+                "DESCRIPTION": "Retirer de l'argent du compte de l'entreprise",
+                "AMOUNT": "Montant",
+                "CANCEL": "Annuler",
+                "PROCEED": "Confirmer"
+            },
+            "HIRE_POPUP": {
+                "TITLE": "Embaucher",
+                "DESCRIPTION": "Embaucher un nouvel employé",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Annuler",
+                "PROCEED": "Confirmer"
+            },
+            "FIRE_POPUP": {
+                "TITLE": "Virer",
+                "DESCRIPTION": "Voulez-vous vraiment virer {name} ?",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Annuler",
+                "PROCEED": "Confirmer"
+            },
+            "CALL_POPUP": {
+                "TITLE": "Appel",
+                "DESCRIPTION": "Voulez-vous vraiment appeler {name} ?",
+                "CANCEL": "Annuler",
+                "PROCEED": "Confirmer"
+            }
         }
     },
     "COMPONENTS": {
@@ -793,12 +891,12 @@
             "NOW": "maintenant"
         },
         "SHARE": {
-            "COPY_PHOTO": "Copier une photo",
-            "USE_WALLPAPER": "Utiliser en fond d'écran",
+            "COPY_PHOTO": "Copier la photo",
+            "USE_WALLPAPER": "Utiliser comme fond d'écran",
             "COPY_NUMBER": "Copier numéro",
-
-            "AIRDROP_SENT": "Envoyer",
-
+            "AIRDROP_SENT": "Expédié",
+            "AIRDROP_ACCEPTED": "Accepter",
+            "AIRDROP_DECLINED": "Refuser",
             "WALLPAPER_POPUP": {
                 "TITLE": "Utiliser comme fond d'écran",
                 "TEXT": "Êtes-vous sûr de vouloir définir cette image comme fond d'écran?",
@@ -812,7 +910,10 @@
             "VIDEO": "video",
             "PHOTO": "photo",
             "CONTACT": "contact",
-            "DECLINE": "Décliner",
+            "LOCATION": "location",
+            "NOTE": "note",
+            "PLAYLIST": "playlist",
+            "DECLINE": "Refuser",
             "ACCEPT": "Accepter"
         }
     },
@@ -841,5 +942,37 @@
     "LOCKSCREEN": {
         "ENTER_PASSCODE": "Entrer le mot de passe",
         "DELETE": "Supprimer"
+    },
+    "BACKEND": {
+        "CALLS": {
+            "NO_CALLER_ID": "Identifiant Inconnu",
+            "MISSED_CALL": "Appel manqué"
+        },
+        "GARAGE": {
+            "VALET": "Valet",
+            "COULDNT_FIND": "Véhicule introuvable.",
+            "ALREADY_OUT": "Le véhicule est déjà sorti.",
+            "NO_MONEY": "Vous n'avez pas assez d'argent.",
+            "ON_WAY": "Votre véhicule est en route.",
+            "MARKED": "Votre véhicule a été marqué sur votre GPS."
+        },
+        "INSTAGRAM": {
+            "NOT_ALLOWED_LIVE": "Vous n'êtes pas autorisé à aller en direct",
+            "STARTED_LIVE": "{username} a lancé une vidéo en direct"
+        },
+        "TINDER": {
+            "NEW_MATCH": "Nouveau match",
+            "MATCHED_WITH": "Vous avez matché avec {name}"
+        },
+        "CAMERA": {
+            "TAKE_PHOTO": "Appuyez sur {key} pour prendre une photo",
+            "FLIP_CAMERA": "Appuyez sur {key} pour retourner l'appareil photo",
+            "TOGGLE_FLASH": "Appuyez sur {key} pour basculer le flash",
+            "TOGGLE_CURSOR": "Appuyez sur {touche} pour basculer le curseur et regarder autour de vous",
+            "CHANGE_MODE": "Appuyez sur {key} {key2} pour changer le mode de l'appareil photo"
+        },
+        "SERVICES": {
+            "NEW_MESSAGE": "Nouveau message"
+        }
     }
 }
