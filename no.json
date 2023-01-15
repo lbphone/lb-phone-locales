@@ -119,13 +119,19 @@
             "SUCCESS": "Vellykket",
             "SUCCESS_TEXT": "Telefonen starter på nytt om 5 sekunder...",
             "OK": "OK",
+            "ON": "På",
             "REMOVE_BACKUP_POPUP": {
                 "TITLE": "Fjern Sikkerhetskopiering",
                 "TEXT": "Er du sikker på at du fjerne Sikkerhetskopieringen?",
                 "CANCEL": "Avbryt",
                 "CONFIRM": "Slett"
             },
-            "ON": "På"
+            "RESET_POPUP": {
+                "TITLE": "Tilbakestill Telefonen",
+                "TEXT": "Er du sikker på at du vil tilbakestille telefonen? [DETTE FJERNER ALT]",
+                "CANCEL": "Avbryt",
+                "CONFIRM": "Tilbakestill"
+            }
         },
         "NOTES": {
             "TITLE": "Notater",
@@ -267,6 +273,7 @@
             "MEMBERS": "Medlemmer",
             "OTHER": "Annet",
             "SENT_A_PHOTO": "Sendte et bilde",
+            "SENT_AUDIO_MESSAGE": "Sendte en lydmelding",
             "SENT": "Sendt",
             "REQUESTED": "Forespurt",
             "MISSED_CALL": "{number} prøvde å ringe deg, men du svarte ikke. Trykk på numeret for å ringe opp igjen",
@@ -318,7 +325,7 @@
         "PHONE": {
             "TITLE": "Telefon",
             "DONE": "Ferdig",
-            "EDIT": "Andre",
+            "EDIT": "Endre",
             "CANCEL": "Avbryt",
             "CALL": {
                 "CALL_TITLE": "Ring {name}",
@@ -536,7 +543,26 @@
         },
         "MAPS": {
             "TITLE": "Maps",
-            "GO": "Sett GPS"
+            "GO": "Sett GPS",
+            "ADD": "Legg til",
+            "EDIT": "Rediger",
+            "DELETE": "Slett",
+            "SET_WAYPOINT": "Sett Veipunkt",
+
+            "ADD_LOCATION_POPUP": {
+                "TITLE": "Legg til lokasjon",
+                "DESCRIPTION": "Skriv inn navnet på stedet du vil legge til",
+                "PLACEHOLDER": "Navn", 
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "CHANGE_NAME_POPUP": {
+                "TITLE": "Endre Navn",
+                "DESCRIPTION": "Skriv inn det nye navnet på stedet",
+                "PLACEHOLDER": "Navn", 
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            }
         },
         "MUSIC": {
             "TITLE": "Musikk",
@@ -686,7 +712,8 @@
             "POSTS": "Innlegg",
             "MESSAGE": "Melding",
             "SENT_A_PHOTO": "sendte et bilde",
-            "TO": "Til"
+            "TO": "Til",
+            "SEND_A_MESSAGE": "Send en melding..."
         },
         "TWITTER": {
             "TITLE": "Twitter",
@@ -728,7 +755,7 @@
                 "CANCEL": "Avbryt"
             },
             "DELETE_POPUP": {
-                "TITLE": "Delete Tweet",
+                "TITLE": "Slett Tweet",
                 "DESCRIPTION": "Er du sikker på at du vil slette denne tweeten?",
                 "CANCEL": "Avbryt",
                 "PROCEED": "Fortsett"
@@ -740,6 +767,12 @@
                 "PROCEED": "Fortsett",
                 "ENABLE": "Aktivere",
                 "DISABLE": "Deaktivere"
+            },
+            "PROMOTE_POPUP": {
+                "TITLE": "Promoter Tweet",
+                "DESCRIPTION": "Vil du promotere denne tweeten for {price} for {views} visninger?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
             },
             "YOU": "Du",
             "FOLLOW": "Følg",
@@ -771,7 +804,10 @@
             "MESSAGE_PLACEHOLDER": "Melding...",
             "NOW": "Nå",
             "LOGIN": "Logg Inn",
-            "CREATE_ACCOUNT": "Opprett konto"
+            "CREATE_ACCOUNT": "Opprett konto",
+            "PROMOTE": "Promoter",
+            "PIN": "Pin Tweet",
+            "UNPIN": "Løsne Tweet"
         },
         "SERVICES": {
             "ACTIONS": "Handlinger",
@@ -851,6 +887,8 @@
             "USE_WALLPAPER": "Bruk som Bakgrunn",
             "COPY_NUMBER": "Kopier Nummer",
             "AIRDROP_SENT": "Sendt",
+            "AIRDROP_ACCEPTED": "Akseptert",
+            "AIRDROP_DECLINED": "Avslått",
             "WALLPAPER_POPUP": {
                 "TITLE": "Bruk som Bakgrunn",
                 "TEXT": "Er du sikker på at du vil bruke dette bildet som bakgrunn?",
@@ -921,6 +959,9 @@
             "TOGGLE_FLASH": "Trykk {key} for å slå på/av blitsen",
             "TOGGLE_CURSOR": "Trykk {key} for å toggle med markøren og se deg rundt",
             "CHANGE_MODE": "Trykk {key} {key2} for å endre kameramodus"
+        },
+        "SERVICES": {
+            "NEW_MESSAGE": "Ny Melding"
         }
     }
 }
