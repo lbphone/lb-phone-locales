@@ -561,7 +561,7 @@
         },
         "MAPS": {
             "TITLE": "Mapy",
-            "GO": "Mastavit GPS",
+            "GO": "Nastavit GPS",
             "ADD": "Přidat",
             "EDIT": "Editovat",
             "DELETE": "Vymazat",
