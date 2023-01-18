@@ -428,6 +428,13 @@
             "FUEL": "Benzín",
             "ENGINE": "Motor",
             "BODY": "Lak",
+            "VEHICLE": "Vozidlo",
+            "STATUS": "Status",
+            "LOCKED": "Zamčeno",
+            "LOCK": "Zamknout",
+            "UNLOCKED": "Odemčeno",
+            "UNLOCK": "Odemknout",
+
             "WAYPOINT_POPUP": {
                 "TITLE": "Nastavit bod na cestě",
                 "TEXT": "Chcete nastavit průjezdní bod k vašemu {model}?",
@@ -438,6 +445,12 @@
                 "TITLE": "Valet",
                 "TEXT": "Chcete si udělat komorníka {model} ({plate})?",
                 "TEXT_PAID": "Chcete si udělat komorníka {model} ({plate}) za {amount}?",
+                "CANCEL": "Zrušit",
+                "PROCEED": "Pokračovat"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} vozidlo",
+                "TEXT": "Chcete {toggle} tvé vozidlo?",
                 "CANCEL": "Zrušit",
                 "PROCEED": "Pokračovat"
             }
@@ -553,6 +566,7 @@
             "EDIT": "Editovat",
             "DELETE": "Vymazat",
             "SET_WAYPOINT": "Nastavit bod trasy",
+            "SHARE": "Sdílet",
 
             "ADD_LOCATION_POPUP": {
                 "TITLE": "Přidání lokace",
@@ -757,7 +771,8 @@
                 "RETWEET": "Retweet",
                 "UNDO_RETWEET": "Zrušit Retweet",
                 "DESCRIPTION": "Jste si jisti, že chcete {action}?",
-                "CANCEL": "Zrušit"
+                "CANCEL": "Zrušit",
+                "PROCEED": "Potvrdit"
             },
             "DELETE_POPUP": {
                 "TITLE": "Smazat Tweet",
@@ -906,8 +921,11 @@
             "TITLE": "Airdrop",
             "TEXT": "{sender} vám sdílí {type}",
             "VIDEO": "video",
-            "PHOTO": "Fotka",
-            "CONTACT": "Kontakt",
+            "PHOTO": "fotka",
+            "CONTACT": "kontakt",
+            "LOCATION": "lokace",
+            "NOTE": "poznámka",
+            "PLAYLIST": "playlist",
             "DECLINE": "Odmítnout",
             "ACCEPT": "Příjmout"
         }
