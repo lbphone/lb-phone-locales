@@ -463,7 +463,7 @@
             "ACTIONS": "Akce",
             "FRONT_DOOR": "Vchodové dveře",
             "LOCATION": "Lokace",
-            "SET_WAYPOINT": "Nastavit GPS",
+            "SET_WAYPOINT": "Navigovat",
             "UNLOCK": "Odemknout",
             "UNLOCKED": "Odemčeno",
             "LOCK": "Zamknout",
@@ -471,7 +471,7 @@
             "GIVE_KEY": "Dát klíče",
             "MANAGE": "Možnosti",
             "WAYPOINT_POPUP": {
-                "TITLE": "Nastavit GPS",
+                "TITLE": "Navigovat",
                 "TEXT": "Chcete nastavit GPS na {home}?",
                 "CANCEL": "Zrušit",
                 "PROCEED": "Pokračovat"
