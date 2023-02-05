@@ -1,3 +1,5 @@
+#Adding a finnish translation
+
 # lb-phone-locales
 Offical locale files for https://lbphone.com
 
