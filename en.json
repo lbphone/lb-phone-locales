@@ -410,6 +410,7 @@
             "NO_REFUNDS": "Payments are non refundable, double check the number.",
             "NEW_BALANCE": "New Balance",
             "LATEST_TRANSACTIONS": "Latest Transactions",
+            "LATEST_BILLS": "Latest Bills",
             "NOW": "Now",
             "AGO": "ago",
             "NUMBER_DOES_NOT_EXIST": "Number does not exist",
@@ -732,7 +733,9 @@
             "MESSAGE": "Message",
             "SENT_A_PHOTO": "sent a photo",
             "TO": "To",
-            "SEND_A_MESSAGE": "Send a message..."
+            "SEND_A_MESSAGE": "Send a message...",
+            "STORY_VIEWERS": "Viewers",
+            "SEEN_BY": "Seen by {count}"
         },
         "TWITTER": {
             "TITLE": "Twitter",
@@ -881,6 +884,26 @@
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             }
+        },
+        "CRYPTO": {
+            "TITLE": "Crypto",
+            "BALANCE": "Estimated Balance",
+            "BUY": "Buy",
+            "SELL": "Sell",
+            "BUY_POPUP": {
+                "TITLE": "Buy {coin}",
+                "DESCRIPTION": "Enter the amount of {coin} (in $) you want to buy",
+                "PLACEHOLDER": "$1000",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+            "SELL_POPUP": {
+                "TITLE": "SELL {coin}",
+                "DESCRIPTION": "Enter the amount of {coin} (in $) you want to sell",
+                "PLACEHOLDER": "$1000",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            }
         }
     },
     "COMPONENTS": {
@@ -928,6 +951,11 @@
             "PLAYLIST": "playlist",
             "DECLINE": "Decline",
             "ACCEPT": "Accept"
+        },
+        "DYNAMICISLAND": {
+            "SILENT": "Silent",
+            "RING": "Ring",
+            "TIMER": "Timer"
         }
     },
     "SETUP": {
@@ -971,6 +999,7 @@
         },
         "INSTAGRAM": {
             "NOT_ALLOWED_LIVE": "You are not allowed to go live",
+            "NOT_ALLOWED_STORY": "You are not allowed to post stories",
             "STARTED_LIVE": "{username} started a live video"
         },
         "TINDER": {
