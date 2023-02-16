@@ -406,6 +406,7 @@
             "NO_REFUNDS": "Betalinger kan ikke refunderes, dobbeltsjekk nummeret.",
             "NEW_BALANCE": "Ny Saldo",
             "LATEST_TRANSACTIONS": "Siste Transaksjoner",
+            "LATEST_BILLS": "Siste Regninger",
             "NOW": "Nå",
             "AGO": "siden"
         },
@@ -727,7 +728,9 @@
             "MESSAGE": "Melding",
             "SENT_A_PHOTO": "sendte et bilde",
             "TO": "Til",
-            "SEND_A_MESSAGE": "Send en melding..."
+            "SEND_A_MESSAGE": "Send en melding...",
+            "STORY_VIEWERS": "Seere",
+            "SEEN_BY": "Sett av {count}"
         },
         "TWITTER": {
             "TITLE": "Twitter",
@@ -876,6 +879,26 @@
                 "CANCEL": "Avbryt",
                 "PROCEED": "Fortsett"
             }
+        },
+        "CRYPTO": {
+            "TITLE": "Krypto",
+            "BALANCE": "Estimert Saldo",
+            "BUY": "Kjøp",
+            "SELL": "Selg",
+            "BUY_POPUP": {
+                "TITLE": "Kjøp {coin}",
+                "DESCRIPTION": "Skriv inn beløpet på {coin} (i kr) du vil kjøpe",
+                "PLACEHOLDER": "1000 kr",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "SELL_POPUP": {
+                "TITLE": "Selg {coin}",
+                "DESCRIPTION": "Skriv inn beløpet på {coin} (i kr) du vil selge",
+                "PLACEHOLDER": "1000 kr",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            }
         }
     },
     "COMPONENTS": {
@@ -922,6 +945,11 @@
             "PLAYLIST": "spilleliste",
             "DECLINE": "Avslå",
             "ACCEPT": "Godta"
+        },
+        "DYNAMICISLAND": {
+            "SILENT": "Stille",
+            "RING": "Ring",
+            "TIMER": "Timer"
         }
     },
     "SETUP": {
@@ -965,6 +993,7 @@
         },
         "INSTAGRAM": {
             "NOT_ALLOWED_LIVE": "Du har ikke lov til å gå live",
+            "NOT_ALLOWED_STORY": "Du har ikke lov til å legge ut historier",
             "STARTED_LIVE": "{username} startet en direktesending"
         },
         "TINDER": {
