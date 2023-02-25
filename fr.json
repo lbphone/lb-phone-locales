@@ -410,6 +410,7 @@
             "NO_REFUNDS": "Les paiements ne sont pas remboursables, vérifiez le numéro.",
             "NEW_BALANCE": "Nouveau solde",
             "LATEST_TRANSACTIONS": "Dernières transactions",
+            "LATEST_BILLS": "Dernières factures",
             "NOW": "À présent",
             "AGO": "depuis",
             "NUMBER_DOES_NOT_EXIST": "Le numéro n'existe pas",
@@ -732,7 +733,9 @@
             "MESSAGE": "Message",
             "SENT_A_PHOTO": "a envoyé une photo",
             "TO": "A",
-            "SEND_A_MESSAGE": "Envoyer un message..."
+            "SEND_A_MESSAGE": "Envoyer un message...",
+            "STORY_VIEWERS": "Vues",
+            "SEEN_BY": "Vu par {count}"
         },
         "TWITTER": {
             "TITLE": "Twitter",
@@ -883,6 +886,26 @@
             }
         }
     },
+    "CRYPTO": {
+        "TITLE": "Crypto",
+        "BALANCE": "Solde estimé",
+        "BUY": "Acheter",
+        "SELL": "Vendre",
+        "BUY_POPUP": {
+            "TITLE": "Acheter {coin}",
+            "DESCRIPTION": "Entrez la quantité de {coin} (en $) que vous voulez acheter",
+            "PLACEHOLDER": "$1000",
+            "CANCEL": "Annuler",
+            "PROCEED": "Confirmer"
+        },
+        "SELL_POPUP": {
+            "TITLE": "Vendre {coin}",
+            "DESCRIPTION": "Entrez la quantité de {coin} (en $) que vous voulez vendre",
+            "PLACEHOLDER": "$1000",
+            "CANCEL": "Annuler",
+            "PROCEED": "Confirmer"
+        }
+    },
     "COMPONENTS": {
         "CONTEXT_MENU": {
             "CANCEL": "Annuler",
@@ -928,6 +951,11 @@
             "PLAYLIST": "playlist",
             "DECLINE": "Refuser",
             "ACCEPT": "Accepter"
+        },
+        "DYNAMICISLAND": {
+            "SILENT": "Silencieux",
+            "RING": "Sonner",
+            "TIMER": "Minuterie"
         }
     },
     "SETUP": {
@@ -971,6 +999,7 @@
         },
         "INSTAGRAM": {
             "NOT_ALLOWED_LIVE": "Vous n'êtes pas autorisé à aller en direct",
+            "NOT_ALLOWED_STORY": "Vous n'êtes pas autorisé à publier une story",
             "STARTED_LIVE": "{username} a lancé une vidéo en direct"
         },
         "TINDER": {
