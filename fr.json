@@ -1010,7 +1010,7 @@
             "TAKE_PHOTO": "Appuyez sur {key} pour prendre une photo",
             "FLIP_CAMERA": "Appuyez sur {key} pour retourner l'appareil photo",
             "TOGGLE_FLASH": "Appuyez sur {key} pour basculer le flash",
-            "TOGGLE_CURSOR": "Appuyez sur {touche} pour basculer le curseur et regarder autour de vous",
+            "TOGGLE_CURSOR": "Appuyez sur {key} pour basculer le curseur et regarder autour de vous",
             "CHANGE_MODE": "Appuyez sur {key} {key2} pour changer le mode de l'appareil photo"
         },
         "SERVICES": {
