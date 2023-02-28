@@ -169,7 +169,7 @@
             },
             "TIMER": {
                 "TITLE": "Zamanlayıcı",
-                "START": "Bşlat",
+                "START": "Başlat",
                 "STOP": "Durdur",
                 "CANCEL": "İptal",
                 "HOURS": "saat",
@@ -400,6 +400,7 @@
             "NO_REFUNDS": "Ödemelerin iadesi yoktur, miktarı iki kere kontrol ediniz.",
             "NEW_BALANCE": "Yeni Bakiye",
             "LATEST_TRANSACTIONS": "Son İşlemler",
+            "LATEST_BILLS": "Son Faturalar",
             "NOW": "Şimdi",
             "AGO": "önce"
         },
@@ -485,6 +486,14 @@
                 "TEXT": "Bu gönderiyi kaldırmak istediğine emin misin?",
                 "CANCEL": "İptal",
                 "PROCEED": "KALDIR"
+            },
+            "ERROR_POPUP": {
+                "TITLE": "Hata",
+                "NO_TITLE": "Bir Başlık Girmelisin!",
+                "NO_DESCRIPTION": "Bir Açıklama Girmelisin!",
+                "NO_PRICE": "Bir Fiyat Girmelisin!",
+                "NO_ATTACHMENTS": "Bir Fotoğraf Eklemelisin!",
+                "OK": "ONAYLA"
             }
         },
         "SERVICES": {
@@ -736,7 +745,10 @@
             "POSTS": "Gönderiler",
             "MESSAGE": "Mesaj",
             "SENT_A_PHOTO": "bir fotoğraf gönderdi.",
-            "TO": "To"
+            "TO": "To",
+            "SEND_A_MESSAGE": "Bir Mesaj Gönder...",
+            "STORY_VIEWERS": "Görüntüleyenler",
+            "SEEN_BY": "{count} Kişi Gördü"
         },
         "TWITTER": {
             "TITLE": "Twitter",
@@ -841,6 +853,48 @@
                 "TEXT": "Bu gönderiyi silmek istediğine emin misin?",
                 "CANCEL": "İptal",
                 "PROCEED": "Sil"
+            },
+            "ERROR_POPUP": {
+                "TITLE": "Hata",
+                "NO_TITLE": "Bir Başlık Girmelisin!",
+                "NO_DESCRIPTION": "Bir Açıklama Girmelisin!",
+                "NO_PRICE": "Bir Fiyat Girmelisin!",
+                "NO_ATTACHMENTS": "Bir Fotoğraf Eklemelisin!",
+                "OK": "ONAYLA"
+            }
+        },
+        "CRYPTO": {
+            "TITLE": "Massive Crypto",
+            "BALANCE": "Tahmini Bakiye",
+            "BUY": "Al",
+            "SELL": "Sat",
+            "SELL_ALL": "Hepsini Sat",
+            "NO_MONEY": "Yeterince paran yok.",
+            "NO_COINS": "Hesabında bir coin yok.",
+            "NOT_ENOUGH_COINS": "Yeterince coin yok.",
+            "ATLEAST_ONE_COIN": "En az bir coin {action} yapmalısın.",
+            "INVALID_COIN": "Geçersiz coin.",
+            "ERROR": "Hata",
+            "CLOSE": "Kapat",
+            "BUY_POPUP": {
+                "TITLE": "{coin} Satın Al",
+                "DESCRIPTION": "{coin} Miktarı ($ Cinsinden) giriniz.",
+                "PLACEHOLDER": "$1000", 
+                "CANCEL": "İptal",
+                "PROCEED": "Satın Al"
+            },
+            "SELL_POPUP": {
+                "TITLE": "{coin} Sat",
+                "DESCRIPTION": "{coin} Miktarı ($ Cinsinden) giriniz.",
+                "PLACEHOLDER": "$1000",
+                "CANCEL": "İptal",
+                "PROCEED": "Sat"
+            },
+            "SELL_ALL_POPUP": {
+                "TITLE": "Tümünü Sat: {coin}",
+                "DESCRIPTION": "Tüm {coin} leri/ları ${amount} miktarına satmak istediğine emin misin?",
+                "CANCEL": "İptal",
+                "PROCEED": "Sat"
             }
         }
     },
@@ -927,8 +981,14 @@
             "ON_WAY": "Aracınız yola çıktı.",
             "MARKED": "Aracınız GPS üzerinde işaretlenmiştir."
         },
+        "DYNAMICISLAND": {
+            "SILENT": "Sessiz",
+            "RING": "Ses Açık",
+            "TIMER": "Zamanlayıcı"
+        },
         "INSTAGRAM": {
             "NOT_ALLOWED_LIVE": "Canlı yayın yapmanıza izin verilmiyor",
+            "NOT_ALLOWED_STORY": "Hikaye paylaşmanıza izin verilmiyor",
             "STARTED_LIVE": "{username} canlı yayın başlattı"
         },
         "TINDER": {
