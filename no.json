@@ -501,6 +501,14 @@
             "CONTACT": "Kontakt",
             "DELETE": "Slett",
             "REMOVE": "Fjern",
+            "ERROR_POPUP": {
+                "TITLE": "Error",
+                "NO_TITLE": "Du må skrive inn en tittel",
+                "NO_DESCRIPTION": "Du må skrive inn en beskrivelse",
+                "NO_PRICE": "Du må skrive inn en pris",
+                "NO_ATTACHMENTS": "Du må legge til minst et bilde",
+                "OK": "OK"
+            },
             "DELETE_POPUP": {
                 "TITLE": "Slett Annonse",
                 "TEXT": "Er du sikker på at du vil slette annonsen?",
@@ -518,6 +526,12 @@
             "PRICE": "Pris",
             "POST": "Legg ut",
             "CALL": "Ring",
+            "ERROR_POPUP": {
+                "TITLE": "Error",
+                "NO_TITLE": "Du må skrive inn en tittel",
+                "NO_DESCRIPTION": "Du må skrive inn en beskrivelse",
+                "OK": "OK"
+            },
             "DELETE_POPUP": {
                 "TITLE": "Slett Innlegg",
                 "TEXT": "Er du sikker på at du vil slette innlegget?",
@@ -885,6 +899,14 @@
             "BALANCE": "Estimert Saldo",
             "BUY": "Kjøp",
             "SELL": "Selg",
+            "SELL_ALL": "Selg alt",
+            "NO_MONEY": "Du har ikke nok penger",
+            "NO_COINS": "Du har ikke noe av denne coinen",
+            "NOT_ENOUGH_COINS": "Du har ikke nok coins",
+            "ATLEAST_ONE_COIN": "Du må {action} minst en coin",
+            "INVALID_COIN": "Ugyldig coin",
+            "ERROR": "Error",
+            "CLOSE": "Lukk",
             "BUY_POPUP": {
                 "TITLE": "Kjøp {coin}",
                 "DESCRIPTION": "Skriv inn beløpet på {coin} (i kr) du vil kjøpe",
@@ -896,6 +918,12 @@
                 "TITLE": "Selg {coin}",
                 "DESCRIPTION": "Skriv inn beløpet på {coin} (i kr) du vil selge",
                 "PLACEHOLDER": "1000 kr",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "SELL_ALL_POPUP": {
+                "TITLE": "Selg alt av {coin}",
+                "DESCRIPTION": "Er du sikker på at du vil selge alle dine {coin} for {amount} kr?",
                 "CANCEL": "Avbryt",
                 "PROCEED": "Fortsett"
             }
