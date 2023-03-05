@@ -506,6 +506,14 @@
             "POST": "Post",
             "CONTACT": "Contact",
             "REMOVE": "Remove",
+            "ERROR_POPUP": {
+                "TITLE": "Error",
+                "NO_TITLE": "You need to enter a title",
+                "NO_DESCRIPTION": "You need to enter a description",
+                "NO_PRICE": "You need to enter a price",
+                "NO_ATTACHMENTS": "You need to attach at least one image",
+                "OK": "OK"
+            },
             "DELETE_POPUP": {
                 "TITLE": "Delete Listing",
                 "TEXT": "Are you sure you want to delete this listing?",
@@ -523,6 +531,12 @@
             "PRICE": "Price",
             "POST": "Post",
             "CALL": "Call",
+            "ERROR_POPUP": {
+                "TITLE": "Error",
+                "NO_TITLE": "You need to enter a title",
+                "NO_DESCRIPTION": "You need to enter a description",
+                "OK": "OK"
+            },
             "DELETE_POPUP": {
                 "TITLE": "Delete Post",
                 "TEXT": "Are you sure you want to delete this post?",
@@ -890,6 +904,14 @@
             "BALANCE": "Estimated Balance",
             "BUY": "Buy",
             "SELL": "Sell",
+            "SELL_ALL": "Sell All",
+            "NO_MONEY": "You don't have enough money",
+            "NO_COINS": "You don't have any of this coin",
+            "NOT_ENOUGH_COINS": "You don't have enough coins",
+            "ATLEAST_ONE_COIN": "You must {action} at least one coin",
+            "INVALID_COIN": "Invalid coin",
+            "ERROR": "Error",
+            "CLOSE": "Close",
             "BUY_POPUP": {
                 "TITLE": "Buy {coin}",
                 "DESCRIPTION": "Enter the amount of {coin} (in $) you want to buy",
@@ -898,9 +920,15 @@
                 "PROCEED": "Proceed"
             },
             "SELL_POPUP": {
-                "TITLE": "SELL {coin}",
+                "TITLE": "Sell {coin}",
                 "DESCRIPTION": "Enter the amount of {coin} (in $) you want to sell",
                 "PLACEHOLDER": "$1000",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+            "SELL_ALL_POPUP": {
+                "TITLE": "Sell all {coin}",
+                "DESCRIPTION": "Are you sure you want to sell all your {coin} for ${amount}?",
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             }
