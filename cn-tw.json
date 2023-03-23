@@ -1,0 +1,1045 @@
+{
+    "LABEL": "中文",
+    "SEARCH": "搜索",
+    "CANCEL": "取消",
+    "NOW": "now",
+    "D": "d",
+    "H": "h",
+    "M": "m",
+    "S": "s",
+
+    "APPS": {
+        "SETTINGS": {
+            "TITLE": "設置",
+            "BACK": "返回",
+            "DONE": "完成",
+            "EDIT": "編輯",
+            "AIRPLANE_MODE": "飛行模式",
+            "STREAMER_MODE": "直播攝像模式",
+            "BLUETOOTH": "藍牙",
+            "GENERAL": "通用",
+            "ABOUT": "關於本機",
+            "NAME": "名稱",
+            "VERSION": "軟件版本",
+            "MODEL_NAME": "型號名稱",
+            "SERIAL_NUMBER": "序列號",
+            "DEVELOPED_BY": "製造商",
+            "PURCHASE_AT": "購買方式",
+            "SONGS": "歌曲",
+            "VIDEOS": "視頻",
+            "PHOTOS": "照片",
+            "APPLICATIONS": "應用程序",
+            "CAPACITY": "總容量",
+            "AVAILABLE": "可用容量",
+            "SOFTWARE_UPDATE": "軟件更新",
+            "AUTOMATIC_UPDATES": "自動更新",
+            "DATE_TIME": "時間與日期",
+            "24_HOUR_TIME": "24小時製",
+            "SET_AUTOMATICALLY": "自動設置",
+            "TIME_ZONE": "時區",
+            "LANGUAGE_REGION": "語言與地區",
+            "LANGUAGE": "iPhone語言",
+            "TEMPERATURE": "溫度單位",
+            "CELCIUS": "°C",
+            "FAHRENHEIT": "°F",
+            "BATTERY": "電池",
+            "SOUND_HAPTICS": "聲音與觸感",
+            "SOUND_HAPTICS_PATTERNS": "鈴聲和振動模式",
+            "RINGTONE": "電話鈴聲",
+            "TEXT_TONE": "短信鈴聲",
+            "RINGTONE_VOLUME": "鈴聲和提醒",
+            "DEFAULT": "默認",
+            "PHONE_STORAGE": "手機存儲",
+            "STORAGE": "存儲",
+            "USED": "已使用",
+            "OF": "of",
+            "DISPLAY_BRIGHTNESS": "顯示與亮度",
+            "APPEARANCE": "外觀",
+            "AUTOMATIC": "自動",
+            "BRIGHTNESS": "亮度",
+            "PHONE_SCALE": "手機UI大小",
+            "WALLPAPER": "墻紙",
+            "WALLPAPERS": "墻紙庫",
+            "CHOOSE_NEW_WALLPAPER": "選取新墻紙",
+            "NOTIFICATIONS": "通知",
+            "ALLOW_NOTIFICATIONS": "允許通知",
+            "SOUNDS": "聲音",
+            "PHONE": "電話",
+            "BLOCKED_CONTACTS": "已阻止的聯系人",
+            "MY_NUMBER": "本機號碼",
+           "SHOW_CALLER_ID": "在被叫方顯示本機號碼",
+            "UNBLOCK_POPUP": {
+                "TITLE": "取消阻止",
+                "TEXT": "你確定要取消阻止此來電號碼嗎？",
+                "CANCEL": "取消",
+                "CONFIRM": "取消阻止"
+            },
+            "FACE_ID_PASSWORD": "面容ID與密碼",
+            "ENTER_PASSCODE": "輸入密碼",
+            "PASSCODE": "密碼",
+            "FACE_ID": "面容ID",
+            "RESET_FACE_ID": "重設面容ID",
+            "ENABLE_FACE_ID": "啟用面容ID",
+            "PIN_CODE": "密碼",
+            "DISABLE_FACE_ID_POPUP": {
+                "TITLE": "關閉面容ID",
+                "TEXT": "你確定要關閉面容ID嗎?",
+                "CANCEL": "取消",
+                "CONFIRM": "關閉"
+            },
+            "ENABLE_FACE_ID_POPUP": {
+                "TITLE": "啟用面容ID",
+                "TEXT": "你確定要啟用面容ID嗎?",
+                "CANCEL": "取消",
+                "CONFIRM": "啟用"
+            },
+            "DISABLE_PIN_POPUP": {
+                "TITLE": "關閉密碼",
+                "TEXT": "你確定要關閉密碼嗎?(這樣也會關閉面容ID)",
+                "CANCEL": "取消",
+                "CONFIRM": "關閉"
+            },
+            "TURN_PASSCODE_OFF": "關閉密碼",
+            "TURN_PASSCODE_ON": "打開密碼",
+            "CHANGE_PASSCODE": "更改密碼",
+            "CLOUD_BACKUP": "iCloud",
+            "YOUR_PROFILE": "你的頭像",
+            "CREATE_BACKUP": "創建備份",
+            "SAVE_BACKUP_POPUP": {
+                "TITLE": "保存備份",
+                "TEXT": "你確定要保存此備份嗎？（這將會保存你現有的聯系人、照片和設置）",
+                "CANCEL": "取消",
+                "CONFIRM": "保存"
+            },
+            "BACKUPS": "Backups",
+            "APPLY_BACKUP_POPUP": {
+                "TITLE": "應用備份",
+                "TEXT": "你確定要應用此備份嗎？（這將會覆蓋你現有的聯系人、照片和設置）",
+                "CANCEL": "取消",
+                "CONFIRM": "應用"
+            },
+            "SUCCESS": "成功",
+            "SUCCESS_TEXT": "iPhone將會在五秒內重啟",
+            "OK": "OK",
+            "ON": "On",
+            "REMOVE_BACKUP_POPUP": {
+                "TITLE": "刪除備份",
+                "TEXT": "你確定要刪除此備份嗎？",
+                "CANCEL": "取消",
+                "CONFIRM": "刪除"
+            },
+            "RESET_POPUP": {
+                "TITLE": "還原iphone",
+                "TEXT": "你確定要還原你的iPhone嗎?(這將會刪除所有東西)",
+                "CANCEL": "取消",
+                "CONFIRM": "還原"
+            }
+        },
+        "NOTES": {
+            "TITLE": "備忘錄",
+            "SEARCH_PLACEHOLDER": "搜索",
+            "FOOTER": "{amount} 個備忘錄",
+            "NEW_NOTE": "新備忘錄",
+            "LAST_EDITED": "最後編輯: {date}",
+            "DELETE_TITLE": "刪除 {title}",
+            "DELETE_TEXT": "你確定要刪除 '{title}' 嗎?",
+            "BUTTON_CANCEL": "取消",
+            "BUTTON_DELETE": "刪除"
+        },
+        "CLOCK": {
+            "WORLDCLOCK": {
+                "TITLE": "時鐘",
+                "TODAY": "今天",
+                "TOMORROW": "明天",
+                "YESTERDAY": "昨天"
+            },
+            "ALARM": {
+                "TITLE": "鬧鐘",
+                "ADD": "添加鬧鐘",
+                "CANCEL": "取消",
+                "EDIT": "編輯",
+                "DONE": "完成",
+                "SAVE": "保存",
+                "LABEL": "標簽",
+                "SOUND": "鈴聲",
+                "SNOOZE": "小睡一會",
+                "DELETE_TITLE": "刪除鬧鐘",
+                "DELETE_TEXT": "你確定要刪除此鬧鐘嗎？",
+                "BUTTON_CANCEL": "取消",
+                "BUTTON_DELETE": "刪除"
+            },
+            "STOPWATCH": {
+                "TITLE": "秒表",
+                "START": "啟動",
+                "STOP": "停止",
+                "RESET": "復位",
+                "LAP": "計次"
+            },
+            "TIMER": {
+                "TITLE": "計時器",
+                "START": "開始計時",
+                "STOP": "暫停",
+                "CANCEL": "取消",
+                "HOURS": "小時",
+                "MINUTES": "分鐘",
+                "SECONDS": "秒"
+            },
+            "ALERT": {
+                "STOP": "停止"
+            }
+        },
+        "CAMERA": {
+            "VIDEO": "視頻",
+            "PHOTO": "照片",
+            "LANDSCAPE": "風景",
+            "UPLOADING": "上傳"
+        },
+        "DARKCHAT": {
+            "TITLE": "匿名聊天",
+            "USERNAME": "用戶名稱",
+            "SET_USERNAME": "設置你的用戶名稱。（註意！這不可在將來更改）",
+            "CANCEL": "取消",
+            "SET": "設置",
+            "JOIN": "加入",
+            "LEAVE": "離開",
+            "NEW_ROOM": "新房間",
+            "NEW_ROOM_TEXT": "輸入房間號以加入或創建房間",
+            "ROOM_CODE": "房間號",
+            "LEAVE_ROOM": "離開房間",
+            "LEAVE_ROOM_TEXT": "你確定要離開此房間嗎？",
+            "NOW": "現在",
+            "INPUT_PLACEHOLDER": "輸入一條消息..."
+        },
+        "APPSTORE": {
+            "TITLE": "App",
+            "SEARCH": "搜索",
+            "GET": "獲取",
+            "OPEN": "打開",
+            "TODAY": "Today",
+            "GAMES": "遊戲",
+            "APPS": "Apps",
+            "WHAT_WE_PLAYING": "我們都在玩",
+            "INFORMATION": "信息",
+            "PROVIDER": "開發者",
+            "SIZE": "大小",
+            "COMPATIBILITY": "兼容性",
+            "IN_APP_PURCHASES": "App內購買"
+        },
+        "PHOTOS": {
+            "TITLE": "照片",
+            "SELECT": "選擇",
+            "CANCEL": "取消",
+            "SELECT_ITEMS": "選擇項目",
+            "SELECTED_COUNT": "{count} 個項目被選中",
+            "PHOTO_COUNT": "{count} 個照片",
+            "DELETE_TITLE": "刪除 {count} 個圖像",
+            "DELETE_TEXT": "你確定要刪除 {count} 個圖像嗎？",
+            "DELETE_BUTTON_CANCEL": "取消",
+            "DELETE_BUTTON_DELETE": "刪除",
+            "DELETE_IMAGE_TITLE": "刪除圖像",
+            "DELETE_IMAGE_TEXT": "你確定要刪除此圖像嗎？",
+            "DELETE_IMAGE_BUTTON_CANCEL": "取消",
+            "DELETE_IMAGE_BUTTON_DELETE": "刪除"
+        },
+        "WEATHER": {
+            "TITLE": "天氣",
+            "HOURLY_FORECAST": "每小時的預測",
+            "NOW": "現在",
+            "FEELS_LIKE": "體感溫度",
+            "FEELS_LIKE_SAME": "與實際溫度相近。",
+            "FEELS_LIKE_HUMIDITY": "濕氣使人感覺溫暖。",
+            "FEELS_LIKE_WIND": "刮風使人感覺很冷。",
+            "SUNRISE": "日出",
+            "SUNSET": "日落",
+            "WIND": "風",
+            "PRECIPITATION": "降水強度",
+            "LAST_24H": "過去24小時",
+            "EXPECTED_24H": "預計24小時內",
+            "TYPES": {
+                "CLOUDY": "多雲",
+                "LIGHT_RAIN": "小雨",
+                "HEAVY_RAIN": "大雨",
+                "RAIN": "雨",
+                "SNOW": "雪",
+                "FOG": "霧",
+                "CLEAR": "晴",
+                "MOSTLY_CLEAR": "大部晴朗",
+                "THUNDER": "雷",
+                "TORNADO": "龍卷風",
+                "WINDY": "多風"
+            }
+        },
+        "MESSAGES": {
+            "TITLE": "短信",
+            "NEW_MESSAGE": "新建短信",
+            "PEOPLE": "人",
+            "MEMBERS": "成員",
+            "OTHER": "其他",
+            "SENT_A_PHOTO": "發送了一張照片",
+            "SENT_AUDIO_MESSAGE": "發送語音消息",
+            "SENT": "發送",
+            "REQUESTED": "請求",
+            "MISSED_CALL": "{number} 嘗試給您打電話，但您沒有接聽，請按該號碼回撥",
+            "NOT_DELIVERED": "未送達",
+            "PLACEHOLDER": "文本消息",
+            "DONE": "完成",
+            "CANCEL": "取消",
+            "SEND": "發送",
+            "UNKNOWN": "未知",
+            "TO": "到",
+            "SEARCH": "搜索",
+            "ADD_MEMBER": "添加成員",
+            "SHARE_LOCATION": "共享我的位置",
+            "LEAVE_GROUP": "離開對話",
+            "SENT_LOCATION": "分享他們的位置，點擊以在「地圖」中打開",
+            "SENT_LOCATION_SHORT": "共享了他們的位置",
+            "DELETE": "刪除",
+            "REMOVE_POPUP": {
+                "TITLE": "移出成員",
+                "TEXT": "你確定要將 {name} 移出群聊嗎",
+                "REMOVE": "移出"
+            },
+            "LEAVE_POPUP": {
+                "TITLE": "離開群聊",
+                "TEXT": "你確定要離開此群聊嗎？",
+                "LEAVE": "離開"
+            },
+            "ADD_POPUP": {
+                "TITLE": "添加成員",
+                "TEXT": "你確定要將 '{name}' 添加入此群聊嗎？",
+                "ADD": "添加"
+            },
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "分享位置",
+                "TEXT": "你確定要分享你的位置嗎？",
+                "CANCEL": "取消",
+                "SEND": "發送"
+            },
+            "PAY": {
+                "REQUEST": "請求",
+                "REQUESTED": "請求",
+                "PAY": "支付",
+                "SEND": "發送",
+                "SEND_TITLE": "發送 {amount}",
+                "SEND_DESCRIPTION": "你想發送 {amount} 給 {name}?",
+                "SEND_BUTTON_CANCEL": "取消",
+                "SEND_BUTTON_SEND": "發送"
+            }
+        },
+        "PHONE": {
+            "TITLE": "電話",
+            "DONE": "完成",
+            "EDIT": "編輯",
+            "CANCEL": "取消",
+            "CALL": {
+                "CALL_TITLE": "打電話給 {name}",
+                "CALL_TEXT": "您確定要呼叫{name}嗎？",
+                "CALL_BUTTON_CANCEL": "取消",
+                "CALL_BUTTON_CALL": "呼叫",
+                "NO_CALLER_ID": "沒有呼叫者ID",
+                "UNKNOWN": "未知的",
+                "USER_BUSY": "用戶忙",
+                "USER_UNAVAILABLE": "用戶不可用",
+                "CALL_BACK": "回電",
+                "DECLINE": "拒絕",
+                "ACCEPT": "接受",
+                "END": "終止",
+                "VIDEO_CALL": "視頻電話",
+                "MUTE": "靜音",
+                "KEYPAD": "鍵盤",
+                "SPEAKER": "揚聲器",
+                "ADD_CALL": "添加呼叫",
+                "VIDEO": "視頻",
+                "CONTACTS": "聯系人",
+                "MOBILE": "可移動的"
+            },
+            "CONTACTS": {
+                "TITLE": "聯系人",
+                "FIRST_NAME": "名",
+                "LAST_NAME": "姓",
+                "PHONE_NUMBER": "電話號碼",
+                "MY_CARD": "我的名片",
+                "ADD_PHOTO": "添加照片",
+                "REMOVE_CONTACT_TITLE": "刪除聯系人",
+                "REMOVE_CONTACT_TEXT": "是否確認刪除此聯系人？",
+                "REMOVE_CONTACT_BUTTON_CANCEL": "取消",
+                "REMOVE_CONTACT_BUTTON_DELETE": "刪除",
+                "DELETE_CONTACT": "刪除聯系人",
+                "MESSAGE": "消息",
+                "CALL": "呼叫",
+                "VIDEO": "視頻",
+                "MAIN": "主要",
+                "SHARE_CONTACT": "分享聯系方式",
+                "SHARE_LOCATION": "分享我的位置",
+                "REMOVE_FAVORITE": "從收藏夾中刪除",
+                "ADD_FAVORITE": "添加到收藏夾",
+                "ADD_CONTACT": "添加到通訊錄",
+                "UNBLOCK_CALLER": "取消阻止此呼叫者",
+                "BLOCK_CALLER": "阻止此來電者",
+                "UNBLOCK_NUMBER_TITLE": "解鎖號碼",
+                "UNBLOCK_NUMBER_TEXT": "您確定要取消阻止 {number}?",
+                "UNBLOCK_NUMBER_BUTTON_CANCEL": "取消",
+                "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "解鎖",
+                "BLOCK_NUMBER_TITLE": "阻止號碼",
+                "BLOCK_NUMBER_TEXT": "您確定要阻止 {number} 嗎？",
+                "BLOCK_NUMBER_BUTTON_CANCEL": "取消",
+                "BLOCK_NUMBER_BUTTON_BLOCK": "阻止"
+            },
+            "FAVOURITES": {
+                "TITLE": "收藏夾",
+                "REMOVE_TITLE": "從收藏夾中刪除",
+                "REMOVE_TEXT": "您確定要從收藏夾中刪除此聯系人嗎？",
+                "REMOVE_BUTTON_CANCEL": "取消",
+                "REMOVE_BUTTON_REMOVE": "清除"
+            },
+            "KEYPAD": {
+                "TITLE": "鍵盤",
+                "ADD_NUMBER": "添加號碼"
+            },
+            "RECENTS": {
+                "TITLE": "最近的"
+            }
+        },
+        "WALLET": {
+            "TITLE": "錢包",
+            "BALANCE": "余額",
+            "SEND": "發送",
+            "NEXT": "下一步",
+            "DONE": "完成",
+            "DONE_SUBTITLE": "您向{number}發送了{amount}",
+            "NO_REFUNDS": "付款不能退款，請仔細核對號碼。",
+            "NEW_BALANCE": "新余額",
+            "LATEST_TRANSACTIONS": "最近交易",
+            "LATEST_BILLS": "最近賬單",
+            "NOW": "現在",
+            "AGO": "之前",
+            "NUMBER_DOES_NOT_EXIST": "號碼不存在",
+            "NOT_ENOUGH_MONEY": "您沒有足夠的錢"
+        },
+        "GARAGE": {
+            "TITLE": "車庫",
+            "ACTIONS": "操作",
+            "MY_CARS": "我的車",
+            "OUT": "出庫",
+            "GARAGE": "車庫",
+            "LOCATION": "位置",
+            "SUMMON": "召喚",
+            "VALET": "代駕",
+            "STATISTICS": "統計",
+            "FUEL": "燃料",
+            "ENGINE": "發動機",
+            "BODY": "車身",
+            "VEHICLE": "車輛",
+            "STATUS": "狀態",
+            "LOCKED": "已鎖定",
+            "LOCK": "鎖定",
+            "UNLOCKED": "已解鎖",
+            "UNLOCK": "解鎖",
+            
+            "WAYPOINT_POPUP": {
+                "TITLE": "設置航點",
+                "TEXT": "您是否要為您的{model}設置航點？",
+                "CANCEL": "取消",
+                "PROCEED": "繼續"
+            },
+            "VALET_POPUP": {
+                "TITLE": "代駕",
+                "TEXT": "您是否要為您的{model}({plate})進行代駕？",
+                "TEXT_PAID": "您是否要為您的{model}({plate})付費{amount}進行代駕?",
+                "CANCEL": "取消",
+                "PROCEED": "繼續"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} 車輛",
+                "TEXT": "您是否要{toggle}您的車輛？",
+                "CANCEL": "取消",
+                "PROCEED": "繼續"
+            }
+        },
+        "HOME": {
+            "TITLE": "家庭",
+            "MY_HOMES": "我的住所",
+            "MY_HOME": "我的家",
+            "KEY_ACCESS": "鑰匙訪問",
+            "ACTIONS": "操作",
+            "FRONT_DOOR": "前門",
+            "LOCATION": "位置",
+            "SET_WAYPOINT": "設置航點",
+            "UNLOCK": "解鎖",
+            "UNLOCKED": "已解鎖",
+            "LOCK": "鎖定",
+            "LOCKED": "已鎖定",
+            "GIVE_KEY": "給予鑰匙",
+            "MANAGE": "管理",
+            "WAYPOINT_POPUP": {
+                "TITLE": "設置航點",
+                "TEXT": "您是否要為{home}設置航點？",
+                "CANCEL": "取消",
+                "PROCEED": "繼續"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} 家",
+                "TEXT": "您是否要{toggle}您的家？",
+                "CANCEL": "取消",
+                "PROCEED": "繼續"
+            },
+            "GIVE_KEY_POPUP": {
+                "TITLE": "給予鑰匙",
+                "TEXT": "輸入您要給予鑰匙的人的ID",
+                "CANCEL": "取消",
+                "PROCEED": "給予"
+            },
+            "REMOVE_KEY_POPUP": {
+                "TITLE": "刪除鑰匙持有人",
+                "TEXT": "您確定要取消{name}的訪問權限嗎？",
+                "CANCEL": "取消",
+                "PROCEED": "繼續"
+            }
+        },
+        "MARKETPLACE": {
+            "CANCEL": "取消",
+            "SEARCH": "搜索物品或號碼",
+            "NEW_POST": "新發布",
+            "TITLE": "標題",
+            "DESCRIPTION": "描述",
+            "PRICE": "價格",
+            "POST": "發布",
+            "CONTACT": "聯系方式",
+            "REMOVE": "刪除",
+            "ERROR_POPUP": {
+                "TITLE": "錯誤",
+                "NO_TITLE": "你需要輸入一個標題",
+                "NO_DESCRIPTION": "你需要輸入描述",
+                "NO_PRICE": "你需要輸入價格",
+                "NO_ATTACHMENTS": "你需要附加至少一個圖像",
+                "OK": "不錯"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "刪除物品",
+                "TEXT": "您確定要刪除這個物品嗎？",
+                "CANCEL": "取消",
+                "PROCEED": "刪除"
+            }
+        },
+        "YELLOWPAGES": {
+            "SEARCH": "搜索帖子或號碼",
+            "FROM": "來自",
+            "CANCEL": "取消",
+            "NEW_POST": "新發布",
+            "TITLE": "標題",
+            "DESCRIPTION": "描述",
+            "PRICE": "價格",
+            "POST": "發布",
+            "CALL": "打電話",
+            "ERROR_POPUP": {
+                "TITLE": "錯誤",
+                "NO_TITLE": "你需要輸入一個標題",
+                "NO_DESCRIPTION": "你需要輸入描述",
+                "OK": "不錯"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "刪除帖子",
+                "TEXT": "您確定要刪除這個帖子嗎？",
+                "CANCEL": "取消",
+                "PROCEED": "刪除"
+            }
+        },
+        "MAIL": {
+            "TITLE": "郵件",
+            "YOU": "您",
+            "UPDATED_NOW": "剛剛更新",
+            "NEW_MESSAGE": "新郵件",
+            "INBOX": "收件箱",
+            "TO": "收件人",
+            "FROM": "發件人",
+            "SUBJECT": "主題",
+            "MESSAGE": "消息",
+            "CANCEL": "取消",
+            "SEND": "發送",
+            "EMAIL": "電子郵件",
+            "EMAIL_INVALID": "電子郵件地址無效",
+            "EMAIL_EXISTS": "電子郵件已存在",
+            "PASSWORD": "密碼",
+            "WRONG_PASSWORD": "密碼錯誤",
+            "LOGIN": "登錄",
+            "NO_EMAIL": "沒有電子郵件地址？",
+            "CREATE_ONE": "創建一個",
+            "UNREAD": "未讀",
+            "CREATE_MAIL": "創建電子郵件",
+            "ALREADY_HAVE": "已經有電子郵件地址了？",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "登出",
+                "DESCRIPTION": "您確定要登出嗎？",
+                "CANCEL": "取消",
+                "PROCEED": "繼續"
+            }
+        },
+        "MAPS": {
+            "TITLE": "地圖",
+            "GO": "前往",
+            "ADD": "添加",
+            "EDIT": "編輯",
+            "DELETE": "刪除",
+            "SET_WAYPOINT": "設置航點",
+            "SHARE": "分享",
+            
+            "ADD_LOCATION_POPUP": {
+                "TITLE": "添加地點",
+                "DESCRIPTION": "輸入您想添加的地點的名稱",
+                "PLACEHOLDER": "名稱",
+                "CANCEL": "取消",
+                "PROCEED": "繼續"
+            },
+            "CHANGE_NAME_POPUP": {
+                "TITLE": "更改名稱",
+                "DESCRIPTION": "輸入地點的新名稱",
+                "PLACEHOLDER": "名稱",
+                "CANCEL": "取消",
+                "PROCEED": "繼續"
+            }
+        },
+        "MUSIC": {
+            "TITLE": "音樂",
+            "LIBRARY": "音樂庫",
+            "SEARCH": "搜索",
+            "ADD_QUEUE": "加入播放隊列",
+            "ADD_PLAYLIST": "加入播放列表",
+            "REMOVE_SONG": "刪除歌曲",
+            "NOT_PLAYING": "沒有播放",
+            "DELETE_PLAYLIST": "刪除播放列表",
+            "SEARCH_PLACEHOLDER": "歌手，歌曲，專輯，播放列表",
+            "SONGS": "歌曲",
+            "ALBUMS": "專輯",
+            "PLAY": "播放",
+            "SHUFFLE": "隨機播放",
+            "ARTIST": "歌手",
+            "ALBUM": "專輯",
+            "PLAYLIST": "播放列表",
+            "SONG": "歌曲",
+            "SONG_EXISTS_POPUP": {
+                "TITLE": "歌曲已經存在",
+                "DESCRIPTION": "歌曲已經存在於播放列表中",
+                "CANCEL": "取消"
+            },
+            "NEW_PLAYLIST_POPUP": {
+                "TITLE": "新播放列表",
+                "DESCRIPTION": "創建新播放列表",
+                "PLACEHOLDER": "播放列表名",
+                "CANCEL": "取消",
+                "PROCEED": "繼續"
+            }
+        },
+        "TINDER": {
+            "TITLE": "火絨",
+            "LIKES_YOU_TOO": "喜歡你",
+            "KEEP_SWIPING": "繼續滑動",
+            "SAY_SOMETHING_NICE": "說點好聽的",
+            "NO_MORE": "我們已經沒有更多人給你滑了，稍後再試試吧",
+            "SEND": "發送",
+            "AGREE_TERMS": "按「創建帳戶」即表示你同意我們的服務條款和隱私政策",
+            "CREATE_ACCOUNT": "創建帳戶",
+            "AGE_PUBLIC": "你的年齡將被公開。",
+            "BE_OVER_18": "你必須年滿 18 歲才能使用此服務",
+            "NAME_MINIMUM": "你的姓名長度必須至少為 3 個字符",
+            "ADD_PHOTOS": "添加照片",
+            "PHOTOS_MINIMUM": "你必須至少有一張照片",
+            "DESCRIPTION": "告訴我們一些關於你自己的事情。",
+            "DESCRIPTION_MINIMUM": "描述的長度必須至少為 10 個字符",
+            "SHOW_ME": "顯示給我",
+            "WOMEN": "女性",
+            "MEN": "男性",
+            "EVERYONE": "所有人",
+            "EVERYTHING": "一切事物",
+            "I_AM": "我是一個",
+            "MALE": "男的",
+            "FEMALE": "女的",
+            "CONTINUE": "繼續",
+            "NAME": "名字",
+            "PHOTOS": "照片",
+            "ABOUT_ME": "關於我的",
+            "INTERESTED_IN": "感興趣的",
+            "GENDER": "性別",
+            "SAVE": "保存",
+            "NEW_MATCHES": "新匹配",
+            "MESSAGES": "留言",
+            "SEARCH_MATCHES": "搜索匹配項"
+        },
+        "INSTAGRAM": {
+            "TITLE": "Instagram",
+            "SEND": "發送",
+            "POST": "發布",
+            "MESSAGE_PLACEHOLDER": "消息...",
+            "NEW_MESSAGE": "新消息",
+            "NOW": "現在",
+            "GO_LIVE_POPUP": {
+                "TITLE": "開始直播",
+                "DESCRIPTION": "你確定要開始直播嗎？",
+                "CANCEL": "取消",
+                "PROCEED": "繼續"
+            },
+            "END_LIVE_POPUP": {
+                "TITLE": "結束直播",
+                "DESCRIPTION": "你確定要{action}這個直播嗎？",
+                "CANCEL": "取消",
+                "END": "結束",
+                "LEAVE": "離開"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "取消關註",
+                "DESCRIPTION": "是否確實要取消關註 {name}?",
+                "CANCEL": "取消",
+                "PROCEED": "繼續"
+            },
+            "DELETE_POST_POPUP": {
+                "TITLE": "刪除帖子",
+                "DESCRIPTION": "您確定要刪除此帖子嗎？",
+                "CANCEL": "取消",
+                "PROCEED": "繼續"
+            },
+            "SIGN_OUT_POPUP": {
+                "TITLE": "退出",
+                "DESCRIPTION": "你確定退出嗎？",
+                "CANCEL": "取消",
+                "PROCEED": "繼續"
+            },
+            "LIVE_ENDED": "直播結束",
+            "COMMENT_PLACEHOLDER": "評論",
+            "LIVE": "直播",
+            "YOUR_STORY": "你的故事",
+            "CREATE_STORY": "創建故事",
+            "GO_LIVE": "上線",
+            "EMPTY_FEED": "開始關註人們以在此處查看他們的照片和視頻",
+            "COMMENTS": "註釋",
+            "ADD_COMMENT_AS": "將註釋添加為 {name}",
+            "NEW_POST": "新建帖子",
+            "NEXT": "下一個",
+            "CAPTION_PLACEHOLDER": "寫一個標題。。。",
+            "ACTIVITY": "活動",
+            "FOLLOW": "跟隨",
+            "FOLLOWING": "正在關註",
+            "FOLLOWERS": "關註者",
+            "FOLLOWER": "關註",
+            "LIKES": "喜歡",
+            "LIKED_BY": "喜歡的人",
+            "VIEW_ALL_COMMENTS": "查看所有 {count} 條評論",
+            "FIRST_COMMENT": "第一個發表評論。。。",
+            "NO_ACCOUNT": "沒有使用此用戶名的帳戶",
+            "WRONG_USERNAME_OR_PASSWORD": "用戶名或密碼錯誤",
+            "LOG_IN": "登錄",
+            "ACCOUNT_WITH_USERNAME": "具有此用戶名的帳戶已存在",
+            "CREATE_ACCOUNT": "創建帳戶",
+            "USERNAME_PLACEHOLDER": "用戶名",
+            "NAME_PLACEHOLDER": "名稱",
+            "PASSWORD_PLACEHOLDER": "密碼",
+            "NOT_HAVE_ACCOUNT": "沒有帳戶？",
+            "HAVE_ACCOUNT": "有賬戶嗎？",
+            "LIKED_PHOTO": "喜歡你的照片。",
+            "LIKED_COMMENT": "喜歡你的評論：{comment}",
+            "COMMENTED": "評論了你的帖子：{comment}",
+            "FOLLOWED": "開始關註您。",
+            "DONE": "完成",
+            "EDIT_PROFILE": "編輯個人資料",
+            "CHANGE_PICTURE": "更改個人資料圖片",
+            "NAME": "名稱",
+            "BIO": "個人簡介",
+            "SIGN_OUT": "退出登錄",
+            "POSTS": "帖子",
+            "MESSAGE": "信息",
+            "SENT_A_PHOTO": "發送了一張照片",
+            "TO": "到",
+            "SEND_A_MESSAGE": "發送消息。。。",
+            "STORY_VIEWERS": "觀眾",
+            "SEEN_BY": "被 {count} 人觀看過"
+        },
+        "TWITTER": {
+            "TITLE": "推特",
+            "SEARCH_FOR": "搜索 '{search}'",
+            "START_SEARCHING": "開始搜索以探索Twitter",
+            "TRENDING_HASHTAGS": "熱門話題標簽",
+            "SENT_ATTACHMENT": "發送附件",
+            "TO": "到",
+            "TWEETS": "发送",
+            "REPLIES": "回復",
+            "MEDIA": "媒體",
+            "LIKES": "喜歡",
+            "CANCEL": "取消",
+            "TWEET": "发送",
+            "TWEET_REPLY": "發推你的回復",
+            "TWEET_GENERAL": "發生了什麼？",
+            "EDIT_PROFILE": "編輯個人資料",
+            "SAVE": "保存",
+            "NAME": "名稱",
+            "JOIN_DATE": "加入日期",
+            "BIO": "個人簡介",
+            "SIGN_OUT": "退出登錄",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "退出登錄",
+                "DESCRIPTION": "您確定要退出登錄嗎？",
+                "CANCEL": "取消",
+                "PROCEED": "確定"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "取消關註",
+                "DESCRIPTION": "您確定要取消關註 {name} 嗎?",
+                "CANCEL": "取消",
+                "PROCEED": "繼續"
+            },
+            "RETWEET_POPUP": {
+                "RETWEET": "轉發",
+                "UNDO_RETWEET": "撤消轉推",
+                "DESCRIPTION": "您確定要 {action} 嗎？",
+                "CANCEL": "取消",
+                "PROCEED": "繼續"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "刪除推文",
+                "DESCRIPTION": "您確定要刪除此推文嗎？",
+                "CANCEL": "取消",
+                "PROCEED": "繼續"
+            },
+            "NOTIFICATIONS_POPUP": {
+                "TITLE": "通知",
+                "DESCRIPTION": "您確定要在 @{name} 上 {action} 通知嗎？",
+                "CANCEL": "取消",
+                "PROCEED": "繼續",
+                "ENABLE": "允許",
+                "DISABLE": "禁用"
+            },
+            "PROMOTE_POPUP": {
+                "TITLE": "推廣推文",
+                "DESCRIPTION": "你想以 {price} 的 {views} 觀看次數推廣這條推文嗎？",
+                "CANCEL": "取消",
+                "PROCEED": "繼續"
+            },
+            "YOU": "你",
+            "FOLLOW": "關註",
+            "FOLLOWING": "正在關註",
+            "FOLLOWERS": "關註者",
+            "RETWEETED": "轉推",
+            "REPLYING_TO": "回復{name}",
+            "RETWEETED_BY": "轉發者",
+            "LIKED_BY": "喜歡的人",
+            "ALL": "所有人",
+            "NOTIFICATIONS": "通知",
+            "FOLLOWS_YOU": "跟著你",
+            "JOINED": "加入 {date}",
+            "LIKED_TWEET": "點贊你的推文",
+            "RETWEETED_TWEET": "轉發你的推文",
+            "FOLLOWED": "關註你",
+            "SIGN_UP_TEXT": "看看現在全世界正在發生什麼",
+            "TERMS_OF_SERVICE": "註冊即代表您同意我們的服務條款和隱私政策。",
+            "HAS_ACCOUNT": "已有帳戶？",
+            "CREATE_YOUR_ACCOUNT": "創建賬戶",
+            "NAME_PLACEHOLDER": "姓名",
+            "USERNAME_PLACEHOLDER": "用戶名",
+            "PASSWORD_PLACEHOLDER": "密碼",
+            "GET_STARTED": "首先請輸入你的@用戶名",
+            "FORGOT_PASSWORD": "忘記密碼？",
+            "ENTER_PASSWORD": "輸入你的密碼",
+            "SEARCH_DIRECT_MESSAGES": "搜尋直接訊息",
+            "SEARCH_TWITTER": "搜索推文",
+            "MESSAGE_PLACEHOLDER": "信息...",
+            "NOW": "現在",
+            "LOGIN": "登錄",
+            "CREATE_ACCOUNT": "註冊賬號",
+            "PROMOTE": "推銷",
+            "PIN": "推文",
+            "UNPIN": "取消固定推文"
+        },
+        "SERVICES": {
+            "ACTIONS": "活動",
+            "COMPANIES": "公司",
+            "MESSAGES": "信息",
+            "CLOSED": "關閉",
+            "YOUR_MESSAGES": "你的信息",
+            "JOB_MESSAGES": "工作信息",
+            "DUTY": "工作狀態",
+            "GO_ON_DUTY": "上班",
+            "GO_OFF_DUTY": "下班",
+            "BALANCE": "賬戶余額",
+            "MANAGE_EMPLOYEES": "管理員工",
+            "HIRE": "聘用",
+            "SET_GRADE": "設定等級",
+            "UNEMPLOYED": "你被解雇了",
+            "DEPOSIT_POPUP": {
+                "TITLE": "存款",
+                "DESCRIPTION": "向銀行賬戶中存款",
+                "AMOUNT": "金額",
+                "CANCEL": "取消",
+                "PROCEED": "確定"
+            },
+            "WITHDRAW_POPUP": {
+                "TITLE": "提款",
+                "DESCRIPTION": "從銀行賬戶中提款",
+                "AMOUNT": "金額",
+                "CANCEL": "取消",
+                "PROCEED": "確定"
+            },
+            "HIRE_POPUP": {
+                "TITLE": "招聘",
+                "DESCRIPTION": "聘用新員工",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "取消",
+                "PROCEED": "確定"
+            },
+            "FIRE_POPUP": {
+                "TITLE": "解雇",
+                "DESCRIPTION": "你確定要解雇 {name} 嗎？",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "取消",
+                "PROCEED": "確定"
+            },
+            "CALL_POPUP": {
+                "TITLE": "呼叫",
+                "DESCRIPTION": "你確定要呼叫 {name} 嗎？",
+                "CANCEL": "取消",
+                "PROCEED": "確定"
+            }
+        },
+        "CRYPTO": {
+            "TITLE": "Crypto",
+            "BALANCE": "估計余額",
+            "BUY": "購買",
+            "SELL": "出售",
+            "SELL_ALL": "全部賣掉",
+            "NO_MONEY": "你沒有足夠的錢。",
+            "NO_COINS": "你沒有這些虛擬貨幣。",
+            "NOT_ENOUGH_COINS": "你沒有足夠的虛擬貨幣。",
+            "ATLEAST_ONE_COIN": "你必須 {action} 至少有一個虛擬貨幣",
+            "INVALID_COIN": "無效虛擬貨幣",
+            "ERROR": "錯誤",
+            "CLOSE": "關閉",
+            "BUY_POPUP": {
+                "TITLE": "購買 {Coin}",
+                "DESCRIPTION": "輸入你想要購買的 {Coin} 金額（以美元計）",
+                "PLACEHOLDER": "$1000",
+                "CANCEL": "取消",
+                "PROCEED": "進行"
+            },
+            "SELL_POPUP": {
+                "TITLE": "賣出 {Coin}",
+                "DESCRIPTION": "輸入你想要出售的 {coin} 金額（以美元計）",
+                "PLACEHOLDER": "$1000",
+                "CANCEL": "取消",
+                "PROCEED": "進行"
+            },
+            "SELL_ALL_POPUP": {
+                "TITLE": "出售所有 {Coin}",
+                "DESCRIPTION": "你確定要以 ${amount} 的價格出售所有的 {coin} 嗎？",
+                "CANCEL": "取消",
+                "PROCEED": "進行"
+            }
+        }
+    },
+    "COMPONENTS": {
+        "CONTEXT_MENU": {
+            "CANCEL": "取消",
+            "CALL": "稱呼",
+            "VIDEO_CALL": "視頻通話",
+            "MESSAGE": "信息"
+        },
+        "IMAGE": {
+            "SAVE_TO_GALLERY": "保存到圖庫"
+        },
+        "GALLERY": {
+            "CANCEL": "取消",
+            "EXTERNAL_URL": "外部 URL",
+            "NO_IMAGES": "沒有圖像"
+        },
+        "NOTIFICATIONS": {
+            "SENT_PHOTO": "發了張照片",
+            "SENT_GIF": "發了一張動圖",
+            "NOW": "現在"
+        },
+        "SHARE": {
+            "COPY_PHOTO": "復製照片",
+            "USE_WALLPAPER": "用作墻紙",
+            "COPY_NUMBER": "復製數值",
+            "AIRDROP_SENT": "發送給",
+            "AIRDROP_ACCEPTED": "接受",
+            "AIRDROP_DECLINED": "拒絕",
+            "WALLPAPER_POPUP": {
+                "TITLE": "用作墻紙",
+                "TEXT": "你確定要將此圖像用作墻紙嗎？",
+                "CANCEL": "取消",
+                "PROCEED": "確定"
+            }
+        },
+        "AIRDROP": {
+            "TITLE": "隔空投送",
+            "TEXT": "{sender} 想要分享一個 {type}",
+            "VIDEO": "視頻",
+            "PHOTO": "照片",
+            "CONTACT": "聯系人",
+            "LOCATION": "地點",
+            "NOTE": "備忘錄",
+            "PLAYLIST": "播放列表",
+            "DECLINE": "拒絕",
+            "ACCEPT": "允許"
+        },
+        "DYNAMICISLAND": {
+            "SILENT": "沈默的",
+            "RING": "戒指",
+            "TIMER": "計時器"
+        }
+    },
+    "SETUP": {
+        "HELLO": "你好",
+        "NEXT": "點擊打開",
+        "CREATE_PASSCODE": "創建密碼",
+        "CREATE_PASSCODE_TEXT": "密碼保護你的數據，並用於解鎖你的手機。",
+        "SKIP": "跳過這一步",
+        "FACE_ID_SETUP": "面部識別設置",
+        "FACE_ID_TEXT": "設置面部識別，當你的臉在畫面中時自動解鎖你的手機。",
+        "ENABLE_FACE_ID": "啟用面部 ID",
+        "APPEARANCE": "外觀",
+        "APPEARANCE_TEXT": "選擇淺色或深色外觀",
+        "CONTINUE": "繼續",
+        "WELCOME_TO": "歡迎來到",
+        "CLICK": "單擊以開始"
+    },
+    "HOMESCREEN": {
+        "DONE": "完成",
+        "REMOVE": "移除",
+        "REMOVE_TEXT": "刪除此應用不會刪除其數據。稍後可以從 App Store 重新安裝該應用程序。",
+        "BUTTON_CANCEL": "取消",
+        "BUTTON_DELETE": "刪除"
+    },
+    "LOCKSCREEN": {
+        "ENTER_PASSCODE": "輸入密碼",
+        "DELETE": "刪除"
+    },
+    "BACKEND": {
+        "CALLS": {
+            "NO_CALLER_ID": "沒有來電顯示",
+            "MISSED_CALL": "未接電話"
+        },
+        "GARAGE": {
+            "VALET": "代客泊車",
+            "COULDNT_FIND": "找不到車輛。",
+            "ALREADY_OUT": "車已經出來了。",
+            "NO_MONEY": "你沒有足夠的錢。",
+            "ON_WAY": "你的車已經在路上了。",
+            "MARKED": "你的車輛已在 GPS 上標記。"
+        },
+        "INSTAGRAM": {
+            "NOT_ALLOWED_LIVE": "你不能上線。",
+            "NOT_ALLOWED_STORY": "你不允許發布故事。",
+            "STARTED_LIVE": "{username} 啟動了一個實時視頻"
+        },
+        "TINDER": {
+            "NEW_MATCH": "新匹配",
+            "MATCHED_WITH": "你與 {name} 匹配"
+        },
+        "CAMERA": {
+            "TAKE_PHOTO": "按 {key} 拍攝照片",
+            "FLIP_CAMERA": "按 {key} 翻轉攝像機",
+            "TOGGLE_FLASH": "按 {key} 切換閃光燈",
+            "TOGGLE_CURSOR": "按 {key} 切換光標並環顧四周",
+            "CHANGE_MODE": "按 {key}{key2} 更改照相機模式"
+        },
+        "SERVICES": {
+            "NEW_MESSAGE": "新留言"
+        }
+    }
+}
