@@ -12,7 +12,7 @@
         "SETTINGS": {
             "TITLE": "Réglages",
             "BACK": "Retour",
-            "DONE": "Done",
+            "DONE": "Fait",
             "EDIT": "Éditer",
             "AIRPLANE_MODE": "Mode avion",
             "STREAMER_MODE": "Mode streamer",
@@ -39,7 +39,7 @@
             "TIME_ZONE": "Fuseau horaire",
             "LANGUAGE_REGION": "Langue & Région",
             "LANGUAGE": "Langue",
-            "TEMPERATURE": "Temperature",
+            "TEMPERATURE": "Température",
             "CELCIUS": "Celsius",
             "FAHRENHEIT": "Fahrenheit",
             "BATTERY": "Batterie",
@@ -129,10 +129,10 @@
                 "CONFIRM": "Supprimer"
             },
             "RESET_POPUP": {
-                "TITLE": "Reset Phone",
-                "TEXT": "Are you sure you want to reset your phone? [THIS WILL REMOVE EVERYTHING]",
-                "CANCEL": "Cancel",
-                "CONFIRM": "Reset"
+                "TITLE": "Réinitialiser le téléphone",
+                "TEXT": "Voulez-vous vraiment réinitialiser votre téléphone ? [CELA SUPPRIMERA TOUT]",
+                "CANCEL": "Annuler",
+                "CONFIRM": "Réinitialiser"
             }
         },
         "NOTES": {
@@ -329,7 +329,7 @@
         "PHONE": {
             "TITLE": "Téléphoner",
             "DONE": "Confirmer",
-            "EDIT": "Editer",
+            "EDIT": "Modifier",
             "CANCEL": "Annuler",
             "CALL": {
                 "CALL_TITLE": "Appeler {name}",
@@ -397,7 +397,7 @@
                 "ADD_NUMBER": "Ajouter un numéro"
             },
             "RECENTS": {
-                "TITLE": "Recent"
+                "TITLE": "Récents"
             }
         },
         "WALLET": {
@@ -427,7 +427,7 @@
             "STATISTICS": "Statistiques",
             "FUEL": "Carburant",
             "ENGINE": "Moteur",
-            "BODY": "Etat",
+            "BODY": "État",
             "WAYPOINT_POPUP": {
                 "TITLE": "Définir un point GPS",
                 "TEXT": "Voulez-vous définir une destination pour votre {modèle}?",
@@ -521,7 +521,7 @@
             "YOU": "You",
             "UPDATED_NOW": "Mis à jour a l'instant",
             "NEW_MESSAGE": "Nouveau Message",
-            "INBOX": "Inbox",
+            "INBOX": "Boîte de réception",
             "TO": "À",
             "FROM": "De",
             "SUBJECT": "Objet",
@@ -582,7 +582,7 @@
             "SEARCH_PLACEHOLDER": "Artistes, Musiques, Albums, Playlists",
             "SONGS": "Musiques",
             "ALBUMS": "Albums",
-            "PLAY": "Play",
+            "PLAY": "Jouer",
             "SHUFFLE": "Aléatoire",
             "ARTIST": "Artistes",
             "ALBUM": "Album",
@@ -688,9 +688,9 @@
             "CAPTION_PLACEHOLDER": "Écrivez une description...",
             "ACTIVITY": "Activité",
             "FOLLOW": "Follow",
-            "FOLLOWING": "Following",
-            "FOLLOWERS": "Followers",
-            "FOLLOWER": "Follower",
+            "FOLLOWING": "Abonnement(s)",
+            "FOLLOWERS": "Abonnés",
+            "FOLLOWER": "Abonné",
             "LIKES": "Likes",
             "LIKED_BY": "Liké par",
             "VIEW_ALL_COMMENTS": "Voir les {count} commentaires",
@@ -708,7 +708,7 @@
             "LIKED_PHOTO": "a liké votre photo.",
             "LIKED_COMMENT": "a liké votre commentaire: {comment}",
             "COMMENTED": "a commenté votre post: {comment}",
-            "FOLLOWED": "a commencé à vous follow.",
+            "FOLLOWED": "a commencé à vous suivre.",
             "DONE": "Fait",
             "EDIT_PROFILE": "Modifier votre profil",
             "CHANGE_PICTURE": "Changer votre photo de profil",
@@ -717,9 +717,9 @@
             "SIGN_OUT": "Se déconnecter",
             "POSTS": "Posts",
             "MESSAGE": "Message",
-            "SENT_A_PHOTO": "sent a photo",
-            "TO": "To",
-            "SEND_A_MESSAGE": "Send a message..."
+            "SENT_A_PHOTO": "envoyé une photo",
+            "TO": "A",
+            "SEND_A_MESSAGE": "Envoyé un message..."
         },
         "TWITTER": {
             "TITLE": "Twitter",
@@ -749,27 +749,27 @@
                 "PROCEED": "Suivant"
             },
             "UNFOLLOW_POPUP": {
-                "TITLE": "Unfollow",
-                "DESCRIPTION": "Êtes-vous sûr de vouloir unfollow {name}?",
+                "TITLE": "Se désabonner",
+                "DESCRIPTION": "Se désabonner de {name}?",
                 "CANCEL": "Annuler",
                 "PROCEED": "Suivant"
             },
             "RETWEET_POPUP": {
                 "RETWEET": "Retweet",
                 "UNDO_RETWEET": "Annuler le retweet",
-                "DESCRIPTION": "Voulez-vous vraiment {action} ?",
+                "DESCRIPTION": "Voulez-vous vraiment {action} ?",
                 "CANCEL": "Annuler",
                 "PROCEED": "Confirmer"
             },
             "DELETE_POPUP": {
                 "TITLE": "Supprimer le tweet",
-                "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer ce tweet ?",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer ce tweet ?",
                 "CANCEL": "Annuler",
                 "PROCEED": "Confirmer"
             },
             "NOTIFICATIONS_POPUP": {
                 "TITLE": "Notifications",
-                "DESCRIPTION": "Voulez-vous vraiment recevoir des notifications {action} sur @{name} ?",
+                "DESCRIPTION": "Voulez-vous vraiment recevoir des notifications {action} sur @{name} ?",
                 "CANCEL": "Annuler",
                 "PROCEED": "Confirmer",
                 "ENABLE": "Permettre",
@@ -777,25 +777,25 @@
             },
             "PROMOTE_POPUP": {
                 "TITLE": "Promouvoir le tweet",
-                "DESCRIPTION": "Voulez-vous promouvoir ce tweet pour {price} pour {views} vues ?",
+                "DESCRIPTION": "Voulez-vous promouvoir ce tweet pour {price} pour {views} vues ?",
                 "CANCEL": "Annuler",
                 "PROCEED": "Confirmer"
             },
             "YOU": "Vous",
             "FOLLOW": "Follow",
-            "FOLLOWING": "Following",
-            "FOLLOWERS": "Followers",
+            "FOLLOWING": "Abonnement(s)",
+            "FOLLOWERS": "Abonnés",
             "RETWEETED": "Retweeté",
             "REPLYING_TO": "Répondre à {name}",
             "RETWEETED_BY": "Retweeté par",
             "LIKED_BY": "Liké par",
             "ALL": "Tout",
             "NOTIFICATIONS": "Notifications",
-            "FOLLOWS_YOU": "Vous follow",
+            "FOLLOWS_YOU": "Vous suis",
             "JOINED": "A rejoins {date}",
             "LIKED_TWEET": "a liké votre tweet",
             "RETWEETED_TWEET": "a retweeté votre tweet",
-            "FOLLOWED": "vous follow",
+            "FOLLOWED": "vous suis",
             "SIGN_UP_TEXT": "Regardez ce qu'il se passe dans le monde actuellement",
             "TERMS_OF_SERVICE": "En vous inscrivant, vous acceptez les CGU ainsi que la politique de vie privée",
             "HAS_ACCOUNT": "Vous avez déjà un compte?",
@@ -835,7 +835,7 @@
             "UNEMPLOYED": "Vous êtes au chômage",
 
             "DEPOSIT_POPUP": {
-                "TITLE": "Depot",
+                "TITLE": "Dépot",
                 "DESCRIPTION": "Déposer de l'argent sur le compte de l'entreprise",
                 "AMOUNT": "Montant",
                 "CANCEL": "Annuler",
@@ -857,14 +857,14 @@
             },
             "FIRE_POPUP": {
                 "TITLE": "Virer",
-                "DESCRIPTION": "Voulez-vous vraiment virer {name} ?",
+                "DESCRIPTION": "Voulez-vous vraiment virer {name} ?",
                 "PLACEHOLDER": "ID",
                 "CANCEL": "Annuler",
                 "PROCEED": "Confirmer"
             },
             "CALL_POPUP": {
                 "TITLE": "Appel",
-                "DESCRIPTION": "Voulez-vous vraiment appeler {name} ?",
+                "DESCRIPTION": "Voulez-vous vraiment appeler {name} ?",
                 "CANCEL": "Annuler",
                 "PROCEED": "Confirmer"
             }
