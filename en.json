@@ -702,6 +702,13 @@
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             },
+            "DELETE_STORY": {
+                "TITLE": "Delete Story",
+                "DESCRIPTION": "Are you sure you want to delete this story?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+
             "LIVE_ENDED": "Live Ended",
             "COMMENT_PLACEHOLDER": "Comment",
             "LIVE": "Live",
@@ -932,6 +939,133 @@
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             }
+        },
+        "TIKTOK": {
+            "TITLE": "TikTok",
+
+            "HOME": "Home",
+            "DISCOVER": "Discover",
+            "INBOX": "Inbox",
+            "PROFILE": "Profile",
+
+            "COMMENTS_TITLE": "{count} comments",
+            "REPLY": "Reply",
+            "VIEW_REPLIES": "View replies",
+            "ADD_COMMENT": "Add a comment...",
+            "REPLY_TO": "Reply to {name}",
+            "PIN_COMMENT": "Pin Comment",
+            "UNPIN_COMMENT": "Unpin Comment",
+            "DELETE_COMMENT": "Delete Comment",
+            "DELETE": "Delete",
+            "PINNED": "Pinned",
+            "PIN_VIDEO": "Pin Video",
+            "UNPIN_VIDEO": "Unpin Video",
+            "PIN": "pin",
+            "UNPIN": "unpin",
+            "MAX_PINNED_TITLE": "Max Pinned",
+            "MAX_PINNED_DESCRIPTION": "You can only pin up to 3 videos",
+            "OK": "OK",
+            "CREATOR": "Creator",
+            "LIKED_BY_CREATOR": "Liked by creator",
+
+            "PIN_VIDEO_POPUP": {
+                "TITLE": "Pin Video",
+                "DESCRIPTION": "Are you sure you want to {action} this video?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+            "DELETE_VIDEO_POPUP": {
+                "TITLE": "Delete Video",
+                "DESCRIPTION": "Are you sure you want to delete this video?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+
+            "SHARE_TITLE": "Share To",
+            "SHARE": "Share",
+            "REPORT": "Report",
+            "SAVE_VIDEO": "Save Video",
+            "ADD_FAVOURITE": "Add to Favourites",
+            "CANCEL": "Cancel",
+            "GO_BACK": "Go Back",
+
+            "FOLLOWING": "Following",
+            "FOLLOWERS": "Followers",
+            "UNFOLLOW": "Unfollow",
+            "FOLLOW": "Follow",
+            "FOR_YOU": "For You",
+            "VIDEOS": "Videos",
+            "LIKES": "Likes",
+
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Unfollow",
+                "DESCRIPTION": "Are you sure you want to unfollow {name}?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+
+            "LOGIN_TITLE": "Log in to TikTok",
+            "LOGIN_SUBTITLE": "Manage your account check notifications, comment on videos, and more.",
+            "SIGNUP_TITLE": "Sign up for TikTok",
+            "SIGNUP_SUBTITLE": "Create a profile, follow other accounts, make your own videos, and more.",
+            "NAME": "Name",
+            "USERNAME": "Username",
+            "PASSWORD": "Password",
+            "BIO": "Bio",
+            "SHOW_LIKES": "Show Likes",
+
+            "LOGIN": "Log in",
+            "SIGNUP": "Sign up",
+            "NO_ACCOUNT": "Don't have an account?",
+            "ALREADY_ACCOUNT": "Already have an account?",
+            "SEARCH_PLACEHOLDER": "Search for users",
+
+            "STARTED_FOLLOWING": "started following you.",
+            "LIKED_VIDEO": "liked your video.",
+            "LIKED_COMMENT": "liked your comment.",
+            "SAVED_VIDEO": "sadded your video to Favorites.",
+            "COMMENTED": "commented: {comment}",
+            "REPLIED": "replied to your comment: {comment}",
+
+            "EDIT_PROFILE": "Edit Profile",
+            "MESSAGE": "Message",
+            "CHANGE_PHOTO": "Change Photo",
+            "LOGOUT": "Log out",
+            "ADD_TO_YOUR_PROFILE": "Add to your profile",
+            "LIKED_HIDDEN_TITLE": "This user's liked videos are private.",
+            "LIKED_HIDDEN_SUBTITLE": "Videos liked by {name} are currently hidden.",
+
+            "INVALID_ACCOUNT_POPUP": {
+                "TITLE": "Invalid {name}",
+                "DESCRIPTION": "You're not logged into the {name} account you entered, please correct it.",
+                "OK": "OK"
+            },
+            "REMOVE_ACCOUNT_POPUP": {
+                "TITLE": "Remove {name} account",
+                "DESCRIPTION": "Are you sure you want to remove your {name} account from your profile?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+            "ADD_ACCOUNT_TITLE": "Add account",
+            "ADD_ACCOUNT": "Add {name} to your profile",
+
+            "UPLOAD_VIDEO": "Upload Video",
+            "PREVIEW": "Preview",
+            "CAPTION": "Caption",
+            "CAPTION_PLACEHOLDER": "Add a caption...",
+            "TTS": "Text to Speech (TTS)",
+            "TTS_PLACEHOLDER": "Add text to speech...",
+            "MUSIC": "Music",
+            "SELECT_MUSIC": "Select Music",
+            "OPTIONAL": "Optional",
+
+            "DIRECT_MESSAGES": "Direct Messages",
+            "ALL_ACTIVITY": "All Activity",
+            "NO_NOTIFICATIONS": "Notifications aren't available",
+            "NO_NOTIFICATIONS_SUBTITLE": "Notifications about your account will appear here.",
+            "NO_FOLLOWING_TITLE": "Start following people and their videos will appear here.",
+            "NO_MESSAGES_TITLE": "Message your friends",
+            "NO_MESSAGES_SUBTITLE": "Share videos or start a conversation"
         }
     },
     "COMPONENTS": {
@@ -984,6 +1118,17 @@
             "SILENT": "Silent",
             "RING": "Ring",
             "TIMER": "Timer"
+        },
+        "MUSIC_SELECTOR": {
+            "CANCEL": "Cancel",
+            "NO-RESULTS": "No music configured, tell the server-owner to add songs",
+            "SEARCH": "Search for a song",
+            "SELECT_POPUP": {
+                "TITLE": "Select song",
+                "DESCRIPTION": "Are you sure you want to select {song}",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            }
         }
     },
     "SETUP": {
@@ -1043,6 +1188,22 @@
         },
         "SERVICES": {
             "NEW_MESSAGE": "New Message"
+        },
+        "TWITTER": {
+            "LIKE": "Liked by {displayName}:",
+            "RETWEET": "Retweeted by {displayName}:",
+            "REPLY": "{displayName} replied:",
+            "FOLLOW": "{username} started following you",
+            "TWEET": "{username} just tweeted"
+        },
+        "TIKTOK": {
+            "LIKE": "{displayName} liked your video.",
+            "COMMENT": "{displayName} commented on your video.",
+            "FOLLOW": "{displayName} started following you.",
+            "SAVE": "{displayName} favorited your video.",
+            "LIKED_COMMENT": "{displayName} liked your comment.",
+            "REPLIED_COMMENT": "{displayName} replied to your comment.",
+            "DM": "{displayName}"
         }
     }
 }
