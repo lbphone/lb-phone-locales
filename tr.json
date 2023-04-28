@@ -944,6 +944,13 @@
             "CANCEL": "İptal",
             "PROCEED": "Devam et"
         },
+        
+        "FAILED_UPLOAD_POPUP": {
+            "TITLE": "TTS Yüklenemedi",
+            "DESCRIPTION": "Sunucu sahibi ses yüklemeyi doğru şekilde yapılandırmadı. Lütfen bu sorunu çözmek için onlarla iletişime geçin.",
+            "CANCEL": "İptal",
+            "PROCEED": "Devam Et"
+        },
     
         "SHARE_TITLE": "Paylaş",
         "SHARE": "Paylaş",
