@@ -980,6 +980,12 @@
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             },
+            "FAILED_UPLOAD_POPUP": {
+                "TITLE": "Failed to upload TTS",
+                "DESCRIPTION": "The server owner hasn't set up the audio upload correctly. Please contact them to fix this issue.",
+                "CANCEL": "Cancel",
+                "PROCEED": "Ignore"
+            },
 
             "SHARE_TITLE": "Share To",
             "SHARE": "Share",
@@ -1046,9 +1052,9 @@
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             },
+
             "ADD_ACCOUNT_TITLE": "Add account",
             "ADD_ACCOUNT": "Add {name} to your profile",
-
             "UPLOAD_VIDEO": "Upload Video",
             "PREVIEW": "Preview",
             "CAPTION": "Caption",
