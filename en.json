@@ -383,7 +383,9 @@
                 "BLOCK_NUMBER_TITLE": "Block Number",
                 "BLOCK_NUMBER_TEXT": "Are you sure you want to block {number}?",
                 "BLOCK_NUMBER_BUTTON_CANCEL": "Cancel",
-                "BLOCK_NUMBER_BUTTON_BLOCK": "Block"
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Block",
+                "EMAIL": "Email",
+                "ADDRESS": "Address"
             },
             "FAVOURITES": {
                 "TITLE": "Favorites",
@@ -851,7 +853,9 @@
             "CREATE_ACCOUNT": "Create Account",
             "PROMOTE": "Promote",
             "PIN": "Pin Tweet",
-            "UNPIN": "Unpin Tweet"
+            "UNPIN": "Unpin Tweet",
+            "NEW_MESSAGE": "New Message",
+            "PROMOTED": "Promoted"
         },
         "SERVICES": {
             "ACTIONS": "Actions",
@@ -1135,6 +1139,12 @@
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             }
+        },
+        "BATTERY": {
+            "LOW_BATTERY": "Low Battery",
+            "BATTERY_REMAINING": "{percent}% battery remaining",
+            "LOW_POWER_MODE": "Low Power Mode",
+            "CLOSE": "Close"
         }
     },
     "SETUP": {
