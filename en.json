@@ -1113,7 +1113,7 @@
             }
         },
         "AIRDROP": {
-            "TITLE": "Airdrop",
+            "TITLE": "AirShare",
             "TEXT": "{sender} would like to share a {type}",
             "VIDEO": "video",
             "PHOTO": "photo",
