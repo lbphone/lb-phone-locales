@@ -794,8 +794,8 @@
                 "PROCEED": "Proceed"
             },
             "RETWEET_POPUP": {
-                "RETWEET": "Retweet",
-                "UNDO_RETWEET": "Undo Retweet",
+                "RETWEET": "Repost",
+                "UNDO_RETWEET": "Undo Repost",
                 "DESCRIPTION": "Are you sure you want to {action}?",
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
@@ -824,16 +824,16 @@
             "FOLLOW": "Follow",
             "FOLLOWING": "Following",
             "FOLLOWERS": "Followers",
-            "RETWEETED": "Retweeted",
+            "RETWEETED": "Reposted",
             "REPLYING_TO": "Replying to {name}",
-            "RETWEETED_BY": "Retweeted By",
+            "RETWEETED_BY": "Reposted By",
             "LIKED_BY": "Liked By",
             "ALL": "All",
             "NOTIFICATIONS": "Notifications",
             "FOLLOWS_YOU": "Follows you",
             "JOINED": "Joined {date}",
             "LIKED_TWEET": "liked your post",
-            "RETWEETED_TWEET": "retweeted your post",
+            "RETWEETED_TWEET": "reposted your post",
             "FOLLOWED": "followed you",
             "SIGN_UP_TEXT": "See what's happening in the world right now",
             "TERMS_OF_SERVICE": "By signing up, you agree to our Terms of Service and Privacy Policy.",
@@ -1208,10 +1208,10 @@
         },
         "TWITTER": {
             "LIKE": "Liked by {displayName}:",
-            "RETWEET": "Retweeted by {displayName}:",
+            "RETWEET": "Reposted by {displayName}:",
             "REPLY": "{displayName} replied:",
             "FOLLOW": "{username} started following you",
-            "TWEET": "{username} just tweeted"
+            "TWEET": "{username} just posted"
         },
         "TIKTOK": {
             "LIKE": "{displayName} liked your video.",
