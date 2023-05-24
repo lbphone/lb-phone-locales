@@ -632,7 +632,7 @@
             }
         },
         "TINDER": {
-            "TITLE": "Tinder",
+            "TITLE": "Spark",
             "LIKES_YOU_TOO": "likes you too!",
             "KEEP_SWIPING": "Keep swiping",
             "SAY_SOMETHING_NICE": "Say something nice",
@@ -667,7 +667,7 @@
             "SEARCH_MATCHES": "Search Matches"
         },
         "INSTAGRAM": {
-            "TITLE": "Instagram",
+            "TITLE": "InstaPic",
             "SEND": "Send",
             "POST": "Post",
             "MESSAGE_PLACEHOLDER": "Message...",
@@ -761,9 +761,9 @@
             "SEEN_BY": "Seen by {count}"
         },
         "TWITTER": {
-            "TITLE": "Twitter",
+            "TITLE": "Birdy",
             "SEARCH_FOR": "Search for '{search}'",
-            "START_SEARCHING": "Start searching to explore Twitter",
+            "START_SEARCHING": "Start searching to explore Birdy",
             "TRENDING_HASHTAGS": "Trending hashtags",
             "SENT_ATTACHMENT": "sent an attachment",
             "TO": "To",
@@ -846,7 +846,7 @@
             "FORGOT_PASSWORD": "Forgot password?",
             "ENTER_PASSWORD": "Enter your password",
             "SEARCH_DIRECT_MESSAGES": "Search direct messages",
-            "SEARCH_TWITTER": "Search Twitter",
+            "SEARCH_TWITTER": "Search Birdy",
             "MESSAGE_PLACEHOLDER": "Message...",
             "NOW": "Now",
             "LOGIN": "Log In",
@@ -945,7 +945,7 @@
             }
         },
         "TIKTOK": {
-            "TITLE": "TikTok",
+            "TITLE": "Trendy",
 
             "HOME": "Home",
             "DISCOVER": "Discover",
@@ -1014,9 +1014,9 @@
                 "PROCEED": "Proceed"
             },
 
-            "LOGIN_TITLE": "Log in to TikTok",
+            "LOGIN_TITLE": "Log in to Trendy",
             "LOGIN_SUBTITLE": "Manage your account check notifications, comment on videos, and more.",
-            "SIGNUP_TITLE": "Sign up for TikTok",
+            "SIGNUP_TITLE": "Sign up for Trendy",
             "SIGNUP_SUBTITLE": "Create a profile, follow other accounts, make your own videos, and more.",
             "NAME": "Name",
             "USERNAME": "Username",
@@ -1113,7 +1113,7 @@
             }
         },
         "AIRDROP": {
-            "TITLE": "AirShare",
+            "TITLE": "Airdrop",
             "TEXT": "{sender} would like to share a {type}",
             "VIDEO": "video",
             "PHOTO": "photo",
