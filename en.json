@@ -122,6 +122,7 @@
             "SUCCESS_TEXT": "Phone will restart in 5 seconds...",
             "OK": "OK",
             "ON": "On",
+            "OFF": "Off",
             "REMOVE_BACKUP_POPUP": {
                 "TITLE": "Remove Backup",
                 "TEXT": "Are you sure you want to remove this backup?",
@@ -133,7 +134,8 @@
                 "TEXT": "Are you sure you want to reset your phone? [THIS WILL REMOVE EVERYTHING]",
                 "CANCEL": "Cancel",
                 "CONFIRM": "Reset"
-            }
+            },
+            "UP_TO_DATE": "Your phone is up to date"
         },
         "NOTES": {
             "TITLE": "Notes",
@@ -216,6 +218,7 @@
             "GET": "Get",
             "OPEN": "Open",
             "TODAY": "Today",
+            "POPULAR_APPS": "Popular Apps",
             "GAMES": "Games",
             "APPS": "Apps",
             "WHAT_WE_PLAYING": "What we're playing",
@@ -223,7 +226,10 @@
             "PROVIDER": "Provider",
             "SIZE": "Size",
             "COMPATIBILITY": "Compatibility",
-            "IN_APP_PURCHASES": "In-App Purchases"
+            "IN_APP_PURCHASES": "In-App Purchases",
+            "WORKS_WITH_PHONE": "Works with this phone",
+            "NO": "No",
+            "YES": "Yes"
         },
         "PHOTOS": {
             "TITLE": "Photos",
@@ -324,6 +330,11 @@
                 "SEND_DESCRIPTION": "Do you want to send {amount} to {name}?",
                 "SEND_BUTTON_CANCEL": "Cancel",
                 "SEND_BUTTON_SEND": "Send"
+            },
+            "PAYMENT_FAILED_POPUP": {
+                "TITLE": "Payment Failed",
+                "DESCRIPTION": "Error: {error}",
+                "CLOSE": "Close"
             }
         },
         "PHONE": {
@@ -758,7 +769,8 @@
             "TO": "To",
             "SEND_A_MESSAGE": "Send a message...",
             "STORY_VIEWERS": "Viewers",
-            "SEEN_BY": "Seen by {count}"
+            "SEEN_BY": "Seen by {count}",
+            "ADD_ACCOUNT": "Add Account"
         },
         "TWITTER": {
             "TITLE": "Birdy",
@@ -855,7 +867,8 @@
             "PIN": "Pin Post",
             "UNPIN": "Unpin Post",
             "NEW_MESSAGE": "New Message",
-            "PROMOTED": "Promoted"
+            "PROMOTED": "Promoted",
+            "ADD_ACCOUNT": "Add Account"
         },
         "SERVICES": {
             "ACTIONS": "Actions",
@@ -1164,10 +1177,12 @@
     },
     "HOMESCREEN": {
         "DONE": "Done",
-        "REMOVE": "Remove",
-        "REMOVE_TEXT": "Deleting this app will NOT delete its data. The app can later be reinstalled from the App Store.",
-        "BUTTON_CANCEL": "Cancel",
-        "BUTTON_DELETE": "Delete"
+        "REMOVE_APP_POPUP": {
+            "TITLE": "Remove '{app}'?",
+            "DESCRIPTION": "Deleting this app will NOT delete its data. The app can later be reinstalled from the App store.",
+            "CANCEL": "Cancel",
+            "PROCEED": "Delete"
+        }
     },
     "LOCKSCREEN": {
         "ENTER_PASSCODE": "Enter Passcode",
@@ -1224,6 +1239,50 @@
         },
         "MISC": {
             "VERIFIED": "Your account has been verified"
+        },
+        "LOGS": {
+            "MAIL_TITLE": "Email",
+            "NEW_MAIL": "{sender} sent an email to {recipient}",
+
+            "MESSAGE_TITLE": "Text message",
+            "NEW_MESSAGE": "{sender} sent a message to {recipient}: {message}",
+
+            "CALL_ENDED": "Call ended",
+            "CALL_DESCRIPTION": "A call that lasted {duration}s was ended by {caller} and {callee}. Answered: {answered}",
+
+            "NEW_SERVICE_TITLE": "New message",
+            "NEW_SERVICE_CONTENT": "{sender} sent a message to {channel}: {message}",
+
+            "RECEIVED_TITLE": "Received ${amount}",
+            "PAID_TITLE": "Paid ${amount}",
+            "TRANSACTION": "{number} made a transaction of ${amount} to {company}",
+
+            "BOUGHT_CRYPTO": "Bought crypto",
+            "SOLD_CRYPTO": "Sold crypto",
+            "CRYPTO_DETAILS": "**Coin**: {coin}\n**Amount**: {amount}\n**Value**: ${price}\n",
+
+            "DARKCHAT_CREATED_TITLE": "Created channel",
+            "DARKCHAT_CREATED_DESCRIPTION": "{creator} created a channel called {channel}",
+            "DARKCHAT_MESSAGE_TITLE": "New message",
+            "DARKCHAT_MESSAGE_DESCRIPTION": "{sender} sent a message in {channel}: {message}",
+
+            "MARKETPLACE_NEW_TITLE": "New listing",
+            "MARKETPLACE_NEW_DESCRIPTION": "**Seller**: {seller}\n**Title**: {title}\n**Price**: ${price}\n**Description**: {description}\n**Attachments**: {attachments}\n**ID:** {id}",
+            "MARKETPLACE_DELETED": "Post deleted",
+
+            "YELLOWPAGES_NEW_TITLE": "New post",
+            "YELLOWPAGES_NEW_DESCRIPTION": "**Title**: {title}\n**Description**: {description}\n**Attachment**: {attachment}\n**ID:** {id}",
+            "YELLOWPAGES_DELETED": "Post deleted",
+
+            "LIVE_TITLE": "Live",
+            "STARTED_LIVE": "{username} started a live video",
+            "ENDED_LIVE": "{username} ended a live video",
+            "ADDED_STORY": "{username} added a photo to their story",
+
+            "TRENDY_UPLOAD_TITLE": "New video",
+            "TRENDY_UPLOAD_DESCRIPTION": "{username} uploaded a new video with the caption {caption} and id {id}",
+            "TRENDY_DELETE_TITLE": "Deleted a video",
+            "TRENDY_DELETE_DESCRIPTION": "{username} deleted a video with the id {id}"
         }
     }
 }
