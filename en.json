@@ -122,6 +122,7 @@
             "SUCCESS_TEXT": "Phone will restart in 5 seconds...",
             "OK": "OK",
             "ON": "On",
+            "OFF": "Off",
             "REMOVE_BACKUP_POPUP": {
                 "TITLE": "Remove Backup",
                 "TEXT": "Are you sure you want to remove this backup?",
@@ -133,7 +134,8 @@
                 "TEXT": "Are you sure you want to reset your phone? [THIS WILL REMOVE EVERYTHING]",
                 "CANCEL": "Cancel",
                 "CONFIRM": "Reset"
-            }
+            },
+            "UP_TO_DATE": "Your phone is up to date"
         },
         "NOTES": {
             "TITLE": "Notes",
@@ -216,6 +218,7 @@
             "GET": "Get",
             "OPEN": "Open",
             "TODAY": "Today",
+            "POPULAR_APPS": "Popular Apps",
             "GAMES": "Games",
             "APPS": "Apps",
             "WHAT_WE_PLAYING": "What we're playing",
@@ -223,7 +226,10 @@
             "PROVIDER": "Provider",
             "SIZE": "Size",
             "COMPATIBILITY": "Compatibility",
-            "IN_APP_PURCHASES": "In-App Purchases"
+            "IN_APP_PURCHASES": "In-App Purchases",
+            "WORKS_WITH_PHONE": "Works with this phone",
+            "NO": "No",
+            "YES": "Yes"
         },
         "PHOTOS": {
             "TITLE": "Photos",
@@ -324,6 +330,11 @@
                 "SEND_DESCRIPTION": "Do you want to send {amount} to {name}?",
                 "SEND_BUTTON_CANCEL": "Cancel",
                 "SEND_BUTTON_SEND": "Send"
+            },
+            "PAYMENT_FAILED_POPUP": {
+                "TITLE": "Payment Failed",
+                "DESCRIPTION": "Error: {error}",
+                "CLOSE": "Close"
             }
         },
         "PHONE": {
@@ -383,7 +394,9 @@
                 "BLOCK_NUMBER_TITLE": "Block Number",
                 "BLOCK_NUMBER_TEXT": "Are you sure you want to block {number}?",
                 "BLOCK_NUMBER_BUTTON_CANCEL": "Cancel",
-                "BLOCK_NUMBER_BUTTON_BLOCK": "Block"
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Block",
+                "EMAIL": "Email",
+                "ADDRESS": "Address"
             },
             "FAVOURITES": {
                 "TITLE": "Favorites",
@@ -410,6 +423,7 @@
             "NO_REFUNDS": "Payments are non refundable, double check the number.",
             "NEW_BALANCE": "New Balance",
             "LATEST_TRANSACTIONS": "Latest Transactions",
+            "LATEST_BILLS": "Latest Bills",
             "NOW": "Now",
             "AGO": "ago",
             "NUMBER_DOES_NOT_EXIST": "Number does not exist",
@@ -505,6 +519,14 @@
             "POST": "Post",
             "CONTACT": "Contact",
             "REMOVE": "Remove",
+            "ERROR_POPUP": {
+                "TITLE": "Error",
+                "NO_TITLE": "You need to enter a title",
+                "NO_DESCRIPTION": "You need to enter a description",
+                "NO_PRICE": "You need to enter a price",
+                "NO_ATTACHMENTS": "You need to attach at least one image",
+                "OK": "OK"
+            },
             "DELETE_POPUP": {
                 "TITLE": "Delete Listing",
                 "TEXT": "Are you sure you want to delete this listing?",
@@ -522,6 +544,12 @@
             "PRICE": "Price",
             "POST": "Post",
             "CALL": "Call",
+            "ERROR_POPUP": {
+                "TITLE": "Error",
+                "NO_TITLE": "You need to enter a title",
+                "NO_DESCRIPTION": "You need to enter a description",
+                "OK": "OK"
+            },
             "DELETE_POPUP": {
                 "TITLE": "Delete Post",
                 "TEXT": "Are you sure you want to delete this post?",
@@ -615,7 +643,7 @@
             }
         },
         "TINDER": {
-            "TITLE": "Tinder",
+            "TITLE": "Spark",
             "LIKES_YOU_TOO": "likes you too!",
             "KEEP_SWIPING": "Keep swiping",
             "SAY_SOMETHING_NICE": "Say something nice",
@@ -650,7 +678,7 @@
             "SEARCH_MATCHES": "Search Matches"
         },
         "INSTAGRAM": {
-            "TITLE": "Instagram",
+            "TITLE": "InstaPic",
             "SEND": "Send",
             "POST": "Post",
             "MESSAGE_PLACEHOLDER": "Message...",
@@ -687,6 +715,13 @@
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             },
+            "DELETE_STORY": {
+                "TITLE": "Delete Story",
+                "DESCRIPTION": "Are you sure you want to delete this story?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+
             "LIVE_ENDED": "Live Ended",
             "COMMENT_PLACEHOLDER": "Comment",
             "LIVE": "Live",
@@ -732,22 +767,25 @@
             "MESSAGE": "Message",
             "SENT_A_PHOTO": "sent a photo",
             "TO": "To",
-            "SEND_A_MESSAGE": "Send a message..."
+            "SEND_A_MESSAGE": "Send a message...",
+            "STORY_VIEWERS": "Viewers",
+            "SEEN_BY": "Seen by {count}",
+            "ADD_ACCOUNT": "Add Account"
         },
         "TWITTER": {
-            "TITLE": "Twitter",
+            "TITLE": "Birdy",
             "SEARCH_FOR": "Search for '{search}'",
-            "START_SEARCHING": "Start searching to explore Twitter",
+            "START_SEARCHING": "Start searching to explore Birdy",
             "TRENDING_HASHTAGS": "Trending hashtags",
             "SENT_ATTACHMENT": "sent an attachment",
             "TO": "To",
-            "TWEETS": "Tweets",
+            "TWEETS": "Posts",
             "REPLIES": "Replies",
             "MEDIA": "Media",
             "LIKES": "Likes",
             "CANCEL": "Cancel",
-            "TWEET": "Tweet",
-            "TWEET_REPLY": "Tweet your reply",
+            "TWEET": "Post",
+            "TWEET_REPLY": "Post your reply",
             "TWEET_GENERAL": "What's happening?",
             "EDIT_PROFILE": "Edit Profile",
             "SAVE": "Save",
@@ -768,15 +806,15 @@
                 "PROCEED": "Proceed"
             },
             "RETWEET_POPUP": {
-                "RETWEET": "Retweet",
-                "UNDO_RETWEET": "Undo Retweet",
+                "RETWEET": "Repost",
+                "UNDO_RETWEET": "Undo Repost",
                 "DESCRIPTION": "Are you sure you want to {action}?",
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             },
             "DELETE_POPUP": {
-                "TITLE": "Delete Tweet",
-                "DESCRIPTION": "Are you sure you want to delete this tweet?",
+                "TITLE": "Delete Post",
+                "DESCRIPTION": "Are you sure you want to delete this post?",
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             },
@@ -789,8 +827,8 @@
                 "DISABLE": "Disable"
             },
             "PROMOTE_POPUP": {
-                "TITLE": "Promote Tweet",
-                "DESCRIPTION": "Do you want to promote this tweet for {price} for {views} views?",
+                "TITLE": "Promote Post",
+                "DESCRIPTION": "Do you want to promote this post for {price} for {views} views?",
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             },
@@ -798,16 +836,16 @@
             "FOLLOW": "Follow",
             "FOLLOWING": "Following",
             "FOLLOWERS": "Followers",
-            "RETWEETED": "Retweeted",
+            "RETWEETED": "Reposted",
             "REPLYING_TO": "Replying to {name}",
-            "RETWEETED_BY": "Retweeted By",
+            "RETWEETED_BY": "Reposted By",
             "LIKED_BY": "Liked By",
             "ALL": "All",
             "NOTIFICATIONS": "Notifications",
             "FOLLOWS_YOU": "Follows you",
             "JOINED": "Joined {date}",
-            "LIKED_TWEET": "liked your tweet",
-            "RETWEETED_TWEET": "retweeted your tweet",
+            "LIKED_TWEET": "liked your post",
+            "RETWEETED_TWEET": "reposted your post",
             "FOLLOWED": "followed you",
             "SIGN_UP_TEXT": "See what's happening in the world right now",
             "TERMS_OF_SERVICE": "By signing up, you agree to our Terms of Service and Privacy Policy.",
@@ -820,14 +858,17 @@
             "FORGOT_PASSWORD": "Forgot password?",
             "ENTER_PASSWORD": "Enter your password",
             "SEARCH_DIRECT_MESSAGES": "Search direct messages",
-            "SEARCH_TWITTER": "Search Twitter",
+            "SEARCH_TWITTER": "Search Birdy",
             "MESSAGE_PLACEHOLDER": "Message...",
             "NOW": "Now",
             "LOGIN": "Log In",
             "CREATE_ACCOUNT": "Create Account",
             "PROMOTE": "Promote",
-            "PIN": "Pin Tweet",
-            "UNPIN": "Unpin Tweet"
+            "PIN": "Pin Post",
+            "UNPIN": "Unpin Post",
+            "NEW_MESSAGE": "New Message",
+            "PROMOTED": "Promoted",
+            "ADD_ACCOUNT": "Add Account"
         },
         "SERVICES": {
             "ACTIONS": "Actions",
@@ -881,6 +922,173 @@
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             }
+        },
+        "CRYPTO": {
+            "TITLE": "Crypto",
+            "BALANCE": "Estimated Balance",
+            "BUY": "Buy",
+            "SELL": "Sell",
+            "SELL_ALL": "Sell All",
+            "NO_MONEY": "You don't have enough money",
+            "NO_COINS": "You don't have any of this coin",
+            "NOT_ENOUGH_COINS": "You don't have enough coins",
+            "ATLEAST_ONE_COIN": "You must {action} at least one coin",
+            "INVALID_COIN": "Invalid coin",
+            "ERROR": "Error",
+            "CLOSE": "Close",
+            "BUY_POPUP": {
+                "TITLE": "Buy {coin}",
+                "DESCRIPTION": "Enter the amount of {coin} (in $) you want to buy",
+                "PLACEHOLDER": "$1000",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+            "SELL_POPUP": {
+                "TITLE": "Sell {coin}",
+                "DESCRIPTION": "Enter the amount of {coin} (in $) you want to sell",
+                "PLACEHOLDER": "$1000",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+            "SELL_ALL_POPUP": {
+                "TITLE": "Sell all {coin}",
+                "DESCRIPTION": "Are you sure you want to sell all your {coin} for ${amount}?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            }
+        },
+        "TIKTOK": {
+            "TITLE": "Trendy",
+
+            "HOME": "Home",
+            "DISCOVER": "Discover",
+            "INBOX": "Inbox",
+            "PROFILE": "Profile",
+
+            "COMMENTS_TITLE": "{count} comments",
+            "REPLY": "Reply",
+            "VIEW_REPLIES": "View replies",
+            "ADD_COMMENT": "Add a comment...",
+            "REPLY_TO": "Reply to {name}",
+            "PIN_COMMENT": "Pin Comment",
+            "UNPIN_COMMENT": "Unpin Comment",
+            "DELETE_COMMENT": "Delete Comment",
+            "DELETE": "Delete",
+            "PINNED": "Pinned",
+            "PIN_VIDEO": "Pin Video",
+            "UNPIN_VIDEO": "Unpin Video",
+            "PIN": "pin",
+            "UNPIN": "unpin",
+            "MAX_PINNED_TITLE": "Max Pinned",
+            "MAX_PINNED_DESCRIPTION": "You can only pin up to 3 videos",
+            "OK": "OK",
+            "CREATOR": "Creator",
+            "LIKED_BY_CREATOR": "Liked by creator",
+
+            "PIN_VIDEO_POPUP": {
+                "TITLE": "Pin Video",
+                "DESCRIPTION": "Are you sure you want to {action} this video?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+            "DELETE_VIDEO_POPUP": {
+                "TITLE": "Delete Video",
+                "DESCRIPTION": "Are you sure you want to delete this video?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+            "FAILED_UPLOAD_POPUP": {
+                "TITLE": "Failed to upload TTS",
+                "DESCRIPTION": "The server owner hasn't set up the audio upload correctly. Please contact them to fix this issue.",
+                "CANCEL": "Cancel",
+                "PROCEED": "Ignore"
+            },
+
+            "SHARE_TITLE": "Share To",
+            "SHARE": "Share",
+            "REPORT": "Report",
+            "SAVE_VIDEO": "Save Video",
+            "ADD_FAVOURITE": "Add to Favourites",
+            "CANCEL": "Cancel",
+            "GO_BACK": "Go Back",
+
+            "FOLLOWING": "Following",
+            "FOLLOWERS": "Followers",
+            "UNFOLLOW": "Unfollow",
+            "FOLLOW": "Follow",
+            "FOR_YOU": "For You",
+            "VIDEOS": "Videos",
+            "LIKES": "Likes",
+
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Unfollow",
+                "DESCRIPTION": "Are you sure you want to unfollow {name}?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+
+            "LOGIN_TITLE": "Log in to Trendy",
+            "LOGIN_SUBTITLE": "Manage your account check notifications, comment on videos, and more.",
+            "SIGNUP_TITLE": "Sign up for Trendy",
+            "SIGNUP_SUBTITLE": "Create a profile, follow other accounts, make your own videos, and more.",
+            "NAME": "Name",
+            "USERNAME": "Username",
+            "PASSWORD": "Password",
+            "BIO": "Bio",
+            "SHOW_LIKES": "Show Likes",
+
+            "LOGIN": "Log in",
+            "SIGNUP": "Sign up",
+            "NO_ACCOUNT": "Don't have an account?",
+            "ALREADY_ACCOUNT": "Already have an account?",
+            "SEARCH_PLACEHOLDER": "Search for users",
+
+            "STARTED_FOLLOWING": "started following you.",
+            "LIKED_VIDEO": "liked your video.",
+            "LIKED_COMMENT": "liked your comment.",
+            "SAVED_VIDEO": "sadded your video to Favorites.",
+            "COMMENTED": "commented: {comment}",
+            "REPLIED": "replied to your comment: {comment}",
+
+            "EDIT_PROFILE": "Edit Profile",
+            "MESSAGE": "Message",
+            "CHANGE_PHOTO": "Change Photo",
+            "LOGOUT": "Log out",
+            "ADD_TO_YOUR_PROFILE": "Add to your profile",
+            "LIKED_HIDDEN_TITLE": "This user's liked videos are private.",
+            "LIKED_HIDDEN_SUBTITLE": "Videos liked by {name} are currently hidden.",
+
+            "INVALID_ACCOUNT_POPUP": {
+                "TITLE": "Invalid {name}",
+                "DESCRIPTION": "You're not logged into the {name} account you entered, please correct it.",
+                "OK": "OK"
+            },
+            "REMOVE_ACCOUNT_POPUP": {
+                "TITLE": "Remove {name} account",
+                "DESCRIPTION": "Are you sure you want to remove your {name} account from your profile?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+
+            "ADD_ACCOUNT_TITLE": "Add account",
+            "ADD_ACCOUNT": "Add {name} to your profile",
+            "UPLOAD_VIDEO": "Upload Video",
+            "PREVIEW": "Preview",
+            "CAPTION": "Caption",
+            "CAPTION_PLACEHOLDER": "Add a caption...",
+            "TTS": "Text to Speech (TTS)",
+            "TTS_PLACEHOLDER": "Add text to speech...",
+            "MUSIC": "Music",
+            "SELECT_MUSIC": "Select Music",
+            "OPTIONAL": "Optional",
+
+            "DIRECT_MESSAGES": "Direct Messages",
+            "ALL_ACTIVITY": "All Activity",
+            "NO_NOTIFICATIONS": "Notifications aren't available",
+            "NO_NOTIFICATIONS_SUBTITLE": "Notifications about your account will appear here.",
+            "NO_FOLLOWING_TITLE": "Start following people and their videos will appear here.",
+            "NO_MESSAGES_TITLE": "Message your friends",
+            "NO_MESSAGES_SUBTITLE": "Share videos or start a conversation"
         }
     },
     "COMPONENTS": {
@@ -928,6 +1136,28 @@
             "PLAYLIST": "playlist",
             "DECLINE": "Decline",
             "ACCEPT": "Accept"
+        },
+        "DYNAMICISLAND": {
+            "SILENT": "Silent",
+            "RING": "Ring",
+            "TIMER": "Timer"
+        },
+        "MUSIC_SELECTOR": {
+            "CANCEL": "Cancel",
+            "NO-RESULTS": "No music configured, tell the server-owner to add songs",
+            "SEARCH": "Search for a song",
+            "SELECT_POPUP": {
+                "TITLE": "Select song",
+                "DESCRIPTION": "Are you sure you want to select {song}",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            }
+        },
+        "BATTERY": {
+            "LOW_BATTERY": "Low Battery",
+            "BATTERY_REMAINING": "{percent}% battery remaining",
+            "LOW_POWER_MODE": "Low Power Mode",
+            "CLOSE": "Close"
         }
     },
     "SETUP": {
@@ -947,10 +1177,12 @@
     },
     "HOMESCREEN": {
         "DONE": "Done",
-        "REMOVE": "Remove",
-        "REMOVE_TEXT": "Deleting this app will NOT delete its data. The app can later be reinstalled from the App Store.",
-        "BUTTON_CANCEL": "Cancel",
-        "BUTTON_DELETE": "Delete"
+        "REMOVE_APP_POPUP": {
+            "TITLE": "Remove '{app}'?",
+            "DESCRIPTION": "Deleting this app will NOT delete its data. The app can later be reinstalled from the App store.",
+            "CANCEL": "Cancel",
+            "PROCEED": "Delete"
+        }
     },
     "LOCKSCREEN": {
         "ENTER_PASSCODE": "Enter Passcode",
@@ -971,6 +1203,7 @@
         },
         "INSTAGRAM": {
             "NOT_ALLOWED_LIVE": "You are not allowed to go live",
+            "NOT_ALLOWED_STORY": "You are not allowed to post stories",
             "STARTED_LIVE": "{username} started a live video"
         },
         "TINDER": {
@@ -985,7 +1218,71 @@
             "CHANGE_MODE": "Press {key} {key2} to change the camera mode"
         },
         "SERVICES": {
-            "NEW_MESSAGE": "New Message"
+            "NEW_MESSAGE": "New Message",
+            "ANONYMOUS": "Anonymous"
+        },
+        "TWITTER": {
+            "LIKE": "Liked by {displayName}:",
+            "RETWEET": "Reposted by {displayName}:",
+            "REPLY": "{displayName} replied:",
+            "FOLLOW": "{username} started following you",
+            "TWEET": "{username} just posted"
+        },
+        "TIKTOK": {
+            "LIKE": "{displayName} liked your video.",
+            "COMMENT": "{displayName} commented on your video.",
+            "FOLLOW": "{displayName} started following you.",
+            "SAVE": "{displayName} favorited your video.",
+            "LIKED_COMMENT": "{displayName} liked your comment.",
+            "REPLIED_COMMENT": "{displayName} replied to your comment.",
+            "DM": "{displayName}"
+        },
+        "MISC": {
+            "VERIFIED": "Your account has been verified"
+        },
+        "LOGS": {
+            "MAIL_TITLE": "Email",
+            "NEW_MAIL": "{sender} sent an email to {recipient}",
+
+            "MESSAGE_TITLE": "Text message",
+            "NEW_MESSAGE": "{sender} sent a message to {recipient}: {message}",
+
+            "CALL_ENDED": "Call ended",
+            "CALL_DESCRIPTION": "A call that lasted {duration}s was ended by {caller} and {callee}. Answered: {answered}",
+
+            "NEW_SERVICE_TITLE": "New message",
+            "NEW_SERVICE_CONTENT": "{sender} sent a message to {channel}: {message}",
+
+            "RECEIVED_TITLE": "Received ${amount}",
+            "PAID_TITLE": "Paid ${amount}",
+            "TRANSACTION": "{number} made a transaction of ${amount} to {company}",
+
+            "BOUGHT_CRYPTO": "Bought crypto",
+            "SOLD_CRYPTO": "Sold crypto",
+            "CRYPTO_DETAILS": "**Coin**: {coin}\n**Amount**: {amount}\n**Value**: ${price}\n",
+
+            "DARKCHAT_CREATED_TITLE": "Created channel",
+            "DARKCHAT_CREATED_DESCRIPTION": "{creator} created a channel called {channel}",
+            "DARKCHAT_MESSAGE_TITLE": "New message",
+            "DARKCHAT_MESSAGE_DESCRIPTION": "{sender} sent a message in {channel}: {message}",
+
+            "MARKETPLACE_NEW_TITLE": "New listing",
+            "MARKETPLACE_NEW_DESCRIPTION": "**Seller**: {seller}\n**Title**: {title}\n**Price**: ${price}\n**Description**: {description}\n**Attachments**: {attachments}\n**ID:** {id}",
+            "MARKETPLACE_DELETED": "Post deleted",
+
+            "YELLOWPAGES_NEW_TITLE": "New post",
+            "YELLOWPAGES_NEW_DESCRIPTION": "**Title**: {title}\n**Description**: {description}\n**Attachment**: {attachment}\n**ID:** {id}",
+            "YELLOWPAGES_DELETED": "Post deleted",
+
+            "LIVE_TITLE": "Live",
+            "STARTED_LIVE": "{username} started a live video",
+            "ENDED_LIVE": "{username} ended a live video",
+            "ADDED_STORY": "{username} added a photo to their story",
+
+            "TRENDY_UPLOAD_TITLE": "New video",
+            "TRENDY_UPLOAD_DESCRIPTION": "{username} uploaded a new video with the caption {caption} and id {id}",
+            "TRENDY_DELETE_TITLE": "Deleted a video",
+            "TRENDY_DELETE_DESCRIPTION": "{username} deleted a video with the id {id}"
         }
     }
 }

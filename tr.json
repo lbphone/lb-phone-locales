@@ -169,7 +169,7 @@
             },
             "TIMER": {
                 "TITLE": "Zamanlayıcı",
-                "START": "Bşlat",
+                "START": "Başlat",
                 "STOP": "Durdur",
                 "CANCEL": "İptal",
                 "HOURS": "saat",
@@ -400,6 +400,7 @@
             "NO_REFUNDS": "Ödemelerin iadesi yoktur, miktarı iki kere kontrol ediniz.",
             "NEW_BALANCE": "Yeni Bakiye",
             "LATEST_TRANSACTIONS": "Son İşlemler",
+            "LATEST_BILLS": "Son Faturalar",
             "NOW": "Şimdi",
             "AGO": "önce"
         },
@@ -485,6 +486,14 @@
                 "TEXT": "Bu gönderiyi kaldırmak istediğine emin misin?",
                 "CANCEL": "İptal",
                 "PROCEED": "KALDIR"
+            },
+            "ERROR_POPUP": {
+                "TITLE": "Hata",
+                "NO_TITLE": "Bir Başlık Girmelisin!",
+                "NO_DESCRIPTION": "Bir Açıklama Girmelisin!",
+                "NO_PRICE": "Bir Fiyat Girmelisin!",
+                "NO_ATTACHMENTS": "Bir Fotoğraf Eklemelisin!",
+                "OK": "ONAYLA"
             }
         },
         "SERVICES": {
@@ -693,6 +702,12 @@
                 "PROCEED": "Onayla"
             },
             "LIVE_ENDED": "Canlı Yayın Sonlandı",
+            "DELETE_STORY": {
+                "TITLE": "Hikayeyi Sil",
+                "DESCRIPTION": "Bu hikayeyi silmek istediğinize emin misiniz?",
+                "CANCEL": "İptal",
+                "PROCEED": "Devam Et"
+            },
             "COMMENT_PLACEHOLDER": "Yorum",
             "LIVE": "Canlı",
             "YOUR_STORY": "Hikayen",
@@ -736,7 +751,10 @@
             "POSTS": "Gönderiler",
             "MESSAGE": "Mesaj",
             "SENT_A_PHOTO": "bir fotoğraf gönderdi.",
-            "TO": "To"
+            "TO": "To",
+            "SEND_A_MESSAGE": "Bir Mesaj Gönder...",
+            "STORY_VIEWERS": "Görüntüleyenler",
+            "SEEN_BY": "{count} Kişi Gördü"
         },
         "TWITTER": {
             "TITLE": "Twitter",
@@ -841,8 +859,177 @@
                 "TEXT": "Bu gönderiyi silmek istediğine emin misin?",
                 "CANCEL": "İptal",
                 "PROCEED": "Sil"
+            },
+            "ERROR_POPUP": {
+                "TITLE": "Hata",
+                "NO_TITLE": "Bir Başlık Girmelisin!",
+                "NO_DESCRIPTION": "Bir Açıklama Girmelisin!",
+                "NO_PRICE": "Bir Fiyat Girmelisin!",
+                "NO_ATTACHMENTS": "Bir Fotoğraf Eklemelisin!",
+                "OK": "ONAYLA"
+            }
+        },
+        "CRYPTO": {
+            "TITLE": "MetaMask",
+            "BALANCE": "Tahmini Bakiye",
+            "BUY": "Al",
+            "SELL": "Sat",
+            "SELL_ALL": "Hepsini Sat",
+            "NO_MONEY": "Yeterince paran yok.",
+            "NO_COINS": "Hesabında bir coin yok.",
+            "NOT_ENOUGH_COINS": "Yeterince coin yok.",
+            "ATLEAST_ONE_COIN": "En az bir coin {action} yapmalısın.",
+            "INVALID_COIN": "Geçersiz coin.",
+            "ERROR": "Hata",
+            "CLOSE": "Kapat",
+            "BUY_POPUP": {
+                "TITLE": "{coin} Satın Al",
+                "DESCRIPTION": "{coin} Miktarı ($ Cinsinden) giriniz.",
+                "PLACEHOLDER": "$1000", 
+                "CANCEL": "İptal",
+                "PROCEED": "Satın Al"
+            },
+            "SELL_POPUP": {
+                "TITLE": "{coin} Sat",
+                "DESCRIPTION": "{coin} Miktarı ($ Cinsinden) giriniz.",
+                "PLACEHOLDER": "$1000",
+                "CANCEL": "İptal",
+                "PROCEED": "Sat"
+            },
+            "SELL_ALL_POPUP": {
+                "TITLE": "Tümünü Sat: {coin}",
+                "DESCRIPTION": "Tüm {coin} leri/ları ${amount} miktarına satmak istediğine emin misin?",
+                "CANCEL": "İptal",
+                "PROCEED": "Sat"
             }
         }
+    },
+    "TIKTOK": {
+        "TITLE": "TikTok",
+
+        "HOME": "Anasayfa",
+        "DISCOVER": "Keşfet",
+        "INBOX": "Gelen Kutusu",
+        "PROFILE": "Profil",
+    
+        "COMMENTS_TITLE": "{count} yorum",
+        "REPLY": "Yanıtla",
+        "VIEW_REPLIES": "Yanıtları görüntüle",
+        "ADD_COMMENT": "Bir yorum ekle...",
+        "REPLY_TO": "{name} yanıtla",
+        "PIN_COMMENT": "Yorumu Sabitle",
+        "UNPIN_COMMENT": "Yorumu Sabitlemekten Vazgeç",
+        "DELETE_COMMENT": "Yorumu Sil",
+        "DELETE": "Sil",
+        "PINNED": "Sabitle",
+        "PIN_VIDEO": "Videoyu Sabitle",
+        "UNPIN_VIDEO": "Videoyu Sabitlemekten Vazgeç",
+        "PIN": "sabitle",
+        "UNPIN": "sabitliği kaldır",
+        "MAX_PINNED_TITLE": "En Fazla Sabitleme",
+        "MAX_PINNED_DESCRIPTION": "En fazla 3 videoyu sabitleyebilirsiniz.",
+        "OK": "Tamam",
+        "CREATOR": "Oluşturan",
+        "LIKED_BY_CREATOR": "Oluşturan tarafından beğenildi",
+    
+        "PIN_VIDEO_POPUP": {
+            "TITLE": "Videoyu Sabitle",
+            "DESCRIPTION": "Bu videoyu {action}mek istediğinize emin misiniz?",
+            "CANCEL": "İptal",
+            "PROCEED": "Devam et"
+        },
+        "DELETE_VIDEO_POPUP": {
+            "TITLE": "Videoyu Sil",
+            "DESCRIPTION": "Bu videoyu silmek istediğinize emin misiniz?",
+            "CANCEL": "İptal",
+            "PROCEED": "Devam et"
+        },
+    
+        "SHARE_TITLE": "Paylaş",
+        "SHARE": "Paylaş",
+        "REPORT": "Şikayet Et",
+        "SAVE_VIDEO": "Videoyu Kaydet",
+        "ADD_FAVOURITE": "Favorilere Ekle",
+        "CANCEL": "İptal",
+        "GO_BACK": "Geri Dön",
+    
+        "FOLLOWING": "Takip Ediliyor",
+        "FOLLOWERS": "Takipçiler",
+        "UNFOLLOW": "Takibi Bırak",
+        "FOLLOW": "Takip Et",
+        "FOR_YOU": "Sana Özel",
+        "VIDEOS": "Videolar",
+        "LIKES": "Beğeniler",
+    
+        "UNFOLLOW_POPUP": {
+            "TITLE": "Takibi Bırak",
+            "DESCRIPTION": "{name}'ı takip etmeyi bırakmak istediğinize emin misiniz?",
+            "CANCEL": "İptal",
+            "PROCEED": "Devam et"
+        },
+
+        "LOGIN_TITLE": "TikTok'a Giriş Yapın",
+        "LOGIN_SUBTITLE": "Hesabınızı yönetin, bildirimleri kontrol edin, videolara yorum yapın ve daha fazlasını yapın.",
+        "SIGNUP_TITLE": "TikTok'a Kaydolun",
+        "SIGNUP_SUBTITLE": "Profil oluşturun",    
+        "NAME": "Ad",
+        "USERNAME": "Kullanıcı Adı",
+        "PASSWORD": "Parola",
+        "BIO": "Hakkında",
+        "SHOW_LIKES": "Beğenileri Göster",
+    
+        "LOGIN": "Giriş Yap",
+        "SIGNUP": "Kaydol",
+        "NO_ACCOUNT": "Hesabınız yok mu?",
+        "ALREADY_ACCOUNT": "Zaten bir hesabınız var mı?",
+        "SEARCH_PLACEHOLDER": "Kullanıcı ara",
+    
+        "STARTED_FOLLOWING": "sizi takip etmeye başladı.",
+        "LIKED_VIDEO": "videonuzu beğendi.",
+        "LIKED_COMMENT": "yorumunuzu beğendi.",
+        "SAVED_VIDEO": "videonuzu Favorilerine ekledi.",
+        "COMMENTED": "yorum yaptı: {comment}",
+        "REPLIED": "yorumunuza yanıt verdi: {comment}",
+    
+        "EDIT_PROFILE": "Profili Düzenle",
+        "MESSAGE": "Mesaj",
+        "CHANGE_PHOTO": "Fotoğrafı Değiştir",
+        "LOGOUT": "Çıkış Yap",
+        "ADD_TO_YOUR_PROFILE": "Profilinize ekle",
+        "LIKED_HIDDEN_TITLE": "Bu kullanıcının beğendiği videolar gizli.",
+        "LIKED_HIDDEN_SUBTITLE": "{name} tarafından beğenilen videolar şu anda gizli.",
+    
+        "INVALID_ACCOUNT_POPUP": {
+            "TITLE": "Geçersiz {name}",
+            "DESCRIPTION": "Girdiğiniz {name} hesabına giriş yapmamışsınız, lütfen düzeltin.",
+            "OK": "Tamam"
+        },
+        "REMOVE_ACCOUNT_POPUP": {
+            "TITLE": "{name} hesabını kaldır",
+            "DESCRIPTION": "Profilinizden {name} hesabınızı kaldırmak istediğinizden emin misiniz?",
+            "CANCEL": "İptal",
+            "PROCEED": "Devam et"
+        },
+        "ADD_ACCOUNT_TITLE": "Hesap ekle",
+        "ADD_ACCOUNT": "Profilinize {name} ekle",
+      
+        "UPLOAD_VIDEO": "Video Yükle",
+        "PREVIEW": "Önizleme",
+        "CAPTION": "Açıklama",
+        "CAPTION_PLACEHOLDER": "Açıklama ekle...",
+        "TTS": "Metin okuma (TTS)",
+        "TTS_PLACEHOLDER": "Metin ekleyin...",
+        "MUSIC": "Müzik",
+        "SELECT_MUSIC": "Müzik Seç",
+        "OPTIONAL": "İsteğe bağlı",
+
+        "DIRECT_MESSAGES": "Doğrudan Mesajlar",
+        "ALL_ACTIVITY": "Tüm Aktiviteler",
+        "NO_NOTIFICATIONS": "Bildirimler mevcut değil",
+        "NO_NOTIFICATIONS_SUBTITLE": "Hesabınızla ilgili bildirimler burada görüntülenecek.",
+        "NO_FOLLOWING_TITLE": "İnsanları takip edin ve videoları burada görüntüleyin.",
+        "NO_MESSAGES_TITLE": "Arkadaşlarınızla mesajlaşın",
+        "NO_MESSAGES_SUBTITLE": "Videoları paylaşın veya sohbete başlayın"
     },
     "COMPONENTS": {
         "CONTEXT_MENU": {
@@ -927,8 +1114,25 @@
             "ON_WAY": "Aracınız yola çıktı.",
             "MARKED": "Aracınız GPS üzerinde işaretlenmiştir."
         },
+        "DYNAMICISLAND": {
+            "SILENT": "Sessiz",
+            "RING": "Ses Açık",
+            "TIMER": "Zamanlayıcı"
+        },
+        "MUSIC_SELECTOR": {
+            "CANCEL": "Cancel",
+            "NO-RESULTS": "No music configured, tell the server-owner to add songs",
+            "SEARCH": "Search for a song",
+            "SELECT_POPUP": {
+                "TITLE": "Select song",
+                "DESCRIPTION": "Are you sure you want to select {song}",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            }
+        },
         "INSTAGRAM": {
             "NOT_ALLOWED_LIVE": "Canlı yayın yapmanıza izin verilmiyor",
+            "NOT_ALLOWED_STORY": "Hikaye paylaşmanıza izin verilmiyor",
             "STARTED_LIVE": "{username} canlı yayın başlattı"
         },
         "TINDER": {
@@ -941,6 +1145,25 @@
             "TOGGLE_FLASH": "{key} Flash Aç/Kapat",
             "TOGGLE_CURSOR": "{key} İmleç Aç/Kapat",
             "CHANGE_MODE": "{key} {key2} Kamera Modunu Değiştir"
+        },
+        "SERVICES": {
+            "NEW_MESSAGE": "Yeni Mesaj"
+        },
+        "TWITTER": {
+            "LIKE": "{displayName} tarafından beğenildi:",
+            "RETWEET": "{displayName} tarafından yeniden paylaşıldı:",
+            "REPLY": "{displayName} yanıtladı:",
+            "FOLLOW": "{username} seni takip etmeye başladı",
+            "TWEET": "{username} yeni tweet attı"
+        },
+        "TIKTOK": {
+            "LIKE": "{displayName} senin videosunu beğendi.",
+            "COMMENT": "{displayName} senin videosuna yorum yaptı.",
+            "FOLLOW": "{displayName} seni takip etmeye başladı.",
+            "SAVE": "{displayName} senin videosunu favorilere ekledi.",
+            "LIKED_COMMENT": "{displayName} senin yorumunu beğendi.",
+            "REPLIED_COMMENT": "{displayName} senin yorumuna yanıt verdi.",
+            "DM": "{displayName}"
         }
     }
 }
