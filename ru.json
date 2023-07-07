@@ -2,6 +2,11 @@
     "LABEL": "Русский",
     "SEARCH": "Поиск",
     "CANCEL": "Отменить",
+    "NOW": "сейчас",
+    "D": "д",
+    "H": "ч",
+    "M": "м",
+    "S": "с",
 
     "APPS": {
         "SETTINGS": {
@@ -9,12 +14,10 @@
             "BACK": "Назад",
             "DONE": "Готово",
             "EDIT": "Изменить",
-
-            "AIRPLANE_MODE": "Режим полета",
+            "AIRPLANE_MODE": "Авиарежим",
             "STREAMER_MODE": "Режим стримера",
-            "BLUETOOTH": "Блютуз",
-            "GENERAL": "Общее",
-
+            "BLUETOOTH": "Bluetooth",
+            "GENERAL": "Основные",
             "ABOUT": "О",
             "NAME": "Имя",
             "VERSION": "Версия",
@@ -27,59 +30,51 @@
             "PHOTOS": "Фото",
             "APPLICATIONS": "Приложения",
             "CAPACITY": "Вместимость",
-            "AVAILABLE": "Доступный",
-
-            "SOFTWARE_UPDATE": "Обновление программного обеспечения",
+            "AVAILABLE": "Доступно",
+            "SOFTWARE_UPDATE": "Обновление ПО",
             "AUTOMATIC_UPDATES": "Автоматические обновления",
-
             "DATE_TIME": "Дата и время",
             "24_HOUR_TIME": "24-часовое время",
             "SET_AUTOMATICALLY": "Установить автоматически",
             "TIME_ZONE": "Часовой пояс",
-
             "LANGUAGE_REGION": "Язык и регион",
             "LANGUAGE": "Язык",
             "TEMPERATURE": "Температура",
+            "CELCIUS": "Цельсий",
+            "FAHRENHEIT": "Фаренгейт",
             "BATTERY": "Батарея",
-
             "SOUND_HAPTICS": "Звук и тактильные ощущения",
             "SOUND_HAPTICS_PATTERNS": "Звуковые и тактильные шаблоны",
             "RINGTONE": "Рингтон",
             "TEXT_TONE": "Тон текста",
             "RINGTONE_VOLUME": "Рингтон и громкость оповещения",
             "DEFAULT": "По умолчанию",
-
             "PHONE_STORAGE": "Память телефона",
             "STORAGE": "Хранилище",
-            "USED": "Использованное",
-            "OF": "Отключен",
-
+            "USED": "Используется",
+            "OF": "из",
             "DISPLAY_BRIGHTNESS": "Дисплей и яркость",
             "APPEARANCE": "Вид",
             "AUTOMATIC": "Автоматический",
             "BRIGHTNESS": "Яркость",
             "PHONE_SCALE": "Размер телефона",
-
+            "FRAME_COLOR": "Цвет рамки",
             "WALLPAPER": "Обои",
             "WALLPAPERS": "Обои",
             "CHOOSE_NEW_WALLPAPER": "Выберите новые обои",
-
             "NOTIFICATIONS": "Уведомления",
             "ALLOW_NOTIFICATIONS": "Разрешить уведомления",
             "SOUNDS": "Звуки",
-
             "PHONE": "Телефон",
             "BLOCKED_CONTACTS": "Заблокированные контакты",
             "MY_NUMBER": "Мой номер",
-            "SHOW_CALLER_ID": "Показать идентификатор вызывающего абонента",
-
+            "SHOW_CALLER_ID": "Показать id звонящего",
             "UNBLOCK_POPUP": {
                 "TITLE": "Разблокировать номер",
                 "TEXT": "Вы уверены, что хотите разблокировать этот номер?",
                 "CANCEL": "Отмена",
                 "CONFIRM": "Разблокировать"
             },
-
             "FACE_ID_PASSWORD": "Идентификатор лица и пароль",
             "ENTER_PASSCODE": "Введите код доступа",
             "PASSCODE": "Код доступа",
@@ -87,14 +82,12 @@
             "RESET_FACE_ID": "Сбросить идентификатор лица",
             "ENABLE_FACE_ID": "Включить идентификацию лица",
             "PIN_CODE": "Пин-код",
-
             "DISABLE_FACE_ID_POPUP": {
                 "TITLE": "Отключить идентификацию лица",
                 "TEXT": "Вы уверены, что хотите отключить идентификатор лица?",
                 "CANCEL": "Отмена",
                 "CONFIRM": "Выключить"
             },
-
             "ENABLE_FACE_ID_POPUP": {
                 "TITLE": "Включить идентификацию лица",
                 "TEXT": "Вы уверены, что хотите включить идентификатор лица?",
@@ -129,16 +122,24 @@
             "SUCCESS": "Успех",
             "SUCCESS_TEXT": "Телефон перезагрузится через 5 секунд...",
             "OK": "ОК",
+            "ON": "Вкл",
+            "OFF": "Выкл",
             "REMOVE_BACKUP_POPUP": {
                 "TITLE": "Удалить резервную копию",
                 "TEXT": "Вы уверены, что хотите удалить эту резервную копию?",
                 "CANCEL": "Отменить",
                 "CONFIRM": "Удалить"
             },
-            "ON": "Включен"
+            "RESET_POPUP": {
+                "TITLE": "Сбросить телефон",
+                "TEXT": "Вы уверены, что хотите сбросить настройки своего телефона? [ЭТО УДАЛИТ ВСЕ]",
+                "CANCEL": "Отмена",
+                "CONFIRM": "Сброс"
+            },
+            "UP_TO_DATE": "Ваш телефон обновлен"
         },
         "NOTES": {
-            "TITLE": "Записи",
+            "TITLE": "Заметки",
             "SEARCH_PLACEHOLDER": "Поиск",
             "FOOTER": "{amount} Записи",
             "NEW_NOTE": "Новая заметка",
@@ -206,7 +207,7 @@
             "LEAVE": "Покинуть",
             "NEW_ROOM": "Новая комната",
             "NEW_ROOM_TEXT": "Введите код комнаты, чтобы присоединиться или создать комнату",
-            "ROOM_CODE": "Код номера",
+            "ROOM_CODE": "Код комнаты",
             "LEAVE_ROOM": "Покинуть комнату",
             "LEAVE_ROOM_TEXT": "Вы уверены, что хотите покинуть эту комнату?",
             "NOW": "Сейчас",
@@ -218,27 +219,36 @@
             "GET": "Получить",
             "OPEN": "Открыть",
             "TODAY": "Сегодня",
+            "POPULAR_APPS": "Популярные приложения",
             "GAMES": "Игры",
+            "APPS": "Приложения",
             "WHAT_WE_PLAYING": "Во что мы играем",
             "INFORMATION": "Информация",
             "PROVIDER": "Поставщик",
             "SIZE": "Размер",
             "COMPATIBILITY": "Совместимость",
-            "IN_APP_PURCHASES": "Покупки в приложении"
+            "IN_APP_PURCHASES": "Покупки в приложении",
+            "WORKS_WITH_PHONE": "Работает с этим телефоном",
+            "NO": "Нет",
+            "YES": "Да",
+            "PURCHASE_APP_POPUP": {
+                "TITLE": "Покупка приложения",
+                "DESCRIPTION": "Вы хотите приобрести {app} за {price}?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Купить"
+            }
         },
         "PHOTOS": {
             "TITLE": "Фото",
-            "SELECT": "Фото",
-            "CANCEL": "Выбрать",
+            "SELECT": "Выбрать",
+            "CANCEL": "Отмена",
             "SELECT_ITEMS": "Выберите предметы",
             "SELECTED_COUNT": "{count} Выбранные предметы",
             "PHOTO_COUNT": "{count} фото",
-
             "DELETE_TITLE": "Удалить {count} изображений",
             "DELETE_TEXT": "Вы хотите удалить {count} изображений",
             "DELETE_BUTTON_CANCEL": "Отменить",
             "DELETE_BUTTON_DELETE": "Удалить",
-
             "DELETE_IMAGE_TITLE": "Удалить изображение",
             "DELETE_IMAGE_TEXT": "Вы хотите удалить это изображение?",
             "DELETE_IMAGE_BUTTON_CANCEL": "Отменить",
@@ -252,14 +262,12 @@
             "FEELS_LIKE_SAME": "Аналогично реальной температуре.",
             "FEELS_LIKE_HUMIDITY": "От влажности становится теплее",
             "FEELS_LIKE_WIND": "Ветер заставляет чувствовать себя прохладнее",
-
             "SUNRISE": "Восход",
             "SUNSET": "Закат солнца",
             "WIND": "Ветер",
             "PRECIPITATION": "Осадки",
             "LAST_24H": "за последние 24 часа",
             "EXPECTED_24H": "ожидается в ближайшие 24 часа",
-
             "TYPES": {
                 "CLOUDY": "Облачно",
                 "LIGHT_RAIN": "Легкий дождь",
@@ -267,22 +275,23 @@
                 "RAIN": "Дождь",
                 "SNOW": "Снег",
                 "FOG": "Туман",
-                "CLEAR": "чистый",
+                "CLEAR": "Ясно",
                 "MOSTLY_CLEAR": "В большей степени ясно",
                 "THUNDER": "Гром",
                 "TORNADO": "Торнадо",
-                "WINDY": "Ветреный"
+                "WINDY": "Ветрено"
             }
         },
         "MESSAGES": {
             "TITLE": "Сообщения",
             "NEW_MESSAGE": "Новое сообщение",
             "PEOPLE": "Люди",
-            "MEMBERS": "Члены",
+            "MEMBERS": "Участники",
             "OTHER": "Другое",
-            "SENT_A_PHOTO": "Отправлено фото",
+            "SENT_A_PHOTO": "Отправить фото",
+            "SENT_AUDIO_MESSAGE": "Отправить аудио сообщение",
             "SENT": "Отправлено",
-            "REQUESTED": "Запрошено",
+            "REQUESTED": " Запрошено",
             "MISSED_CALL": "{number} пытался дозвониться до вас, но вы не ответили, нажмите номер, чтобы перезвонить",
             "NOT_DELIVERED": "Не доставлен",
             "PLACEHOLDER": "Текстовое сообщение",
@@ -290,14 +299,14 @@
             "CANCEL": "Отменить",
             "SEND": "Отправить",
             "UNKNOWN": "Неизвестный",
-            "TO": "К",
+            "TO": "Для",
             "SEARCH": "Поиск",
-            "ADD_MEMBER": "Добавить участников",
+            "ADD_MEMBER": "Добавить участника",
             "SHARE_LOCATION": "Поделиться моим местоположением",
             "LEAVE_GROUP": "Выйти из чата",
             "SENT_LOCATION": "Поделились своим местоположением, нажмите, чтобы открыть в Картах",
             "SENT_LOCATION_SHORT": "Поделился своим местоположением",
-
+            "DELETE": "Удалить",
             "REMOVE_POPUP": {
                 "TITLE": "Удалить участника",
                 "TEXT": "Вы уверены, что хотите удалить {name} из группы?",
@@ -322,12 +331,17 @@
             "PAY": {
                 "REQUEST": "Запросить",
                 "REQUESTED": "Запрошено",
-                "PAY": "Платить",
+                "PAY": "Оплатить",
                 "SEND": "Отправить",
                 "SEND_TITLE": "Отправить {amount}",
                 "SEND_DESCRIPTION": "Вы хотите отправить {amount} {name}?",
                 "SEND_BUTTON_CANCEL": "Отмена",
                 "SEND_BUTTON_SEND": "Отправить"
+            },
+            "PAYMENT_FAILED_POPUP": {
+                "TITLE": "Сбой платежа",
+                "DESCRIPTION": "Ошибка: {error}",
+                "CLOSE": "Закрыть"
             }
         },
         "PHONE": {
@@ -335,14 +349,12 @@
             "DONE": "Готово",
             "EDIT": "Редактировать",
             "CANCEL": "Отменить",
-
             "CALL": {
                 "CALL_TITLE": "Вызов {name}",
                 "CALL_TEXT": "Вы уверены, что хотите позвонить {name}?",
                 "CALL_BUTTON_CANCEL": "Отменить",
                 "CALL_BUTTON_CALL": "Вызов",
-
-                "NO_CALLER_ID": "Нет идентификатора вызывающего абонента",
+                "NO_CALLER_ID": "Нет ID абонента",
                 "UNKNOWN": "Неизвестный",
                 "USER_BUSY": "Пользователь занят",
                 "USER_UNAVAILABLE": "Пользователь недоступен",
@@ -351,7 +363,6 @@
                 "ACCEPT": "Принять",
                 "END": "Завершить",
                 "VIDEO_CALL": "Видеозвонок",
-
                 "MUTE": "заглушить",
                 "KEYPAD": "клавиатура",
                 "SPEAKER": "динамик",
@@ -360,7 +371,6 @@
                 "CONTACTS": "контакты",
                 "MOBILE": "Мобильный"
             },
-
             "CONTACTS": {
                 "TITLE": "Контакты",
                 "FIRST_NAME": "Имя",
@@ -368,40 +378,35 @@
                 "PHONE_NUMBER": "Номер телефона",
                 "MY_CARD": "Моя карта",
                 "ADD_PHOTO": "Добавить фотографию",
-
                 "REMOVE_CONTACT_TITLE": "Удалить контакт",
                 "REMOVE_CONTACT_TEXT": "Вы уверены, что хотите удалить этот контакт?",
                 "REMOVE_CONTACT_BUTTON_CANCEL": "Отменить",
                 "REMOVE_CONTACT_BUTTON_DELETE": "Удалить",
                 "DELETE_CONTACT": "Удалить контакт",
-
                 "MESSAGE": "сообщение",
                 "CALL": "вызов",
                 "VIDEO": "видео",
-                "MAIN": "главный",
-
+                "MAIN": "Телефон",
                 "SHARE_CONTACT": "Поделиться контактом",
                 "SHARE_LOCATION": "Поделитесь моим местоположением",
                 "REMOVE_FAVORITE": "Удалить из избранного",
                 "ADD_FAVORITE": "Добавить в избранное",
                 "ADD_CONTACT": "Добавить в контакты",
-
-                "UNBLOCK_CALLER": "Разблокировать этот абонент",
-                "BLOCK_CALLER": "Заблокировать этот абонента",
-
+                "UNBLOCK_CALLER": "Разблокировать этого абонента",
+                "BLOCK_CALLER": "Заблокировать этого абонента",
                 "UNBLOCK_NUMBER_TITLE": "Разблокировать номер",
                 "UNBLOCK_NUMBER_TEXT": "Вы уверены, что хотите разблокировать {number}?",
                 "UNBLOCK_NUMBER_BUTTON_CANCEL": "Отменить",
                 "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Разблокировать",
-
                 "BLOCK_NUMBER_TITLE": "Заблокировать номер",
                 "BLOCK_NUMBER_TEXT": "Вы уверены, что хотите заблокировать {number}?",
                 "BLOCK_NUMBER_BUTTON_CANCEL": "Отменить",
-                "BLOCK_NUMBER_BUTTON_BLOCK": "Заблокировать"
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Заблокировать",
+                "EMAIL": "Email",
+                "ADDRESS": "Адрес"
             },
             "FAVOURITES": {
                 "TITLE": "Избранное",
-
                 "REMOVE_TITLE": "Удалить из Избранного",
                 "REMOVE_TEXT": "Вы уверены, что хотите удалить этот контакт из избранного?",
                 "REMOVE_BUTTON_CANCEL": "Отменить",
@@ -409,30 +414,30 @@
             },
             "KEYPAD": {
                 "TITLE": "Клавиатура",
-                "ADD_NUMBER": "Добавить число"
+                "ADD_NUMBER": "Добавить контакт"
             },
             "RECENTS": {
                 "TITLE": "Недавние"
             }
         },
         "WALLET": {
-            "TITLE": "Бумажник",
+            "TITLE": "Банк",
             "BALANCE": "Баланс",
             "SEND": "Отправить",
             "NEXT": "Следующий",
             "DONE": "Готово",
             "DONE_SUBTITLE": "Вы отправили {amount} {number}",
-
             "NO_REFUNDS": "Платежи не подлежат возврату, дважды проверьте номер.",
             "NEW_BALANCE": "Новый баланс",
             "LATEST_TRANSACTIONS": "Последние транзакции",
-
+            "LATEST_BILLS": "Последние счета",
             "NOW": "Сейчас",
-            "AGO": "До этого"
+            "AGO": "До этого",
+            "NUMBER_DOES_NOT_EXIST": "Номер не существует / Человек не в сети",
+            "NOT_ENOUGH_MONEY": "У вас недостаточно денег"
         },
         "GARAGE": {
             "TITLTE": "Гараж",
-
             "ACTIONS": "Действия",
             "MY_CARS": "Мои машины",
             "OUT": "вывезти",
@@ -444,10 +449,16 @@
             "FUEL": "Топливо",
             "ENGINE": "Двигатель",
             "BODY": "Тело",
+            "VEHICLE": "ТС",
+            "STATUS": "Статус",
+            "LOCKED": "Закрыто",
+            "LOCK": "Закрыть",
+            "UNLOCKED": "Открыто",
+            "UNLOCK": "Открыть",
 
             "WAYPOINT_POPUP": {
-                "TITLE": "Установить путевую точку",
-                "TEXT": "Вы хотите установить путевую точку на свой {model}?",
+                "TITLE": "Установить GPS",
+                "TEXT": "Вы хотите установить GPS на {model}?",
                 "CANCEL": "Отменить",
                 "PROCEED": "Продолжить"
             },
@@ -456,6 +467,12 @@
                 "TEXT": "хотите чтоб парковщик припарковать вашу {model} ({plate})?",
                 "TEXT_PAID": "хотите чтоб парковщик припарковать вашу {model} ({plate}) for {amount}?",
                 "CANCEL": "Отменить",
+                "PROCEED": "Продолжить"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} ТС",
+                "TEXT": "Вы хотите {toggle} ТС?",
+                "CANCEL": "Отмена",
                 "PROCEED": "Продолжить"
             }
         },
@@ -467,17 +484,16 @@
             "ACTIONS": "Действия",
             "FRONT_DOOR": "Входная дверь",
             "LOCATION": "Расположение",
-            "SET_WAYPOINT": "Установить путевую точку",
+            "SET_WAYPOINT": "Установить GPS",
             "UNLOCK": "Разблокировать",
             "UNLOCKED": "разблокирован",
             "LOCK": "Закрыть",
-            "LOCKED": "Заблокировано",
+            "LOCKED": "Закрыто",
             "GIVE_KEY": "Дать ключ",
             "MANAGE": "Управление",
-
             "WAYPOINT_POPUP": {
-                "TITLE": "Установить путевую точку",
-                "TEXT": "Вы хотите установить путевую точку на {home}?",
+                "TITLE": "Установить GPS",
+                "TEXT": "Вы хотите установить GPS на {home}?",
                 "CANCEL": "Отменить",
                 "PROCEED": "Продолжить"
             },
@@ -493,7 +509,6 @@
                 "CANCEL": "Отменить",
                 "PROCEED": "Продолжить"
             },
-
             "REMOVE_KEY_POPUP": {
                 "TITLE": "Удалить ключницу",
                 "TEXT": "Вы уверены, что хотите забрать доступ у {name}?",
@@ -508,13 +523,20 @@
             "TITLE": "Заголовок",
             "DESCRIPTION": "Описание",
             "PRICE": "Цена",
-            "POST": "Почта",
+            "POST": "Пост",
             "CONTACT": "Контакт",
             "REMOVE": "Удалить",
-
+            "ERROR_POPUP": {
+                "TITLE": "Ошибка",
+                "NO_TITLE": "Вам нужно ввести название",
+                "NO_DESCRIPTION": "Вам нужно ввести описание",
+                "NO_PRICE": "Вам нужно ввести цену",
+                "NO_ATTACHMENTS": "Вам нужно прикрепить хотя бы одно изображение",
+                "OK": "ОК"
+            },
             "DELETE_POPUP": {
                 "TITLE": "Удалить список",
-                "TEXT": "Вы уверены, что хотите удалить этот список?",
+                "TEXT": "Вы уверены, что хотите удалить?",
                 "CANCEL": "Отменить",
                 "PROCEED": "Удалить"
             }
@@ -524,51 +546,634 @@
             "FROM": "От",
             "CANCEL": "Отменить",
             "NEW_POST": "Новый пост",
-
             "TITLE": "Заголовок",
             "DESCRIPTION": "Описание",
             "PRICE": "Цена",
-            "POST": "Почта",
+            "POST": "Пост",
             "CALL": "Вызов",
-
+            "ERROR_POPUP": {
+                "TITLE": "Ошибка",
+                "NO_TITLE": "Вам нужно ввести название",
+                "NO_DESCRIPTION": "Вам нужно ввести описание",
+                "OK": "ОК"
+            },
             "DELETE_POPUP": {
-                "TITLE": "Удалить почту",
-                "TEXT": "Вы уверены, что хотите удалить эту почту?",
+                "TITLE": "Удалить пост",
+                "TEXT": "Вы уверены, что хотите удалить этот пост?",
                 "CANCEL": "Отменить",
                 "PROCEED": "Удалить"
+            }
+        },
+        "MAIL": {
+            "TITLE": "Почта",
+            "YOU": "Вы",
+            "UPDATED_NOW": "Обновлено только что",
+            "NEW_MESSAGE": "Новое сообщение",
+            "INBOX": "Входящие",
+            "TO": "Кому",
+            "FROM": "От",
+            "SUBJECT": "Тема",
+            "MESSAGE": "Сообщение",
+            "CANCEL": "Отмена",
+            "SEND": "Отправить",
+            "EMAIL": "Email",
+            "EMAIL_INVALID": "Неверный адрес электронной почты",
+            "EMAIL_EXISTS": "Email уже занят",
+            "PASSWORD": "Пароль",
+            "WRONG_PASSWORD": "Неверный пароль",
+            "LOGIN": "Логин",
+            "NO_EMAIL": "У вас нет почты?",
+            "CREATE_ONE": "Создать",
+            "UNREAD": "Непрочитанные",
+            "CREATE_MAIL": "Создать Email",
+            "ALREADY_HAVE": "У вас уже есть Email адрес?",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Выйти",
+                "DESCRIPTION": "Вы уверены, что хотите выйти?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            }
+        },
+        "MAPS": {
+            "TITLE": "Карты",
+            "GO": "Поехали",
+            "ADD": "Добавить",
+            "EDIT": "Изменить",
+            "DELETE": "Удалить",
+            "SET_WAYPOINT": "Установить GPS",
+            "SHARE": "Поделиться",
+
+            "ADD_LOCATION_POPUP": {
+                "TITLE": "Добавить локацию",
+                "DESCRIPTION": "Введите название локации, которое вы хотите добавить",
+                "PLACEHOLDER": "Название",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "CHANGE_NAME_POPUP": {
+                "TITLE": "Изменить название",
+                "DESCRIPTION": "Введите новое название локации",
+                "PLACEHOLDER": "Название",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            }
+        },
+        "MUSIC": {
+            "TITLE": "Музыка",
+            "LIBRARY": "Библиотека",
+            "SEARCH": "Поиск",
+            "ADD_QUEUE": "Добавить в очередь",
+            "ADD_PLAYLIST": "Добавить в плейлист",
+            "REMOVE_SONG": "Удалить трек",
+            "NOT_PLAYING": "Не воспроизводится",
+            "EDIT_PLAYLIST": "Редактировать",
+            "DELETE_PLAYLIST": "Удалить плейлист",
+            "SEARCH_PLACEHOLDER": "Исполнители, Песни, Альбомы, Плейлисты",
+            "SONGS": "Треки",
+            "ALBUMS": "Альбомы",
+            "PLAY": "Играть",
+            "SHUFFLE": "Перемешать",
+            "ARTIST": "Исполнитель",
+            "ALBUM": "Альбом",
+            "PLAYLIST": "Плейлист",
+            "SONG": "Трек",
+            "SONG_EXISTS_POPUP": {
+                "TITLE": "Трек уже существует",
+                "DESCRIPTION": "Этот трек уже существует в этом плейлисте",
+                "CANCEL": "Отмена"
+            },
+            "NEW_PLAYLIST_POPUP": {
+                "TITLE": "Новый плейлист",
+                "DESCRIPTION": "Создать новый плейлист",
+                "PLACEHOLDER": "Название плейлиста",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "REMOVE_SONG_POPUP": {
+                "TITLE": "Удалить трек",
+                "DESCRIPTION": "Вы уверены, что хотите удалить этот трек из плейлиста?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            }
+        },
+        "TINDER": {
+            "TITLE": "Spark",
+            "LIKES_YOU_TOO": "Ваша симпатия взаимна!",
+            "KEEP_SWIPING": "Продолжайте свайпать",
+            "SAY_SOMETHING_NICE": "Скажи что-нибудь приятное",
+            "NO_MORE": "У нас закончились люди, которых вы могли бы свайпнуть, зайдите позже!",
+            "SEND": "Отправить",
+            "AGREE_TERMS": "Нажав 'Создать аккаунт', вы соглашаетесь с нашими Условиями предоставления услуг и Политикой конфиденциальности",
+            "CREATE_ACCOUNT": "Создать аккаунт",
+            "AGE_PUBLIC": "Ваш возраст",
+            "BE_OVER_18": "Вам должно быть больше 18 лет, чтобы пользоваться Спарком",
+            "NAME_MINIMUM": "Ваше имя должно состоять не менее чем из 3 символов",
+            "ADD_PHOTOS": "Добавить фото",
+            "PHOTOS_MINIMUM": "У вас должна быть хотя бы одна фотография",
+            "DESCRIPTION": "Расскажите нам немного о себе",
+            "DESCRIPTION_MINIMUM": "Длина вашего описания должна составлять не менее 10 символов",
+            "SHOW_ME": "Показывать мне",
+            "WOMEN": "Женщины",
+            "MEN": "Mужчины",
+            "EVERYONE": "Всех",
+            "EVERYTHING": "Всё",
+            "I_AM": "Я",
+            "MALE": "Мужчина",
+            "FEMALE": "Женщина",
+            "CONTINUE": "Продолжить",
+            "NAME": "Имя",
+            "PHOTOS": "Фото",
+            "ABOUT_ME": "Обо мне",
+            "INTERESTED_IN": "Заинтересованы в",
+            "GENDER": "Пол",
+            "SAVE": "Сохранить",
+            "NEW_MATCHES": "Новые совпадения",
+            "MESSAGES": "Сообщения",
+            "SEARCH_MATCHES": "Поиск совпадений"
+        },
+        "INSTAGRAM": {
+            "TITLE": "InstaPic",
+            "SEND": "Отправить",
+            "POST": "Пост",
+            "MESSAGE_PLACEHOLDER": "Сообщение...",
+            "NEW_MESSAGE": "Новое сообщение",
+            "NOW": "Сейчас",
+            "GO_LIVE_POPUP": {
+                "TITLE": "Выйти в эфир",
+                "DESCRIPTION": "Вы уверены, что хотите выйти в эфир?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "END_LIVE_POPUP": {
+                "TITLE": "Завершить эфир",
+                "DESCRIPTION": "Вы уверены, что хотите {action} в прямом эфире?",
+                "CANCEL": "Отмена",
+                "END": "Завершить",
+                "LEAVE": "Покинуть"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Отписаться",
+                "DESCRIPTION": "Вы уверены, что хотите отписаться от {name}?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "DELETE_POST_POPUP": {
+                "TITLE": "Удалить пост",
+                "DESCRIPTION": "Вы уверены, что хотите удалить пост?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Выйти",
+                "DESCRIPTION": "Вы уверены, что хотите выйти?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "DELETE_STORY": {
+                "TITLE": "Удалить историю",
+                "DESCRIPTION": "Вы уверены, что хотите удалить историю?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "INVITE_LIVE_POPUP": {
+                "TITLE": "Приглашение",
+                "DESCRIPTION": "{username} пригласили вас на свой эфир, хотите присоединиться?",
+                "NO": "Нет",
+                "YES": "Да"
+            },
+            "REMOVE_LIVE_POPUP": {
+                "TITLE": "Удалить {username}",
+                "DESCRIPTION": "Вы уверены, что хотите удалить {username} со своего эфира?",
+                "CANCEL": "Отмена",
+                "REMOVE": "Удалить"
+            },
+            "LEAVE_LIVE_POPUP": {
+                "TITLE": "Покинуть эфир",
+                "DESCRIPTION": "Вы уверены, что хотите покинуть эфир?",
+                "LEAVE": "Покинуть"
+            },
+            "LIVE_ENDED": "Эфир окончен",
+            "COMMENT_PLACEHOLDER": "Комментарий",
+            "LIVE": "Эфир",
+            "YOUR_STORY": "Ваша история",
+            "CREATE_STORY": "Создать историю",
+            "GO_LIVE": "Выйти в эфир",
+            "EMPTY_FEED": "Начните подписываться на людей, чтобы увидеть их фотографии и видео здесь",
+            "COMMENTS": "Комментарии",
+            "ADD_COMMENT_AS": "Добавить комментарий как {name}",
+            "NEW_POST": "Новый пост",
+            "NEXT": "Далее",
+            "CAPTION_PLACEHOLDER": "Напишите подпись...",
+            "ACTIVITY": "Активность",
+            "FOLLOW": "Подписаться",
+            "FOLLOWING": "Подписан",
+            "FOLLOWERS": "Подписчики",
+            "FOLLOWER": "Подписчик",
+            "LIKES": "Лайки",
+            "LIKED_BY": "Понравилось",
+            "VIEW_ALL_COMMENTS": "Посмотреть все {count}",
+            "FIRST_COMMENT": "Будьте первым, кто прокомментирует...",
+            "NO_ACCOUNT": "Учетной записи с таким логином нет",
+            "WRONG_USERNAME_OR_PASSWORD": "Неправильный логин или пароль",
+            "LOG_IN": "Войти",
+            "ACCOUNT_WITH_USERNAME": "Учетная запись с этим логином уже существует",
+            "CREATE_ACCOUNT": "Создать аккаунт",
+            "USERNAME_PLACEHOLDER": "Логин",
+            "NAME_PLACEHOLDER": "Имя",
+            "PASSWORD_PLACEHOLDER": "Пароль",
+            "NOT_HAVE_ACCOUNT": "У вас нет аккаунта?",
+            "HAVE_ACCOUNT": "У вас есть аккаунт?",
+            "LIKED_PHOTO": "понравилась ваша фотография.",
+            "LIKED_COMMENT": "понравился ваш коммент: {comment}",
+            "COMMENTED": "прокомментировал ваш пост: {comment}",
+            "FOLLOWED": "подписался(-ась) на вас.",
+            "DONE": "Ок",
+            "EDIT_PROFILE": "Редактировать профиль",
+            "CHANGE_PICTURE": "Изменить изображение профиля",
+            "NAME": "Имя",
+            "BIO": "Био",
+            "SIGN_OUT": "Выйти",
+            "POSTS": "Посты",
+            "MESSAGE": "Сообщение",
+            "SENT_A_PHOTO": "Отправить фото",
+            "TO": "Для",
+            "SEND_A_MESSAGE": "Отправить сообщение...",
+            "STORY_VIEWERS": "Зрители",
+            "PARTICIPANTS": "Участники",
+            "SEEN_BY": "Просмотренно {count}",
+            "ADD_ACCOUNT": "Добавить аккаунт",
+            "INVITE": "Пригласить",
+            "REMOVE": "Удалить",
+            "IN_THIS_ROOM": "В этом эфире",
+            "WHOS_WATCHING": "Кто наблюдает"
+        },
+        "TWITTER": {
+            "TITLE": "Birdy",
+            "SEARCH_FOR": "Поиск по '{search}'",
+            "START_SEARCHING": "Начните поиск, чтобы изучить Birdy",
+            "TRENDING_HASHTAGS": "Трендовые хэштеги",
+            "SENT_ATTACHMENT": "отправить вложение",
+            "TO": "Для",
+            "TWEETS": "Посты",
+            "REPLIES": "Ответы",
+            "MEDIA": "Медиа",
+            "LIKES": "Лайки",
+            "CANCEL": "Отмена",
+            "TWEET": "Пост",
+            "TWEET_REPLY": "Запостить ваш ответ",
+            "TWEET_GENERAL": "Что происходит?",
+            "EDIT_PROFILE": "Редактировать профиль",
+            "SAVE": "Сохранить",
+            "NAME": "Имя",
+            "JOIN_DATE": "Дата вступления",
+            "BIO": "Био",
+            "SIGN_OUT": "Выйти",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Выйти",
+                "DESCRIPTION": "Вы уверены, что хотите выйти?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Отписаться",
+                "DESCRIPTION": "Вы уверены, что хотите отписаться от {name}?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "RETWEET_POPUP": {
+                "RETWEET": "Репост",
+                "UNDO_RETWEET": "Отменить репост",
+                "DESCRIPTION": "Вы уверены, что хотите {action}?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "Удалить пост",
+                "DESCRIPTION": "Вы уверены, что хотите удалить пост?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "NOTIFICATIONS_POPUP": {
+                "TITLE": "Уведомления",
+                "DESCRIPTION": "Вы уверены, что хотите {action} уведомления от @{name}?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить",
+                "ENABLE": "Вкл",
+                "DISABLE": "Выкл"
+            },
+            "PROMOTE_POPUP": {
+                "TITLE": "Продвигать пост",
+                "DESCRIPTION": "Вы хотите продвигать этот пост по {price} за {views} просмотров?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "YOU": "Вы",
+            "FOLLOW": "Подписаться",
+            "FOLLOWING": "Подписан",
+            "FOLLOWERS": "Подписчики",
+            "RETWEETED": "Перепостил",
+            "REPLYING_TO": "Ответить {name}",
+            "RETWEETED_BY": "Репост от",
+            "LIKED_BY": "Понравилось",
+            "ALL": "Все",
+            "NOTIFICATIONS": "Уведомления",
+            "FOLLOWS_YOU": "Подписан на вас",
+            "JOINED": "Присоединился {date}",
+            "LIKED_TWEET": "Лайкнул ваш пост",
+            "RETWEETED_TWEET": "Репостнул(-а) ваш пост",
+            "FOLLOWED": "Подписался(-ась) на вас",
+            "SIGN_UP_TEXT": "Посмотрите, что происходит в мире прямо сейчас",
+            "TERMS_OF_SERVICE": "Регистрируясь, вы соглашаетесь с нашими Условиями предоставления услуг и Политикой конфиденциальности.",
+            "HAS_ACCOUNT": "Уже есть аккаунт",
+            "CREATE_YOUR_ACCOUNT": "Создать аккаунт",
+            "NAME_PLACEHOLDER": "Имя",
+            "USERNAME_PLACEHOLDER": "Логин",
+            "PASSWORD_PLACEHOLDER": "Пароль",
+            "GET_STARTED": "Чтобы начать, сначала введите свое @логин",
+            "FORGOT_PASSWORD": "Забыли пароль?",
+            "ENTER_PASSWORD": "Введите ваш пароль",
+            "SEARCH_DIRECT_MESSAGES": "Поиск сообщения",
+            "SEARCH_TWITTER": "Поиск",
+            "MESSAGE_PLACEHOLDER": "Сообщение...",
+            "NOW": "Сейчас",
+            "LOGIN": "Войти",
+            "CREATE_ACCOUNT": "Создать аккаунт",
+            "PROMOTE": "Продвигать",
+            "PIN": "Закрепить пост",
+            "UNPIN": "Открепить пост",
+            "NEW_MESSAGE": "Новое сообщение",
+            "PROMOTED": "Продвинуто",
+            "ADD_ACCOUNT": "Добавить аккаунт"
+        },
+        "SERVICES": {
+            "ACTIONS": "Действия",
+            "COMPANIES": "Организации",
+            "MESSAGES": "Сообщения",
+
+            "CLOSED": "Закрыто",
+            "YOUR_MESSAGES": "Ваши сообщения",
+            "JOB_MESSAGES": "Рабочие сообщения",
+
+            "DUTY": "Служба",
+            "GO_ON_DUTY": "Выйти на дежурство",
+            "GO_OFF_DUTY": "Уйти с дежурства",
+            "BALANCE": "Баланс",
+            "MANAGE_EMPLOYEES": "Управлять сотрудниками",
+            "HIRE": "Нанять",
+            "SET_GRADE": "Установить ранг",
+            "UNEMPLOYED": "Вы безработный",
+
+            "DEPOSIT_POPUP": {
+                "TITLE": "Депозит",
+                "DESCRIPTION": "Внесите деньги на счет компании",
+                "AMOUNT": "Количество",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "WITHDRAW_POPUP": {
+                "TITLE": "Вывод",
+                "DESCRIPTION": "Вывести деньги со счета компании",
+                "AMOUNT": "Количество",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "HIRE_POPUP": {
+                "TITLE": "Найм",
+                "DESCRIPTION": "Наймите нового сотрудника",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "FIRE_POPUP": {
+                "TITLE": "Уволить",
+                "DESCRIPTION": "Вы уверены, что хотите уволить {name}?",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "CALL_POPUP": {
+                "TITLE": "Вызов",
+                "DESCRIPTION": "Вы уверены, что хотите набрать {name}?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            }
+        },
+        "CRYPTO": {
+            "TITLE": "Крипта",
+            "BALANCE": "Расчетный баланс",
+            "BUY": "Купить",
+            "SELL": "Продать",
+            "SELL_ALL": "Продать всё",
+            "NO_MONEY": "У вас недостаточно денег",
+            "NO_COINS": "У тебя нет этой монеты",
+            "NOT_ENOUGH_COINS": "У вас недостаточно монет",
+            "ATLEAST_ONE_COIN": "Вы должны {action} хотя бы одну монету",
+            "INVALID_COIN": "Неверный коин",
+            "ERROR": "Ошибка",
+            "CLOSE": "Закрыть",
+            "BUY_POPUP": {
+                "TITLE": "Купить {coin}",
+                "DESCRIPTION": "Введите сколько хотите купить {coin} (в $)",
+                "PLACEHOLDER": "$1000",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "SELL_POPUP": {
+                "TITLE": "Продать {coin}",
+                "DESCRIPTION": "Введите сколько хотите продать {coin} (в $)",
+                "PLACEHOLDER": "$1000",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "SELL_ALL_POPUP": {
+                "TITLE": "Продать все {coin}",
+                "DESCRIPTION": "Вы уверены, что хотите продать все {coin} за ${amount}?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            }
+        },
+        "TIKTOK": {
+            "TITLE": "Trendy",
+
+            "HOME": "Главная",
+            "DISCOVER": "Поиск",
+            "INBOX": "Входящие",
+            "PROFILE": "Профиль",
+
+            "COMMENTS_TITLE": "{count} комментов",
+            "REPLY": "Ответ",
+            "VIEW_REPLIES": "Посмотреть ответы",
+            "ADD_COMMENT": "Прокомментировать...",
+            "REPLY_TO": "Ответить для {name}",
+            "PIN_COMMENT": "Закрепить коммент",
+            "UNPIN_COMMENT": "Открепить коммент",
+            "DELETE_COMMENT": "Удалить коммент",
+            "DELETE": "Удалить",
+            "PINNED": "Закрепленно",
+            "PIN_VIDEO": "Закрепить видео",
+            "UNPIN_VIDEO": "Открепить видео",
+            "PIN": "Закрепить",
+            "UNPIN": "Открепить",
+            "MAX_PINNED_TITLE": "Макс закрепленно",
+            "MAX_PINNED_DESCRIPTION": "Вы можете закрепить только до 3 видео",
+            "OK": "ОК",
+            "CREATOR": "Автор",
+            "LIKED_BY_CREATOR": "Лайкнул автор",
+
+            "PIN_VIDEO_POPUP": {
+                "TITLE": "Закрепить видео",
+                "DESCRIPTION": "Вы уверены, что хотите {action} это видео?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "DELETE_VIDEO_POPUP": {
+                "TITLE": "Удалить видео",
+                "DESCRIPTION": "Вы уверены, что хотите удалить это видео?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "FAILED_UPLOAD_POPUP": {
+                "TITLE": "Не удалось загрузить TTS",
+                "DESCRIPTION": "Владелец сервера неправильно настроил загрузку аудио. Пожалуйста, свяжитесь с ними, чтобы устранить эту проблему.",
+                "CANCEL": "Отмена",
+                "PROCEED": "Игнор"
+            },
+
+            "SHARE_TITLE": "Поделиться с",
+            "SHARE": "Поделиться",
+            "REPORT": "Жалоба",
+            "SAVE_VIDEO": "Сохранить видео",
+            "ADD_FAVOURITE": "Добавить в избранное",
+            "CANCEL": "Отмена",
+            "GO_BACK": "Назад",
+
+            "FOLLOWING": "Подписан",
+            "FOLLOWERS": "Подписчики",
+            "UNFOLLOW": "Отписаться",
+            "FOLLOW": "Подписаться",
+            "FOR_YOU": "Для вас",
+            "VIDEOS": "Видео",
+            "LIKES": "Лайки",
+
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Отписаться",
+                "DESCRIPTION": "Вы уверены, что хотите отписаться от {name}?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+
+            "LOGIN_TITLE": "Войти в Trendy",
+            "LOGIN_SUBTITLE": "Управляйте своим аккаунтов, проверяйте уведомления, комментируйте видео и многое другое.",
+            "SIGNUP_TITLE": "Зарегистрироваться",
+            "SIGNUP_SUBTITLE": "Создавайте профиль, подписывайтесь на другие аккаунты, создавайте свои собственные видео и многое другое.",
+            "NAME": "Имя",
+            "USERNAME": "Логин",
+            "PASSWORD": "Пароль",
+            "BIO": "Био",
+            "SHOW_LIKES": "Показывать лайки",
+
+            "LOGIN": "Войти",
+            "SIGNUP": "Зарегистрироваться",
+            "NO_ACCOUNT": "У вас нет аккаунта?",
+            "ALREADY_ACCOUNT": "Уже есть аккаунт?",
+            "SEARCH_PLACEHOLDER": "Поиск по пользователям",
+
+            "STARTED_FOLLOWING": "подписался(-ась) на вас",
+            "LIKED_VIDEO": "лайкнул ваше видео.",
+            "LIKED_COMMENT": "лайкнул ваш коммент.",
+            "SAVED_VIDEO": "добавил ваше видео в избранное.",
+            "COMMENTED": "Прокомментировал(-а): {comment}",
+            "REPLIED": "Ответил(-а) на ваш коммент: {comment}",
+
+            "EDIT_PROFILE": "Редактировать профиль",
+            "MESSAGE": "Сообщение",
+            "CHANGE_PHOTO": "Изменить фото",
+            "LOGOUT": "Выйти",
+            "ADD_TO_YOUR_PROFILE": "Добавить в ваш профиль",
+            "LIKED_HIDDEN_TITLE": "Список понравившиеся видео этого пользователя приватен.",
+            "LIKED_HIDDEN_SUBTITLE": "Видео, понравившиеся {name}, в данный момент скрыты.",
+
+            "INVALID_ACCOUNT_POPUP": {
+                "TITLE": "Неверное {name}",
+                "DESCRIPTION": "Вы не вошли в учетную запись {name}, которую вы ввели, пожалуйста, исправьте это.",
+                "OK": "ОК"
+            },
+            "REMOVE_ACCOUNT_POPUP": {
+                "TITLE": "Удалить {name} аккаунт",
+                "DESCRIPTION": "Вы уверены, что хотите удалить {name} аккаунт из вашего профиля?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+
+            "ADD_ACCOUNT_TITLE": "Добавить аккаунт",
+            "ADD_ACCOUNT": "Добавить {name} в ваш профиль",
+            "UPLOAD_VIDEO": "Загрузить видео",
+            "PREVIEW": "Предпросмотр",
+            "CAPTION": "Описание",
+            "CAPTION_PLACEHOLDER": "Введите описание...",
+            "TTS": "Текст в речь (TTS)",
+            "TTS_PLACEHOLDER": "Введите текст для озвучки...",
+            "MUSIC": "Музыка",
+            "SELECT_MUSIC": "Выбрать трек",
+            "OPTIONAL": "Необязательно",
+
+            "DIRECT_MESSAGES": "Личные сообщения",
+            "ALL_ACTIVITY": "Вся активность",
+            "NO_NOTIFICATIONS": "Уведомления недоступны",
+            "NO_NOTIFICATIONS_SUBTITLE": "Уведомления о вашей учетной записи будут появляться здесь.",
+            "NO_FOLLOWING_TITLE": "Начните подписываться на людей, и их видео появятся здесь.",
+            "NO_MESSAGES_TITLE": "Отправь сообщение друзьям",
+            "NO_MESSAGES_SUBTITLE": "Поделитесь видео или начните разговор"
+        },
+        "VOICEMEMO": {
+            "TITLE": "Диктофон",
+            "ALL_RECORDINGS": "Все записи",
+            "DEFAULT_NAME": "Новая запись",
+            "DELETE_POPUP": {
+                "TITLE": "Удалить запись",
+                "DESCRIPTION": "Вы уверены, что хотите удалить запись?",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            },
+            "NO_MICROPHONE_POPUP": {
+                "TITLE": "Нет микрофона",
+                "DESCRIPTION": "У нас нет доступа к вашему микрофону, убедитесь, что он подключен, и примите всплывающее окно в правом верхнем углу вашего экрана",
+                "OK": "ОК"
             }
         }
     },
     "COMPONENTS": {
         "CONTEXT_MENU": {
-            "CANCEL": "Отменить",
+            "CANCEL": "Отмена",
             "CALL": "Вызов",
             "VIDEO_CALL": "Видеозвонок",
             "MESSAGE": "Сообщение"
         },
         "IMAGE": {
-            "SAVE_TO_GALLERY": "Сохранить в галерее"
+            "SAVE_TO_GALLERY": "Сохранить в галерею"
         },
         "GALLERY": {
-            "CANCEL": "Отменить",
-            "EXTERNAL_URL": "Внешний URL-адрес"
+            "CANCEL": "Отмена",
+            "EXTERNAL_URL": "Внешний URL-адрес",
+            "NO_IMAGES": "Нет изображения"
         },
         "NOTIFICATIONS": {
-            "SENT_PHOTO": "Отправленное фото",
-            "SENT_GIF": "Отправленное gif",
+            "SENT_PHOTO": "Отправить фото",
+            "SENT_GIF": "Отправить gif",
             "NOW": "сейчас"
         },
         "SHARE": {
-            "COPY_PHOTO": "Скопировать фотографию",
+            "COPY_PHOTO": "Скопировать фото",
             "USE_WALLPAPER": "Использовать в качестве обоев",
             "COPY_NUMBER": "Копировать номер",
-
             "AIRDROP_SENT": "Отправлено",
-
+            "AIRDROP_ACCEPTED": "Принято",
+            "AIRDROP_DECLINED": "Отклонено",
+            "AIRDROP_NO_USERS": "Поблизости нет телефона(ов)",
             "WALLPAPER_POPUP": {
                 "TITLE": "Использовать в качестве обоев",
-                "TEXT": "Вы уверены, что хотите установить это изображение в качестве обоев??",
-                "CANCEL": "Отменить",
+                "TEXT": "Вы уверены, что хотите установить это изображение в качестве обоев?",
+                "CANCEL": "Отмена",
                 "PROCEED": "Продолжить"
             }
         },
@@ -578,38 +1183,172 @@
             "VIDEO": "видео",
             "PHOTO": "фото",
             "CONTACT": "контакт",
+            "LOCATION": "локация",
+            "NOTE": "заметка",
+            "VOICEMEMO": "аудио",
+            "PLAYLIST": "плейлист",
             "DECLINE": "Отклонить",
-            "ACCEPT": "Принимать"
+            "ACCEPT": "Принять"
+        },
+        "DYNAMICISLAND": {
+            "SILENT": "Беззвучный",
+            "RING": "Звонок",
+            "TIMER": "Таймер"
+        },
+        "MUSIC_SELECTOR": {
+            "CANCEL": "Отмена",
+            "NO-RESULTS": "Музыка не настроена, попросите владельца сервера добавить треки",
+            "SEARCH": "Поиск трека",
+            "SELECT_POPUP": {
+                "TITLE": "Выбрать трек",
+                "DESCRIPTION": "Вы уверены, что хотите выбрать {song}",
+                "CANCEL": "Отмена",
+                "PROCEED": "Продолжить"
+            }
+        },
+        "BATTERY": {
+            "LOW_BATTERY": "Низкий заряд",
+            "BATTERY_REMAINING": "осталось {percent}% заряда батареи",
+            "LOW_POWER_MODE": "Пониженное энергопотребление",
+            "CLOSE": "Закрыть"
+        },
+        "COLOR_PICKER": {
+            "COLOR": "Цвет"
         }
     },
     "SETUP": {
         "HELLO": "Привет",
-        "NEXT": "Нажмите чтобы открыть",
-
+        "NEXT": "Нажмите, чтобы открыть",
         "CREATE_PASSCODE": "Создать Код доступа",
         "CREATE_PASSCODE_TEXT": "Код доступа защищает ваши данные и используется для разблокировки телефона..",
         "SKIP": "Пропустить этот шаг",
-
         "FACE_ID_SETUP": "Настройка идентификатора лица",
         "FACE_ID_TEXT": "Настройте идентификатор лица для автоматической разблокировки вашего телефона, пока ваше лицо находится в кадре.",
         "ENABLE_FACE_ID": "Включить идентификатор лица",
-
         "APPEARANCE": "Внешность",
         "APPEARANCE_TEXT": "Выберите светлую или темную тему",
-
         "CONTINUE": "Продолжить",
         "WELCOME_TO": "Добро пожаловать в",
         "CLICK": "Нажмите чтобы начать"
     },
     "HOMESCREEN": {
         "DONE": "Готово",
-        "REMOVE": "Удалить",
-        "REMOVE_TEXT": "Удаление этого приложения НЕ приведет к удалению его данных. Позже приложение можно будет переустановить из App Store.",
-        "BUTTON_CANCEL": "Отменить",
-        "BUTTON_DELETE": "Удалить"
+        "REMOVE_APP_POPUP": {
+            "TITLE": "Удалить '{app}'?",
+            "DESCRIPTION": "Удаление этого приложения НЕ приведет к удалению его данных. Позже приложение можно будет переустановить из App Store.",
+            "CANCEL": "Отмена",
+            "PROCEED": "Удалить"
+        }
     },
     "LOCKSCREEN": {
-        "ENTER_PASSCODE": "введите код доступа",
-        "DELETE": "Удалить"
+        "ENTER_PASSCODE": "Введите код доступа",
+        "DELETE": "Удалить",
+        "FONT_AND_COLOR": "Шрифт & Цвет"
+    },
+    "MISC": {
+        "AIRPLANE_MODE_POPUP": {
+            "TITLE": "Ошибка",
+            "DESCRIPTION": "Вы пытаетесь выполнить действие, для которого требуется доступ в Интернет, отключите режим полета, чтобы продолжить",
+            "OK": "ОК"
+        }
+    },
+    "BACKEND": {
+        "CALLS": {
+            "NO_CALLER_ID": "Не ID абонента",
+            "MISSED_CALL": "Пропущенный вызов"
+        },
+        "GARAGE": {
+            "VALET": "Valet",
+            "COULDNT_FIND": "Не удалось найти ТС.",
+            "ALREADY_OUT": "ТС уже выехал.",
+            "NO_MONEY": "У тебя недостаточно денег.",
+            "ON_WAY": "Ваш автомобиль уже в пути.",
+            "MARKED": "Ваш автомобиль был отмечен на вашем GPS-навигаторе."
+        },
+        "INSTAGRAM": {
+            "NOT_ALLOWED_LIVE": "Вам не разрешено выходить в прямой эфир",
+            "NOT_ALLOWED_STORY": "Вам не разрешно постить истории",
+            "STARTED_LIVE": "{username} начал эфир",
+            "JOINED_LIVE": "{invitee} в эфире с {inviter}."
+        },
+        "TINDER": {
+            "NEW_MATCH": "Новое совпадение",
+            "MATCHED_WITH": "Вы совпали с {name}"
+        },
+        "CAMERA": {
+            "TAKE_PHOTO": "Нажмите {key} чтобы сделать фото",
+            "FLIP_CAMERA": "Нажмите {key} чтобы перевернуть камеру",
+            "TOGGLE_FLASH": "Нажмите {key} чтобы включить фонарик",
+            "TOGGLE_CURSOR": "Нажмите {key} чтобы переключить курсор и осмотреться",
+            "CHANGE_MODE": "Нажмите {key} {key2} чтобы изменить режим камеры"
+        },
+        "SERVICES": {
+            "NEW_MESSAGE": "Новое сообщение",
+            "ANONYMOUS": "Анонимный"
+        },
+        "TWITTER": {
+            "LIKE": "{displayName} лайкнул(-а) :",
+            "RETWEET": "{displayName} репостнул(-а)  :",
+            "REPLY": "{displayName} ответил:",
+            "FOLLOW": "{username} подписался на вас",
+            "TWEET": "{username} только что запостил"
+        },
+        "TIKTOK": {
+            "LIKE": "{displayName} лайкнул ваше видео.",
+            "COMMENT": "{displayName} прокомментировал ваше видео.",
+            "FOLLOW": "{displayName} подписался(-ась) на вас.",
+            "SAVE": "{displayName} добавил(-а) ваше видео в избранное.",
+            "LIKED_COMMENT": "{displayName} лайкнул(-а) ваш коммент.",
+            "REPLIED_COMMENT": "{displayName} ответил(-а) на ваш коммент.",
+            "DM": "{displayName}"
+        },
+        "MISC": {
+            "VERIFIED": "Ваша учетная запись была подтверждена",
+            "X_PHONE": "{name}'s Phone"
+        },
+        "LOGS": {
+            "MAIL_TITLE": "Email",
+            "NEW_MAIL": "{sender} отправил email для {recipient}",
+
+            "MESSAGE_TITLE": "Текст сообщения",
+            "NEW_MESSAGE": "{sender} отправил сообщение для {recipient}: {message}",
+
+            "CALL_ENDED": "Звонок завершен",
+            "CALL_DESCRIPTION": "Вызов, между `{caller}` и `{callee}`, длившийся {duration}с, был завершён. Ответил: {answered}",
+
+            "NEW_SERVICE_TITLE": "Новое сообщение",
+            "NEW_SERVICE_CONTENT": "{sender} отправил сообщение для {channel}: {message}",
+
+            "RECEIVED_TITLE": "Получено {amount}$",
+            "PAID_TITLE": "Заплатил {amount}$",
+            "TRANSACTION": "{number} совершил транзакцию в размере {amount}$ с {company}",
+
+            "BOUGHT_CRYPTO": "Покупка крипты",
+            "SOLD_CRYPTO": "Продажа крипту",
+            "CRYPTO_DETAILS": "**Монета**: {coin}\n**Количество**: {amount}\n**Стоимость**: {price}$\n",
+
+            "DARKCHAT_CREATED_TITLE": "Создание канала",
+            "DARKCHAT_CREATED_DESCRIPTION": "{creator} создал канал под названием {channel}",
+            "DARKCHAT_MESSAGE_TITLE": "Новое сообщение",
+            "DARKCHAT_MESSAGE_DESCRIPTION": "{sender} отправил сообщение в канал {channel}: {message}",
+
+            "MARKETPLACE_NEW_TITLE": "Новое объявление",
+            "MARKETPLACE_NEW_DESCRIPTION": "**Продавец**: {seller}\n**Название**: {title}\n**Цена**: ${price}\n**Описание**: {description}\n**Прикрепленное**: {attachments}\n**ID:** {id}",
+            "MARKETPLACE_DELETED": "Пост удалён",
+
+            "YELLOWPAGES_NEW_TITLE": "Создание поста",
+            "YELLOWPAGES_NEW_DESCRIPTION": "**Название**: {title}\n**Описание**: {description}\n**Прикрепленное**: {attachment}\n**ID:** {id}",
+            "YELLOWPAGES_DELETED": "Удаление поста",
+
+            "LIVE_TITLE": "Эфир",
+            "STARTED_LIVE": "{username} начал эфир",
+            "ENDED_LIVE": "{username} закончил эфир",
+            "ADDED_STORY": "{username} добавил сторис",
+
+            "TRENDY_UPLOAD_TITLE": "Новое видео",
+            "TRENDY_UPLOAD_DESCRIPTION": "{username} загрузил новое видео с подписью {caption} и id {id}",
+            "TRENDY_DELETE_TITLE": "Удалил видео",
+            "TRENDY_DELETE_DESCRIPTION": "{username} удалил видео с id {id}"
+        }
     }
 }
