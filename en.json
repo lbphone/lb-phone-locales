@@ -1,1225 +1,1386 @@
 {
-    "LABEL": "English",
-    "SEARCH": "Search",
-    "CANCEL": "Cancel",
-    "NOW": "now",
-    "D": "d",
-    "H": "h",
-    "M": "m",
-    "S": "s",
+	"LABEL": "English",
+	"SEARCH": "Search",
+	"CANCEL": "Cancel",
+	"NOW": "now",
+	"D": "d",
+	"H": "h",
+	"M": "m",
+	"S": "s",
 
-    "APPS": {
-        "SETTINGS": {
-            "TITLE": "Settings",
-            "BACK": "Back",
-            "DONE": "Done",
-            "EDIT": "Edit",
-            "AIRPLANE_MODE": "Airplane Mode",
-            "STREAMER_MODE": "Streamer Mode",
-            "BLUETOOTH": "Bluetooth",
-            "GENERAL": "General",
-            "ABOUT": "About",
-            "NAME": "Name",
-            "VERSION": "Version",
-            "MODEL_NAME": "Model Name",
-            "SERIAL_NUMBER": "Serial Number",
-            "DEVELOPED_BY": "Developed by",
-            "PURCHASE_AT": "Purchase at",
-            "SONGS": "Songs",
-            "VIDEOS": "Videos",
-            "PHOTOS": "Photos",
-            "APPLICATIONS": "Applications",
-            "CAPACITY": "Capacity",
-            "AVAILABLE": "Available",
-            "SOFTWARE_UPDATE": "Software Update",
-            "AUTOMATIC_UPDATES": "Automatic Updates",
-            "DATE_TIME": "Date & Time",
-            "24_HOUR_TIME": "24 Hour Time",
-            "SET_AUTOMATICALLY": "Set Automatically",
-            "TIME_ZONE": "Time Zone",
-            "LANGUAGE_REGION": "Language & Region",
-            "LANGUAGE": "Language",
-            "TEMPERATURE": "Temperature",
-            "CELCIUS": "Celsius",
-            "FAHRENHEIT": "Fahrenheit",
-            "BATTERY": "Battery",
-            "SOUND_HAPTICS": "Sound & Haptics",
-            "SOUND_HAPTICS_PATTERNS": "Sound and haptics patterns",
-            "RINGTONE": "Ringtone",
-            "TEXT_TONE": "Text Tone",
-            "RINGTONE_VOLUME": "Ringtone and alert volume",
-            "DEFAULT": "Default",
-            "PHONE_STORAGE": "Phone Storage",
-            "STORAGE": "Storage",
-            "USED": "Used",
-            "OF": "of",
-            "DISPLAY_BRIGHTNESS": "Display & Brightness",
-            "APPEARANCE": "Appearance",
-            "AUTOMATIC": "Automatic",
-            "BRIGHTNESS": "Brightness",
-            "PHONE_SCALE": "Phone Scale",
-            "WALLPAPER": "Wallpaper",
-            "WALLPAPERS": "Wallpapers",
-            "CHOOSE_NEW_WALLPAPER": "Choose a New Wallpaper",
-            "NOTIFICATIONS": "Notifications",
-            "ALLOW_NOTIFICATIONS": "Allow Notifications",
-            "SOUNDS": "Sounds",
-            "PHONE": "Phone",
-            "BLOCKED_CONTACTS": "Blocked Contacts",
-            "MY_NUMBER": "My Number",
-            "SHOW_CALLER_ID": "Show Caller ID",
-            "UNBLOCK_POPUP": {
-                "TITLE": "Unblock Number",
-                "TEXT": "Are you sure you want to unblock this number?",
-                "CANCEL": "Cancel",
-                "CONFIRM": "Unblock"
-            },
-            "FACE_ID_PASSWORD": "Face ID & Passcode",
-            "ENTER_PASSCODE": "Enter Passcode",
-            "PASSCODE": "Passcode",
-            "FACE_ID": "Face ID",
-            "RESET_FACE_ID": "Reset Face ID",
-            "ENABLE_FACE_ID": "Enable Face ID",
-            "PIN_CODE": "Pin code",
-            "DISABLE_FACE_ID_POPUP": {
-                "TITLE": "Turn Off Face ID",
-                "TEXT": "Are you sure you want to turn off Face ID?",
-                "CANCEL": "Cancel",
-                "CONFIRM": "Turn Off"
-            },
-            "ENABLE_FACE_ID_POPUP": {
-                "TITLE": "Enable Face ID",
-                "TEXT": "Are you sure you want to enable Face ID?",
-                "CANCEL": "Cancel",
-                "CONFIRM": "Enable"
-            },
-            "DISABLE_PIN_POPUP": {
-                "TITLE": "Turn Off Pin Code",
-                "TEXT": "Are you sure you want to turn off Pin Code? (This will also disable Face ID)",
-                "CANCEL": "Cancel",
-                "CONFIRM": "Confirm"
-            },
-            "TURN_PASSCODE_OFF": "Turn Passcode Off",
-            "TURN_PASSCODE_ON": "Turn Passcode On",
-            "CHANGE_PASSCODE": "Change Passcode",
-            "CLOUD_BACKUP": "Cloud Backup",
-            "YOUR_PROFILE": "Your Profile",
-            "CREATE_BACKUP": "Create Backup",
-            "SAVE_BACKUP_POPUP": {
-                "TITLE": "Save Backup",
-                "TEXT": "Are you sure you want to save a backup of your data? (Will save your contacts, photos and settings)",
-                "CANCEL": "Cancel",
-                "CONFIRM": "Save"
-            },
-            "BACKUPS": "Backups",
-            "APPLY_BACKUP_POPUP": {
-                "TITLE": "Apply Backup",
-                "TEXT": "Are you sure you want to apply this backup? (Will overwrite your contacts, photos and settings)",
-                "CANCEL": "Cancel",
-                "CONFIRM": "Apply"
-            },
-            "SUCCESS": "Success",
-            "SUCCESS_TEXT": "Phone will restart in 5 seconds...",
-            "OK": "OK",
-            "ON": "On",
-            "REMOVE_BACKUP_POPUP": {
-                "TITLE": "Remove Backup",
-                "TEXT": "Are you sure you want to remove this backup?",
-                "CANCEL": "Cancel",
-                "CONFIRM": "Remove"
-            },
-            "RESET_POPUP": {
-                "TITLE": "Reset Phone",
-                "TEXT": "Are you sure you want to reset your phone? [THIS WILL REMOVE EVERYTHING]",
-                "CANCEL": "Cancel",
-                "CONFIRM": "Reset"
-            }
-        },
-        "NOTES": {
-            "TITLE": "Notes",
-            "SEARCH_PLACEHOLDER": "Search",
-            "FOOTER": "{amount} Notes",
-            "NEW_NOTE": "New Note",
-            "LAST_EDITED": "Last Edited: {date}",
-            "DELETE_TITLE": "Delete {title}",
-            "DELETE_TEXT": "Are you sure you want to delete '{title}'?",
-            "BUTTON_CANCEL": "Cancel",
-            "BUTTON_DELETE": "Delete"
-        },
-        "CLOCK": {
-            "WORLDCLOCK": {
-                "TITLE": "World Clock",
-                "TODAY": "Today",
-                "TOMORROW": "Tomorrow",
-                "YESTERDAY": "Yesterday"
-            },
-            "ALARM": {
-                "TITLE": "Alarm",
-                "ADD": "Add Alarm",
-                "CANCEL": "Cancel",
-                "EDIT": "Edit",
-                "DONE": "Done",
-                "SAVE": "Save",
-                "LABEL": "Label",
-                "SOUND": "Sound",
-                "SNOOZE": "Snooze",
-                "DELETE_TITLE": "Delete Alarm",
-                "DELETE_TEXT": "Are you sure you want to delete this alarm?",
-                "BUTTON_CANCEL": "Cancel",
-                "BUTTON_DELETE": "Delete"
-            },
-            "STOPWATCH": {
-                "TITLE": "Stopwatch",
-                "START": "Start",
-                "STOP": "Stop",
-                "RESET": "Reset",
-                "LAP": "Lap"
-            },
-            "TIMER": {
-                "TITLE": "Timer",
-                "START": "Start",
-                "STOP": "Stop",
-                "CANCEL": "Cancel",
-                "HOURS": "hours",
-                "MINUTES": "min",
-                "SECONDS": "sec"
-            },
-            "ALERT": {
-                "STOP": "Stop"
-            }
-        },
-        "CAMERA": {
-            "VIDEO": "Video",
-            "PHOTO": "Photo",
-            "LANDSCAPE": "Landscape",
-            "UPLOADING": "Uploading"
-        },
-        "DARKCHAT": {
-            "TITLE": "Dark Chat",
-            "USERNAME": "Username",
-            "SET_USERNAME": "Set your username. NOTE: THIS CAN ONLY BE SET ONCE.",
-            "CANCEL": "Cancel",
-            "SET": "Set",
-            "JOIN": "Join",
-            "LEAVE": "Leave",
-            "NEW_ROOM": "New Room",
-            "NEW_ROOM_TEXT": "Type in a room code to Join or Create a room",
-            "ROOM_CODE": "Room Code",
-            "LEAVE_ROOM": "Leave Room",
-            "LEAVE_ROOM_TEXT": "Are you sure you want to leave this room?",
-            "NOW": "Now",
-            "INPUT_PLACEHOLDER": "Type a message..."
-        },
-        "APPSTORE": {
-            "TITLE": "Apps",
-            "SEARCH": "Search",
-            "GET": "Get",
-            "OPEN": "Open",
-            "TODAY": "Today",
-            "GAMES": "Games",
-            "APPS": "Apps",
-            "WHAT_WE_PLAYING": "What we're playing",
-            "INFORMATION": "Information",
-            "PROVIDER": "Provider",
-            "SIZE": "Size",
-            "COMPATIBILITY": "Compatibility",
-            "IN_APP_PURCHASES": "In-App Purchases"
-        },
-        "PHOTOS": {
-            "TITLE": "Photos",
-            "SELECT": "Select",
-            "CANCEL": "Cancel",
-            "SELECT_ITEMS": "Select Items",
-            "SELECTED_COUNT": "{count} Items selected",
-            "PHOTO_COUNT": "{count} photos",
-            "DELETE_TITLE": "Delete {count} images",
-            "DELETE_TEXT": "Do you want to delete {count} images",
-            "DELETE_BUTTON_CANCEL": "Cancel",
-            "DELETE_BUTTON_DELETE": "Delete",
-            "DELETE_IMAGE_TITLE": "Delete image",
-            "DELETE_IMAGE_TEXT": "Do you want to delete this image?",
-            "DELETE_IMAGE_BUTTON_CANCEL": "Cancel",
-            "DELETE_IMAGE_BUTTON_DELETE": "Delete"
-        },
-        "WEATHER": {
-            "TITLE": "Weather",
-            "HOURLY_FORECAST": "Hourly Forecast",
-            "NOW": "Now",
-            "FEELS_LIKE": "Feels like",
-            "FEELS_LIKE_SAME": "Similar to the actual temperature.",
-            "FEELS_LIKE_HUMIDITY": "Humidity is making it feel warmer",
-            "FEELS_LIKE_WIND": "Wind is making it feel cooler",
-            "SUNRISE": "Sunrise",
-            "SUNSET": "Sunset",
-            "WIND": "Wind",
-            "PRECIPITATION": "Precipitation",
-            "LAST_24H": "in the last 24h",
-            "EXPECTED_24H": "expected in the next 24h",
-            "TYPES": {
-                "CLOUDY": "Cloudy",
-                "LIGHT_RAIN": "Light Rain",
-                "HEAVY_RAIN": "Heavy Rain",
-                "RAIN": "Rain",
-                "SNOW": "Snow",
-                "FOG": "Fog",
-                "CLEAR": "Clear",
-                "MOSTLY_CLEAR": "Mostly Clear",
-                "THUNDER": "Thunder",
-                "TORNADO": "Tornado",
-                "WINDY": "Windy"
-            }
-        },
-        "MESSAGES": {
-            "TITLE": "Messages",
-            "NEW_MESSAGE": "New Message",
-            "PEOPLE": "People",
-            "MEMBERS": "Members",
-            "OTHER": "Other",
-            "SENT_A_PHOTO": "Sent a photo",
-            "SENT_AUDIO_MESSAGE": "Sent an audio message",
-            "SENT": "Sent",
-            "REQUESTED": "Requested",
-            "MISSED_CALL": "{number} tried to call you but you didn't answer, press the number to call back",
-            "NOT_DELIVERED": "Not delivered",
-            "PLACEHOLDER": "Text Message",
-            "DONE": "Done",
-            "CANCEL": "Cancel",
-            "SEND": "Send",
-            "UNKNOWN": "Unknown",
-            "TO": "To",
-            "SEARCH": "Search",
-            "ADD_MEMBER": "Add Member",
-            "SHARE_LOCATION": "Share my Location",
-            "LEAVE_GROUP": "Leave Conversation",
-            "SENT_LOCATION": "Shared their location, click to open in Maps",
-            "SENT_LOCATION_SHORT": "Shared their location",
-            "DELETE": "Delete",
-            "REMOVE_POPUP": {
-                "TITLE": "Remove member",
-                "TEXT": "Are you sure you want to remove {name} from the group?",
-                "REMOVE": "Remove"
-            },
-            "LEAVE_POPUP": {
-                "TITLE": "Leave group",
-                "TEXT": "Are you sure you want to leave this group?",
-                "LEAVE": "Leave"
-            },
-            "ADD_POPUP": {
-                "TITLE": "Add member",
-                "TEXT": "Type in a number to add to '{name}' the group?",
-                "ADD": "Add"
-            },
-            "SEND_LOCATION_POPUP": {
-                "TITLE": "Share Location",
-                "TEXT": "Do you want to share your location?",
-                "CANCEL": "Cancel",
-                "SEND": "Send"
-            },
-            "PAY": {
-                "REQUEST": "Request",
-                "REQUESTED": "Requested",
-                "PAY": "Pay",
-                "SEND": "Send",
-                "SEND_TITLE": "Send {amount}",
-                "SEND_DESCRIPTION": "Do you want to send {amount} to {name}?",
-                "SEND_BUTTON_CANCEL": "Cancel",
-                "SEND_BUTTON_SEND": "Send"
-            }
-        },
-        "PHONE": {
-            "TITLE": "Phone",
-            "DONE": "Done",
-            "EDIT": "Edit",
-            "CANCEL": "Cancel",
-            "CALL": {
-                "CALL_TITLE": "Call {name}",
-                "CALL_TEXT": "Are you sure you want to call {name}?",
-                "CALL_BUTTON_CANCEL": "Cancel",
-                "CALL_BUTTON_CALL": "Call",
-                "NO_CALLER_ID": "No Caller ID",
-                "UNKNOWN": "Unknown",
-                "USER_BUSY": "User Busy",
-                "USER_UNAVAILABLE": "User Unavailable",
-                "CALL_BACK": "Call Back",
-                "DECLINE": "Decline",
-                "ACCEPT": "Accept",
-                "END": "End",
-                "VIDEO_CALL": "Video Call",
-                "MUTE": "mute",
-                "KEYPAD": "keypad",
-                "SPEAKER": "speaker",
-                "ADD_CALL": "add call",
-                "VIDEO": "video",
-                "CONTACTS": "contacts",
-                "MOBILE": "Mobile"
-            },
-            "CONTACTS": {
-                "TITLE": "Contacts",
-                "FIRST_NAME": "First Name",
-                "LAST_NAME": "Last Name",
-                "PHONE_NUMBER": "Phone Number",
-                "MY_CARD": "My Card",
-                "ADD_PHOTO": "Add Photo",
-                "REMOVE_CONTACT_TITLE": "Remove Contact",
-                "REMOVE_CONTACT_TEXT": "Are you sure you want to remove this contact?",
-                "REMOVE_CONTACT_BUTTON_CANCEL": "Cancel",
-                "REMOVE_CONTACT_BUTTON_DELETE": "Delete",
-                "DELETE_CONTACT": "Delete Contact",
-                "MESSAGE": "message",
-                "CALL": "call",
-                "VIDEO": "video",
-                "MAIN": "main",
-                "SHARE_CONTACT": "Share Contact",
-                "SHARE_LOCATION": "Share my Location",
-                "REMOVE_FAVORITE": "Remove from Favorites",
-                "ADD_FAVORITE": "Add to Favorites",
-                "ADD_CONTACT": "Add to Contacts",
-                "UNBLOCK_CALLER": "Unblock this Caller",
-                "BLOCK_CALLER": "Block this Caller",
-                "UNBLOCK_NUMBER_TITLE": "Unblock Number",
-                "UNBLOCK_NUMBER_TEXT": "Are you sure you want to unblock {number}?",
-                "UNBLOCK_NUMBER_BUTTON_CANCEL": "Cancel",
-                "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Unblock",
-                "BLOCK_NUMBER_TITLE": "Block Number",
-                "BLOCK_NUMBER_TEXT": "Are you sure you want to block {number}?",
-                "BLOCK_NUMBER_BUTTON_CANCEL": "Cancel",
-                "BLOCK_NUMBER_BUTTON_BLOCK": "Block",
-                "EMAIL": "Email",
-                "ADDRESS": "Address"
-            },
-            "FAVOURITES": {
-                "TITLE": "Favorites",
-                "REMOVE_TITLE": "Remove from Favorites",
-                "REMOVE_TEXT": "Are you sure you want to remove this contact from your favorites?",
-                "REMOVE_BUTTON_CANCEL": "Cancel",
-                "REMOVE_BUTTON_REMOVE": "Remove"
-            },
-            "KEYPAD": {
-                "TITLE": "Keypad",
-                "ADD_NUMBER": "Add Number"
-            },
-            "RECENTS": {
-                "TITLE": "Recent"
-            }
-        },
-        "WALLET": {
-            "TITLE": "Wallet",
-            "BALANCE": "Balance",
-            "SEND": "Send",
-            "NEXT": "Next",
-            "DONE": "Done",
-            "DONE_SUBTITLE": "You sent {amount} to {number}",
-            "NO_REFUNDS": "Payments are non refundable, double check the number.",
-            "NEW_BALANCE": "New Balance",
-            "LATEST_TRANSACTIONS": "Latest Transactions",
-            "LATEST_BILLS": "Latest Bills",
-            "NOW": "Now",
-            "AGO": "ago",
-            "NUMBER_DOES_NOT_EXIST": "Number does not exist",
-            "NOT_ENOUGH_MONEY": "You do not have enough money"
-        },
-        "GARAGE": {
-            "TITLTE": "Garage",
-            "ACTIONS": "Actions",
-            "MY_CARS": "My Cars",
-            "OUT": "Out",
-            "GARAGE": "Garage",
-            "LOCATION": "Location",
-            "SUMMON": "Summon",
-            "VALET": "Valet",
-            "STATISTICS": "Statistics",
-            "FUEL": "Fuel",
-            "ENGINE": "Engine",
-            "BODY": "Body",
-            "VEHICLE": "Vehicle",
-            "STATUS": "Status",
-            "LOCKED": "Locked",
-            "LOCK": "Lock",
-            "UNLOCKED": "Unlocked",
-            "UNLOCK": "Unlock",
+	"APPS": {
+		"SETTINGS": {
+			"TITLE": "Settings",
+			"BACK": "Back",
+			"DONE": "Done",
+			"EDIT": "Edit",
+			"AIRPLANE_MODE": "Airplane Mode",
+			"STREAMER_MODE": "Streamer Mode",
+			"BLUETOOTH": "Bluetooth",
+			"GENERAL": "General",
+			"ABOUT": "About",
+			"NAME": "Name",
+			"VERSION": "Version",
+			"MODEL_NAME": "Model Name",
+			"SERIAL_NUMBER": "Serial Number",
+			"DEVELOPED_BY": "Developed by",
+			"PURCHASE_AT": "Purchase at",
+			"SONGS": "Songs",
+			"VIDEOS": "Videos",
+			"PHOTOS": "Photos",
+			"APPLICATIONS": "Applications",
+			"CAPACITY": "Capacity",
+			"AVAILABLE": "Available",
+			"SOFTWARE_UPDATE": "Software Update",
+			"AUTOMATIC_UPDATES": "Automatic Updates",
+			"DATE_TIME": "Date & Time",
+			"24_HOUR_TIME": "24 Hour Time",
+			"SET_AUTOMATICALLY": "Set Automatically",
+			"TIME_ZONE": "Time Zone",
+			"LANGUAGE_REGION": "Language & Region",
+			"LANGUAGE": "Language",
+			"TEMPERATURE": "Temperature",
+			"CELCIUS": "Celsius",
+			"FAHRENHEIT": "Fahrenheit",
+			"BATTERY": "Battery",
+			"SOUND_HAPTICS": "Sound & Haptics",
+			"SOUND_HAPTICS_PATTERNS": "Sound and haptics patterns",
+			"RINGTONE": "Ringtone",
+			"TEXT_TONE": "Text Tone",
+			"RINGTONE_VOLUME": "Ringtone and alert volume",
+			"DEFAULT": "Default",
+			"PHONE_STORAGE": "Phone Storage",
+			"STORAGE": "Storage",
+			"USED": "Used",
+			"OF": "of",
+			"DISPLAY_BRIGHTNESS": "Display & Brightness",
+			"APPEARANCE": "Appearance",
+			"AUTOMATIC": "Automatic",
+			"BRIGHTNESS": "Brightness",
+			"PHONE_SCALE": "Phone Scale",
+			"FRAME_COLOR": "Frame Color",
+			"WALLPAPER": "Wallpaper",
+			"WALLPAPERS": "Wallpapers",
+			"CHOOSE_NEW_WALLPAPER": "Choose a New Wallpaper",
+			"NOTIFICATIONS": "Notifications",
+			"ALLOW_NOTIFICATIONS": "Allow Notifications",
+			"SOUNDS": "Sounds",
+			"PHONE": "Phone",
+			"BLOCKED_CONTACTS": "Blocked Contacts",
+			"MY_NUMBER": "My Number",
+			"SHOW_CALLER_ID": "Show Caller ID",
+			"UNBLOCK_POPUP": {
+				"TITLE": "Unblock Number",
+				"TEXT": "Are you sure you want to unblock this number?",
+				"CANCEL": "Cancel",
+				"CONFIRM": "Unblock"
+			},
+			"FACE_ID_PASSWORD": "Face ID & Passcode",
+			"ENTER_PASSCODE": "Enter Passcode",
+			"PASSCODE": "Passcode",
+			"FACE_ID": "Face ID",
+			"RESET_FACE_ID": "Reset Face ID",
+			"ENABLE_FACE_ID": "Enable Face ID",
+			"PIN_CODE": "Pin code",
+			"DISABLE_FACE_ID_POPUP": {
+				"TITLE": "Turn Off Face ID",
+				"TEXT": "Are you sure you want to turn off Face ID?",
+				"CANCEL": "Cancel",
+				"CONFIRM": "Turn Off"
+			},
+			"ENABLE_FACE_ID_POPUP": {
+				"TITLE": "Enable Face ID",
+				"TEXT": "Are you sure you want to enable Face ID?",
+				"CANCEL": "Cancel",
+				"CONFIRM": "Enable"
+			},
+			"DISABLE_PIN_POPUP": {
+				"TITLE": "Turn Off Pin Code",
+				"TEXT": "Are you sure you want to turn off Pin Code? (This will also disable Face ID)",
+				"CANCEL": "Cancel",
+				"CONFIRM": "Confirm"
+			},
+			"TURN_PASSCODE_OFF": "Turn Passcode Off",
+			"TURN_PASSCODE_ON": "Turn Passcode On",
+			"CHANGE_PASSCODE": "Change Passcode",
+			"CLOUD_BACKUP": "Cloud Backup",
+			"YOUR_PROFILE": "Your Profile",
+			"CREATE_BACKUP": "Create Backup",
+			"SAVE_BACKUP_POPUP": {
+				"TITLE": "Save Backup",
+				"TEXT": "Are you sure you want to save a backup of your data? (Will save your contacts, photos and settings)",
+				"CANCEL": "Cancel",
+				"CONFIRM": "Save"
+			},
+			"BACKUPS": "Backups",
+			"APPLY_BACKUP_POPUP": {
+				"TITLE": "Apply Backup",
+				"TEXT": "Are you sure you want to apply this backup? (Will overwrite your contacts, photos and settings)",
+				"CANCEL": "Cancel",
+				"CONFIRM": "Apply"
+			},
+			"SUCCESS": "Success",
+			"SUCCESS_TEXT": "Phone will restart in 5 seconds...",
+			"OK": "OK",
+			"ON": "On",
+			"OFF": "Off",
+			"REMOVE_BACKUP_POPUP": {
+				"TITLE": "Remove Backup",
+				"TEXT": "Are you sure you want to remove this backup?",
+				"CANCEL": "Cancel",
+				"CONFIRM": "Remove"
+			},
+			"RESET_POPUP": {
+				"TITLE": "Reset Phone",
+				"TEXT": "Are you sure you want to reset your phone? [THIS WILL REMOVE EVERYTHING]",
+				"CANCEL": "Cancel",
+				"CONFIRM": "Reset"
+			},
+			"UP_TO_DATE": "Your phone is up to date"
+		},
+		"NOTES": {
+			"TITLE": "Notes",
+			"SEARCH_PLACEHOLDER": "Search",
+			"FOOTER": "{amount} Notes",
+			"NEW_NOTE": "New Note",
+			"LAST_EDITED": "Last Edited: {date}",
+			"DELETE_TITLE": "Delete {title}",
+			"DELETE_TEXT": "Are you sure you want to delete '{title}'?",
+			"BUTTON_CANCEL": "Cancel",
+			"BUTTON_DELETE": "Delete"
+		},
+		"CLOCK": {
+			"WORLDCLOCK": {
+				"TITLE": "World Clock",
+				"TODAY": "Today",
+				"TOMORROW": "Tomorrow",
+				"YESTERDAY": "Yesterday"
+			},
+			"ALARM": {
+				"TITLE": "Alarm",
+				"ADD": "Add Alarm",
+				"CANCEL": "Cancel",
+				"EDIT": "Edit",
+				"DONE": "Done",
+				"SAVE": "Save",
+				"LABEL": "Label",
+				"SOUND": "Sound",
+				"SNOOZE": "Snooze",
+				"DELETE_TITLE": "Delete Alarm",
+				"DELETE_TEXT": "Are you sure you want to delete this alarm?",
+				"BUTTON_CANCEL": "Cancel",
+				"BUTTON_DELETE": "Delete"
+			},
+			"STOPWATCH": {
+				"TITLE": "Stopwatch",
+				"START": "Start",
+				"STOP": "Stop",
+				"RESET": "Reset",
+				"LAP": "Lap"
+			},
+			"TIMER": {
+				"TITLE": "Timer",
+				"START": "Start",
+				"STOP": "Stop",
+				"CANCEL": "Cancel",
+				"HOURS": "hours",
+				"MINUTES": "min",
+				"SECONDS": "sec"
+			},
+			"ALERT": {
+				"STOP": "Stop"
+			}
+		},
+		"CAMERA": {
+			"VIDEO": "Video",
+			"PHOTO": "Photo",
+			"LANDSCAPE": "Landscape",
+			"UPLOADING": "Uploading"
+		},
+		"DARKCHAT": {
+			"TITLE": "Dark Chat",
+			"USERNAME": "Username",
+			"SET_USERNAME": "Set your username. NOTE: THIS CAN ONLY BE SET ONCE.",
+			"CANCEL": "Cancel",
+			"SET": "Set",
+			"JOIN": "Join",
+			"LEAVE": "Leave",
+			"NEW_ROOM": "New Room",
+			"NEW_ROOM_TEXT": "Type in a room code to Join or Create a room",
+			"ROOM_CODE": "Room Code",
+			"LEAVE_ROOM": "Leave Room",
+			"LEAVE_ROOM_TEXT": "Are you sure you want to leave this room?",
+			"NOW": "Now",
+			"INPUT_PLACEHOLDER": "Type a message..."
+		},
+		"APPSTORE": {
+			"TITLE": "Apps",
+			"SEARCH": "Search",
+			"GET": "Get",
+			"OPEN": "Open",
+			"TODAY": "Today",
+			"POPULAR_APPS": "Popular Apps",
+			"GAMES": "Games",
+			"APPS": "Apps",
+			"WHAT_WE_PLAYING": "What we're playing",
+			"INFORMATION": "Information",
+			"PROVIDER": "Provider",
+			"SIZE": "Size",
+			"COMPATIBILITY": "Compatibility",
+			"IN_APP_PURCHASES": "In-App Purchases",
+			"WORKS_WITH_PHONE": "Works with this phone",
+			"NO": "No",
+			"YES": "Yes",
+			"PURCHASE_APP_POPUP": {
+				"TITLE": "Purchase App",
+				"DESCRIPTION": "Do you want to purchase {app} for {price}?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Purchase"
+			}
+		},
+		"PHOTOS": {
+			"TITLE": "Photos",
+			"SELECT": "Select",
+			"CANCEL": "Cancel",
+			"SELECT_ITEMS": "Select Items",
+			"SELECTED_COUNT": "{count} Items selected",
+			"PHOTO_COUNT": "{count} photos",
+			"DELETE_TITLE": "Delete {count} images",
+			"DELETE_TEXT": "Do you want to delete {count} images",
+			"DELETE_BUTTON_CANCEL": "Cancel",
+			"DELETE_BUTTON_DELETE": "Delete",
+			"DELETE_IMAGE_TITLE": "Delete image",
+			"DELETE_IMAGE_TEXT": "Do you want to delete this image?",
+			"DELETE_IMAGE_BUTTON_CANCEL": "Cancel",
+			"DELETE_IMAGE_BUTTON_DELETE": "Delete"
+		},
+		"WEATHER": {
+			"TITLE": "Weather",
+			"HOURLY_FORECAST": "Hourly Forecast",
+			"NOW": "Now",
+			"FEELS_LIKE": "Feels like",
+			"FEELS_LIKE_SAME": "Similar to the actual temperature.",
+			"FEELS_LIKE_HUMIDITY": "Humidity is making it feel warmer",
+			"FEELS_LIKE_WIND": "Wind is making it feel cooler",
+			"SUNRISE": "Sunrise",
+			"SUNSET": "Sunset",
+			"WIND": "Wind",
+			"PRECIPITATION": "Precipitation",
+			"LAST_24H": "in the last 24h",
+			"EXPECTED_24H": "expected in the next 24h",
+			"TYPES": {
+				"CLOUDY": "Cloudy",
+				"LIGHT_RAIN": "Light Rain",
+				"HEAVY_RAIN": "Heavy Rain",
+				"RAIN": "Rain",
+				"SNOW": "Snow",
+				"FOG": "Fog",
+				"CLEAR": "Clear",
+				"MOSTLY_CLEAR": "Mostly Clear",
+				"THUNDER": "Thunder",
+				"TORNADO": "Tornado",
+				"WINDY": "Windy"
+			}
+		},
+		"MESSAGES": {
+			"TITLE": "Messages",
+			"NEW_MESSAGE": "New Message",
+			"PEOPLE": "People",
+			"MEMBERS": "Members",
+			"OTHER": "Other",
+			"SENT_A_PHOTO": "Sent a photo",
+			"SENT_AUDIO_MESSAGE": "Sent an audio message",
+			"SENT": "Sent",
+			"REQUESTED": "Requested",
+			"MISSED_CALL": "{number} tried to call you but you didn't answer, press the number to call back",
+			"NOT_DELIVERED": "Not delivered",
+			"PLACEHOLDER": "Text Message",
+			"DONE": "Done",
+			"EDIT": "Edit",
+			"READ": "Read",
+			"CANCEL": "Cancel",
+			"SEND": "Send",
+			"UNKNOWN": "Unknown",
+			"TO": "To",
+			"SEARCH": "Search",
+			"ADD_MEMBER": "Add Member",
+			"SHARE_LOCATION": "Share my Location",
+			"LEAVE_GROUP": "Leave Conversation",
+			"SENT_LOCATION": "Shared their location, click to open in Maps",
+			"SENT_LOCATION_SHORT": "Shared their location",
+			"TRIED_TO_CALL": "{number} tried to call you",
+			"DELETE": "Delete",
+			"REMOVE_POPUP": {
+				"TITLE": "Remove member",
+				"TEXT": "Are you sure you want to remove {name} from the group?",
+				"REMOVE": "Remove"
+			},
+			"LEAVE_POPUP": {
+				"TITLE": "Leave group",
+				"TEXT": "Are you sure you want to leave this group?",
+				"LEAVE": "Leave"
+			},
+			"ADD_POPUP": {
+				"TITLE": "Add member",
+				"TEXT": "Type in a number to add to '{name}' the group?",
+				"ADD": "Add"
+			},
+			"SEND_LOCATION_POPUP": {
+				"TITLE": "Share Location",
+				"TEXT": "Do you want to share your location?",
+				"CANCEL": "Cancel",
+				"SEND": "Send"
+			},
+			"PAY": {
+				"REQUEST": "Request",
+				"REQUESTED": "Requested",
+				"PAY": "Pay",
+				"SEND": "Send",
+				"SEND_TITLE": "Send {amount}",
+				"SEND_DESCRIPTION": "Do you want to send {amount} to {name}?",
+				"SEND_BUTTON_CANCEL": "Cancel",
+				"SEND_BUTTON_SEND": "Send"
+			},
+			"PAYMENT_FAILED_POPUP": {
+				"TITLE": "Payment Failed",
+				"DESCRIPTION": "Error: {error}",
+				"CLOSE": "Close"
+			},
+			"DELETE_CONVERSATION": {
+				"TITLE": "Delete conversation",
+				"DESCRIPTION": "Are you sure you want to delete this conversation?"
+			},
+			"MARK_AS_READ": "Mark as read"
+		},
+		"PHONE": {
+			"TITLE": "Phone",
+			"DONE": "Done",
+			"EDIT": "Edit",
+			"CANCEL": "Cancel",
+			"CALL": {
+				"CALL_TITLE": "Call {name}",
+				"CALL_TEXT": "Are you sure you want to call {name}?",
+				"CALL_BUTTON_CANCEL": "Cancel",
+				"CALL_BUTTON_CALL": "Call",
+				"NO_CALLER_ID": "No Caller ID",
+				"UNKNOWN": "Unknown",
+				"USER_BUSY": "User Busy",
+				"USER_UNAVAILABLE": "User Unavailable",
+				"CALL_BACK": "Call Back",
+				"DECLINE": "Decline",
+				"ACCEPT": "Accept",
+				"END": "End",
+				"VIDEO_CALL": "Video Call",
+				"MUTE": "mute",
+				"KEYPAD": "keypad",
+				"SPEAKER": "speaker",
+				"ADD_CALL": "add call",
+				"VIDEO": "video",
+				"CONTACTS": "contacts",
+				"MOBILE": "Mobile"
+			},
+			"CONTACTS": {
+				"TITLE": "Contacts",
+				"FIRST_NAME": "First Name",
+				"LAST_NAME": "Last Name",
+				"PHONE_NUMBER": "Phone Number",
+				"MY_CARD": "My Card",
+				"ADD_PHOTO": "Add Photo",
+				"REMOVE_CONTACT_TITLE": "Remove Contact",
+				"REMOVE_CONTACT_TEXT": "Are you sure you want to remove this contact?",
+				"REMOVE_CONTACT_BUTTON_CANCEL": "Cancel",
+				"REMOVE_CONTACT_BUTTON_DELETE": "Delete",
+				"DELETE_CONTACT": "Delete Contact",
+				"MESSAGE": "message",
+				"CALL": "call",
+				"VIDEO": "video",
+				"MAIN": "main",
+				"SHARE_CONTACT": "Share Contact",
+				"SHARE_LOCATION": "Share my Location",
+				"REMOVE_FAVORITE": "Remove from Favorites",
+				"ADD_FAVORITE": "Add to Favorites",
+				"ADD_CONTACT": "Add to Contacts",
+				"UNBLOCK_CALLER": "Unblock this Caller",
+				"BLOCK_CALLER": "Block this Caller",
+				"UNBLOCK_NUMBER_TITLE": "Unblock Number",
+				"UNBLOCK_NUMBER_TEXT": "Are you sure you want to unblock {number}?",
+				"UNBLOCK_NUMBER_BUTTON_CANCEL": "Cancel",
+				"UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Unblock",
+				"BLOCK_NUMBER_TITLE": "Block Number",
+				"BLOCK_NUMBER_TEXT": "Are you sure you want to block {number}?",
+				"BLOCK_NUMBER_BUTTON_CANCEL": "Cancel",
+				"BLOCK_NUMBER_BUTTON_BLOCK": "Block",
+				"EMAIL": "Email",
+				"ADDRESS": "Address"
+			},
+			"FAVOURITES": {
+				"TITLE": "Favorites",
+				"REMOVE_TITLE": "Remove from Favorites",
+				"REMOVE_TEXT": "Are you sure you want to remove this contact from your favorites?",
+				"REMOVE_BUTTON_CANCEL": "Cancel",
+				"REMOVE_BUTTON_REMOVE": "Remove"
+			},
+			"KEYPAD": {
+				"TITLE": "Keypad",
+				"ADD_NUMBER": "Add Number"
+			},
+			"RECENTS": {
+				"TITLE": "Recents"
+			},
+			"VOICEMAIL": {
+				"TITLE": "Voicemail",
+				"AT": "at",
+				"DELETE_POPUP": {
+					"TITLE": "Delete Voicemail",
+					"DESCRIPTION": "Are you sure you want to delete this voicemail?",
+					"CANCEL": "Cancel",
+					"PROCEED": "Delete"
+				},
+				"CALL_POPUP": {
+					"TITLE": "Call",
+					"DESCRIPTION": "Are you sure you want to call {number}?",
+					"CANCEL": "Cancel",
+					"PROCEED": "Call"
+				}
+			}
+		},
+		"WALLET": {
+			"TITLE": "Wallet",
+			"BALANCE": "Balance",
+			"SEND": "Send",
+			"NEXT": "Next",
+			"DONE": "Done",
+			"DONE_SUBTITLE": "You sent {amount} to {number}",
+			"NO_REFUNDS": "Payments are non refundable, double check the number.",
+			"NEW_BALANCE": "New Balance",
+			"LATEST_TRANSACTIONS": "Latest Transactions",
+			"LATEST_BILLS": "Latest Bills",
+			"NOW": "Now",
+			"AGO": "ago",
+			"NUMBER_DOES_NOT_EXIST": "Number does not exist / Player is not online",
+			"NOT_ENOUGH_MONEY": "You do not have enough money"
+		},
+		"GARAGE": {
+			"TITLTE": "Garage",
+			"ACTIONS": "Actions",
+			"MY_CARS": "My Cars",
+			"OUT": "Out",
+			"GARAGE": "Garage",
+			"LOCATION": "Location",
+			"SUMMON": "Summon",
+			"VALET": "Valet",
+			"STATISTICS": "Statistics",
+			"FUEL": "Fuel",
+			"ENGINE": "Engine",
+			"BODY": "Body",
+			"VEHICLE": "Vehicle",
+			"STATUS": "Status",
+			"LOCKED": "Locked",
+			"LOCK": "Lock",
+			"UNLOCKED": "Unlocked",
+			"UNLOCK": "Unlock",
 
-            "WAYPOINT_POPUP": {
-                "TITLE": "Set Waypoint",
-                "TEXT": "Do you want to set a waypoint to your {model}?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "VALET_POPUP": {
-                "TITLE": "Valet",
-                "TEXT": "Do you want to valet your {model} ({plate})?",
-                "TEXT_PAID": "Do you want to valet your {model} ({plate}) for {amount}?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "LOCK_POPUP": {
-                "TITLE": "{toggle} vehicle",
-                "TEXT": "Do you want to {toggle} your vehicle?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            }
-        },
-        "HOME": {
-            "TITLE": "Home",
-            "MY_HOMES": "My Homes",
-            "MY_HOME": "My Home",
-            "KEY_ACCESS": "Key Access",
-            "ACTIONS": "Actions",
-            "FRONT_DOOR": "Front Door",
-            "LOCATION": "Location",
-            "SET_WAYPOINT": "Set Waypoint",
-            "UNLOCK": "Unlock",
-            "UNLOCKED": "Unlocked",
-            "LOCK": "Lock",
-            "LOCKED": "Locked",
-            "GIVE_KEY": "Give Key",
-            "MANAGE": "Manage",
-            "WAYPOINT_POPUP": {
-                "TITLE": "Set Waypoint",
-                "TEXT": "Do you want to set a waypoint to {home}?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "LOCK_POPUP": {
-                "TITLE": "{toggle} Home",
-                "TEXT": "Do you want to {toggle} your home?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "GIVE_KEY_POPUP": {
-                "TITLE": "Give Key",
-                "TEXT": "Insert the ID of the person you want to give a key to",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "REMOVE_KEY_POPUP": {
-                "TITLE": "Remove Keyholder",
-                "TEXT": "Are you sure you want to remove access from {name}?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            }
-        },
-        "MARKETPLACE": {
-            "CANCEL": "Cancel",
-            "SEARCH": "Search for listings or numbers",
-            "NEW_POST": "New Post",
-            "TITLE": "Title",
-            "DESCRIPTION": "Description",
-            "PRICE": "Price",
-            "POST": "Post",
-            "CONTACT": "Contact",
-            "REMOVE": "Remove",
-            "ERROR_POPUP": {
-                "TITLE": "Error",
-                "NO_TITLE": "You need to enter a title",
-                "NO_DESCRIPTION": "You need to enter a description",
-                "NO_PRICE": "You need to enter a price",
-                "NO_ATTACHMENTS": "You need to attach at least one image",
-                "OK": "OK"
-            },
-            "DELETE_POPUP": {
-                "TITLE": "Delete Listing",
-                "TEXT": "Are you sure you want to delete this listing?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Delete"
-            }
-        },
-        "YELLOWPAGES": {
-            "SEARCH": "Search for posts or numbers",
-            "FROM": "From",
-            "CANCEL": "Cancel",
-            "NEW_POST": "New Post",
-            "TITLE": "Title",
-            "DESCRIPTION": "Description",
-            "PRICE": "Price",
-            "POST": "Post",
-            "CALL": "Call",
-            "ERROR_POPUP": {
-                "TITLE": "Error",
-                "NO_TITLE": "You need to enter a title",
-                "NO_DESCRIPTION": "You need to enter a description",
-                "OK": "OK"
-            },
-            "DELETE_POPUP": {
-                "TITLE": "Delete Post",
-                "TEXT": "Are you sure you want to delete this post?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Delete"
-            }
-        },
-        "MAIL": {
-            "TITLE": "Mail",
-            "YOU": "You",
-            "UPDATED_NOW": "Updated just now",
-            "NEW_MESSAGE": "New Message",
-            "INBOX": "Inbox",
-            "TO": "To",
-            "FROM": "From",
-            "SUBJECT": "Subject",
-            "MESSAGE": "Message",
-            "CANCEL": "Cancel",
-            "SEND": "Send",
-            "EMAIL": "Email",
-            "EMAIL_INVALID": "Invalid email address",
-            "EMAIL_EXISTS": "Email already exists",
-            "PASSWORD": "Password",
-            "WRONG_PASSWORD": "Wrong password",
-            "LOGIN": "Login",
-            "NO_EMAIL": "Don't have an email address?",
-            "CREATE_ONE": "Create one",
-            "UNREAD": "Unread",
-            "CREATE_MAIL": "Create Email",
-            "ALREADY_HAVE": "Already have an email address?",
-            "SIGN_OUT_POPUP": {
-                "TITLE": "Sign Out",
-                "DESCRIPTION": "Are you sure you want to sign out?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            }
-        },
-        "MAPS": {
-            "TITLE": "Maps",
-            "GO": "Go",
-            "ADD": "Add",
-            "EDIT": "Edit",
-            "DELETE": "Delete",
-            "SET_WAYPOINT": "Set Waypoint",
-            "SHARE": "Share",
+			"WAYPOINT_POPUP": {
+				"TITLE": "Set Waypoint",
+				"TEXT": "Do you want to set a waypoint to your {model}?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"VALET_POPUP": {
+				"TITLE": "Valet",
+				"TEXT": "Do you want to valet your {model} ({plate})?",
+				"TEXT_PAID": "Do you want to valet your {model} ({plate}) for {amount}?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"LOCK_POPUP": {
+				"TITLE": "{toggle} vehicle",
+				"TEXT": "Do you want to {toggle} your vehicle?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			}
+		},
+		"HOME": {
+			"TITLE": "Home",
+			"MY_HOMES": "My Homes",
+			"MY_HOME": "My Home",
+			"KEY_ACCESS": "Key Access",
+			"ACTIONS": "Actions",
+			"FRONT_DOOR": "Front Door",
+			"LOCATION": "Location",
+			"SET_WAYPOINT": "Set Waypoint",
+			"UNLOCK": "Unlock",
+			"UNLOCKED": "Unlocked",
+			"LOCK": "Lock",
+			"LOCKED": "Locked",
+			"GIVE_KEY": "Give Key",
+			"MANAGE": "Manage",
+			"WAYPOINT_POPUP": {
+				"TITLE": "Set Waypoint",
+				"TEXT": "Do you want to set a waypoint to {home}?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"LOCK_POPUP": {
+				"TITLE": "{toggle} Home",
+				"TEXT": "Do you want to {toggle} your home?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"GIVE_KEY_POPUP": {
+				"TITLE": "Give Key",
+				"TEXT": "Insert the ID of the person you want to give a key to",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"REMOVE_KEY_POPUP": {
+				"TITLE": "Remove Keyholder",
+				"TEXT": "Are you sure you want to remove access from {name}?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			}
+		},
+		"MARKETPLACE": {
+			"CANCEL": "Cancel",
+			"SEARCH": "Search for listings or numbers",
+			"NEW_POST": "New Post",
+			"TITLE": "Title",
+			"DESCRIPTION": "Description",
+			"PRICE": "Price",
+			"POST": "Post",
+			"CONTACT": "Contact",
+			"REMOVE": "Remove",
+			"ERROR_POPUP": {
+				"TITLE": "Error",
+				"NO_TITLE": "You need to enter a title",
+				"NO_DESCRIPTION": "You need to enter a description",
+				"NO_PRICE": "You need to enter a price",
+				"NO_ATTACHMENTS": "You need to attach at least one image",
+				"OK": "OK"
+			},
+			"DELETE_POPUP": {
+				"TITLE": "Delete Listing",
+				"TEXT": "Are you sure you want to delete this listing?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Delete"
+			}
+		},
+		"YELLOWPAGES": {
+			"SEARCH": "Search for posts or numbers",
+			"FROM": "From",
+			"CANCEL": "Cancel",
+			"NEW_POST": "New Post",
+			"TITLE": "Title",
+			"DESCRIPTION": "Description",
+			"PRICE": "Price",
+			"POST": "Post",
+			"CALL": "Call",
+			"ERROR_POPUP": {
+				"TITLE": "Error",
+				"NO_TITLE": "You need to enter a title",
+				"NO_DESCRIPTION": "You need to enter a description",
+				"OK": "OK"
+			},
+			"DELETE_POPUP": {
+				"TITLE": "Delete Post",
+				"TEXT": "Are you sure you want to delete this post?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Delete"
+			}
+		},
+		"MAIL": {
+			"TITLE": "Mail",
+			"YOU": "You",
+			"UPDATED_NOW": "Updated just now",
+			"NEW_MESSAGE": "New Message",
+			"INBOX": "Inbox",
+			"TO": "To",
+			"FROM": "From",
+			"SUBJECT": "Subject",
+			"MESSAGE": "Message",
+			"CANCEL": "Cancel",
+			"SEND": "Send",
+			"EMAIL": "Email",
+			"EMAIL_INVALID": "Invalid email address",
+			"EMAIL_EXISTS": "Email already exists",
+			"PASSWORD": "Password",
+			"WRONG_PASSWORD": "Wrong password",
+			"LOGIN": "Login",
+			"NO_EMAIL": "Don't have an email address?",
+			"CREATE_ONE": "Create one",
+			"UNREAD": "Unread",
+			"CREATE_MAIL": "Create Email",
+			"ALREADY_HAVE": "Already have an email address?",
+			"SIGN_OUT_POPUP": {
+				"TITLE": "Sign Out",
+				"DESCRIPTION": "Are you sure you want to sign out?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			}
+		},
+		"MAPS": {
+			"TITLE": "Maps",
+			"GO": "Go",
+			"ADD": "Add",
+			"EDIT": "Edit",
+			"DELETE": "Delete",
+			"SET_WAYPOINT": "Set Waypoint",
+			"SHARE": "Share",
 
-            "ADD_LOCATION_POPUP": {
-                "TITLE": "Add Location",
-                "DESCRIPTION": "Enter the name of the location you want to add",
-                "PLACEHOLDER": "Name",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "CHANGE_NAME_POPUP": {
-                "TITLE": "Change Name",
-                "DESCRIPTION": "Enter the new name of the location",
-                "PLACEHOLDER": "Name",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            }
-        },
-        "MUSIC": {
-            "TITLE": "Music",
-            "LIBRARY": "Library",
-            "SEARCH": "Search",
-            "ADD_QUEUE": "Add to Queue",
-            "ADD_PLAYLIST": "Add to Playlist",
-            "REMOVE_SONG": "Remove Song",
-            "NOT_PLAYING": "Not Playing",
-            "DELETE_PLAYLIST": "Delete Playlist",
-            "SEARCH_PLACEHOLDER": "Artists, Songs, Albums, Playlists",
-            "SONGS": "Songs",
-            "ALBUMS": "Albums",
-            "PLAY": "Play",
-            "SHUFFLE": "Shuffle",
-            "ARTIST": "Artist",
-            "ALBUM": "Album",
-            "PLAYLIST": "Playlist",
-            "SONG": "Song",
-            "SONG_EXISTS_POPUP": {
-                "TITLE": "Song already exists",
-                "DESCRIPTION": "This song already exists in this playlist",
-                "CANCEL": "Cancel"
-            },
-            "NEW_PLAYLIST_POPUP": {
-                "TITLE": "New Playlist",
-                "DESCRIPTION": "Create a new playlist",
-                "PLACEHOLDER": "Playlist Name",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            }
-        },
-        "TINDER": {
-            "TITLE": "Tinder",
-            "LIKES_YOU_TOO": "likes you too!",
-            "KEEP_SWIPING": "Keep swiping",
-            "SAY_SOMETHING_NICE": "Say something nice",
-            "NO_MORE": "We've run out of people for you to swipe on, check back later!",
-            "SEND": "Send",
-            "AGREE_TERMS": "By pressing 'Create Account' you agree to our Terms of Service and Privacy Policy",
-            "CREATE_ACCOUNT": "Create Account",
-            "AGE_PUBLIC": "Your age will be public",
-            "BE_OVER_18": "You must be over 18 to use this service",
-            "NAME_MINIMUM": "Your name must be at least 3 characters long",
-            "ADD_PHOTOS": "Add Photos",
-            "PHOTOS_MINIMUM": "You must have at least one photo",
-            "DESCRIPTION": "Tell us a bit about yourself",
-            "DESCRIPTION_MINIMUM": "Your description must be at least 10 characters long",
-            "SHOW_ME": "Show Me",
-            "WOMEN": "Women",
-            "MEN": "Men",
-            "EVERYONE": "Everyone",
-            "EVERYTHING": "Everything",
-            "I_AM": "I am a",
-            "MALE": "Male",
-            "FEMALE": "Female",
-            "CONTINUE": "Continue",
-            "NAME": "Name",
-            "PHOTOS": "Photos",
-            "ABOUT_ME": "About Me",
-            "INTERESTED_IN": "Interested In",
-            "GENDER": "Gender",
-            "SAVE": "Save",
-            "NEW_MATCHES": "New Matches",
-            "MESSAGES": "Messages",
-            "SEARCH_MATCHES": "Search Matches"
-        },
-        "INSTAGRAM": {
-            "TITLE": "Instagram",
-            "SEND": "Send",
-            "POST": "Post",
-            "MESSAGE_PLACEHOLDER": "Message...",
-            "NEW_MESSAGE": "New Message",
-            "NOW": "Now",
-            "GO_LIVE_POPUP": {
-                "TITLE": "Go Live",
-                "DESCRIPTION": "Are you sure you want to go live?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "END_LIVE_POPUP": {
-                "TITLE": "End Live",
-                "DESCRIPTION": "Are you sure you want to {action} this live?",
-                "CANCEL": "Cancel",
-                "END": "End",
-                "LEAVE": "Leave"
-            },
-            "UNFOLLOW_POPUP": {
-                "TITLE": "Unfollow",
-                "DESCRIPTION": "Are you sure you want to unfollow {name}?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "DELETE_POST_POPUP": {
-                "TITLE": "Delete Post",
-                "DESCRIPTION": "Are you sure you want to delete this post?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "SIGN_OUT_POPUP": {
-                "TITLE": "Sign Out",
-                "DESCRIPTION": "Are you sure you want to sign out?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "DELETE_STORY": {
-                "TITLE": "Delete Story",
-                "DESCRIPTION": "Are you sure you want to delete this story?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
+			"ADD_LOCATION_POPUP": {
+				"TITLE": "Add Location",
+				"DESCRIPTION": "Enter the name of the location you want to add",
+				"PLACEHOLDER": "Name",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"CHANGE_NAME_POPUP": {
+				"TITLE": "Change Name",
+				"DESCRIPTION": "Enter the new name of the location",
+				"PLACEHOLDER": "Name",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			}
+		},
+		"MUSIC": {
+			"TITLE": "Music",
+			"LIBRARY": "Library",
+			"SEARCH": "Search",
+			"ADD_QUEUE": "Add to Queue",
+			"ADD_PLAYLIST": "Add to Playlist",
+			"REMOVE_SONG": "Remove Song",
+			"NOT_PLAYING": "Not Playing",
+			"EDIT_PLAYLIST": "Edit Playlist",
+			"DELETE_PLAYLIST": "Delete Playlist",
+			"SEARCH_PLACEHOLDER": "Artists, Songs, Albums, Playlists",
+			"SONGS": "Songs",
+			"ALBUMS": "Albums",
+			"PLAY": "Play",
+			"SHUFFLE": "Shuffle",
+			"ARTIST": "Artist",
+			"ALBUM": "Album",
+			"PLAYLIST": "Playlist",
+			"SONG": "Song",
+			"SONG_EXISTS_POPUP": {
+				"TITLE": "Song already exists",
+				"DESCRIPTION": "This song already exists in this playlist",
+				"CANCEL": "Cancel"
+			},
+			"NEW_PLAYLIST_POPUP": {
+				"TITLE": "New Playlist",
+				"DESCRIPTION": "Create a new playlist",
+				"PLACEHOLDER": "Playlist Name",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"REMOVE_SONG_POPUP": {
+				"TITLE": "Remove Song",
+				"DESCRIPTION": "Are you sure you want to remove this song from the playlist?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			}
+		},
+		"TINDER": {
+			"TITLE": "Spark",
+			"LIKES_YOU_TOO": "likes you too!",
+			"KEEP_SWIPING": "Keep swiping",
+			"SAY_SOMETHING_NICE": "Say something nice",
+			"NO_MORE": "We've run out of people for you to swipe on, check back later!",
+			"SEND": "Send",
+			"AGREE_TERMS": "By pressing 'Create Account' you agree to our Terms of Service and Privacy Policy",
+			"CREATE_ACCOUNT": "Create Account",
+			"AGE_PUBLIC": "Your age will be public",
+			"BE_OVER_18": "You must be over 18 to use this service",
+			"NAME_MINIMUM": "Your name must be at least 3 characters long",
+			"ADD_PHOTOS": "Add Photos",
+			"PHOTOS_MINIMUM": "You must have at least one photo",
+			"DESCRIPTION": "Tell us a bit about yourself",
+			"DESCRIPTION_MINIMUM": "Your description must be at least 10 characters long",
+			"SHOW_ME": "Show Me",
+			"WOMEN": "Women",
+			"MEN": "Men",
+			"EVERYONE": "Everyone",
+			"EVERYTHING": "Everything",
+			"I_AM": "I am a",
+			"MALE": "Male",
+			"FEMALE": "Female",
+			"CONTINUE": "Continue",
+			"NAME": "Name",
+			"PHOTOS": "Photos",
+			"ABOUT_ME": "About Me",
+			"INTERESTED_IN": "Interested In",
+			"GENDER": "Gender",
+			"SAVE": "Save",
+			"NEW_MATCHES": "New Matches",
+			"MESSAGES": "Messages",
+			"SEARCH_MATCHES": "Search Matches"
+		},
+		"INSTAGRAM": {
+			"TITLE": "InstaPic",
+			"SEND": "Send",
+			"POST": "Post",
+			"MESSAGE_PLACEHOLDER": "Message...",
+			"NEW_MESSAGE": "New Message",
+			"NOW": "Now",
+			"GO_LIVE_POPUP": {
+				"TITLE": "Go Live",
+				"DESCRIPTION": "Are you sure you want to go live?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"END_LIVE_POPUP": {
+				"TITLE": "End Live",
+				"DESCRIPTION": "Are you sure you want to {action} this live?",
+				"CANCEL": "Cancel",
+				"END": "End",
+				"LEAVE": "Leave"
+			},
+			"UNFOLLOW_POPUP": {
+				"TITLE": "Unfollow",
+				"DESCRIPTION": "Are you sure you want to unfollow {name}?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"DELETE_POST_POPUP": {
+				"TITLE": "Delete Post",
+				"DESCRIPTION": "Are you sure you want to delete this post?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"SIGN_OUT_POPUP": {
+				"TITLE": "Sign Out",
+				"DESCRIPTION": "Are you sure you want to sign out?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"DELETE_STORY": {
+				"TITLE": "Delete Story",
+				"DESCRIPTION": "Are you sure you want to delete this story?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"INVITE_LIVE_POPUP": {
+				"TITLE": "Live Invite",
+				"DESCRIPTION": "{username} invited you to their live, Do you want to join?",
+				"NO": "No",
+				"YES": "Yes"
+			},
+			"REMOVE_LIVE_POPUP": {
+				"TITLE": "Remove {username}",
+				"DESCRIPTION": "Are you sure you want to remove {username} from your live?",
+				"CANCEL": "Cancel",
+				"REMOVE": "Remove"
+			},
+			"LEAVE_LIVE_POPUP": {
+				"TITLE": "Leave Live",
+				"DESCRIPTION": "Are you sure you want to leave this live?",
+				"LEAVE": "Leave"
+			},
+			"LIVE_ENDED": "Live Ended",
+			"COMMENT_PLACEHOLDER": "Comment",
+			"LIVE": "Live",
+			"YOUR_STORY": "Your Story",
+			"CREATE_STORY": "Create Story",
+			"GO_LIVE": "Go Live",
+			"EMPTY_FEED": "Start following people to see their photos and videos here",
+			"COMMENTS": "Comments",
+			"ADD_COMMENT_AS": "Add Comment as {name}",
+			"NEW_POST": "New Post",
+			"NEXT": "Next",
+			"CAPTION_PLACEHOLDER": "Write a caption...",
+			"ACTIVITY": "Activity",
+			"FOLLOW": "Follow",
+			"FOLLOWING": "Following",
+			"FOLLOWERS": "Followers",
+			"FOLLOWER": "Follower",
+			"LIKES": "Likes",
+			"LIKED_BY": "Liked by",
+			"VIEW_ALL_COMMENTS": "View all {count} comments",
+			"FIRST_COMMENT": "Be the first to comment...",
+			"NO_ACCOUNT": "There's no account with this username",
+			"WRONG_USERNAME_OR_PASSWORD": "Wrong username or password",
+			"LOG_IN": "Log In",
+			"ACCOUNT_WITH_USERNAME": "An account with this username already exists",
+			"CREATE_ACCOUNT": "Create Account",
+			"USERNAME_PLACEHOLDER": "Username",
+			"NAME_PLACEHOLDER": "Name",
+			"PASSWORD_PLACEHOLDER": "Password",
+			"NOT_HAVE_ACCOUNT": "Don't have an account?",
+			"HAVE_ACCOUNT": "Have an account?",
+			"LIKED_PHOTO": "liked your photo.",
+			"LIKED_COMMENT": "liked your comment: {comment}",
+			"COMMENTED": "commented on your post: {comment}",
+			"FOLLOWED": "started following you.",
+			"DONE": "Done",
+			"EDIT_PROFILE": "Edit Profile",
+			"CHANGE_PICTURE": "Change profile picture",
+			"NAME": "Name",
+			"BIO": "Bio",
+			"SIGN_OUT": "Sign Out",
+			"POSTS": "Posts",
+			"MESSAGE": "Message",
+			"SENT_A_PHOTO": "sent a photo",
+			"TO": "To",
+			"SEND_A_MESSAGE": "Send a message...",
+			"STORY_VIEWERS": "Viewers",
+			"PARTICIPANTS": "Participants",
+			"SEEN_BY": "Seen by {count}",
+			"ADD_ACCOUNT": "Add Account",
+			"INVITE": "Invite",
+			"REMOVE": "Remove",
+			"IN_THIS_ROOM": "In This Room",
+			"WHOS_WATCHING": "Who's watching"
+		},
+		"TWITTER": {
+			"TITLE": "Birdy",
+			"SEARCH_FOR": "Search for '{search}'",
+			"START_SEARCHING": "Start searching to explore Birdy",
+			"TRENDING_HASHTAGS": "Trending hashtags",
+			"SENT_ATTACHMENT": "sent an attachment",
+			"TO": "To",
+			"TWEETS": "Posts",
+			"REPLIES": "Replies",
+			"MEDIA": "Media",
+			"LIKES": "Likes",
+			"CANCEL": "Cancel",
+			"TWEET": "Post",
+			"TWEET_REPLY": "Post your reply",
+			"TWEET_GENERAL": "What's happening?",
+			"EDIT_PROFILE": "Edit Profile",
+			"SAVE": "Save",
+			"NAME": "Name",
+			"JOIN_DATE": "Join Date",
+			"BIO": "Bio",
+			"SIGN_OUT": "Sign Out",
+			"SIGN_OUT_POPUP": {
+				"TITLE": "Sign Out",
+				"DESCRIPTION": "Are you sure you want to sign out?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"UNFOLLOW_POPUP": {
+				"TITLE": "Unfollow",
+				"DESCRIPTION": "Are you sure you want to unfollow {name}?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"RETWEET_POPUP": {
+				"RETWEET": "Repost",
+				"UNDO_RETWEET": "Undo Repost",
+				"DESCRIPTION": "Are you sure you want to {action}?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"DELETE_POPUP": {
+				"TITLE": "Delete Post",
+				"DESCRIPTION": "Are you sure you want to delete this post?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"NOTIFICATIONS_POPUP": {
+				"TITLE": "Notifications",
+				"DESCRIPTION": "Are you sure you want to {action} notifications on @{name}?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed",
+				"ENABLE": "Enable",
+				"DISABLE": "Disable"
+			},
+			"PROMOTE_POPUP": {
+				"TITLE": "Promote Post",
+				"DESCRIPTION": "Do you want to promote this post for {price} for {views} views?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"YOU": "You",
+			"FOLLOW": "Follow",
+			"FOLLOWING": "Following",
+			"FOLLOWERS": "Followers",
+			"RETWEETED": "Reposted",
+			"REPLYING_TO": "Replying to {name}",
+			"RETWEETED_BY": "Reposted By",
+			"LIKED_BY": "Liked By",
+			"ALL": "All",
+			"NOTIFICATIONS": "Notifications",
+			"FOLLOWS_YOU": "Follows you",
+			"JOINED": "Joined {date}",
+			"LIKED_TWEET": "liked your post",
+			"RETWEETED_TWEET": "reposted your post",
+			"FOLLOWED": "followed you",
+			"SIGN_UP_TEXT": "See what's happening in the world right now",
+			"TERMS_OF_SERVICE": "By signing up, you agree to our Terms of Service and Privacy Policy.",
+			"HAS_ACCOUNT": "Have an account already?",
+			"CREATE_YOUR_ACCOUNT": "Create your account",
+			"NAME_PLACEHOLDER": "Name",
+			"USERNAME_PLACEHOLDER": "Username",
+			"PASSWORD_PLACEHOLDER": "Password",
+			"GET_STARTED": "To get started, first enter your @username",
+			"FORGOT_PASSWORD": "Forgot password?",
+			"ENTER_PASSWORD": "Enter your password",
+			"SEARCH_DIRECT_MESSAGES": "Search direct messages",
+			"SEARCH_TWITTER": "Search Birdy",
+			"MESSAGE_PLACEHOLDER": "Message...",
+			"NOW": "Now",
+			"LOGIN": "Log In",
+			"CREATE_ACCOUNT": "Create Account",
+			"PROMOTE": "Promote",
+			"PIN": "Pin Post",
+			"UNPIN": "Unpin Post",
+			"NEW_MESSAGE": "New Message",
+			"PROMOTED": "Promoted",
+			"ADD_ACCOUNT": "Add Account"
+		},
+		"SERVICES": {
+			"ACTIONS": "Actions",
+			"COMPANIES": "Companies",
+			"MESSAGES": "Messages",
 
-            "LIVE_ENDED": "Live Ended",
-            "COMMENT_PLACEHOLDER": "Comment",
-            "LIVE": "Live",
-            "YOUR_STORY": "Your Story",
-            "CREATE_STORY": "Create Story",
-            "GO_LIVE": "Go Live",
-            "EMPTY_FEED": "Start following people to see their photos and videos here",
-            "COMMENTS": "Comments",
-            "ADD_COMMENT_AS": "Add Comment as {name}",
-            "NEW_POST": "New Post",
-            "NEXT": "Next",
-            "CAPTION_PLACEHOLDER": "Write a caption...",
-            "ACTIVITY": "Activity",
-            "FOLLOW": "Follow",
-            "FOLLOWING": "Following",
-            "FOLLOWERS": "Followers",
-            "FOLLOWER": "Follower",
-            "LIKES": "Likes",
-            "LIKED_BY": "Liked by",
-            "VIEW_ALL_COMMENTS": "View all {count} comments",
-            "FIRST_COMMENT": "Be the first to comment...",
-            "NO_ACCOUNT": "There's no account with this username",
-            "WRONG_USERNAME_OR_PASSWORD": "Wrong username or password",
-            "LOG_IN": "Log In",
-            "ACCOUNT_WITH_USERNAME": "An account with this username already exists",
-            "CREATE_ACCOUNT": "Create Account",
-            "USERNAME_PLACEHOLDER": "Username",
-            "NAME_PLACEHOLDER": "Name",
-            "PASSWORD_PLACEHOLDER": "Password",
-            "NOT_HAVE_ACCOUNT": "Don't have an account?",
-            "HAVE_ACCOUNT": "Have an account?",
-            "LIKED_PHOTO": "liked your photo.",
-            "LIKED_COMMENT": "liked your comment: {comment}",
-            "COMMENTED": "commented on your post: {comment}",
-            "FOLLOWED": "started following you.",
-            "DONE": "Done",
-            "EDIT_PROFILE": "Edit Profile",
-            "CHANGE_PICTURE": "Change profile picture",
-            "NAME": "Name",
-            "BIO": "Bio",
-            "SIGN_OUT": "Sign Out",
-            "POSTS": "Posts",
-            "MESSAGE": "Message",
-            "SENT_A_PHOTO": "sent a photo",
-            "TO": "To",
-            "SEND_A_MESSAGE": "Send a message...",
-            "STORY_VIEWERS": "Viewers",
-            "SEEN_BY": "Seen by {count}"
-        },
-        "TWITTER": {
-            "TITLE": "Twitter",
-            "SEARCH_FOR": "Search for '{search}'",
-            "START_SEARCHING": "Start searching to explore Twitter",
-            "TRENDING_HASHTAGS": "Trending hashtags",
-            "SENT_ATTACHMENT": "sent an attachment",
-            "TO": "To",
-            "TWEETS": "Tweets",
-            "REPLIES": "Replies",
-            "MEDIA": "Media",
-            "LIKES": "Likes",
-            "CANCEL": "Cancel",
-            "TWEET": "Tweet",
-            "TWEET_REPLY": "Tweet your reply",
-            "TWEET_GENERAL": "What's happening?",
-            "EDIT_PROFILE": "Edit Profile",
-            "SAVE": "Save",
-            "NAME": "Name",
-            "JOIN_DATE": "Join Date",
-            "BIO": "Bio",
-            "SIGN_OUT": "Sign Out",
-            "SIGN_OUT_POPUP": {
-                "TITLE": "Sign Out",
-                "DESCRIPTION": "Are you sure you want to sign out?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "UNFOLLOW_POPUP": {
-                "TITLE": "Unfollow",
-                "DESCRIPTION": "Are you sure you want to unfollow {name}?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "RETWEET_POPUP": {
-                "RETWEET": "Retweet",
-                "UNDO_RETWEET": "Undo Retweet",
-                "DESCRIPTION": "Are you sure you want to {action}?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "DELETE_POPUP": {
-                "TITLE": "Delete Tweet",
-                "DESCRIPTION": "Are you sure you want to delete this tweet?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "NOTIFICATIONS_POPUP": {
-                "TITLE": "Notifications",
-                "DESCRIPTION": "Are you sure you want to {action} notifications on @{name}?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed",
-                "ENABLE": "Enable",
-                "DISABLE": "Disable"
-            },
-            "PROMOTE_POPUP": {
-                "TITLE": "Promote Tweet",
-                "DESCRIPTION": "Do you want to promote this tweet for {price} for {views} views?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "YOU": "You",
-            "FOLLOW": "Follow",
-            "FOLLOWING": "Following",
-            "FOLLOWERS": "Followers",
-            "RETWEETED": "Retweeted",
-            "REPLYING_TO": "Replying to {name}",
-            "RETWEETED_BY": "Retweeted By",
-            "LIKED_BY": "Liked By",
-            "ALL": "All",
-            "NOTIFICATIONS": "Notifications",
-            "FOLLOWS_YOU": "Follows you",
-            "JOINED": "Joined {date}",
-            "LIKED_TWEET": "liked your tweet",
-            "RETWEETED_TWEET": "retweeted your tweet",
-            "FOLLOWED": "followed you",
-            "SIGN_UP_TEXT": "See what's happening in the world right now",
-            "TERMS_OF_SERVICE": "By signing up, you agree to our Terms of Service and Privacy Policy.",
-            "HAS_ACCOUNT": "Have an account already?",
-            "CREATE_YOUR_ACCOUNT": "Create your account",
-            "NAME_PLACEHOLDER": "Name",
-            "USERNAME_PLACEHOLDER": "Username",
-            "PASSWORD_PLACEHOLDER": "Password",
-            "GET_STARTED": "To get started, first enter your @username",
-            "FORGOT_PASSWORD": "Forgot password?",
-            "ENTER_PASSWORD": "Enter your password",
-            "SEARCH_DIRECT_MESSAGES": "Search direct messages",
-            "SEARCH_TWITTER": "Search Twitter",
-            "MESSAGE_PLACEHOLDER": "Message...",
-            "NOW": "Now",
-            "LOGIN": "Log In",
-            "CREATE_ACCOUNT": "Create Account",
-            "PROMOTE": "Promote",
-            "PIN": "Pin Tweet",
-            "UNPIN": "Unpin Tweet",
-            "NEW_MESSAGE": "New Message",
-            "PROMOTED": "Promoted"
-        },
-        "SERVICES": {
-            "ACTIONS": "Actions",
-            "COMPANIES": "Companies",
-            "MESSAGES": "Messages",
+			"CLOSED": "Closed",
+			"YOUR_MESSAGES": "Your Messages",
+			"JOB_MESSAGES": "Job Messages",
 
-            "CLOSED": "Closed",
-            "YOUR_MESSAGES": "Your Messages",
-            "JOB_MESSAGES": "Job Messages",
+			"DUTY": "Duty",
+			"GO_ON_DUTY": "Go on Duty",
+			"GO_OFF_DUTY": "Go off Duty",
+			"JOB_CALLS": "Job Calls",
+			"DISABLE_CALLS": "Disable Calls",
+			"ENABLE_CALLS": "Enable Calls",
+			"BALANCE": "Balance",
+			"MANAGE_EMPLOYEES": "Manage Employees",
+			"HIRE": "Hire",
+			"SET_GRADE": "Set Grade",
+			"UNEMPLOYED": "You're unemployed",
 
-            "DUTY": "Duty",
-            "GO_ON_DUTY": "Go on Duty",
-            "GO_OFF_DUTY": "Go off Duty",
-            "BALANCE": "Balance",
-            "MANAGE_EMPLOYEES": "Manage Employees",
-            "HIRE": "Hire",
-            "SET_GRADE": "Set Grade",
-            "UNEMPLOYED": "You're unemployed",
+			"DEPOSIT_POPUP": {
+				"TITLE": "Deposit",
+				"DESCRIPTION": "Deposit money into the company account",
+				"AMOUNT": "Amount",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"WITHDRAW_POPUP": {
+				"TITLE": "Withdraw",
+				"DESCRIPTION": "Withdraw money from the company account",
+				"AMOUNT": "Amount",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"HIRE_POPUP": {
+				"TITLE": "Hire",
+				"DESCRIPTION": "Hire a new employee",
+				"PLACEHOLDER": "ID",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"FIRE_POPUP": {
+				"TITLE": "Fire",
+				"DESCRIPTION": "Are you sure you want to fire {name}?",
+				"PLACEHOLDER": "ID",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"CALL_POPUP": {
+				"TITLE": "Call",
+				"DESCRIPTION": "Are you sure you want to call {name}?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			}
+		},
+		"CRYPTO": {
+			"TITLE": "Crypto",
+			"BALANCE": "Estimated Balance",
+			"BUY": "Buy",
+			"SELL": "Sell",
+			"SELL_ALL": "Sell All",
+			"NO_MONEY": "You don't have enough money",
+			"NO_COINS": "You don't have any of this coin",
+			"NOT_ENOUGH_COINS": "You don't have enough coins",
+			"ATLEAST_ONE_COIN": "You must {action} at least one coin",
+			"INVALID_COIN": "Invalid coin",
+			"ERROR": "Error",
+			"CLOSE": "Close",
+			"BUY_POPUP": {
+				"TITLE": "Buy {coin}",
+				"DESCRIPTION": "Enter the amount of {coin} (in $) you want to buy",
+				"PLACEHOLDER": "$1000",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"SELL_POPUP": {
+				"TITLE": "Sell {coin}",
+				"DESCRIPTION": "Enter the amount of {coin} (in $) you want to sell",
+				"PLACEHOLDER": "$1000",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"SELL_ALL_POPUP": {
+				"TITLE": "Sell all {coin}",
+				"DESCRIPTION": "Are you sure you want to sell all your {coin} for ${amount}?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			}
+		},
+		"TIKTOK": {
+			"TITLE": "Trendy",
 
-            "DEPOSIT_POPUP": {
-                "TITLE": "Deposit",
-                "DESCRIPTION": "Deposit money into the company account",
-                "AMOUNT": "Amount",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "WITHDRAW_POPUP": {
-                "TITLE": "Withdraw",
-                "DESCRIPTION": "Withdraw money from the company account",
-                "AMOUNT": "Amount",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "HIRE_POPUP": {
-                "TITLE": "Hire",
-                "DESCRIPTION": "Hire a new employee",
-                "PLACEHOLDER": "ID",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "FIRE_POPUP": {
-                "TITLE": "Fire",
-                "DESCRIPTION": "Are you sure you want to fire {name}?",
-                "PLACEHOLDER": "ID",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "CALL_POPUP": {
-                "TITLE": "Call",
-                "DESCRIPTION": "Are you sure you want to call {name}?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            }
-        },
-        "CRYPTO": {
-            "TITLE": "Crypto",
-            "BALANCE": "Estimated Balance",
-            "BUY": "Buy",
-            "SELL": "Sell",
-            "SELL_ALL": "Sell All",
-            "NO_MONEY": "You don't have enough money",
-            "NO_COINS": "You don't have any of this coin",
-            "NOT_ENOUGH_COINS": "You don't have enough coins",
-            "ATLEAST_ONE_COIN": "You must {action} at least one coin",
-            "INVALID_COIN": "Invalid coin",
-            "ERROR": "Error",
-            "CLOSE": "Close",
-            "BUY_POPUP": {
-                "TITLE": "Buy {coin}",
-                "DESCRIPTION": "Enter the amount of {coin} (in $) you want to buy",
-                "PLACEHOLDER": "$1000",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "SELL_POPUP": {
-                "TITLE": "Sell {coin}",
-                "DESCRIPTION": "Enter the amount of {coin} (in $) you want to sell",
-                "PLACEHOLDER": "$1000",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "SELL_ALL_POPUP": {
-                "TITLE": "Sell all {coin}",
-                "DESCRIPTION": "Are you sure you want to sell all your {coin} for ${amount}?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            }
-        },
-        "TIKTOK": {
-            "TITLE": "TikTok",
+			"HOME": "Home",
+			"DISCOVER": "Discover",
+			"INBOX": "Inbox",
+			"PROFILE": "Profile",
 
-            "HOME": "Home",
-            "DISCOVER": "Discover",
-            "INBOX": "Inbox",
-            "PROFILE": "Profile",
+			"COMMENTS_TITLE": "{count} comments",
+			"REPLY": "Reply",
+			"VIEW_REPLIES": "View replies",
+			"ADD_COMMENT": "Add a comment...",
+			"REPLY_TO": "Reply to {name}",
+			"PIN_COMMENT": "Pin Comment",
+			"UNPIN_COMMENT": "Unpin Comment",
+			"DELETE_COMMENT": "Delete Comment",
+			"DELETE": "Delete",
+			"PINNED": "Pinned",
+			"PIN_VIDEO": "Pin Video",
+			"UNPIN_VIDEO": "Unpin Video",
+			"PIN": "pin",
+			"UNPIN": "unpin",
+			"MAX_PINNED_TITLE": "Max Pinned",
+			"MAX_PINNED_DESCRIPTION": "You can only pin up to 3 videos",
+			"OK": "OK",
+			"CREATOR": "Creator",
+			"LIKED_BY_CREATOR": "Liked by creator",
 
-            "COMMENTS_TITLE": "{count} comments",
-            "REPLY": "Reply",
-            "VIEW_REPLIES": "View replies",
-            "ADD_COMMENT": "Add a comment...",
-            "REPLY_TO": "Reply to {name}",
-            "PIN_COMMENT": "Pin Comment",
-            "UNPIN_COMMENT": "Unpin Comment",
-            "DELETE_COMMENT": "Delete Comment",
-            "DELETE": "Delete",
-            "PINNED": "Pinned",
-            "PIN_VIDEO": "Pin Video",
-            "UNPIN_VIDEO": "Unpin Video",
-            "PIN": "pin",
-            "UNPIN": "unpin",
-            "MAX_PINNED_TITLE": "Max Pinned",
-            "MAX_PINNED_DESCRIPTION": "You can only pin up to 3 videos",
-            "OK": "OK",
-            "CREATOR": "Creator",
-            "LIKED_BY_CREATOR": "Liked by creator",
+			"PIN_VIDEO_POPUP": {
+				"TITLE": "Pin Video",
+				"DESCRIPTION": "Are you sure you want to {action} this video?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"DELETE_VIDEO_POPUP": {
+				"TITLE": "Delete Video",
+				"DESCRIPTION": "Are you sure you want to delete this video?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"FAILED_UPLOAD_POPUP": {
+				"TITLE": "Failed to upload TTS",
+				"DESCRIPTION": "The server owner hasn't set up the audio upload correctly. Please contact them to fix this issue.",
+				"CANCEL": "Cancel",
+				"PROCEED": "Ignore"
+			},
 
-            "PIN_VIDEO_POPUP": {
-                "TITLE": "Pin Video",
-                "DESCRIPTION": "Are you sure you want to {action} this video?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "DELETE_VIDEO_POPUP": {
-                "TITLE": "Delete Video",
-                "DESCRIPTION": "Are you sure you want to delete this video?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
-            "FAILED_UPLOAD_POPUP": {
-                "TITLE": "Failed to upload TTS",
-                "DESCRIPTION": "The server owner hasn't set up the audio upload correctly. Please contact them to fix this issue.",
-                "CANCEL": "Cancel",
-                "PROCEED": "Ignore"
-            },
+			"SHARE_TITLE": "Share To",
+			"SHARE": "Share",
+			"REPORT": "Report",
+			"SAVE_VIDEO": "Save Video",
+			"ADD_FAVOURITE": "Add to Favourites",
+			"CANCEL": "Cancel",
+			"GO_BACK": "Go Back",
 
-            "SHARE_TITLE": "Share To",
-            "SHARE": "Share",
-            "REPORT": "Report",
-            "SAVE_VIDEO": "Save Video",
-            "ADD_FAVOURITE": "Add to Favourites",
-            "CANCEL": "Cancel",
-            "GO_BACK": "Go Back",
+			"FOLLOWING": "Following",
+			"FOLLOWERS": "Followers",
+			"UNFOLLOW": "Unfollow",
+			"FOLLOW": "Follow",
+			"FOR_YOU": "For You",
+			"VIDEOS": "Videos",
+			"LIKES": "Likes",
 
-            "FOLLOWING": "Following",
-            "FOLLOWERS": "Followers",
-            "UNFOLLOW": "Unfollow",
-            "FOLLOW": "Follow",
-            "FOR_YOU": "For You",
-            "VIDEOS": "Videos",
-            "LIKES": "Likes",
+			"UNFOLLOW_POPUP": {
+				"TITLE": "Unfollow",
+				"DESCRIPTION": "Are you sure you want to unfollow {name}?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
 
-            "UNFOLLOW_POPUP": {
-                "TITLE": "Unfollow",
-                "DESCRIPTION": "Are you sure you want to unfollow {name}?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
+			"LOGIN_TITLE": "Log in to Trendy",
+			"LOGIN_SUBTITLE": "Manage your account check notifications, comment on videos, and more.",
+			"SIGNUP_TITLE": "Sign up for Trendy",
+			"SIGNUP_SUBTITLE": "Create a profile, follow other accounts, make your own videos, and more.",
+			"NAME": "Name",
+			"USERNAME": "Username",
+			"PASSWORD": "Password",
+			"BIO": "Bio",
+			"SHOW_LIKES": "Show Likes",
 
-            "LOGIN_TITLE": "Log in to TikTok",
-            "LOGIN_SUBTITLE": "Manage your account check notifications, comment on videos, and more.",
-            "SIGNUP_TITLE": "Sign up for TikTok",
-            "SIGNUP_SUBTITLE": "Create a profile, follow other accounts, make your own videos, and more.",
-            "NAME": "Name",
-            "USERNAME": "Username",
-            "PASSWORD": "Password",
-            "BIO": "Bio",
-            "SHOW_LIKES": "Show Likes",
+			"LOGIN": "Log in",
+			"SIGNUP": "Sign up",
+			"NO_ACCOUNT": "Don't have an account?",
+			"ALREADY_ACCOUNT": "Already have an account?",
+			"SEARCH_PLACEHOLDER": "Search for users",
 
-            "LOGIN": "Log in",
-            "SIGNUP": "Sign up",
-            "NO_ACCOUNT": "Don't have an account?",
-            "ALREADY_ACCOUNT": "Already have an account?",
-            "SEARCH_PLACEHOLDER": "Search for users",
+			"STARTED_FOLLOWING": "started following you.",
+			"LIKED_VIDEO": "liked your video.",
+			"LIKED_COMMENT": "liked your comment.",
+			"SAVED_VIDEO": "sadded your video to Favorites.",
+			"COMMENTED": "commented: {comment}",
+			"REPLIED": "replied to your comment: {comment}",
 
-            "STARTED_FOLLOWING": "started following you.",
-            "LIKED_VIDEO": "liked your video.",
-            "LIKED_COMMENT": "liked your comment.",
-            "SAVED_VIDEO": "sadded your video to Favorites.",
-            "COMMENTED": "commented: {comment}",
-            "REPLIED": "replied to your comment: {comment}",
+			"EDIT_PROFILE": "Edit Profile",
+			"MESSAGE": "Message",
+			"CHANGE_PHOTO": "Change Photo",
+			"LOGOUT": "Log out",
+			"ADD_TO_YOUR_PROFILE": "Add to your profile",
+			"LIKED_HIDDEN_TITLE": "This user's liked videos are private.",
+			"LIKED_HIDDEN_SUBTITLE": "Videos liked by {name} are currently hidden.",
 
-            "EDIT_PROFILE": "Edit Profile",
-            "MESSAGE": "Message",
-            "CHANGE_PHOTO": "Change Photo",
-            "LOGOUT": "Log out",
-            "ADD_TO_YOUR_PROFILE": "Add to your profile",
-            "LIKED_HIDDEN_TITLE": "This user's liked videos are private.",
-            "LIKED_HIDDEN_SUBTITLE": "Videos liked by {name} are currently hidden.",
+			"INVALID_ACCOUNT_POPUP": {
+				"TITLE": "Invalid {name}",
+				"DESCRIPTION": "You're not logged into the {name} account you entered, please correct it.",
+				"OK": "OK"
+			},
+			"REMOVE_ACCOUNT_POPUP": {
+				"TITLE": "Remove {name} account",
+				"DESCRIPTION": "Are you sure you want to remove your {name} account from your profile?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
 
-            "INVALID_ACCOUNT_POPUP": {
-                "TITLE": "Invalid {name}",
-                "DESCRIPTION": "You're not logged into the {name} account you entered, please correct it.",
-                "OK": "OK"
-            },
-            "REMOVE_ACCOUNT_POPUP": {
-                "TITLE": "Remove {name} account",
-                "DESCRIPTION": "Are you sure you want to remove your {name} account from your profile?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            },
+			"ADD_ACCOUNT_TITLE": "Add account",
+			"ADD_ACCOUNT": "Add {name} to your profile",
+			"UPLOAD_VIDEO": "Upload Video",
+			"PREVIEW": "Preview",
+			"CAPTION": "Caption",
+			"CAPTION_PLACEHOLDER": "Add a caption...",
+			"TTS": "Text to Speech (TTS)",
+			"TTS_PLACEHOLDER": "Add text to speech...",
+			"MUSIC": "Music",
+			"SELECT_MUSIC": "Select Music",
+			"OPTIONAL": "Optional",
 
-            "ADD_ACCOUNT_TITLE": "Add account",
-            "ADD_ACCOUNT": "Add {name} to your profile",
-            "UPLOAD_VIDEO": "Upload Video",
-            "PREVIEW": "Preview",
-            "CAPTION": "Caption",
-            "CAPTION_PLACEHOLDER": "Add a caption...",
-            "TTS": "Text to Speech (TTS)",
-            "TTS_PLACEHOLDER": "Add text to speech...",
-            "MUSIC": "Music",
-            "SELECT_MUSIC": "Select Music",
-            "OPTIONAL": "Optional",
+			"DIRECT_MESSAGES": "Direct Messages",
+			"ALL_ACTIVITY": "All Activity",
+			"NO_NOTIFICATIONS": "Notifications aren't available",
+			"NO_NOTIFICATIONS_SUBTITLE": "Notifications about your account will appear here.",
+			"NO_FOLLOWING_TITLE": "Start following people and their videos will appear here.",
+			"NO_MESSAGES_TITLE": "Message your friends",
+			"NO_MESSAGES_SUBTITLE": "Share videos or start a conversation"
+		},
+		"VOICEMEMO": {
+			"TITLE": "Voice Memo",
+			"ALL_RECORDINGS": "All Recordings",
+			"DEFAULT_NAME": "New Recording",
+			"DELETE_POPUP": {
+				"TITLE": "Delete voice memo",
+				"DESCRIPTION": "Are you sure you want to delete this voice memo?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			},
+			"NO_MICROPHONE_POPUP": {
+				"TITLE": "No Microphone",
+				"DESCRIPTION": "We don't have access to your microphone, make sure to have one connected and accept the popup on the top-right of your screen",
+				"OK": "OK"
+			}
+		}
+	},
+	"COMPONENTS": {
+		"CONTEXT_MENU": {
+			"CANCEL": "Cancel",
+			"CALL": "Call",
+			"VIDEO_CALL": "Video Call",
+			"MESSAGE": "Message"
+		},
+		"IMAGE": {
+			"SAVE_TO_GALLERY": "Save to Gallery"
+		},
+		"GALLERY": {
+			"CANCEL": "Cancel",
+			"EXTERNAL_URL": "External URL",
+			"NO_IMAGES": "No images"
+		},
+		"NOTIFICATIONS": {
+			"SENT_PHOTO": "Sent a photo",
+			"SENT_GIF": "Sent a GIF",
+			"NOW": "now"
+		},
+		"SHARE": {
+			"COPY_PHOTO": "Copy Photo",
+			"USE_WALLPAPER": "Use as Wallpaper",
+			"COPY_NUMBER": "Copy Number",
+			"AIRDROP_SENT": "Sent",
+			"AIRDROP_ACCEPTED": "Accepted",
+			"AIRDROP_DECLINED": "Declined",
+			"AIRDROP_NO_USERS": "No phones nearby",
+			"WALLPAPER_POPUP": {
+				"TITLE": "Use as Wallpaper",
+				"TEXT": "Are you sure you want to set this image as your wallpaper?",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			}
+		},
+		"AIRDROP": {
+			"TITLE": "Airdrop",
+			"TEXT": "{sender} would like to share a {type}",
+			"VIDEO": "video",
+			"PHOTO": "photo",
+			"CONTACT": "contact",
+			"LOCATION": "location",
+			"NOTE": "note",
+			"VOICEMEMO": "voicememo",
+			"PLAYLIST": "playlist",
+			"DECLINE": "Decline",
+			"ACCEPT": "Accept"
+		},
+		"DYNAMICISLAND": {
+			"SILENT": "Silent",
+			"RING": "Ring",
+			"TIMER": "Timer"
+		},
+		"MUSIC_SELECTOR": {
+			"CANCEL": "Cancel",
+			"NO-RESULTS": "No music configured, tell the server-owner to add songs",
+			"SEARCH": "Search for a song",
+			"SELECT_POPUP": {
+				"TITLE": "Select song",
+				"DESCRIPTION": "Are you sure you want to select {song}",
+				"CANCEL": "Cancel",
+				"PROCEED": "Proceed"
+			}
+		},
+		"BATTERY": {
+			"LOW_BATTERY": "Low Battery",
+			"BATTERY_REMAINING": "{percent}% battery remaining",
+			"LOW_POWER_MODE": "Low Power Mode",
+			"CLOSE": "Close"
+		},
+		"COLOR_PICKER": {
+			"COLOR": "Color"
+		}
+	},
+	"SETUP": {
+		"HELLO": "Hello",
+		"NEXT": "Click to open",
+		"CREATE_PASSCODE": "Create a Passcode",
+		"CREATE_PASSCODE_TEXT": "A passcode protects your data and is used to unlock your Phone.",
+		"SKIP": "Skip this step",
+		"FACE_ID_SETUP": "Face ID Setup",
+		"FACE_ID_TEXT": "Set up Face ID to automatically unlock your phone whilst your face is in frame.",
+		"ENABLE_FACE_ID": "Enable Face ID",
+		"APPEARANCE": "Appearance",
+		"APPEARANCE_TEXT": "Select a light or dark appearance",
+		"CONTINUE": "Continue",
+		"WELCOME_TO": "Welcome to",
+		"CLICK": "Click to get started"
+	},
+	"HOMESCREEN": {
+		"DONE": "Done",
+		"REMOVE_APP_POPUP": {
+			"TITLE": "Remove '{app}'?",
+			"DESCRIPTION": "Deleting this app will NOT delete its data. The app can later be reinstalled from the App store.",
+			"CANCEL": "Cancel",
+			"PROCEED": "Delete"
+		}
+	},
+	"LOCKSCREEN": {
+		"ENTER_PASSCODE": "Enter Passcode",
+		"DELETE": "Delete",
+		"FONT_AND_COLOR": "Font & Color"
+	},
+	"MISC": {
+		"AIRPLANE_MODE_POPUP": {
+			"TITLE": "Error",
+			"DESCRIPTION": "You're trying to perform a action that requires internet access, disable airplane mode to continue.",
+			"OK": "OK"
+		}
+	},
+	"BACKEND": {
+		"CALLS": {
+			"NO_CALLER_ID": "No Caller ID",
+			"MISSED_CALL": "Missed call",
+			"NEW_VOICEMAIL": "Voicemail"
+		},
+		"GARAGE": {
+			"VALET": "Valet",
+			"COULDNT_FIND": "Couldn't find vehicle.",
+			"ALREADY_OUT": "The vehicle is already out.",
+			"NO_MONEY": "You don't have enough money.",
+			"ON_WAY": "Your vehicle is on its way.",
+			"MARKED": "Your vehicle has been marked on your GPS."
+		},
+		"INSTAGRAM": {
+			"NOT_ALLOWED_LIVE": "You are not allowed to go live",
+			"NOT_ALLOWED_STORY": "You are not allowed to post stories",
+			"STARTED_LIVE": "{username} started a live video",
+			"JOINED_LIVE": "{invitee} is now going live with {inviter}.",
+			"LIKED_PHOTO": "{username} liked your photo",
+			"LIKED_COMMENT": "{username} liked your comment",
+			"COMMENTED": "{username} commented on your post",
+			"NEW_FOLLOWER": "{username} started following you"
+		},
+		"TINDER": {
+			"NEW_MATCH": "New match",
+			"MATCHED_WITH": "You matched with {name}"
+		},
+		"CAMERA": {
+			"TAKE_PHOTO": "Press {key} to take a photo",
+			"FLIP_CAMERA": "Press {key} to flip the camera",
+			"TOGGLE_FLASH": "Press {key} to toggle the flash",
+			"TOGGLE_CURSOR": "Press {key} to toggle the cursor and look around",
+			"CHANGE_MODE": "Press {key} {key2} to change the camera mode"
+		},
+		"SERVICES": {
+			"NEW_MESSAGE": "New Message",
+			"ANONYMOUS": "Anonymous"
+		},
+		"TWITTER": {
+			"LIKE": "Liked by {displayName}:",
+			"RETWEET": "Reposted by {displayName}:",
+			"REPLY": "{displayName} replied:",
+			"FOLLOW": "{username} started following you",
+			"TWEET": "{username} just posted"
+		},
+		"TIKTOK": {
+			"LIKE": "{displayName} liked your video.",
+			"COMMENT": "{displayName} commented on your video.",
+			"FOLLOW": "{displayName} started following you.",
+			"SAVE": "{displayName} favorited your video.",
+			"LIKED_COMMENT": "{displayName} liked your comment.",
+			"REPLIED_COMMENT": "{displayName} replied to your comment.",
+			"DM": "{displayName}"
+		},
+		"MISC": {
+			"VERIFIED": "Your account has been verified",
+			"X_PHONE": "{name}'s Phone"
+		},
+		"LOGS": {
+			"MAIL_TITLE": "Email",
+			"NEW_MAIL": "{sender} sent an email to {recipient}",
 
-            "DIRECT_MESSAGES": "Direct Messages",
-            "ALL_ACTIVITY": "All Activity",
-            "NO_NOTIFICATIONS": "Notifications aren't available",
-            "NO_NOTIFICATIONS_SUBTITLE": "Notifications about your account will appear here.",
-            "NO_FOLLOWING_TITLE": "Start following people and their videos will appear here.",
-            "NO_MESSAGES_TITLE": "Message your friends",
-            "NO_MESSAGES_SUBTITLE": "Share videos or start a conversation"
-        }
-    },
-    "COMPONENTS": {
-        "CONTEXT_MENU": {
-            "CANCEL": "Cancel",
-            "CALL": "Call",
-            "VIDEO_CALL": "Video Call",
-            "MESSAGE": "Message"
-        },
-        "IMAGE": {
-            "SAVE_TO_GALLERY": "Save to Gallery"
-        },
-        "GALLERY": {
-            "CANCEL": "Cancel",
-            "EXTERNAL_URL": "External URL",
-            "NO_IMAGES": "No images"
-        },
-        "NOTIFICATIONS": {
-            "SENT_PHOTO": "Sent a photo",
-            "SENT_GIF": "Sent a GIF",
-            "NOW": "now"
-        },
-        "SHARE": {
-            "COPY_PHOTO": "Copy Photo",
-            "USE_WALLPAPER": "Use as Wallpaper",
-            "COPY_NUMBER": "Copy Number",
-            "AIRDROP_SENT": "Sent",
-            "AIRDROP_ACCEPTED": "Accepted",
-            "AIRDROP_DECLINED": "Declined",
-            "WALLPAPER_POPUP": {
-                "TITLE": "Use as Wallpaper",
-                "TEXT": "Are you sure you want to set this image as your wallpaper?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            }
-        },
-        "AIRDROP": {
-            "TITLE": "Airdrop",
-            "TEXT": "{sender} would like to share a {type}",
-            "VIDEO": "video",
-            "PHOTO": "photo",
-            "CONTACT": "contact",
-            "LOCATION": "location",
-            "NOTE": "note",
-            "PLAYLIST": "playlist",
-            "DECLINE": "Decline",
-            "ACCEPT": "Accept"
-        },
-        "DYNAMICISLAND": {
-            "SILENT": "Silent",
-            "RING": "Ring",
-            "TIMER": "Timer"
-        },
-        "MUSIC_SELECTOR": {
-            "CANCEL": "Cancel",
-            "NO-RESULTS": "No music configured, tell the server-owner to add songs",
-            "SEARCH": "Search for a song",
-            "SELECT_POPUP": {
-                "TITLE": "Select song",
-                "DESCRIPTION": "Are you sure you want to select {song}",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
-            }
-        },
-        "BATTERY": {
-            "LOW_BATTERY": "Low Battery",
-            "BATTERY_REMAINING": "{percent}% battery remaining",
-            "LOW_POWER_MODE": "Low Power Mode",
-            "CLOSE": "Close"
-        }
-    },
-    "SETUP": {
-        "HELLO": "Hello",
-        "NEXT": "Click to open",
-        "CREATE_PASSCODE": "Create a Passcode",
-        "CREATE_PASSCODE_TEXT": "A passcode protects your data and is used to unlock your Phone.",
-        "SKIP": "Skip this step",
-        "FACE_ID_SETUP": "Face ID Setup",
-        "FACE_ID_TEXT": "Set up Face ID to automatically unlock your phone whilst your face is in frame.",
-        "ENABLE_FACE_ID": "Enable Face ID",
-        "APPEARANCE": "Appearance",
-        "APPEARANCE_TEXT": "Select a light or dark appearance",
-        "CONTINUE": "Continue",
-        "WELCOME_TO": "Welcome to",
-        "CLICK": "Click to get started"
-    },
-    "HOMESCREEN": {
-        "DONE": "Done",
-        "REMOVE": "Remove",
-        "REMOVE_TEXT": "Deleting this app will NOT delete its data. The app can later be reinstalled from the App Store.",
-        "BUTTON_CANCEL": "Cancel",
-        "BUTTON_DELETE": "Delete"
-    },
-    "LOCKSCREEN": {
-        "ENTER_PASSCODE": "Enter Passcode",
-        "DELETE": "Delete"
-    },
-    "BACKEND": {
-        "CALLS": {
-            "NO_CALLER_ID": "No Caller ID",
-            "MISSED_CALL": "Missed call"
-        },
-        "GARAGE": {
-            "VALET": "Valet",
-            "COULDNT_FIND": "Couldn't find vehicle.",
-            "ALREADY_OUT": "The vehicle is already out.",
-            "NO_MONEY": "You don't have enough money.",
-            "ON_WAY": "Your vehicle is on its way.",
-            "MARKED": "Your vehicle has been marked on your GPS."
-        },
-        "INSTAGRAM": {
-            "NOT_ALLOWED_LIVE": "You are not allowed to go live",
-            "NOT_ALLOWED_STORY": "You are not allowed to post stories",
-            "STARTED_LIVE": "{username} started a live video"
-        },
-        "TINDER": {
-            "NEW_MATCH": "New match",
-            "MATCHED_WITH": "You matched with {name}"
-        },
-        "CAMERA": {
-            "TAKE_PHOTO": "Press {key} to take a photo",
-            "FLIP_CAMERA": "Press {key} to flip the camera",
-            "TOGGLE_FLASH": "Press {key} to toggle the flash",
-            "TOGGLE_CURSOR": "Press {key} to toggle the cursor and look around",
-            "CHANGE_MODE": "Press {key} {key2} to change the camera mode"
-        },
-        "SERVICES": {
-            "NEW_MESSAGE": "New Message"
-        },
-        "TWITTER": {
-            "LIKE": "Liked by {displayName}:",
-            "RETWEET": "Retweeted by {displayName}:",
-            "REPLY": "{displayName} replied:",
-            "FOLLOW": "{username} started following you",
-            "TWEET": "{username} just tweeted"
-        },
-        "TIKTOK": {
-            "LIKE": "{displayName} liked your video.",
-            "COMMENT": "{displayName} commented on your video.",
-            "FOLLOW": "{displayName} started following you.",
-            "SAVE": "{displayName} favorited your video.",
-            "LIKED_COMMENT": "{displayName} liked your comment.",
-            "REPLIED_COMMENT": "{displayName} replied to your comment.",
-            "DM": "{displayName}"
-        }
-    }
+			"MESSAGE_TITLE": "Text message",
+			"NEW_MESSAGE": "{sender} sent a message to {recipient}: {message}",
+
+			"CALL_ENDED": "Call ended",
+			"CALL_DESCRIPTION": "A call between `{caller}` and `{callee}` that lasted {duration}s has ended. Answered: `{answered}`",
+
+			"NEW_SERVICE_TITLE": "New message",
+			"NEW_SERVICE_CONTENT": "{sender} sent a message to {channel}: {message}",
+
+			"RECEIVED_TITLE": "Received ${amount}",
+			"PAID_TITLE": "Paid ${amount}",
+			"TRANSACTION": "{number} made a transaction of ${amount} to {company}",
+
+			"BOUGHT_CRYPTO": "Bought crypto",
+			"SOLD_CRYPTO": "Sold crypto",
+			"CRYPTO_DETAILS": "**Coin**: {coin}\n**Amount**: {amount}\n**Value**: ${price}\n",
+
+			"DARKCHAT_CREATED_TITLE": "Created channel",
+			"DARKCHAT_CREATED_DESCRIPTION": "{creator} created a channel called {channel}",
+			"DARKCHAT_MESSAGE_TITLE": "New message",
+			"DARKCHAT_MESSAGE_DESCRIPTION": "{sender} sent a message in {channel}: {message}",
+
+			"MARKETPLACE_NEW_TITLE": "New listing",
+			"MARKETPLACE_NEW_DESCRIPTION": "**Seller**: {seller}\n**Title**: {title}\n**Price**: ${price}\n**Description**: {description}\n**Attachments**: {attachments}\n**ID:** {id}",
+			"MARKETPLACE_DELETED": "Post deleted",
+
+			"YELLOWPAGES_NEW_TITLE": "New post",
+			"YELLOWPAGES_NEW_DESCRIPTION": "**Title**: {title}\n**Description**: {description}\n**Attachment**: {attachment}\n**ID:** {id}",
+			"YELLOWPAGES_DELETED": "Post deleted",
+
+			"LIVE_TITLE": "Live",
+			"STARTED_LIVE": "{username} started a live video",
+			"ENDED_LIVE": "{username} ended a live video",
+			"ADDED_STORY": "{username} added a photo to their story",
+
+			"TRENDY_UPLOAD_TITLE": "New video",
+			"TRENDY_UPLOAD_DESCRIPTION": "{username} uploaded a new video with the caption {caption} and id {id}",
+			"TRENDY_DELETE_TITLE": "Deleted a video",
+			"TRENDY_DELETE_DESCRIPTION": "{username} deleted a video with the id {id}"
+		}
+	}
 }
