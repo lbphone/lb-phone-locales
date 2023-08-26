@@ -58,6 +58,7 @@
             "AUTOMATIC": "Automatique",
             "BRIGHTNESS": "Luminosité",
             "PHONE_SCALE": "Échelle de téléphone",
+            "FRAME_COLOR": "Couleur du cadre",
             "WALLPAPER": "Fond d'écran",
             "WALLPAPERS": "Fonds d'écran",
             "CHOOSE_NEW_WALLPAPER": "Nouveau fond d'écran",
@@ -121,7 +122,8 @@
             "SUCCESS": "Succès",
             "SUCCESS_TEXT": "Le téléphone va redémarrer dans 5 secondes...",
             "OK": "OK",
-             "ON": "On",
+            "ON": "On",
+            "OFF": "Off",
             "REMOVE_BACKUP_POPUP": {
                 "TITLE": "Supprimer la sauvegarde",
                 "TEXT": "Voulez-vous vraiment supprimer cette sauvegarde ?",
@@ -133,7 +135,8 @@
                 "TEXT": "Voulez-vous vraiment réinitialiser votre téléphone ? [CELA ENLEVERA TOUT]",
                 "CANCEL": "Annuler",
                 "CONFIRM": "Réinitialiser"
-            }
+            },
+            "UP_TO_DATE": "Votre téléphone est à jour"
         },
         "NOTES": {
             "TITLE": "Notes",
@@ -216,6 +219,7 @@
             "GET": "Obtenir",
             "OPEN": "Ouvrir",
             "TODAY": "Aujourd'hui",
+            "POPULAR_APPS": "Applications populaires",
             "GAMES": "Jeux",
             "APPS": "Apps",
             "WHAT_WE_PLAYING": "Ce à quoi nous jouons",
@@ -223,7 +227,16 @@
             "PROVIDER": "Fournisseur",
             "SIZE": "Taille",
             "COMPATIBILITY": "Compatibilité",
-            "IN_APP_PURCHASES": "Achats intégrés"
+            "IN_APP_PURCHASES": "Achats intégrés",
+			"WORKS_WITH_PHONE": "Fonctionne avec le téléphone",
+			"NO": "Non",
+			"YES": "Oui",
+			"PURCHASE_APP_POPUP": {
+				"TITLE": "Acheter l'application",
+				"DESCRIPTION": "Voulez-vous vraiment acheter {app} pour {price} ?",
+				"CANCEL": "Annuler",
+				"PROCEED": "Acheter"
+			}
         },
         "PHOTOS": {
             "TITLE": "Photo",
@@ -283,6 +296,8 @@
             "NOT_DELIVERED": "Non délivrés",
             "PLACEHOLDER": "Message texte",
             "DONE": "Confirmer",
+			"EDIT": "Editer",
+			"READ": "Lu",
             "CANCEL": "Annuler",
             "SEND": "Envoyer",
             "UNKNOWN": "Inconnu",
@@ -293,6 +308,7 @@
             "LEAVE_GROUP": "Quitter la conversation",
             "SENT_LOCATION": "A partagé son emplacement, cliquez pour ouvrir dans Maps",
             "SENT_LOCATION_SHORT": "A partagé sa position",
+            "TRIED_TO_CALL": "{number} a essayé de vous appeler",
             "DELETE": "Supprimer",
             "REMOVE_POPUP": {
                 "TITLE": "Supprimer un membre",
@@ -324,7 +340,17 @@
                 "SEND_DESCRIPTION": "Voulez-vous envoyer {amount} à {name} ?",
                 "SEND_BUTTON_CANCEL": "Annuler",
                 "SEND_BUTTON_SEND": "Envoyer"
-            }
+            },
+			"PAYMENT_FAILED_POPUP": {
+				"TITLE": "Le paiement a échoué",
+				"DESCRIPTION": "Erreur: {error}",
+				"CLOSE": "Fermer"
+			},
+			"DELETE_CONVERSATION": {
+				"TITLE": "Supprimer la conversation",
+				"DESCRIPTION": "Voulez-vous vraiment supprimer cette conversation ?"
+			},
+			"MARK_AS_READ": "Marquer comme lu"
         },
         "PHONE": {
             "TITLE": "Téléphoner",
@@ -383,7 +409,9 @@
                 "BLOCK_NUMBER_TITLE": "Bloquer",
                 "BLOCK_NUMBER_TEXT": "Êtes-vous sûr de vouloir bloquer {number} ?",
                 "BLOCK_NUMBER_BUTTON_CANCEL": "Annuler",
-                "BLOCK_NUMBER_BUTTON_BLOCK": "Bloquer"
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Bloquer",
+				"EMAIL": "Email",
+				"ADDRESS": "Adresse"
             },
             "FAVOURITES": {
                 "TITLE": "Favoris",
@@ -398,7 +426,23 @@
             },
             "RECENTS": {
                 "TITLE": "Recent"
-            }
+            },
+            "VOICEMAIL": {
+				"TITLE": "Boîte vocale",
+				"AT": "à",
+				"DELETE_POPUP": {
+					"TITLE": "Supprimer le message vocal",
+					"DESCRIPTION": "Voulez-vous vraiment supprimer ce message vocal ?",
+					"CANCEL": "Annuler",
+					"PROCEED": "Supprimer"
+				},
+				"CALL_POPUP": {
+					"TITLE": "Appeler",
+					"DESCRIPTION": "Voulez-vous appeler {number} ?",
+					"CANCEL": "Annuler",
+					"PROCEED": "Appeler"
+				}
+			}
         },
         "WALLET": {
             "TITLE": "Porte monnaie",
@@ -506,6 +550,14 @@
             "POST": "Poster",
             "CONTACT": "Contact",
             "REMOVE": "Supprimer",
+			"ERROR_POPUP": {
+				"TITLE": "Erreur",
+				"NO_TITLE": "Vous devez entrer un titre",
+				"NO_DESCRIPTION": "Vous devez entrer une description",
+				"NO_PRICE": "Vous devez entrer un prix",
+				"NO_ATTACHMENTS": "Vous devez ajouter au moins une photo",
+				"OK": "OK"
+			},
             "DELETE_POPUP": {
                 "TITLE": "Supprimer l'annonce",
                 "TEXT": "Êtes-vous sûr de vouloir supprimer cette annonce?",
@@ -523,6 +575,12 @@
             "PRICE": "Prix",
             "POST": "Publication",
             "CALL": "Téléphoner",
+			"ERROR_POPUP": {
+				"TITLE": "Erreur",
+				"NO_TITLE": "Vous devez entrer un titre",
+				"NO_DESCRIPTION": "Vous devez entrer une description",
+				"OK": "OK"
+			},
             "DELETE_POPUP": {
                 "TITLE": "Supprimer publication",
                 "TEXT": "Êtes-vous sûr de vouloir supprimer cette annonce?",
@@ -592,6 +650,7 @@
             "ADD_PLAYLIST": "Ajouter à la playlist",
             "REMOVE_SONG": "Enlever la musique",
             "NOT_PLAYING": "Pas jouée actuellement",
+			"EDIT_PLAYLIST": "Editer la playlist",
             "DELETE_PLAYLIST": "Supprimer la playlist",
             "SEARCH_PLACEHOLDER": "Artistes, Musiques, Albums, Playlists",
             "SONGS": "Musiques",
@@ -613,7 +672,13 @@
                 "PLACEHOLDER": "Nom de la playlist",
                 "CANCEL": "Annuler",
                 "PROCEED": "Suivant"
-            }
+            },
+			"REMOVE_SONG_POPUP": {
+				"TITLE": "Supprimer la musique",
+				"DESCRIPTION": "Voulez-vous vraiment supprimer cette musique de la playlist ?",
+				"CANCEL": "Annuler",
+				"PROCEED": "Continuer"
+			}
         },
         "TINDER": {
             "TITLE": "Tinder",
@@ -688,6 +753,29 @@
                 "CANCEL": "Annuler",
                 "PROCEED": "Suivant"
             },
+			"DELETE_STORY": {
+				"TITLE": "Supprimer la story",
+				"DESCRIPTION": "Êtes-vous sûr de vouloir supprimer cette story ?",
+				"CANCEL": "Annuler",
+				"PROCEED": "Suivant"
+			},
+			"INVITE_LIVE_POPUP": {
+				"TITLE": "Invitation au live",
+				"DESCRIPTION": "{username} veut vous inviter à rejoindre son live",
+				"NO": "Refuser",
+				"YES": "Accepter"
+			},
+			"REMOVE_LIVE_POPUP": {
+				"TITLE": "Retirer {username}",
+				"DESCRIPTION": "Êtes-vous sûr de vouloir retirer {username} du live ?",
+				"CANCEL": "Annuler",
+				"REMOVE": "Retirer"
+			},
+			"LEAVE_LIVE_POPUP": {
+				"TITLE": "Quitter le live",
+				"DESCRIPTION": "Êtes-vous sûr de vouloir quitter le live ?",
+				"LEAVE": "Quitter"
+			},
             "LIVE_ENDED": "Fin du live",
             "COMMENT_PLACEHOLDER": "Commentaire",
             "LIVE": "Live",
@@ -727,7 +815,7 @@
             "EDIT_PROFILE": "Modifier votre profil",
             "CHANGE_PICTURE": "Changer votre photo de profil",
             "NAME": "Nom",
-            "BIO": "Bio",
+            "BIO": "Biographie",
             "SIGN_OUT": "Se déconnecter",
             "POSTS": "Publications",
             "MESSAGE": "Message",
@@ -735,7 +823,13 @@
             "TO": "A",
             "SEND_A_MESSAGE": "Envoyer un message...",
             "STORY_VIEWERS": "Vues",
-            "SEEN_BY": "Vu par {count}"
+			"PARTICIPANTS": "Participants",
+            "SEEN_BY": "Vu par {count}",
+			"ADD_ACCOUNT": "Ajouter un compte",
+			"INVITE": "Inviter",
+			"REMOVE": "Retirer",
+			"IN_THIS_ROOM": "Dans cette pièce",
+			"WHOS_WATCHING": "Qui regarde"
         },
         "TWITTER": {
             "TITLE": "Twitter",
@@ -830,7 +924,10 @@
             "CREATE_ACCOUNT": "Créer un compte",
             "PROMOTE": "Promouvoir",
             "PIN": "Épingler Tweet",
-            "UNPIN": "Désépingler le Tweet"
+            "UNPIN": "Désépingler le Tweet",
+			"NEW_MESSAGE": "Nouveau message",
+			"PROMOTED": "Promu",
+			"ADD_ACCOUNT": "Ajouter un compte"
         },
         "SERVICES": {
             "ACTIONS": "Actions",
@@ -844,6 +941,9 @@
             "DUTY": "Service",
             "GO_ON_DUTY": "En service",
             "GO_OFF_DUTY": "Hors Service",
+			"JOB_CALLS": "Appels job",
+			"DISABLE_CALLS": "Désactiver les appels",
+			"ENABLE_CALLS": "Activer les appels",
             "BALANCE": "Solde",
             "MANAGE_EMPLOYEES": "Gérer les employés",
             "HIRE": "Embaucher",
@@ -884,27 +984,190 @@
                 "CANCEL": "Annuler",
                 "PROCEED": "Confirmer"
             }
-        }
-    },
-    "CRYPTO": {
-        "TITLE": "Crypto",
-        "BALANCE": "Solde estimé",
-        "BUY": "Acheter",
-        "SELL": "Vendre",
-        "BUY_POPUP": {
-            "TITLE": "Acheter {coin}",
-            "DESCRIPTION": "Entrez la quantité de {coin} (en $) que vous voulez acheter",
-            "PLACEHOLDER": "$1000",
-            "CANCEL": "Annuler",
-            "PROCEED": "Confirmer"
         },
-        "SELL_POPUP": {
-            "TITLE": "Vendre {coin}",
-            "DESCRIPTION": "Entrez la quantité de {coin} (en $) que vous voulez vendre",
-            "PLACEHOLDER": "$1000",
-            "CANCEL": "Annuler",
-            "PROCEED": "Confirmer"
-        }
+        "CRYPTO": {
+            "TITLE": "Crypto",
+            "BALANCE": "Solde estimé",
+            "BUY": "Acheter",
+            "SELL": "Vendre",
+			"SELL_ALL": "Vendre tout",
+			"NO_MONEY": "Vous n'avez pas assez d'argent",
+			"NO_COINS": "Vous ne possédez pas de cet actif",
+			"NOT_ENOUGH_COINS": "Vous n'avez pas assez de cet actif",
+			"ATLEAST_ONE_COIN": "Vous devez {action} au moins une unité de cet actif",
+			"INVALID_COIN": "Actif invalide",
+			"ERROR": "Erreur",
+			"CLOSE": "Fermer",
+            "BUY_POPUP": {
+                "TITLE": "Acheter {coin}",
+                "DESCRIPTION": "Entrez la quantité de {coin} (en $) que vous voulez acheter",
+                "PLACEHOLDER": "$1000",
+                "CANCEL": "Annuler",
+                "PROCEED": "Confirmer"
+            },
+            "SELL_POPUP": {
+                "TITLE": "Vendre {coin}",
+                "DESCRIPTION": "Entrez la quantité de {coin} (en $) que vous voulez vendre",
+                "PLACEHOLDER": "$1000",
+                "CANCEL": "Annuler",
+                "PROCEED": "Confirmer"
+            },
+			"SELL_ALL_POPUP": {
+				"TITLE": "Vendre tout le {coin}",
+				"DESCRIPTION": "Voulez-vous vraiment vendre tout votre {coin} pour $ {amount} ?",
+				"CANCEL": "Annuler",
+				"PROCEED": "Suivant"
+			}
+        },
+		"TIKTOK": {
+			"TITLE": "Trendy",
+
+			"HOME": "Accueil",
+			"DISCOVER": "Découvrir",
+			"INBOX": "Boîte de réception",
+			"PROFILE": "Profil",
+
+			"COMMENTS_TITLE": "{count} commentaires",
+			"REPLY": "Répondre",
+			"VIEW_REPLIES": "Voir les réponses",
+			"ADD_COMMENT": "Ajouter un commentaire...",
+			"REPLY_TO": "Répondre à {name}",
+			"PIN_COMMENT": "Épingler le commentaire",
+			"UNPIN_COMMENT": "Désépingler le commentaire",
+			"DELETE_COMMENT": "Supprimer le commentaire",
+			"DELETE": "Supprimer",
+			"PINNED": "Épinglé",
+			"PIN_VIDEO": "Épingler la vidéo",
+			"UNPIN_VIDEO": "Désépingler la vidéo",
+			"PIN": "épingler",
+			"UNPIN": "désépingler",
+			"MAX_PINNED_TITLE": "Limite d'épinglage atteinte",
+			"MAX_PINNED_DESCRIPTION": "Vous ne pouvez épingler que 3 vidéos",
+			"OK": "OK",
+			"CREATOR": "Créateur",
+			"LIKED_BY_CREATOR": "Aimé par le créateur",
+
+			"PIN_VIDEO_POPUP": {
+				"TITLE": "Épingler la vidéo",
+				"DESCRIPTION": "Voulez-vous vraiment {action} cette vidéo ?",
+				"CANCEL": "Annuler",
+				"PROCEED": "Suivant"
+			},
+			"DELETE_VIDEO_POPUP": {
+				"TITLE": "Supprimer la vidéo",
+				"DESCRIPTION": "Voulez-vous vraiment supprimer cette vidéo ?",
+				"CANCEL": "Annuler",
+				"PROCEED": "Suivant"
+			},
+			"FAILED_UPLOAD_POPUP": {
+				"TITLE": "Échec de l'envoi du Text-to-Speech (TTS)",
+				"DESCRIPTION": "Le propriétaire du serveur n'a pas configuré l'upload de l'audio correctement, veuillez contacter le propriétaire du serveur pour résoudre ce problème.",
+				"CANCEL": "Annuler",
+				"PROCEED": "Suivant"
+			},
+
+			"SHARE_TITLE": "Partager à",
+			"SHARE": "Partager",
+			"REPORT": "Signaler",
+			"SAVE_VIDEO": "Sauvegarder la vidéo",
+			"ADD_FAVOURITE": "Ajouter aux favoris",
+			"CANCEL": "Annuler",
+			"GO_BACK": "Retour",
+
+			"FOLLOWING": "Suivis",
+			"FOLLOWERS": "Followers",
+			"UNFOLLOW": "Ne plus suivre",
+			"FOLLOW": "Suivre",
+			"FOR_YOU": "Pour vous",
+			"VIDEOS": "Vidéos",
+			"LIKES": "Likes",
+
+			"UNFOLLOW_POPUP": {
+				"TITLE": "Ne plus suivre",
+				"DESCRIPTION": "Voulez-vous vraiment ne plus suivre {name} ?",
+				"CANCEL": "Annuler",
+				"PROCEED": "Suivant"
+			},
+
+			"LOGIN_TITLE": "Se connecter à Trendy",
+			"LOGIN_SUBTITLE": "Connectez-vous pour gérer votre profil, activer les notifications, commenter des vidéos, et plus encore.",
+            "SIGNUP_TITLE": "Créer un compte Trendy",
+			"SIGNUP_SUBTITLE": "Créez un profil, suivez d'autres utilisateurs, faites vos vidéos, et plus encore.",
+			"NAME": "Nom",
+			"USERNAME": "Pseudo",
+			"PASSWORD": "Mot de passe",
+			"BIO": "Biographie",
+			"SHOW_LIKES": "Voir les likes",
+
+			"LOGIN": "Se connecter",
+			"SIGNUP": "Créer un compte",
+			"NO_ACCOUNT": "Vous n'avez pas de compte ?",
+			"ALREADY_ACCOUNT": "Vous avez déja un compte ?",
+			"SEARCH_PLACEHOLDER": "Recherchez des utilisateurs",
+
+			"STARTED_FOLLOWING": "a commencé à vous suivre.",
+			"LIKED_VIDEO": "a aimé votre vidéo.",
+			"LIKED_COMMENT": "a aimé votre commentaire.",
+			"SAVED_VIDEO": "a ajouté votre vidéo aux favoris.",
+			"COMMENTED": "a commenté: {comment}",
+			"REPLIED": "a répondu à votre commentaire: {comment}",
+
+			"EDIT_PROFILE": "Editer le profil",
+			"MESSAGE": "Envoyer un message",
+			"CHANGE_PHOTO": "Changer la photo",
+			"LOGOUT": "Se déconnecter",
+			"ADD_TO_YOUR_PROFILE": "Ajouter à votre profil",
+			"LIKED_HIDDEN_TITLE": "Les vidéos aimées par cet utilisateur sont actuellement cachées",
+			"LIKED_HIDDEN_SUBTITLE": "Les vidéos aimées par {name} sont actuellement cachées",
+
+			"INVALID_ACCOUNT_POPUP": {
+				"TITLE": "Invalid {name}",
+				"DESCRIPTION": "Vous n'êtes pas connecté au compte {name} que vous avez entré, veuillez vous connecter pour continuer.",
+				"OK": "OK"
+			},
+			"REMOVE_ACCOUNT_POPUP": {
+				"TITLE": "Supprimer le compte {name}",
+				"DESCRIPTION": "Voulez-vous vraiment supprimer le compte {name} de votre profil ?",
+				"CANCEL": "Annuler",
+				"PROCEED": "Suivant"
+			},
+
+			"ADD_ACCOUNT_TITLE": "Ajouter un compte",
+			"ADD_ACCOUNT": "Ajouter {name} à votre profil",
+			"UPLOAD_VIDEO": "Publier une vidéo",
+			"PREVIEW": "Aperçu",
+			"CAPTION": "Légende",
+			"CAPTION_PLACEHOLDER": "Ajouter une légende...",
+			"TTS": "Text to Speech (TTS)",
+			"TTS_PLACEHOLDER": "Ajouter du text to speech...",
+			"MUSIC": "Musique",
+			"SELECT_MUSIC": "Sélectionnez une musique",
+			"OPTIONAL": "Optionnel",
+
+			"DIRECT_MESSAGES": "Messages directs",
+			"ALL_ACTIVITY": "Toute l'activité",
+			"NO_NOTIFICATIONS": "Les notifications ne sont pas disponibles",
+			"NO_NOTIFICATIONS_SUBTITLE": "Les notifications à propos de votre compte apparaîtront ici",
+			"NO_FOLLOWING_TITLE": "Commencez à suivre des gens pour voir leur vidéos ici",
+			"NO_MESSAGES_TITLE": "Envoyez des messages directs à vos amis",
+			"NO_MESSAGES_SUBTITLE": "Partagez des vidéos ou débutez une conversation"
+		},
+		"VOICEMEMO": {
+			"TITLE": "Boîte vocale",
+			"ALL_RECORDINGS": "Tous les enregistrements",
+			"DEFAULT_NAME": "Nouveaux enregistrements",
+			"DELETE_POPUP": {
+				"TITLE": "Supprimer l'enregistrement",
+				"DESCRIPTION": "Voulez-vous vraiment supprimer cet enregistrement ?",
+				"CANCEL": "Annuler",
+				"PROCEED": "Suivant"
+			},
+			"NO_MICROPHONE_POPUP": {
+				"TITLE": "Pas de microphone",
+				"DESCRIPTION": "Vous n'avez pas de microphone connecté, assurez vous d'en avoir connecté un et d'avoir accepté la pop-up en haut à droite de votre écran",
+				"OK": "OK"
+			}
+		}
     },
     "COMPONENTS": {
         "CONTEXT_MENU": {
@@ -933,6 +1196,7 @@
             "AIRDROP_SENT": "Expédié",
             "AIRDROP_ACCEPTED": "Accepter",
             "AIRDROP_DECLINED": "Refuser",
+			"AIRDROP_NO_USERS": "Aucun téléphone à proximité",
             "WALLPAPER_POPUP": {
                 "TITLE": "Utiliser comme fond d'écran",
                 "TEXT": "Êtes-vous sûr de vouloir définir cette image comme fond d'écran?",
@@ -948,6 +1212,7 @@
             "CONTACT": "contact",
             "LOCATION": "emplacement",
             "NOTE": "note",
+			"VOICEMEMO": "enregistrement vocal",
             "PLAYLIST": "playlist",
             "DECLINE": "Refuser",
             "ACCEPT": "Accepter"
@@ -956,7 +1221,27 @@
             "SILENT": "Silencieux",
             "RING": "Sonner",
             "TIMER": "Minuterie"
-        }
+        },
+		"MUSIC_SELECTOR": {
+			"CANCEL": "Annuler",
+			"NO-RESULTS": "Aucune musique, demandez au propriétaire du serveur d'en ajouter",
+			"SEARCH": "Rechercher une musique",
+			"SELECT_POPUP": {
+				"TITLE": "Sélectionner une musique",
+				"DESCRIPTION": "Voulez-vous vraiment sélectionner {song} ?",
+				"CANCEL": "Annuler",
+				"PROCEED": "Suivant"
+			}
+		},
+		"BATTERY": {
+			"LOW_BATTERY": "Batterie faible",
+			"BATTERY_REMAINING": "{percent}%  restants",
+			"LOW_POWER_MODE": "Mode économie d'énergie",
+			"CLOSE": "Fermer"
+		},
+		"COLOR_PICKER": {
+			"COLOR": "Couleur"
+		}
     },
     "SETUP": {
         "HELLO": "Bonjour",
@@ -974,20 +1259,31 @@
         "CLICK": "Cliquez pour commencer"
     },
     "HOMESCREEN": {
-        "DONE": "Confimer",
-        "REMOVE": "Supprimer",
-        "REMOVE_TEXT": "La suppression de cette application ne supprimera PAS ses données. L'application peut ensuite être réinstallée depuis l'App Store.",
-        "BUTTON_CANCEL": "Annuler",
-        "BUTTON_DELETE": "Supprimer"
+        "DONE": "Confirmer",
+		"REMOVE_APP_POPUP": {
+			"TITLE": "Retirer '{app}'?",
+			"DESCRIPTION": "Supprimer cette application ne supprime PAS ses données, il vous sera possible de la réinstaller plus tard via l'App Store.",
+			"CANCEL": "Annuler",
+			"PROCEED": "Supprimer"
+		}
     },
     "LOCKSCREEN": {
         "ENTER_PASSCODE": "Entrer le mot de passe",
-        "DELETE": "Supprimer"
+        "DELETE": "Supprimer",
+		"FONT_AND_COLOR": "Police & Couleur"
     },
+	"MISC": {
+		"AIRPLANE_MODE_POPUP": {
+			"TITLE": "Erreur",
+			"DESCRIPTION": "Vous essayez d'effectuer une action qui nécessite une connexion internet, mais vous êtes en mode avion. Veuillez désactiver le mode avion pour continuer.",
+			"OK": "OK"
+		}
+	},
     "BACKEND": {
         "CALLS": {
             "NO_CALLER_ID": "Identifiant Inconnu",
-            "MISSED_CALL": "Appel manqué"
+            "MISSED_CALL": "Appel manqué",
+			"NEW_VOICEMAIL": "Nouveau message vocal"
         },
         "GARAGE": {
             "VALET": "Valet",
@@ -1000,7 +1296,12 @@
         "INSTAGRAM": {
             "NOT_ALLOWED_LIVE": "Vous n'êtes pas autorisé à aller en direct",
             "NOT_ALLOWED_STORY": "Vous n'êtes pas autorisé à publier une story",
-            "STARTED_LIVE": "{username} a lancé une vidéo en direct"
+            "STARTED_LIVE": "{username} a lancé une vidéo en direct",
+			"JOINED_LIVE": "{invitee} a commencé un live avec {inviter}.",
+			"LIKED_PHOTO": "{username} a aimé votre photo",
+			"LIKED_COMMENT": "{username} a aimé votre commentaire",
+			"COMMENTED": "{username} a commenté votre photo",
+			"NEW_FOLLOWER": "{username} a commencé à vous suivre"
         },
         "TINDER": {
             "NEW_MATCH": "Nouveau match",
@@ -1014,7 +1315,72 @@
             "CHANGE_MODE": "Appuyez sur {key} {key2} pour changer le mode de l'appareil photo"
         },
         "SERVICES": {
-            "NEW_MESSAGE": "Nouveau message"
-        }
-    }
+            "NEW_MESSAGE": "Nouveau message",
+			"ANONYMOUS": "Anonyme"
+        },
+        "TWITTER": {
+			"LIKE": "Aimé par {displayName}:",
+			"RETWEET": "Republié par {displayName}:",
+			"REPLY": "{displayName} a répondu:",
+			"FOLLOW": "{username} a commencé à vous suivre",
+			"TWEET": "{username} vient de poster"
+		},
+		"TIKTOK": {
+			"LIKE": "{displayName} a aimé votre vidéo.",
+			"COMMENT": "{displayName} a commenté votre vidéo.",
+			"FOLLOW": "{displayName} a commencé à vous suivre.",
+			"SAVE": "{displayName} a ajouté votre vidéo aux favoris.",
+			"LIKED_COMMENT": "{displayName} a aimé votre commentaire.",
+			"REPLIED_COMMENT": "{displayName} a répondu à votre commentaire.",
+			"DM": "{displayName}"
+		},
+		"MISC": {
+			"VERIFIED": "Votre compte a été vérifié",
+			"X_PHONE": "Téléphone de {name}"
+		},
+		"LOGS": {
+			"MAIL_TITLE": "Email",
+			"NEW_MAIL": "{sender} a envoyé un mail à {recipient}",
+
+			"MESSAGE_TITLE": "Message",
+			"NEW_MESSAGE": "{sender} a envoyé un message à {recipient}: {message}",
+
+			"CALL_ENDED": "Appel terminé",
+			"CALL_DESCRIPTION": "Un appel entre `{caller}` et `{callee}` qui a duré {duration}s s'est terminé. Répondu: `{answered}`",
+
+			"NEW_SERVICE_TITLE": "Nouveau message",
+			"NEW_SERVICE_CONTENT": "{sender} a envoyé un message à {channel}: {message}",
+
+			"RECEIVED_TITLE": "A reçu ${amount}",
+			"PAID_TITLE": "A payé ${amount}",
+			"TRANSACTION": "{number} a fait une transaction de ${amount} à {company}",
+
+			"BOUGHT_CRYPTO": "A acheté de la crypto",
+			"SOLD_CRYPTO": "A vendu de la crypto",
+			"CRYPTO_DETAILS": "**Actif**: {coin}\n**Montant**: {amount}\n**Valeur**: ${price}\n",
+
+			"DARKCHAT_CREATED_TITLE": "A créé un salon",
+			"DARKCHAT_CREATED_DESCRIPTION": "{creator} a créé un salon appelé : {channel}",
+			"DARKCHAT_MESSAGE_TITLE": "Nouveau message",
+			"DARKCHAT_MESSAGE_DESCRIPTION": "{sender} a envoyé un message dans {channel}: {message}",
+
+			"MARKETPLACE_NEW_TITLE": "Nouveau post",
+			"MARKETPLACE_NEW_DESCRIPTION": "**Vendeur**: {seller}\n**Titre**: {title}\n**Prix**: ${price}\n**Description**: {description}\n**Pièces-jointes**: {attachments}\n**ID:** {id}",
+			"MARKETPLACE_DELETED": "Post supprimé",
+
+			"YELLOWPAGES_NEW_TITLE": "Nouveau post",
+			"YELLOWPAGES_NEW_DESCRIPTION": "**Titre**: {title}\n**Description**: {description}\n**Pièces-jointes**: {attachment}\n**ID:** {id}",
+			"YELLOWPAGES_DELETED": "Post supprimé",
+
+			"LIVE_TITLE": "Live",
+			"STARTED_LIVE": "{username} a commencé un live",
+			"ENDED_LIVE": "{username} a terminé un live",
+			"ADDED_STORY": "{username} a ajouté une photo à sa story",
+
+			"TRENDY_UPLOAD_TITLE": "Nouvelle vidéo",
+			"TRENDY_UPLOAD_DESCRIPTION": "{username} a publié une nouvelle vidéo. Description : {caption} et id {id}",
+			"TRENDY_DELETE_TITLE": "Vidéo supprimée",
+			"TRENDY_DELETE_DESCRIPTION": "{username} a supprimé une vidéo (ID : {id})"
+		}
+	}
 }
