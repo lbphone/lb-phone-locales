@@ -1258,24 +1258,33 @@
         "WELCOME_TO": "Vítejte v",
         "CLICK": "Začněte kliknutím"
     },
-	"HOMESCREEN": {
-		"DONE": "Done",
-		"REMOVE_APP_POPUP": {
-			"TITLE": "Remove '{app}'?",
-			"DESCRIPTION": "Deleting this app will NOT delete its data. The app can later be reinstalled from the App store.",
-			"CANCEL": "Cancel",
-			"PROCEED": "Delete"
-		}
-	},
+    "HOMESCREEN": {
+        "DONE": "Hotovo",
+        "REMOVE_APP_POPUP": {
+        	"TITLE": "Odstranit '{app}'?",
+        	"DESCRIPTION": "Smazání této aplikace NEVYMAŽE její data. Aplikaci lze později znovu nainstalovat z obchodu App Store.",
+        	"CANCEL": "Zrušit",
+        	"PROCEED": "Smazat"
+        }
+    },
     "LOCKSCREEN": {
         "ENTER_PASSCODE": "Zadejte přístupový kód",
-        "DELETE": "Vymazat"
+        "DELETE": "Vymazat",
+	"FONT_AND_COLOR": "Písmo a barva"
+	},
+    "MISC": {
+        "AIRPLANE_MODE_POPUP": {
+        	"TITLE": "Chyba",
+        	"DESCRIPTION": "Pokoušíte se provést akci, která vyžaduje přístup k internetu, pro pokračování deaktivujte režim v letadle.",
+        	"OK": "OK"
+	}
     },
     "BACKEND": {
         "CALLS": {
-            "NO_CALLER_ID": "Neznámý volející",
-            "MISSED_CALL": "Zmeškaný hovor"
-        },
+            "NO_CALLER_ID": "Neznámý volající",
+            "MISSED_CALL": "Zmeškaný hovor",
+            "NEW_VOICEMAIL": "Nová hlasová zpráva"
+	},
         "GARAGE": {
             "VALET": "Peněženka",
             "COULDNT_FIND": "Nelze najít vozidlo.",
@@ -1285,8 +1294,14 @@
             "MARKED": "Tvé vozidlo bylo označeno na GPS."
         },
         "INSTAGRAM": {
-            "NOT_ALLOWED_LIVE": "Nemůžeš jít live.",
-            "STARTED_LIVE": "{username} začal streamovat video."
+             "NOT_ALLOWED_LIVE": "Nemáte povoleno vysílat",
+             "NOT_ALLOWED_STORY": "Nemáte povoleno zveřejňovat příběhy",
+             "STARTED_LIVE": "{username} spustil živé video",
+             "JOINED_LIVE": "{invitee} nyní vysílá živě s {inviter}.",
+             "LIKED_PHOTO": "{username} olajkoval vaši fotku",
+             "LIKED_COMMENT": "{username} olajkoval váš komentář",
+             "COMMENTED": "{username} okomentoval váš příspěvek",
+             "NEW_FOLLOWER": "{username} vás začal sledovat"
         },
         "TINDER": {
             "NEW_MATCH": "Nová sympatie",
@@ -1300,7 +1315,72 @@
             "CHANGE_MODE": "Stiskni {key} {key2} pro změnu módu"
         },
         "SERVICES": {
-            "NEW_MESSAGE": "Nová zpráva"
-        }
-    }
+            "NEW_MESSAGE": "Nová zpráva",
+            "ANONYMOUS": "Anonymní"
+        },
+	"TWITTER": {
+             "LIKE": "To se líbí uživateli {displayName}:",
+             "RETWEET": "Zveřejněno uživatelem {displayName}:",
+             "REPLY": "{displayName} odpověděl:",
+             "FOLLOW": "{username} vás začal sledovat",
+             "TWEET": "{username} právě zveřejnil"
+         },
+	"TIKTOK": {
+		"LIKE": "{displayName} olajkoval vaše video.",
+		"COMMENT": "{displayName} okomentoval vaše video.",
+		"FOLLOW": "{displayName} vás začal sledovat.",
+		"SAVE": "{displayName} zařadil vaše video mezi oblíbené.",
+		"LIKED_COMMENT": "{displayName} olajkoval váš komentář.",
+		"REPLIED_COMMENT": "{displayName} odpověděl na váš komentář.",
+	"DM": "{displayName}"
+	},
+	"MISC": {
+		"VERIFIED": "Váš účet byl ověřen",
+		"X_PHONE": "Telefon uživatele {name}"
+	},
+        "LOGS": {
+		"MAIL_TITLE": "E-mail",
+		"NEW_MAIL": "{sender} poslal e-mail uživateli {recipient}",
+        
+		"MESSAGE_TITLE": "Textová zpráva",
+		"NEW_MESSAGE": "{sender} poslal zprávu uživateli {recipient}: {message}",
+
+		"CALL_ENDED": "Hovor ukončen",
+		"CALL_DESCRIPTION": "Hovor mezi `{caller}` a `{callee}`, který trval {duration}s, skončil. Odpovězeno: `{answered}`",
+
+		"NEW_SERVICE_TITLE": "Nová zpráva",
+		"NEW_SERVICE_CONTENT": "{sender} poslal zprávu na {channel}: {message}",
+
+		"RECEIVED_TITLE": "Přijato ${amount}",
+		"PAID_TITLE": "Zaplaceno ${amount}",
+		"TRANSACTION": "{number} provedl transakci ve výši ${amount} společnosti {company}",
+
+		"BOUGHT_CRYPTO": "Zakoupeno krypto",
+		"SOLD_CRYPTO": "Prodáno krypto",
+		"CRYPTO_DETAILS": "**Coin**: {coin}\n**Částka**: {amount}\n**Hodnota**: ${price}\n",
+
+		"DARKCHAT_CREATED_TITLE": "Vytvořený kanál",
+		"DARKCHAT_CREATED_DESCRIPTION": "{creator} vytvořil kanál s názvem {channel}",
+		"DARKCHAT_MESSAGE_TITLE": "Nová zpráva",
+		"DARKCHAT_MESSAGE_DESCRIPTION": "{odesílatel} poslal zprávu v {kanálu}: {message}",
+
+		"MARKETPLACE_NEW_TITLE": "Nový zápis",
+		"MARKETPLACE_NEW_DESCRIPTION": "**Prodejce**: {prodejce}\n**Název**: {title}\n**Cena**: ${price}\n**Popis**: {description}\n **Přílohy**: {attachments}\n**ID:** {id}",
+		"MARKETPLACE_DELETED": "Příspěvek smazán",
+
+		"YELLOWPAGES_NEW_TITLE": "Nový příspěvek",
+		"YELLOWPAGES_NEW_DESCRIPTION": "**Název**: {title}\n**Popis**: {description}\n**Příloha**: {příloha}\n**ID:** {id}",
+		"YELLOWPAGES_DELETED": "Příspěvek smazán",
+
+		"LIVE_TITLE": "Živě",
+		"STARTED_LIVE": "{username} spustil živé video",
+		"ENDED_LIVE": "{username} ukončil živé video",
+		"ADDED_STORY": "{username} přidal fotku do svého příběhu",
+
+		"TRENDY_UPLOAD_TITLE": "Nové video",
+		"TRENDY_UPLOAD_DESCRIPTION": "{username} nahrál nové video s titulkem {caption} a id {id}",
+		"TRENDY_DELETE_TITLE": "Smazáno video",
+		"TRENDY_DELETE_DESCRIPTION": "{username} smazal video s ID {id}"
+	        }
+	}
 }
