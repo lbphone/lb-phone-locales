@@ -2,6 +2,11 @@
     "LABEL": "Dansk",
     "SEARCH": "Søg",
     "CANCEL": "Annuller",
+    "NOW": "Nu",
+    "D": "d",
+    "H": "h",
+    "M": "m",
+    "S": "s",
 
     "APPS": {
         "SETTINGS": {
@@ -218,13 +223,24 @@
             "GET": "Hent",
             "OPEN": "Åbn",
             "TODAY": "I dag",
+            "POPULAR_APPS": "Populære Apps",
             "GAMES": "Spil",
+            "APPS": "Apps",
             "WHAT_WE_PLAYING": "Det her spiller vi",
             "INFORMATION": "Information",
             "PROVIDER": "Udvikler",
             "SIZE": "Størrelse",
             "COMPATIBILITY": "Kompatibilitet",
-            "IN_APP_PURCHASES": "Køb i app"
+            "IN_APP_PURCHASES": "Køb i app",
+            "WORKS_WITH_PHONE": "Virker med denne telefon",
+            "NO": "Nej",
+            "YES": "Ja",
+            "PURCHASE_APP_POPUP": {
+                "TITLE": "Køb App",
+                "DESCRIPTION": "Vil du købe {app} for {price}?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Køb"
+            }
         },
         "PHOTOS": {
             "TITLE": "Fotos",
@@ -287,6 +303,8 @@
             "NOT_DELIVERED": "Ikke sendt",
             "PLACEHOLDER": "Tekst Besked",
             "DONE": "Færdig",
+            "EDIT": "Rediger",
+            "READ": "Læs",
             "CANCEL": "Annuller",
             "SEND": "Send",
             "UNKNOWN": "Ukendt Nummer",
@@ -297,7 +315,8 @@
             "LEAVE_GROUP": "Forlad Samtale",
             "SENT_LOCATION": "Delte sin lokation, tryk for at åbne i Maps",
             "SENT_LOCATION_SHORT": "Delte sin lokation",
-
+            "TRIED_TO_CALL": "{number} prøvede at ringe til dig",
+            "DELETE": "Slet",
             "REMOVE_POPUP": {
                 "TITLE": "Fjern Medlem",
                 "TEXT": "Er du sikker på du vil fjerne {name} fra gruppen?",
@@ -328,7 +347,17 @@
                 "SEND_DESCRIPTION": "Vil du sende {amount} til {name}?",
                 "SEND_BUTTON_CANCEL": "Annuller",
                 "SEND_BUTTON_SEND": "Send"
-            }
+            },
+            "PAYMENT_FAILED_POPUP": {
+                "TITLE": "Betaling fejlede",
+                "DESCRIPTION": "Fejl: {error}",
+                "CLOSE": "Luk"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "Slet samtale",
+                "DESCRIPTION": "Er du sikker på at du vil slette denne samtale?"
+            },
+            "MARK_AS_READ": "Marker som læst"
         },
         "PHONE": {
             "TITLE": "Telefon",
@@ -397,7 +426,9 @@
                 "BLOCK_NUMBER_TITLE": "Bloker Nummer",
                 "BLOCK_NUMBER_TEXT": "Er du sikker på du vil blokere {number}?",
                 "BLOCK_NUMBER_BUTTON_CANCEL": "Annuller",
-                "BLOCK_NUMBER_BUTTON_BLOCK": "Blocker"
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Blocker",
+                "EMAIL": "Email",
+                "ADDRESS": "Addresse"
             },
             "FAVOURITES": {
                 "TITLE": "Favoritter",
@@ -413,6 +444,22 @@
             },
             "RECENTS": {
                 "TITLE": "Seneste"
+            },
+            "VOICEMAIL": {
+                "TITLE": "Voicemail",
+                "AT": "at",
+                "DELETE_POPUP": {
+                    "TITLE": "Slet Voicemail",
+                    "DESCRIPTION": "Er du sikker på at du vil slette denne voicemail?",
+                    "CANCEL": "Annuller",
+                    "PROCEED": "Slet"
+                },
+                "CALL_POPUP": {
+                    "TITLE": "Ring",
+                    "DESCRIPTION": "Er du sikker på at du vil ringe til {number}?",
+                    "CANCEL": "Annuller",
+                    "PROCEED": "Ring"
+                }
             }
         },
         "WALLET": {
@@ -428,7 +475,10 @@
             "LATEST_TRANSACTIONS": "Seneste Transaktioner",
 
             "NOW": "Nu",
-            "AGO": "siden"
+            "AGO": "siden",
+            "NUMBER_DOES_NOT_EXIST": "Nummeret findes ikke / spilleren er ikke online",
+            "NOT_ENOUGH_MONEY": "Du har ikke nok penge",
+            "SELECT_CONTACT": "Vælg kontakt"
         },
         "GARAGE": {
             "TITLTE": "Garage",
@@ -444,6 +494,12 @@
             "FUEL": "Brændstof",
             "ENGINE": "Motor",
             "BODY": "Karosseri",
+            "Vehicle": "Køretøj",
+            "STATUS": "Status",
+            "LOCKED": "Låst",
+            "LOCK": "Ulåst",
+            "UNLOCKED": "Lås",
+            "UNLOCK": "Lås op ",
 
             "WAYPOINT_POPUP": {
                 "TITLE": "Sæt Waypoint",
@@ -455,6 +511,12 @@
                 "TITLE": "Valet",
                 "TEXT": "Vil du valet din {model} ({plate})?",
                 "TEXT_PAID": "Vil du valet din {model} ({plate}) for {amount}?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Bekræft"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} køretøj",
+                "TEXT": "Vil du {toggle} dit køretøj?",
                 "CANCEL": "Annuller",
                 "PROCEED": "Bekræft"
             }
@@ -511,6 +573,14 @@
             "POST": "Slå op",
             "CONTACT": "Kontakt",
             "REMOVE": "Slet",
+            "ERROR_POPUP": {
+                "TITLE": "Fejl",
+                "NO_TITLE": "Du skal skrive en titel",
+                "NO_DESCRIPTION": "Du skal skrive en beskrivelse",
+                "NO_PRICE": "Du skal skrive en pris",
+                "NO_ATTACHMENTS": "Du skal vedhæfte mindst et billede",
+                "OK": "OK"
+            },
 
             "DELETE_POPUP": {
                 "TITLE": "Slet Opslag",
@@ -520,22 +590,626 @@
             }
         },
         "YELLOWPAGES": {
-            "SEARCH": "Søg efter opslag eller numre",
+            "SEARCH": "Søg efter lister eller numre",
             "FROM": "Fra",
-            "CANCEL": "Annuller",
-            "NEW_POST": "Nyt Opslag",
-
+            "CANCEL": "Anuller",
+            "NEW_POST": "Nyt Post",
             "TITLE": "Titel",
             "DESCRIPTION": "Bekrivelse",
             "PRICE": "Pris",
-            "POST": "Slå op",
-            "CALL": "Ring op",
+            "POST": "Post",
+            "CALL": "Ring",
+            "ERROR_POPUP": {
+                "TITLE": "Fejl",
+                "NO_TITLE": "Du skal skrive en titel",
+                "NO_DESCRIPTION": "Du skal skrive en beskrivelse",
+                "OK": "OK"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "Slet Post",
+                "TEXT": "Er du sikker på du vil slette dette post?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Slet"
+            }
+        },
+        "MAIL": {
+            "TITLE": "Mail",
+            "YOU": "Dig",
+            "UPDATED_NOW": "Lige opdateret",
+            "NEW_MESSAGE": "Ny Besked",
+            "INBOX": "Indbakke",
+            "TO": "Til",
+            "FROM": "Fra",
+            "SUBJECT": "Emne",
+            "MESSAGE": "Besked",
+            "CANCEL": "Annuller",
+            "SEND": "Send",
+            "EMAIL": "Email",
+            "EMAIL_INVALID": "Ugyldig email addresse",
+            "EMAIL_EXISTS": "Email findes allerede",
+            "PASSWORD": "Kode",
+            "WRONG_PASSWORD": "Forkert kode",
+            "LOGIN": "Login",
+            "NO_EMAIL": "Har du ikke en email addresse?",
+            "CREATE_ONE": "Opret en",
+            "UNREAD": "Ulæst",
+            "CREATE_MAIL": "Opret Email",
+            "ALREADY_HAVE": "Har du allerede en email addresse?",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Log ud",
+                "DESCRIPTION": "Er du sikker på, at du vil logge ud?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            }
+        },
+        "MAPS": {
+            "TITLE": "Maps",
+            "GO": "Gå",
+            "ADD": "Tilføj",
+            "EDIT": "Ændrer",
+            "DELETE": "Slet",
+            "SET_WAYPOINT": "Sæt Waypoint",
+            "SHARE": "Del",
 
+            "ADD_LOCATION_POPUP": {
+                "TITLE": "Tilføj Lokation",
+                "DESCRIPTION": "Skriv navnet på den lokation du vil tilføje.",
+                "PLACEHOLDER": "Navn",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+            "CHANGE_NAME_POPUP": {
+                "TITLE": "Skift Navn",
+                "DESCRIPTION": "Skriv det nye navn på lokationen",
+                "PLACEHOLDER": "Navn",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            }
+        },
+        "MUSIC": {
+            "TITLE": "Musik",
+            "LIBRARY": "Bibliotek",
+            "SEARCH": "Søg",
+            "ADD_QUEUE": "Tilføj til køen",
+            "ADD_PLAYLIST": "Tilføj til din playlist",
+            "REMOVE_SONG": "Fjern Sang",
+            "NOT_PLAYING": "Spiller ikke",
+            "EDIT_PLAYLIST": "Ændrer Playlist",
+            "DELETE_PLAYLIST": "Slet Playlist",
+            "SEARCH_PLACEHOLDER": "Artister, Sange, Albummer, Playlists",
+            "SONGS": "Sange",
+            "ALBUMS": "Albummer",
+            "PLAY": "Spil",
+            "SHUFFLE": "Shuffle",
+            "ARTIST": "Artist",
+            "ALBUM": "Album",
+            "PLAYLIST": "Playlist",
+            "SONG": "Sang",
+            "SONG_EXISTS_POPUP": {
+                "TITLE": "Sang findes allerede",
+                "DESCRIPTION": "Denne sang er allerede i din playlist",
+                "CANCEL": "Annuller"
+            },
+            "NEW_PLAYLIST_POPUP": {
+                "TITLE": "Ny Playlist",
+                "DESCRIPTION": "Opret en ny playlist",
+                "PLACEHOLDER": "Playlist Navn",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+            "REMOVE_SONG_POPUP": {
+                "TITLE": "Fjern Sang",
+                "DESCRIPTION": "Er du sikker på at du vil fjerne sangen fra denne playlist?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            }
+        },
+        "TINDER": {
+            "TITLE": "Spark",
+            "LIKES_YOU_TOO": "elsker også dig!",
+            "KEEP_SWIPING": "Swipe videre",
+            "SAY_SOMETHING_NICE": "Skriv noget pænt",
+            "NO_MORE": "Der er ikke flere du kan swipe, kom tilbage senere!",
+            "SEND": "Send",
+            "AGREE_TERMS": "Når du trykker 'Opret Konto' erklærer du dig enig i vores Terms of Service og Privacy Policy",
+            "CREATE_ACCOUNT": "Opret Konto",
+            "AGE_PUBLIC": "Din alder vil være offentlig",
+            "BE_OVER_18": "Du skal være over 18 for at bruge denne tjeneste",
+            "NAME_MINIMUM": "Dit navn skal være mindst 3 bogstaver langt",
+            "ADD_PHOTOS": "Tilføj billeder",
+            "PHOTOS_MINIMUM": "Du skal have mindst 1 billede",
+            "DESCRIPTION": "Fortæl os lidt om dig selv",
+            "DESCRIPTION_MINIMUM": "Din beskrivelse skal mindst være 10 bogstaver lang",
+            "SHOW_ME": "Vis Mig",
+            "WOMEN": "Kvinder",
+            "MEN": "Mænd",
+            "EVERYONE": "Alle",
+            "EVERYTHING": "Alt",
+            "I_AM": "Jeg er en",
+            "MALE": "Mand",
+            "FEMALE": "Kvinde",
+            "CONTINUE": "Fortsæt",
+            "NAME": "Navn",
+            "PHOTOS": "Billeder",
+            "ABOUT_ME": "Om Mig",
+            "INTERESTED_IN": "Interesseret I",
+            "GENDER": "Køn",
+            "SAVE": "Gem",
+            "NEW_MATCHES": "Nye Matches",
+            "MESSAGES": "Beskeder",
+            "SEARCH_MATCHES": "Søg Matches"
+        },
+        "INSTAGRAM": {
+            "TITLE": "InstaPic",
+            "SEND": "Send",
+            "POST": "Post",
+            "MESSAGE_PLACEHOLDER": "Send besked til...",
+            "NEW_MESSAGE": "Ny Besked",
+            "NOW": "Nu",
+            "GO_LIVE_POPUP": {
+                "TITLE": "Gå Live",
+                "DESCRIPTION": "Er du sikker på at du vil gå live?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+            "END_LIVE_POPUP": {
+                "TITLE": "Slut Live",
+                "DESCRIPTION": "Er du sikker på at du vil {action} denne live?",
+                "CANCEL": "Stoppe",
+                "END": "Slutte",
+                "LEAVE": "Forlade"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Unfollow",
+                "DESCRIPTION": "Er du sikker på at du vil unfollow {name}?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+            "DELETE_POST_POPUP": {
+                "TITLE": "Slet Post",
+                "DESCRIPTION": "Er du sikker på at du vil slette denne post?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Log ud",
+                "DESCRIPTION": "Er du sikker på at du vil log ud?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+            "DELETE_STORY": {
+                "TITLE": "Slet Historie",
+                "DESCRIPTION": "Er du sikker på at du vil slette denne historie?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+            "INVITE_LIVE_POPUP": {
+                "TITLE": "Live Inviter",
+                "DESCRIPTION": "{username} inviterede dig til deres live, vil du joine?",
+                "NO": "Nej",
+                "YES": "Ja"
+            },
+            "REMOVE_LIVE_POPUP": {
+                "TITLE": "Fjern {username}",
+                "DESCRIPTION": "Er du sikker på at du vil fjerne {username} fra din live?",
+                "CANCEL": "Annuller",
+                "REMOVE": "Slet"
+            },
+            "LEAVE_LIVE_POPUP": {
+                "TITLE": "Forlad Live",
+                "DESCRIPTION": "Er du sikker på at du vil forlade denne live?",
+                "LEAVE": "Forlad"
+            },
+            "LIVE_ENDED": "Live Sluttede",
+            "COMMENT_PLACEHOLDER": "Kommenter",
+            "LIVE": "Live",
+            "YOUR_STORY": "Din Historie",
+            "CREATE_STORY": "Opret Historie",
+            "GO_LIVE": "Gå Live",
+            "EMPTY_FEED": "Følg folk for at se deres billeder og videoer her",
+            "COMMENTS": "Kommentare",
+            "ADD_COMMENT_AS": "Tilføj kommentar som {name}",
+            "NEW_POST": "Nyt Post",
+            "NEXT": "Næste",
+            "CAPTION_PLACEHOLDER": "Skriv en beskrivelse...",
+            "ACTIVITY": "Aktivitet",
+            "FOLLOW": "Følh",
+            "FOLLOWING": "Følger",
+            "FOLLOWERS": "Følgers",
+            "FOLLOWER": "Følger",
+            "REQUESTED": "Anmodet",
+            "LIKES": "Likes",
+            "LIKED_BY": "Elsket af",
+            "VIEW_ALL_COMMENTS": "Se alle {count} kommentare",
+            "FIRST_COMMENT": "Vær den første til at kommentere...",
+            "NO_ACCOUNT": "Der er ingen account med dette brugernavn",
+            "WRONG_USERNAME_OR_PASSWORD": "Forkert brugernavn eller kode",
+            "LOG_IN": "Log Ind",
+            "ACCOUNT_WITH_USERNAME": "En bruger med dette navn findes allerede",
+            "CREATE_ACCOUNT": "Opret Bruger",
+            "USERNAME_PLACEHOLDER": "Brugernavn",
+            "NAME_PLACEHOLDER": "Navn",
+            "PASSWORD_PLACEHOLDER": "Kode",
+            "NOT_HAVE_ACCOUNT": "Har du ikke en bruger?",
+            "HAVE_ACCOUNT": "Har du en bruger?",
+            "LIKED_PHOTO": "elsker dit billede.",
+            "LIKED_COMMENT": "elskede din kommentar: {comment}",
+            "COMMENTED": "kommenterede på dit post: {comment}",
+            "FOLLOWED": "begyndte at følge dig.",
+            "DONE": "Færdig",
+            "EDIT_PROFILE": "Ændrer Profil",
+            "CHANGE_PICTURE": "Skift bruger billede",
+            "NAME": "Navn",
+            "BIO": "Bio",
+            "PRIVATE": "Skift Privat",
+            "SIGN_OUT": "Log Ud",
+            "POSTS": "Posts",
+            "MESSAGE": "Send Besked",
+            "SENT_A_PHOTO": "sendte et billede",
+            "TO": "Til",
+            "SEND_A_MESSAGE": "Send en besked...",
+            "STORY_VIEWERS": "Seere",
+            "PARTICIPANTS": "Deltagere",
+            "SEEN_BY": "Set af {count}",
+            "ADD_ACCOUNT": "Tilføj konto",
+            "INVITE": "Inviter",
+            "REMOVE": "Fjern",
+            "IN_THIS_ROOM": "I dette rum",
+            "WHOS_WATCHING": "Hvem ser med",
+            "FOLLOW_REQUESTS": "Følge anmodninger",
+            "CONFIRM": "Bekræft",
+            "DELETE": "Slet",
+            "ANDOTHERS": "{username} + {amount} andre"
+        },
+        "TWITTER": {
+            "TITLE": "Birdy",
+            "SEARCH_FOR": "Søg efter '{search}'",
+            "START_SEARCHING": "Begynd at søge for at udforske Birdy",
+            "TRENDING_HASHTAGS": "Populære hashtags",
+            "SENT_ATTACHMENT": "sendte en vedhæftning",
+            "TO": "Til",
+            "TWEETS": "Posts",
+            "REPLIES": "Svar",
+            "MEDIA": "Media",
+            "LIKES": "Likes",
+            "CANCEL": "Annuller",
+            "TWEET": "Post",
+            "TWEET_REPLY": "Post dit svar",
+            "TWEET_GENERAL": "Hvad sker der?",
+            "EDIT_PROFILE": "Ændrer Profil",
+            "SAVE": "Gem",
+            "NAME": "Navn",
+            "JOIN_DATE": "Join Dato",
+            "PROTECTED_POSTS": "Beskyt dinne posts",
+            "BIO": "Bio",
+            "SIGN_OUT": "Log Ud",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Log Ud",
+                "DESCRIPTION": "Er du sikker på at du vil log ud?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Unfollow",
+                "DESCRIPTION": "Er du sikker på at du vil unfollow {name}?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+            "RETWEET_POPUP": {
+                "RETWEET": "Repost",
+                "UNDO_RETWEET": "Fortryd Repost",
+                "DESCRIPTION": "Er du sikker på at du vil {action}?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "Slet Post",
+                "DESCRIPTION": "Er du sikker på at du vil slette dette post?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+            "NOTIFICATIONS_POPUP": {
+                "TITLE": "Notifikationer",
+                "DESCRIPTION": "Er du sikker på at du vil {action} notifikationerne på @{name}?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre",
+                "ENABLE": "Aktiver",
+                "DISABLE": "Deaktiver"
+            },
+            "PROMOTE_POPUP": {
+                "TITLE": "Promote Post",
+                "DESCRIPTION": "Vil du promote dette post for {price} for {views} seere?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+            "YOU": "Dig",
+            "FOLLOW": "Følg",
+            "PENDING": "Pending",
+            "FOLLOWING": "Følger",
+            "FOLLOWERS": "Følgere",
+            "RETWEETED": "Reposted",
+            "REPLYING_TO": "Svarer på {name}",
+            "RETWEETED_BY": "Reposted Af",
+            "LIKED_BY": "Elsket Af",
+            "ALL": "Alle",
+            "NOTIFICATIONS": "Notifikationer",
+            "FOLLOWS_YOU": "Følger dig",
+            "JOINED": "Joined {date}",
+            "LIKED_TWEET": "elsker dit post",
+            "RETWEETED_TWEET": "reposted dit post",
+            "FOLLOWED": "følger dig",
+            "SIGN_UP_TEXT": "Se hvad der sker i verden lige nu",
+            "TERMS_OF_SERVICE": "Ved at oprette en konto, erklærer du dig enig med vores Terms of Service og Privacy Policy.",
+            "HAS_ACCOUNT": "Har du allerede en konto?",
+            "CREATE_YOUR_ACCOUNT": "Opret din konto",
+            "NAME_PLACEHOLDER": "Navn",
+            "USERNAME_PLACEHOLDER": "Brugernavn",
+            "PASSWORD_PLACEHOLDER": "Kode",
+            "GET_STARTED": "For at starte, skriv dit @username",
+            "FORGOT_PASSWORD": "Glemt kode?",
+            "ENTER_PASSWORD": "Skriv din kode",
+            "SEARCH_DIRECT_MESSAGES": "Søg direkte beskeder",
+            "SEARCH_TWITTER": "Søg Birdy",
+            "MESSAGE_PLACEHOLDER": "Send besked til...",
+            "NOW": "Nu",
+            "LOGIN": "Log Ind",
+            "CREATE_ACCOUNT": "Opret Bruger",
+            "PROMOTE": "Promote",
+            "PIN": "Pin Opslag",
+            "UNPIN": "Unpin Opslag",
+            "NEW_MESSAGE": "Ny Besked",
+            "PROMOTED": "Promoted",
+            "ADD_ACCOUNT": "Tilføj konto",
+            "FOLLOWER_REQUESTS": "Følge anmodninger",
+            "NEW_POSTS": "Nye Opslag"
+        },
+        "SERVICES": {
+            "ACTIONS": "Aktioner",
+            "COMPANIES": "Firmaer",
+            "MESSAGES": "Beskeder",
+
+            "CLOSED": "Lukket",
+            "YOUR_MESSAGES": "Dine Beskeder",
+            "JOB_MESSAGES": "Arbejds Beskeder",
+
+            "DUTY": "Duty",
+            "GO_ON_DUTY": "Gå på arbejde",
+            "GO_OFF_DUTY": "Gå af arbejde",
+            "JOB_CALLS": "Job Calls",
+            "DISABLE_CALLS": "Deaktiver Calls",
+            "ENABLE_CALLS": "Aktiver Calls",
+            "BALANCE": "Konto",
+            "MANAGE_EMPLOYEES": "Styr dine ansatte",
+            "HIRE": "Hyr",
+            "SET_GRADE": "Bestem Grade",
+            "UNEMPLOYED": "Du er på kontanthjælp",
+
+            "DEPOSIT_POPUP": {
+                "TITLE": "Indbetal",
+                "DESCRIPTION": "Indbetal penge til din firma konto",
+                "AMOUNT": "Antal",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+            "WITHDRAW_POPUP": {
+                "TITLE": "Udbetal",
+                "DESCRIPTION": "Udbetal penge fra din firma konto",
+                "AMOUNT": "Antal",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+            "HIRE_POPUP": {
+                "TITLE": "Hyr",
+                "DESCRIPTION": "Hyr en ansat",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+            "FIRE_POPUP": {
+                "TITLE": "Fyr",
+                "DESCRIPTION": "Er du sikker på at du vil fyre {name}?",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+            "CALL_POPUP": {
+                "TITLE": "Ring",
+                "DESCRIPTION": "Er du sikker på at du vil ringe til {name}?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            }
+        },
+        "CRYPTO": {
+            "TITLE": "Crypto",
+            "BALANCE": "Estimeret Balance",
+            "BUY": "Køb",
+            "SELL": "Sælg",
+            "TRANSFER": "Overfør",
+            "SELL_ALL": "Sælg Alt",
+            "NO_MONEY": "Du har ikke nok penge",
+            "NO_COINS": "Du har intet af denne mønt",
+            "NOT_ENOUGH_COINS": "Du har ikke nok mønter",
+            "ATLEAST_ONE_COIN": "Du skal {action} mindst en {currency}",
+            "INVALID_COIN": "Ugyldig mønt",
+            "NO_NUMBER": "Intet telefonnummer",
+            "INVALID_NUMBER": "Ugyldigt telefonnummer (brugeren kan være offline)",
+            "ERROR": "Fejl",
+            "CLOSE": "Luk",
+            "BUY_POPUP": {
+                "TITLE": "Køb {coin}",
+                "DESCRIPTION": "Indsæt antal af {coin} (i kr) hvis du vil købe",
+                "PLACEHOLDER": "1000kr",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+            "SELL_POPUP": {
+                "TITLE": "Sælg {coin}",
+                "DESCRIPTION": "Intast antallet af {coin} (in kr) som du vil sælge",
+                "PLACEHOLDER": "1000kr"
+            },
+            "SELL_ALL_POPUP": {
+                "TITLE": "Sælg alt {coin}",
+                "DESCRIPTION": "Er du sikker på at du vil sælge alt dit {coin} for ${amount}?"
+            },
+            "TRANSFER_POPUP": {
+                "TITLE": "Overfør {coin}",
+                "DESCRIPTION": "Indtast antallet af {coin} (in kr) som du vil overføre (vælg kontakt i næste step)",
+                "PLACEHOLDER": "1000kr",
+                "NEXT": "Næste"
+            },
+            "SUCCESSFULLY_TRANSFERED_POPUP": {
+                "TITLE": "Overført",
+                "DESCRIPTION": "Du overførte ${amount} af {coin} til {number}",
+                "CLOSE": "Close"
+            }
+        },
+        "TIKTOK": {
+            "TITLE": "Trendy",
+
+            "HOME": "Hjem",
+            "DISCOVER": "Opdag",
+            "INBOX": "Indbakke",
+            "PROFILE": "Profil",
+
+            "COMMENTS_TITLE": "{count} kommentarer",
+            "REPLY": "Svar",
+            "VIEW_REPLIES": "Se svar",
+            "ADD_COMMENT": "Tilføj en kommentar...",
+            "REPLY_TO": "Svar {name}",
+            "PIN_COMMENT": "Pin Kommentar",
+            "UNPIN_COMMENT": "Unpin Kommentar",
+            "DELETE_COMMENT": "Slet Kommentar",
+            "DELETE": "Slet",
+            "PINNED": "Pinned",
+            "PIN_VIDEO": "Pin Video",
+            "UNPIN_VIDEO": "Unpin Video",
+            "PIN": "pin",
+            "UNPIN": "unpin",
+            "MAX_PINNED_TITLE": "Maks Pinned",
+            "MAX_PINNED_DESCRIPTION": "Du kan kun pin op til 3 videoer",
+            "OK": "OK",
+            "CREATOR": "Skaber",
+            "LIKED_BY_CREATOR": "Elsket af skaberen",
+
+            "PIN_VIDEO_POPUP": {
+                "TITLE": "Pin Video",
+                "DESCRIPTION": "Er du sikker på at du vil {action} denne video?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+            "DELETE_VIDEO_POPUP": {
+                "TITLE": "Slet Video",
+                "DESCRIPTION": "Er du sikker på at du vil slette denne video?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+            "FAILED_UPLOAD_POPUP": {
+                "TITLE": "Fejlede i at uploade TTS",
+                "DESCRIPTION": "Server ejeren har ikke sat video upload ordentligt op, kontakt dem for at få det fixet.",
+                "CANCEL": "Annuller",
+                "PROCEED": "Ignorer"
+            },
+
+            "SHARE_TITLE": "Del Til",
+            "SHARE": "Del",
+            "REPORT": "Reporter",
+            "SAVE_VIDEO": "Gem Video",
+            "ADD_FAVOURITE": "Add til Favouriter",
+            "CANCEL": "Annuller",
+            "GO_BACK": "Gå Tilbage",
+
+            "FOLLOWING": "Følger",
+            "FOLLOWERS": "Følgere",
+            "UNFOLLOW": "Unfollow",
+            "FOLLOW": "Følg",
+            "FOR_YOU": "For You",
+            "VIDEOS": "Videoer",
+            "LIKES": "Likes",
+
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Unfollow",
+                "DESCRIPTION": "Er du sikker på at du vil unfollow {name}?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+
+            "LOGIN_TITLE": "Log ind til Trendy",
+            "LOGIN_SUBTITLE": "Administrer din konto tjek notifikationer, kommenter på videoer og mere.",
+            "SIGNUP_TITLE": "Opret konto til Trendy",
+            "SIGNUP_SUBTITLE": "Opret en konto, følg andre brugere, lav din egne videoer og mere",
+            "NAME": "Navn",
+            "USERNAME": "Brugernavn",
+            "PASSWORD": "Kode",
+            "BIO": "Bio",
+            "SHOW_LIKES": "Vis Likes",
+
+            "LOGIN": "Log ind",
+            "SIGNUP": "Opret konto",
+            "NO_ACCOUNT": "Har du ikke en konto?",
+            "ALREADY_ACCOUNT": "Har du allerede en konto?",
+            "SEARCH_PLACEHOLDER": "Søg efter brugere",
+
+            "STARTED_FOLLOWING": "begyndte at følge dig.",
+            "LIKED_VIDEO": "likede din video.",
+            "LIKED_COMMENT": "likede din kommentar.",
+            "SAVED_VIDEO": "gemte din video til favoritter.",
+            "COMMENTED": "kommenterede: {comment}",
+            "REPLIED": "svarede på din kommentar: {comment}",
+
+            "EDIT_PROFILE": "Ændrer Profil",
+            "MESSAGE": "Send Besked",
+            "CHANGE_PHOTO": "Gem Foto",
+            "LOGOUT": "Log ud",
+            "ADD_TO_YOUR_PROFILE": "Tilføj til din profil",
+            "LIKED_HIDDEN_TITLE": "Denne brugers likede videoer er private.",
+            "LIKED_HIDDEN_SUBTITLE": "Videoer liked af {name} er pt gemt.",
+
+            "INVALID_ACCOUNT_POPUP": {
+                "TITLE": "Ugyldigt {name}",
+                "DESCRIPTION": "Du er ikke logget ind til  {name} konto du skrev, ret det venligst.",
+                "OK": "OK"
+            },
+            "REMOVE_ACCOUNT_POPUP": {
+                "TITLE": "Fjern {name} konto",
+                "DESCRIPTION": "Er du sikker på at du vil fjerne din {name} konto fra din profil?",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            },
+
+            "ADD_ACCOUNT_TITLE": "Tilføj konto",
+            "ADD_ACCOUNT": "Tilføj {name} til din profil",
+            "UPLOAD_VIDEO": "Upload Video",
+            "PREVIEW": "Forhåndsvisning",
+            "CAPTION": "Beskrivelse",
+            "CAPTION_PLACEHOLDER": "Tilføj en beskrivelse...",
+            "TTS": "Text to Speech (TTS)",
+            "TTS_PLACEHOLDER": "Tilføj text to speech...",
+            "MUSIC": "Musik",
+            "SELECT_MUSIC": "Vælg Musik",
+            "OPTIONAL": "Valgfri",
+
+            "DIRECT_MESSAGES": "Direkte Beskeder",
+            "ALL_ACTIVITY": "Alt Aktivitet",
+            "NO_NOTIFICATIONS": "Notifikationer er ikke tilgængelige",
+            "NO_NOTIFICATIONS_SUBTITLE": "Notifikationer om din konto kan findes her.",
+            "NO_FOLLOWING_TITLE": "Følg folk og deres videoer vil vises her.",
+            "NO_MESSAGES_TITLE": "Send besked til dine venner",
+            "NO_MESSAGES_SUBTITLE": "Del videoer eller start en samtale"
+        },
+        "VOICEMEMO": {
+            "TITLE": "Voice Memo",
+            "ALL_RECORDINGS": "Alle optagelser",
+            "DEFAULT_NAME": "New Recording",
             "DELETE_POPUP": {
                 "TITLE": "Slet Opslag",
                 "TEXT": "Er du sikker på du vil slette dette post?",
                 "CANCEL": "Annuller",
                 "PROCEED": "Slet"
+            },
+            "NO_MICROPHONE_POPUP": {
+                "TITLE": "Ingen Mikrofon",
+                "DESCRIPTION": "Vi har ikke adgang til din mikrofon, vær sikker på at du har accepteret øverst til højre",
+                "OK": "OK"
             }
         }
     },
@@ -560,11 +1234,12 @@
         },
         "SHARE": {
             "COPY_PHOTO": "Kopier Billede",
-            "USE_WALLPAPER": "Brug som Baggrund",
+            "USE_WALLPAPER": "Brug som baggrund",
             "COPY_NUMBER": "Kopier Nummer",
-
             "AIRDROP_SENT": "Sendt",
-
+            "AIRDROP_ACCEPTED": "Accepteret",
+            "AIRDROP_DECLINED": "Afvist",
+            "AIRDROP_NO_USERS": "Ingen telefoner i nærheden",
             "WALLPAPER_POPUP": {
                 "TITLE": "Brug som Baggrund",
                 "TEXT": "Er du sikker på du vil bruge dette billede som baggrund?",
@@ -578,8 +1253,37 @@
             "VIDEO": "video",
             "PHOTO": "billede",
             "CONTACT": "kontakt",
+            "LOCATION": "lokation",
+            "NOTE": "note",
+            "VOICEMEMO": "voicememo",
+            "PLAYLIST": "playlist",
             "DECLINE": "Afvis",
             "ACCEPT": "Accepter"
+        },
+        "DYNAMICISLAND": {
+            "SILENT": "Lydløs",
+            "RING": "Ring",
+            "TIMER": "Timer"
+        },
+        "MUSIC_SELECTOR": {
+            "CANCEL": "Annuller",
+            "NO-RESULTS": "Intet musik konfigureret, få server ejeren til det.",
+            "SEARCH": "Søg efter en sang",
+            "SELECT_POPUP": {
+                "TITLE": "Vælg sang",
+                "DESCRIPTION": "Er du sikker på at du vil vælge {song}",
+                "CANCEL": "Annuller",
+                "PROCEED": "Videre"
+            }
+        },
+        "BATTERY": {
+            "LOW_BATTERY": "Lavt Batteri",
+            "BATTERY_REMAINING": "{percent}% batteri tilbage",
+            "LOW_POWER_MODE": "Lav strømtilstand",
+            "CLOSE": "Luk"
+        },
+        "COLOR_PICKER": {
+            "COLOR": "Farve"
         }
     },
     "SETUP": {
@@ -603,13 +1307,139 @@
     },
     "HOMESCREEN": {
         "DONE": "Færdig",
-        "REMOVE": "Slet",
-        "REMOVE_TEXT": "Dataen vil IKKE blive slettet, hvis du sletter appen. Appen kan installeres igen i appstoren",
-        "BUTTON_CANCEL": "Annuller",
-        "BUTTON_DELETE": "Slet"
+        "REMOVE_APP_POPUP": {
+            "TITLE": "Fjern '{app}'?",
+        "DESCRIPTION": "Ved slettelse af denne app, vil dataen IKKE forsvinde. Appen kan senere blive installeret fra App Store.",
+        "CANCEL": "Annuller",
+        "PROCEED": "Slet"
+        }
     },
     "LOCKSCREEN": {
         "ENTER_PASSCODE": "Indtast Adgangskode",
-        "DELETE": "Slet"
+        "DELETE": "Slet",
+        "FONT_AND_COLOR": "Font & Farve"
+    },
+    "MISC": {
+        "AIRPLANE_MODE_POPUP": {
+            "TITLE": "Fejl",
+            "DESCRIPTION": "Du prøver at gøre noget som kræver netværk, så flightmode fra.",
+            "OK": "OK"
+        }
+    },
+    "BACKEND": {
+        "CALLS": {
+            "NO_CALLER_ID": "Intet Opkalds ID",
+            "MISSED_CALL": "Ubesvaret opkald",
+            "NEW_VOICEMAIL": "Voicemail"
+        },
+        "GARAGE": {
+            "VALET": "Valet",
+            "COULDNT_FIND": "Kunne ikke finde bilen.",
+            "ALREADY_OUT": "Bilen er allerede ude.",
+            "NO_MONEY": "Du har ikke nok penge.",
+            "ON_WAY": "Din bil er på vej.",
+            "MARKED": "Din bil er blevet markeret på din GPS."
+        },
+        "INSTAGRAM": {
+            "NOT_ALLOWED_LIVE": "Du har ikke tilladelse til at gå live",
+            "NOT_ALLOWED_STORY": "Du har ikke tilladelse til at poste historier",
+            "STARTED_LIVE": "{username} startede en live video",
+            "JOINED_LIVE": "{invitee} er nu live med {inviter}.",
+            "LIKED_PHOTO": "{username} likede dit billede",
+            "LIKED_COMMENT": "{username} likede din kommentar",
+            "COMMENTED": "{username} kommenterede på dit post",
+            "NEW_FOLLOWER": "{username} begyndte at følge dig",
+            "FOLLOW_REQUEST_ACCEPTED_TITLE": "Anmodning accepteret",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "{displayName} ({username}) accepterede din følgeanmodning.",
+            "NEW_FOLLOW_REQUEST_TITLE": "Ny følgeanmodning",
+            "NEW_FOLLOW_REQUEST_DESCRIPTION": "{displayName} ({username}) har spurgt om tilladelse til at følge dig."
+        },
+        "TINDER": {
+            "NEW_MATCH": "Nyt match",
+            "MATCHED_WITH": "Du matchede med {name}"
+        },
+        "CAMERA": {
+            "TAKE_PHOTO": "Tryk {key} for at tage et billede",
+            "FLIP_CAMERA": "Tryk {key} for at flippe dit kamera",
+            "TOGGLE_FLASH": "Tryk {key} for at aktivere dit flash",
+            "TOGGLE_CURSOR": "Tryk {key} for at kunne kigge rundt",
+            "CHANGE_MODE": "Tryk {key} {key2} for at skifte kamera tilstand"
+        },
+        "SERVICES": {
+            "NEW_MESSAGE": "Ny Besked",
+            "ANONYMOUS": "Anonym"
+        },
+        "TWITTER": {
+            "LIKE": "Elsket af {displayName}:",
+            "RETWEET": "Reposted af {displayName}:",
+            "REPLY": "{displayName} svarede:",
+            "FOLLOW": "{username} begyndte at følge dig",
+            "TWEET": "{username} postede lige",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "@{username} har accepteret din følge anmodning",
+            "NEW_FOLLOW_REQUEST": "@{username} har spurgt om tilladelse til at følge dig!"
+        },
+        "TIKTOK": {
+            "LIKE": "{displayName} elskede din video.",
+            "COMMENT": "{displayName} kommenterede på din video.",
+            "FOLLOW": "{displayName} begyndte at følge dig.",
+            "SAVE": "{displayName} favoritiserede din video.",
+            "LIKED_COMMENT": "{displayName} likede din kommentar.",
+            "REPLIED_COMMENT": "{displayName} svarede på din kommentar.",
+            "DM": "{displayName}"
+        },
+        "MISC": {
+            "VERIFIED": "Din konto er blevet verified",
+            "X_PHONE": "{name}'s Telefon"
+        },
+        "CRYPTO": {
+            "RECEIVED_TRANSFER_TITLE": "Modtog {coin}",
+            "RECEIVED_TRANSFER_DESCRIPTION": "Du modtog {amount} {coin} som har en værdi på ${value}"
+        },
+        "LOGS": {
+            "MAIL_TITLE": "Email",
+            "NEW_MAIL": "{sender} sendte en mail til {recipient}",
+
+            "MESSAGE_TITLE": "Tekst besked",
+            "NEW_MESSAGE": "{sender} sendte en besked til {recipient}: {message}",
+
+            "CALL_ENDED": "Opkald sluttede",
+            "CALL_DESCRIPTION": "Et opkald imellem `{caller}` og `{callee}` som holdte {duration}s er sluttet. Svaret: `{answered}`",
+
+            "NEW_SERVICE_TITLE": "Ny besked",
+            "NEW_SERVICE_CONTENT": "{sender} sendte en besked til {channel}: {message}",
+
+            "RECEIVED_TITLE": "Modtog ${amount}",
+            "PAID_TITLE": "Betalte ${amount}",
+            "TRANSACTION": "{number} lavede en transaktion på ${amount} til {company}",
+
+            "BOUGHT_CRYPTO": "Købte crypto",
+            "SOLD_CRYPTO": "Solgte crypto",
+            "CRYPTO_DETAILS": "**Coin**: {coin}\n**Amount**: {amount}\n**Value**: ${price}",
+            "TRANSFERRED_CRYPTO": "Sendte crypto",
+            "TRANSFERRED_CRYPTO_DETAILS": "**Coin**: {coin}\n**Amount**: {amount}\n**To**: {to}\n**From**: {from}",
+
+            "DARKCHAT_CREATED_TITLE": "Lavede kanal",
+            "DARKCHAT_CREATED_DESCRIPTION": "{creator} lavede en kanal ved navnet: {channel}",
+            "DARKCHAT_MESSAGE_TITLE": "Ny besked",
+            "DARKCHAT_MESSAGE_DESCRIPTION": "{sender} sendte en besked i {channel}: {message}",
+
+            "MARKETPLACE_NEW_TITLE": "Nyt opslag",
+            "MARKETPLACE_NEW_DESCRIPTION": "**Seller**: {seller}\n**Title**: {title}\n**Price**: ${price}\n**Description**: {description}\n**Attachments**: {attachments}\n**ID:** {id}",
+            "MARKETPLACE_DELETED": "Opslag Slettet",
+
+            "YELLOWPAGES_NEW_TITLE": "Nyt opslag",
+            "YELLOWPAGES_NEW_DESCRIPTION": "**Title**: {title}\n**Description**: {description}\n**Attachment**: {attachment}\n**ID:** {id}",
+            "YELLOWPAGES_DELETED": "Opslag slettet",
+
+            "LIVE_TITLE": "Live",
+            "STARTED_LIVE": "{username} started en live video",
+            "ENDED_LIVE": "{username} sluttede en live video",
+            "ADDED_STORY": "{username} added et billede til deres historie",
+
+            "TRENDY_UPLOAD_TITLE": "Ny video",
+            "TRENDY_UPLOAD_DESCRIPTION": "{username} Uploadede en ny video med beskrivelsen {caption} and id {id}",
+            "TRENDY_DELETE_TITLE": "Slettede en video",
+            "TRENDY_DELETE_DESCRIPTION": "{username} slettede en video med id'et: {id}"
+        }
     }
 }
