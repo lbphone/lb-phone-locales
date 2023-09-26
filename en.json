@@ -7,7 +7,6 @@
     "H": "h",
     "M": "m",
     "S": "s",
-
     "APPS": {
         "SETTINGS": {
             "TITLE": "Settings",
@@ -480,7 +479,6 @@
             "LOCK": "Lock",
             "UNLOCKED": "Unlocked",
             "UNLOCK": "Unlock",
-
             "WAYPOINT_POPUP": {
                 "TITLE": "Set Waypoint",
                 "TEXT": "Do you want to set a waypoint to your {model}?",
@@ -627,7 +625,6 @@
             "DELETE": "Delete",
             "SET_WAYPOINT": "Set Waypoint",
             "SHARE": "Share",
-
             "ADD_LOCATION_POPUP": {
                 "TITLE": "Add Location",
                 "DESCRIPTION": "Enter the name of the location you want to add",
@@ -944,11 +941,9 @@
             "ACTIONS": "Actions",
             "COMPANIES": "Companies",
             "MESSAGES": "Messages",
-
             "CLOSED": "Closed",
             "YOUR_MESSAGES": "Your Messages",
             "JOB_MESSAGES": "Job Messages",
-
             "DUTY": "Duty",
             "GO_ON_DUTY": "Go on Duty",
             "GO_OFF_DUTY": "Go off Duty",
@@ -960,7 +955,6 @@
             "HIRE": "Hire",
             "SET_GRADE": "Set Grade",
             "UNEMPLOYED": "You're unemployed",
-
             "DEPOSIT_POPUP": {
                 "TITLE": "Deposit",
                 "DESCRIPTION": "Deposit money into the company account",
@@ -1008,8 +1002,8 @@
             "NOT_ENOUGH_COINS": "You don't have enough coins",
             "ATLEAST_ONE_COIN": "You must {action} at least one {currency}",
             "INVALID_COIN": "Invalid coin",
-            "NO_NUMBER": "No phonenumber provided",
-            "INVALID_NUMBER": "Invalid phonenumber (the user may not be online)",
+            "NO_NUMBER": "No phone number provided",
+            "INVALID_NUMBER": "Invalid phone number (the user may not be online)",
             "ERROR": "Error",
             "CLOSE": "Close",
             "BUY_POPUP": {
@@ -1042,12 +1036,10 @@
         },
         "TIKTOK": {
             "TITLE": "Trendy",
-
             "HOME": "Home",
             "DISCOVER": "Discover",
             "INBOX": "Inbox",
             "PROFILE": "Profile",
-
             "COMMENTS_TITLE": "{count} comments",
             "REPLY": "Reply",
             "VIEW_REPLIES": "View replies",
@@ -1067,7 +1059,6 @@
             "OK": "OK",
             "CREATOR": "Creator",
             "LIKED_BY_CREATOR": "Liked by creator",
-
             "PIN_VIDEO_POPUP": {
                 "TITLE": "Pin Video",
                 "DESCRIPTION": "Are you sure you want to {action} this video?",
@@ -1086,7 +1077,6 @@
                 "CANCEL": "Cancel",
                 "PROCEED": "Ignore"
             },
-
             "SHARE_TITLE": "Share To",
             "SHARE": "Share",
             "REPORT": "Report",
@@ -1094,7 +1084,6 @@
             "ADD_FAVOURITE": "Add to Favourites",
             "CANCEL": "Cancel",
             "GO_BACK": "Go Back",
-
             "FOLLOWING": "Following",
             "FOLLOWERS": "Followers",
             "UNFOLLOW": "Unfollow",
@@ -1102,14 +1091,12 @@
             "FOR_YOU": "For You",
             "VIDEOS": "Videos",
             "LIKES": "Likes",
-
             "UNFOLLOW_POPUP": {
                 "TITLE": "Unfollow",
                 "DESCRIPTION": "Are you sure you want to unfollow {name}?",
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             },
-
             "LOGIN_TITLE": "Log in to Trendy",
             "LOGIN_SUBTITLE": "Manage your account check notifications, comment on videos, and more.",
             "SIGNUP_TITLE": "Sign up for Trendy",
@@ -1119,20 +1106,17 @@
             "PASSWORD": "Password",
             "BIO": "Bio",
             "SHOW_LIKES": "Show Likes",
-
             "LOGIN": "Log in",
             "SIGNUP": "Sign up",
             "NO_ACCOUNT": "Don't have an account?",
             "ALREADY_ACCOUNT": "Already have an account?",
             "SEARCH_PLACEHOLDER": "Search for users",
-
             "STARTED_FOLLOWING": "started following you.",
             "LIKED_VIDEO": "liked your video.",
             "LIKED_COMMENT": "liked your comment.",
             "SAVED_VIDEO": "added your video to Favorites.",
             "COMMENTED": "commented: {comment}",
             "REPLIED": "replied to your comment: {comment}",
-
             "EDIT_PROFILE": "Edit Profile",
             "MESSAGE": "Message",
             "CHANGE_PHOTO": "Change Photo",
@@ -1140,7 +1124,6 @@
             "ADD_TO_YOUR_PROFILE": "Add to your profile",
             "LIKED_HIDDEN_TITLE": "This user's liked videos are private.",
             "LIKED_HIDDEN_SUBTITLE": "Videos liked by {name} are currently hidden.",
-
             "INVALID_ACCOUNT_POPUP": {
                 "TITLE": "Invalid {name}",
                 "DESCRIPTION": "You're not logged into the {name} account you entered, please correct it.",
@@ -1152,7 +1135,6 @@
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             },
-
             "ADD_ACCOUNT_TITLE": "Add account",
             "ADD_ACCOUNT": "Add {name} to your profile",
             "UPLOAD_VIDEO": "Upload Video",
@@ -1164,7 +1146,6 @@
             "MUSIC": "Music",
             "SELECT_MUSIC": "Select Music",
             "OPTIONAL": "Optional",
-
             "DIRECT_MESSAGES": "Direct Messages",
             "ALL_ACTIVITY": "All Activity",
             "NO_NOTIFICATIONS": "Notifications aren't available",
@@ -1372,44 +1353,34 @@
         "LOGS": {
             "MAIL_TITLE": "Email",
             "NEW_MAIL": "{sender} sent an email to {recipient}",
-
             "MESSAGE_TITLE": "Text message",
             "NEW_MESSAGE": "{sender} sent a message to {recipient}: {message}",
-
             "CALL_ENDED": "Call ended",
             "CALL_DESCRIPTION": "A call between `{caller}` and `{callee}` that lasted {duration}s has ended. Answered: `{answered}`",
-
             "NEW_SERVICE_TITLE": "New message",
             "NEW_SERVICE_CONTENT": "{sender} sent a message to {channel}: {message}",
-
             "RECEIVED_TITLE": "Received ${amount}",
             "PAID_TITLE": "Paid ${amount}",
             "TRANSACTION": "{number} made a transaction of ${amount} to {company}",
-
             "BOUGHT_CRYPTO": "Bought crypto",
             "SOLD_CRYPTO": "Sold crypto",
             "CRYPTO_DETAILS": "**Coin**: {coin}\n**Amount**: {amount}\n**Value**: ${price}",
             "TRANSFERRED_CRYPTO": "Transferred crypto",
             "TRANSFERRED_CRYPTO_DETAILS": "**Coin**: {coin}\n**Amount**: {amount}\n**To**: {to}\n**From**: {from}",
-
             "DARKCHAT_CREATED_TITLE": "Created channel",
             "DARKCHAT_CREATED_DESCRIPTION": "{creator} created a channel called {channel}",
             "DARKCHAT_MESSAGE_TITLE": "New message",
             "DARKCHAT_MESSAGE_DESCRIPTION": "{sender} sent a message in {channel}: {message}",
-
             "MARKETPLACE_NEW_TITLE": "New listing",
             "MARKETPLACE_NEW_DESCRIPTION": "**Seller**: {seller}\n**Title**: {title}\n**Price**: ${price}\n**Description**: {description}\n**Attachments**: {attachments}\n**ID:** {id}",
             "MARKETPLACE_DELETED": "Post deleted",
-
             "YELLOWPAGES_NEW_TITLE": "New post",
             "YELLOWPAGES_NEW_DESCRIPTION": "**Title**: {title}\n**Description**: {description}\n**Attachment**: {attachment}\n**ID:** {id}",
             "YELLOWPAGES_DELETED": "Post deleted",
-
             "LIVE_TITLE": "Live",
             "STARTED_LIVE": "{username} started a live video",
             "ENDED_LIVE": "{username} ended a live video",
             "ADDED_STORY": "{username} added a photo to their story",
-
             "TRENDY_UPLOAD_TITLE": "New video",
             "TRENDY_UPLOAD_DESCRIPTION": "{username} uploaded a new video with the caption {caption} and id {id}",
             "TRENDY_DELETE_TITLE": "Deleted a video",
