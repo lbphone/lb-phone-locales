@@ -1123,7 +1123,7 @@
 			"INVALID_ACCOUNT_POPUP": {
 			    "TITLE": "Neplatné {name}",
 			    "DESCRIPTION": "Nejste přihlášeni k účtu {name}, který jste zadali, opravte jej.",
-			    "DOBŘE DOBŘE"
+			    "OK": "DOBŘE DOBŘE"
 			},
 			"REMOVE_ACCOUNT_POPUP": {
 			    "TITLE": "Odstranit účet {name}",
@@ -1165,7 +1165,7 @@
 		    "NO_MICROPHONE_POPUP": {
 			    "TITLE": "Bez mikrofonu",
 			    "DESCRIPTION": "Nemáme přístup k vašemu mikrofonu, ujistěte se, že máte jeden připojený a přijměte vyskakovací okno v pravém horním rohu obrazovky",
-			    "DOBŘE DOBŘE"
+			    "OK": "DOBŘE DOBŘE"
 		    }
 	    }
 	},
