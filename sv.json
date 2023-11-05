@@ -1,100 +1,93 @@
 {
-    "LABEL": "Svenska",
+    "LABEL": "Swedish",
     "SEARCH": "Sök",
     "CANCEL": "Avbryt",
+    "NOW": "Nu",
+    "D": "d",
+    "H": "h",
+    "M": "m",
+    "S": "s",
 
     "APPS": {
         "SETTINGS": {
-            "TITLE": "Inställningar",
-            "BACK": "Tillbaks",
-            "DONE": "Klar",
-            "EDIT": "Redigera",
-
-            "AIRPLANE_MODE": "Flygplans läge",
-            "STREAMER_MODE": "Streaming läge",
+            "TITLE": "inställningar",
+            "BACK": "Back",
+            "DONE": "Färdig",
+            "EDIT": "Ändra",
+            "AIRPLANE_MODE": "Flygplansläge",
+            "STREAMER_MODE": "Streamerläge",
             "BLUETOOTH": "Bluetooth",
-            "GENERAL": "Allmänt",
-
-            "ABOUT": "Om",
+            "GENERAL": "General",
+            "ABOUT": "About",
             "NAME": "Namn",
-            "VERSION": "Verision",
-            "MODEL_NAME": "Modell namn",
+            "VERSION": "Version",
+            "MODEL_NAME": "Modelnamn",
             "SERIAL_NUMBER": "Serienummer",
             "DEVELOPED_BY": "Utvecklad av",
-            "PURCHASE_AT": "Köp hos",
+            "PURCHASE_AT": "Köp på",
             "SONGS": "Låtar",
             "VIDEOS": "Videos",
-            "PHOTOS": "Foto",
+            "PHOTOS": "Bilder",
             "APPLICATIONS": "Ansökningar",
             "CAPACITY": "Kapacitet",
-            "AVAILABLE": "Tillgänglig",
-
-            "SOFTWARE_UPDATE": "Mjukvaru Uppdatering",
-            "AUTOMATIC_UPDATES": "Automatisk Uppdatering",
-
-            "DATE_TIME": "Data & Tid",
-            "24_HOUR_TIME": "24 Timmar Tid",
-            "SET_AUTOMATICALLY": "Sätt automatiskt",
-            "TIME_ZONE": "Tids Zon",
-
+            "AVAILABLE": "Tillgängliga",
+            "SOFTWARE_UPDATE": "Programuppdatering",
+            "AUTOMATIC_UPDATES": "Automatiska uppdateringar",
+            "DATE_TIME": "Dag & Tid",
+            "24_HOUR_TIME": "24 timmars tid",
+            "SET_AUTOMATICALLY": "Ställ in automatiskt",
+            "TIME_ZONE": "Tidszon",
             "LANGUAGE_REGION": "Språk & Region",
             "LANGUAGE": "Språk",
             "TEMPERATURE": "Temperatur",
+            "CELCIUS": "Celsius",
+            "FAHRENHEIT": "Fahrenheit",
             "BATTERY": "Batteri",
-
-            "SOUND_HAPTICS": "Ljud & Haptik",
-            "SOUND_HAPTICS_PATTERNS": "Ljud & Haptik mönster",
-            "RINGTONE": "Ringsignal",
-            "TEXT_TONE": "Textsignal",
-            "RINGTONE_VOLUME": "Ringsignal & alarm volym",
-            "DEFAULT": "Default",
-
-            "PHONE_STORAGE": "Telefon Utrymme",
-            "STORAGE": "Utrymme",
-            "USED": "Använd",
+            "SOUND_HAPTICS": "Ljud & Haptics",
+            "SOUND_HAPTICS_PATTERNS": "Ljud och haptikmönster",
+            "RINGTONE": "Rignsignal",
+            "TEXT_TONE": "Textton",
+            "RINGTONE_VOLUME": "Ringsignal och varningsvolym",
+            "DEFAULT": "Standard",
+            "PHONE_STORAGE": "Telefonlagring",
+            "STORAGE": "Lagring",
+            "USED": "Begagnade",
             "OF": "av",
-
-            "DISPLAY_BRIGHTNESS": "Skärm & Ljusstyrka",
+            "DISPLAY_BRIGHTNESS": "Display & Ljusstyrka",
             "APPEARANCE": "Utseende",
             "AUTOMATIC": "Automatisk",
             "BRIGHTNESS": "Ljusstyrka",
-            "PHONE_SCALE": "Telefon storlek",
-
+            "PHONE_SCALE": "Telefonvåg",
+            "FRAME_COLOR": "Ram färg",
             "WALLPAPER": "Bakgrund",
             "WALLPAPERS": "Bakgrunder",
-            "CHOOSE_NEW_WALLPAPER": "Välj en bakgrund",
-
-            "NOTIFICATIONS": "Notiser",
-            "ALLOW_NOTIFICATIONS": "Tillåt notiser",
+            "CHOOSE_NEW_WALLPAPER": "Välj en ny bakgrund",
+            "NOTIFICATIONS": "Notifikation",
+            "ALLOW_NOTIFICATIONS": "Tillåt Notifikationer",
             "SOUNDS": "Ljud",
-
-            "PHONE": "Telefon",
-            "BLOCKED_CONTACTS": "Blockade Kontakter",
-            "MY_NUMBER": "Mitt Nummer",
-            "SHOW_CALLER_ID": "Visa uppringnings ID",
-
+            "PHONE": "Mobil",
+            "BLOCKED_CONTACTS": "Blockerade kontakter",
+            "MY_NUMBER": "Mitt nummer",
+            "SHOW_CALLER_ID": "Visa uppringarens ID",
             "UNBLOCK_POPUP": {
                 "TITLE": "Avblockera Nummer",
-                "TEXT": "Är du säker att du vill avblockera detta nummer?",
+                "TEXT": "Är du säker på att du vill avblockera detta nummer?",
                 "CANCEL": "Avbryt",
                 "CONFIRM": "Avblockera"
             },
-
-            "FACE_ID_PASSWORD": "Face ID & lösenkod",
-            "ENTER_PASSCODE": "Skriv in lösenkod",
-            "PASSCODE": "lösenkod",
+            "FACE_ID_PASSWORD": "Face ID & Lösenord",
+            "ENTER_PASSCODE": "Slå in Lösenord",
+            "PASSCODE": "Lösenord",
             "FACE_ID": "Face ID",
-            "RESET_FACE_ID": "Återställ Face ID",
+            "RESET_FACE_ID": "Reset Face ID",
             "ENABLE_FACE_ID": "Sätt på Face ID",
-            "PIN_CODE": "Pin kod",
-
+            "PIN_CODE": "Lösenord",
             "DISABLE_FACE_ID_POPUP": {
                 "TITLE": "Stäng av Face ID",
                 "TEXT": "Är du säker att du vill stänga av Face ID?",
                 "CANCEL": "Avbryt",
-                "CONFIRM": "Stäng av"
+                "CONFIRM": "Stäng Av"
             },
-
             "ENABLE_FACE_ID_POPUP": {
                 "TITLE": "Sätt på Face ID",
                 "TEXT": "Är du säker att du vill sätta på Face ID?",
@@ -102,51 +95,59 @@
                 "CONFIRM": "Sätt på"
             },
             "DISABLE_PIN_POPUP": {
-                "TITLE": "Stäng av lösenkod",
-                "TEXT": "Är du säker att du vill stänga av lösenkod? (Detta kommer också stänga av Face ID)",
+                "TITLE": "Stäng av Lösenord",
+                "TEXT": "Är du säker att du vill stänga av lösenord? (Detta kommer också stänga av Face ID)",
                 "CANCEL": "Avbryt",
                 "CONFIRM": "Godkänn"
             },
-            "TURN_PASSCODE_OFF": "Stäng av lösenkod",
-            "TURN_PASSCODE_ON": "Sätt på lösenkod",
-            "CHANGE_PASSCODE": "Ändra lösenkod",
-            "CLOUD_BACKUP": "Cloud Backup",
+            "TURN_PASSCODE_OFF": "Stäng av lösenord",
+            "TURN_PASSCODE_ON": "Sätt på lösenord",
+            "CHANGE_PASSCODE": "Ändra lösenord",
+            "CLOUD_BACKUP": "Säkerhetskopiering",
             "YOUR_PROFILE": "Din profil",
-            "CREATE_BACKUP": "Skapa Backup",
+            "CREATE_BACKUP": "Skapa säkerhetskopiering",
             "SAVE_BACKUP_POPUP": {
-                "TITLE": "Spara Backup",
-                "TEXT": "Är du säker att du vill spara en backup av din data? (Sparar kontakt, bilder och inställningar)",
+                "TITLE": "Spara säkerhetskopiering",
+                "TEXT": "Är du säker att du vill skapa en säkerhetskopia av din data? (Det kommer spara dina kontakter, foton och bilder)",
                 "CANCEL": "Avbryt",
                 "CONFIRM": "Spara"
             },
-            "BACKUPS": "Backups",
+            "BACKUPS": "Säkerhetskopior",
             "APPLY_BACKUP_POPUP": {
-                "TITLE": "Använd backup",
-                "TEXT": "Är du säker att du vill använda denna backup? (Överksriver nuvarande kontakter, bilder och inställningar)",
+                "TITLE": "Tillämpa säkerhetskopia",
+                "TEXT": "Är du säker att du vill tillämpa denna säkerhetskopia? (Detta kommer skriva över dina kontakter, foton och inställningar)",
                 "CANCEL": "Avbryt",
-                "CONFIRM": "Tillämpa"
+                "CONFIRM": "Godkänn"
             },
             "SUCCESS": "Lyckades",
-            "SUCCESS_TEXT": "Telefonen kommer att starta om inom 5 sekunder...",
+            "SUCCESS_TEXT": "Telefonen kommer startas om inom 5 sekunder...",
             "OK": "OK",
+            "ON": "På",
+            "OFF": "Av",
             "REMOVE_BACKUP_POPUP": {
-                "TITLE": "Radera Backup",
-                "TEXT": "Är du säker att du vill radera denna backup?",
+                "TITLE": "Ta bort säkerhetskopia",
+                "TEXT": "Är du säker att du vill ta bort denna säkerhetskopia?",
                 "CANCEL": "Avbryt",
-                "CONFIRM": "Radera"
+                "CONFIRM": "Ta bort"
             },
-            "ON": "På"
+            "RESET_POPUP": {
+                "TITLE": "Nollställ telefon",
+                "TEXT": "Är du säker att du vill nollställa din telefon? [DETTA KOMMER TA BORT ALLT]",
+                "CANCEL": "Avbryt",
+                "CONFIRM": "Nollställ"
+            },
+            "UP_TO_DATE": "Din telefon är uppdaterad till senaste versionen"
         },
         "NOTES": {
             "TITLE": "Anteckningar",
             "SEARCH_PLACEHOLDER": "Sök",
-            "FOOTER": "{amount} Anteckningar",
+            "FOOTER": "{amount} anteckningar",
             "NEW_NOTE": "Ny anteckning",
-            "LAST_EDITED": "Senast ändrad: {date}",
-            "DELETE_TITLE": "Radera {title}",
-            "DELETE_TEXT": "Är du säker på att du vill radera '{title}'?",
+            "LAST_EDITED": "Senast redigerad: {date}",
+            "DELETE_TITLE": "Ta bort {title}",
+            "DELETE_TEXT": "Är du säker på att du vill ta bort '{title}'?",
             "BUTTON_CANCEL": "Avbryt",
-            "BUTTON_DELETE": "Radera"
+            "BUTTON_DELETE": "Ta bort"
         },
         "CLOCK": {
             "WORLDCLOCK": {
@@ -165,26 +166,26 @@
                 "LABEL": "Titel",
                 "SOUND": "Ljud",
                 "SNOOZE": "Snooze",
-                "DELETE_TITLE": "Radera Alarm",
-                "DELETE_TEXT": "Är du säker att du vill radera detta alarm?",
+                "DELETE_TITLE": "Ta bort Alarm",
+                "DELETE_TEXT": "Är du säker på att du vill ta bort detta larm?",
                 "BUTTON_CANCEL": "Avbryt",
-                "BUTTON_DELETE": "Radera"
+                "BUTTON_DELETE": "Ta bort"
             },
             "STOPWATCH": {
-                "TITLE": "Tidtagarur",
+                "TITLE": "Stopwatch",
                 "START": "Start",
                 "STOP": "Stop",
-                "RESET": "Återställ",
-                "LAP": "Varv"
+                "RESET": "Reset",
+                "LAP": "Lap"
             },
             "TIMER": {
                 "TITLE": "Timer",
                 "START": "Start",
                 "STOP": "Stop",
                 "CANCEL": "Avbryt",
-                "HOURS": "timmar",
+                "HOURS": "hours",
                 "MINUTES": "min",
-                "SECONDS": "sek"
+                "SECONDS": "sec"
             },
             "ALERT": {
                 "STOP": "Stop"
@@ -193,73 +194,80 @@
         "CAMERA": {
             "VIDEO": "Video",
             "PHOTO": "Foto",
-            "LANDSCAPE": "Porträtt",
-            "UPLOADING": "Upladdar"
+            "LANDSCAPE": "Landscape",
+            "UPLOADING": "Uploading"
         },
         "DARKCHAT": {
             "TITLE": "Dark Chat",
-            "USERNAME": "Användarnamn",
-            "SET_USERNAME": "Ställ in användarnamn. OBS: Detta kan du endast göra en gång.",
+            "USERNAME": "Username",
+            "SET_USERNAME": "Sätt ditt användarnamn. NOTERA: DETTA KAN BARA SÄTTAS 1 GÅNG.",
             "CANCEL": "Avbryt",
-            "SET": "Ställ in",
+            "SET": "Sätt",
             "JOIN": "Gå med",
             "LEAVE": "Lämna",
             "NEW_ROOM": "Nytt rum",
-            "NEW_ROOM_TEXT": "Skriv in en kods rum för att gå med",
-            "ROOM_CODE": "Rum kod",
+            "NEW_ROOM_TEXT": "Skriv in en rumskod för att gå med eller skapa ett rum",
+            "ROOM_CODE": "Rumkod",
             "LEAVE_ROOM": "Lämna rum",
             "LEAVE_ROOM_TEXT": "Är du säker på att du vill lämna detta rum?",
-            "NOW": "Now",
+            "NOW": "Nu",
             "INPUT_PLACEHOLDER": "Skriv ett meddelande..."
         },
         "APPSTORE": {
             "TITLE": "Appar",
             "SEARCH": "Sök",
-            "GET": "Hämta",
+            "GET": "Ladda ner",
             "OPEN": "Öppna",
             "TODAY": "Idag",
+            "POPULAR_APPS": "Populära appar",
             "GAMES": "Spel",
+            "APPS": "Appar",
             "WHAT_WE_PLAYING": "Vad vi spelar",
-            "INFORMATION": "Infomration",
+            "INFORMATION": "Information",
             "PROVIDER": "Leverantör",
             "SIZE": "Storlek",
             "COMPATIBILITY": "Kompatibilitet",
-            "IN_APP_PURCHASES": "Köp inuti app"
+            "IN_APP_PURCHASES": "Köp inom app",
+            "WORKS_WITH_PHONE": "Funkar med telefon",
+            "NO": "Nej",
+            "YES": "Ja",
+            "PURCHASE_APP_POPUP": {
+                "TITLE": "Köp App",
+                "DESCRIPTION": "Vill du köpa {app} för {price}?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Köp"
+            }
         },
         "PHOTOS": {
             "TITLE": "Bilder",
             "SELECT": "Välj",
             "CANCEL": "Avbryt",
-            "SELECT_ITEMS": "Välj filer",
-            "SELECTED_COUNT": "{count} filer valda",
-            "PHOTO_COUNT": "{count} bilder",
-
-            "DELETE_TITLE": "Radera {count} filer",
-            "DELETE_TEXT": "Vill du radera {count} bidler?",
+            "SELECT_ITEMS": "Välj Items",
+            "SELECTED_COUNT": "{count} Items valda",
+            "PHOTO_COUNT": "{count} foton",
+            "DELETE_TITLE": "Ta bort {count} bilder",
+            "DELETE_TEXT": "Vill du ta bort {count} bilder",
             "DELETE_BUTTON_CANCEL": "Avbryt",
-            "DELETE_BUTTON_DELETE": "Radera",
-
-            "DELETE_IMAGE_TITLE": "Radera bild",
-            "DELETE_IMAGE_TEXT": "Vill du radera denna bild??",
+            "DELETE_BUTTON_DELETE": "Ta bort",
+            "DELETE_IMAGE_TITLE": "Ta bort bild",
+            "DELETE_IMAGE_TEXT": "Vill du ta bort denna bild?",
             "DELETE_IMAGE_BUTTON_CANCEL": "Avbryt",
-            "DELETE_IMAGE_BUTTON_DELETE": "Radera"
+            "DELETE_IMAGE_BUTTON_DELETE": "Ta bort"
         },
         "WEATHER": {
             "TITLE": "Väder",
-            "HOURLY_FORECAST": "Timm rapport",
+            "HOURLY_FORECAST": "Timprognos",
             "NOW": "Nu",
             "FEELS_LIKE": "Känns som",
-            "FEELS_LIKE_SAME": "Lik verklig temperatur.",
-            "FEELS_LIKE_HUMIDITY": "Fuktighet får det att kännas varmare",
+            "FEELS_LIKE_SAME": "Lika som den faktiska temperaturen.",
+            "FEELS_LIKE_HUMIDITY": "Fuktigheten gör att det känns varmare",
             "FEELS_LIKE_WIND": "Vinden gör att det känns kallare",
-
             "SUNRISE": "Soluppgång",
             "SUNSET": "Solnedgång",
             "WIND": "Vind",
             "PRECIPITATION": "Nederbörd",
-            "LAST_24H": "de senaste 24h",
-            "EXPECTED_24H": "förväntat de kommande 24h",
-
+            "LAST_24H": "Från 24h",
+            "EXPECTED_24H": "förväntat inom 24h",
             "TYPES": {
                 "CLOUDY": "Molnigt",
                 "LIGHT_RAIN": "Lätt regn",
@@ -268,99 +276,109 @@
                 "SNOW": "Snö",
                 "FOG": "Dimma",
                 "CLEAR": "Klart",
-                "MOSTLY_CLEAR": "Nästan klart",
+                "MOSTLY_CLEAR": "Ganska klart",
                 "THUNDER": "Åska",
                 "TORNADO": "Tornado",
-                "WINDY": "Blåsigt"
+                "WINDY": "Vindigt"
             }
         },
         "MESSAGES": {
             "TITLE": "Meddelanden",
             "NEW_MESSAGE": "Nytt meddelande",
-            "PEOPLE": "Kontakter",
+            "PEOPLE": "Personer",
             "MEMBERS": "Medlemmar",
-            "OTHER": "Övriga",
-            "SENT_A_PHOTO": "Skickade ett foto",
-            "SENT": "Skickade",
-            "REQUESTED": "Begärde",
-            "MISSED_CALL": "{number} försökte ringa dig men du svara inte, tryck för att ringa tillbaks",
-            "NOT_DELIVERED": "Inte levererad",
-            "PLACEHOLDER": "Skicka meddelande",
-            "DONE": "Klar",
+            "OTHER": "Annat",
+            "SENT_A_PHOTO": "Skickade en bild",
+            "SENT_AUDIO_MESSAGE": "Skickade ett röstmeddelande",
+            "SENT": "Skickat",
+            "REQUESTED": "Förfrågan skickad",
+            "MISSED_CALL": "{number} försökte ringa dig men du svarade inte, tryck på numret för att ringa tillbaka",
+            "NOT_DELIVERED": "Inte levererat",
+            "PLACEHOLDER": "Textmeddelande",
+            "DONE": "Klart",
+            "EDIT": "Redigera",
+            "READ": "Läsa",
             "CANCEL": "Avbryt",
             "SEND": "Skicka",
-            "UNKNOWN": "Okänd",
+            "UNKNOWN": "Okänt",
             "TO": "Till",
             "SEARCH": "Sök",
             "ADD_MEMBER": "Lägg till medlem",
-            "SHARE_LOCATION": "Dela min position",
+            "SHARE_LOCATION": "Dela min plats",
             "LEAVE_GROUP": "Lämna konversation",
-            "SENT_LOCATION": "Delade sin plats, klicka för att få GPS i Maps",
-            "SENT_LOCATION_SHORT": "Delade sin position",
-
+            "SENT_LOCATION": "Delade sin plats, klicka för att öppna i Maps",
+            "SENT_LOCATION_SHORT": "Delade sin plats",
+            "TRIED_TO_CALL": "{number} försökte ringa dig",
+            "DELETE": "Ta bort",
             "REMOVE_POPUP": {
                 "TITLE": "Ta bort medlem",
-                "TEXT": "Är du säker att du vill ta bort {name} från gruppen?",
-                "REMOVE": "Radera"
+                "TEXT": "Är du säker på att ta bort {name} från gruppen?",
+                "REMOVE": "Ta bort"
             },
             "LEAVE_POPUP": {
                 "TITLE": "Lämna grupp",
-                "TEXT": "Är du säker på att du vill lämna denna grupp?",
+                "TEXT": "Är du säker på att du vill lämna gruppen?",
                 "LEAVE": "Lämna"
             },
             "ADD_POPUP": {
                 "TITLE": "Lägg till medlem",
-                "TEXT": "Skriv in ett nummer att lägga till '{name}' i gruppen?",
+                "TEXT": "Skriv in ett telefonnummer för att lägga in '{name}' till gruppen",
                 "ADD": "Lägg till"
             },
             "SEND_LOCATION_POPUP": {
-                "TITLE": "Dela position",
-                "TEXT": "Vill du dela din position?",
+                "TITLE": "Dela plats",
+                "TEXT": "Vill du dela din plats?",
                 "CANCEL": "Avbryt",
                 "SEND": "Skicka"
             },
             "PAY": {
-                "REQUEST": "Begär",
-                "REQUESTED": "Begäran skickad",
+                "REQUEST": "Förfrågan",
+                "REQUESTED": "Förfrågan skickad",
                 "PAY": "Betala",
                 "SEND": "Skicka",
                 "SEND_TITLE": "Skicka {amount}",
                 "SEND_DESCRIPTION": "Vill du skicka {amount} till {name}?",
                 "SEND_BUTTON_CANCEL": "Avbryt",
                 "SEND_BUTTON_SEND": "Skicka"
-            }
+            },
+            "PAYMENT_FAILED_POPUP": {
+                "TITLE": "Betalning misslyckad",
+                "DESCRIPTION": "Fel: {fel}",
+                "CLOSE": "Stäng"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "Ta bort konversation",
+                "DESCRIPTION": "Är du säker på att du vill ta bort denna konversation?"
+            },
+            "MARK_AS_READ": "Markera som läst"
         },
         "PHONE": {
             "TITLE": "Telefon",
-            "DONE": "Klar",
+            "DONE": "Klart",
             "EDIT": "Redigera",
             "CANCEL": "Avbryt",
-
             "CALL": {
                 "CALL_TITLE": "Ring {name}",
                 "CALL_TEXT": "Är du säker på att du vill ringa {name}?",
                 "CALL_BUTTON_CANCEL": "Avbryt",
                 "CALL_BUTTON_CALL": "Ring",
-
                 "NO_CALLER_ID": "Inget uppringnings ID",
                 "UNKNOWN": "Okänd",
-                "USER_BUSY": "Användare Upptagen",
-                "USER_UNAVAILABLE": "Användare Ej Tillgänglig",
-                "CALL_BACK": "Ring Tillbaks",
-                "DECLINE": "Neka",
+                "USER_BUSY": "Användare upptagen",
+                "USER_UNAVAILABLE": "Användare otillgänglig",
+                "CALL_BACK": "Ring Tillbaka",
+                "DECLINE": "Avböj",
                 "ACCEPT": "Acceptera",
-                "END": "Avsluta",
-                "VIDEO_CALL": "Video Samtal",
-
-                "MUTE": "tysta",
+                "END": "Lägg På",
+                "VIDEO_CALL": "FaceTime Samtal",
+                "MUTE": "mute",
                 "KEYPAD": "knappsats",
                 "SPEAKER": "högtalare",
-                "ADD_CALL": "lägg till samtal",
-                "VIDEO": "video",
+                "ADD_CALL": "lägg till användare",
+                "VIDEO": "facetime",
                 "CONTACTS": "kontakter",
                 "MOBILE": "Telefon"
             },
-
             "CONTACTS": {
                 "TITLE": "Kontakter",
                 "FIRST_NAME": "Förnamn",
@@ -368,44 +386,39 @@
                 "PHONE_NUMBER": "Telefonnummer",
                 "MY_CARD": "Mitt kort",
                 "ADD_PHOTO": "Lägg till foto",
-
-                "REMOVE_CONTACT_TITLE": "Radera Kontakt",
-                "REMOVE_CONTACT_TEXT": "Är du säker att du vill radera denna kontakt?",
+                "REMOVE_CONTACT_TITLE": "Ta bort kontakt",
+                "REMOVE_CONTACT_TEXT": "Är du säker på att du vill ta bort denna kontakt?",
                 "REMOVE_CONTACT_BUTTON_CANCEL": "Avbryt",
-                "REMOVE_CONTACT_BUTTON_DELETE": "Radera",
-                "DELETE_CONTACT": "Radera Kontakt",
-
-                "MESSAGE": "meddelande",
+                "REMOVE_CONTACT_BUTTON_DELETE": "Ta bort",
+                "DELETE_CONTACT": "Ta bort kontakt",
+                "MESSAGE": "meddela",
                 "CALL": "ring",
-                "VIDEO": "video",
-                "MAIN": "huvudsaklig",
-
+                "VIDEO": "facetime",
+                "MAIN": "main",
                 "SHARE_CONTACT": "Dela Kontakt",
                 "SHARE_LOCATION": "Dela min plats",
-                "REMOVE_FAVORITE": "Ta bort från mina favoriter",
-                "ADD_FAVORITE": "Lägg till favoriter",
-                "ADD_CONTACT": "Lägg till kontakter",
-
-                "UNBLOCK_CALLER": "Avblockera detta nummer",
-                "BLOCK_CALLER": "Blockera detta nummer",
-
-                "UNBLOCK_NUMBER_TITLE": "Avblocker nummer",
-                "UNBLOCK_NUMBER_TEXT": "Är du säker att du vill avblockera {number}?",
+                "REMOVE_FAVORITE": "Ta bort från favoriter",
+                "ADD_FAVORITE": "Lägg till som favorit",
+                "ADD_CONTACT": "Lägg till kontakt",
+                "UNBLOCK_CALLER": "Avblockera denna användare",
+                "BLOCK_CALLER": "Blockera denna användare",
+                "UNBLOCK_NUMBER_TITLE": "Avblockera nummer",
+                "UNBLOCK_NUMBER_TEXT": "Är du säker på att du vill avblockera {number}?",
                 "UNBLOCK_NUMBER_BUTTON_CANCEL": "Avbryt",
                 "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Avblockera",
-
                 "BLOCK_NUMBER_TITLE": "Blockera nummer",
-                "BLOCK_NUMBER_TEXT": "Är du säker att du vill blockera {number}?",
+                "BLOCK_NUMBER_TEXT": "Är du säker på att du vill blockera {number}?",
                 "BLOCK_NUMBER_BUTTON_CANCEL": "Avbryt",
-                "BLOCK_NUMBER_BUTTON_BLOCK": "Blockera"
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Blockera",
+                "EMAIL": "Mail",
+                "ADDRESS": "Address"
             },
             "FAVOURITES": {
                 "TITLE": "Favoriter",
-
-                "REMOVE_TITLE": "Ta bort från favoriter",
-                "REMOVE_TEXT": "Är du säker att du vill ta bort detta nummer från favoriter?",
+                "REMOVE_TITLE": "Ta bort från Favoriter",
+                "REMOVE_TEXT": "Är du säker på att du vill ta bort denna kontakt från dina favoriter?",
                 "REMOVE_BUTTON_CANCEL": "Avbryt",
-                "REMOVE_BUTTON_REMOVE": "Radera"
+                "REMOVE_BUTTON_REMOVE": "Fortsätt"
             },
             "KEYPAD": {
                 "TITLE": "Knappsats",
@@ -413,6 +426,22 @@
             },
             "RECENTS": {
                 "TITLE": "Senaste"
+            },
+            "VOICEMAIL": {
+                "TITLE": "Röstmemo",
+                "AT": "på",
+                "DELETE_POPUP": {
+                    "TITLE": "Ta bort röstmemo",
+                    "DESCRIPTION": "Är du säker på att du vill ta bort detta röstmemo?",
+                    "CANCEL": "Avbryt",
+                    "PROCEED": "Fortsätt"
+                },
+                "CALL_POPUP": {
+                    "TITLE": "Ring",
+                    "DESCRIPTION": "Är du säker på att du vill ringa {number}?",
+                    "CANCEL": "Avbryt",
+                    "PROCEED": "Ring"
+                }
             }
         },
         "WALLET": {
@@ -422,62 +451,74 @@
             "NEXT": "Nästa",
             "DONE": "Klart",
             "DONE_SUBTITLE": "Du skickade {amount} till {number}",
-
-            "NO_REFUNDS": "Betalningar är ej retubara, kolla att det är rätt nummer.",
+            "NO_REFUNDS": "Betalningar kan inte bli återbetalda, dubbelkolla numret.",
             "NEW_BALANCE": "Nytt saldo",
             "LATEST_TRANSACTIONS": "Senaste transaktioner",
-
+            "LATEST_BILLS": "Senaste räkningar",
             "NOW": "Nu",
-            "AGO": "sen"
+            "AGO": "sedan",
+            "NUMBER_DOES_NOT_EXIST": "Numret finns inte / spelaren är inte vaken",
+            "NOT_ENOUGH_MONEY": "Du har inte tillräckligt med pengar",
+            "SELECT_CONTACT": "Välj kontakt"
         },
         "GARAGE": {
             "TITLTE": "Garage",
-
             "ACTIONS": "Handlingar",
             "MY_CARS": "Mina bilar",
             "OUT": "Ute",
             "GARAGE": "Garage",
             "LOCATION": "Plats",
-            "SUMMON": "Kalla",
-            "VALET": "Parkera",
+            "SUMMON": "Kalla fram",
+            "VALET": "Valet",
             "STATISTICS": "Statistik",
-            "FUEL": "Bränsle",
+            "FUEL": "Bensin",
             "ENGINE": "Motor",
-            "BODY": "Bilkaross",
+            "BODY": "Plåten",
+            "VEHICLE": "Bilen",
+            "STATUS": "Status",
+            "LOCKED": "Låst",
+            "LOCK": "Lås",
+            "UNLOCKED": "Upplåst",
+            "UNLOCK": "Lås upp",
 
             "WAYPOINT_POPUP": {
-                "TITLE": "Sätt färdbeskrivning till",
-                "TEXT": "Är du säker att du vill sätta färdbeskrivning till {model}?",
+                "TITLE": "se GPS",
+                "TEXT": "Vill du sätta en GPS på {model}?",
                 "CANCEL": "Avbryt",
                 "PROCEED": "Fortsätt"
             },
             "VALET_POPUP": {
-                "TITLE": "Parkera",
-                "TEXT": "Vill du parkera {model} ({plate})?",
-                "TEXT_PAID": "Vill du parkera {model} ({plate}) för {amount}?",
+                "TITLE": "Valet",
+                "TEXT": "Vill du valeta din {model} ({plate})?",
+                "TEXT_PAID": "Vill du valeta din {model} ({plate}) för {amount}?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} fordon",
+                "TEXT": "Vill du {toggle} dina fordon?",
                 "CANCEL": "Avbryt",
                 "PROCEED": "Fortsätt"
             }
         },
         "HOME": {
-            "TITLE": "Hem",
-            "MY_HOMES": "Mina hem",
-            "MY_HOME": "Mitt hem",
-            "KEY_ACCESS": "Nyckel tillgång",
+            "TITLE": "Home",
+            "MY_HOMES": "Mina Hem",
+            "MY_HOME": "Mitt Hem",
+            "KEY_ACCESS": "Nyckelåtkomst",
             "ACTIONS": "Handlingar",
             "FRONT_DOOR": "Framdörr",
             "LOCATION": "Plats",
-            "SET_WAYPOINT": "Sätt färdbeskrivning",
+            "SET_WAYPOINT": "Sätt GPS",
             "UNLOCK": "Lås upp",
-            "UNLOCKED": "Olåst",
+            "UNLOCKED": "Upplåst",
             "LOCK": "Lås",
             "LOCKED": "Låst",
-            "GIVE_KEY": "Ge nycklar",
+            "GIVE_KEY": "Ge nyckel",
             "MANAGE": "Hantera",
-
             "WAYPOINT_POPUP": {
-                "TITLE": "Sätt färdbeskrivning",
-                "TEXT": "Vill du sätta färdbeskrivning till {home}?",
+                "TITLE": "Sätt GPS",
+                "TEXT": "Vill du sätta en GPS till {home}?",
                 "CANCEL": "Avbryt",
                 "PROCEED": "Fortsätt"
             },
@@ -489,127 +530,890 @@
             },
             "GIVE_KEY_POPUP": {
                 "TITLE": "Ge nyckel",
-                "TEXT": "Skriv ID på personen du vill ge nyckeln till",
+                "TEXT": "Skriv in IDt av personen du vill ska få en nyckel",
                 "CANCEL": "Avbryt",
                 "PROCEED": "Fortsätt"
             },
-
             "REMOVE_KEY_POPUP": {
-                "TITLE": "Ta bort nyckelknippa",
-                "TEXT": "Är du säker att du vill ta bort nyckel från {name}?",
+                "TITLE": "Ta bort nyckelhållaren",
+                "TEXT": "Är du säker på att du vill ta bort åtkomst från {name}?",
                 "CANCEL": "Avbryt",
                 "PROCEED": "Fortsätt"
             }
         },
         "MARKETPLACE": {
             "CANCEL": "Avbryt",
-            "SEARCH": "Sök efter annonser eller nummer",
+            "SEARCH": "Sök efter listor eller nummer",
             "NEW_POST": "Nytt inlägg",
             "TITLE": "Titel",
             "DESCRIPTION": "Beskrivning",
             "PRICE": "Pris",
             "POST": "Inlägg",
             "CONTACT": "Kontakt",
-            "REMOVE": "Radera",
-
+            "REMOVE": "Ta bort",
+            "ERROR_POPUP": {
+                "TITLE": "Fel",
+                "NO_TITLE": "Du måste ange en titel",
+                "NO_DESCRIPTION": "Du måste ange en beskrivning",
+                "NO_PRICE": "Du måste ange ett pris",
+                "NO_ATTACHMENTS": "Du måste bifoga minst en bild",
+                "OK": "OK"
+            },
             "DELETE_POPUP": {
-                "TITLE": "Radera inlägg",
-                "TEXT": "Är du säker att du vill radera deta inlägg?",
+                "TITEL": "Radera notering",
+                "TEXT": "Är du säker på att du vill ta bort denna notering?",
                 "CANCEL": "Avbryt",
-                "PROCEED": "Radera"
+                "PROCEED": "Ta bort"
             }
         },
         "YELLOWPAGES": {
-            "SEARCH": "Sök efter inlägg eller nummer",
+            "SFEARCH": "Sök efter inlägg eller nummer",
             "FROM": "Från",
             "CANCEL": "Avbryt",
             "NEW_POST": "Nytt inlägg",
-
             "TITLE": "Titel",
             "DESCRIPTION": "Beskrivning",
             "PRICE": "Pris",
-            "POST": "Inlägg",
-            "CALL": "Ring",
-
+            "POST": "Post",
+            "CALL": "Call",
+            "ERROR_POPUP": {
+                "TITLE": "Fel",
+                "NO_TITLE": "Du måste ange en titel",
+                "NO_DESCRIPTION": "Du måste ange en beskrivning",
+                "OK": "OK"
+            },
             "DELETE_POPUP": {
-                "TITLE": "Radera Inlägg",
-                "TEXT": "Är du säker att du vill ta bort detta inlägg?",
+                "TITLE": "Ta bort inlägg",
+                "TEXT": "Är du säker på att du vill ta bort det här inlägget?",
                 "CANCEL": "Avbryt",
-                "PROCEED": "Radera"
+                "PROCEED": "Ta bort"
+            }
+        },
+        "MAIL": {
+            "TITLE": "Mail",
+            "YOU": "Du",
+            "UPDATED_NOW": "Uppdaterad just nu",
+            "NEW_MESSAGE": "Nytt meddelande",
+            "INBOX": "Inkorg",
+            "TO": "Till",
+            "FROM": "Från",
+            "SUBJECT": "Ämne",
+            "MESSAGE": "Meddelande",
+            "CANCEL": "Avbryt",
+            "SEND": "Skicka",
+            "EMAIL": "E-post",
+            "EMAIL_INVALID": "Ogiltig e-postadress",
+            "EMAIL_EXISTS": "E-post finns redan",
+            "PASSWORD": "Lösenord",
+            "WRONG_PASSWORD": "Fel lösenord",
+            "LOGIN": "Logga in",
+            "NO_EMAIL": "Har du ingen e-postadress?",
+            "CREATE_ONE": "Skapa en",
+            "UNREAD": "Oläst",
+            "CREATE_MAIL": "Skapa e-post",
+            "ALREADY_HAVE": "Har du redan en e-postadress?",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Sign Out",
+                "DESCRIPTION": "Are you sure you want to sign out?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            }
+        },
+        "MAPS": {
+            "TITLE": "Maps",
+            "GO": "Go",
+            "ADD": "Add",
+            "EDIT": "Edit",
+            "DELETE": "Delete",
+            "SET_WAYPOINT": "Set Waypoint",
+            "SHARE": "Share",
+
+            "ADD_LOCATION_POPUP": {
+                "TITLE": "Add Location",
+                "DESCRIPTION": "Enter the name of the location you want to add",
+                "PLACEHOLDER": "Name",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+            "CHANGE_NAME_POPUP": {
+                "TITLE": "Change Name",
+                "DESCRIPTION": "Enter the new name of the location",
+                "PLACEHOLDER": "Name",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            }
+        },
+        "MUSIC": {
+            "TITLE": "Music",
+            "LIBRARY": "Library",
+            "SEARCH": "Search",
+            "ADD_QUEUE": "Add to Queue",
+            "ADD_PLAYLIST": "Add to Playlist",
+            "REMOVE_SONG": "Remove Song",
+            "NOT_PLAYING": "Not Playing",
+            "EDIT_PLAYLIST": "Edit Playlist",
+            "DELETE_PLAYLIST": "Delete Playlist",
+            "SEARCH_PLACEHOLDER": "Artists, Songs, Albums, Playlists",
+            "SONGS": "Songs",
+            "ALBUMS": "Albums",
+            "PLAY": "Play",
+            "SHUFFLE": "Shuffle",
+            "ARTIST": "Artist",
+            "ALBUM": "Album",
+            "PLAYLIST": "Playlist",
+            "SONG": "Song",
+            "SONG_EXISTS_POPUP": {
+                "TITLE": "Song already exists",
+                "DESCRIPTION": "This song already exists in this playlist",
+                "CANCEL": "Cancel"
+            },
+            "NEW_PLAYLIST_POPUP": {
+                "TITLE": "New Playlist",
+                "DESCRIPTION": "Create a new playlist",
+                "PLACEHOLDER": "Playlist Name",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
+            "REMOVE_SONG_POPUP": {
+                "TITLE": "Remove Song",
+                "DESCRIPTION": "Are you sure you want to remove this song from the playlist?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            }
+        },
+        "TINDER": {
+            "TITLE": "Spark",
+            "LIKES_YOU_TOO": "gillar dig med!",
+            "KEEP_SWIPING": "Fotsätt swipea",
+            "SAY_SOMETHING_NICE": "Säg något trevligt",
+            "NO_MORE": "Det har tagit slut med folk att swipea på, vänta ett tag!",
+            "SEND": "Skicka",
+            "AGREE_TERMS": "När du trycker 'Skapa Konto' så går du med på vår Terms of Service och Privacy Policy",
+            "CREATE_ACCOUNT": "Skapa konto",
+            "AGE_PUBLIC": "Din ålder kommer vara synlig",
+            "BE_OVER_18": "Du måste vara över 18 för att använda denna app",
+            "NAME_MINIMUM": "Ditt namn måste vara minst 3 bokstäver långt",
+            "ADD_PHOTOS": "Lägg till foton",
+            "PHOTOS_MINIMUM": "Du måste ha minst ett foto",
+            "DESCRIPTION": "Berätta en bit om dig själv",
+            "DESCRIPTION_MINIMUM": "Din beskrivning måste vara minst 10 bokstäver lång",
+            "SHOW_ME": "Visa mig",
+            "WOMEN": "Kvinnor",
+            "MEN": "Herrar",
+            "EVERYONE": "Alla",
+            "EVERYTHING": "Allt",
+            "I_AM": "Jag är en",
+            "MALE": "Man",
+            "FEMALE": "Kvinna",
+            "CONTINUE": "Fortsätt",
+            "NAME": "Namn",
+            "PHOTOS": "Foton",
+            "ABOUT_ME": "Om mig",
+            "INTERESTED_IN": "Intresserad i",
+            "GENDER": "Kön",
+            "SAVE": "Spara",
+            "NEW_MATCHES": "Nya matchar",
+            "MESSAGES": "Meddelanden",
+            "SEARCH_MATCHES": "Sök matchar"
+        },
+        "INSTAGRAM": {
+            "TITLE": "InstaPic",
+            "SEND": "Skicka",
+            "POST": "Lägg upp",
+            "MESSAGE_PLACEHOLDER": "Meddela...",
+            "NEW_MESSAGE": "Nytt meddelande",
+            "NOW": "Nu",
+            "GO_LIVE_POPUP": {
+                "TITLE": "Gå Live",
+                "DESCRIPTION": "Är du säker att du vill gå live?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+            "END_LIVE_POPUP": {
+                "TITLE": "Stäng av live",
+                "DESCRIPTION": "Är du säker att du vill {action} denna live?",
+                "CANCEL": "Avbryt",
+                "END": "Avsluta",
+                "LEAVE": "Lämna"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Avfölj",
+                "DESCRIPTION": "Är du säker att du vill avfölja {name}?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+            "DELETE_POST_POPUP": {
+                "TITLE": "Ta bort inlägg",
+                "DESCRIPTION": "Är du säker att du vill ta bort detta inlägg?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Logga ut",
+                "DESCRIPTION": "Är du säker att du vill logga ut?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+            "DELETE_STORY": {
+                "TITLE": "Ta bort Story",
+                "DESCRIPTION": "Är du säker på att du vill ta bort Storyn?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+            "INVITE_LIVE_POPUP": {
+                "TITLE": "Inbjudan till Live",
+                "DESCRIPTION": "{username} bjöd in dig till sin live, vill du gå med?",
+                "NO": "Nej",
+                "YES": "Ja"
+            },
+            "REMOVE_LIVE_POPUP": {
+                "TITLE": "Ta bort {username}",
+                "DESCRIPTION": "Är du säker att du vill ta bort {username} från din Live?",
+                "CANCEL": "Avbryt",
+                "REMOVE": "Ta bort"
+            },
+            "LEAVE_LIVE_POPUP": {
+                "TITLE": "Lämna Live",
+                "DESCRIPTION": "Är du säker på att du vill lämna Liven?",
+                "LEAVE": "Lämna"
+            },
+            "LIVE_ENDED": "Live Avslutad",
+            "COMMENT_PLACEHOLDER": "Kommentera",
+            "LIVE": "Live",
+            "YOUR_STORY": "Din Story",
+            "CREATE_STORY": "Skapa Story",
+            "GO_LIVE": "Gå Live",
+            "EMPTY_FEED": "Börja följ folk och se deras inlägg här",
+            "COMMENTS": "Kommentarer",
+            "ADD_COMMENT_AS": "Kommentera som {name}",
+            "NEW_POST": "Nytt inlägg",
+            "NEXT": "Nästa",
+            "CAPTION_PLACEHOLDER": "Skriv en rubrik...",
+            "ACTIVITY": "Aktivitet",
+            "FOLLOW": "Följ",
+            "FOLLOWING": "Följer",
+            "FOLLOWERS": "Följare",
+            "FOLLOWER": "Följare",
+            "REQUESTED": "Förfrågan skickad",
+            "LIKES": "Gillamarkeringar",
+            "LIKED_BY": "Gillad av",
+            "VIEW_ALL_COMMENTS": "Visa alla {count} kommentarer",
+            "FIRST_COMMENT": "Bli den första att kommentera...",
+            "NO_ACCOUNT": "Det finns inget konto med det namnet",
+            "WRONG_USERNAME_OR_PASSWORD": "Fel användarnamn eller lösenord",
+            "LOG_IN": "Logga In",
+            "ACCOUNT_WITH_USERNAME": "Ett konto med detta namn finns redan",
+            "CREATE_ACCOUNT": "Skapa Konto",
+            "USERNAME_PLACEHOLDER": "Användarnamn",
+            "NAME_PLACEHOLDER": "Namn",
+            "PASSWORD_PLACEHOLDER": "Lösenord",
+            "NOT_HAVE_ACCOUNT": "Har du inget konto?",
+            "HAVE_ACCOUNT": "Har du ett konto?",
+            "LIKED_PHOTO": "gillade ditt inlägg.",
+            "LIKED_COMMENT": "gillade din kommentar: {comment}",
+            "COMMENTED": "kommenterade på ditt inlägg: {comment}",
+            "FOLLOWED": "började följa dig.",
+            "DONE": "Klart",
+            "EDIT_PROFILE": "Redigera Profil",
+            "CHANGE_PICTURE": "Ändra Profilbild",
+            "NAME": "Namn",
+            "BIO": "Biografi",
+            "PRIVATE": "Sätt på privat",
+            "SIGN_OUT": "Logga Ut",
+            "POSTS": "Inlägg",
+            "MESSAGE": "Meddela",
+            "SENT_A_PHOTO": "skickade en bild",
+            "TO": "Till",
+            "SEND_A_MESSAGE": "Skickade ett meddelande...",
+            "STORY_VIEWERS": "Tittare",
+            "PARTICIPANTS": "Deltagare",
+            "SEEN_BY": "Sedd av {count}",
+            "ADD_ACCOUNT": "Lägg till Konto",
+            "INVITE": "Bjud in",
+            "REMOVE": "Ta bort",
+            "IN_THIS_ROOM": "I detta rum",
+            "WHOS_WATCHING": "Vem tittar",
+            "FOLLOW_REQUESTS": "Följförfrågningar",
+            "CONFIRM": "Godkänn",
+            "DELETE": "Ta bort",
+            "ANDOTHERS": "{username} + {amount} andra"
+        },
+        "TWITTER": {
+            "TITLE": "Birdy",
+            "SEARCH_FOR": "Sök för '{search}'",
+            "START_SEARCHING": "Börja söka för att utforska Birdy",
+            "TRENDING_HASHTAGS": "Trendande hashtags",
+            "SENT_ATTACHMENT": "skickade en bild / video",
+            "TO": "Till",
+            "TWEETS": "Inlägg",
+            "REPLIES": "Svar",
+            "MEDIA": "Media",
+            "LIKES": "Gillamarkeringar",
+            "CANCEL": "Avbryt",
+            "TWEET": "Inlägg",
+            "TWEET_REPLY": "Skicka ditt svar",
+            "TWEET_GENERAL": "Vad händer?",
+            "EDIT_PROFILE": "Redigera Profil",
+            "SAVE": "Spara",
+            "NAME": "Namn",
+            "JOIN_DATE": "Gick Med",
+            "PROTECTED_POSTS": "Skydda dina inlägg",
+            "BIO": "Biografi",
+            "SIGN_OUT": "Logga Ut",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Logga ut",
+                "DESCRIPTION": "Är du säker på att du vill logga ut?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Avfölj",
+                "DESCRIPTION": "Är du säker att du vill avfölja {name}?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+            "RETWEET_POPUP": {
+                "RETWEET": "Reposta",
+                "UNDO_RETWEET": "Ångra Repost",
+                "DESCRIPTION": "Är du säker på att du vill {action}?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "Ta bort inlägg",
+                "DESCRIPTION": "Är du säker på att du vill ta bort detta inlägg?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+            "NOTIFICATIONS_POPUP": {
+                "TITLE": "Notifikationer",
+                "DESCRIPTION": "Är du säker på att du vill {action} notifikationer på @{name}?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt",
+                "ENABLE": "Sätt på",
+                "DISABLE": "Stäng av"
+            },
+            "PROMOTE_POPUP": {
+                "TITLE": "Marknadsför inlägg",
+                "DESCRIPTION": "Är du säker på att du vill marknadsföra inlägget {price} för {views} views?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+            "YOU": "Du",
+            "FOLLOW": "Följ",
+            "PENDING": "I väntan på",
+            "FOLLOWING": "Följer",
+            "FOLLOWERS": "Följare",
+            "RETWEETED": "Repostad",
+            "REPLYING_TO": "Svarar till {name}",
+            "RETWEETED_BY": "Repostad Av",
+            "LIKED_BY": "Gillad Av",
+            "ALL": "Alla",
+            "NOTIFICATIONS": "Notifikationer",
+            "FOLLOWS_YOU": "Följer Dig",
+            "JOINED": "Gick med {date}",
+            "LIKED_TWEET": "gillade ditt inlägg",
+            "RETWEETED_TWEET": "repostade ditt inlägg",
+            "FOLLOWED": "följer dig",
+            "SIGN_UP_TEXT": "Se vad som händer i världen just nu",
+            "TERMS_OF_SERVICE": "När du skapar ett konto, går du med på våran Terms of Service och Privacy Policy.",
+            "HAS_ACCOUNT": "Har du redan ett konto?",
+            "CREATE_YOUR_ACCOUNT": "Skapa ett konto",
+            "NAME_PLACEHOLDER": "Namn",
+            "USERNAME_PLACEHOLDER": "Användarnamn",
+            "PASSWORD_PLACEHOLDER": "Lösenord",
+            "GET_STARTED": "För att börja, skriv in ditt @username",
+            "FORGOT_PASSWORD": "Glömt lösenordet?",
+            "ENTER_PASSWORD": "Skriv in ditt lösenord",
+            "SEARCH_DIRECT_MESSAGES": "Sök bland DMs",
+            "SEARCH_TWITTER": "Sök Birdy",
+            "MESSAGE_PLACEHOLDER": "Meddela...",
+            "NOW": "Nu",
+            "LOGIN": "Logga in",
+            "CREATE_ACCOUNT": "Skapa konto",
+            "PROMOTE": "Marknadsför",
+            "PIN": "Pinna inlägget",
+            "UNPIN": "Unpinna inlägget",
+            "NEW_MESSAGE": "Nytt meddelande",
+            "PROMOTED": "Marknadsförd",
+            "ADD_ACCOUNT": "Lägg till konto",
+            "FOLLOWER_REQUESTS": "Följförfrågningar",
+            "NEW_POSTS": "Nya inlägg"
+        },
+        "SERVICES": {
+            "ACTIONS": "Handlingar",
+            "COMPANIES": "Företag",
+            "MESSAGES": "Meddelanden",
+
+            "CLOSED": "Stängd",
+            "YOUR_MESSAGES": "Dina meddelanden",
+            "JOB_MESSAGES": "Jobbmeddelanden",
+
+            "DUTY": "Jobbet",
+            "GO_ON_DUTY": "Börja jobba",
+            "GO_OFF_DUTY": "Sluta jobba",
+            "JOB_CALLS": "Jobbsamtal",
+            "DISABLE_CALLS": "Stäng av samtal",
+            "ENABLE_CALLS": "Sätt på samtal",
+            "BALANCE": "Kassa",
+            "MANAGE_EMPLOYEES": "Hantera Anställda",
+            "HIRE": "Anställ",
+            "SET_GRADE": "Sätt rang",
+            "UNEMPLOYED": "Du är arbetslös",
+
+            "DEPOSIT_POPUP": {
+                "TITLE": "Sätt in",
+                "DESCRIPTION": "Sätt in pengar till företagskontot",
+                "AMOUNT": "Antal",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+            "WITHDRAW_POPUP": {
+                "TITLE": "Ta ut",
+                "DESCRIPTION": "Ta ut pengar från företagskontot",
+                "AMOUNT": "Antal",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+            "HIRE_POPUP": {
+                "TITLE": "Anställ",
+                "DESCRIPTION": "Anställ någon ny",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+            "FIRE_POPUP": {
+                "TITLE": "Sparka",
+                "DESCRIPTION": "Är du säker på att du vill sparka {name}?",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+            "CALL_POPUP": {
+                "TITLE": "Ring",
+                "DESCRIPTION": "Är du säker på att du vill ringa {name}?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            }
+        },
+        "CRYPTO": {
+            "TITLE": "Krypto",
+            "BALANCE": "Estimerat antal",
+            "BUY": "Köp",
+            "SELL": "Sälj",
+            "TRANSFER": "För över",
+            "SELL_ALL": "Sälj Alla",
+            "NO_MONEY": "Du har inte tillräckligt med pengar",
+            "NO_COINS": "Du har inget av detta mynt",
+            "NOT_ENOUGH_COINS": "Du har inte tillräckligt med mynt",
+            "ATLEAST_ONE_COIN": "Du måste {action} åtminstone en {currency}",
+            "INVALID_COIN": "Fel mynt",
+            "NO_NUMBER": "Inget telefonnummer angett",
+            "INVALID_NUMBER": "Fel telefonnummer (användaren kanskte inte är vaken)",
+            "ERROR": "Fel",
+            "CLOSE": "Stäng",
+            "BUY_POPUP": {
+                "TITLE": "Köp {coin}",
+                "DESCRIPTION": "Skriv antalet {coin} (in $) du vill köpa",
+                "PLACEHOLDER": "$1000",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+            "SELL_POPUP": {
+                "TITLE": "Sälj {coin}",
+                "DESCRIPTION": "Skriv in antalet {coin} (in $) du vill sälja",
+                "PLACEHOLDER": "$1000"
+            },
+            "SELL_ALL_POPUP": {
+                "TITLE": "Sälj alla {coin}",
+                "DESCRIPTION": "Är du säker på att du vill sälja alla dina {coin} för ${amount}?"
+            },
+            "TRANSFER_POPUP": {
+                "TITLE": "För över {coin}",
+                "DESCRIPTION": "Skriv in antalet {coin} (in $) som du vill föra över (välj kontakt i nästa steg)",
+                "PLACEHOLDER": "$1000",
+                "NEXT": "Nästa"
+            },
+            "SUCCESSFULLY_TRANSFERED_POPUP": {
+                "TITLE": "Överföringen lyckades",
+                "DESCRIPTION": "Du lyckades föra över ${amount} av {coin} till {number}",
+                "CLOSE": "Stäng"
+            }
+        },
+        "TIKTOK": {
+            "TITLE": "Trendy",
+
+            "HOME": "Hem",
+            "DISCOVER": "Upptäck",
+            "INBOX": "Inkorg",
+            "PROFILE": "Profil",
+
+            "COMMENTS_TITLE": "{count} kommentarer",
+            "REPLY": "Svara",
+            "VIEW_REPLIES": "Kolla svar",
+            "ADD_COMMENT": "Lägg till en kommentar...",
+            "REPLY_TO": "Svara till {name}",
+            "PIN_COMMENT": "Pinna kommentaren",
+            "UNPIN_COMMENT": "Avpinna kommentaren",
+            "DELETE_COMMENT": "Ta bort kommentaren",
+            "DELETE": "Ta bort",
+            "PINNED": "Pinnade",
+            "PIN_VIDEO": "Pinna video",
+            "UNPIN_VIDEO": "Avpinna video",
+            "PIN": "pinna",
+            "UNPIN": "avpinna",
+            "MAX_PINNED_TITLE": "Maximalt pinnade",
+            "MAX_PINNED_DESCRIPTION": "Du kan bara pinna upp till 3 videos",
+            "OK": "OK",
+            "CREATOR": "Kreatör",
+            "LIKED_BY_CREATOR": "Gillas av kreatören",
+
+            "PIN_VIDEO_POPUP": {
+                "TITLE": "Pinna videon",
+                "DESCRIPTION": "Är du säker på att du vill {action} denna video?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+            "DELETE_VIDEO_POPUP": {
+                "TITLE": "Ta bort video",
+                "DESCRIPTION": "Är du säker på att du vill ta bort videon?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+            "FAILED_UPLOAD_POPUP": {
+                "TITLE": "Misslyckades att ladda upp TTS",
+                "DESCRIPTION": "Serverägaren har inte satt upp ljudet rätt. Kontakta gärna dem för att fixa det.",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+
+            "SHARE_TITLE": "Dela Till",
+            "SHARE": "Dela",
+            "REPORT": "Rapportera",
+            "SAVE_VIDEO": "Spara Video",
+            "ADD_FAVOURITE": "Lägg till i favoriter",
+            "CANCEL": "Avbryt",
+            "GO_BACK": "Gå tillbaka",
+
+            "FOLLOWING": "Följer",
+            "FOLLOWERS": "Följare",
+            "UNFOLLOW": "Avfölj",
+            "FOLLOW": "Följ",
+            "FOR_YOU": "För dig",
+            "VIDEOS": "Videos",
+            "LIKES": "Gillamarkeringar",
+
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Avfölj",
+                "DESCRIPTION": "Är du säker på att du vill avfölja {name}?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+
+            "LOGIN_TITLE": "Logga in på Trendy",
+            "LOGIN_SUBTITLE": "Hantera ditt konto notifikationer, kommentera på videos, och mycket mer.",
+            "SIGNUP_TITLE": "Regristrera dig för Trendy",
+            "SIGNUP_SUBTITLE": "Skapa en profil, följ andra konton, skapa dina egna videos, och mycket mer.",
+            "NAME": "Namn",
+            "USERNAME": "Användarnamn",
+            "PASSWORD": "Lösenord",
+            "BIO": "Biografi",
+            "SHOW_LIKES": "Visa Likes",
+
+            "LOGIN": "Logga in",
+            "SIGNUP": "Registrera",
+            "NO_ACCOUNT": "Har du inget konto?",
+            "ALREADY_ACCOUNT": "Har du redan ett konto?",
+            "SEARCH_PLACEHOLDER": "Sök för användare",
+
+            "STARTED_FOLLOWING": "började följa dig.",
+            "LIKED_VIDEO": "gillade din video.",
+            "LIKED_COMMENT": "gillade din kommentar.",
+            "SAVED_VIDEO": "lade till din video i sina Favoriter.",
+            "COMMENTED": "kommenterade: {comment}",
+            "REPLIED": "svarade till din kommentar: {comment}",
+
+            "EDIT_PROFILE": "Redigera profil",
+            "MESSAGE": "Meddela",
+            "CHANGE_PHOTO": "Byt bild",
+            "LOGOUT": "Logga ut",
+            "ADD_TO_YOUR_PROFILE": "Lägg till din profil",
+            "LIKED_HIDDEN_TITLE": "Den här användarens gillade videos är privata.",
+            "LIKED_HIDDEN_SUBTITLE": "Videos gillade av {name} är just nu gömda.",
+
+            "INVALID_ACCOUNT_POPUP": {
+                "TITLE": "Fel {name}",
+                "DESCRIPTION": "Du är inte inloggad på {name} du skrev in, rätta gärna det.",
+                "OK": "OK"
+            },
+            "REMOVE_ACCOUNT_POPUP": {
+                "TITLE": "Ta bort {name} konto",
+                "DESCRIPTION": "Är du säker på att du vill ta bort {name} kontot från din profil",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+
+            "ADD_ACCOUNT_TITLE": "Lägg till konto",
+            "ADD_ACCOUNT": "Add {name} to your profile",
+            "UPLOAD_VIDEO": "Ladda up video",
+            "PREVIEW": "Förhandvisa",
+            "CAPTION": "Rubrik",
+            "CAPTION_PLACEHOLDER": "Lägg till en rubrik...",
+            "TTS": "Text to Speech (TTS)",
+            "TTS_PLACEHOLDER": "Lägg till text to speech...",
+            "MUSIC": "Musik",
+            "SELECT_MUSIC": "Välj Musik",
+            "OPTIONAL": "Frivilligt",
+
+            "DIRECT_MESSAGES": "Direkta Meddelanden (DM)",
+            "ALL_ACTIVITY": "All aktivitet",
+            "NO_NOTIFICATIONS": "Notifikationer är inte tillgängliga",
+            "NO_NOTIFICATIONS_SUBTITLE": "Notifikationer om ditt konto kommer att visas här.",
+            "NO_FOLLOWING_TITLE": "Börja följa personer och deras videos kommer visas här.",
+            "NO_MESSAGES_TITLE": "Meddela dina vänner",
+            "NO_MESSAGES_SUBTITLE": "Dela videor eller starta en konversation"
+        },
+        "VOICEMEMO": {
+            "TITLE": "Röst meddelande",
+            "ALL_RECORDINGS": "Alla inspelningar",
+            "DEFAULT_NAME": "Nya inspelningar",
+            "DELETE_POPUP": {
+                "TITLE": "Radera röst meddelandet",
+                "DESCRIPTION": "Är du säker att du vill radera detta röst meddelande?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            },
+            "NO_MICROPHONE_POPUP": {
+                "TITLE": "Ingen mikrofon",
+                "DESCRIPTION": "Vi har inte åtkomst till din mikrofon, se till att den är inkopplad och acceptera popuprutan uppe i hörnet.",
+                "OK": "OK"
             }
         }
     },
     "COMPONENTS": {
         "CONTEXT_MENU": {
             "CANCEL": "Avbryt",
-            "CALL": "Ring",
+            "CALL": "Samtal",
             "VIDEO_CALL": "Video Samtal",
-            "MESSAGE": "Meddelande"
+            "MESSAGE": "Meddela"
         },
         "IMAGE": {
-            "SAVE_TO_GALLERY": "Spara till bilder"
+            "SAVE_TO_GALLERY": "Spara till galleriet"
         },
         "GALLERY": {
             "CANCEL": "Avbryt",
-            "EXTERNAL_URL": "Extern URL"
+            "EXTERNAL_URL": "External URL",
+            "NO_IMAGES": "Inga bilder"
         },
         "NOTIFICATIONS": {
-            "SENT_PHOTO": "Skickade ett foto",
+            "SENT_PHOTO": "Skickade en bild",
             "SENT_GIF": "Skickade en GIF",
-            "NOW": "nu"
+            "NOW": "Nu"
         },
         "SHARE": {
-            "COPY_PHOTO": "Kopiera Bild",
-            "USE_WALLPAPER": "Använd som bakrgrundsbild",
-            "COPY_NUMBER": "Kopiera Nummer",
-
+            "COPY_PHOTO": "Kopiera Photo",
+            "USE_WALLPAPER": "Använd som Bakgrund",
+            "COPY_NUMBER": "Kopiera nummer",
             "AIRDROP_SENT": "Skickat",
-
+            "AIRDROP_ACCEPTED": "Accepterat",
+            "AIRDROP_DECLINED": "Avböjt",
+            "AIRDROP_NO_USERS": "Inga telefoner i närheten",
             "WALLPAPER_POPUP": {
-                "TITLE": "Använd bakrgrundsbild",
-                "TEXT": "Är du säker på att du vill använda denna bild som bakgrundsbild?",
-                "CANCEL": "Avbrytt",
+                "TITLE": "Använd som Bakgrund",
+                "TEXT": "Är du säker på att du vill sätta denna bild som bakgrund?",
+                "CANCEL": "Avbryt",
                 "PROCEED": "Fortsätt"
             }
         },
         "AIRDROP": {
             "TITLE": "Airdrop",
-            "TEXT": "{sender} skulle vilja dela {type}",
+            "TEXT": "{sender} vill dela en {type}",
             "VIDEO": "video",
             "PHOTO": "bild",
             "CONTACT": "kontakt",
-            "DECLINE": "Neka",
+            "LOCATION": "plats",
+            "NOTE": "anteckningar",
+            "VOICEMEMO": "röstmemo",
+            "PLAYLIST": "spellista",
+            "DECLINE": "Avböj",
             "ACCEPT": "Acceptera"
+        },
+        "DYNAMICISLAND": {
+            "SILENT": "Tyst läge",
+            "RING": "Ring",
+            "TIMER": "Timer"
+        },
+        "MUSIC_SELECTOR": {
+            "CANCEL": "Avbryt",
+            "NO-RESULTS": "Ingen musik konfigurerad, säg till serverägaren att fixa det",
+            "SEARCH": "Sök efter en sång",
+            "SELECT_POPUP": {
+                "TITLE": "Välj låt",
+                "DESCRIPTION": "Är du säker på att du vill välja {song}",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsätt"
+            }
+        },
+        "BATTERY": {
+            "LOW_BATTERY": "Lågt batteri",
+            "BATTERY_REMAINING": "{percent}% batteri kvar",
+            "LOW_POWER_MODE": "Strömspararläge",
+            "CLOSE": "Stäng"
+        },
+        "COLOR_PICKER": {
+            "COLOR": "Färg"
         }
     },
     "SETUP": {
         "HELLO": "Hej",
         "NEXT": "Klicka för att öppna",
-
-        "CREATE_PASSCODE": "Gör en Lösenkod",
-        "CREATE_PASSCODE_TEXT": "En lösenkod skyddar din data från andra personer.",
+        "CREATE_PASSCODE": "Skapa ett lösenord",
+        "CREATE_PASSCODE_TEXT": "Ett lösenord skyddar din data och används för att låsa upp telefonen.",
         "SKIP": "Hoppa över detta steg",
-
-        "FACE_ID_SETUP": "Face ID setup",
-        "FACE_ID_TEXT": "Ställ in Face ID för att enkelt starta igång din telefon.",
+        "FACE_ID_SETUP": "Face ID Setup",
+        "FACE_ID_TEXT": "Fixa Face ID för att automatiskt komma in på din telefon när huvudet är framför kameran.",
         "ENABLE_FACE_ID": "Sätt på Face ID",
-
         "APPEARANCE": "Utseende",
-        "APPEARANCE_TEXT": "Välj ett ljust eller mörkt tema",
-
+        "APPEARANCE_TEXT": "Välj ljust eller mörkt läge",
         "CONTINUE": "Fortsätt",
         "WELCOME_TO": "Välkommen till",
-        "CLICK": "Klicka för att börja"
+        "CLICK": "Klicka för att starta"
     },
     "HOMESCREEN": {
-        "DONE": "Klar",
-        "REMOVE": "Ta bort",
-        "REMOVE_TEXT": "Avinstallering av appen innebär inte raderad data. Du kan ladda ner appen igen på App-Store.",
-        "BUTTON_CANCEL": "Avbryt",
-        "BUTTON_DELETE": "Radera"
+        "DONE": "Klart",
+        "REMOVE_APP_POPUP": {
+            "TITLE": "Ta bort '{app}'?",
+            "DESCRIPTION": "Tar du bort denna appen försvinner inte datan. Appen kan bli ominstallerad från App Store.",
+            "CANCEL": "Avbryt",
+            "PROCEED": "Fortsätt"
+        }
     },
     "LOCKSCREEN": {
-        "ENTER_PASSCODE": "Skriv in lösenkod",
-        "DELETE": "Radera"
+        "ENTER_PASSCODE": "Slå in lösenord",
+        "DELETE": "Ta bort",
+        "FONT_AND_COLOR": "Font och Färg"
+    },
+    "MISC": {
+        "AIRPLANE_MODE_POPUP": {
+            "TITLE": "Fel",
+            "DESCRIPTION": "Du försöker utföra en handling som kräver internet, stäng av flygplansläge för att fortsätta.",
+            "OK": "OK"
+        }
+    },
+    "BACKEND": {
+        "CALLS": {
+            "NO_CALLER_ID": "Inget uppringnings ID",
+            "MISSED_CALL": "Missat samtal",
+            "NEW_VOICEMAIL": "Röstbrevlåda"
+        },
+        "GARAGE": {
+            "VALET": "Valet",
+            "COULDNT_FIND": "Kunde inte hitta bil.",
+            "ALREADY_OUT": "Bilen är redan ute.",
+            "NO_MONEY": "Du har inte tillräckligt med pengar.",
+            "ON_WAY": "Din bil är på väg.",
+            "MARKED": "Din bil har blivit markerad på GPSen."
+        },
+        "INSTAGRAM": {
+            "NOT_ALLOWED_LIVE": "Du har inte åtkomst att gå live",
+            "NOT_ALLOWED_STORY": "Du har inte åtkomst att lägga ut Stories",
+            "STARTED_LIVE": "{username} startade en live video",
+            "JOINED_LIVE": "{invitee} är nu live med {inviter}.",
+            "LIKED_PHOTO": "{username} gillade ditt inlägg",
+            "LIKED_COMMENT": "{username} gillade din kommentar",
+            "COMMENTED": "{username} kommenterade på ditt inlägg",
+            "NEW_FOLLOWER": "{username} började följa dig",
+            "FOLLOW_REQUEST_ACCEPTED_TITLE": "Följförfrågan accepterad",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "{displayName} ({username}) accepterade din följföfrågan.",
+            "NEW_FOLLOW_REQUEST_TITLE": "Ny följförfrågan request",
+            "NEW_FOLLOW_REQUEST_DESCRIPTION": "{displayName} ({username}) har skickad förfrågan att följa dig."
+        },
+        "TINDER": {
+            "NEW_MATCH": "Ny match",
+            "MATCHED_WITH": "Du matchade med {name}"
+        },
+        "CAMERA": {
+            "TAKE_PHOTO": "Tryck {key} för att ta ett foto",
+            "FLIP_CAMERA": "Tryck {key} för att vända kameran",
+            "TOGGLE_FLASH": "Tryck {key} för att sätta på ficklampan",
+            "TOGGLE_CURSOR": "Tryck {key} för att sätta på muspekaren och kolla runt",
+            "CHANGE_MODE": "Tryck {key} {key2} för att ändra kameraläge"
+        },
+        "SERVICES": {
+            "NEW_MESSAGE": "Nytt meddelande",
+            "ANONYMOUS": "Anonym"
+        },
+        "TWITTER": {
+            "LIKE": "Gillad av {displayName}:",
+            "RETWEET": "Repostad av {displayName}:",
+            "REPLY": "{displayName} svarade:",
+            "FOLLOW": "{username} började följa dig",
+            "TWEET": "{username} lade ut ett inlägg",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "@{username} har accepterat din föjförfrågan.",
+            "NEW_FOLLOW_REQUEST": "@{username} har skickat förfrågan om att följa dig!"
+        },
+        "TIKTOK": {
+            "LIKE": "{displayName} gillade dina videos.",
+            "COMMENT": "{displayName} kommenterade på din video.",
+            "FOLLOW": "{displayName} började följa dig.",
+            "SAVE": "{displayName} satt din video som favorit.",
+            "LIKED_COMMENT": "{displayName} gillade din kommentar.",
+            "REPLIED_COMMENT": "{displayName} svarade på din kommentar.",
+            "DM": "{displayName}"
+        },
+        "MISC": {
+            "VERIFIED": "Ditt konto har blivit verifierat",
+            "X_PHONE": "{name}'s telefon"
+        },
+        "CRYPTO": {
+            "RECEIVED_TRANSFER_TITLE": "Fick {coin}",
+            "RECEIVED_TRANSFER_DESCRIPTION": "Du fick {amount} {coin} värde på ${value}"
+        },
+        "LOGS": {
+            "MAIL_TITLE": "Email",
+            "NEW_MAIL": "{sender} skickade ett mail till {recipient}",
+
+            "MESSAGE_TITLE": "Textmeddelande",
+            "NEW_MESSAGE": "{sender} skickade ett meddelande till {recipient}: {message}",
+
+            "CALL_ENDED": "Samtal avslutat",
+            "CALL_DESCRIPTION": "Ett samtal mellan `{caller}` och `{callee}` som varade {duration}s har avslutats. Svarade: `{answered}`",
+
+            "NEW_SERVICE_TITLE": "Nytt meddelande",
+            "NEW_SERVICE_CONTENT": "{sender} skickade ett meddelande till {channel}: {message}",
+
+            "RECEIVED_TITLE": "Fick ${amount}",
+            "PAID_TITLE": "Betalade ${amount}",
+            "TRANSACTION": "{number} gjorde en transaktion på ${amount} till {company}",
+
+            "BOUGHT_CRYPTO": "Köpte krypto",
+            "SOLD_CRYPTO": "Sålde krypto",
+            "CRYPTO_DETAILS": "**Coin**: {coin}\n**Amount**: {amount}\n**Value**: ${price}",
+            "TRANSFERRED_CRYPTO": "Överförde krypto",
+            "TRANSFERRED_CRYPTO_DETAILS": "**Coin**: {coin}\n**Amount**: {amount}\n**To**: {to}\n**From**: {from}",
+
+            "DARKCHAT_CREATED_TITLE": "Skapade kanal",
+            "DARKCHAT_CREATED_DESCRIPTION": "{creator} skapade en kanal med namnet {channel}",
+            "DARKCHAT_MESSAGE_TITLE": "Nytt meddelande",
+            "DARKCHAT_MESSAGE_DESCRIPTION": "{sender} skickade ett meddelande i {channel}: {message}",
+
+            "MARKETPLACE_NEW_TITLE": "Ny försäljning",
+            "MARKETPLACE_NEW_DESCRIPTION": "**Seller**: {seller}\n**Title**: {title}\n**Price**: ${price}\n**Description**: {description}\n**Attachments**: {attachments}\n**ID:** {id}",
+            "MARKETPLACE_DELETED": "Inlägg borttaget",
+
+            "YELLOWPAGES_NEW_TITLE": "Nytt inlägg",
+            "YELLOWPAGES_NEW_DESCRIPTION": "**Title**: {title}\n**Description**: {description}\n**Attachment**: {attachment}\n**ID:** {id}",
+            "YELLOWPAGES_DELETED": "Inlägg borttaget",
+
+            "LIVE_TITLE": "Live",
+            "STARTED_LIVE": "{username} startade en live video",
+            "ENDED_LIVE": "{username} avslutade en live video",
+            "ADDED_STORY": "{username} lade till ett foto till sin story",
+
+            "TRENDY_UPLOAD_TITLE": "Ny video",
+            "TRENDY_UPLOAD_DESCRIPTION": "{username} laddade upp en ny video med titeln {caption} och ID {id}",
+            "TRENDY_DELETE_TITLE": "Tog bort en video",
+            "TRENDY_DELETE_DESCRIPTION": "{username} tog bort en video med ID {id}"
+        }
     }
 }
