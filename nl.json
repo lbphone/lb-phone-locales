@@ -7,7 +7,6 @@
     "H": "u",
     "M": "m",
     "S": "s",
-
     "APPS": {
         "SETTINGS": {
             "TITLE": "Instellingen",
@@ -49,38 +48,32 @@
             "TEXT_TONE": "Bericht-toon",
             "RINGTONE_VOLUME": "Beltoon en melding volume",
             "DEFAULT": "Standaard",
-
             "PHONE_STORAGE": "Apparaatopslag",
             "STORAGE": "Opslag",
             "USED": "Gebruikt",
             "OF": "van",
-
             "DISPLAY_BRIGHTNESS": "Scherm en helderheid",
             "APPEARANCE": "Uiterlijk",
             "AUTOMATIC": "Automatisch",
             "BRIGHTNESS": "Helderheid",
             "PHONE_SCALE": "Telefoon-grootte",
-
+            "FRAME_COLOR": "Frame Kleur",
             "WALLPAPER": "Achtergrond",
             "WALLPAPERS": "Achtergronden",
             "CHOOSE_NEW_WALLPAPER": "Kies een nieuwe achtergrond",
-
             "NOTIFICATIONS": "Notificaties",
             "ALLOW_NOTIFICATIONS": "Notificaties toestaan",
             "SOUNDS": "Geluiden",
-
             "PHONE": "Telefoon",
             "BLOCKED_CONTACTS": "Geblokkeerde contacten",
             "MY_NUMBER": "Mijn nummer",
             "SHOW_CALLER_ID": "Nummerherkenning",
-
             "UNBLOCK_POPUP": {
                 "TITLE": "Deblokkeer nummer",
                 "TEXT": "Weet je zeker dat je dit nummer wilt deblokkeren?",
                 "CANCEL": "Annuleer",
                 "CONFIRM": "Deblokkeer"
             },
-
             "FACE_ID_PASSWORD": "Face ID en toegangscode",
             "ENTER_PASSCODE": "Toegangscode invoeren",
             "PASSCODE": "Toegangscode",
@@ -88,14 +81,12 @@
             "RESET_FACE_ID": "Stel Face ID opnieuw in",
             "ENABLE_FACE_ID": "Face ID inschakelen",
             "PIN_CODE": "Toegangscode",
-
             "DISABLE_FACE_ID_POPUP": {
                 "TITLE": "Face ID uitschakelen",
                 "TEXT": "Weet je zeker dat je Face ID wilt uitschakelen?",
                 "CANCEL": "Annuleer",
                 "CONFIRM": "Uitschakelen"
             },
-
             "ENABLE_FACE_ID_POPUP": {
                 "TITLE": "Face ID inschakelen",
                 "TEXT": "Weet je zeker dat je Face ID wilt inschakelen?",
@@ -131,6 +122,7 @@
             "SUCCESS_TEXT": "Toestel zal in 5 seconden herstarten...",
             "OK": "OK",
             "ON": "Aan",
+            "OFF": "Uit",
             "REMOVE_BACKUP_POPUP": {
                 "TITLE": "Reservekopie verwijderen",
                 "TEXT": "Weet je zeker dat je deze reservekopie wilt verwijderen?",
@@ -142,7 +134,8 @@
                 "TEXT": "Weet je zeker dat je je telefoon opnieuw wilt instellen? [DIT ZAL ALLES VAN JE TELEFOON VERWIJDEREN]",
                 "CANCEL": "Annuleer",
                 "CONFIRM": "Stel opnieuw in"
-            }
+            },
+            "UP_TO_DATE": "Je telefoon is bijgewerkt"
         },
         "NOTES": {
             "TITLE": "Notities",
@@ -225,6 +218,7 @@
             "GET": "Download",
             "OPEN": "OPEN",
             "TODAY": "Vandaag",
+            "POPULAR_APPS": "Populaire Apps",
             "GAMES": "Games",
             "APPS": "Apps",
             "WHAT_WE_PLAYING": "Wat we spelen",
@@ -232,7 +226,16 @@
             "PROVIDER": "Provider",
             "SIZE": "Grootte",
             "COMPATIBILITY": "Compatibiliteit",
-            "IN_APP_PURCHASES": "In-App aankopen"
+            "IN_APP_PURCHASES": "In-App aankopen",
+            "WORKS_WITH_PHONE": "Werkt op deze telefoon",
+            "NO": "Nee",
+            "YES": "Ja",
+            "PURCHASE_APP_POPUP": {
+                "TITLE": "Koop App",
+                "DESCRIPTION": "Wil je {app} kopen voor {price}?",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Koop"
+            }
         },
         "PHOTOS": {
             "TITLE": "Foto's",
@@ -241,12 +244,10 @@
             "SELECT_ITEMS": "Selecteer onderdelen",
             "SELECTED_COUNT": "{count} onderdelen geselecteerd",
             "PHOTO_COUNT": "{count} afbeeldingen",
-
             "DELETE_TITLE": "{count} onderdelen verwijderen",
             "DELETE_TEXT": "Wil je {count} onderdelen verwijderen?",
             "DELETE_BUTTON_CANCEL": "Annuleer",
             "DELETE_BUTTON_DELETE": "Verwijder",
-
             "DELETE_IMAGE_TITLE": "Afbeelding verwijderen",
             "DELETE_IMAGE_TEXT": "Wil je deze afbeelding verwijderen?",
             "DELETE_IMAGE_BUTTON_CANCEL": "Annuleer",
@@ -260,14 +261,12 @@
             "FEELS_LIKE_SAME": "Vergelijkbaar met daadwerkelijke temperatuur",
             "FEELS_LIKE_HUMIDITY": "Door vochtigheid voelt het warmer aan.",
             "FEELS_LIKE_WIND": "Door de wind voelt het koeler aan.",
-
             "SUNRISE": "Zonsopgang",
             "SUNSET": "Zonsondergang",
             "WIND": "Wind",
             "PRECIPITATION": "Neerslag",
             "LAST_24H": "in de laatste 24 uur",
             "EXPECTED_24H": "komende 24 uur verwacht",
-
             "TYPES": {
                 "CLOUDY": "Bewolkt",
                 "LIGHT_RAIN": "Lichte regen",
@@ -296,6 +295,8 @@
             "NOT_DELIVERED": "Niet afgeleverd",
             "PLACEHOLDER": "Bericht",
             "DONE": "Opslaan",
+            "EDIT": "Bewerken",
+            "READ": "Gelezen",
             "CANCEL": "Annuleer",
             "SEND": "Verstuur",
             "UNKNOWN": "Onbekend",
@@ -306,8 +307,8 @@
             "LEAVE_GROUP": "Gesprek verlaten",
             "SENT_LOCATION": "Heeft een locatie gedeeld, druk om in Maps te openen",
             "SENT_LOCATION_SHORT": "Heeft zijn locatie gedeeld",
+            "TRIED_TO_CALL": "{number} heeft je geprobeerd te bellen",
             "DELETE": "Verwijder",
-
             "REMOVE_POPUP": {
                 "TITLE": "Lid verwijderen",
                 "TEXT": "Weet je zeker dat je {name} uit de groep wilt verwijderen?",
@@ -338,20 +339,28 @@
                 "SEND_DESCRIPTION": "Wil je {amount} overboeken naar {name}?",
                 "SEND_BUTTON_CANCEL": "Annuleren",
                 "SEND_BUTTON_SEND": "Versturen"
-            }
+            },
+            "PAYMENT_FAILED_POPUP": {
+                "TITLE": "Betaling mislukt",
+                "DESCRIPTION": "Error: {error}",
+                "CLOSE": "Sluiten"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "Verwijder gesprek",
+                "DESCRIPTION": "Weet je zeker dat je dit gesprek wilt verwijderen?"
+            },
+            "MARK_AS_READ": "Markeer als gelezen"
         },
         "PHONE": {
             "TITLE": "Telefoon",
             "DONE": "Opslaan",
             "EDIT": "Wijzig",
             "CANCEL": "Annuleer",
-
             "CALL": {
                 "CALL_TITLE": "{name} bellen",
                 "CALL_TEXT": "Wil je {name} bellen?",
                 "CALL_BUTTON_CANCEL": "Annuleer",
                 "CALL_BUTTON_CALL": "Bellen",
-
                 "NO_CALLER_ID": "Onbekend nummer",
                 "UNKNOWN": "Onbekend",
                 "USER_BUSY": "In gesprek",
@@ -361,7 +370,6 @@
                 "ACCEPT": "Opnemen",
                 "END": "Beëindigen",
                 "VIDEO_CALL": "Videogesprek",
-
                 "MUTE": "geluid uit",
                 "KEYPAD": "toetsen",
                 "SPEAKER": "luidspreker",
@@ -370,7 +378,6 @@
                 "CONTACTS": "contacten",
                 "MOBILE": "Mobiel"
             },
-
             "CONTACTS": {
                 "TITLE": "Contacten",
                 "FIRST_NAME": "Voornaam",
@@ -378,40 +385,35 @@
                 "PHONE_NUMBER": "Telefoonnummer",
                 "MY_CARD": "Mijn kaart",
                 "ADD_PHOTO": "Foto toevoegen",
-
                 "REMOVE_CONTACT_TITLE": "Verwijder contact",
                 "REMOVE_CONTACT_TEXT": "Weet je zeker dat je dit contact wilt verwijderen?",
                 "REMOVE_CONTACT_BUTTON_CANCEL": "Annuleer",
                 "REMOVE_CONTACT_BUTTON_DELETE": "Verwijder",
                 "DELETE_CONTACT": "Verwijder contact",
-
                 "MESSAGE": "bericht",
                 "CALL": "bel",
                 "VIDEO": "video",
                 "MAIN": "hoofd",
-
                 "SHARE_CONTACT": "Deel contact",
                 "SHARE_LOCATION": "Deel mijn locatie",
                 "REMOVE_FAVORITE": "Uit favorieten verwijderen",
                 "ADD_FAVORITE": "Zet in favorieten",
                 "ADD_CONTACT": "Aan contacten toevoegen",
-
                 "UNBLOCK_CALLER": "Deblokkeer deze beller",
                 "BLOCK_CALLER": "Blokkeer deze beller",
-
                 "UNBLOCK_NUMBER_TITLE": "Deblokkeer nummer",
                 "UNBLOCK_NUMBER_TEXT": "Weet je zeker dat je {number} wilt deblokkeren?",
                 "UNBLOCK_NUMBER_BUTTON_CANCEL": "Annuleer",
                 "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Deblokkeer",
-
                 "BLOCK_NUMBER_TITLE": "Blokkeer nummer",
                 "BLOCK_NUMBER_TEXT": "Weet je zeker dat je {number} wilt blokkeren?",
                 "BLOCK_NUMBER_BUTTON_CANCEL": "Annuleer",
-                "BLOCK_NUMBER_BUTTON_BLOCK": "Blokkeer"
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Blokkeer",
+                "EMAIL": "Email",
+                "ADDRESS": "Adres"
             },
             "FAVOURITES": {
                 "TITLE": "Favorieten",
-
                 "REMOVE_TITLE": "Uit favorieten verwijderen",
                 "REMOVE_TEXT": "Weet je zeker dat je dit contact uit je favorieten wilt verwijderen?",
                 "REMOVE_BUTTON_CANCEL": "Annuleren",
@@ -423,6 +425,22 @@
             },
             "RECENTS": {
                 "TITLE": "Recent"
+            },
+            "VOICEMAIL": {
+                "TITLE": "Voicemail",
+                "AT": "om",
+                "DELETE_POPUP": {
+                    "TITLE": "Voicemail verwijderen",
+                    "DESCRIPTION": "Weet je zeker dat je deze voicemail wilt verwijderen",
+                    "CANCEL": "Annuleer",
+                    "PROCEED": "Verwijder"
+                },
+                "CALL_POPUP": {
+                    "TITLE": "Bellen",
+                    "DESCRIPTION": "Weet je zeker dat je {number} wilt bellen?",
+                    "CANCEL": "Annuleer",
+                    "PROCEED": "Bellen"
+                }
             }
         },
         "WALLET": {
@@ -432,19 +450,18 @@
             "NEXT": "Volgende",
             "DONE": "Opslaan",
             "DONE_SUBTITLE": "Je hebt {amount} naar {number} overgeboekt",
-
             "NO_REFUNDS": "Betalingen worden niet gerestitueerd, controleer het nummer goed",
             "NEW_BALANCE": "Nieuw saldo",
             "LATEST_TRANSACTIONS": "Recente transacties",
-
+            "LATEST_BILLS": "Recente rekeningen",
             "NOW": "Nu",
             "AGO": "geleden",
-            "NUMBER_DOES_NOT_EXIST": "Dit nummer bestaat niet",
-            "NOT_ENOUGH_MONEY": "Je hebt niet genoeg geld"
+            "NUMBER_DOES_NOT_EXIST": "Dit nummer bestaat niet / Deze burger is niet in de stad",
+            "NOT_ENOUGH_MONEY": "Je hebt niet genoeg geld",
+            "SELECT_CONTACT": "Selecteer Contact"
         },
         "GARAGE": {
             "TITLTE": "Garage",
-
             "ACTIONS": "Handelingen",
             "MY_CARS": "Mijn voertuigen",
             "OUT": "Uit",
@@ -456,7 +473,12 @@
             "FUEL": "Brandstof",
             "ENGINE": "Motorblok",
             "BODY": "Carrosserie",
-
+            "VEHICLE": "Voertuig",
+            "STATUS": "Status",
+            "LOCKED": "Op slot",
+            "LOCK": "Slot",
+            "UNLOCKED": "Van slot af",
+            "UNLOCK": "Van slot af",
             "WAYPOINT_POPUP": {
                 "TITLE": "Route instellen",
                 "TEXT": "Wil je een route naar je {model} instellen?",
@@ -469,6 +491,12 @@
                 "TEXT_PAID": "Wil je een valet voor je {model} met kenteken ({plate}) voor {amount}?",
                 "CANCEL": "Annuleer",
                 "PROCEED": "Bevestig"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "voertuig {toggle} gehaald/gezet", 
+                "TEXT": "Wil je je voertuig {toggle} halen/zetten?", 
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
             }
         },
         "HOME": {
@@ -486,7 +514,6 @@
             "LOCKED": "Gesloten",
             "GIVE_KEY": "Geef sleutel",
             "MANAGE": "Beheer",
-
             "WAYPOINT_POPUP": {
                 "TITLE": "Route instellen",
                 "TEXT": "Wil je een route naar {home} instellen?",
@@ -505,7 +532,6 @@
                 "CANCEL": "Annuleer",
                 "PROCEED": "Bevestig"
             },
-
             "REMOVE_KEY_POPUP": {
                 "TITLE": "Sleutelhouder",
                 "TEXT": "Weet je zeker dat je de toegang van {name} wilt ontzeggen?",
@@ -523,7 +549,14 @@
             "POST": "Plaatsen",
             "CONTACT": "Contact",
             "REMOVE": "Verwijder",
-
+            "ERROR_POPUP": {
+                "TITLE": "Error",
+                "NO_TITLE": "Je moet een titel toevoegen",
+                "NO_DESCRIPTION": "Je moet een beschrijving toevoegen",
+                "NO_PRICE": "Je moet een prijs invullen",
+                "NO_ATTACHMENTS": "Je moet ten minste één afbeelding bijvoegen",
+                "OK": "OK"
+            },
             "DELETE_POPUP": {
                 "TITLE": "Advertentie verwijderen",
                 "TEXT": "Weet je zeker dat je deze advertentie wilt verwijderen?",
@@ -536,13 +569,17 @@
             "FROM": "Van",
             "CANCEL": "Annuleren",
             "NEW_POST": "Nieuwe advertentie",
-
             "TITLE": "Titel",
             "DESCRIPTION": "Beschrijving",
             "PRICE": "Prijs",
             "POST": "Plaatsen",
             "CALL": "Bellen",
-
+            "ERROR_POPUP": {
+                "TITLE": "Error",
+                "NO_TITLE": "Je moet een titel toevoegen",
+                "NO_DESCRIPTION": "Je moet een beschrijving toevoegen",
+                "OK": "OK"
+            },
             "DELETE_POPUP": {
                 "TITLE": "Advertentie verwijderen",
                 "TEXT": "Weet je zeker dat je deze advertentie wilt verwijderen?",
@@ -560,23 +597,19 @@
             "FROM": "Van",
             "SUBJECT": "Onderwerp",
             "MESSAGE": "Bericht",
-
             "CANCEL": "Annuleer",
             "SEND": "Versturen",
-
             "EMAIL": "E-mail",
             "EMAIL_INVALID": "Ondgeldig e-mailaddres",
             "EMAIL_EXISTS": "E-mailadres is al in gebruik",
             "PASSWORD": "Wachtwoord",
             "WRONG_PASSWORD": "Onjuist wachtwoord",
-
             "LOGIN": "Inloggen",
             "NO_EMAIL": "Heb je nog geen e-mailadres?",
             "CREATE_ONE": "Maak aan",
-
+            "UNREAD": "Niet gelezen",
             "CREATE_MAIL": "E-mailadres maken",
             "ALREADY_HAVE": "Heb je al een e-mailadres?",
-
             "SIGN_OUT_POPUP": {
                 "TITLE": "Uitloggen",
                 "DESCRIPTION": "Weet je zeker dat je wilt uitloggen?",
@@ -591,7 +624,7 @@
             "EDIT": "Bewerken",
             "DELETE": "Verwijder",
             "SET_WAYPOINT": "Markering zetten",
-
+            "SHARE": "Deel",
             "ADD_LOCATION_POPUP": {
                 "TITLE": "Locatie toevoegen",
                 "DESCRIPTION": "Vul de naam in van de locatie die je wilt zetten",
@@ -609,27 +642,23 @@
         },
         "MUSIC": {
             "TITLE": "Muziek",
-
             "LIBRARY": "Bibliotheek",
             "SEARCH": "Zoek",
-
             "ADD_QUEUE": "Aan wachtrij toevoegen",
             "ADD_PLAYLIST": "Zet in een afspeellijst",
             "REMOVE_SONG": "Verwijder nummer",
             "NOT_PLAYING": "Speelt niets af",
+            "EDIT_PLAYLIST": "Afspeellijst bijwerken",
             "DELETE_PLAYLIST": "Verwijder afspeellijst",
             "SEARCH_PLACEHOLDER": "Artiesten, Nummers, Albums, Afspeellijsten",
-
             "SONGS": "Nummers",
             "ALBUMS": "Albums",
             "PLAY": "Speel af",
             "SHUFFLE": "Shuffle",
-
             "ARTIST": "Artiest",
             "ALBUM": "Album",
             "PLAYLIST": "Afspeellijst",
             "SONG": "Nummer",
-
             "SONG_EXISTS_POPUP": {
                 "TITLE": "Opnieuw toevoegen",
                 "DESCRIPTION": "Dit nummer staat al in je afspeellijst",
@@ -638,20 +667,24 @@
             "NEW_PLAYLIST_POPUP": {
                 "TITLE": "Nieuwe afspeellijst",
                 "DESCRIPTION": "Nieuwe afspeellijst aanmaken",
-                "PLACEHOLDER": "Naam lijst",
+                "PLACEHOLDER": "Naam afspeellijst",
                 "CANCEL": "Annuleer",
                 "PROCEED": "Gereed"
+            },
+            "REMOVE_SONG_POPUP": {
+                "TITLE": "Verwijder Nummer",
+                "DESCRIPTION": "Weet je zeker dat je dit nummer van de afspeellijst wilt halen?",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Doorgaan"
             }
         },
         "TINDER": {
-            "TITLE": "Tinder",
-
+            "TITLE": "Spark",
             "LIKES_YOU_TOO": "vindt jou ook leuk!",
             "KEEP_SWIPING": "Blijf swipen",
             "SAY_SOMETHING_NICE": "Zeg iets aardigs",
             "NO_MORE": "We hebben niemand meer kunnen vinden om te swipen, kom later terug!",
             "SEND": "Versturen",
-
             "AGREE_TERMS": "Door te klikken op 'Account aanmaken' ga je akkoord met onze Algemene voorwaarden en het Privacybeleid",
             "CREATE_ACCOUNT": "Account aanmaken",
             "AGE_PUBLIC": "Je leeftijd wordt voor iedereen zichtbaar",
@@ -670,27 +703,23 @@
             "MALE": "Man",
             "FEMALE": "Vrouw",
             "CONTINUE": "Doorgaan",
-
             "NAME": "Naam",
             "PHOTOS": "Foto's",
             "ABOUT_ME": "Over mij",
             "INTERESTED_IN": "Interesses",
             "GENDER": "Geslacht",
             "SAVE": "Opslaan",
-
             "NEW_MATCHES": "Nieuwe matches",
             "MESSAGES": "Berichten",
             "SEARCH_MATCHES": "In matches zoeken"
         },
         "INSTAGRAM": {
-            "TITLE": "Instagram",
-
+            "TITLE": "InstaPic",
             "SEND": "Versturen",
             "POST": "Bericht",
             "MESSAGE_PLACEHOLDER": "Bericht...",
             "NEW_MESSAGE": "Nieuw bericht",
             "NOW": "Zojuist",
-
             "GO_LIVE_POPUP": {
                 "TITLE": "Livevideo starten",
                 "DESCRIPTION": "Weet je zeker dat je een livevideo wilt starten?",
@@ -722,7 +751,29 @@
                 "CANCEL": "Annuleren",
                 "PROCEED": "Afmelden"
             },
-
+            "DELETE_STORY": {
+                "TITLE": "Verwijder verhaal",
+                "DESCRIPTION": "Weet je zeker dat je dit verhaal wilt verwijderen?",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Doorgaan"
+            },
+            "INVITE_LIVE_POPUP": {
+                "TITLE": "Live Uitnodiging",
+                "DESCRIPTION": "{username} heeft je uitgenodigd aan hun live, wil je meedoen?",
+                "NO": "Nee",
+                "YES": "Ja"
+            },
+            "REMOVE_LIVE_POPUP": {
+                "TITLE": "Verwijder {username}",
+                "DESCRIPTION": "Weet je zeker dat je {username} van je live wilt verwijderen?",
+                "CANCEL": "Annuleer",
+                "REMOVE": "Verwijder"
+            },
+            "LEAVE_LIVE_POPUP": {
+                "TITLE": "Verlaat Live",
+                "DESCRIPTION": "Weet je zeker dat je deze live wlt verlaten",
+                "LEAVE": "Verlaten"
+            },
             "LIVE_ENDED": "Livevideo is Beëindigd",
             "COMMENT_PLACEHOLDER": "Opmerking",
             "LIVE": "Live",
@@ -736,20 +787,18 @@
             "NEXT": "Volgende",
             "CAPTION_PLACEHOLDER": "Schrijf een bijschrift...",
             "ACTIVITY": "Activiteit",
-
             "FOLLOW": "Volgen",
             "FOLLOWING": "Volgend",
             "FOLLOWERS": "Volgers",
             "FOLLOWER": "Volger",
+            "REQUESTED": "Aangevraagd",
             "LIKES": "Vind ik leuks",
             "LIKED_BY": "Vind ik leuk door",
             "VIEW_ALL_COMMENTS": "View all {count} comments",
             "FIRST_COMMENT": "Voeg de eerste opmerking toe...",
-
             "NO_ACCOUNT": "De ingevoerde gebruikersnaam hoort niet bij een account",
             "WRONG_USERNAME_OR_PASSWORD": "Onjuiste gebruikersnaam of wachtwoord",
             "LOG_IN": "Aanmelden",
-
             "ACCOUNT_WITH_USERNAME": "An account with this username already exists",
             "CREATE_ACCOUNT": "Registreren",
             "USERNAME_PLACEHOLDER": "Gebruikersnaam",
@@ -757,47 +806,55 @@
             "PASSWORD_PLACEHOLDER": "Wachtwoord",
             "NOT_HAVE_ACCOUNT": "Heb je geen account?",
             "HAVE_ACCOUNT": "Heb je een account?",
-
             "LIKED_PHOTO": "vindt je foto leuk.",
             "LIKED_COMMENT": "vindt je opmerking leuk: {comment}",
             "COMMENTED": "heeft een opmerking geplaatst: {comment}",
             "FOLLOWED": "volgt je nu.",
-
             "DONE": "Klaar",
             "EDIT_PROFILE": "Profiel bewerken",
             "CHANGE_PICTURE": "Profielfoto bewerken",
             "NAME": "Naam",
             "BIO": "Bio",
+            "PRIVATE": "Schakel Privé",
             "SIGN_OUT": "Afmelden",
             "POSTS": "Berichten",
             "MESSAGE": "Bericht",
-
             "SENT_A_PHOTO": "heeft een foto gestuurd",
             "TO": "Aan",
-            "SEND_A_MESSAGE": "Chatbericht sturen.."
+            "SEND_A_MESSAGE": "Chatbericht sturen..",
+            "STORY_VIEWERS": "Kijkers",
+            "PARTICIPANTS": "Deelnemers",
+            "SEEN_BY": "Gezien door {count}",
+            "ADD_ACCOUNT": "Voeg account toe",
+            "INVITE": "Nodig uit",
+            "REMOVE": "Verwijder",
+            "IN_THIS_ROOM": "In deze ruimte",
+            "WHOS_WATCHING": "Wie kijken er?",
+            "FOLLOW_REQUESTS": "Volgverzoeken",
+            "CONFIRM": "Bevestigen",
+            "DELETE": "Verwijder",
+            "ANDOTHERS": "{username} + {amount} andere"
         },
         "TWITTER": {
-            "TITLE": "Twitter",
-
+            "TITLE": "Birdy",
             "SEARCH_FOR": "Zoeken naar '{search}'",
             "START_SEARCHING": "Start met zoeken om Twitter te ontdekken",
             "TRENDING_HASHTAGS": "Trending hashtags",
             "SENT_ATTACHMENT": "heeft een bijlage gestuurd",
             "TO": "Aan",
-
-            "TWEETS": "Tweets",
+            "TWEETS": "Posts",
             "REPLIES": "Antwoorden",
             "MEDIA": "Media",
             "LIKES": "Vind-ik-leuks",
             "CANCEL": "Annuleer",
-            "TWEET": "Tweet",
-            "TWEET_REPLY": "Tweet je antwoord",
+            "TWEET": "Post",
+            "TWEET_REPLY": "Post je antwoord",
             "TWEET_GENERAL": "Wat houdt je bezig?",
-
             "EDIT_PROFILE": "Bewerk profiel",
             "SAVE": "Bewaar",
             "NAME": "Naam",
             "JOIN_DATE": "Lid sinds",
+            "PROTECTED_POSTS": "Bescherm je posts",
             "BIO": "Bio",
             "SIGN_OUT": "Log uit",
             "SIGN_OUT_POPUP": {
@@ -813,14 +870,15 @@
                 "PROCEED": "Ontvolgen"
             },
             "RETWEET_POPUP": {
-                "RETWEET": "Retweet",
-                "UNDO_RETWEET": "Maak Retweet ongedaan",
+                "RETWEET": "Repost",
+                "UNDO_RETWEET": "Maak Repost ongedaan",
                 "DESCRIPTION": "Weet je zeker dat je {action}?",
-                "CANCEL": "Annuleer"
+                "CANCEL": "Annuleer",
+                "PROCEED": "Doorgaan"
             },
             "DELETE_POPUP": {
-                "TITLE": "Verwijder Tweet",
-                "DESCRIPTION": "Weet je zeker dat je deze Tweet wilt verwijderen?",
+                "TITLE": "Verwijder Post",
+                "DESCRIPTION": "Weet je zeker dat je deze Post wilt verwijderen?",
                 "CANCEL": "Annuleer",
                 "PROCEED": "Verwijder"
             },
@@ -833,30 +891,27 @@
                 "DISABLE": "Uit"
             },
             "PROMOTE_POPUP": {
-                "TITLE": "Tweet uitlichten",
-                "DESCRIPTION": "Wil je deze Tweet uitlichten voor {price} voor {views} views?",
+                "TITLE": "Post uitlichten",
+                "DESCRIPTION": "Wil je deze Post uitlichten voor {price} voor {views} views?",
                 "CANCEL": "Annuleer",
                 "PROCEED": "Doorgaan"
             },
             "YOU": "Jij",
             "FOLLOW": "Volg",
+            "PENDING": "In afwachting",
             "FOLLOWING": "Volgend",
             "FOLLOWERS": "Volgers",
-            "RETWEETED": "Geretweet",
+            "RETWEETED": "Gerepost",
             "REPLYING_TO": "Antwoorden op {name}",
-            "RETWEETED_BY": "Geretweet door",
+            "RETWEETED_BY": "Gerepost door",
             "LIKED_BY": "Vind-ik-leuk door",
-
             "ALL": "Alle",
             "NOTIFICATIONS": "Meldingen",
-
             "FOLLOWS_YOU": "Volgt je nu",
             "JOINED": "Lid sinds {date}",
-
-            "LIKED_TWEET": "vind je tweet leuk",
-            "RETWEETED_TWEET": "heeft je Tweet geretweet",
+            "LIKED_TWEET": "vind je post leuk",
+            "RETWEETED_TWEET": "heeft je Post gerepost",
             "FOLLOWED": "volgt je nu",
-
             "SIGN_UP_TEXT": "Bekijk wat er nu in de wereld gebeurt.",
             "TERMS_OF_SERVICE": "Door je te registreren, ga je akkoord met de Algemene voorwaarden en het Privacybeleid.",
             "HAS_ACCOUNT": "Heb je al een account?",
@@ -867,36 +922,39 @@
             "GET_STARTED": "Voer om te beginnen eerst je @gebruikersnaam in",
             "FORGOT_PASSWORD": "Wachtwoord vergeten?",
             "ENTER_PASSWORD": "Voer je wachtwoord in",
-
             "SEARCH_DIRECT_MESSAGES": "Doorzoek privéberichten",
             "SEARCH_TWITTER": "Doorzoek Twitter",
             "MESSAGE_PLACEHOLDER": "Bericht...",
             "NOW": "Zojuist",
-
             "LOGIN": "Inloggen",
             "CREATE_ACCOUNT": "Account aanmaken",
             "PROMOTE": "Uitlichten",
-            "PIN": "Tweet vastpinnen"
-            
+            "PIN": "Post vastpinnen",
+            "UNPIN": "Post losmaken",
+            "NEW_MESSAGE": "Nieuw bericht",
+            "PROMOTED": "Gepromoot",
+            "ADD_ACCOUNT": "Voeg account toe",
+            "FOLLOWER_REQUESTS": "Volgverzoeken",
+            "NEW_POSTS": "Nieuwe Posts"
         },
         "SERVICES": {
             "ACTIONS": "Acties",
             "COMPANIES": "Hulpdiensten",
             "MESSAGES": "Berichten",
-
             "CLOSED": "Gesloten",
             "YOUR_MESSAGES": "Jouw berichten",
             "JOB_MESSAGES": "Bedrijf berichten",
-
             "DUTY": "Dienst",
             "GO_ON_DUTY": "Ga in dienst",
             "GO_OFF_DUTY": "Ga uit dienst",
+            "JOB_CALLS": "Werkoproepen",
+            "DISABLE_CALLS": "Schakel oproepen uit",
+            "ENABLE_CALLS": "Schakle oproepen in",
             "BALANCE": "Balans",
             "MANAGE_EMPLOYEES": "Werknemer management",
             "HIRE": "Aannemen",
             "SET_GRADE": "Verander rang",
             "UNEMPLOYED": "Je bent werkloos",
-
             "DEPOSIT_POPUP": {
                 "TITLE": "Storten",
                 "DESCRIPTION": "Stort geld in het bedrijfsaccount",
@@ -931,6 +989,186 @@
                 "CANCEL": "Annuleer",
                 "PROCEED": "Doorgaan"
             }
+        },
+        "CRYPTO": {
+            "TITLE": "Crypto",
+            "BALANCE": "Geschat Saldo",
+            "BUY": "Koop",
+            "SELL": "Verkoop",
+            "TRANSFER": "Verstuur",
+            "SELL_ALL": "Verkoop Alles",
+            "NO_MONEY": "Je hebt niet genoeg geld.",
+            "NO_COINS": "Je hebt geen van deze munt.",
+            "NOT_ENOUGH_COINS": "Je hebt niet genoeg munten",
+            "ATLEAST_ONE_COIN": "Je moet ten minste één {currency} {action}",
+            "INVALID_COIN": "Ongeldige munt",
+            "NO_NUMBER": "Geen Telefoonnummer opgegeven",
+            "INVALID_NUMBER": "Ongeldig Telefoonnummer (de burger is mogelijk niet online)",
+            "ERROR": "Error",
+            "CLOSE": "Sluiten",
+            "BUY_POPUP": {
+                "TITLE": "Koop {coin}",
+                "DESCRIPTION": "Voer de hoeveelheid {coin} in (in $) dat u wilt kopen",
+                "PLACEHOLDER": "$1000",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Doorgaan"
+            },
+            "SELL_POPUP": {
+                "TITLE": "Verkoop {coin}",
+                "DESCRIPTION": "Voer de hoeveelheid {coin} in (in $) dat u wilt verkopen",
+                "PLACEHOLDER": "$1000"
+            },
+            "SELL_ALL_POPUP": {
+                "TITLE": "Verkoop alle {coin}",
+                "DESCRIPTION": "Weet je zeker dat je als je {coin} wilt verkopen voor ${amount}?"
+            },
+            "TRANSFER_POPUP": {
+                "TITLE": "Verstuur {coin}",
+                "DESCRIPTION": "Voer de hoeveelheid {coin} in (in $) dat u wilt versturen (selecteer het contact in de volgende stap)",
+                "PLACEHOLDER": "$1000",
+                "NEXT": "Volgende"
+            },
+            "SUCCESSFULLY_TRANSFERED_POPUP": {
+                "TITLE": "Successvol verstuurd",
+                "DESCRIPTION": "Je hebt succesvol ${amount} aan {coin} verstuurd naar {number}",
+                "CLOSE": "Sluiten"
+            }
+        },
+        "TIKTOK": {
+            "TITLE": "Trendy",
+            "HOME": "Home",
+            "DISCOVER": "Ontdek",
+            "INBOX": "Inbox",
+            "PROFILE": "Profiel",
+            "COMMENTS_TITLE": "{count} reacties",
+            "REPLY": "Reageer",
+            "VIEW_REPLIES": "Bekijk reacties",
+            "ADD_COMMENT": "Voeg een reactie toe...",
+            "REPLY_TO": "Reageer op {name}",
+            "PIN_COMMENT": "Reactie vastzetten",
+            "UNPIN_COMMENT": "Reactie losmaken",
+            "DELETE_COMMENT": "Verwijder reactie",
+            "DELETE": "Verwijder",
+            "PINNED": "Vastgezet",
+            "PIN_VIDEO": "Video vastzetten",
+            "UNPIN_VIDEO": "Video losmaken",
+            "PIN": "vastzetten",
+            "UNPIN": "losmaken",
+            "MAX_PINNED_TITLE": "Max vastgezet",
+            "MAX_PINNED_DESCRIPTION": "Je kunt maximaal 3 video's vastzetten",
+            "OK": "OK",
+            "CREATOR": "Maker",
+            "LIKED_BY_CREATOR": "geliked door de maker",
+            "PIN_VIDEO_POPUP": {
+                "TITLE": "Video vastzetten",
+                "DESCRIPTION": "Weet je zeker dat je deze video wilt {action}?",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Doorgaan"
+            },
+            "DELETE_VIDEO_POPUP": {
+                "TITLE": "Verwijder Video",
+                "DESCRIPTION": "Weet je zeker dat je deze video wilt verwijderen?",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Doorgaan"
+            },
+            "FAILED_UPLOAD_POPUP": {
+                "TITLE": "Gefaald om de TTS te uploaden",
+                "DESCRIPTION": "De servereigenaar heeft de audio-upload niet correct ingesteld. Neem contact met hen op om dit probleem op te lossen.",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Negeer"
+            },
+            "SHARE_TITLE": "Delen met",
+            "SHARE": "Delen",
+            "REPORT": "Rapporteer",
+            "SAVE_VIDEO": "Video opslaan",
+            "ADD_FAVOURITE": "Voeg toe aan favorieten",
+            "CANCEL": "Annuleer",
+            "GO_BACK": "Ga terug",
+            "FOLLOWING": "Volgend",
+            "FOLLOWERS": "Volgers",
+            "UNFOLLOW": "Ontvolgen",
+            "FOLLOW": "Volgen",
+            "FOR_YOU": "Voor jou",
+            "VIDEOS": "Video's",
+            "LIKES": "Vind ik leuks",
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Ontvolgen",
+                "DESCRIPTION": "Weet je zeker dat je {name} wilt ontvolgen?",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Doorgaan"
+            },
+            "LOGIN_TITLE": "Log in op Trendy",
+            "LOGIN_SUBTITLE": "Beheer meldingen over uw accountcontrole, geef commentaar op video's en meer.",
+            "SIGNUP_TITLE": "Registreer voor Trendy",
+            "SIGNUP_SUBTITLE": "Maak een profiel, volg andere accounts, maak je eigen video's en meer.",
+            "NAME": "Naam",
+            "USERNAME": "Gebruikersnaam",
+            "PASSWORD": "Wachtwoord",
+            "BIO": "Bio",
+            "SHOW_LIKES": "Toon vind ik leuks",
+            "LOGIN": "Log in",
+            "SIGNUP": "Registreer",
+            "NO_ACCOUNT": "Heb je nog geen account?",
+            "ALREADY_ACCOUNT": "Heb je al een account?",
+            "SEARCH_PLACEHOLDER": "Zoek naar gebruikers",
+            "STARTED_FOLLOWING": "volgt jou nu",
+            "LIKED_VIDEO": "vind jouw video leuk.",
+            "LIKED_COMMENT": "vind jouw reactie leuk",
+            "SAVED_VIDEO": "heeft jou video toegevoegd aan favorieten.",
+            "COMMENTED": "Reageerde: {comment}",
+            "REPLIED": "reageerde op jouw reactie: {comment}",
+            "EDIT_PROFILE": "Bewerk profiel",
+            "MESSAGE": "Bericht",
+            "CHANGE_PHOTO": "Verander Foto",
+            "LOGOUT": "Uitloggen",
+            "ADD_TO_YOUR_PROFILE": "Toevoegen aan je profiel",
+            "LIKED_HIDDEN_TITLE": "Deze gebruikers leuk gevonden video's zijn privé.",
+            "LIKED_HIDDEN_SUBTITLE": "Video's leuk gevonden door {name} zijn momenteel verborgen.",
+            "INVALID_ACCOUNT_POPUP": {
+                "TITLE": "Ongeldig {name}",
+                "DESCRIPTION": "Je bent niet ingelogd op het {name} account dat u heeft ingevoerd. Corrigeer dit alstublieft.",
+                "OK": "OK"
+            },
+            "REMOVE_ACCOUNT_POPUP": {
+                "TITLE": "Verwijder {name} account",
+                "DESCRIPTION": "Weet je zeker dat je je {name} account van je profiel wilt verwijderen?",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Doorgaan"
+            },
+            "ADD_ACCOUNT_TITLE": "Account toevoegen",
+            "ADD_ACCOUNT": "Voeg {name} toe aan je profiel",
+            "UPLOAD_VIDEO": "Video Uploaden",
+            "PREVIEW": "Voorbeeld",
+            "CAPTION": "Beschrijving",
+            "CAPTION_PLACEHOLDER": "Beschrijving toevoegen...",
+            "TTS": "Text to Speech (TTS)",
+            "TTS_PLACEHOLDER": "TTS toevoegen...",
+            "MUSIC": "Muziek",
+            "SELECT_MUSIC": "Selecteer Muziek",
+            "OPTIONAL": "Optioneel",
+            "DIRECT_MESSAGES": "Directe berichten",
+            "ALL_ACTIVITY": "Alle Activiteit",
+            "NO_NOTIFICATIONS": "Notificaties zijn niet beschikbaar",
+            "NO_NOTIFICATIONS_SUBTITLE": "Notificatie over je accout zullen hier worden weergegeven.",
+            "NO_FOLLOWING_TITLE": "Begin met volgen van mensen en hun video's zullen hier worden weergegeven",
+            "NO_MESSAGES_TITLE": "Bericht je vrienden",
+            "NO_MESSAGES_SUBTITLE": "Deel video's of start een gesprek"
+        },
+        "VOICEMEMO": {
+            "TITLE": "Spraakbericht",
+            "ALL_RECORDINGS": "Alle opnames",
+            "DEFAULT_NAME": "Nieuwe opname",
+            "DELETE_POPUP": {
+                "TITLE": "verwijder spraakbericht",
+                "DESCRIPTION": "Weet je zeker dat je dit spraakbericht wilt verwijderen",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Doorgaan"
+            },
+            "NO_MICROPHONE_POPUP": {
+                "TITLE": "Geen Microfoon",
+                "DESCRIPTION": "We hebben geen toegang tot je microfoon. Zorg ervoor dat je er een hebt aangesloten en accepteer de pop-up rechtsboven in je scherm",
+                "OK": "OK"
+            }
         }
     },
     "COMPONENTS": {
@@ -957,10 +1195,10 @@
             "COPY_PHOTO": "Foto kopiëren",
             "USE_WALLPAPER": "Als achtergrond gebruiken",
             "COPY_NUMBER": "Nummer kopiëren",
-
             "AIRDROP_SENT": "Verstuurd",
             "AIRDROP_ACCEPTED": "Accepteren",
             "AIRDROP_DECLINED": "Weigeren",
+            "AIRDROP_NO_USERS": "Geen telefoons in de buurt",
             "WALLPAPER_POPUP": {
                 "TITLE": "Als achtergrond gebruiken",
                 "TEXT": "Weet je zeker dat je deze afbeelding als achtergrond wilt gebruiken?",
@@ -974,44 +1212,80 @@
             "VIDEO": "video",
             "PHOTO": "afbeelding",
             "CONTACT": "contact",
+            "LOCATION": "Locatie",
+            "NOTE": "Notitie",
+            "VOICEMEMO": "spraakbericht",
+            "PLAYLIST": "Afspeellijst",
             "DECLINE": "Weiger",
             "ACCEPT": "Accepteer"
+        },
+        "DYNAMICISLAND": {
+            "SILENT": "Stil",
+            "RING": "Beltoon",
+            "TIMER": "Timer"
+        },
+        "MUSIC_SELECTOR": {
+            "CANCEL": "Annuleer",
+            "NO-RESULTS": "Geen muziek geconfigureerd, vertel de servereigenaar om nummers toe te voegen",
+            "SEARCH": "Zoek een nummer",
+            "SELECT_POPUP": {
+                "TITLE": "Selecteer nummer",
+                "DESCRIPTION": "Weet je zeker dat je {song} wilt selecteren",
+                "CANCEL": "Annuleer",
+                "PROCEED": "Doorgaan"
+            }
+        },
+        "BATTERY": {
+            "LOW_BATTERY": "Batterij bijna leeg",
+            "BATTERY_REMAINING": "{percent}% battery over",
+            "LOW_POWER_MODE": "Energiebesparende modus",
+            "CLOSE": "Sluiten"
+        },
+        "COLOR_PICKER": {
+            "COLOR": "Kleur"
         }
     },
     "SETUP": {
         "HELLO": "Hallo",
         "NEXT": "Tik om te openen",
-
         "CREATE_PASSCODE": "Maak code aan",
         "CREATE_PASSCODE_TEXT": "Een toegangscode beschermt je gegevens en wordt gebruikt om je toestel te ontgrendelen.",
         "SKIP": "Stap overslaan",
-
         "FACE_ID_SETUP": "Face ID",
         "FACE_ID_TEXT": "Stel een Face ID in om je toestel automatisch te ontgrendelen zodra je gezicht in het frame is.",
         "ENABLE_FACE_ID": "Face ID inschakelen",
-
         "APPEARANCE": "Uiterlijk",
         "APPEARANCE_TEXT": "Selecteer een licht of een donker uiterlijk.",
-
         "CONTINUE": "Doorgaan",
         "WELCOME_TO": "Welkom bij",
         "CLICK": "Tik om te beginnen"
     },
     "HOMESCREEN": {
         "DONE": "Opslaan",
-        "REMOVE": "Verwijder",
-        "REMOVE_TEXT": "Als je deze app verwijdert, verwijder je geen gegevens. De app kan later worden geïnstalleerd vanuit de App Store.",
-        "BUTTON_CANCEL": "Annuleer",
-        "BUTTON_DELETE": "Verwijder"
+        "REMOVE_APP_POPUP": {
+            "TITLE": "Remove '{app}'?",
+            "DESCRIPTION": "Als je deze app verwijdert, verwijder je geen gegevens. De app kan later worden geïnstalleerd vanuit de App Store.",
+            "CANCEL": "Annuleer",
+            "PROCEED": "Verwijder"
+        }
     },
     "LOCKSCREEN": {
         "ENTER_PASSCODE": "Voer toegangscode in",
-        "DELETE": "Verwijder"
+        "DELETE": "Verwijder",
+        "FONT_AND_COLOR": "Font & Kleur"
+    },
+    "MISC": {
+        "AIRPLANE_MODE_POPUP": {
+            "TITLE": "Error",
+            "DESCRIPTION": "Je probeert een actie uit te voeren waarvoor internettoegang nodig is. Schakel de vliegtuigmodus uit om door te gaan.",
+            "OK": "OK"
+        }
     },
     "BACKEND": {
         "CALLS": {
             "NO_CALLER_ID": "Onbekend nummer",
-            "MISSED_CALL": "Gemiste oproep"
+            "MISSED_CALL": "Gemiste oproep",
+            "NEW_VOICEMAIL": "Voicemail"
         },
         "GARAGE": {
             "VALET": "Valet",
@@ -1023,7 +1297,17 @@
         },
         "INSTAGRAM": {
             "NOT_ALLOWED_LIVE": "Je hebt geen toegang om live te gaan",
-            "STARTED_LIVE": "{username} is een livevideo gestart"
+            "NOT_ALLOWED_STORY": "Je hebt geen toegang om verhalen te posten",
+            "STARTED_LIVE": "{username} is een livevideo gestart",
+            "JOINED_LIVE": "{invitee} gaat nu live met {inviter}.",
+            "LIKED_PHOTO": "{username} vind je foto leuk",
+            "LIKED_COMMENT": "{username} vind je reactie leuk",
+            "COMMENTED": "{username} heeft op je post gereageerd",
+            "NEW_FOLLOWER": "{username} volgt jou nu",
+            "FOLLOW_REQUEST_ACCEPTED_TITLE": "Volgverzoek geaccepteerd",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "{displayName} ({username}) heeft je volgverzoek geaccepteerd.",
+            "NEW_FOLLOW_REQUEST_TITLE": "Nieuw volgverzoek",
+            "NEW_FOLLOW_REQUEST_DESCRIPTION": "{displayName} ({username}) heeft gevraagd je te volgen."
         },
         "TINDER": {
             "NEW_MATCH": "Nieuwe match",
@@ -1037,7 +1321,70 @@
             "CHANGE_MODE": "Druk op {key} {key2} om de camera modus te veranderen"
         },
         "SERVICES": {
-            "NEW_MESSAGE": "Nieuw bericht van hulpdienst"
+            "NEW_MESSAGE": "Nieuw bericht van hulpdienst",
+            "ANONYMOUS": "Anoniem"
+        },
+        "TWITTER": {
+            "LIKE": "Leuk gevonden door {displayName}:",
+            "RETWEET": "Herpost door {displayName}:",
+            "REPLY": "{displayName} reageerde:",
+            "FOLLOW": "{username} volgt jou nu",
+            "TWEET": "{username} heeft zojuist gepost",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "@{username} heeft jouw volgverzoek geaccepteerd.",
+            "NEW_FOLLOW_REQUEST": "@{username} heeft een volgverzoek gestuurd!"
+        },
+        "TIKTOK": {
+            "LIKE": "{displayName} vind je video leuk.",
+            "COMMENT": "{displayName} heeft op je video gereageerd.",
+            "FOLLOW": "{displayName} volgt je nu.",
+            "SAVE": "{displayName} heeft je video toegevoegd aan favorieten.",
+            "LIKED_COMMENT": "{displayName} vind je reactie leuk.",
+            "REPLIED_COMMENT": "{displayName} heeft gereageerd op je reactie.",
+            "DM": "{displayName}"
+        },
+        "MISC": {
+            "VERIFIED": "Je account is geverifieerd",
+            "X_PHONE": "{name}'s Telefoon"
+        },
+        "CRYPTO": {
+            "RECEIVED_TRANSFER_TITLE": "Ontvangen {coin}",
+            "RECEIVED_TRANSFER_DESCRIPTION": "Je hebt {amount} {coin} ontvangen, waarde ${value}"
+        },
+        "LOGS": {
+            "MAIL_TITLE": "Email",
+            "NEW_MAIL": "{sender} heeft een email gestuurd naar {recipient}",
+            "MESSAGE_TITLE": "Tekstbericht",
+            "NEW_MESSAGE": "{sender} heeft een tekstbericht gestuurd naar {recipient}: {message}",
+            "CALL_ENDED": "Gesprek Beëindigd",
+            "CALL_DESCRIPTION": "Een gesprek tussen `{caller}` en `{callee}` dat {duration}s duurde is Beëindigd. Opgenomen: `{answered}`",
+            "NEW_SERVICE_TITLE": "Nieuw bericht",
+            "NEW_SERVICE_CONTENT": "{sender} heeft een bericht naar {channel} gestuurd: {message}",
+            "RECEIVED_TITLE": "Ontvangen ${amount}",
+            "PAID_TITLE": "Betaald ${amount}",
+            "TRANSACTION": "{number} heeft een betaling gedaan van ${amount} naar {company}",
+            "BOUGHT_CRYPTO": "Crypto gekocht",
+            "SOLD_CRYPTO": "Crypto verkocht",
+            "CRYPTO_DETAILS": "**Munt**: {coin}\n**hoeveelheid**: {amount}\n**Waarde**: ${price}",
+            "TRANSFERRED_CRYPTO": "Verstuurde crypto",
+            "TRANSFERRED_CRYPTO_DETAILS": "**Munt**: {coin}\n**hoeveelheid**: {amount}\n**Naar**: {to}\n**Van**: {from}",
+            "DARKCHAT_CREATED_TITLE": "Kanaal aangemaakt",
+            "DARKCHAT_CREATED_DESCRIPTION": "{creator} heeft een kanaal aangemaakt {channel}",
+            "DARKCHAT_MESSAGE_TITLE": "Nieuw Bericht",
+            "DARKCHAT_MESSAGE_DESCRIPTION": "{sender} heeft een bericht verstuurd in {channel}: {message}",
+            "MARKETPLACE_NEW_TITLE": "Nieuwe advertentie",
+            "MARKETPLACE_NEW_DESCRIPTION": "**Verkoper**: {seller}\n**Titel**: {title}\n**Prijs**: ${price}\n**Beschrijving**: {description}\n**Bijlagen**: {attachments}\n**ID:** {id}",
+            "MARKETPLACE_DELETED": "Post verwijderd",
+            "YELLOWPAGES_NEW_TITLE": "Nieuwe post",
+            "YELLOWPAGES_NEW_DESCRIPTION": "**Titel**: {title}\n**Beschrijving**: {description}\n**Bijlagen**: {attachment}\n**ID:** {id}",
+            "YELLOWPAGES_DELETED": "Post verwijderd",
+            "LIVE_TITLE": "Live",
+            "STARTED_LIVE": "{username} is een livevideo gestart",
+            "ENDED_LIVE": "{username} heeft een livevideo beëindigd",
+            "ADDED_STORY": "{username} heeft een foto op hun verhaal gezet",
+            "TRENDY_UPLOAD_TITLE": "Nieuwe video",
+            "TRENDY_UPLOAD_DESCRIPTION": "{username} heeft een nieuwe video geplaatst met de beschrijving {caption} en id {id}",
+            "TRENDY_DELETE_TITLE": "Heeft een video verwijderd",
+            "TRENDY_DELETE_DESCRIPTION": "{username} heeft een video verwijderd met het id {id}"
         }
     }
 }
