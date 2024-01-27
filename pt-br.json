@@ -10,7 +10,7 @@
 
   "APPS": {
       "SETTINGS": {
-          "TITLE": "Configurações",
+          "TITLE": "Ajustes",
           "BACK": "Voltar",
           "DONE": "Feito",
           "EDIT": "Editar",
@@ -108,14 +108,14 @@
           "CREATE_BACKUP": "Criar Backup",
           "SAVE_BACKUP_POPUP": {
               "TITLE": "Criar Backup",
-              "TEXT": "Tem certeza que quer fazer backup do seu aparelho? (Vai salvar contatos, fotos e configurações)",
+              "TEXT": "Tem certeza que quer fazer backup do seu aparelho? (Vai salvar contatos, fotos e ajustes)",
               "CANCEL": "Cancelar",
               "CONFIRM": "Confirmar"
           },
           "BACKUPS": "Backups",
           "APPLY_BACKUP_POPUP": {
               "TITLE": "Aplicar Backup",
-              "TEXT": "Tem certeza que quer aplicar o backup? (Vai substituir contatos, fotos e configurações)",
+              "TEXT": "Tem certeza que quer aplicar o backup? (Vai substituir contatos, fotos e ajustes)",
               "CANCEL": "Cancelar",
               "CONFIRM": "Confirmar"
           },
