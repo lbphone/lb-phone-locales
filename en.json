@@ -1381,8 +1381,8 @@
 		"MAIL": {
 			"AUTOMATIC_PASSWORD": {
 				"SENDER": "System",
-				"SUBJECT": "Your Password",
-				"MESSAGE": "Hey,\n\nYour automatic email address is {address} and your password is {password}"
+				"SUBJECT": "Your Email Address",
+				"MESSAGE": "Hey,\n\nYour automatically generated email address is {address} and your password is {password}"
 			}
 		},
 		"LOGS": {
