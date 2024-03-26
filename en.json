@@ -75,28 +75,28 @@
                 "CANCEL": "Cancel",
                 "CONFIRM": "Unblock"
             },
-            "FACE_ID_PASSWORD": "Face ID & Passcode",
+            "FACE_ID_PASSWORD": "Face Unlock & Passcode",
             "ENTER_PASSCODE": "Enter Passcode",
             "PASSCODE": "Passcode",
-            "FACE_ID": "Face ID",
-            "RESET_FACE_ID": "Reset Face ID",
-            "ENABLE_FACE_ID": "Enable Face ID",
+            "FACE_ID": "Face Unlock",
+            "RESET_FACE_ID": "Reset Face Unlock",
+            "ENABLE_FACE_ID": "Enable Face Unlock",
             "PIN_CODE": "Pin code",
             "DISABLE_FACE_ID_POPUP": {
-                "TITLE": "Turn Off Face ID",
-                "TEXT": "Are you sure you want to turn off Face ID?",
+                "TITLE": "Turn Off Face Unlock",
+                "TEXT": "Are you sure you want to turn off Face Unlock?",
                 "CANCEL": "Cancel",
                 "CONFIRM": "Turn Off"
             },
             "ENABLE_FACE_ID_POPUP": {
-                "TITLE": "Enable Face ID",
-                "TEXT": "Are you sure you want to enable Face ID?",
+                "TITLE": "Enable Face Unlock",
+                "TEXT": "Are you sure you want to enable Face Unlock?",
                 "CANCEL": "Cancel",
                 "CONFIRM": "Enable"
             },
             "DISABLE_PIN_POPUP": {
                 "TITLE": "Turn Off Pin Code",
-                "TEXT": "Are you sure you want to turn off Pin Code? (This will also disable Face ID)",
+                "TEXT": "Are you sure you want to turn off Pin Code? (This will also disable Face Unlock)",
                 "CANCEL": "Cancel",
                 "CONFIRM": "Confirm"
             },
@@ -279,6 +279,13 @@
                 "CANCEL": "Cancel",
                 "PROCEED": "Delete"
             },
+            "IMPORT_IMAGE_POPUP": {
+                "TITLE": "Import to Album",
+                "DESCRIPTION": "Import an image to this album",
+                "CANCEL": "Cancel",
+                "PROCEED": "Import",
+                "PLACEHOLDER": "Image URL"
+            },
 
             "NO_PHOTOS": "No Photos or Videos",
             "NO_PHOTOS_INSTRUCTIONS": "You can take photos and videos using the camera",
@@ -298,7 +305,10 @@
             "YEARS": "Years",
             "MONTHS": "Months",
             "DAYS": "Days",
-            "ALL_PHOTOS": "All Photos"
+            "ALL_PHOTOS": "All Photos",
+
+            "FAVOURITES": "Favourites",
+            "RECENTS": "Recents"
         },
         "WEATHER": {
             "TITLE": "Weather",
@@ -396,7 +406,9 @@
                 "TITLE": "Delete conversation",
                 "DESCRIPTION": "Are you sure you want to delete this conversation?"
             },
-            "MARK_AS_READ": "Mark as read"
+            "MARK_AS_READ": "Mark as read",
+            "MESSAGE_DELETED": "Message deleted",
+            "OPEN_IN_MAPS": "Open in Maps"
         },
         "PHONE": {
             "TITLE": "Phone",
@@ -1258,6 +1270,7 @@
         "GALLERY": {
             "CANCEL": "Cancel",
             "EXTERNAL_URL": "External URL",
+            "EXTERNAL_URL_BLACKLISTED": "This URL is blacklisted",
             "NO_IMAGES": "No images"
         },
         "NOTIFICATIONS": {
@@ -1325,9 +1338,9 @@
         "CREATE_PASSCODE": "Create a Passcode",
         "CREATE_PASSCODE_TEXT": "A passcode protects your data and is used to unlock your Phone.",
         "SKIP": "Skip this step",
-        "FACE_ID_SETUP": "Face ID Setup",
-        "FACE_ID_TEXT": "Set up Face ID to automatically unlock your phone whilst your face is in frame.",
-        "ENABLE_FACE_ID": "Enable Face ID",
+        "FACE_ID_SETUP": "Face Unlock Setup",
+        "FACE_ID_TEXT": "Set up Face Unlock to automatically unlock your phone whilst your face is in frame.",
+        "ENABLE_FACE_ID": "Enable Face Unlock",
         "APPEARANCE": "Appearance",
         "APPEARANCE_TEXT": "Select a light or dark appearance",
         "CONTINUE": "Continue",
@@ -1475,7 +1488,12 @@
             "TRENDY_UPLOAD_TITLE": "New video",
             "TRENDY_UPLOAD_DESCRIPTION": "{username} uploaded a new video with the caption {caption} and id {id}",
             "TRENDY_DELETE_TITLE": "Deleted a video",
-            "TRENDY_DELETE_DESCRIPTION": "{username} deleted a video with the id {id}"
+            "TRENDY_DELETE_DESCRIPTION": "{username} deleted a video with the id {id}",
+
+            "UPLOADED_MEDIA": "Uploaded media",
+            "UPLOADED_MEDIA_DESCRIPTION": "Took a {type} with the id {id}\n{link}",
+            "VIDEO": "video",
+            "PHOTO": "photo"
         }
     }
 }
