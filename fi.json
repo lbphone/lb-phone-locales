@@ -1,0 +1,1533 @@
+{
+	"LABEL": "Suomi",
+	"SEARCH": "Haku",
+	"CANCEL": "Peruuta",
+	"NOW": "nyt",
+	"D": "pv",
+	"H": "t",
+	"M": "min",
+	"S": "s",
+
+	"APP_NAMES": {
+		"Phone": "Puhelin",
+		"Messages": "Viestit",
+		"Notes": "Muistiinpanot",
+		"Settings": "Asetukset",
+		"Photos": "Kuvat",
+		"Camera": "Kamera",
+		"Weather": "Sää",
+		"Calculator": "Laskin",
+		"AppStore": "Sovellukset",
+		"Clock": "Kello",
+		"Maps": "Kartat",
+		"YellowPages": "Keltaiset Sivut",
+		"MarketPlace": "Kauppapaikka",
+		"Wallet": "Lompakko",
+		"Home": "Koti",
+		"Garage": "Autotalli",
+		"Music": "Musiikki",
+        "DarkChat": "Dark Chat",
+        "Crypto": "Crypto",
+		"Mail": "Sähköposti",
+		"Services": "Palvelut",
+		"VoiceMemo": "Äänitteet",
+        "Twitter": "Birdy",
+        "Instagram": "InstaPic",
+        "Tinder": "Sparkles",
+        "TikTok": "Trendy"
+	},
+
+	"APPS": {
+		"SETTINGS": {
+			"TITLE": "Asetukset",
+			"BACK": "Takaisin",
+			"DONE": "Valmis",
+			"EDIT": "Muokkaa",
+			"AIRPLANE_MODE": "Lentokonetila",
+			"STREAMER_MODE": "Streamer-tila",
+			"BLUETOOTH": "Bluetooth",
+			"GENERAL": "Yleiset",
+			"ABOUT": "Tietoja",
+			"NAME": "Nimi",
+			"VERSION": "Versio",
+			"MODEL_NAME": "Mallin nimi",
+			"SERIAL_NUMBER": "Sarjanumero",
+			"DEVELOPED_BY": "Kehittäjä",
+			"PURCHASE_AT": "Ostettu kohdasta",
+			"SONGS": "Kappaleet",
+			"VIDEOS": "Videot",
+			"PHOTOS": "Valokuvat",
+			"APPLICATIONS": "Sovellukset",
+			"CAPACITY": "Kapasiteetti",
+			"AVAILABLE": "Vapaa",
+			"SOFTWARE_UPDATE": "Ohjelmistopäivitys",
+			"AUTOMATIC_UPDATES": "Automaattiset päivitykset",
+			"DATE_TIME": "Päiväys ja aika",
+			"24_HOUR_TIME": "24 tunnin aika",
+			"SET_AUTOMATICALLY": "Aseta automaattisesti",
+			"TIME_ZONE": "Aikavyöhyke",
+			"LANGUAGE_REGION": "Kieli ja alue",
+			"LANGUAGE": "Kieli",
+			"TEMPERATURE": "Lämpötila",
+			"CELCIUS": "Celsius",
+			"FAHRENHEIT": "Fahrenheit",
+			"BATTERY": "Akku",
+			"SOUND_HAPTICS": "Ääni ja haptiikka",
+			"SOUND_HAPTICS_PATTERNS": "Ääni- ja haptiikkakuvioita",
+			"RINGTONE": "Soittoääni",
+			"TEXT_TONE": "Tekstin sävy",
+			"RINGTONE_VOLUME": "Soittoäänen ja ilmoituksen äänenvoimakkuus",
+			"DEFAULT": "Oletus",
+			"PHONE_STORAGE": "Puhelimen tallennustila",
+			"STORAGE": "Tallennustila",
+			"USED": "Käytetty",
+			"OF": "/",
+			"DISPLAY_BRIGHTNESS": "Näyttö ja kirkkaus",
+			"APPEARANCE": "Ulkoasu",
+			"AUTOMATIC": "Automaattinen",
+			"BRIGHTNESS": "Kirkkaus",
+			"PHONE_SCALE": "Puhelimen mittakaava",
+			"FRAME_COLOR": "Runkoväri",
+			"WALLPAPER": "Taustakuva",
+			"WALLPAPERS": "Taustakuvat",
+			"CHOOSE_NEW_WALLPAPER": "Valitse uusi taustakuva",
+			"NOTIFICATIONS": "Ilmoitukset",
+			"ALLOW_NOTIFICATIONS": "Salli ilmoitukset",
+			"SOUNDS": "Äänet",
+			"PHONE": "Puhelin",
+			"BLOCKED_CONTACTS": "Estetyt yhteyshenkilöt",
+			"MY_NUMBER": "Oma numero",
+			"SHOW_CALLER_ID": "Näytä soittajan tunnus",
+			"UNBLOCK_POPUP": {
+				"TITLE": "Poista estäminen",
+				"TEXT": "Haluatko varmasti poistaa tämän numeron estolistalta?",
+				"CANCEL": "Peruuta",
+				"CONFIRM": "Poista esto"
+
+			},
+            "FACE_ID_PASSWORD": "Kasvontunnistus ja PIN-koodi",
+            "ENTER_PASSCODE": "Syötä PIN-koodi",
+            "PASSCODE": "PIN-koodi",
+            "FACE_ID": "Kasvontunnistus",
+            "RESET_FACE_ID": "Nollaa kasvontunnistus",
+            "ENABLE_FACE_ID": "Ota käyttöön kasvontunnistus",
+            "PIN_CODE": "PIN-koodi",
+            "DISABLE_FACE_ID_POPUP": {
+                "TITLE": "Poista kasvontunnistus käytöstä",
+                "TEXT": "Haluatko varmasti poistaa kasvontunnistuksen käytöstä?",
+                "CANCEL": "Peruuta",
+                "CONFIRM": "Poista käytöstä"
+            },
+            "ENABLE_FACE_ID_POPUP": {
+                "TITLE": "Ota käyttöön kasvontunnistus",
+                "TEXT": "Haluatko varmasti ottaa kasvontunnistuksen käyttöön?",
+                "CANCEL": "Peruuta",
+                "CONFIRM": "Ota käyttöön"
+            },
+            "DISABLE_PIN_POPUP": {
+                "TITLE": "Poista PIN-koodi käytöstä",
+                "TEXT": "Haluatko varmasti poistaa PIN-koodin käytöstä? (Tämä poistaa myös kasvontunnistuksen käytöstä)",
+                "CANCEL": "Peruuta",
+                "CONFIRM": "Vahvista"
+			},
+            "TURN_PASSCODE_OFF": "Poista PIN-koodi käytöstä",
+            "TURN_PASSCODE_ON": "Ota PIN-koodi käyttöön",
+            "CHANGE_PASSCODE": "Vaihda PIN-koodi",
+            "CLOUD_BACKUP": "Pilvipalvelun varmuuskopio",
+            "YOUR_PROFILE": "Profiilisi",
+            "CREATE_BACKUP": "Luo varmuuskopio",
+            "SAVE_BACKUP_POPUP": {
+                "TITLE": "Tallenna varmuuskopio",
+                "TEXT": "Haluatko varmasti tallentaa varmuuskopion tietoihisi? (Tallentaa yhteystietosi, valokuvat ja asetukset)",
+                "CANCEL": "Peruuta",
+                "CONFIRM": "Tallenna"
+            },
+            "BACKUPS": "Varmuuskopiot",
+            "APPLY_BACKUP_POPUP": {
+                "TITLE": "Käytä varmuuskopiota",
+                "TEXT": "Haluatko varmasti käyttää tätä varmuuskopiota? (Korvaa yhteystietosi, valokuvat ja asetukset)",
+                "CANCEL": "Peruuta",
+                "CONFIRM": "Käytä"
+            },
+            "SUCCESS": "Onnistui",
+            "SUCCESS_TEXT": "Puhelin käynnistyy uudelleen 5 sekunnin kuluttua...",
+            "OK": "OK",
+            "ON": "Päällä",
+            "OFF": "Pois päältä",
+            "REMOVE_BACKUP_POPUP": {
+                "TITLE": "Poista varmuuskopio",
+                "TEXT": "Haluatko varmasti poistaa tämän varmuuskopion?",
+                "CANCEL": "Peruuta",
+                "CONFIRM": "Poista"
+            },
+            "RESET_POPUP": {
+                "TITLE": "Nollaa puhelin",
+                "TEXT": "Haluatko varmasti nollata puhelimesi? [TÄMÄ POISTAA KAIKEN]",
+                "CANCEL": "Peruuta",
+                "CONFIRM": "Nollaa"
+            },
+            "UP_TO_DATE": "Puhelimesi on ajan tasalla"
+        
+		},
+        "NOTES": {
+            "TITLE": "Muistiinpanot",
+            "SEARCH_PLACEHOLDER": "Haku",
+            "FOOTER": "{amount} Muistiinpanoa",
+            "NEW_NOTE": "Uusi muistiinpano",
+            "LAST_EDITED": "Viimeksi muokattu: {date}",
+            "DELETE_TITLE": "Poista {title}",
+            "DELETE_TEXT": "Haluatko varmasti poistaa '{title}'?",
+            "BUTTON_CANCEL": "Peruuta",
+            "BUTTON_DELETE": "Poista"
+        },
+        "CLOCK": {
+            "WORLDCLOCK": {
+                "TITLE": "Maailmankello",
+                "TODAY": "Tänään",
+                "TOMORROW": "Huomenna",
+                "YESTERDAY": "Eilen"
+            },
+            "ALARM": {
+                "TITLE": "Hälytys",
+                "ADD": "Lisää hälytys",
+                "CANCEL": "Peruuta",
+                "EDIT": "Muokkaa",
+                "DONE": "Valmis",
+                "SAVE": "Tallenna",
+                "LABEL": "Merkintä",
+                "SOUND": "Ääni",
+                "SNOOZE": "Torkku",
+                "DELETE_TITLE": "Poista hälytys",
+                "DELETE_TEXT": "Haluatko varmasti poistaa tämän hälytyksen?",
+                "BUTTON_CANCEL": "Peruuta",
+                "BUTTON_DELETE": "Poista"
+            },
+            "STOPWATCH": {
+                "TITLE": "Ajastin",
+                "START": "Käynnistä",
+                "STOP": "Pysäytä",
+                "RESET": "Nollaa",
+                "LAP": "Kierros"
+            },
+            "TIMER": {
+                "TITLE": "Ajastin",
+                "START": "Käynnistä",
+                "STOP": "Pysäytä",
+                "CANCEL": "Peruuta",
+                "HOURS": "tuntia",
+                "MINUTES": "min",
+                "SECONDS": "sek"
+            },
+            "ALERT": {
+                "STOP": "Pysäytä"
+			}
+		},
+        "CAMERA": {
+            "VIDEO": "Video",
+            "PHOTO": "Kuva",
+            "LANDSCAPE": "Vaakasuunta",
+            "UPLOADING": "Lataa"
+        },
+        "DARKCHAT": {
+            "TITLE": "Dark Chat",
+            "USERNAME": "Käyttäjänimi",
+            "SET_USERNAME": "Aseta käyttäjänimesi. HUOM: TÄMÄ VOI OLLA VAIN KERRAN.",
+            "CANCEL": "Peruuta",
+            "SET": "Aseta",
+            "JOIN": "Liity",
+            "LEAVE": "Poistu",
+            "NEW_ROOM": "Uusi Huone",
+            "NEW_ROOM_TEXT": "Kirjoita huonekoodi Liittyäksesi tai Luodaksesi huoneen",
+            "ROOM_CODE": "Huoneen Koodi",
+            "LEAVE_ROOM": "Poistu Huoneesta",
+            "LEAVE_ROOM_TEXT": "Haluatko varmasti poistua tästä huoneesta?",
+            "NOW": "Nyt",
+            "INPUT_PLACEHOLDER": "Kirjoita viesti..."
+        },
+        "APPSTORE": {
+            "TITLE": "Sovellukset",
+            "SEARCH": "Hae",
+            "GET": "Hanki",
+            "OPEN": "Avaa",
+            "TODAY": "Tänään",
+            "POPULAR_APPS": "Suositut Sovellukset",
+            "GAMES": "Pelit",
+            "APPS": "Sovellukset",
+            "WHAT_WE_PLAYING": "Mitä pelataan",
+            "INFORMATION": "Tiedot",
+            "PROVIDER": "Tarjoaja",
+            "SIZE": "Koko",
+            "COMPATIBILITY": "Yhteensopivuus",
+            "IN_APP_PURCHASES": "Sovelluksen Sisäiset Ostot",
+            "WORKS_WITH_PHONE": "Toimii tämän puhelimen kanssa",
+            "NO": "Ei",
+            "YES": "Kyllä",
+            "PURCHASE_APP_POPUP": {
+                "TITLE": "Osta Sovellus",
+                "DESCRIPTION": "Haluatko ostaa {app}-sovelluksen hintaan {price}?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Osta"
+            }
+        },
+        "PHOTOS": {
+            "TITLE": "Valokuvat",
+            "SELECT": "Valitse",
+            "CANCEL": "Peruuta",
+            "EDIT": "Muokkaa",
+            "DONE": "Valmis",
+            "DELETE": "Poista",
+            "SELECT_ITEMS": "Valitse kohteet",
+            "SELECTED_COUNT": "{count} kohdetta valittu",
+    
+            "PHOTOS": "Valokuvat",
+            "ALBUMS": "Albumit",
+            "LIBRARY": "Kirjasto",
+            "MY_ALBUMS": "Omat Albumit",
+            "MEDIA_TYPES": "Mediatyypit",
+            "NEW_ALBUM_POPUP": {
+                "TITLE": "Uusi Albumi",
+                "DESCRIPTION": "Anna nimi tälle albumille",
+                "PLACEHOLDER": "Nimi",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Tallenna"
+			},
+			"REMOVE_ALBUM": {
+                "TITLE": "Poista \"{name}\"",
+                "DESCRIPTION": "Haluatko varmasti poistaa albumin \"{name}\"? Kuvia ei poisteta",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Poista"
+            },
+            "RENAME_ALBUM_POPUP": {
+                "TITLE": "Nimeä Albumi Uudelleen",
+                "DESCRIPTION": "Anna uusi nimi tälle albumille",
+                "PLACEHOLDER": "Uusi albumin nimi",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+            },
+            "DELETE_IMAGE_POPUP": {
+                "TITLE": "Poista Kuva",
+                "DESCRIPTION": "Haluatko varmasti poistaa tämän kuvan?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Poista"
+            },
+            "IMPORT_IMAGE_POPUP": {
+                "TITLE": "Tuo Albumiin",
+                "DESCRIPTION": "Tuo kuva tähän albumiin",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Tuo",
+                "PLACEHOLDER": "Kuvan URL-osoite"
+			},
+
+            "NO_PHOTOS": "Ei valokuvia tai videoita",
+            "NO_PHOTOS_INSTRUCTIONS": "Voit ottaa valokuvia ja videoita käyttämällä kameraa",
+            "PHOTO_COUNT": "{photos} valokuvaa, {videos} videota",
+        
+            "DELETE_CONTEXT_TITLE": "Haluatko poistaa {type} vai poistaa ne tästä albumista",
+            "THESE_PHOTOS": "nämä valokuvat",
+            "THIS_PHOTO": "tämä valokuva",
+            "REMOVE_FROM_ALBUM": "Poista albumista",
+            "ADD_TO_ALBUM": "Lisää albumiin",
+            "ADD_TO_FAVOURITES": "Lisää suosikkeihin",
+            "VIDEOS": "Videot",
+            "SELFIES": "Selfiet",
+            "SCREENSHOTS": "Näyttökuvat",
+            "IMPORTS": "Tuo",
+            "DUPLICATES": "Kaksoiskappaleet",
+            "YEARS": "Vuodet",
+            "MONTHS": "Kuukaudet",
+            "DAYS": "Päivät",
+            "ALL_PHOTOS": "Kaikki valokuvat",
+        
+            "FAVOURITES": "Suosikit",
+            "RECENTS": "Viimeisimmät"
+		},
+		"WEATHER": {
+            "TITLE": "Sää",
+            "HOURLY_FORECAST": "Tunnin ennuste",
+            "NOW": "Nyt",
+            "FEELS_LIKE": "Tuntuu kuin",
+            "FEELS_LIKE_SAME": "Vastaava todelliseen lämpötilaan.",
+            "FEELS_LIKE_HUMIDITY": "Kosteus tekee siitä tuntuvan lämpimämmältä",
+            "FEELS_LIKE_WIND": "Tuuli tekee siitä tuntuvan viileämmältä",
+            "SUNRISE": "Auringonnousu",
+            "SUNSET": "Auringonlasku",
+            "WIND": "Tuuli",
+            "PRECIPITATION": "Sademäärä",
+            "LAST_24H": "viimeisen 24 tunnin aikana",
+            "EXPECTED_24H": "odotettavissa seuraavan 24 tunnin aikana",
+            "TYPES": {
+                "CLOUDY": "Pilvinen",
+                "LIGHT_RAIN": "Kevyt sade",
+                "HEAVY_RAIN": "Rankka sade",
+                "RAIN": "Sade",
+                "SNOW": "Lumi",
+                "FOG": "Sumu",
+                "CLEAR": "Selkeä",
+                "MOSTLY_CLEAR": "Pääosin selkeä",
+                "THUNDER": "Ukkonen",
+                "TORNADO": "Tornado",
+                "WINDY": "Tuulinen"
+			}
+		},
+		"MESSAGES": {
+            "TITLE": "Viestit",
+            "NEW_MESSAGE": "Uusi viesti",
+            "PEOPLE": "Henkilöt",
+            "MEMBERS": "Jäsenet",
+            "OTHER": "Muu",
+            "SENT_A_PHOTO": "Lähetti kuvan",
+            "SENT_AUDIO_MESSAGE": "Lähetti ääniviestin",
+            "SENT": "Lähetetty",
+            "REQUESTED": "Pyydetty",
+            "MISSED_CALL": "{number} yritti soittaa sinulle, mutta et vastannut. Soita takaisin painamalla numeroa.",
+            "NOT_DELIVERED": "Ei toimitettu",
+            "PLACEHOLDER": "Tekstiviesti",
+            "DONE": "Valmis",
+            "EDIT": "Muokkaa",
+            "READ": "Luettu",
+            "CANCEL": "Peruuta",
+            "SEND": "Lähetä",
+            "UNKNOWN": "Tuntematon",
+            "TO": "Vastaanottaja",
+            "SEARCH": "Haku",
+            "ADD_MEMBER": "Lisää jäsen",
+            "SHARE_LOCATION": "Jaa sijainti",
+            "LEAVE_GROUP": "Poistu keskustelusta",
+            "SENT_LOCATION": "Jakanut sijaintinsa, klikkaa avataksesi kartalla",
+            "SENT_LOCATION_SHORT": "Jakanut sijaintinsa",
+            "TRIED_TO_CALL": "{number} yritti soittaa sinulle",
+            "DELETE": "Poista",
+            "REMOVE_POPUP": {
+                "TITLE": "Poista jäsen",
+                "TEXT": "Haluatko varmasti poistaa {name} ryhmästä?",
+                "REMOVE": "Poista"
+            },
+            "LEAVE_POPUP": {
+                "TITLE": "Poistu ryhmästä",
+                "TEXT": "Haluatko varmasti poistua tästä ryhmästä?",
+                "LEAVE": "Poistu"
+            },
+            "ADD_POPUP": {
+                "TITLE": "Lisää jäsen",
+                "TEXT": "Kirjoita numero lisättäväksi ryhmään '{name}'?",
+                "ADD": "Lisää"
+            },
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "Jaa sijainti",
+                "TEXT": "Haluatko jakaa sijaintisi?",
+                "CANCEL": "Peruuta",
+                "SEND": "Lähetä"
+			},
+			"PAY": {
+				"REQUEST": "Pyyntö",
+	"REQUESTED": "Pyydetty",
+	"PAY": "Maksa",
+	"SEND": "Lähetä",
+	"SEND_TITLE": "Lähetä {amount}",
+	"SEND_DESCRIPTION": "Haluatko lähettää {amount} henkilölle {name}?",
+	"SEND_BUTTON_CANCEL": "Peruuta",
+	"SEND_BUTTON_SEND": "Lähetä"
+},
+"PAYMENT_FAILED_POPUP": {
+	"TITLE": "Maksu epäonnistui",
+	"DESCRIPTION": "Virhe: {error}",
+	"CLOSE": "Sulje"
+},
+"DELETE_CONVERSATION": {
+	"TITLE": "Poista keskustelu",
+	"DESCRIPTION": "Haluatko varmasti poistaa tämän keskustelun?"
+},
+"MARK_AS_READ": "Merkitse luetuksi",
+"MESSAGE_DELETED": "Viesti poistettu",
+"OPEN_IN_MAPS": "Avaa kartalla"
+		},
+		"PHONE": {
+            "TITLE": "Puhelin",
+            "DONE": "Valmis",
+            "EDIT": "Muokkaa",
+            "CANCEL": "Peruuta",
+            "CALL": {
+                "CALL_TITLE": "Soita {name}",
+                "CALL_TEXT": "Haluatko varmasti soittaa henkilölle {name}?",
+                "CALL_BUTTON_CANCEL": "Peruuta",
+                "CALL_BUTTON_CALL": "Soita",
+                "NO_CALLER_ID": "Ei soittajan tunnistetta",
+                "UNKNOWN": "Tuntematon",
+                "USER_BUSY": "Käyttäjä varattu",
+                "USER_UNAVAILABLE": "Käyttäjä ei tavoitettavissa",
+                "CALL_BACK": "Soita takaisin",
+                "DECLINE": "Hylkää",
+                "ACCEPT": "Hyväksy",
+                "END": "Lopeta",
+                "VIDEO_CALL": "Videopuhelu",
+                "MUTE": "Mykistä",
+                "KEYPAD": "Näppäimistö",
+                "SPEAKER": "Kaiutin",
+                "ADD_CALL": "Lisää puhelu",
+                "VIDEO": "Video",
+                "CONTACTS": "Yhteystiedot",
+                "MOBILE": "Matkapuhelin"
+			},
+			"CONTACTS": {
+                "TITLE": "Yhteystiedot",
+                "FIRST_NAME": "Etunimi",
+                "LAST_NAME": "Sukunimi",
+                "PHONE_NUMBER": "Puhelinnumero",
+                "MY_CARD": "Oma kortti",
+                "ADD_PHOTO": "Lisää kuva",
+                "REMOVE_CONTACT_TITLE": "Poista yhteystieto",
+                "REMOVE_CONTACT_TEXT": "Haluatko varmasti poistaa tämän yhteystiedon?",
+                "REMOVE_CONTACT_BUTTON_CANCEL": "Peruuta",
+                "REMOVE_CONTACT_BUTTON_DELETE": "Poista",
+                "DELETE_CONTACT": "Poista yhteystieto",
+                "MESSAGE": "viesti",
+                "CALL": "soita",
+                "VIDEO": "video",
+                "MAIN": "pää",
+                "SHARE_CONTACT": "Jaa yhteystieto",
+                "SHARE_LOCATION": "Jaa sijaintini",
+                "REMOVE_FAVORITE": "Poista suosikeista",
+                "ADD_FAVORITE": "Lisää suosikkeihin",
+                "ADD_CONTACT": "Lisää yhteystietoihin",
+                "UNBLOCK_CALLER": "Poista esto",
+                "BLOCK_CALLER": "Estä soittaja",
+                "UNBLOCK_NUMBER_TITLE": "Poista esto",
+                "UNBLOCK_NUMBER_TEXT": "Haluatko varmasti poistaa eston numerolta {number}?",
+                "UNBLOCK_NUMBER_BUTTON_CANCEL": "Peruuta",
+                "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Poista esto",
+                "BLOCK_NUMBER_TITLE": "Estä numero",
+                "BLOCK_NUMBER_TEXT": "Haluatko varmasti estää numeron {number}?",
+                "BLOCK_NUMBER_BUTTON_CANCEL": "Peruuta",
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Estä",
+                "EMAIL": "Sähköposti",
+                "ADDRESS": "Osoite"
+			},
+			"FAVOURITES": {
+                "TITLE": "Suosikit",
+                "REMOVE_TITLE": "Poista suosikeista",
+                "REMOVE_TEXT": "Haluatko varmasti poistaa tämän yhteystiedon suosikeista?",
+                "REMOVE_BUTTON_CANCEL": "Peruuta",
+                "REMOVE_BUTTON_REMOVE": "Poista"
+            },
+            "KEYPAD": {
+                "TITLE": "Näppäimistö",
+                "ADD_NUMBER": "Lisää numero"
+            },
+            "RECENTS": {
+                "TITLE": "Viimeisimmät"
+            },
+            "VOICEMAIL": {
+                "TITLE": "Ääniviesti",
+                "AT": "klo",
+                "DELETE_POPUP": {
+                    "TITLE": "Poista ääniviesti",
+                    "DESCRIPTION": "Haluatko varmasti poistaa tämän ääniviestin?",
+                    "CANCEL": "Peruuta",
+                    "PROCEED": "Poista"
+                },
+                "CALL_POPUP": {
+                    "TITLE": "Soita",
+                    "DESCRIPTION": "Haluatko varmasti soittaa numerolle {number}?",
+                    "CANCEL": "Peruuta",
+                    "PROCEED": "Soita"
+				}
+			}
+		},
+		"WALLET": {
+            "TITLE": "Lompakko",
+            "BALANCE": "Saldo",
+            "SEND": "Lähetä",
+            "NEXT": "Seuraava",
+            "DONE": "Valmis",
+            "DONE_SUBTITLE": "Lähetit {amount} henkilölle {number}",
+            "NO_REFUNDS": "Maksuja ei palauteta, tarkista numero huolellisesti.",
+            "NEW_BALANCE": "Uusi saldo",
+            "LATEST_TRANSACTIONS": "Viimeisimmät tapahtumat",
+            "LATEST_BILLS": "Viimeisimmät laskut",
+            "NOW": "Nyt",
+            "AGO": "sitten",
+            "NUMBER_DOES_NOT_EXIST": "Numero ei ole olemassa / Pelaaja ei ole verkossa",
+            "NOT_ENOUGH_MONEY": "Sinulla ei ole tarpeeksi rahaa",
+            "SELECT_CONTACT": "Valitse yhteystieto",
+            "EXCEED_DAILY": "Tämä maksu ylittää päivittäisen enimmäisrajan",
+            "EXCEED_WEEKLY": "Tämä maksu ylittää viikottaisen enimmäisrajan",
+            "FAILED_ADD": "Rahan lähettäminen epäonnistui"
+		},
+		"GARAGE": {
+            "TITLTE": "Autotalli",
+            "ACTIONS": "Toiminnot",
+            "MY_CARS": "Omat autot",
+            "OUT": "Ulos",
+            "GARAGE": "Autotalli",
+            "IMPOUNDED": "Takavarikoitu",
+            "IMPOUND_INFO": "Takavarikkotiedot",
+            "LOCATION": "Sijainti",
+            "SUMMON": "Kutsu",
+            "VALET": "Autonhoitaja",
+            "STATISTICS": "Tilastot",
+            "FUEL": "Polttoaine",
+            "ENGINE": "Moottori",
+            "BODY": "Kori",
+            "VEHICLE": "Ajoneuvo",
+            "STATUS": "Tila",
+            "LOCKED": "Lukittu",
+            "LOCK": "Lukitse",
+            "UNLOCKED": "Avattu",
+            "UNLOCK": "Avaa",
+
+			"WAYPOINT_POPUP": {
+				"TITLE": "Määritä reittipiste",
+	"TEXT": "Haluatko määrittää reittipisteen {model}iisi?",
+	"CANCEL": "Peruuta",
+	"PROCEED": "Jatka"
+},
+"VALET_POPUP": {
+	"TITLE": "Autonhoito",
+	"TEXT": "Haluatko antaa {model}isi ({plate}) autonhoidettavaksi?",
+	"TEXT_PAID": "Haluatko antaa {model}isi ({plate}) autonhoidettavaksi hintaan {amount}?",
+	"CANCEL": "Peruuta",
+	"PROCEED": "Jatka"
+},
+"LOCK_POPUP": {
+	"TITLE": "{toggle} ajoneuvo",
+	"TEXT": "Haluatko {toggle} ajoneuvosi?",
+	"CANCEL": "Peruuta",
+	"PROCEED": "Jatka"
+},
+"IMPOUND_REASON": {
+	"REASON": "Syy",
+	"RETRIEVABLE": "Noudettavissa",
+	"IMPOUNDER": "Takavarikoija",
+	"PRICE": "Hinta"
+			}
+		},
+		"HOME": {
+            "TITLE": "Koti",
+            "MY_HOMES": "Omat kodit",
+            "MY_HOME": "Oma koti",
+            "KEY_ACCESS": "Avainkäyttö",
+            "ACTIONS": "Toimet",
+            "FRONT_DOOR": "Etuovi",
+            "LOCATION": "Sijainti",
+            "SET_WAYPOINT": "Aseta reittipiste",
+            "UNLOCK": "Avaa",
+            "UNLOCKED": "Avattu",
+            "LOCK": "Lukitse",
+            "LOCKED": "Lukittu",
+            "GIVE_KEY": "Anna avain",
+            "MANAGE": "Hallitse",
+            "WAYPOINT_POPUP": {
+                "TITLE": "Aseta reittipiste",
+                "TEXT": "Haluatko asettaa reittipisteen kohteeseen {home}?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} koti",
+                "TEXT": "Haluatko {toggle} kotisi?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+            },
+            "GIVE_KEY_POPUP": {
+                "TITLE": "Anna avain",
+                "TEXT": "Syötä henkilön ID, jolle haluat antaa avaimen",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+            },
+            "REMOVE_KEY_POPUP": {
+                "TITLE": "Poista avainhaltija",
+                "TEXT": "Oletko varma, että haluat poistaa pääsyn käyttäjältä {name}?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+			}
+		},
+		"MARKETPLACE": {
+            "CANCEL": "Peruuta",
+            "SEARCH": "Etsi listauksia tai numeroita",
+            "NEW_POST": "Uusi ilmoitus",
+            "TITLE": "Otsikko",
+            "DESCRIPTION": "Kuvaus",
+            "PRICE": "Hinta",
+            "POST": "Lähetä",
+            "CONTACT": "Ota yhteyttä",
+            "REMOVE": "Poista",
+            "ERROR_POPUP": {
+                "TITLE": "Virhe",
+                "NO_TITLE": "Sinun täytyy syöttää otsikko",
+                "NO_DESCRIPTION": "Sinun täytyy syöttää kuvaus",
+                "NO_PRICE": "Sinun täytyy syöttää hinta",
+                "NO_ATTACHMENTS": "Sinun täytyy liittää vähintään yksi kuva",
+                "OK": "OK"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "Poista listaus",
+                "TEXT": "Oletko varma, että haluat poistaa tämän listauksen?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Poista"
+			}
+		},
+		"YELLOWPAGES": {
+            "SEARCH": "Etsi ilmoituksia tai numeroita",
+            "FROM": "Lähettäjä",
+            "CANCEL": "Peruuta",
+            "NEW_POST": "Uusi ilmoitus",
+            "TITLE": "Otsikko",
+            "DESCRIPTION": "Kuvaus",
+            "PRICE": "Hinta",
+            "POST": "Lähetä",
+            "CALL": "Soita",
+            "ERROR_POPUP": {
+                "TITLE": "Virhe",
+                "NO_TITLE": "Sinun täytyy syöttää otsikko",
+                "NO_DESCRIPTION": "Sinun täytyy syöttää kuvaus",
+                "OK": "OK"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "Poista ilmoitus",
+                "TEXT": "Oletko varma, että haluat poistaa tämän ilmoituksen?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Poista"
+			}
+		},
+		"MAIL": {
+			"TITLE": "Sähköposti",
+	"YOU": "Sinä",
+	"UPDATED_NOW": "Päivitetty juuri nyt",
+	"NEW_MESSAGE": "Uusi viesti",
+	"INBOX": "Saapuneet",
+	"TO": "Vastaanottaja",
+	"FROM": "Lähettäjä",
+	"SUBJECT": "Aihe",
+	"MESSAGE": "Viesti",
+	"CANCEL": "Peruuta",
+	"SEND": "Lähetä",
+	"EMAIL": "Sähköposti",
+	"EMAIL_INVALID": "Virheellinen sähköpostiosoite",
+	"EMAIL_EXISTS": "Sähköposti on jo olemassa",
+	"PASSWORD": "Salasana",
+	"WRONG_PASSWORD": "Väärä salasana",
+	"LOGIN": "Kirjaudu sisään",
+	"NO_EMAIL": "Eikö sinulla ole sähköpostiosoitetta?",
+	"CREATE_ONE": "Luo sellainen",
+	"UNREAD": "Lukeamattomat",
+	"CREATE_MAIL": "Luo sähköposti",
+	"ALREADY_HAVE": "Onko sinulla jo sähköpostiosoite?",
+	"SIGN_OUT_POPUP": {
+		"TITLE": "Kirjaudu ulos",
+		"DESCRIPTION": "Oletko varma, että haluat kirjautua ulos?",
+		"CANCEL": "Peruuta",
+		"PROCEED": "Jatka"
+			}
+		},
+		"MAPS": {
+            "TITLE": "Kartat",
+            "GO": "Mene",
+            "ADD": "Lisää",
+            "EDIT": "Muokkaa",
+            "DELETE": "Poista",
+            "SET_WAYPOINT": "Aseta reittipiste",
+            "SHARE": "Jaa",
+        
+            "ADD_LOCATION_POPUP": {
+                "TITLE": "Lisää sijainti",
+                "DESCRIPTION": "Syötä sijainnin nimi, jonka haluat lisätä",
+                "PLACEHOLDER": "Nimi",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+            },
+            "CHANGE_NAME_POPUP": {
+                "TITLE": "Vaihda nimi",
+                "DESCRIPTION": "Syötä uusi nimi sijainnille",
+                "PLACEHOLDER": "Nimi",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+			}
+		},
+		"MUSIC": {
+            "TITLE": "Musiikki",
+            "KIRJASTO": "Kirjasto",
+            "HAKU": "Haku",
+            "LISÄÄ_JONOON": "Lisää jonoon",
+            "LISÄÄ_SOITTOLISTALLE": "Lisää soittolistalle",
+            "POISTA_KAPPALE": "Poista kappale",
+            "EI_SOITETA": "Ei soiteta",
+            "MUOKKAA_SOITTOLISTAA": "Muokkaa soittolistaa",
+            "POISTA_SOITTOLISTA": "Poista soittolista",
+            "HAKUKENTTÄ": "Artistit, kappaleet, albumit, soittolistat",
+            "KAPPALEET": "Kappaleet",
+            "ALBUMIT": "Albumit",
+            "SOITA": "Soita",
+            "SEKOITA": "Sekoita",
+            "ARTISTI": "Artisti",
+            "ALBUMI": "Albumi",
+            "SOITTOLISTA": "Soittolista",
+            "KAPPALE": "Kappale",
+            "KAPPALE_JO_OLEMASSA_POPUP": {
+                "TITLE": "Kappale on jo olemassa",
+                "DESCRIPTION": "Tämä kappale on jo tässä soittolistassa",
+                "CANCEL": "Peruuta"
+            },
+            "UUSI_SOITTOLISTA_POPUP": {
+                "TITLE": "Uusi soittolista",
+                "DESCRIPTION": "Luo uusi soittolista",
+                "PLACEHOLDER": "Soittolistan nimi",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+            },
+            "POISTA_KAPPALE_POPUP": {
+                "TITLE": "Poista kappale",
+                "DESCRIPTION": "Haluatko varmasti poistaa tämän kappaleen soittolistalta?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+			}
+		},
+		"TINDER": {
+			"TITLE": "Sparkles",
+            "LIKES_YOU_TOO": "tykkää sinusta myös!",
+            "KEEP_SWIPING": "Jatka pyyhkimistä",
+            "SAY_SOMETHING_NICE": "Sano jotain mukavaa",
+            "NO_MORE": "Olemme loppuneet ehdokkaista pyyhkäistäväksi, palaa myöhemmin!",
+            "SEND": "Lähetä",
+            "AGREE_TERMS": "Painamalla 'Luo tili' hyväksyt käyttöehtomme ja yksityisyyskäytäntömme",
+            "CREATE_ACCOUNT": "Luo tili",
+            "AGE_PUBLIC": "Ikäsi on julkinen",
+            "BE_OVER_18": "Sinun on oltava yli 18-vuotias tämän palvelun käyttämiseksi",
+            "NAME_MINIMUM": "Nimesi on oltava vähintään 3 merkkiä pitkä",
+            "ADD_PHOTOS": "Lisää kuvia",
+            "PHOTOS_MINIMUM": "Sinun on oltava vähintään yksi kuva",
+            "DESCRIPTION": "Kerro hieman itsestäsi",
+            "DESCRIPTION_MINIMUM": "Kuvaus on oltava vähintään 10 merkkiä pitkä",
+            "SHOW_ME": "Näytä minulle",
+            "WOMEN": "Naiset",
+            "MEN": "Miehet",
+            "EVERYONE": "Kaikki",
+            "EVERYTHING": "Kaikki",
+            "I_AM": "Olen",
+            "MALE": "Mies",
+            "FEMALE": "Nainen",
+            "CONTINUE": "Jatka",
+            "NAME": "Nimi",
+            "PHOTOS": "Kuvat",
+            "ABOUT_ME": "Minusta",
+            "INTERESTED_IN": "Kiinnostunut",
+            "GENDER": "Sukupuoli",
+            "SAVE": "Tallenna",
+            "NEW_MATCHES": "Uudet osumat",
+            "MESSAGES": "Viestit",
+            "SEARCH_MATCHES": "Etsi osumia"
+		},
+		"INSTAGRAM": {
+            "TITLE": "InstaPic",
+            "SEND": "Lähetä",
+            "POST": "Julkaise",
+            "MESSAGE_PLACEHOLDER": "Viesti...",
+            "NEW_MESSAGE": "Uusi viesti",
+            "NOW": "Nyt",
+            "GO_LIVE_POPUP": {
+                "TITLE": "Aloita live",
+                "DESCRIPTION": "Oletko varma, että haluat aloittaa lähetyksen?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+            },
+            "END_LIVE_POPUP": {
+                "TITLE": "Lopeta live",
+                "DESCRIPTION": "Oletko varma, että haluat {action} tämän lähetyksen?",
+                "CANCEL": "Peruuta",
+                "END": "Lopeta",
+                "LEAVE": "Poistu"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Älä seuraa",
+                "DESCRIPTION": "Oletko varma, että haluat lopettaa {name} seuraamisen?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+            },
+            "DELETE_POST_POPUP": {
+                "TITLE": "Poista julkaisu",
+                "DESCRIPTION": "Oletko varma, että haluat poistaa tämän julkaisun?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+            },
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Kirjaudu ulos",
+                "DESCRIPTION": "Oletko varma, että haluat kirjautua ulos?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+            },
+            "DELETE_STORY": {
+                "TITLE": "Poista tarina",
+                "DESCRIPTION": "Oletko varma, että haluat poistaa tämän tarinan?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+            },
+            "INVITE_LIVE_POPUP": {
+                "TITLE": "Live-kutsu",
+                "DESCRIPTION": "{username} kutsui sinut heidän lähetykseensä. Haluatko liittyä?",
+                "NO": "Ei",
+                "YES": "Kyllä"
+            },
+            "REMOVE_LIVE_POPUP": {
+                "TITLE": "Poista {username}",
+                "DESCRIPTION": "Oletko varma, että haluat poistaa {username} lähetyksestäsi?",
+                "CANCEL": "Peruuta",
+                "REMOVE": "Poista"
+            },
+            "LEAVE_LIVE_POPUP": {
+                "TITLE": "Poistu live-lähetyksestä",
+                "DESCRIPTION": "Oletko varma, että haluat poistua tästä live-lähetyksestä?",
+                "LEAVE": "Poistu"
+			},
+            "LIVE_ENDED": "Live loppui",
+            "COMMENT_PLACEHOLDER": "Kommentti",
+            "LIVE": "Live",
+            "YOUR_STORY": "Sinun tarinasi",
+            "CREATE_STORY": "Luo tarina",
+            "GO_LIVE": "Aloita live",
+            "EMPTY_FEED": "Aloita seuraamalla ihmisiä nähdäksesi heidän valokuviaan ja videoitaan täällä",
+            "COMMENTS": "Kommentit",
+            "ADD_COMMENT_AS": "Lisää kommentti nimellä {name}",
+            "NEW_POST": "Uusi julkaisu",
+            "NEXT": "Seuraava",
+            "CAPTION_PLACEHOLDER": "Kirjoita kuvateksti...",
+            "ACTIVITY": "Toiminta",
+            "FOLLOW": "Seuraa",
+            "FOLLOWING": "Seurataan",
+            "FOLLOWERS": "Seuraajat",
+            "FOLLOWER": "Seuraaja",
+            "REQUESTED": "Pyydetty",
+            "LIKES": "Tykkäykset",
+            "LIKED_BY": "Tykätty",
+            "VIEW_ALL_COMMENTS": "Näytä kaikki {count} kommenttia",
+            "FIRST_COMMENT": "Ole ensimmäinen kommentoija...",
+            "NO_ACCOUNT": "Tällä käyttäjänimellä ei ole tiliä",
+            "WRONG_USERNAME_OR_PASSWORD": "Väärä käyttäjänimi tai salasana",
+            "LOG_IN": "Kirjaudu sisään",
+            "ACCOUNT_WITH_USERNAME": "Tällä käyttäjänimellä on jo tili",
+            "CREATE_ACCOUNT": "Luo tili",
+            "USERNAME_PLACEHOLDER": "Käyttäjänimi",
+            "NAME_PLACEHOLDER": "Nimi",
+            "PASSWORD_PLACEHOLDER": "Salasana",
+            "NOT_HAVE_ACCOUNT": "Ei tiliä?",
+            "HAVE_ACCOUNT": "Onko sinulla jo tili?",
+            "LIKED_PHOTO": "tykkäsi valokuvastasi.",
+            "LIKED_COMMENT": "tykkäsi kommentistasi: {comment}",
+            "COMMENTED": "kommentoi julkaisuasi: {comment}",
+            "FOLLOWED": "alkoi seurata sinua.",
+            "DONE": "Valmis",
+            "EDIT_PROFILE": "Muokkaa profiilia",
+            "CHANGE_PICTURE": "Vaihda profiilikuva",
+            "NAME": "Nimi",
+            "BIO": "Lyhyt kuvaus",
+            "PRIVATE": "Vaihda yksityisyysasetuksia",
+            "SIGN_OUT": "Kirjaudu ulos",
+            "POSTS": "Julkaisut",
+            "MESSAGE": "Viesti",
+            "SENT_A_PHOTO": "lähetti valokuvan",
+            "TO": "Vastaanottaja",
+            "SEND_A_MESSAGE": "Lähetä viesti...",
+            "STORY_VIEWERS": "Katsojat",
+            "PARTICIPANTS": "Osallistujat",
+            "SEEN_BY": "Nähty {count} henkilön toimesta",
+            "ADD_ACCOUNT": "Lisää tili",
+            "INVITE": "Kutsu",
+            "REMOVE": "Poista",
+            "IN_THIS_ROOM": "Tässä huoneessa",
+            "WHOS_WATCHING": "Kuka katselee",
+            "FOLLOW_REQUESTS": "Seuraamispyynnöt",
+            "CONFIRM": "Vahvista",
+            "DELETE": "Poista",
+            "ANDOTHERS": "{username} + {amount} muuta"
+		},
+		"TWITTER": {
+            "TITLE": "Birdy",
+            "SEARCH_FOR": "Etsi '{search}'",
+            "START_SEARCHING": "Aloita haku tutkiaksesi Birdya",
+            "TRENDING_HASHTAGS": "Suositut tunnisteet",
+            "SENT_ATTACHMENT": "lähetti liitteen",
+            "TO": "Vastaanottaja",
+            "TWEETS": "Julkaisut",
+            "REPLIES": "Vastaukset",
+            "MEDIA": "Media",
+            "LIKES": "Tykkäykset",
+            "CANCEL": "Peruuta",
+            "TWEET": "Julkaise",
+            "TWEET_REPLY": "Julkaise vastauksesi",
+            "TWEET_GENERAL": "Mitä kuuluu?",
+            "EDIT_PROFILE": "Muokkaa profiilia",
+            "SAVE": "Tallenna",
+            "NAME": "Nimi",
+            "JOIN_DATE": "Liittymispäivä",
+            "PROTECTED_POSTS": "Suojaa julkaisusi",
+            "BIO": "Lyhyt kuvaus",
+            "SIGN_OUT": "Kirjaudu ulos",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Kirjaudu ulos",
+                "DESCRIPTION": "Haluatko varmasti kirjautua ulos?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Lopeta seuraaminen",
+                "DESCRIPTION": "Haluatko varmasti lopettaa käyttäjän {name} seuraamisen?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+            },
+            "RETWEET_POPUP": {
+                "RETWEET": "Uudelleenjulkaise",
+                "UNDO_RETWEET": "Kumoa uudelleenjulkaisu",
+                "DESCRIPTION": "Haluatko varmasti {action}?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "Poista julkaisu",
+                "DESCRIPTION": "Haluatko varmasti poistaa tämän julkaisun?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+            },
+            "NOTIFICATIONS_POPUP": {
+                "TITLE": "Ilmoitukset",
+                "DESCRIPTION": "Haluatko varmasti {action} ilmoitukset käyttäjältä @{name}?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka",
+                "ENABLE": "Ota käyttöön",
+                "DISABLE": "Poista käytöstä"
+            },
+            "PROMOTE_POPUP": {
+                "TITLE": "Mainosta julkaisua",
+                "DESCRIPTION": "Haluatko mainostaa tätä julkaisua {price} hinnalla {views} katselukerralla?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+			},
+			"YOU": "Sinä",
+	"FOLLOW": "Seuraa",
+	"PENDING": "Odottaa",
+	"FOLLOWING": "Seuraa",
+	"FOLLOWERS": "Seuraajat",
+	"RETWEETED": "Uudelleenjulkaisi",
+	"REPLYING_TO": "Vastaus käyttäjälle {name}",
+	"RETWEETED_BY": "Uudelleenjulkaisija",
+	"LIKED_BY": "Tykännyt",
+	"ALL": "Kaikki",
+	"NOTIFICATIONS": "Ilmoitukset",
+	"FOLLOWS_YOU": "Seuraa sinua",
+	"JOINED": "Liittynyt {date}",
+	"LIKED_TWEET": "tykkäsi julkaisustasi",
+	"RETWEETED_TWEET": "uudelleenjulkaisi julkaisusi",
+	"FOLLOWED": "alkoi seurata sinua",
+	"SIGN_UP_TEXT": "Katso mitä maailmassa tapahtuu juuri nyt",
+	"TERMS_OF_SERVICE": "Rekisteröitymällä hyväksyt käyttöehtomme ja yksityisyyskäytäntömme.",
+	"HAS_ACCOUNT": "Onko sinulla jo tili?",
+	"CREATE_YOUR_ACCOUNT": "Luo tili",
+	"NAME_PLACEHOLDER": "Nimi",
+	"USERNAME_PLACEHOLDER": "Käyttäjänimi",
+	"PASSWORD_PLACEHOLDER": "Salasana",
+	"GET_STARTED": "Aloita syöttämällä käyttäjänimesi @",
+	"FORGOT_PASSWORD": "Unohditko salasanasi?",
+	"ENTER_PASSWORD": "Syötä salasanasi",
+	"SEARCH_DIRECT_MESSAGES": "Etsi suoria viestejä",
+	"SEARCH_TWITTER": "Etsi Birdystä",
+	"MESSAGE_PLACEHOLDER": "Viesti...",
+	"NOW": "Nyt",
+	"LOGIN": "Kirjaudu sisään",
+	"CREATE_ACCOUNT": "Luo tili",
+	"PROMOTE": "Mainosta",
+	"PIN": "Kiinnitä julkaisu",
+	"UNPIN": "Poista kiinnitetty julkaisu",
+	"NEW_MESSAGE": "Uusi viesti",
+	"PROMOTED": "Mainostettu",
+	"ADD_ACCOUNT": "Lisää tili",
+	"FOLLOWER_REQUESTS": "Seuraajapyyntöjä",
+	"NEW_POSTS": "Uusia julkaisuja",
+	"NEW_POST": "Uusi julkaisu"
+		},
+		"SERVICES": {
+			"ACTIONS": "Toiminnot",
+	"COMPANIES": "Yritykset",
+	"MESSAGES": "Viestit",
+
+	"CLOSED": "Suljettu",
+	"YOUR_MESSAGES": "Sinun viestit",
+	"JOB_MESSAGES": "Työviestit",
+
+	"DUTY": "Velvollisuus",
+	"GO_ON_DUTY": "Mene velvollisuuteen",
+	"GO_OFF_DUTY": "Poistu velvollisuudesta",
+	"JOB_CALLS": "Työpuhelut",
+	"DISABLE_CALLS": "Poista puhelut käytöstä",
+	"ENABLE_CALLS": "Ota puhelut käyttöön",
+	"BALANCE": "Saldo",
+	"MANAGE_EMPLOYEES": "Hallinnoi työntekijöitä",
+	"HIRE": "Palkkaa",
+	"SET_GRADE": "Aseta taso",
+	"UNEMPLOYED": "Olet työtön",
+
+	"DEPOSIT_POPUP": {
+		"TITLE": "Talletus",
+		"DESCRIPTION": "Talleta rahaa yrityksen tilille",
+		"AMOUNT": "Määrä",
+		"CANCEL": "Peruuta",
+		"PROCEED": "Jatka"
+	},
+	"WITHDRAW_POPUP": {
+		"TITLE": "Nosto",
+		"DESCRIPTION": "Nosta rahaa yrityksen tililtä",
+		"AMOUNT": "Määrä",
+		"CANCEL": "Peruuta",
+		"PROCEED": "Jatka"
+	},
+	"HIRE_POPUP": {
+		"TITLE": "Palkkaa",
+		"DESCRIPTION": "Palkkaa uusi työntekijä",
+		"PLACEHOLDER": "ID",
+		"CANCEL": "Peruuta",
+		"PROCEED": "Jatka"
+	},
+	"FIRE_POPUP": {
+		"TITLE": "Erota",
+		"DESCRIPTION": "Oletko varma, että haluat erottaa {name}?",
+		"PLACEHOLDER": "ID",
+		"CANCEL": "Peruuta",
+		"PROCEED": "Jatka"
+	},
+	"CALL_POPUP": {
+		"TITLE": "Soita",
+		"DESCRIPTION": "Oletko varma, että haluat soittaa {name}?",
+		"CANCEL": "Peruuta",
+		"PROCEED": "Jatka"
+			}
+		},
+		"CRYPTO": {
+			"TITLE": "Kryptovaluutta",
+	"BALANCE": "Arvioitu saldo",
+	"BUY": "Osta",
+	"SELL": "Myy",
+	"TRANSFER": "Siirrä",
+	"SELL_ALL": "Myy kaikki",
+	"NO_MONEY": "Sinulla ei ole tarpeeksi rahaa",
+	"NO_COINS": "Sinulla ei ole tätä kolikkoa",
+	"NOT_ENOUGH_COINS": "Sinulla ei ole tarpeeksi kolikoita",
+	"ATLEAST_ONE_COIN": "Sinun täytyy {action} vähintään yksi {currency}",
+	"INVALID_COIN": "Virheellinen kolikko",
+	"NO_NUMBER": "Ei puhelinnumeroa annettu",
+	"INVALID_NUMBER": "Virheellinen puhelinnumero (käyttäjä ei ehkä ole verkossa)",
+	"ERROR": "Virhe",
+	"CLOSE": "Sulje",
+	"BUY_POPUP": {
+		"TITLE": "Osta {coin}",
+		"DESCRIPTION": "Syötä summa {coin} (dollareina), jonka haluat ostaa",
+		"PLACEHOLDER": "$1000",
+		"CANCEL": "Peruuta",
+		"PROCEED": "Jatka"
+	},
+	"SELL_POPUP": {
+		"TITLE": "Myy {coin}",
+		"DESCRIPTION": "Syötä summa {coin} (dollareina), jonka haluat myydä",
+		"PLACEHOLDER": "$1000"
+	},
+	"SELL_ALL_POPUP": {
+		"TITLE": "Myy kaikki {coin}",
+		"DESCRIPTION": "Oletko varma, että haluat myydä kaikki {coin}si ${amount}:lla?"
+	},
+	"TRANSFER_POPUP": {
+		"TITLE": "Siirrä {coin}",
+		"DESCRIPTION": "Syötä summa {coin} (dollareina), jonka haluat siirtää (valitse seuraavaksi yhteystieto)",
+		"PLACEHOLDER": "$1000",
+		"NEXT": "Seuraava"
+	},
+	"SUCCESSFULLY_TRANSFERED_POPUP": {
+		"TITLE": "Siirto onnistui",
+		"DESCRIPTION": "Siirto onnistui! Siirretty ${amount} {coin} käyttäjälle {number}",
+		"CLOSE": "Sulje"
+			}
+		},
+		"TIKTOK": {
+			"TITLE": "Trendikäs",
+
+	"HOME": "Koti",
+	"DISCOVER": "Löydä",
+	"INBOX": "Saapuneet",
+	"PROFILE": "Profiili",
+
+	"COMMENTS_TITLE": "{count} kommenttia",
+	"REPLY": "Vastaa",
+	"VIEW_REPLIES": "Näytä vastaukset",
+	"ADD_COMMENT": "Lisää kommentti...",
+	"REPLY_TO": "Vastaa käyttäjälle {name}",
+	"PIN_COMMENT": "Kiinnitä kommentti",
+	"UNPIN_COMMENT": "Poista kommentin kiinnitys",
+	"DELETE_COMMENT": "Poista kommentti",
+	"DELETE": "Poista",
+	"PINNED": "Kiinnitetty",
+	"PIN_VIDEO": "Kiinnitä video",
+	"UNPIN_VIDEO": "Poista videon kiinnitys",
+	"PIN": "kiinnitä",
+	"UNPIN": "poista kiinnitys",
+	"MAX_PINNED_TITLE": "Maksimikiinnitykset",
+	"MAX_PINNED_DESCRIPTION": "Voit kiinnittää enintään 3 videota",
+	"OK": "OK",
+	"CREATOR": "Luoja",
+	"LIKED_BY_CREATOR": "Tykätty luoja",
+
+	"PIN_VIDEO_POPUP": {
+		"TITLE": "Kiinnitä video",
+		"DESCRIPTION": "Haluatko varmasti {action} tämän videon?",
+		"CANCEL": "Peruuta",
+		"PROCEED": "Jatka"
+	},
+	"DELETE_VIDEO_POPUP": {
+		"TITLE": "Poista video",
+		"DESCRIPTION": "Haluatko varmasti poistaa tämän videon?",
+		"CANCEL": "Peruuta",
+		"PROCEED": "Jatka"
+	},
+	"FAILED_UPLOAD_POPUP": {
+		"TITLE": "TTS:n lataaminen epäonnistui",
+		"DESCRIPTION": "Palvelimen omistaja ei ole määrittänyt äänitiedoston latausta oikein. Ota yhteyttä heihin ongelman korjaamiseksi.",
+		"CANCEL": "Peruuta",
+		"PROCEED": "Ohita"
+			},
+
+			"SHARE_TITLE": "Jaa kohteeseen",
+            "SHARE": "Jaa",
+            "REPORT": "Ilmoita",
+            "SAVE_VIDEO": "Tallenna video",
+            "ADD_FAVOURITE": "Lisää suosikkeihin",
+            "CANCEL": "Peruuta",
+            "GO_BACK": "Palaa",
+        
+            "FOLLOWING": "Seurataan",
+            "FOLLOWERS": "Seuraajat",
+            "UNFOLLOW": "Lopeta seuraaminen",
+            "FOLLOW": "Seuraa",
+            "FOR_YOU": "Sinulle",
+            "VIDEOS": "Videot",
+            "LIKES": "Tykkäykset",
+        
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Lopeta seuraaminen",
+                "DESCRIPTION": "Haluatko varmasti lopettaa käyttäjän {name} seuraamisen?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+            },
+        
+            "LOGIN_TITLE": "Kirjaudu Trendyyn",
+            "LOGIN_SUBTITLE": "Hallitse tiliäsi, tarkista ilmoitukset, kommentoi videoita ja paljon muuta.",
+            "SIGNUP_TITLE": "Rekisteröidy Trendyyn",
+            "SIGNUP_SUBTITLE": "Luo profiili, seuraa muita tilejä, tee omia videoita ja paljon muuta.",
+            "NAME": "Nimi",
+            "USERNAME": "Käyttäjänimi",
+            "PASSWORD": "Salasana",
+            "BIO": "Kuvaus",
+            "SHOW_LIKES": "Näytä tykkäykset",
+        
+            "LOGIN": "Kirjaudu",
+            "SIGNUP": "Rekisteröidy",
+            "NO_ACCOUNT": "Eikö sinulla ole tiliä?",
+            "ALREADY_ACCOUNT": "Onko sinulla jo tili?",
+            "SEARCH_PLACEHOLDER": "Etsi käyttäjiä",
+        
+            "STARTED_FOLLOWING": "aloitti seuraamisen.",
+            "LIKED_VIDEO": "tykkäsi videostasi.",
+            "LIKED_COMMENT": "tykkäsi kommentistasi.",
+            "SAVED_VIDEO": "lisäsi videosi suosikkeihin.",
+            "COMMENTED": "kommentoi: {comment}",
+            "REPLIED": "vastasi kommenttiisi: {comment}",
+        
+            "EDIT_PROFILE": "Muokkaa profiilia",
+            "MESSAGE": "Viesti",
+            "CHANGE_PHOTO": "Vaihda kuva",
+            "LOGOUT": "Kirjaudu ulos",
+            "ADD_TO_YOUR_PROFILE": "Lisää profiiliisi",
+            "LIKED_HIDDEN_TITLE": "Tämän käyttäjän tykätyt videot ovat yksityisiä.",
+            "LIKED_HIDDEN_SUBTITLE": "{name} tykkäämät videot ovat tällä hetkellä piilotettuja.",
+
+			"INVALID_ACCOUNT_POPUP": {
+                "TITLE": "Virheellinen {name}",
+                "DESCRIPTION": "Et ole kirjautuneena {name}-tiliin, jonka syötit. Ole hyvä ja korjaa se.",
+                "OK": "OK"
+            },
+            "REMOVE_ACCOUNT_POPUP": {
+                "TITLE": "Poista {name}-tili",
+                "DESCRIPTION": "Haluatko varmasti poistaa {name}-tilisi profiilistasi?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+            },
+            
+            "ADD_ACCOUNT_TITLE": "Lisää tili",
+            "ADD_ACCOUNT": "Lisää {name} profiiliisi",
+            "UPLOAD_VIDEO": "Lataa video",
+            "PREVIEW": "Esikatselu",
+            "CAPTION": "Kuvateksti",
+            "CAPTION_PLACEHOLDER": "Lisää kuvateksti...",
+            "TTS": "Teksti puheeksi (TTS)",
+            "TTS_PLACEHOLDER": "Lisää teksti puheeksi...",
+            "MUSIC": "Musiikki",
+            "SELECT_MUSIC": "Valitse musiikki",
+            "OPTIONAL": "Valinnainen",
+            
+            "DIRECT_MESSAGES": "Suorat viestit",
+            "ALL_ACTIVITY": "Kaikki toiminnot",
+            "NO_NOTIFICATIONS": "Ilmoituksia ei ole saatavilla",
+            "NO_NOTIFICATIONS_SUBTITLE": "Ilmoitukset tilistäsi näkyvät täällä.",
+            "NO_FOLLOWING_TITLE": "Aloita ihmisten seuraaminen, niin heidän videot näkyvät täällä.",
+            "NO_MESSAGES_TITLE": "Lähetä viestejä ystävillesi",
+            "NO_MESSAGES_SUBTITLE": "Jaa videoita tai aloita keskustelu"
+		},
+		"VOICEMEMO": {
+            "TITLE": "Äänitteet",
+            "ALL_RECORDINGS": "Kaikki tallenteet",
+            "DEFAULT_NAME": "Uusi tallenne",
+            "DELETE_POPUP": {
+                "TITLE": "Poista äänite",
+                "DESCRIPTION": "Haluatko varmasti poistaa tämän äänitteen?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+            },
+            "NO_MICROPHONE_POPUP": {
+                "TITLE": "Ei mikrofonia",
+                "DESCRIPTION": "Emme pääse käsiksi mikrofoniisi. Varmista, että sinulla on yksi liitetty ja hyväksy ilmestyvä ponnahdusikkuna näytön oikeassa yläkulmassa.",
+                "OK": "OK"
+			}
+		}
+	},
+	"COMPONENTS": {
+		"CONTEXT_MENU": {
+            "CANCEL": "Peruuta",
+            "CALL": "Soita",
+            "VIDEO_CALL": "Videopuhelu",
+            "MESSAGE": "Viesti"
+        },
+        "IMAGE": {
+            "SAVE_TO_GALLERY": "Tallenna galleriaan"
+        },
+        "GALLERY": {
+            "CANCEL": "Peruuta",
+            "EXTERNAL_URL": "Ulkoisen URL-osoite",
+            "EXTERNAL_URL_BLACKLISTED": "Tämä URL-osoite on mustalla listalla",
+            "NO_IMAGES": "Ei kuvia"
+        },
+        "NOTIFICATIONS": {
+            "SENT_PHOTO": "Lähetti kuvan",
+            "SENT_GIF": "Lähetti GIF:n",
+            "NOW": "nyt"
+        },
+        "SHARE": {
+            "COPY_PHOTO": "Kopioi kuva",
+            "USE_WALLPAPER": "Käytä taustakuvana",
+            "COPY_NUMBER": "Kopioi numero",
+            "AIRDROP_SENT": "Lähetetty",
+            "AIRDROP_ACCEPTED": "Hyväksytty",
+            "AIRDROP_DECLINED": "Hylätty",
+            "AIRDROP_NO_USERS": "Ei puhelimia lähistöllä",
+            "WALLPAPER_POPUP": {
+                "TITLE": "Käytä taustakuvana",
+                "TEXT": "Haluatko varmasti asettaa tämän kuvan taustakuvaksesi?",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+			}
+		},
+		"AIRDROP": {
+            "TITLE": "Airdrop",
+            "TEXT": "{sender} haluaa jakaa {type}",
+            "VIDEO": "videon",
+            "PHOTO": "valokuvan",
+            "CONTACT": "yhteystiedon",
+            "LOCATION": "sijainnin",
+            "NOTE": "muistiinpanon",
+            "VOICEMEMO": "äänimemon",
+            "PLAYLIST": "soittolistan",
+            "DECLINE": "Hylkää",
+            "ACCEPT": "Hyväksy"
+        },
+        "DYNAMICISLAND": {
+            "SILENT": "Hiljainen",
+            "RING": "Soittoääni",
+            "TIMER": "Ajastin"
+        },
+        "MUSIC_SELECTOR": {
+            "CANCEL": "Peruuta",
+            "NO-RESULTS": "Ei musiikkia määritetty, kerro palvelimen omistajalle lisätä kappaleita",
+            "SEARCH": "Etsi kappaletta",
+            "SELECT_POPUP": {
+                "TITLE": "Valitse kappale",
+                "DESCRIPTION": "Haluatko varmasti valita {song}",
+                "CANCEL": "Peruuta",
+                "PROCEED": "Jatka"
+            }
+        },
+        "BATTERY": {
+            "LOW_BATTERY": "Vähissä virtaa",
+            "BATTERY_REMAINING": "Jäljellä {percent}% akkua",
+            "LOW_POWER_MODE": "Vähävirtatila",
+            "CLOSE": "Sulje"
+        },
+        "COLOR_PICKER": {
+            "COLOR": "Väri"
+		}
+	},
+	"SETUP": {
+        "HELLO": "Hei",
+        "NEXT": "Avaa klikkaamalla",
+        "CREATE_PASSCODE": "Luo salasana",
+        "CREATE_PASSCODE_TEXT": "Salasana suojaa tietosi ja sitä käytetään puhelimen lukitsemiseen.",
+        "SKIP": "Ohita tämä vaihe",
+        "FACE_ID_SETUP": "Kasvontunnistuksen asetus",
+        "FACE_ID_TEXT": "Aseta kasvontunnistus lukitsemaan puhelimesi automaattisesti, kun kasvosi ovat kuvassa.",
+        "ENABLE_FACE_ID": "Ota kasvontunnistus käyttöön",
+        "APPEARANCE": "Ulkoasu",
+        "APPEARANCE_TEXT": "Valitse vaalea tai tumma ulkoasu",
+        "CONTINUE": "Jatka",
+        "WELCOME_TO": "Tervetuloa",
+        "CLICK": "Klikkaa aloittaaksesi"
+    },
+    "HOMESCREEN": {
+        "DONE": "Valmis",
+        "REMOVE_APP_POPUP": {
+            "TITLE": "Poista '{app}'?",
+            "DESCRIPTION": "Tämän sovelluksen poistaminen EI poista sen tietoja. Sovelluksen voi myöhemmin asentaa uudelleen sovelluskaupasta.",
+            "CANCEL": "Peruuta",
+            "PROCEED": "Poista"
+        }
+    },
+    "LOCKSCREEN": {
+        "ENTER_PASSCODE": "Syötä salasana",
+        "DELETE": "Poista",
+        "FONT_AND_COLOR": "Fontti ja väri"
+	},
+	"MISC": {
+		"AIRPLANE_MODE_POPUP": {
+            "TITLE": "Virhe",
+            "DESCRIPTION": "Yrität suorittaa toimintoa, joka vaatii internetyhteyden. Poista lentokonetila käyttääksesi toimintoa.",
+            "OK": "OK"
+            }
+        },
+        "BACKEND": {
+            "CALLS": {
+                "NO_CALLER_ID": "Ei numerotunnusta",
+                "MISSED_CALL": "Vastaamaton puhelu",
+                "NEW_VOICEMAIL": "Ääniviesti"
+            },
+            "GARAGE": {
+                "VALET": "Autonluovutus",
+                "COULDNT_FIND": "Autoa ei löydetty.",
+                "ALREADY_OUT": "Auto on jo ulkona.",
+                "NO_MONEY": "Sinulla ei ole tarpeeksi rahaa.",
+                "ON_WAY": "Autosi on matkalla.",
+                "MARKED": "Autosi on merkitty GPS:ään."
+            },
+            "INSTAGRAM": {
+                "NOT_ALLOWED_LIVE": "Et voi aloittaa suoraa lähetystä.",
+                "NOT_ALLOWED_STORY": "Et voi julkaista tarinaa.",
+                "STARTED_LIVE": "{username} aloitti suoran lähetyksen",
+                "JOINED_LIVE": "{invitee} on nyt mukana suorassa lähetyksessä kohteessa {inviter}.",
+                "LIKED_PHOTO": "{username} tykkäsi kuvastasi",
+                "LIKED_COMMENT": "{username} tykkäsi kommentistasi",
+                "COMMENTED": "{username} kommentoi julkaisuasi",
+                "NEW_FOLLOWER": "{username} alkoi seurata sinua",
+                "FOLLOW_REQUEST_ACCEPTED_TITLE": "Seurantapyyntö hyväksytty",
+                "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "{displayName} ({username}) hyväksyi seurantapyyntösi.",
+                "NEW_FOLLOW_REQUEST_TITLE": "Uusi seurantapyyntö",
+                "NEW_FOLLOW_REQUEST_DESCRIPTION": "{displayName} ({username}) haluaa seurata sinua."
+		},
+		"TINDER": {
+            "NEW_MATCH": "Uusi osuma",
+            "MATCHED_WITH": "Sovit henkilön {name} kanssa"
+        },
+        "CAMERA": {
+            "TAKE_PHOTO": "Paina {key} ottaaksesi valokuvan",
+            "FLIP_CAMERA": "Paina {key} kääntääksesi kameraa",
+            "TOGGLE_FLASH": "Paina {key} vaihtaaksesi salaman tilan",
+            "TOGGLE_CURSOR": "Paina {key} vaihtaaksesi kursorin ja katsellaksesi ympärillesi",
+            "CHANGE_MODE": "Paina {key} {key2} vaihtaaksesi kameran tilaa"
+        },
+        "SERVICES": {
+            "NEW_MESSAGE": "Uusi viesti",
+            "ANONYMOUS": "Anonyymi"
+        },
+        "TWITTER": {
+            "LIKE": "Tykätty käyttäjän {displayName} toimesta:",
+            "RETWEET": "Uudelleenjaettu käyttäjän {displayName} toimesta:",
+            "REPLY": "{displayName} vastasi:",
+            "FOLLOW": "{username} alkoi seurata sinua",
+            "TWEET": "{username} julkaisi juuri",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "@{username} on hyväksynyt seurantapyyntösi.",
+            "NEW_FOLLOW_REQUEST": "@{username} haluaa seurata sinua!"
+        },
+        "TIKTOK": {
+            "LIKE": "{displayName} tykkäsi videostasi.",
+            "COMMENT": "{displayName} kommentoi videostasi.",
+            "FOLLOW": "{displayName} alkoi seurata sinua.",
+            "SAVE": "{displayName} lisäsi videosi suosikkeihinsa.",
+            "LIKED_COMMENT": "{displayName} tykkäsi kommentistasi.",
+            "REPLIED_COMMENT": "{displayName} vastasi kommenttiisi.",
+            "DM": "{displayName}"
+		},
+		"MISC": {
+			"VERIFIED": "Tilisi on vahvistettu",
+	        "X_PHONE": "{name}:n puhelin"
+    },
+    "CRYPTO": {
+    	"RECEIVED_TRANSFER_TITLE": "Vastaanotettu {coin}",
+    	"RECEIVED_TRANSFER_DESCRIPTION": "Sait {amount} {coin}a, jonka arvo on ${value}"
+    },
+    "MAIL": {
+	"AUTOMATIC_PASSWORD": {
+		"SENDER": "Järjestelmä",
+		"SUBJECT": "Sähköpostiosoitteesi",
+		"MESSAGE": "Hei,\n\nAutomaattisesti luotu sähköpostiosoitteesi on {address} ja salasanasi on {password}"
+			}
+		},
+		"LOGS": {
+			"MAIL_TITLE": "Sähköposti",
+	        "NEW_MAIL": "{sender} lähetti sähköpostin osoitteeseen {recipient}",
+
+	        "MESSAGE_TITLE": "Tekstiviesti",
+	        "NEW_MESSAGE": "{sender} lähetti viestin osoitteeseen {recipient}: {message}",
+
+	        "CALL_ENDED": "Puhelu päättyi",
+	        "CALL_DESCRIPTION": "Puhelu `{caller}` ja `{callee}` välillä, joka kesti {duration} sekuntia, on päättynyt. Vastattu: `{answered}`",
+
+	        "NEW_SERVICE_TITLE": "Uusi viesti",
+	        "NEW_SERVICE_CONTENT": "{sender} lähetti viestin kanavalle {channel}: {message}",
+
+	        "RECEIVED_TITLE": "Vastaanotettu ${amount}",
+	        "PAID_TITLE": "Maksettu ${amount}",
+	        "TRANSACTION": "{number} teki ${amount} liiketoimen yritykselle {company}",
+
+	        "BOUGHT_CRYPTO": "Ostettu kryptovaluutta",
+	        "SOLD_CRYPTO": "Myyty kryptovaluutta",
+	        "CRYPTO_DETAILS": "**Kolikko**: {coin}\n**Määrä**: {amount}\n**Arvo**: ${price}",
+	        "TRANSFERRED_CRYPTO": "Siirretty kryptovaluutta",
+	        "TRANSFERRED_CRYPTO_DETAILS": "**Kolikko**: {coin}\n**Määrä**: {amount}\n**Mihin**: {to}\n**Mistä**: {from}",
+
+	        "DARKCHAT_CREATED_TITLE": "Kanavan luominen",
+	        "DARKCHAT_CREATED_DESCRIPTION": "{creator} loi kanavan nimeltä {channel}",
+	        "DARKCHAT_MESSAGE_TITLE": "Uusi viesti",
+	        "DARKCHAT_MESSAGE_DESCRIPTION": "{sender} lähetti viestin kanavalla {channel}: {message}",
+
+	        "MARKETPLACE_NEW_TITLE": "Uusi ilmoitus",
+	        "MARKETPLACE_NEW_DESCRIPTION": "**Myyjä**: {seller}\n**Otsikko**: {title}\n**Hinta**: ${price}\n**Kuvaus**: {description}\n**Liitteet**: {attachments}\n**ID:** {id}",
+	        "MARKETPLACE_DELETED": "Ilmoitus poistettu",
+
+	        "YELLOWPAGES_NEW_TITLE": "Uusi viesti",
+	        "YELLOWPAGES_NEW_DESCRIPTION": "**Otsikko**: {title}\n**Kuvaus**: {description}\n**Liite**: {attachment}\n**ID:** {id}",
+	        "YELLOWPAGES_DELETED": "Viesti poistettu",
+
+	        "LIVE_TITLE": "Live",
+	        "STARTED_LIVE": "{username} aloitti suoran videon",
+	        "ENDED_LIVE": "{username} lopetti suoran videon",
+	        "ADDED_STORY": "{username} lisäsi kuvan tarinaansa",
+
+	        "TRENDY_UPLOAD_TITLE": "Uusi video",
+	        "TRENDY_UPLOAD_DESCRIPTION": "{username} lähetti uuden videon otsikolla {caption} ja tunnisteella {id}",
+	        "TRENDY_DELETE_TITLE": "Poistettiin video",
+	        "TRENDY_DELETE_DESCRIPTION": "{username} poisti videon tunnisteella {id}",
+
+	        "UPLOADED_MEDIA": "Ladattu media",
+	        "UPLOADED_MEDIA_DESCRIPTION": "Otin {type}-kuvan tunnisteella {id}\n{link}",
+	        "VIDEO": "video",
+	        "PHOTO": "kuva"
+		}
+	}
+}
