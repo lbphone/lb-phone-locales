@@ -8,6 +8,35 @@
     "M": "m",
     "S": "s",
 
+    "APP_NAMES": {
+        "Phone": "Téléphone",
+        "Messages": "Messages",
+        "Notes": "Notes",
+        "Settings": "Paramètres",
+        "Photos": "Gallery",
+        "Camera": "Caméra",
+        "Weather": "Météo",
+        "Calculator": "Calculatrice",
+        "AppStore": "Apps",
+        "Clock": "Horloge",
+        "Maps": "Cartes",
+        "YellowPages": "Pages Jaunes",
+        "MarketPlace": "Marché",
+        "Wallet": "Portefeuille",
+        "Home": "Maison",
+        "Garage": "Garage",
+        "Music": "Musique",
+        "DarkChat": "Dark Chat",
+        "Crypto": "Crypto",
+        "Mail": "Email",
+        "Services": "Services",
+        "VoiceMemo": "Notes Vocales",
+        "Twitter": "Birdy",
+        "Instagram": "InstaPic",
+        "Tinder": "Spark",
+        "TikTok": "Trendy"
+    },
+
     "APPS": {
         "SETTINGS": {
             "TITLE": "Réglages",
