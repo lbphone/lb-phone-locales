@@ -11,9 +11,11 @@
             "EDIT": "แก้ไข",
 
             "AIRPLANE_MODE": "โหมดเครื่องบิน",
+            "AIRPLANE_MODE_DESCRIPTION": "ปิดใช้งานการโทร อินเตอร์เน็ต และอื่น ๆ",
             "STREAMER_MODE": "โหมดสตรีมเมอร์",
-            "BLUETOOTH": "บลูทูธ",
+            "STREAMER_MODE_DESCRIPTION": "ปิดข้อมูลส่วนตัวที่จะขึ้นในมือถือ",
             "GENERAL": "ทั่วไป",
+            "GENERAL_DESCRIPTION": "การตั้งค่าทั่วไปของโทรศัพท์ของคุณ",
 
             "ABOUT": "เกี่ยวกับ",
             "NAME": "ชื่อ",
@@ -40,9 +42,13 @@
             "LANGUAGE_REGION": "ภาษาและภูมิภาค",
             "LANGUAGE": "ภาษา",
             "TEMPERATURE": "อุณหภูมิ",
+            "CELCIUS": "เซลเซียส",
+            "FAHRENHEIT": "ฟาเรนไฮต์",
             "BATTERY": "แบตเตอรี่",
+            "BATTERY_DESCRIPTION": "ดูอายุการใช้งานแบตเตอรี่",
 
             "SOUND_HAPTICS": "เสียงและสัมผัส",
+            "SOUND_HAPTICS_DESCRIPTION": "เปลี่ยนเสียงและการสั่น",
             "SOUND_HAPTICS_PATTERNS": "รูปแบบเสียงและสัมผัส",
             "RINGTONE": "ริงโทน",
             "TEXT_TONE": "เสียงข้อความ",
@@ -55,20 +61,25 @@
             "OF": "ของ",
 
             "DISPLAY_BRIGHTNESS": "ความสว่างจอแสดงผล",
+            "DISPLAY_BRIGHTNESS_DESCRIPTION": "ตั้งค่าการแสดงผลหน้าจอและความสว่าง",
             "APPEARANCE": "ลักษณะภายนอก",
             "AUTOMATIC": "อัตโนมัติ",
             "BRIGHTNESS": "ความสว่าง",
             "PHONE_SCALE": "ขนาดโทรศัพท์",
+            "FRAME_COLOR": "Frame Color",
 
             "WALLPAPER": "วอลล์เปเปอร์",
+            "WALLPAPER_DESCRIPTION": "เปลี่ยนวอลล์เปเอร์พื้นหลัง",
             "WALLPAPERS": "วอลล์เปเปอร์",
             "CHOOSE_NEW_WALLPAPER": "เลือกวอลเปเปอร์ใหม่",
 
             "NOTIFICATIONS": "การแจ้งเตือน",
+            "NOTIFICATIONS_DESCRIPTION": "เลือกแอปที่สามารถส่งการแจ้งเตือนได้",
             "ALLOW_NOTIFICATIONS": "อนุญาตการแจ้งเตือน",
             "SOUNDS": "เสียง",
 
             "PHONE": "โทรศัพท์",
+            "PHONE_DESCRIPTION": "เปิดปิดการแสดงหมายเลขผู้โทร บล็อกหมายเลข",
             "BLOCKED_CONTACTS": "ผู้ติดต่อที่ถูกบล็อก",
             "MY_NUMBER": "หมายเลขโทรศัพท์ของฉัน",
             "SHOW_CALLER_ID": "แสดงหมายเลขผู้โทร",
@@ -81,6 +92,7 @@
             },
 
             "FACE_ID_PASSWORD": "Face ID และรหัสผ่าน",
+            "FACE_ID_PASSWORD_DESCRIPTION": "รักษาความปลอดภัยโทรศัพท์ของคุณ",
             "ENTER_PASSCODE": "ใส่รหัสผ่าน",
             "PASSCODE": "และรหัสผ่าน",
             "FACE_ID": "Face ID",
@@ -128,14 +140,14 @@
             },
             "SUCCESS": "สำเร็จ",
             "SUCCESS_TEXT": "โทรศัพท์จะรีสตาร์ทใน 5 วินาที...",
-            "OK": "OK",
+            "OK": "ตกลง",
             "REMOVE_BACKUP_POPUP": {
                 "TITLE": "ลบข้อมูลสำรอง",
                 "TEXT": "คุณแน่ใจหรือไม่ว่าต้องการลบข้อมูลสำรองนี้",
                 "CANCEL": "ยกเลิก",
                 "CONFIRM": "ลบ"
             },
-            "ON": "On"
+            "ON": "เปิด"
         },
         "NOTES": {
             "TITLE": "โน้ต",
