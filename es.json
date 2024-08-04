@@ -371,7 +371,7 @@
 
             "NO_PHOTOS": "Sin fotos o videos",
             "NO_PHOTOS_INSTRUCTIONS": "Puedes tomar fotos o grabar videos utilizando la cámara",
-            "PHOTO_COUNT": "{photos} Fotos",
+            "PHOTO_COUNT": "{amount} Fotos",
             "VIDEO_COUNT": "{amount} Videos",
 
             "DELETE_CONTEXT_TITLE": "¿Deseas eliminar {type} o quitarlas de este álbum?",
@@ -570,6 +570,7 @@
                 "MESSAGE": "mensaje",
                 "CALL": "llamada",
                 "VIDEO": "video",
+                "SHARE": "compartir",
                 "MAIN": "principal",
                 "SHARE_CONTACT": "Compartir contacto",
                 "SHARE_LOCATION": "Compartir mi ubicación",
@@ -1771,3 +1772,4 @@
         }
     }
 }
+
