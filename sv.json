@@ -88,6 +88,8 @@
             "OF": "av",
             "DISPLAY_BRIGHTNESS": "Skärm och ljusstyrka",
             "DISPLAY_BRIGHTNESS_DESCRIPTION": "Ändra visning och ljusstyrka",
+            "DARK": "Mörkt",
+            "LIGHT": "Ljust",
             "APPEARANCE": "Utseende",
             "AUTOMATIC": "Automatisk",
             "BRIGHTNESS": "Ljusstyrka",
@@ -144,18 +146,25 @@
             "CLOUD_BACKUP": "Säkerhetskopiering",
             "YOUR_PROFILE": "Din profil",
             "CREATE_BACKUP": "Skapa säkerhetskopiering",
+            "BACKUPS": "Säkerhetskopieringar",
             "SAVE_BACKUP_POPUP": {
                 "TITLE": "Spara säkerhetskopiering",
                 "TEXT": "Är du säker på att du vill spara en säkerhetskopia av din data? (Sparar dina kontakter, bilder och inställningar )",
                 "CANCEL": "Avbryt",
                 "CONFIRM": "Spara"
             },
-            "BACKUPS": "Säkerhetskopieringar",
             "APPLY_BACKUP_POPUP": {
                 "TITLE": "Använd säkerhetskopiering",
                 "TEXT": "Är du säker på att du vill använda denna säkerhetskopia? (Skriver över dina kontakter, bilder och inställningar)",
                 "CANCEL": "Avbryt",
                 "CONFIRM": "Använd"
+            },
+            "BACKUP_ERROR_POPUP": {
+                "WARNING": "Varning",
+                "ERROR": "Fel",
+                "ALREADY_HAVE": "Du har redan en säkerhetskopiering för detta nummer",
+                "SAME_PHONE": "Du kan inte applicera en säkerhetskopiering kopierad från samma telefon",
+                "OK": "OK"
             },
             "SUCCESS": "Lyckades",
             "SUCCESS_TEXT": "Telefonen kommer starta om inom 5 sekunder...",
@@ -193,7 +202,9 @@
                 "TITLE": "Världsklocka",
                 "TODAY": "Idag",
                 "TOMORROW": "Imorgon",
-                "YESTERDAY": "Igår"
+                "YESTERDAY": "Igår",
+                "LOCAL_TIME": "Lokaltid",
+                "HRS": "{time} h"
             },
             "ALARM": {
                 "TITLE": "Alarm",
@@ -502,6 +513,7 @@
             "MARK_AS_READ": "Markera som läst",
             "MESSAGE_DELETED": "Meddelande borttaget",
             "OPEN_IN_MAPS": "Öppna i kartor",
+            "USERS_LOCATION": "{user}'s plats",
             "START_RECORDING": "Tryck på knappen för att spela in",
             "LOADING": "Laddar...",
             "EMPTY_RECORDING": {
@@ -604,7 +616,9 @@
                 "ADD_NUMBER": "Lägg till nummer"
             },
             "RECENTS": {
-                "TITLE": "Senaste"
+                "TITLE": "Senaste",
+                "ALL": "Alla",
+                "MISSED": "Missade"
             },
             "VOICEMAIL": {
                 "TITLE": "Röstbrevlåda",
@@ -1205,6 +1219,7 @@
             "ACTIONS": "Åtgärder",
             "COMPANIES": "Företag",
             "MESSAGES": "Meddelanden",
+            "SETTINGS": "Inställningar",
 
             "CLOSED": "Stängt",
             "YOUR_MESSAGES": "Dina meddelanden",
