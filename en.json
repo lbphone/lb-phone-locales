@@ -88,6 +88,8 @@
             "OF": "of",
             "DISPLAY_BRIGHTNESS": "Display & Brightness",
             "DISPLAY_BRIGHTNESS_DESCRIPTION": "Adjust display & brightness",
+            "DARK": "Dark",
+            "LIGHT": "Light",
             "APPEARANCE": "Appearance",
             "AUTOMATIC": "Automatic",
             "BRIGHTNESS": "Brightness",
@@ -144,18 +146,25 @@
             "CLOUD_BACKUP": "Cloud Backup",
             "YOUR_PROFILE": "Your Profile",
             "CREATE_BACKUP": "Create Backup",
+            "BACKUPS": "Backups",
             "SAVE_BACKUP_POPUP": {
                 "TITLE": "Save Backup",
                 "TEXT": "Are you sure you want to save a backup of your data? (Will save your contacts, photos and settings)",
                 "CANCEL": "Cancel",
                 "CONFIRM": "Save"
             },
-            "BACKUPS": "Backups",
             "APPLY_BACKUP_POPUP": {
                 "TITLE": "Apply Backup",
                 "TEXT": "Are you sure you want to apply this backup? (Will overwrite your contacts, photos and settings)",
                 "CANCEL": "Cancel",
                 "CONFIRM": "Apply"
+            },
+            "BACKUP_ERROR_POPUP": {
+                "WARNING": "Warning",
+                "ERROR": "Error",
+                "ALREADY_HAVE": "You already have a backup for this number",
+                "SAME_PHONE": "You cannot apply a backup created from the same phone",
+                "OK": "OK"
             },
             "SUCCESS": "Success",
             "SUCCESS_TEXT": "Phone will restart in 5 seconds...",
@@ -193,7 +202,9 @@
                 "TITLE": "World Clock",
                 "TODAY": "Today",
                 "TOMORROW": "Tomorrow",
-                "YESTERDAY": "Yesterday"
+                "YESTERDAY": "Yesterday",
+                "LOCAL_TIME": "Local Time",
+                "HRS": "{time} hrs"
             },
             "ALARM": {
                 "TITLE": "Alarm",
@@ -502,6 +513,7 @@
             "MARK_AS_READ": "Mark as read",
             "MESSAGE_DELETED": "Message deleted",
             "OPEN_IN_MAPS": "Open in Maps",
+            "USERS_LOCATION": "{user}'s location",
             "START_RECORDING": "Press the button to start recording",
             "LOADING": "Loading...",
             "EMPTY_RECORDING": {
@@ -604,7 +616,9 @@
                 "ADD_NUMBER": "Add Number"
             },
             "RECENTS": {
-                "TITLE": "Recents"
+                "TITLE": "Recents",
+                "ALL": "All",
+                "MISSED": "Missed"
             },
             "VOICEMAIL": {
                 "TITLE": "Voicemail",
@@ -1205,6 +1219,7 @@
             "ACTIONS": "Actions",
             "COMPANIES": "Companies",
             "MESSAGES": "Messages",
+            "SETTINGS": "Settings",
 
             "CLOSED": "Closed",
             "YOUR_MESSAGES": "Your Messages",
@@ -1404,7 +1419,7 @@
             "STARTED_FOLLOWING": "started following you.",
             "LIKED_VIDEO": "liked your video.",
             "LIKED_COMMENT": "liked your comment.",
-            "SAVED_VIDEO": "sadded your video to Favorites.",
+            "SAVED_VIDEO": "added your video to Favorites.",
             "COMMENTED": "commented: {comment}",
             "REPLIED": "replied to your comment: {comment}",
 
@@ -1500,6 +1515,7 @@
             "COPY_VIDEO": "Copy Video",
             "USE_WALLPAPER": "Use as Wallpaper",
             "COPY_NUMBER": "Copy Number",
+            "COPY_LINK": "Copy Link",
             "AIRDROP_SENT": "Sent",
             "AIRDROP_ACCEPTED": "Accepted",
             "AIRDROP_DECLINED": "Declined",
@@ -1690,7 +1706,7 @@
 
             "LOGGED_OUT_PASSWORD": {
                 "TITLE": "You were logged out",
-                "DESCRIPTION": "You were logged out from your account since your password was changed."
+                "DESCRIPTION": "You were logged out from your account sincce your password was changed."
             },
 
             "DELETED_NOTIFICATION": {
