@@ -1104,6 +1104,7 @@
             "USERNAME_TAKEN": "Username is already taken",
             "UNKNOWN": "Unknown error",
             "UNKNOWN_ACCOUNT": "Account does not exist",
+            "INVALID_USERNAME": "Invalid username",
             "INCORRECT_PASSWORD": "Incorrect password",
             "OK": "OK"
         },
