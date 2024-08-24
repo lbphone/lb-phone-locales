@@ -88,6 +88,8 @@
             "OF": "di",
             "DISPLAY_BRIGHTNESS": "Display & Luminosita",
             "DISPLAY_BRIGHTNESS_DESCRIPTION": "Imposta Display e Luminosità",
+            "DARK": "Scuro",
+            "LIGHT": "Chiaro",
             "APPEARANCE": "Personalizzazione",
             "AUTOMATIC": "Automatica",
             "BRIGHTNESS": "Luminosita",
@@ -120,6 +122,11 @@
             "RESET_FACE_ID": "Resetta Face ID",
             "ENABLE_FACE_ID": "Attiva Face ID",
             "PIN_CODE": "Codice PIN",
+            "PIN_CODE_ERROR": {
+                "TITLE": "Errore",
+                "WRONG": "Codice di Sblocco errato",
+                "OK": "OK"
+            },
             "DISABLE_FACE_ID_POPUP": {
                 "TITLE": "Disattiva Face ID",
                 "TEXT": "Sei sicuro di voler disattivare Face ID?",
@@ -144,6 +151,7 @@
             "CLOUD_BACKUP": "Backup Cloud",
             "YOUR_PROFILE": "Il tuo Profilo",
             "CREATE_BACKUP": "Crea Backup",
+            "BACKUPS": "Backup",
             "SAVE_BACKUP_POPUP": {
                 "TITLE": "Salva Backup",
                 "TEXT": "Sei sicuro di voler salvare un backup? (Salveremo contatti, foto e impostazioni)",
@@ -156,6 +164,13 @@
                 "TEXT": "Sei sicuro di voler ripristinare il backup? (Sovrascrivera contatti, foto e impostazioni)",
                 "CANCEL": "Annulla",
                 "CONFIRM": "Applica"
+            },
+            "BACKUP_ERROR_POPUP": {
+                "WARNING": "Attenzione",
+                "ERROR": "Errore",
+                "ALREADY_HAVE": "Hai già un backup per questo numero",
+                "SAME_PHONE": "Non puoi applicare un backup creato dallo stesso telefono",
+                "OK": "OK"
             },
             "SUCCESS": "Completato",
             "SUCCESS_TEXT": "Il telefono si riavviera in 5 secondi...",
@@ -193,7 +208,9 @@
                 "TITLE": "Ora del Mondo",
                 "TODAY": "Oggi",
                 "TOMORROW": "Domani",
-                "YESTERDAY": "Ieri"
+                "YESTERDAY": "Ieri",
+                "LOCAL_TIME": "Ora locale",
+                "HRS": "{time} ore"
             },
             "ALARM": {
                 "TITLE": "Allarmi",
@@ -261,7 +278,8 @@
             "NO_CHATS_TEXT": "Non sei ancora entrato in un canale. Entra/Creane uno cliccando sul tasto + in alto a destra.",
             "MEMBER": "Membro",
             "MEMBERS": "Membri",
-            
+
+            "USERNAME": "Username",
             "PASSWORD": "Password",
             "LOGIN": "Accedi",
             "SIGN_UP": "Registrati",
@@ -501,6 +519,7 @@
             "MARK_AS_READ": "Segna come letto",
             "MESSAGE_DELETED": "Messaggio Eliminato",
             "OPEN_IN_MAPS": "Apri in Mappe",
+            "USERS_LOCATION": "Posizione di {user}",
             "START_RECORDING": "Premi il tasto per iniziare a registrare",
             "LOADING": "Caricamento...",
             "EMPTY_RECORDING": {
@@ -603,7 +622,9 @@
                 "ADD_NUMBER": "Aggiungi Numero"
             },
             "RECENTS": {
-                "TITLE": "Recenti"
+                "TITLE": "Recenti",
+                "ALL": "Tutte",
+                "MISSED": "Perse"
             },
             "VOICEMAIL": {
                 "TITLE": "Segreteria Telefonica",
@@ -768,15 +789,16 @@
         "MARKETPLACE": {
             "MARKETPLACE": "Marketplace",
             "TITLE": "Titolo",
-            "CANCEL": "Annulla",
             "SEARCH": "Cerca inserzioni o numero",
-            "NEW_POST": "Nuovo Post",
-            "DESCRIPTION": "Descrizione",
+            "HOME": "Home",
+            "YOUR_POSTS": "I tuoi Post",
             "PRICE": "Prezzo",
+            "DESCRIPTION": "Descrizione",
+            "IMAGES": "Immagini",
             "POST": "Post",
             "AMOUNT_OF_TOTAL": "{amount} di {total}",
-            "MESSAGE": "Messaggi",
-            "CONTACT": "Contatto",
+            "MESSAGE": "Messaggia",
+            "CALL": "Chiama",
             "REMOVE": "Rimuovi",
 
             "ERROR_POPUP": {
@@ -1088,6 +1110,7 @@
             "USERNAME_TAKEN": "Username gia usato",
             "UNKNOWN": "Errore Sconosciuto",
             "UNKNOWN_ACCOUNT": "L'account non esiste",
+            "INVALID_USERNAME": "Username non valido",
             "INCORRECT_PASSWORD": "Password non corretta",
             "OK": "OK"
         },
@@ -1156,8 +1179,8 @@
             },
             "YOU": "Tu",
             "FOLLOW": "Segui",
-            "FOLLOWING": "Seguendo",
             "PENDING": "In attesa",
+            "FOLLOWING": "Seguendo",
             "FOLLOWERS": "Followers",
             "RETWEETED": "Retweet",
             "REPLYING_TO": "Risponendo a {name}",
@@ -1198,40 +1221,41 @@
             "NEW_POST": "Nuovo Post",
             "PROTECTED_TWEETS_TITLE": "Questi post sono protetti.",
             "PROTECTED_TWEETS_DESCRIPTION": "Solo i follower confermati possono vedere i post di @{username} e il suo profilo completo. Tocca il tasto 'Segui' per inviare una richiesta di follow."
-            },
-            "SERVICES": {
-                "ACTIONS": "Azioni",
-                "COMPANIES": "Aziende",
-                "MESSAGES": "Messaggi",
+        },
+        "SERVICES": {
+            "ACTIONS": "Azioni",
+            "COMPANIES": "Aziende",
+            "MESSAGES": "Messaggi",
+            "SETTINGS": "Impostazioni",
 
-                "CLOSED": "Chiuso",
-                "YOUR_MESSAGES": "I tuoi Messaggi",
-                "JOB_MESSAGES": "Messaggi di lavoro",
+            "CLOSED": "Chiuso",
+            "YOUR_MESSAGES": "I tuoi Messaggi",
+            "JOB_MESSAGES": "Messaggi di lavoro",
 
-                "DUTY": "In servizio",
-                "DUTY_DESCRIPTION": "Entra/Esci dal servizio",
-                "GO_ON_DUTY": "Vai in servizio",
-                "GO_OFF_DUTY": "Vai fuori servizio",
-                "JOB_CALLS": "Chiamate di lavoro",
-                "JOB_CALLS_DESCRIPTION": "{toggle} la ricezione di chiamate dai clienti.",
+            "DUTY": "In servizio",
+            "DUTY_DESCRIPTION": "Entra/Esci dal servizio",
+            "GO_ON_DUTY": "Vai in servizio",
+            "GO_OFF_DUTY": "Vai fuori servizio",
+            "JOB_CALLS": "Chiamate di lavoro",
+            "JOB_CALLS_DESCRIPTION": "{toggle} la ricezione di chiamate dai clienti.",
 
-                "ENABLE": "Attiva",
-                "DISABLE": "Disattiva",
+            "ENABLE": "Attiva",
+            "DISABLE": "Disattiva",
 
-                "DISABLE_CALLS": "Disattiva Chiamate",
-                "ENABLE_CALLS": "Attiva Chiamate",
-                "BALANCE": "Bilancio",
-                "MANAGE_EMPLOYEES": "Gestisci Dipendenti",
-                "HIRE": "Assumi",
-                "SET_GRADE": "Imposta Grado",
-                "UNEMPLOYED": "Sei disoccupato",
+            "DISABLE_CALLS": "Disattiva Chiamate",
+            "ENABLE_CALLS": "Attiva Chiamate",
+            "BALANCE": "Bilancio",
+            "MANAGE_EMPLOYEES": "Gestisci Dipendenti",
+            "HIRE": "Assumi",
+            "SET_GRADE": "Imposta Grado",
+            "UNEMPLOYED": "Sei disoccupato",
 
-                "ALL": "Tutto",
-                "AVAILABLE": "Disponibile",
-                "SEARCH_EMPLOYEES": "Cerca Impiegati",
+            "ALL": "Tutto",
+            "AVAILABLE": "Disponibile",
+            "SEARCH_EMPLOYEES": "Cerca Impiegati",
 
-                "PERSONAL": "Personale",
-                "JOB": "Lavoro",
+            "PERSONAL": "Personale",
+            "JOB": "Lavoro",
 
             "DEPOSIT_POPUP": {
                 "TITLE": "Deposita",
@@ -1296,8 +1320,6 @@
                 "TITLE": "Vendi {coin}",
                 "DESCRIPTION": "Inserisci la quantità di {coin} (in $) che vuoi vendere",
                 "PLACEHOLDER": "$1000",
-                "CANCEL": "Annulla",
-                "PROCEED": "Procedi"
             },
             "SELL_ALL_POPUP": {
                 "TITLE": "Vendi tutti i {coin}",
@@ -1500,6 +1522,7 @@
             "COPY_VIDEO": "Copia Video",
             "USE_WALLPAPER": "Usa come sfondo",
             "COPY_NUMBER": "Copia Numero",
+            "COPY_LINK": "Copia Link",
             "AIRDROP_SENT": "Inviato",
             "AIRDROP_ACCEPTED": "Accettato",
             "AIRDROP_DECLINED": "Rifiutato",
