@@ -1120,14 +1120,14 @@
             "TIMER": "Zamanlayıcı"
         },
         "MUSIC_SELECTOR": {
-            "CANCEL": "Cancel",
-            "NO-RESULTS": "No music configured, tell the server-owner to add songs",
-            "SEARCH": "Search for a song",
+            "CANCEL": "İptal",
+            "NO-RESULTS": "Hiçbir müzik yapılandırılmadı, sunucu sahibine şarkı eklemesini söyleyin",
+            "SEARCH": "Bir şarkı ara",
             "SELECT_POPUP": {
-                "TITLE": "Select song",
-                "DESCRIPTION": "Are you sure you want to select {song}",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
+                "TITLE": "Şarkı seç",
+                "DESCRIPTION": "{song} şarkısını seçmek istediğinizden emin misiniz?",
+                "CANCEL": "İptal",
+                "PROCEED": "Devam et"
             }
         },
         "INSTAGRAM": {
