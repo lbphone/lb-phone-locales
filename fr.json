@@ -13,7 +13,7 @@
         "Messages": "Messages",
         "Notes": "Notes",
         "Settings": "Paramètres",
-        "Photos": "Gallery",
+        "Photos": "Galerie",
         "Camera": "Caméra",
         "Weather": "Météo",
         "Calculator": "Calculatrice",
@@ -41,7 +41,7 @@
         "SETTINGS": {
             "TITLE": "Réglages",
             "BACK": "Retour",
-            "DONE": "Done",
+            "DONE": "Confirmer",
             "EDIT": "Éditer",
             "AIRPLANE_MODE": "Mode avion",
             "STREAMER_MODE": "Mode streamer",
@@ -206,7 +206,7 @@
                 "DELETE_TEXT": "Êtes-vous sûr de vouloir supprimer cette alarme ?",
                 "BUTTON_CANCEL": "Annuler",
                 "BUTTON_DELETE": "Effacer",
-                "ALARMS": "Alarmss",
+                "ALARMS": "Alarmes",
                 "NEW_ALARM": "Nouvelle Alarme"
             },
             "STOPWATCH": {
@@ -321,14 +321,14 @@
             "SELECT": "Sélectionner",
             "CANCEL": "Annuler",
             "EDIT": "Modifier",
-            "DONE": "Fini",
+            "DONE": "Confirmer",
             "DELETE": "Supprimer",
             "SELECT_ITEMS": "Sélectionnez les éléments",
             "SELECTED_COUNT": "{count} éléments sélectionnés",
 
             "PHOTOS": "Photos",
             "ALBUMS": "Albums",
-            "LIBRARY": "Gallery",
+            "LIBRARY": "Galerie",
             "MY_ALBUMS": "Mes Albums",
             "MEDIA_TYPES": "Types de médias",
             "NEW_ALBUM_POPUP": {
@@ -645,11 +645,11 @@
                 "DESCRIPTION": "Le numéro que vous avez saisi n'existe pas ou le joueur n'est pas en ligne"
             },
             "AIRPLANE_MODE": {
-                "TITLE": "Ereure",
+                "TITLE": "Erreur",
                 "DESCRIPTION": "Vous essayez d'effectuer une action qui nécessite un accès à internet, désactivez le mode avion pour continuer."
             },
             "INVALID_AMOUNT": {
-                "TITLE": "Montant invalid",
+                "TITLE": "Montant invalide",
                 "DESCRIPTION": "Vous avez saisi un montant non valable"
             },
             "FAILED_SEND": {
@@ -764,11 +764,11 @@
             "TITLE": "Titre",
             "SEARCH": "Rechercher des listes ou des numéros",
             "HOME": "Accueil",
-            "YOUR_POSTS": "Vos Posts",
+            "YOUR_POSTS": "Vos Publications",
             "PRICE": "Prix",
             "DESCRIPTION": "Description",
             "IMAGES": "Images",
-            "POST": "Poster",
+            "POST": "Publier",
             "AMOUNT_OF_TOTAL": "{amount} sur {total}",
             "MESSAGE": "Message",
             "CALL": "Appeler",
@@ -794,7 +794,7 @@
             "SEARCH": "Rechercher des messages ou des numéros",
             "FROM": "De",
             "CANCEL": "Annuler",
-            "NEW_POST": "Nouveau poste",
+            "NEW_POST": "Nouvelle Publication",
             "TITLE": "Titre",
             "DESCRIPTION": "Description",
             "PRICE": "Prix",
@@ -917,7 +917,7 @@
             }
         },
         "TINDER": {
-            "TITLE": "Tinder",
+            "TITLE": "Spark",
             "LIKES_YOU_TOO": "t'a liké aussi!",
             "KEEP_SWIPING": "Continue de swipe",
             "SAY_SOMETHING_NICE": "Dis-lui quelque chose...",
@@ -926,7 +926,7 @@
             "AGREE_TERMS": "En appuyant sur 'Créer un compte', vous acceptez nos conditions d'utilisation et notre politique de confidentialité",
             "CREATE_ACCOUNT": "Créer un compte",
             "AGE_PUBLIC": "Votre âge sera public",
-            "BE_OVER_18": "Vous devez avoir au moins 18 ans pour utiliser Tinder",
+            "BE_OVER_18": "Vous devez avoir au moins 18 ans pour utiliser Spark",
             "NAME_MINIMUM": "Votre nom doit avoir au moins 3 caractères",
             "ADD_PHOTOS": "Ajouter des Photos",
             "PHOTOS_MINIMUM": "Vous devez avoir au moins une photo",
@@ -958,7 +958,7 @@
             "DELETE_ACCOUNT": "Supprimer le compte"
         },
         "INSTAGRAM": {
-            "TITLE": "Instagram",
+            "TITLE": "InstaPic",
             "SEND": "Envoyer",
             "POST": "Publier",
             "MESSAGE_PLACEHOLDER": "Envoyer un Message...",
@@ -984,8 +984,8 @@
                 "PROCEED": "Suivant"
             },
             "DELETE_POST_POPUP": {
-                "TITLE": "Supprimer ce post",
-                "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer ce post ?",
+                "TITLE": "Supprimer cette publication",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer cette publication ?",
                 "CANCEL": "Annuler",
                 "PROCEED": "Suivant"
             },
@@ -1027,7 +1027,7 @@
             "EMPTY_FEED": "Commencez par suivre des gens pour voir leurs photos et vidéos ici",
             "COMMENTS": "Commentaires",
             "ADD_COMMENT_AS": "Ajouter des commentaires en tant que {name}",
-            "NEW_POST": "Nouveau post",
+            "NEW_POST": "Nouvelle Publication",
             "NEXT": "Suivant",
             "CAPTION_PLACEHOLDER": "Écrivez une description...",
             "ACTIVITY": "Activité",
@@ -1049,9 +1049,9 @@
             "HAVE_ACCOUNT": "Vous avez déjà un compte ?",
             "LIKED_PHOTO": "a liké votre photo.",
             "LIKED_COMMENT": "a liké votre commentaire: {comment}",
-            "COMMENTED": "a commenté votre post: {comment}",
+            "COMMENTED": "a commenté votre publication: {comment}",
             "FOLLOWED": "a commencé à vous suivre",
-            "DONE": "Fait",
+            "DONE": "Confirmer",
             "EDIT_PROFILE": "Modifier votre profil",
             "CHANGE_PICTURE": "Changer votre photo de profil",
             "NAME": "Nom",
@@ -1187,10 +1187,10 @@
             "PROMOTED": "Promu",
             "ADD_ACCOUNT": "Ajouter un compte",
             "FOLLOWER_REQUESTS": "Demandes de suivi",
-            "NEW_POSTS": "Nouveaux Posts",
-            "NEW_POST": "Nouvveau Post",
-            "PROTECTED_TWEETS_TITLE": "Ces posts sont protégés.",
-            "PROTECTED_TWEETS_DESCRIPTION": "Only confirmed followers have access to @{username}'s posts and complete profile. Tap the 'Follow' button to send a follow request."
+            "NEW_POSTS": "Nouvelle Publications",
+            "NEW_POST": "Nouvelle Publication",
+            "PROTECTED_TWEETS_TITLE": "Ces publications sont protégées.",
+            "PROTECTED_TWEETS_DESCRIPTION": "Seuls les abonnés confirmés ont accès aux publications et au profil complet de @{username}. Appuie sur le bouton 'Suivre' pour envoyer une demande d'abonnement."
         },
         "SERVICES": {
             "ACTIONS": "Actions",
@@ -1469,9 +1469,9 @@
             "MESSAGE": "Message"
         },
         "IMAGE": {
-            "SAVE_TO_GALLERY": "Sauvegarder dans la galerie"
+            "SAVE_TO_Galerie": "Sauvegarder dans la galerie"
         },
-        "GALLERY": {
+        "Galerie": {
             "CANCEL": "Annuler",
             "EXTERNAL_URL": "URL externe",
             "EXTERNAL_URL_BLACKLISTED": "Cet URL est interdite",
@@ -1657,7 +1657,7 @@
             "RETWEET": "Republié par {displayName}:",
             "REPLY": "{displayName} a répondu:",
             "FOLLOW": "{username} a commencé à vous suivre",
-            "TWEET": "{username} vient de poster",
+            "TWEET": "{username} vient de publier",
             "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "@{username} a accepté votre demande de suivi.",
             "NEW_FOLLOW_REQUEST": "@{username} a demandé à vous suivre!"
         },
@@ -1723,13 +1723,13 @@
             "DARKCHAT_MESSAGE_TITLE": "Nouveau message",
             "DARKCHAT_MESSAGE_DESCRIPTION": "{sender} a envoyé un message dans {channel}: {message}",
 
-            "MARKETPLACE_NEW_TITLE": "Nouveau post",
+            "MARKETPLACE_NEW_TITLE": "Nouvelle Publication",
             "MARKETPLACE_NEW_DESCRIPTION": "**Vendeur**: {seller}\n**Titre**: {title}\n**Prix**: ${price}\n**Description**: {description}\n**Pièces-jointes**: {attachments}\n**ID:** {id}",
-            "MARKETPLACE_DELETED": "Post supprimé",
+            "MARKETPLACE_DELETED": "Publication supprimé",
 
-            "YELLOWPAGES_NEW_TITLE": "Nouveau post",
+            "YELLOWPAGES_NEW_TITLE": "Nouvelle Publication",
             "YELLOWPAGES_NEW_DESCRIPTION": "**Titre**: {title}\n**Description**: {description}\n**Pièces-jointes**: {attachment}\n**ID:** {id}",
-            "YELLOWPAGES_DELETED": "Post supprimé",
+            "YELLOWPAGES_DELETED": "Publication supprimé",
 
             "LIVE_TITLE": "Live",
             "STARTED_LIVE": "{username} a commencé un live",
