@@ -1469,9 +1469,9 @@
             "MESSAGE": "Message"
         },
         "IMAGE": {
-            "SAVE_TO_Galerie": "Sauvegarder dans la galerie"
+            "SAVE_TO_GALLERY": "Sauvegarder dans la galerie"
         },
-        "Galerie": {
+        "GALLERY": {
             "CANCEL": "Annuler",
             "EXTERNAL_URL": "URL externe",
             "EXTERNAL_URL_BLACKLISTED": "Cet URL est interdite",
