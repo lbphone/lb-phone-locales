@@ -347,7 +347,7 @@
 
             "PHOTOS": "Photos",
             "ALBUMS": "Albums",
-            "LIBRARY": "Librairie",
+            "LIBRARY": "Bibliothèque",
             "GALLERY": "Galerie",
             "MY_ALBUMS": "Mes Albums",
             "MEDIA_TYPES": "Types de médias",
@@ -518,7 +518,7 @@
             "MARK_AS_READ": "Marquer comme lu",
             "MESSAGE_DELETED": "Message supprimer",
             "OPEN_IN_MAPS": "Ouvrir dans Maps",
-            "USERS_LOCATION": "{user}'s localisation",
+            "USERS_LOCATION": "position de {user}",
             "START_RECORDING": "Appuyez sur le bouton pour démarrer l'enregistrement",
             "LOADING": "Chargement...",
             "EMPTY_RECORDING": {
