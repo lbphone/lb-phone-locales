@@ -122,6 +122,11 @@
             "RESET_FACE_ID": "Επαναφορά Αναγνώρισης Προσώπου",
             "ENABLE_FACE_ID": "Ενεργοποίηση Αναγνώρισης Προσώπου",
             "PIN_CODE": "Κωδικός PIN",
+            "PIN_CODE_ERROR": {
+                "TITLE": "Error",
+                "WRONG": "Wrong Pin Code",
+                "OK": "OK"
+            },
             "DISABLE_FACE_ID_POPUP": {
                 "TITLE": "Απενεργοποίηση Αναγνώρισης Προσώπου",
                 "TEXT": "Είστε βέβαιοι ότι θέλετε να απενεργοποιήσετε τo Face ID;",
@@ -272,15 +277,18 @@
             "NO_CHATS_TEXT": "Δεν έχετε συμμετάσχει σε κανένα κανάλι ακόμα. Συμμετάσχετε/δημιουργήστε ένα πατώντας το σύμβολο συν στην επάνω δεξιά γωνία.",
             "MEMBER": "Μέλος",
             "MEMBERS": "Μέλη",
+
             "USERNAME": "Όνομα Χρήστη",
             "PASSWORD": "Κωδικός Πρόσβασης",
             "LOGIN": "Σύνδεση",
             "SIGN_UP": "Εγγραφή",
             "NO_ACCOUNT": "Δεν έχετε λογαριασμό;",
             "ALREADY_HAVE": "Έχετε ήδη λογαριασμό;",
+
             "CHANGE_ACCOUNT": "Αλλαγή Λογαριασμού",
             "CHANGE_PASSWORD": "Αλλαγή Κωδικού",
             "DELETE_ACCOUNT": "Διαγραφή Λογαριασμού",
+
             "ERROR": "Σφάλμα",
             "INVALID_LENGTH": "Ο κωδικός πρέπει να έχει τουλάχιστον 3 χαρακτήρες",
             "USERNAME_TAKEN": "Το όνομα χρήστη είναι ήδη σε χρήση",
@@ -288,12 +296,14 @@
             "INVALID_USERNAME": "Το όνομα χρήστη δεν υπάρχει",
             "INCORRECT_PASSWORD": "Λάθος κωδικός",
             "OK": "Εντάξει",
+
             "LEAVE_CHANNEL": {
                 "TITLE": "Αποχώρηση από Κανάλι",
                 "DESCRIPTION": "Είστε βέβαιοι ότι θέλετε να αποχωρήσετε από αυτό το κανάλι;",
                 "CANCEL": "Ακύρωση",
                 "PROCEED": "Αποχώρηση"
             },
+
             "SET_PASSWORD_POPUP": {
                 "TITLE": "Ορισμός Κωδικού",
                 "DESCRIPTION": "Πρέπει να ορίσετε έναν κωδικό για τον λογαριασμό σας",
@@ -373,10 +383,12 @@
                 "PROCEED": "Εισαγωγή",
                 "PLACEHOLDER": "Διεύθυνση URL Εικόνας"
             },
+
             "NO_PHOTOS": "Χωρίς Φωτογραφίες ή Βίντεο",
             "NO_PHOTOS_INSTRUCTIONS": "Μπορείτε να τραβήξετε φωτογραφίες και βίντεο χρησιμοποιώντας την κάμερα",
             "PHOTO_COUNT": "{amount} Φωτογραφίες",
             "VIDEO_COUNT": "{amount} Βίντεο",
+
             "DELETE_CONTEXT_TITLE": "Θέλετε να διαγράψετε {type} ή να τα αφαιρέσετε από αυτό το άλμπουμ",
             "THESE_PHOTOS": "αυτές τις φωτογραφίες",
             "THIS_PHOTO": "αυτή τη φωτογραφία",
@@ -392,6 +404,7 @@
             "MONTHS": "Μήνες",
             "DAYS": "Μέρες",
             "ALL_PHOTOS": "Όλες οι Φωτογραφίες",
+
             "FAVOURITES": "Αγαπημένα",
             "RECENTS": "Πρόσφατα"
         },
@@ -490,10 +503,10 @@
                 "CLOSE": "Κλείσιμο"
             },
             "DELETE_CONVERSATION": {
-                "CANCEL": "Cancel",
-                "DELETE": "Delete",
                 "TITLE": "Διαγραφή συνομιλίας",
-                "DESCRIPTION": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή τη συνομιλία;"
+                "DESCRIPTION": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή τη συνομιλία;",
+                "CANCEL": "Cancel",
+                "DELETE": "Delete"
             },
             "REMOVE_AVATAR_POPUP": {
                 "TITLE": "Αφαίρεση Avatar",
@@ -563,7 +576,6 @@
                 "FIRST_NAME": "Όνομα",
                 "LAST_NAME": "Επώνυμο",
                 "PHONE_NUMBER": "Αριθμός Τηλεφώνου",
-                "REMOVE_AVATAR": "Remove Avatar",
                 "MY_CARD": "Η Κάρτα Μου",
                 "ADD_PHOTO": "Προσθήκη Φωτογραφίας",
                 "REMOVE_CONTACT_TITLE": "Αφαίρεση Επαφής",
@@ -573,7 +585,6 @@
                 "DELETE_CONTACT": "Διαγραφή Επαφής",
                 "MESSAGE": "μήνυμα",
                 "CALL": "κλήση",
-                "CHANGE_AVATAR": "Change Avatar",
                 "VIDEO": "βίντεο",
                 "SHARE": "μοιραστείτε",
                 "MAIN": "κύριο",
@@ -782,6 +793,7 @@
             "MESSAGE": "Μήνυμα",
             "CALL": "Κλήση",
             "REMOVE": "Αφαίρεση",
+
             "ERROR_POPUP": {
                 "TITLE": "Σφάλμα",
                 "NO_TITLE": "Πρέπει να εισάγετε τίτλο",
@@ -870,6 +882,7 @@
             "DELETE": "Διαγραφή",
             "SET_WAYPOINT": "Ορισμός Σημείου Προορισμού",
             "SHARE": "Μοιραστείτε",
+
             "ADD_LOCATION_POPUP": {
                 "TITLE": "Προσθήκη Τοποθεσίας",
                 "DESCRIPTION": "Εισάγετε το όνομα της τοποθεσίας που θέλετε να προσθέσετε",
@@ -971,7 +984,6 @@
             "MESSAGE_PLACEHOLDER": "Μήνυμα...",
             "NEW_MESSAGE": "Νέο Μήνυμα",
             "NOW": "Τώρα",
-            "OK": "OK",
             "GO_LIVE_POPUP": {
                 "TITLE": "Ζωντανή Μετάδοση",
                 "DESCRIPTION": "Είστε σίγουροι ότι θέλετε να ξεκινήσετε ζωντανή μετάδοση;",
@@ -1047,14 +1059,10 @@
             "LIKES": "Μου Αρέσει",
             "LIKED_BY": "Μου Αρέσει Από",
             "VIEW_ALL_COMMENTS": "Δείτε όλα τα {count} σχόλια",
-            "ERROR": "Error",
             "FIRST_COMMENT": "Να είστε ο πρώτος που θα σχολιάσει...",
             "LOG_IN": "Σύνδεση",
             "CREATE_ACCOUNT": "Δημιουργία Λογαριασμού",
             "USERNAME_PLACEHOLDER": "Όνομα Χρήστη",
-            "UNKNOWN": "Unknown error",
-            "UNKNOWN_ACCOUNT": "Account does not exist",
-            "USERNAME_TAKEN": "Username is already taken",
             "NAME_PLACEHOLDER": "Όνομα",
             "PASSWORD_PLACEHOLDER": "Κωδικός",
             "NOT_HAVE_ACCOUNT": "Δεν έχετε λογαριασμό;",
@@ -1084,14 +1092,20 @@
             "INVITE": "Πρόσκληση",
             "REMOVE": "Αφαίρεση",
             "IN_THIS_ROOM": "Σε Αυτό το Δωμάτιο",
-            "INCORRECT_PASSWORD": "Incorrect password",
             "WHOS_WATCHING": "Ποιος παρακολουθεί",
             "FOLLOW_REQUESTS": "Αιτήματα Ακολούθησης",
             "CONFIRM": "Επιβεβαίωση",
             "DELETE": "Διαγραφή",
             "ANDOTHERS": "{username} + {amount} άλλοι",
             "PRIVATE_ACCOUNT": "Αυτός ο λογαριασμός είναι ιδιωτικός",
-            "PRIVATE_ACCOUNT_DESCRIPTION": "Ακολουθήστε αυτόν τον λογαριασμό για να δείτε τις φωτογραφίες και τα βίντεό του."
+            "PRIVATE_ACCOUNT_DESCRIPTION": "Ακολουθήστε αυτόν τον λογαριασμό για να δείτε τις φωτογραφίες και τα βίντεό του.",
+            "ERROR": "Error",
+            "USERNAME_TAKEN": "Username is already taken",
+            "UNKNOWN": "Unknown error",
+            "UNKNOWN_ACCOUNT": "Account does not exist",
+            "INVALID_USERNAME": "Invalid username",
+            "INCORRECT_PASSWORD": "Incorrect password",
+            "OK": "OK"
         },
         "TWITTER": {
             "TITLE": "Birdy",
@@ -1206,17 +1220,21 @@
             "COMPANIES": "Εταιρείες",
             "MESSAGES": "Μηνύματα",
             "SETTINGS": "Ρυθμίσεις",
+
             "CLOSED": "Κλειστό",
             "YOUR_MESSAGES": "Τα Μηνύματά Σας",
             "JOB_MESSAGES": "Μηνύματα Εργασίας",
+
             "DUTY": "Καθήκον",
             "DUTY_DESCRIPTION": "Ενεργοποιήστε ή απενεργοποιήστε την κατάσταση καθήκοντος σας",
             "GO_ON_DUTY": "Ενεργοποίηση Καθήκοντος",
             "GO_OFF_DUTY": "Απενεργοποίηση Καθήκοντος",
             "JOB_CALLS": "Κλήσεις Εργασίας",
             "JOB_CALLS_DESCRIPTION": "{toggle} λήψη κλήσεων από πελάτες.",
+
             "ENABLE": "Ενεργοποίηση",
             "DISABLE": "Απενεργοποίηση",
+
             "DISABLE_CALLS": "Απενεργοποίηση Κλήσεων",
             "ENABLE_CALLS": "Ενεργοποίηση Κλήσεων",
             "BALANCE": "Υπόλοιπο",
@@ -1224,11 +1242,14 @@
             "HIRE": "Πρόσληψη",
             "SET_GRADE": "Ορισμός Βαθμού",
             "UNEMPLOYED": "Είστε άνεργος",
+
             "ALL": "Όλα",
             "AVAILABLE": "Διαθέσιμος",
             "SEARCH_EMPLOYEES": "Αναζήτηση Υπαλλήλων",
+
             "PERSONAL": "Προσωπικό",
             "JOB": "Εργασία",
+
             "DEPOSIT_POPUP": {
                 "TITLE": "Κατάθεση",
                 "DESCRIPTION": "Καταθέστε χρήματα στον εταιρικό λογαριασμό",
@@ -1491,11 +1512,6 @@
         },
         "SHARE": {
             "COPY_PHOTO": "Αντιγραφή Φωτογραφίας",
-            "COPY_POPUP": {
-                "DESCRIPTION": "Successfully copied to clipboard",
-                "OK": "OK",
-                "TITLE": "Success"
-            },
             "COPY_VIDEO": "Copy Video",
             "USE_WALLPAPER": "Χρήση ως Ταπετσαρία",
             "COPY_NUMBER": "Αντιγραφή Αριθμού",
@@ -1509,6 +1525,11 @@
                 "TEXT": "Είστε σίγουροι ότι θέλετε να ορίσετε αυτή την εικόνα ως ταπετσαρία;",
                 "CANCEL": "Ακύρωση",
                 "PROCEED": "Συνέχεια"
+            },
+            "COPY_POPUP": {
+                "TITLE": "Success",
+                "DESCRIPTION": "Successfully copied to clipboard",
+                "OK": "OK"
             }
         },
         "AIRDROP": {
@@ -1767,4 +1788,3 @@
         }
     }
 }
-    
