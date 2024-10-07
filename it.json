@@ -151,7 +151,6 @@
             "CLOUD_BACKUP": "Backup Cloud",
             "YOUR_PROFILE": "Il tuo Profilo",
             "CREATE_BACKUP": "Crea Backup",
-            "BACKUPS": "Backup",
             "SAVE_BACKUP_POPUP": {
                 "TITLE": "Salva Backup",
                 "TEXT": "Sei sicuro di voler salvare un backup? (Salveremo contatti, foto e impostazioni)",
@@ -1319,7 +1318,7 @@
             "SELL_POPUP": {
                 "TITLE": "Vendi {coin}",
                 "DESCRIPTION": "Inserisci la quantità di {coin} (in $) che vuoi vendere",
-                "PLACEHOLDER": "$1000",
+                "PLACEHOLDER": "$1000"
             },
             "SELL_ALL_POPUP": {
                 "TITLE": "Vendi tutti i {coin}",
