@@ -1,6 +1,6 @@
 {
   "LABEL": "Português",
-  "SEARCH": "Pesquisar",
+  "SEARCH": "Buscar",
   "CANCEL": "Cancelar",
   "NOW": "agora",
   "D": "d",
@@ -17,7 +17,7 @@
     "Camera": "Câmera",
     "Weather": "Clima",
     "Calculator": "Calculadora",
-    "AppStore": "Apps",
+    "AppStore": "Aplicativos",
     "Clock": "Relógio",
     "Maps": "Mapas",
     "YellowPages": "Páginas",
@@ -88,6 +88,8 @@
           "OF": "de",
           "DISPLAY_BRIGHTNESS": "Tela e Brilho",
           "DISPLAY_BRIGHTNESS_DESCRIPTION": "Ajustar tela e brilho",
+          "DARK": "Dark",
+          "LIGHT": "Light",
           "APPEARANCE": "Aparência",
           "AUTOMATIC": "Automático",
           "BRIGHTNESS": "Brilho",
@@ -157,6 +159,13 @@
               "CANCEL": "Cancelar",
               "CONFIRM": "Aplicar"
           },
+          "BACKUP_ERROR_POPUP": {
+            "WARNING": "Aviso",
+            "ERROR": "Erro",
+            "ALREADY_HAVE": "Você já tem um backup para este número",
+            "SAME_PHONE": "Você não pode aplicar um backup criado a partir do mesmo telefone",
+            "OK": "OK"
+          },
           "SUCCESS": "Sucesso",
           "SUCCESS_TEXT": "O telefone reiniciará em 5 segundos...",
           "OK": "OK",
@@ -193,7 +202,9 @@
             "TITLE": "Relógio Mundial",
             "TODAY": "Hoje",
             "TOMORROW": "Amanhã",
-            "YESTERDAY": "Ontem"
+            "YESTERDAY": "Ontem",
+            "LOCAL_TIME": "Hora Local",
+            "HRS": "{time} hrs"
           },
           "ALARM": {
             "TITLE": "Alarme",
@@ -210,7 +221,8 @@
             "BUTTON_CANCEL": "Cancelar",
             "BUTTON_DELETE": "Excluir",
             "ALARMS": "Alarmes",
-            "NEW_ALARM": "Novo Alarme"
+            "NEW_ALARM": "Novo Alarme",
+            "EDIT_ALARM": "Editar Alarme"
           },
           "STOPWATCH": {
             "TITLE": "Cronômetro",
@@ -501,7 +513,8 @@
           },
           "MARK_AS_READ": "Marcar como lido",
           "MESSAGE_DELETED": "Mensagem excluída",
-          "OPEN_IN_MAPS": "Abrir no Maps",
+          "OPEN_IN_MAPS": "Abrir no Mapa",
+          "USERS_LOCATION": "Localização de {user}",
           "START_RECORDING": "Pressione o botão para começar a gravar",
           "LOADING": "Carregando...",
           "EMPTY_RECORDING": {
@@ -604,7 +617,9 @@
             "ADD_NUMBER": "Adicionar Número"
           },
           "RECENTS": {
-            "TITLE": "Recentes"
+            "TITLE": "Recentes",
+            "ALL": "Todos",
+            "MISSED": "Perdidas"
           },
           "VOICEMAIL": {
             "TITLE": "Correio de Voz",
@@ -1208,6 +1223,7 @@
           "ACTIONS": "Ações",
           "COMPANIES": "Empresas",
           "MESSAGES": "Mensagens",
+          "SETTINGS": "Configurações",
           
           "CLOSED": "Fechado",
           "YOUR_MESSAGES": "Suas Mensagens",
@@ -1503,6 +1519,7 @@
           "COPY_VIDEO": "Copiar Vídeo",
           "USE_WALLPAPER": "Usar como Papel de Parede",
           "COPY_NUMBER": "Copiar Número",
+          "COPY_LINK": "Copiar Link",
           "AIRDROP_SENT": "Enviado",
           "AIRDROP_ACCEPTED": "Aceito",
           "AIRDROP_DECLINED": "Recusado",
@@ -1662,8 +1679,10 @@
         "TAKE_PHOTO": "Pressione {key} para tirar uma foto",
         "FLIP_CAMERA": "Pressione {key} para alternar a câmera",
         "TOGGLE_FLASH": "Pressione {key} para alternar o flash",
-        "TOGGLE_CURSOR": "Pressione {key} para alternar o cursor e olhar ao redor",
-        "CHANGE_MODE": "Pressione {key} {key2} para mudar o modo da câmera"
+        "TOGGLE_CURSOR": "Pressione {key} para alternar o cursor",
+        "CHANGE_MODE": "Pressione {key} {key2} para mudar o modo",
+        "ROLL": "Pressione {key} {key2} para girar a câmera",
+        "FREEZE": "Pressione {key} para congelar/descongelar a câmera"
       },
       "SERVICES": {
         "NEW_MESSAGE": "Nova Mensagem",
