@@ -122,6 +122,11 @@
             "RESET_FACE_ID": "Resetuj prepoznavanje lica",
             "ENABLE_FACE_ID": "Uključi prepoznavanje lica",
             "PIN_CODE": "Pin",
+            "PIN_CODE_ERROR": {
+                "TITLE": "Error",
+                "WRONG": "Wrong Pin Code",
+                "OK": "OK"
+            },
             "DISABLE_FACE_ID_POPUP": {
                 "TITLE": "Isključivanje prepoznavanje lica",
                 "TEXT": "Da li ste sigurni da želite isključiti prepoznavanje lica?",
@@ -221,7 +226,8 @@
                 "BUTTON_CANCEL": "Odustani",
                 "BUTTON_DELETE": "Obriši",
                 "ALARMS": "Alarmi",
-                "NEW_ALARM": "Novi alarm"
+                "NEW_ALARM": "Novi alarm",
+                "EDIT_ALARM": "Edit Alarm"
             },
             "STOPWATCH": {
                 "TITLE": "Štoperica",
@@ -391,6 +397,7 @@
             "REMOVE_FROM_ALBUM": "Micanje iz albuma",
             "ADD_TO_ALBUM": "Dodaj u album",
             "ADD_TO_FAVOURITES": "Dodaj u omiljene",
+            "REMOVE_FROM_FAVOURITES": "Remove from Favourites",
             "VIDEOS": "Videi",
             "SELFIES": "Selfiji",
             "SCREENSHOTS": "Screenshots",
