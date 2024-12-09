@@ -122,6 +122,11 @@
             "RESET_FACE_ID": "Reset Face Unlock",
             "ENABLE_FACE_ID": "Enable Face Unlock",
             "PIN_CODE": "Pin code",
+            "PIN_CODE_ERROR": {
+                "TITLE": "Error",
+                "WRONG": "Wrong Pin Code",
+                "OK": "OK"
+            },
             "DISABLE_FACE_ID_POPUP": {
                 "TITLE": "Turn Off Face Unlock",
                 "TEXT": "Are you sure you want to turn off Face Unlock?",
@@ -221,7 +226,8 @@
                 "BUTTON_CANCEL": "Cancel",
                 "BUTTON_DELETE": "Delete",
                 "ALARMS": "Alarms",
-                "NEW_ALARM": "New Alarm"
+                "NEW_ALARM": "New Alarm",
+                "EDIT_ALARM": "Edit Alarm"
             },
             "STOPWATCH": {
                 "TITLE": "Stopwatch",
@@ -391,6 +397,7 @@
             "REMOVE_FROM_ALBUM": "Remove from Album",
             "ADD_TO_ALBUM": "Add to Album",
             "ADD_TO_FAVOURITES": "Add to Favourites",
+            "REMOVE_FROM_FAVOURITES": "Remove from Favourites",
             "VIDEOS": "Videos",
             "SELFIES": "Selfies",
             "SCREENSHOTS": "Screenshots",
@@ -1106,7 +1113,14 @@
             "UNKNOWN_ACCOUNT": "Account does not exist",
             "INVALID_USERNAME": "Invalid username",
             "INCORRECT_PASSWORD": "Incorrect password",
-            "OK": "OK"
+            "OK": "OK",
+            "LOCATION": "Location",
+            "CHOOSE_LOCATION": {
+                "TITLE": "Choose Location",
+                "DESCRIPTION": "Choose a location for this post",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            }
         },
         "TWITTER": {
             "TITLE": "Birdy",
@@ -1676,8 +1690,10 @@
             "TAKE_PHOTO": "Press {key} to take a photo",
             "FLIP_CAMERA": "Press {key} to flip the camera",
             "TOGGLE_FLASH": "Press {key} to toggle the flash",
-            "TOGGLE_CURSOR": "Press {key} to toggle the cursor and look around",
-            "CHANGE_MODE": "Press {key} {key2} to change the camera mode"
+            "TOGGLE_CURSOR": "Press {key} to toggle the cursor",
+            "CHANGE_MODE": "Press {key} {key2} to change the mode",
+            "ROLL": "Press {key} {key2} to roll the camera",
+            "FREEZE": "Press {key} to freeze/unfreeze the camera"
         },
         "SERVICES": {
             "NEW_MESSAGE": "New Message",
