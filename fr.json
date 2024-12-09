@@ -44,9 +44,11 @@
             "DONE": "Done",
             "EDIT": "Éditer",
             "AIRPLANE_MODE": "Mode avion",
+            "AIRPLANE_MODE_DESCRIPTION": "Désactive les données mobiles, les appels, etc.",
             "STREAMER_MODE": "Mode streamer",
-            "BLUETOOTH": "Bluetooth",
-            "GENERAL": "General",
+            "STREAMER_MODE_DESCRIPTION": "Floute les notifications sensibles",
+            "GENERAL": "Général",
+            "GENERAL_DESCRIPTION": "Paramètres généraux du téléphone",
             "ABOUT": "À propos de",
             "NAME": "Nom",
             "VERSION": "Version",
@@ -86,6 +88,8 @@
             "OF": "sur",
             "DISPLAY_BRIGHTNESS": "Affichage et luminosité",
             "DISPLAY_BRIGHTNESS_DESCRIPTION": "Ajuster l'affichage et la luminosité",
+            "DARK": "Sombre",
+            "LIGHT": "Clair",
             "APPEARANCE": "Apparence",
             "AUTOMATIC": "Automatique",
             "BRIGHTNESS": "Luminosité",
@@ -118,6 +122,11 @@
             "RESET_FACE_ID": "Réinitialiser Face ID",
             "ENABLE_FACE_ID": "Activer Face ID",
             "PIN_CODE": "Code PIN",
+            "PIN_CODE_ERROR": {
+                "TITLE": "Erreur",
+                "WRONG": "Mauvais code",
+                "OK": "OK"
+            },
             "DISABLE_FACE_ID_POPUP": {
                 "TITLE": "Désactiver Face ID",
                 "TEXT": "Voulez-vous vraiment désactiver Face ID ?",
@@ -155,6 +164,13 @@
                 "CANCEL": "Annuler",
                 "CONFIRM": "Confirmer"
             },
+            "BACKUP_ERROR_POPUP": {
+                "WARNING": "Attention",
+                "ERROR": "Erreur",
+                "ALREADY_HAVE": "Vous avez déjà une sauvegarde pour ce numéro",
+                "SAME_PHONE": "Vous ne pouvez pas charger une sauvegarde créée depuis le même appareil",
+                "OK": "OK"
+            },
             "SUCCESS": "Succès",
             "SUCCESS_TEXT": "Le téléphone va redémarrer dans 5 secondes...",
             "OK": "OK",
@@ -172,7 +188,8 @@
                 "CANCEL": "Annuler",
                 "CONFIRM": "Réinitialiser"
             },
-            "UP_TO_DATE": "Votre téléphone est à jour"
+            "UP_TO_DATE": "Votre téléphone est à jour",
+            "BLUR_HOMESCREEN": "Flouter l'écran d'accueil"
         },
         "NOTES": {
             "TITLE": "Notes",
@@ -190,7 +207,9 @@
                 "TITLE": "Horloge mondiale",
                 "TODAY": "Aujourd'hui",
                 "TOMORROW": "Demain",
-                "YESTERDAY": "Hier"
+                "YESTERDAY": "Hier",
+                "LOCAL_TIME": "Heure locale",
+                "HRS": "{time} heures"
             },
             "ALARM": {
                 "TITLE": "Alarme",
@@ -207,7 +226,8 @@
                 "BUTTON_CANCEL": "Annuler",
                 "BUTTON_DELETE": "Effacer",
                 "ALARMS": "Alarmss",
-                "NEW_ALARM": "Nouvelle Alarme"
+                "NEW_ALARM": "Nouvelle Alarme",
+                "EDIT_ALARM": "Modifier l'alarme"
             },
             "STOPWATCH": {
                 "TITLE": "Chronomètre",
@@ -273,7 +293,7 @@
             "ERROR": "Erreur",
             "INVALID_LENGTH": "Le mot de passe doit comporter au moins 3 caractères",
             "USERNAME_TAKEN": "Nom d'utilisateur est déjà pris",
-            "UNKNOWN": "Erreure Inconnue",
+            "UNKNOWN": "Erreur Inconnue",
             "INVALID_USERNAME": "Nom d'utilisateur inexistant",
             "INCORRECT_PASSWORD": "Mot de passe incorrect",
             "OK": "OK",
@@ -328,7 +348,8 @@
 
             "PHOTOS": "Photos",
             "ALBUMS": "Albums",
-            "LIBRARY": "Gallery",
+            "LIBRARY": "Galerie",
+            "GALLERY": "Galerie",
             "MY_ALBUMS": "Mes Albums",
             "MEDIA_TYPES": "Types de médias",
             "NEW_ALBUM_POPUP": {
@@ -375,7 +396,8 @@
             "THIS_PHOTO": "cette photo",
             "REMOVE_FROM_ALBUM": "Retirer de l'Album",
             "ADD_TO_ALBUM": "Ajouter à l'Album",
-            "ADD_TO_FAVOURITES": "Ajouter aux Favoris",
+            "ADD_TO_FAVOURITES": "Ajouter aux favoris",
+            "REMOVE_FROM_FAVOURITES": "Retirer des favoris",
             "VIDEOS": "Vidéos",
             "SELFIES": "Selfies",
             "SCREENSHOTS": "Captures d'écrans",
@@ -436,12 +458,12 @@
             "CANCEL": "Annuler",
             "SEND": "Envoyer",
             "UNKNOWN": "Inconnu",
-            "TO": "A",
+            "TO": "À",
             "SEARCH": "Chercher",
-            "ADD_MEMBER": "Ajouter membre",
+            "ADD_MEMBER": "Ajouter un membre",
             "SHARE_LOCATION": "Partager ma position",
             "LEAVE_GROUP": "Quitter la conversation",
-            "SENT_LOCATION": "A partagé son emplacement, cliquez pour ouvrir dans Maps",
+            "SENT_LOCATION": "A partagé sa position, cliquez pour ouvrir dans Plans",
             "SENT_LOCATION_SHORT": "A partagé sa position",
             "TRIED_TO_CALL": "{number} a essayé de vous appeler",
             "DELETE": "Supprimer",
@@ -498,6 +520,7 @@
             "MARK_AS_READ": "Marquer comme lu",
             "MESSAGE_DELETED": "Message supprimer",
             "OPEN_IN_MAPS": "Ouvrir dans Maps",
+            "USERS_LOCATION": "Position de {user}",
             "START_RECORDING": "Appuyez sur le bouton pour démarrer l'enregistrement",
             "LOADING": "Chargement...",
             "EMPTY_RECORDING": {
@@ -566,6 +589,7 @@
                 "MESSAGE": "message",
                 "CALL": "appel",
                 "VIDEO": "vidéo",
+                "SHARE": "partager",
                 "MAIN": "principal",
                 "SHARE_CONTACT": "Partager le contact",
                 "SHARE_LOCATION": "Partager ma position",
@@ -583,7 +607,9 @@
                 "BLOCK_NUMBER_BUTTON_CANCEL": "Annuler",
                 "BLOCK_NUMBER_BUTTON_BLOCK": "Bloquer",
                 "EMAIL": "Email",
-                "ADDRESS": "Adresse"
+                "ADDRESS": "Adresse",
+                "CHANGE_AVATAR": "Changer l'avatar",
+                "REMOVE_AVATAR": "Supprimer l'avatar"
             },
             "FAVOURITES": {
                 "TITLE": "Favoris",
@@ -597,7 +623,9 @@
                 "ADD_NUMBER": "Ajouter un numéro"
             },
             "RECENTS": {
-                "TITLE": "Recent"
+                "TITLE": "Récents",
+                "ALL": "Tous",
+                "MISSED": "Manqués"
             },
             "VOICEMAIL": {
                 "TITLE": "Boîte vocale",
@@ -1071,7 +1099,7 @@
             "ADD_ACCOUNT": "Ajouter un compte",
             "INVITE": "Inviter",
             "REMOVE": "Retirer",
-            "IN_THIS_ROOM": "Dans cette pièce",
+            "IN_THIS_ROOM": "Dans ce salon",
             "WHOS_WATCHING": "Qui regarde",
             "FOLLOW_REQUESTS": "Demandes de suivi",
             "CONFIRM": "Confirmer",
@@ -1081,10 +1109,18 @@
             "PRIVATE_ACCOUNT_DESCRIPTION": "Suivez ce compte pour voir leurs photos et leurs vidéos.",
             "ERROR": "Erreur",
             "USERNAME_TAKEN": "Nom d'utilisateur déjà pris",
-            "UNKNOWN": "Erreure Inconnue",
+            "UNKNOWN": "Erreur Inconnue",
             "UNKNOWN_ACCOUNT": "Compte inexistant",
+            "INVALID_USERNAME": "Nom d'utilisateur inexistant",
             "INCORRECT_PASSWORD": "Mot de passe incorrect",
-            "OK": "OK"
+            "OK": "OK",
+            "LOCATION": "Lieux",
+            "CHOOSE_LOCATION": {
+                "TITLE": "Choisir un lieu",
+                "DESCRIPTION": "Choisissez un lieu pour ce post",
+                "CANCEL": "Annuler",
+                "PROCEED": "Valider"
+            }
         },
         "TWITTER": {
             "TITLE": "Birdy",
@@ -1108,6 +1144,8 @@
             "PROTECTED_POSTS": "Protégez vos publications",
             "BIO": "Bio",
             "SIGN_OUT": "Se déconnecter",
+            "CHANGE_PASSWORD": "Changer de mot de passe",
+            "DELETE_ACCOUNT": "Supprimer le compte",
             "SIGN_OUT_POPUP": {
                 "TITLE": "Se déconnecter",
                 "DESCRIPTION": "Êtes-vous sûr de vouloir vous déconnecter?",
@@ -1196,6 +1234,7 @@
             "ACTIONS": "Actions",
             "COMPANIES": "Entreprises",
             "MESSAGES": "Messages",
+            "SETTINGS": "Paramètres",
 
             "CLOSED": "Fermé",
             "YOUR_MESSAGES": "Tes messages",
@@ -1399,10 +1438,12 @@
             "COMMENTED": "a commenté: {comment}",
             "REPLIED": "a répondu à votre commentaire: {comment}",
 
-            "EDIT_PROFILE": "Editer le profil",
+            "EDIT_PROFILE": "Modifier le profil",
             "MESSAGE": "Envoyer un message",
             "CHANGE_PHOTO": "Changer la photo",
             "LOGOUT": "Se déconnecter",
+            "CHANGE_PASSWORD": "Changer le mot de passe",
+            "DELETE_ACCOUNT": "Supprimer le compte",
             "ADD_TO_YOUR_PROFILE": "Ajouter à votre profil",
             "LIKED_HIDDEN_TITLE": "Les vidéos aimées par cet utilisateur sont actuellement cachées",
             "LIKED_HIDDEN_SUBTITLE": "Les vidéos aimées par {name} sont actuellement cachées",
@@ -1422,6 +1463,7 @@
             "ADD_ACCOUNT_TITLE": "Ajouter un compte",
             "ADD_ACCOUNT": "Ajouter {name} à votre profil",
             "UPLOAD_VIDEO": "Publier une vidéo",
+            "UPLOAD": "Publier",
             "PREVIEW": "Aperçu",
             "CAPTION": "Légende",
             "CAPTION_PLACEHOLDER": "Ajouter une légende...",
@@ -1431,7 +1473,7 @@
             "SELECT_MUSIC": "Sélectionnez une musique",
             "OPTIONAL": "Optionnel",
 
-            "DIRECT_MESSAGES": "Messages directs",
+            "DIRECT_MESSAGES": "Messages privés",
             "ALL_ACTIVITY": "Toute l'activité",
             "NO_NOTIFICATIONS": "Les notifications ne sont pas disponibles",
             "NO_NOTIFICATIONS_SUBTITLE": "Les notifications à propos de votre compte apparaîtront ici",
@@ -1441,8 +1483,9 @@
         },
         "VOICEMEMO": {
             "TITLE": "Boîte vocale",
-            "ALL_RECORDINGS": "Tous les enregistrements",
-            "DEFAULT_NAME": "Nouveaux enregistrements",
+            "VOICE_RECORDINGS": "Enregistrements vocaux",
+            "SEARCH_RECORDINGS": "Rechercher",
+            "DEFAULT_NAME": "Nouvel enregistrement",
             "DELETE_POPUP": {
                 "TITLE": "Supprimer l'enregistrement",
                 "DESCRIPTION": "Voulez-vous vraiment supprimer cet enregistrement ?",
@@ -1465,7 +1508,7 @@
         "CONTEXT_MENU": {
             "CANCEL": "Annuler",
             "CALL": "Appeler",
-            "VIDEO_CALL": "Facetime",
+            "VIDEO_CALL": "Appel vidéo",
             "MESSAGE": "Message"
         },
         "IMAGE": {
@@ -1484,8 +1527,10 @@
         },
         "SHARE": {
             "COPY_PHOTO": "Copier la photo",
+            "COPY_VIDEO": "Copier la vidéo",
             "USE_WALLPAPER": "Utiliser comme fond d'écran",
-            "COPY_NUMBER": "Copier numéro",
+            "COPY_NUMBER": "Copier le numéro",
+            "COPY_LINK": "Copier le lien",
             "AIRDROP_SENT": "Expédié",
             "AIRDROP_ACCEPTED": "Accepter",
             "AIRDROP_DECLINED": "Refuser",
@@ -1646,7 +1691,9 @@
             "FLIP_CAMERA": "Appuyez sur {key} pour retourner l'appareil photo",
             "TOGGLE_FLASH": "Appuyez sur {key} pour basculer le flash",
             "TOGGLE_CURSOR": "Appuyez sur {key} pour basculer le curseur et regarder autour de vous",
-            "CHANGE_MODE": "Appuyez sur {key} {key2} pour changer le mode de l'appareil photo"
+            "CHANGE_MODE": "Appuyez sur {key} {key2} pour changer le mode de l'appareil photo",
+            "ROLL": "Appuyez sur {key} {key2} pour pivoter la caméra",
+            "FREEZE": "Appuyez sur {key} pour bloquer/débloquer la caméra"
         },
         "SERVICES": {
             "NEW_MESSAGE": "Nouveau message",
