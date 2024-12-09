@@ -1113,7 +1113,14 @@
             "UNKNOWN_ACCOUNT": "Compte inexistant",
             "INVALID_USERNAME": "Nom d'utilisateur inexistant",
             "INCORRECT_PASSWORD": "Mot de passe incorrect",
-            "OK": "OK"
+            "OK": "OK",
+            "LOCATION": "Lieux",
+            "CHOOSE_LOCATION": {
+                "TITLE": "Choisir un lieu",
+                "DESCRIPTION": "Choisissez un lieu pour ce post",
+                "CANCEL": "Annuler",
+                "PROCEED": "Valider"
+            }
         },
         "TWITTER": {
             "TITLE": "Birdy",
