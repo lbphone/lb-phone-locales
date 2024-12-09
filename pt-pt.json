@@ -226,7 +226,8 @@
                 "BUTTON_CANCEL": "Cancelar",
                 "BUTTON_DELETE": "Apagar",
                 "ALARMS": "Alarmes",
-                "NEW_ALARM": "Novo Alarme"
+                "NEW_ALARM": "Novo Alarme",
+                "EDIT_ALARM": "Edit Alarm"
             },
             "STOPWATCH": {
                 "TITLE": "Cronómetro",
@@ -396,6 +397,7 @@
             "REMOVE_FROM_ALBUM": "Remover do Álbum",
             "ADD_TO_ALBUM": "Adicionar ao Álbum",
             "ADD_TO_FAVOURITES": "Adicionar aos Favoritos",
+            "REMOVE_FROM_FAVOURITES": "Remove from Favourites",
             "VIDEOS": "Vídeos",
             "SELFIES": "Selfies",
             "SCREENSHOTS": "Capturas de Ecrã",
@@ -527,7 +529,6 @@
                 "OK": "OK"
             }
         },
-
         "PHONE": {
             "TITLE": "Telefone",
             "DONE": "Concluído",
@@ -989,6 +990,8 @@
             "SEND": "Enviar",
             "POST": "Publicar",
             "MESSAGE_PLACEHOLDER": "Mensagem...",
+            "NEW_MESSAGE": "New Message",
+            "NOW": "Now",
             "GO_LIVE_POPUP": {
                 "TITLE": "Iniciar Transmissão ao Vivo",
                 "DESCRIPTION": "Tem certeza que quer iniciar uma transmissão ao vivo?",
@@ -1110,7 +1113,14 @@
             "UNKNOWN_ACCOUNT": "A conta não existe",
             "INVALID_USERNAME": "Nome de utilizador inválido",
             "INCORRECT_PASSWORD": "Palavra-passe incorreta",
-            "OK": "OK"
+            "OK": "OK",
+            "LOCATION": "Location",
+            "CHOOSE_LOCATION": {
+                "TITLE": "Choose Location",
+                "DESCRIPTION": "Choose a location for this post",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            }
         },
         "TWITTER": {
             "TITLE": "Passarinho",
@@ -1681,7 +1691,9 @@
             "FLIP_CAMERA": "Prima {key} para inverter a câmara",
             "TOGGLE_FLASH": "Prima {key} para ligar/desligar o flash",
             "TOGGLE_CURSOR": "Prima {key} para ativar/desativar o cursor e olhar em redor",
-            "CHANGE_MODE": "Prima {key} {key2} para mudar o modo da câmara"
+            "CHANGE_MODE": "Prima {key} {key2} para mudar o modo da câmara",
+            "ROLL": "Press {key} {key2} to roll the camera",
+            "FREEZE": "Press {key} to freeze/unfreeze the camera"
         },
         "SERVICES": {
             "NEW_MESSAGE": "Nova Mensagem",
