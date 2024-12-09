@@ -226,7 +226,8 @@
                 "BUTTON_CANCEL": "Anuluj",
                 "BUTTON_DELETE": "Usuń",
                 "ALARMS": "Alarmy",
-                "NEW_ALARM": "Nowy alarm"
+                "NEW_ALARM": "Nowy alarm",
+                "EDIT_ALARM": "Edit Alarm"
             },
             "STOPWATCH": {
                 "TITLE": "Stoper",
@@ -277,18 +278,18 @@
             "NO_CHATS_TEXT": "Nie dołączyłeś jeszcze do żadnego kanału. Dołącz lub utwórz, naciskając znak plus w prawym górnym rogu.",
             "MEMBER": "Użytkownik",
             "MEMBERS": "Użytkownicy",
-    
+
             "USERNAME": "Nazwa użytkownika",
             "PASSWORD": "Hasło",
             "LOGIN": "Zaloguj się",
             "SIGN_UP": "Zarejestruj się",
             "NO_ACCOUNT": "Nie masz konta?",
             "ALREADY_HAVE": "Masz już konto?",
-    
+
             "CHANGE_ACCOUNT": "Zmień konto",
             "CHANGE_PASSWORD": "Zmień hasło",
             "DELETE_ACCOUNT": "Usuń konto",
-    
+
             "ERROR": "Błąd",
             "INVALID_LENGTH": "Hasło musi mieć co najmniej 3 znaki",
             "USERNAME_TAKEN": "Nazwa użytkownika jest już zajęta",
@@ -296,14 +297,14 @@
             "INVALID_USERNAME": "Nazwa użytkownika nie istnieje",
             "INCORRECT_PASSWORD": "Nieprawidłowe hasło",
             "OK": "OK",
-    
+
             "LEAVE_CHANNEL": {
                 "TITLE": "Opuść kanał",
                 "DESCRIPTION": "Czy na pewno chcesz opuścić ten kanał?",
                 "CANCEL": "Anuluj",
                 "PROCEED": "Opuść"
             },
-    
+
             "SET_PASSWORD_POPUP": {
                 "TITLE": "Ustaw hasło",
                 "DESCRIPTION": "Musisz ustawić hasło dla swojego konta",
@@ -344,7 +345,7 @@
             "DELETE": "Usuń",
             "SELECT_ITEMS": "Wybierz elementy",
             "SELECTED_COUNT": "Wybrano {count} elementów",
-    
+
             "PHOTOS": "Zdjęcia",
             "ALBUMS": "Albumy",
             "LIBRARY": "Biblioteka",
@@ -396,6 +397,7 @@
             "REMOVE_FROM_ALBUM": "Usuń z albumu",
             "ADD_TO_ALBUM": "Dodaj do albumu",
             "ADD_TO_FAVOURITES": "Dodaj do ulubionych",
+            "REMOVE_FROM_FAVOURITES": "Remove from Favourites",
             "VIDEOS": "Filmy",
             "SELFIES": "Selfie",
             "SCREENSHOTS": "Zrzuty ekranu",
@@ -405,7 +407,7 @@
             "MONTHS": "Miesiące",
             "DAYS": "Dni",
             "ALL_PHOTOS": "Wszystkie zdjęcia",
-    
+
             "FAVOURITES": "Ulubione",
             "RECENTS": "Ostatnie"
         },
@@ -799,7 +801,7 @@
             "MESSAGE": "Wiadomość",
             "CALL": "Zadzwoń",
             "REMOVE": "Usuń",
-    
+
             "ERROR_POPUP": {
                 "TITLE": "Błąd",
                 "NO_TITLE": "Musisz wprowadzić tytuł",
@@ -888,7 +890,7 @@
             "DELETE": "Usuń",
             "SET_WAYPOINT": "Ustaw punkt",
             "SHARE": "Udostępnij",
-    
+
             "ADD_LOCATION_POPUP": {
                 "TITLE": "Dodaj lokalizację",
                 "DESCRIPTION": "Wprowadź nazwę lokalizacji, którą chcesz dodać",
@@ -1111,7 +1113,14 @@
             "UNKNOWN_ACCOUNT": "Konto nie istnieje",
             "INVALID_USERNAME": "Nieprawidłowa nazwa użytkownika",
             "INCORRECT_PASSWORD": "Nieprawidłowe hasło",
-            "OK": "OK"
+            "OK": "OK",
+            "LOCATION": "Location",
+            "CHOOSE_LOCATION": {
+                "TITLE": "Choose Location",
+                "DESCRIPTION": "Choose a location for this post",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            }
         },
         "TWITTER": {
             "TITLE": "Birdy",
@@ -1226,21 +1235,21 @@
             "COMPANIES": "Firmy",
             "MESSAGES": "Wiadomości",
             "SETTINGS": "Ustawienia",
-    
+
             "CLOSED": "Zamknięte",
             "YOUR_MESSAGES": "Twoje wiadomości",
             "JOB_MESSAGES": "Wiadomości służbowe",
-    
+
             "DUTY": "Dyżur",
             "DUTY_DESCRIPTION": "Przełącz swój status dyżuru",
             "GO_ON_DUTY": "Rozpocznij dyżur",
             "GO_OFF_DUTY": "Zakończ dyżur",
             "JOB_CALLS": "Połączenia służbowe",
             "JOB_CALLS_DESCRIPTION": "{toggle} odbieranie połączeń od klientów.",
-    
+
             "ENABLE": "Włącz",
             "DISABLE": "Wyłącz",
-    
+
             "DISABLE_CALLS": "Wyłącz połączenia",
             "ENABLE_CALLS": "Włącz połączenia",
             "BALANCE": "Saldo",
@@ -1248,14 +1257,14 @@
             "HIRE": "Zatrudnij",
             "SET_GRADE": "Ustaw stopień",
             "UNEMPLOYED": "Jesteś bezrobotny",
-    
+
             "ALL": "Wszystkie",
             "AVAILABLE": "Dostępne",
             "SEARCH_EMPLOYEES": "Szukaj pracowników",
-    
+
             "PERSONAL": "Osobiste",
             "JOB": "Praca",
-    
+
             "DEPOSIT_POPUP": {
                 "TITLE": "Wpłata",
                 "DESCRIPTION": "Wpłać pieniądze na konto firmy",
@@ -1338,12 +1347,12 @@
         },
         "TIKTOK": {
             "TITLE": "Trendy",
-    
+
             "HOME": "Strona główna",
             "DISCOVER": "Odkrywaj",
             "INBOX": "Skrzynka odbiorcza",
             "PROFILE": "Profil",
-    
+
             "COMMENTS_TITLE": "{count} komentarzy",
             "REPLY": "Odpowiedz",
             "VIEW_REPLIES": "Zobacz odpowiedzi",
@@ -1363,7 +1372,7 @@
             "OK": "OK",
             "CREATOR": "Twórca",
             "LIKED_BY_CREATOR": "Polubione przez twórcę",
-    
+
             "PIN_VIDEO_POPUP": {
                 "TITLE": "Przypnij wideo",
                 "DESCRIPTION": "Czy na pewno chcesz {action} to wideo?",
@@ -1382,7 +1391,7 @@
                 "CANCEL": "Anuluj",
                 "PROCEED": "Ignoruj"
             },
-    
+
             "SHARE_TITLE": "Udostępnij do",
             "SHARE": "Udostępnij",
             "REPORT": "Zgłoś",
@@ -1390,7 +1399,7 @@
             "ADD_FAVOURITE": "Dodaj do ulubionych",
             "CANCEL": "Anuluj",
             "GO_BACK": "Wróć",
-    
+
             "FOLLOWING": "Obserwowani",
             "FOLLOWERS": "Obserwujący",
             "UNFOLLOW": "Przestań obserwować",
@@ -1398,14 +1407,14 @@
             "FOR_YOU": "Dla Ciebie",
             "VIDEOS": "Wideo",
             "LIKES": "Polubienia",
-    
+
             "UNFOLLOW_POPUP": {
                 "TITLE": "Przestań obserwować",
                 "DESCRIPTION": "Czy na pewno chcesz przestać obserwować {name}?",
                 "CANCEL": "Anuluj",
                 "PROCEED": "Kontynuuj"
             },
-    
+
             "LOGIN_TITLE": "Zaloguj się do Trendy",
             "LOGIN_SUBTITLE": "Zarządzaj swoim kontem, sprawdzaj powiadomienia, komentuj wideo i więcej.",
             "SIGNUP_TITLE": "Zarejestruj się w Trendy",
@@ -1415,20 +1424,20 @@
             "PASSWORD": "Hasło",
             "BIO": "Bio",
             "SHOW_LIKES": "Pokaż polubienia",
-    
+
             "LOGIN": "Zaloguj się",
             "SIGNUP": "Zarejestruj się",
             "NO_ACCOUNT": "Nie masz konta?",
             "ALREADY_ACCOUNT": "Masz już konto?",
             "SEARCH_PLACEHOLDER": "Szukaj użytkowników",
-    
+
             "STARTED_FOLLOWING": "zaczął(a) Cię obserwować.",
             "LIKED_VIDEO": "polubił(a) Twoje wideo.",
             "LIKED_COMMENT": "polubił(a) Twój komentarz.",
             "SAVED_VIDEO": "dodał(a) Twoje wideo do ulubionych.",
             "COMMENTED": "skomentował(a): {comment}",
             "REPLIED": "odpowiedział(a) na Twój komentarz: {comment}",
-    
+
             "EDIT_PROFILE": "Edytuj profil",
             "MESSAGE": "Wiadomość",
             "CHANGE_PHOTO": "Zmień zdjęcie",
@@ -1438,7 +1447,7 @@
             "ADD_TO_YOUR_PROFILE": "Dodaj do swojego profilu",
             "LIKED_HIDDEN_TITLE": "Polubione wideo tego użytkownika są prywatne.",
             "LIKED_HIDDEN_SUBTITLE": "Wideo polubione przez {name} są obecnie ukryte.",
-    
+
             "INVALID_ACCOUNT_POPUP": {
                 "TITLE": "Nieprawidłowy {name}",
                 "DESCRIPTION": "Nie jesteś zalogowany na konto {name}, które podałeś, popraw to.",
@@ -1463,7 +1472,7 @@
             "MUSIC": "Muzyka",
             "SELECT_MUSIC": "Wybierz muzykę",
             "OPTIONAL": "Opcjonalne",
-    
+
             "DIRECT_MESSAGES": "Wiadomości bezpośrednie",
             "ALL_ACTIVITY": "Cała aktywność",
             "NO_NOTIFICATIONS": "Powiadomienia nie są dostępne",
@@ -1682,7 +1691,9 @@
             "FLIP_CAMERA": "Naciśnij {key}, aby obrócić kamerę",
             "TOGGLE_FLASH": "Naciśnij {key}, aby włączyć/wyłączyć lampę błyskową",
             "TOGGLE_CURSOR": "Naciśnij {key}, aby przełączać kursor i rozglądać się",
-            "CHANGE_MODE": "Naciśnij {key} {key2}, aby zmienić tryb kamery"
+            "CHANGE_MODE": "Naciśnij {key} {key2}, aby zmienić tryb kamery",
+            "ROLL": "Press {key} {key2} to roll the camera",
+            "FREEZE": "Press {key} to freeze/unfreeze the camera"
         },
         "SERVICES": {
             "NEW_MESSAGE": "Nowa wiadomość",
@@ -1794,4 +1805,3 @@
         }
     }
 }
-    
