@@ -406,6 +406,7 @@
             "NO_REFUNDS": "Betalinger kan ikke refunderes, dobbeltsjekk nummeret.",
             "NEW_BALANCE": "Ny Saldo",
             "LATEST_TRANSACTIONS": "Siste Transaksjoner",
+            "LATEST_BILLS": "Siste Regninger",
             "NOW": "Nå",
             "AGO": "siden"
         },
@@ -422,6 +423,13 @@
             "FUEL": "Drivstoff",
             "ENGINE": "Motor",
             "BODY": "Karosseri",
+            "VEHICLE": "Kjøretøy",
+            "STATUS": "Status",
+            "LOCKED": "Låst",
+            "LOCK": "Lås",
+            "UNLOCKED": "Ulåst",
+            "UNLOCK": "Lås opp",
+
             "WAYPOINT_POPUP": {
                 "TITLE": "Sett Veipunkt",
                 "TEXT": "Vil du sette veipunkt til din {model}?",
@@ -432,6 +440,12 @@
                 "TITLE": "Valet",
                 "TEXT": "Vil du få tilkjørt din {model} ({plate})?",
                 "TEXT_PAID": "Vil du få tilkjørt din {model} ({plate}) for {amount}?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} kjøretøy",
+                "TEXT": "Vil du {toggle} kjøretøyet ditt?",
                 "CANCEL": "Avbryt",
                 "PROCEED": "Fortsett"
             }
@@ -487,6 +501,14 @@
             "CONTACT": "Kontakt",
             "DELETE": "Slett",
             "REMOVE": "Fjern",
+            "ERROR_POPUP": {
+                "TITLE": "Error",
+                "NO_TITLE": "Du må skrive inn en tittel",
+                "NO_DESCRIPTION": "Du må skrive inn en beskrivelse",
+                "NO_PRICE": "Du må skrive inn en pris",
+                "NO_ATTACHMENTS": "Du må legge til minst et bilde",
+                "OK": "OK"
+            },
             "DELETE_POPUP": {
                 "TITLE": "Slett Annonse",
                 "TEXT": "Er du sikker på at du vil slette annonsen?",
@@ -504,6 +526,12 @@
             "PRICE": "Pris",
             "POST": "Legg ut",
             "CALL": "Ring",
+            "ERROR_POPUP": {
+                "TITLE": "Error",
+                "NO_TITLE": "Du må skrive inn en tittel",
+                "NO_DESCRIPTION": "Du må skrive inn en beskrivelse",
+                "OK": "OK"
+            },
             "DELETE_POPUP": {
                 "TITLE": "Slett Innlegg",
                 "TEXT": "Er du sikker på at du vil slette innlegget?",
@@ -548,6 +576,7 @@
             "EDIT": "Rediger",
             "DELETE": "Slett",
             "SET_WAYPOINT": "Sett Veipunkt",
+            "SHARE": "Del",
 
             "ADD_LOCATION_POPUP": {
                 "TITLE": "Legg til lokasjon",
@@ -713,7 +742,9 @@
             "MESSAGE": "Melding",
             "SENT_A_PHOTO": "sendte et bilde",
             "TO": "Til",
-            "SEND_A_MESSAGE": "Send en melding..."
+            "SEND_A_MESSAGE": "Send en melding...",
+            "STORY_VIEWERS": "Seere",
+            "SEEN_BY": "Sett av {count}"
         },
         "TWITTER": {
             "TITLE": "Twitter",
@@ -752,7 +783,8 @@
                 "RETWEET": "Retweet",
                 "UNDO_RETWEET": "Angre Retweet",
                 "DESCRIPTION": "Er du sikker på at du vil {action}?",
-                "CANCEL": "Avbryt"
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
             },
             "DELETE_POPUP": {
                 "TITLE": "Slett Tweet",
@@ -861,6 +893,40 @@
                 "CANCEL": "Avbryt",
                 "PROCEED": "Fortsett"
             }
+        },
+        "CRYPTO": {
+            "TITLE": "Krypto",
+            "BALANCE": "Estimert Saldo",
+            "BUY": "Kjøp",
+            "SELL": "Selg",
+            "SELL_ALL": "Selg alt",
+            "NO_MONEY": "Du har ikke nok penger",
+            "NO_COINS": "Du har ikke noe av denne coinen",
+            "NOT_ENOUGH_COINS": "Du har ikke nok coins",
+            "ATLEAST_ONE_COIN": "Du må {action} minst en coin",
+            "INVALID_COIN": "Ugyldig coin",
+            "ERROR": "Error",
+            "CLOSE": "Lukk",
+            "BUY_POPUP": {
+                "TITLE": "Kjøp {coin}",
+                "DESCRIPTION": "Skriv inn beløpet på {coin} (i kr) du vil kjøpe",
+                "PLACEHOLDER": "1000 kr",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "SELL_POPUP": {
+                "TITLE": "Selg {coin}",
+                "DESCRIPTION": "Skriv inn beløpet på {coin} (i kr) du vil selge",
+                "PLACEHOLDER": "1000 kr",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            },
+            "SELL_ALL_POPUP": {
+                "TITLE": "Selg alt av {coin}",
+                "DESCRIPTION": "Er du sikker på at du vil selge alle dine {coin} for {amount} kr?",
+                "CANCEL": "Avbryt",
+                "PROCEED": "Fortsett"
+            }
         }
     },
     "COMPONENTS": {
@@ -902,8 +968,16 @@
             "VIDEO": "video",
             "PHOTO": "bilde",
             "CONTACT": "kontakt",
+            "LOCATION": "lokasjon",
+            "NOTE": "notat",
+            "PLAYLIST": "spilleliste",
             "DECLINE": "Avslå",
             "ACCEPT": "Godta"
+        },
+        "DYNAMICISLAND": {
+            "SILENT": "Stille",
+            "RING": "Ring",
+            "TIMER": "Timer"
         }
     },
     "SETUP": {
@@ -947,6 +1021,7 @@
         },
         "INSTAGRAM": {
             "NOT_ALLOWED_LIVE": "Du har ikke lov til å gå live",
+            "NOT_ALLOWED_STORY": "Du har ikke lov til å legge ut historier",
             "STARTED_LIVE": "{username} startet en direktesending"
         },
         "TINDER": {
