@@ -4,7 +4,6 @@ on:
   pull_request:
     branches:
       - main
-  workflow_dispatch:
 
 jobs:
   validate:
@@ -24,6 +23,19 @@ jobs:
         cd .github/scripts
         npm install
 
-    - name: Validate JSON Files
+    - name: Get all changed json locale files
+      id: changed-json-files
+      uses: tj-actions/changed-files@v45
+      with:
+        files: |
+          **.json
+
+    - name: List all changed json locale files
+      if: steps.changed-json-files.outputs.any_changed == 'true'
+      env:
+        ALL_CHANGED_FILES: ${{ steps.changed-json-files.outputs.all_changed_files }}
       run: |
-        node ./.github/scripts/validate-locale-files.js
+        for file in ${ALL_CHANGED_FILES}; do
+          echo "$file was changed"
+          node ./.github/scripts/validate-locale-files.js "$file"
+        done
