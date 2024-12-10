@@ -123,8 +123,8 @@
             "ENABLE_FACE_ID": "Uključi prepoznavanje lica",
             "PIN_CODE": "Pin",
             "PIN_CODE_ERROR": {
-                "TITLE": "Error",
-                "WRONG": "Wrong Pin Code",
+                "TITLE": "Greška",
+                "WRONG": "Pogrešan pin kod",
                 "OK": "OK"
             },
             "DISABLE_FACE_ID_POPUP": {
@@ -227,7 +227,7 @@
                 "BUTTON_DELETE": "Obriši",
                 "ALARMS": "Alarmi",
                 "NEW_ALARM": "Novi alarm",
-                "EDIT_ALARM": "Edit Alarm"
+                "EDIT_ALARM": "Izmjeni alarm"
             },
             "STOPWATCH": {
                 "TITLE": "Štoperica",
@@ -397,7 +397,7 @@
             "REMOVE_FROM_ALBUM": "Micanje iz albuma",
             "ADD_TO_ALBUM": "Dodaj u album",
             "ADD_TO_FAVOURITES": "Dodaj u omiljene",
-            "REMOVE_FROM_FAVOURITES": "Remove from Favourites",
+            "REMOVE_FROM_FAVOURITES": "Obriši iz omiljenih",
             "VIDEOS": "Videi",
             "SELFIES": "Selfiji",
             "SCREENSHOTS": "Screenshots",
@@ -650,14 +650,14 @@
             "SEND": "Pošalji",
             "NEXT": "Dalje",
             "DONE": "Gotovo",
-            "DONE_SUBTITLE": "You sent {amount} to {number}",
-            "NO_REFUNDS": "Payments are non refundable, double check the number.",
-            "NEW_BALANCE": "New Balance",
+            "DONE_SUBTITLE": "Poslali ste {amount} na {number}",
+            "NO_REFUNDS": "Povrat novca nije moguć, provjerite ispravnost broja računa",
+            "NEW_BALANCE": "Novo stanje",
             "HOME": "Početna",
-            "LATEST_TRANSACTIONS": "Latest Transactions",
-            "TRANSACTIONS": "Transactions",
-            "ALL_TRANSACTIONS": "All Transactions",
-            "LATEST_BILLS": "Latest Bills",
+            "LATEST_TRANSACTIONS": "Posljednja transakcija",
+            "TRANSACTIONS": "Transakcije",
+            "ALL_TRANSACTIONS": "Sve transakcije",
+            "LATEST_BILLS": "Posljednji računi",
             "NOW": "Sada",
             "AGO": "prije",
             "SELECT_CONTACT": "Odaberi kontakt",
@@ -1114,12 +1114,12 @@
             "INVALID_USERNAME": "Neispravano ime",
             "INCORRECT_PASSWORD": "Neispravna šifra",
             "OK": "OK",
-            "LOCATION": "Location",
+            "LOCATION": "Lokacija",
             "CHOOSE_LOCATION": {
-                "TITLE": "Choose Location",
-                "DESCRIPTION": "Choose a location for this post",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
+                "TITLE": "Odaberite lokaciju",
+                "DESCRIPTION": "Odaberite lokaciju za objavu",
+                "CANCEL": "Odustani",
+                "PROCEED": "Nastavi"
             }
         },
         "TWITTER": {
