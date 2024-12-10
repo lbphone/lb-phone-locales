@@ -1,0 +1,29 @@
+name: Validate Locale Files
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Set Up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install Dependencies
+      run: |
+        cd .github/scripts
+        npm install
+
+    - name: Validate JSON Files
+      run: |
+        node ./.github/scripts/validate-locale-files.js
