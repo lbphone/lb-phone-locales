@@ -25,52 +25,52 @@ This repository holds the locale files for lb-phone script. To maintain consiste
 ## How to Contribute
 
 ### 1. Fork and Clone the Repository
-    - Fork the repository to your GitHub account.
-    - Clone the forked repository to your local machine:
-      ```bash
-      git clone https://github.com/your-username/lb-phone-locales.git
-      ```
+- Fork the repository to your GitHub account.
+- Clone the forked repository to your local machine:
+```bash
+git clone https://github.com/your-username/lb-phone-locales.git
+```
 
 ### 2. Create a New Branch (optional - best practice)
-    - Create a branch for your contribution:
-        ```bash
-        git checkout -b update-locale-[locale-code]
-        ```
-        Replace `[locale-code]` with the locale you are working on (e.g., `fr` for French).
+- Create a branch for your contribution:
+```bash
+git checkout -b update-locale-[locale-code]
+```
+Replace `[locale-code]` with the locale you are working on (e.g., `fr` for French).
 
 ### 3. Make Your Changes
-    - Update the locale file following the structure of `en.json`.
-    - Validate the JSON file to ensure there are no syntax errors.
+- Update the locale file following the structure of `en.json`.
+- Validate the JSON file to ensure there are no syntax errors.
 
 ### 4. Commit Your Changes
-    - Commit the changes with a descriptive message:
-        ```bash
-        git add path/to/locale.json
-        git commit -m "Update locale for [locale-code]"
-        ```
+- Commit the changes with a descriptive message:
+```bash
+git add [locale-code].json
+git commit -m "Update locale for [locale-code]"
+```
 
 ### 5. Push and Create a Pull Request
-    - Push your branch to your forked repository:
-        ```bash
-        git push origin update-locale-[locale-code]
-        ```
-    - Open a pull request (PR) to the main repository.
+- Push your branch to your forked repository:
+```bash
+git push origin update-locale-[locale-code]
+```
+- Open a pull request (PR) to the main repository.
 
 ---
 
 ## Pull Request Requirements
 
 1. **Describe Your Changes**  
-    Clearly describe the updates made in your PR. For example:
-    ```
-    Updated `fr.json` to include translations for new keys added in `en.json`.
-    ```
+Clearly describe the updates made in your PR. For example:
+```
+Updated `fr.json` to include translations for new keys added in `en.json`.
+```
 
 2. **Pass All Checks**  
-    Ensure your contribution:
-    - Adheres to the `en.json` structure.
-    - Uses 4-space indentation.
-    - Includes only one file change per commit.
+Ensure your contribution:
+- Adheres to the `en.json` structure.
+- Uses 4-space indentation.
+- Includes only one file change per commit.
 
 ---
 
