@@ -1,0 +1,15 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "main": "validate-locale-files.js",
+  "scripts": {
+    "test": "node ./validate-locale-files.js ../../en.json ../../fr.json ../../de.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^9.16.0"
+  }
+}
