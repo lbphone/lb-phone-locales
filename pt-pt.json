@@ -44,9 +44,11 @@
             "DONE": "Feito",
             "EDIT": "Editar",
             "AIRPLANE_MODE": "Modo Avião",
+            "AIRPLANE_MODE_DESCRIPTION": "Desativar chamadas, dados moveis, etc.",
             "STREAMER_MODE": "Modo Streamer",
-            "BLUETOOTH": "Bluetooth",
+            "STREAMER_MODE_DESCRIPTION": "Desfoca informações confidenciais",
             "GENERAL": "Geral",
+            "GENERAL_DESCRIPTION": "Definições gerais do seu telefone",
             "ABOUT": "Sobre",
             "NAME": "Nome",
             "VERSION": "Versão",
@@ -72,8 +74,10 @@
             "CELCIUS": "Celsius",
             "FAHRENHEIT": "Fahrenheit",
             "BATTERY": "Bateria",
+            "BATTERY_DESCRIPTION": "Veja a vida útil e a utilização da bateria",
             "SOUND_HAPTICS": "Sons e Toques",
-            "SOUND_HAPTICS_PATTERNS": "Toque padrão",
+            "SOUND_HAPTICS_DESCRIPTION": "Alterar sons e vibrações",
+            "SOUND_HAPTICS_PATTERNS": "Padrões de som e sensação tátil",
             "RINGTONE": "Sons de Toque",
             "TEXT_TONE": "Sons de mensagem",
             "RINGTONE_VOLUME": "Volume de Toque e Alertas",
@@ -83,18 +87,24 @@
             "USED": "Em uso",
             "OF": "de",
             "DISPLAY_BRIGHTNESS": "Ajustes do ecrã",
+            "DISPLAY_BRIGHTNESS_DESCRIPTION": "Ajuste o ecrã e o brilho",
+            "DARK": "Escuro",
+            "LIGHT": "Claro",
             "APPEARANCE": "Aparência",
             "AUTOMATIC": "Automático",
             "BRIGHTNESS": "Brilho",
             "PHONE_SCALE": "Tamanho do Telefone",
             "FRAME_COLOR": "Cor da Moldura",
             "WALLPAPER": "Papel de Parede",
+            "WALLPAPER_DESCRIPTION": "Alterar o papel de parede e outras definições de fundo",
             "WALLPAPERS": "Papeis de Parede",
             "CHOOSE_NEW_WALLPAPER": "Escolha um novo wallpaper",
             "NOTIFICATIONS": "Notificações",
+            "NOTIFICATIONS_DESCRIPTION": "Escolha as aplicações que podem enviar notificações",
             "ALLOW_NOTIFICATIONS": "Habilitar Notificações",
             "SOUNDS": "Sons",
             "PHONE": "Telefone",
+            "PHONE_DESCRIPTION": "Alternar a identificação de chamadas, bloquear números, etc.",
             "BLOCKED_CONTACTS": "Contatos bloqueados",
             "MY_NUMBER": "Meu número",
             "SHOW_CALLER_ID": "Mostrar ID",
@@ -105,12 +115,18 @@
                 "CONFIRM": "Confirmar"
             },
             "FACE_ID_PASSWORD": "Face ID & Senha",
+            "FACE_ID_PASSWORD_DESCRIPTION": "Proteja o seu telefone",
             "ENTER_PASSCODE": "Digite a Senha",
             "PASSCODE": "Senha",
             "FACE_ID": "Face ID",
             "RESET_FACE_ID": "Reset Face ID",
             "ENABLE_FACE_ID": "Ativar Face ID",
             "PIN_CODE": "Código PIN",
+            "PIN_CODE_ERROR": {
+                "TITLE": "Erro",
+                "WRONG": "Código PIN errado",
+                "OK": "OK"
+            },
             "DISABLE_FACE_ID_POPUP": {
                 "TITLE": "Desativar Face ID",
                 "TEXT": "Tem certeza que quer desativar o Face ID?",
@@ -135,18 +151,25 @@
             "CLOUD_BACKUP": "Backup na Nuvem",
             "YOUR_PROFILE": "Seu Perfil",
             "CREATE_BACKUP": "Criar Backup",
+            "BACKUPS": "Backups",
             "SAVE_BACKUP_POPUP": {
                 "TITLE": "Salvar Backup",
                 "TEXT": "Tem certeza que quer fazer backup do seu telefone? (Vai salvar contatos, fotos e configurações)",
                 "CANCEL": "Cancelar",
                 "CONFIRM": "Confirmar"
             },
-            "BACKUPS": "Backups",
             "APPLY_BACKUP_POPUP": {
                 "TITLE": "Aplicar Backup",
                 "TEXT": "Tem certeza que quer aplicar o backup? (Vai substituir contatos, fotos e configurações)",
                 "CANCEL": "Cancelar",
                 "CONFIRM": "Confirmar"
+            },
+            "BACKUP_ERROR_POPUP": {
+                "WARNING": "Aviso",
+                "ERROR": "Erro",
+                "ALREADY_HAVE": "Já tem um backup para este número",
+                "SAME_PHONE": "Não pode aplicar um backup criado no mesmo telefone",
+                "OK": "OK"
             },
             "SUCCESS": "Sucesso",
             "SUCCESS_TEXT": "O telefone vai reiniciar em 5 segundos...",
@@ -183,7 +206,9 @@
                 "TITLE": "Hora Mundial",
                 "TODAY": "Hoje",
                 "TOMORROW": "Amanhã",
-                "YESTERDAY": "Ontem"
+                "YESTERDAY": "Ontem",
+                "LOCAL_TIME": "Hora local",
+                "HRS": "{time} hrs"
             },
             "ALARM": {
                 "TITLE": "Alarme",
@@ -198,14 +223,20 @@
                 "DELETE_TITLE": "apagar Alarme",
                 "DELETE_TEXT": "Tem certeza que quer apagar este alarme?",
                 "BUTTON_CANCEL": "Cancelar",
-                "BUTTON_DELETE": "Confirmar"
+                "BUTTON_DELETE": "Confirmar",
+                "ALARMS": "Alarmes",
+                "NEW_ALARM": "Novo Alarme",
+                "EDIT_ALARM": "Editar Alarme"
             },
             "STOPWATCH": {
                 "TITLE": "Cronômetro",
                 "START": "Iniciar",
                 "STOP": "Parar",
                 "RESET": "Reset",
-                "LAP": "Voltas"
+                "LAP": "Voltas",
+                "TIME": "Tempo",
+                "TOTAL": "Total",
+                "NO_LAPS": "Sem voltas"
             },
             "TIMER": {
                 "TITLE": "Tempo",
@@ -214,10 +245,12 @@
                 "CANCEL": "Cancelar",
                 "HOURS": "horas",
                 "MINUTES": "min",
-                "SECONDS": "seg"
+                "SECONDS": "seg",
+                "NO_RECENTS": "Sem recentes"
             },
             "ALERT": {
-                "STOP": "Parar"
+                "STOP": "Parar",
+                "RESTART": "Reeniciar"
             }
         },
         "CAMERA": {
@@ -226,7 +259,7 @@
             "LANDSCAPE": "Paisagem",
             "UPLOADING": "A fazer upload de Imagem"
         },
-        "DARKCHAT": {
+        "DARKCHAT": { //Aqui
             "TITLE": "Dark Chat",
             "USERNAME": "Utilizador",
             "SET_USERNAME": "Defina seu utilizador. (ISSO SÓ PODE SER FEITO 1 VEZ)",
