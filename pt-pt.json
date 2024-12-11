@@ -251,18 +251,16 @@
             "ALERT": {
                 "STOP": "Parar",
                 "RESTART": "Reeniciar"
-            }
-        },
+            },
         "CAMERA": {
             "VIDEO": "Video",
             "PHOTO": "Fotos",
             "LANDSCAPE": "Paisagem",
             "UPLOADING": "A fazer upload de Imagem"
         },
-        "DARKCHAT": { //Aqui
+        "DARKCHAT": {
             "TITLE": "Dark Chat",
-            "USERNAME": "Utilizador",
-            "SET_USERNAME": "Defina seu utilizador. (ISSO SÓ PODE SER FEITO 1 VEZ)",
+            "SEARCH": "Pesquisar canais",
             "CANCEL": "Cancelar",
             "SET": "Definir",
             "JOIN": "Entrar",
@@ -273,7 +271,43 @@
             "LEAVE_ROOM": "Deixar Sala",
             "LEAVE_ROOM_TEXT": "Tem certeza de que deseja sair desta sala?",
             "NOW": "Agora",
-            "INPUT_PLACEHOLDER": "Digite uma mensagem..."
+            "INPUT_PLACEHOLDER": "Digite uma mensagem...",
+            "NO_CHATS": "Sem conversas",
+            "NO_CHATS_TEXT": "Ainda não entrou num canal. Junte/crie um premindo o sinal '+' no canto superior direito.",
+            "MEMBER": "Membro",
+            "MEMBERS": "Membros",
+            
+            "USERNAME": "Username",
+            "PASSWORD": "Password",
+            "LOGIN": "Conectar",
+            "SIGN_UP": "Criar conta",
+            "NO_ACCOUNT": "Não tem conta?",
+            "ALREADY_HAVE": "Já tem conta?",
+
+            "CHANGE_ACCOUNT": "Alterar conta",
+            "CHANGE_PASSWORD": "Alterar Password",
+            "DELETE_ACCOUNT": "Apagar conta",
+
+            "ERROR": "Erro",
+            "INVALID_LENGTH": "A password precisa de ter no mínimo 3 caracteres",
+            "USERNAME_TAKEN": "O nome de utilizador já está em uso",
+            "UNKNOWN": "Erro desconhecido",
+            "INVALID_USERNAME": "O nome de utilizador não existe",
+            "INCORRECT_PASSWORD": "Password incorreta",
+            "OK": "OK",
+
+            "LEAVE_CHANNEL": {
+                "TITLE": "Sair do canal",
+                "DESCRIPTION": "Tem a certeza que deseja sair deste canal?",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Sair"
+            },
+
+            "SET_PASSWORD_POPUP": {
+                "TITLE": "Definir Password",
+                "DESCRIPTION": "Precisa de definir uma password para a sua conta",
+                "PLACEHOLDER": "Password"
+            }
         },
         "APPSTORE": {
             "TITLE": "Apps",
@@ -313,6 +347,7 @@
             "PHOTOS": "Fotos",
             "ALBUMS": "Albuns",
             "LIBRARY": "Libraria",
+            "GALLERY": "Galeria",
             "MY_ALBUMS": "Meus Albuns",
             "MEDIA_TYPES": "Tipo de mídia",
             "NEW_ALBUM_POPUP": {
@@ -351,7 +386,8 @@
 
             "NO_PHOTOS": "Sem fotos ou videos",
             "NO_PHOTOS_INSTRUCTIONS": "Pode captar fotos ou videos usando a camera",
-            "PHOTO_COUNT": "{photos} Fotos, {videos} Videos",
+            "PHOTO_COUNT": "{photos} Fotos",
+            "VIDEO_COUNT": "{amount} Videos",
 
             "DELETE_CONTEXT_TITLE": "Quer apagar {type} ou remove-los deste album",
             "THESE_PHOTOS": "Estas fotos",
@@ -359,6 +395,7 @@
             "REMOVE_FROM_ALBUM": "Remover doAlbum",
             "ADD_TO_ALBUM": "Adicionar ao Album",
             "ADD_TO_FAVOURITES": "Adicionar aos Favoritos",
+            "REMOVE_FROM_FAVOURITES": "Remover dos Favoritos",
             "VIDEOS": "Videos",
             "SELFIES": "Selfies",
             "SCREENSHOTS": "Screenshots",
@@ -428,6 +465,8 @@
             "SENT_LOCATION_SHORT": "Partilhou sua localização",
             "TRIED_TO_CALL": "{number} Tentou-lhe ligar",
             "DELETE": "Apagar",
+            "GROUP": "Grupo",
+            "GROUP_NAME": "Nome do grupo",
             "REMOVE_POPUP": {
                 "TITLE": "Remover membro",
                 "TEXT": "Tem certeza que quer remover {name} deste grupo?",
@@ -466,11 +505,27 @@
             },
             "DELETE_CONVERSATION": {
                 "TITLE": "Apagar conversa",
-                "DESCRIPTION": "Tem a certeza que deseja apagar esta conversa?"
+                "DESCRIPTION": "Tem a certeza que deseja apagar esta conversa?",
+                "CANCEL": "Cancelar",
+                "DELETE": "Apagar"
+            },
+            "REMOVE_AVATAR_POPUP": {
+                "TITLE": "Remover Avatar",
+                "DESCRIPTION": "Tem a certeza de que pretende remover o avatar do grupo?",
+                "CANCEL": "Cancelar",
+                "REMOVE": "Remover"
             },
             "MARK_AS_READ": "Marcar como lida",
             "MESSAGE_DELETED": "Messagem dapagada",
-            "OPEN_IN_MAPS": "Abrir no Maps"
+            "OPEN_IN_MAPS": "Abrir no Maps",
+            "USERS_LOCATION": "Localização de {user}'s",
+            "START_RECORDING": "Pressione o botão para iniciar a gravação",
+            "LOADING": "Loading...",
+            "EMPTY_RECORDING": {
+                "TITLE": "Gravação Vazia",
+                "DESCRIPTION": "Não pode enviar uma gravação vazia",
+                "OK": "OK"
+            }
         },
         "PHONE": {
             "TITLE": "Telefone",
@@ -497,7 +552,25 @@
                 "ADD_CALL": "Adicionar chamada",
                 "VIDEO": "video",
                 "CONTACTS": "contatos",
-                "MOBILE": "Móvel"
+                "MOBILE": "Móvel",
+                "VIDEO_CALL_REQUEST": {
+                    "TITLE": "Pedido de videochamada",
+                    "DESCRIPTION": "Gostaria de aceitar a videochamada?",
+                    "CANCEL": "Cancelar",
+                    "PROCEED": "Aceitar"
+                },
+                "REQUEST_VIDEO": {
+                    "TITLE": "Videochamada",
+                    "DESCRIPTION": "Gostaria de iniciar uma videochamada?",
+                    "CANCEL": "Cancelar",
+                    "PROCEED": "Continuar"
+                },
+                "STOP_VIDEO": {
+                    "TITLE": "Parar Video",
+                    "DESCRIPTION": "Tem a certeza de que quer parar de partilhar o seu vídeo?",
+                    "CANCEL": "Cancelar",
+                    "PROCEED": "Parar"
+                }
             },
             "CONTACTS": {
                 "TITLE": "Contatos",
@@ -514,6 +587,7 @@
                 "MESSAGE": "Mensagem",
                 "CALL": "Ligar",
                 "VIDEO": "Video",
+                "SHARE": "Partilhar",
                 "MAIN": "Início",
                 "SHARE_CONTACT": "Partilhar Contato",
                 "SHARE_LOCATION": "Partilhar Localização",
@@ -531,7 +605,9 @@
                 "BLOCK_NUMBER_BUTTON_CANCEL": "Cancelar",
                 "BLOCK_NUMBER_BUTTON_BLOCK": "Confirmar",
                 "EMAIL": "Email",
-                "ADDRESS": "Morada"
+                "ADDRESS": "Morada",
+                "CHANGE_AVATAR": "Alterar avatar",
+                "REMOVE_AVATAR": "Remover Avatar"
             },
             "FAVOURITES": {
                 "TITLE": "Favoritos",
@@ -545,7 +621,9 @@
                 "ADD_NUMBER": "Adicionar Número"
             },
             "RECENTS": {
-                "TITLE": "Recente"
+                "TITLE": "Recentes",
+                "ALL": "Todas",
+                "MISSED": "Perdidas"
             },
             "VOICEMAIL": {
                 "TITLE": "Voicemail",
@@ -573,13 +651,51 @@
             "DONE_SUBTITLE": "Enviou {amount} para o número {number}",
             "NO_REFUNDS": "Os pagamentos não são reembolsáveis, confirme o número.",
             "NEW_BALANCE": "Novo Saldo",
+            "HOME": "Home",
             "LATEST_TRANSACTIONS": "Últimas Transações",
+            "TRANSACTIONS": "Transações",
+            "ALL_TRANSACTIONS": "Todas as Transações",
             "LATEST_BILLS": "Últimas Faturas",
             "NOW": "Agora",
             "AGO": "Antes",
-            "NUMBER_DOES_NOT_EXIST": "O Número não existe.",
-            "NOT_ENOUGH_MONEY": "Não tem saldo suficiente",
-            "SELECT_CONTACT": "Selecionar Contacto"
+            "SELECT_CONTACT": "Selecionar contacto",
+            "TODAY": "Hoje",
+            "YESTERDAY": "Ontem",
+            
+            "INSUFFICIENT_FUNDS": {
+                "TITLE": "Não há dinheiro suficiente",
+                "DESCRIPTION": "Não tem dinheiro suficiente para enviar esse valor"
+            },
+            "NUMBER_DOES_NOT_EXIST": {
+                "TITLE": "Não foi possível prosseguir",
+                "DESCRIPTION": "O número que introduziu não existe ou o jogador não está online"
+            },
+            "AIRPLANE_MODE": {
+                "TITLE": "Erro",
+                "DESCRIPTION": "Está a tentar realizar uma ação que requer acesso à Internet."
+            },
+            "INVALID_AMOUNT": {
+                "TITLE": "Montante inválido",
+                "DESCRIPTION": "Introduziu um valor inválido"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Falha ao enviar",
+                "DESCRIPTION": "Falha no envio de dinheiro (sem telefone equipado)"
+            },
+            "EXCEED_DAILY": {
+                "TITLE": "Limite diário excedido",
+                "DESCRIPTION": "Excedeu o seu limite diário"
+            },
+            "EXCEED_WEEKLY": {
+                "TITLE": "Limite semanal excedido",
+                "DESCRIPTION": "Excedeu o seu limite semanal"
+            },
+            "FAILED_ADD": {
+                "TITLE": "Falha ao adicionar dinheiro",
+                "DESCRIPTION": "Falha ao adicionar dinheiro à conta especificada"
+            },
+
+            "OK": "OK"
         },
         "GARAGE": {
             "TITLTE": "Garagem",
@@ -670,15 +786,20 @@
             }
         },
         "MARKETPLACE": {
-            "CANCEL": "Cancelar",
+            "MARKETPLACE": "Marketplace",
+            "TITLE": "Titulo",
             "SEARCH": "Pesquise por anúncios ou números",
-            "NEW_POST": "Nova Publicação",
-            "TITLE": "Título",
-            "DESCRIPTION": "Descrição",
+            "HOME": "Inicio",
+            "YOUR_POSTS": "As tuas publicações",
             "PRICE": "Preço",
-            "POST": "Publicar",
-            "CONTACT": "Contato",
+            "DESCRIPTION": "Descrição",
+            "IMAGES": "Imagens",
+            "POST": "Publicação",
+            "AMOUNT_OF_TOTAL": "{amount} de {total}",
+            "MESSAGE": "Mensagem",
+            "CALL": "Ligar",
             "REMOVE": "Remover",
+
             "ERROR_POPUP": {
                 "TITLE": "Erro",
                 "NO_TITLE": "É necessário inserir o Título",
@@ -695,6 +816,7 @@
             }
         },
         "YELLOWPAGES": {
+            "PAGES": "Paginas",
             "SEARCH": "Pesquise posts ou números",
             "FROM": "De",
             "CANCEL": "Cancelar",
@@ -740,11 +862,22 @@
             "UNREAD": "Não lido",
             "CREATE_MAIL": "Criar Email",
             "ALREADY_HAVE": "Já tem um endereço de e-mail?",
+            "ADD_EMAIL": "Adicionar Email",
+            "RE": "Re: {subject}",
+            "CHANGE_ACCOUNT": "Alterar conta",
+            "CHANGE_PASSWORD": "Alterar Password",
+            "DELETE_ACCOUNT": "Apagar conta",
             "SIGN_OUT_POPUP": {
                 "TITLE": "Sair",
                 "DESCRIPTION": "Tem certeza que deseja sair?",
                 "CANCEL": "Cancelar",
                 "PROCEED": "Confirmar"
+            },
+            "DELETE_MAIL_POPUP": {
+                "TITLE": "Apagar Email",
+                "DESCRIPTION": "Tem a certeza de que pretende eliminar este e-mail?",
+                "CANCEL": "Cancelar",
+                "DELETE": "Apagar"
             }
         },
         "MAPS": {
@@ -842,7 +975,13 @@
             "SAVE": "Salvar",
             "NEW_MATCHES": "Novos Meets",
             "MESSAGES": "Mensagens",
-            "SEARCH_MATCHES": "Pesquisar meets"
+            "VISIBILITY": "Visibilidade do perfil",
+            "VISIBLE": "Visivel",
+            "HIDDEN": "Escondido",
+            "HIDDEN_WARNING": "A sua conta está oculta no momento. Não será mostrado a outros utilizadores e não poderá deslizar.",
+            "HIDDEN_PROFILE": "O seu perfil não está ativo. Pode ativar o seu perfil nas definições.",
+            "SEARCH_MATCHES": "Pesquisar correspondências",
+            "DELETE_ACCOUNT": "Apagar conta"
         },
         "INSTAGRAM": {
             "TITLE": "Fotogram",
@@ -927,10 +1066,7 @@
             "LIKED_BY": "Recebeste like de",
             "VIEW_ALL_COMMENTS": "Ver todos os {count} comentários",
             "FIRST_COMMENT": "Seja o primeiro a comentar...",
-            "NO_ACCOUNT": "Não há nenhuma conta com este utilizador",
-            "WRONG_USERNAME_OR_PASSWORD": "utilizador ou senha incorretos",
             "LOG_IN": "Entrar",
-            "ACCOUNT_WITH_USERNAME": "Já existe uma conta com este utilizador",
             "CREATE_ACCOUNT": "Criar conta",
             "USERNAME_PLACEHOLDER": "utilizador",
             "NAME_PLACEHOLDER": "Nome",
@@ -946,8 +1082,10 @@
             "CHANGE_PICTURE": "Alterar foto de Perfil",
             "NAME": "Nome",
             "BIO": "Bio",
+            "PRIVATE": "Alterar para privado",
             "SIGN_OUT": "Sair",
-            "PRIVATE": "Mudar para privado",
+            "CHANGE_PASSWORD": "Alterar Password",
+            "DELETE_ACCOUNT": "Apagar conta",
             "POSTS": "Posts",
             "MESSAGE": "Mensagem",
             "SENT_A_PHOTO": "enviou uma foto",
@@ -964,7 +1102,23 @@
             "FOLLOW_REQUESTS": "Pedidos para seguir",
             "CONFIRM": "Confirmar",
             "DELETE": "Apagar",
-            "ANDOTHERS": "{username} + {amount} outros"
+            "ANDOTHERS": "{username} + {amount} outros",
+            "PRIVATE_ACCOUNT": "Esta conta é privada",
+            "PRIVATE_ACCOUNT_DESCRIPTION": "Siga esta conta para ver as suas fotografias e vídeos.",
+            "ERROR": "Erro",
+            "USERNAME_TAKEN": "O nome de utilizador já está em uso",
+            "UNKNOWN": "Erro desconhecido",
+            "UNKNOWN_ACCOUNT": "A conta não existe",
+            "INVALID_USERNAME": "Username inválido",
+            "INCORRECT_PASSWORD": "Password incorreta",
+            "OK": "OK",
+            "LOCATION": "Localização",
+            "CHOOSE_LOCATION": {
+                "TITLE": "Escolher localização",
+                "DESCRIPTION": "Escolha um local para esta publicação",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Continuar"
+            }
         },
         "TWITTER": {
             "TITLE": "Blue Bird",
@@ -988,6 +1142,8 @@
             "PROTECTED_POSTS": "Protege os seus posts",
             "BIO": "Bio",
             "SIGN_OUT": "Sair",
+            "CHANGE_PASSWORD": "Alterar Password",
+            "DELETE_ACCOUNT": "Apagar conta",
             "SIGN_OUT_POPUP": {
                 "TITLE": "Sair",
                 "DESCRIPTION": "Quer sair?",
@@ -1058,6 +1214,7 @@
             "MESSAGE_PLACEHOLDER": "Mensagem...",
             "NOW": "Agora",
             "LOGIN": "Entrar",
+            "NEXT": "Próximo",
             "CREATE_ACCOUNT": "Criar Conta",
             "PROMOTE": "Promover",
             "PIN": "Fixar Post",
@@ -1067,21 +1224,30 @@
             "ADD_ACCOUNT": "Adicionar conta",
             "FOLLOWER_REQUESTS": "Pedidos para seguir",
             "NEW_POSTS": "Novos Posts",
-            "NEW_POST": "Novo Post"
+            "NEW_POST": "Novo Post",
+            "PROTECTED_TWEETS_TITLE": "Essas publicações são protegidas.",
+            "PROTECTED_TWEETS_DESCRIPTION": "Apenas os seguidores confirmados têm acesso às publicações e ao perfil completo de @{username}. Toque no botão ‘Seguir’ para enviar um pedido de acompanhamento."
         },
         "SERVICES": {
             "ACTIONS": "Ações",
             "COMPANIES": "Empresas",
             "MESSAGES": "Mensagens",
+            "SETTINGS": "Definições",
 
             "CLOSED": "Fechada",
             "YOUR_MESSAGES": "Sua Mensagem",
             "JOB_MESSAGES": "Mensagens de Trabalho",
 
             "DUTY": "Em serviço",
+            "DUTY_DESCRIPTION": "Alterar o estado",
             "GO_ON_DUTY": "Entrar em Serviço",
             "GO_OFF_DUTY": "Sair de Serviço",
             "JOB_CALLS": "Ocorrências",
+            "JOB_CALLS_DESCRIPTION": "{toggle} recebendo chamadas de clientes.",
+
+            "ENABLE": "Ativar",
+            "DISABLE": "Desativar",
+
             "DISABLE_CALLS": "Desativar ocorrências",
             "ENABLE_CALLS": "Ativar ocorrências",
             "BALANCE": "Saldo",
@@ -1089,6 +1255,13 @@
             "HIRE": "Contratar",
             "SET_GRADE": "Definir Cargo",
             "UNEMPLOYED": "Você está desempregado",
+
+            "ALL": "Todos",
+            "AVAILABLE": "Disponível",
+            "SEARCH_EMPLOYEES": "Procurar funcionários",
+
+            "PERSONAL": "Pessoal",
+            "JOB": "Trabalho",
 
             "DEPOSIT_POPUP": {
                 "TITLE": "Depositar",
@@ -1100,6 +1273,7 @@
             "WITHDRAW_POPUP": {
                 "TITLE": "Sacar",
                 "DESCRIPTION": "Retirar dinheiro da conta da empresa",
+                "NOT_ENOUGH_MONEY": "Não há dinheiro suficiente na conta da empresa",
                 "AMOUNT": "Quantia",
                 "CANCEL": "Cancelar",
                 "PROCEED": "Confirmar"
@@ -1266,6 +1440,8 @@
             "MESSAGE": "Mensagem",
             "CHANGE_PHOTO": "Editar Foto",
             "LOGOUT": "Sair",
+            "CHANGE_PASSWORD": "Alterar Password",
+            "DELETE_ACCOUNT": "Apagar conta",
             "ADD_TO_YOUR_PROFILE": "Adicionar ao seu perfil",
             "LIKED_HIDDEN_TITLE": "Os vídeos curtidos por este utilizador são privados.",
             "LIKED_HIDDEN_SUBTITLE": "Os vídeos curtidos por {name} estão ocultos no momento.",
@@ -1285,6 +1461,7 @@
             "ADD_ACCOUNT_TITLE": "Adicionar Conta",
             "ADD_ACCOUNT": "Adicione {name} ao seu perfil",
             "UPLOAD_VIDEO": "Enviar vídeo",
+            "UPLOAD": "Enviar",
             "PREVIEW": "Preview",
             "CAPTION": "Legenda",
             "CAPTION_PLACEHOLDER": "Adicionar uma legenda...",
@@ -1304,7 +1481,8 @@
         },
         "VOICEMEMO": {
             "TITLE": "Lembrete de Voz",
-            "ALL_RECORDINGS": "Todas as gravações",
+            "VOICE_RECORDINGS": "Gravações de voz",
+            "SEARCH_RECORDINGS": "Pesquisar gravações",
             "DEFAULT_NAME": "Nova Gravação",
             "DELETE_POPUP": {
                 "TITLE": "Apagar lembrete",
@@ -1315,6 +1493,11 @@
             "NO_MICROPHONE_POPUP": {
                 "TITLE": "Sem microfone",
                 "DESCRIPTION": "Não temos acesso ao seu microfone, Confirme se o tem conectado e aceite o pop up no canto superior direito",
+                "OK": "OK"
+            },
+            "EMPTY_RECORDING_POPUP": {
+                "TITLE": "Gravação Vazia",
+                "DESCRIPTION": "Não pode armazenar uma gravação sem áudio",
                 "OK": "OK"
             }
         }
@@ -1342,8 +1525,10 @@
             },
             "SHARE": {
                 "COPY_PHOTO": "Copiar foto",
+                "COPY_VIDEO": "Copiar Video",
                 "USE_WALLPAPER": "Usar como papel de parede",
                 "COPY_NUMBER": "Copiar número",
+                "COPY_LINK": "Copiar Link",
                 "AIRDROP_SENT": "Enviar",
                 "AIRDROP_ACCEPTED": "Aceitar",
                 "AIRDROP_DECLINED": "Recusar",
@@ -1353,6 +1538,11 @@
                     "TEXT": "Tem a certeza de que deseja definir esta imagem como papel de parede?",
                     "CANCEL": "Cancelar",
                     "PROCEED": "Confirmar"
+                },
+                "COPY_POPUP": {
+                    "TITLE": "Sucesso",
+                    "DESCRIPTION": "Copiado com sucesso para a área de transferência",
+                    "OK": "OK"
                 }
             },
             "AIRDROP": {
@@ -1392,16 +1582,23 @@
             },
             "COLOR_PICKER": {
                 "COLOR": "Cor"
+            },
+            "GIF_SELECTOR": {
+                "SEARCH": "Tenor de pesquisa",
+                "BACK": "Regressar"
             }
+        }
     },
     "SETUP": {
         "HELLO": "Olá",
+        "SELECT_LANGUAGE": "Selecione o seu idioma",
         "NEXT": "Clique para abrir",
         "CREATE_PASSCODE": "Criar senha",
         "CREATE_PASSCODE_TEXT": "Uma senha protege seus dados e é usada para desbloquear seu telefone.",
         "SKIP": "Saltar esta etapa",
         "FACE_ID_SETUP": "Configuração do Face ID ",
         "FACE_ID_TEXT": "Configure o Face ID para desbloquear automaticamente o seu telefone enquanto o seu rosto estiver enquadrado.",
+        "FACE_ID_TEXT_ALT": "O Desbloqueio facial só funciona quando o seu rosto não está obstruído.",
         "ENABLE_FACE_ID": "Habilitar Face ID",
         "APPEARANCE": "Aparência",
         "APPEARANCE_TEXT": "Selecionar modo claro ou escuro",
@@ -1411,6 +1608,7 @@
     },
     "HOMESCREEN": {
         "DONE": "Finalizar",
+        "CLOSE_ALL": "Fechar tudo",
         "REMOVE_APP_POPUP": {
             "TITLE": "Remover '{app}'?",
             "DESCRIPTION": "Ao apagar a App não vai apagar os dados. A aplicação pode ser instalada mais tarde na App store.",
@@ -1427,6 +1625,31 @@
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "Erro",
             "DESCRIPTION": "Está a tentar efetuar uma ação que necessita de acesso à internet, desativar modo avião para continuar.",
+            "OK": "OK"
+        },
+        "TODAY_TIME": "Hoje, {hours}:{minutes}",
+        "YESTERDAY_TIME": "Ontem, {hours}:{minutes}",
+        "CHANGE_PASSWORD": {
+            "TITLE": "Alterar password",
+            "DESCRIPTION": "Por favor preencha o seu {type} {app} password",
+            "ERROR": "Falha ao alterar a palavra-passe",
+            "CURRENT": "atual",
+            "NEW": "novo",
+            "PLACEHOLDER_CURRENT": "Password atual",
+            "PLACEHOLDER_NEW": "Nova password",
+            "CANCEL": "Cancelar",
+            "NEXT": "Próximo",
+            "PROCEED": "Continuar",
+            "SUCCESS": "Password alterada com sucesso",
+            "OK": "OK"
+        },
+        "DELETE_ACCOUNT": {
+            "TITLE": "Apagar conta",
+            "DESCRIPTION": "Para eliminar a sua conta {app}, preencha a sua palavra-passe abaixo. NOTA: Esta ação é irreversível.",
+            "ERROR": "Falha ao eliminar conta",
+            "PLACEHOLDER": "Password",
+            "CANCEL": "Cancelar",
+            "PROCEED": "Continuar",
             "OK": "OK"
         }
     },
@@ -1467,7 +1690,9 @@
             "FLIP_CAMERA": "Pressione {key} para virar a câmera",
             "TOGGLE_FLASH": "Pressione {key} para alterar o flash",
             "TOGGLE_CURSOR": "Pressione {key} para alternar o cursor e olhar ao redor",
-            "CHANGE_MODE": "Pressione {key} {key2} para alterar o modo da câmera"
+            "CHANGE_MODE": "Pressione {key} {key2} para alterar o modo da câmera",
+            "ROLL": "Prima {key} {key2} para percorrer a câmara",
+            "FREEZE": "Prima {key} para congelar/descongelar a câmara"
         },
         "SERVICES": {
             "NEW_MESSAGE": "Nova Mensagem",
@@ -1493,7 +1718,17 @@
         },
         "MISC": {
             "VERIFIED": "A tua conta foi verificada",
-            "X_PHONE": "{name}'s Telefone"
+            "X_PHONE": "{name}'s Telefone",
+            
+            "LOGGED_OUT_PASSWORD": {
+                "TITLE": "Você estava desconectado",
+                "DESCRIPTION": "Foi desligado da sua conta porque a sua senha foi alterada."
+            },
+
+            "DELETED_NOTIFICATION": {
+                "TITLE": "Conta excluída",
+                "DESCRIPTION": "A sua conta foi excluída."
+            }
         },
         "CRYPTO": {
             "RECEIVED_TRANSFER_TITLE": "Recebeu {coin}",
@@ -1555,7 +1790,17 @@
             "UPLOADED_MEDIA": "Uploaded midia",
             "UPLOADED_MEDIA_DESCRIPTION": "Tirou um {type} com o id {id}\n{link}",
             "VIDEO": "video",
-            "PHOTO": "foto"
+            "PHOTO": "foto",
+
+            "CHANGED_PASSWORD": {
+                "TITLE": "Password alterada",
+                "DESCRIPTION": "{number} alterou a password da conta {username} no(a) {app}."
+            },
+
+            "DELETED_ACCOUNT": {
+                "TITLE": "Conta excluída",
+                "DESCRIPTION": "{number} apagou a password da conta {username} no(a) {app}."
+            }
         }
     }
 }
