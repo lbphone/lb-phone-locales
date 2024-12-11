@@ -188,7 +188,8 @@
                 "CANCEL": "Cancelar",
                 "CONFIRM": "Confirmar"
             },
-            "UP_TO_DATE": "O seu telefone está desatualizado"
+            "UP_TO_DATE": "O seu telefone está desatualizado",
+            "BLUR_HOMESCREEN": "Desfocar ecrã inicial"
         },
         "NOTES": {
             "TITLE": "Notas",
@@ -251,7 +252,8 @@
             "ALERT": {
                 "STOP": "Parar",
                 "RESTART": "Reeniciar"
-            },
+            }
+        },
         "CAMERA": {
             "VIDEO": "Video",
             "PHOTO": "Fotos",
@@ -661,7 +663,7 @@
             "SELECT_CONTACT": "Selecionar contacto",
             "TODAY": "Hoje",
             "YESTERDAY": "Ontem",
-            
+
             "INSUFFICIENT_FUNDS": {
                 "TITLE": "Não há dinheiro suficiente",
                 "DESCRIPTION": "Não tem dinheiro suficiente para enviar esse valor"
@@ -1503,90 +1505,89 @@
         }
     },
     "COMPONENTS": {
-            "CONTEXT_MENU": {
+        "CONTEXT_MENU": {
+            "CANCEL": "Cancelar",
+            "CALL": "Ligar",
+            "VIDEO_CALL": "Vídeo-chamada",
+            "MESSAGE": "Mensagem"
+        },
+        "IMAGE": {
+            "SAVE_TO_GALLERY": "Salvar na Galeria"
+        },
+        "GALLERY": {
+            "CANCEL": "Cancelar",
+            "EXTERNAL_URL": "URL Externa",
+            "EXTERNAL_URL_BLACKLISTED": "Este link está na BlackList",
+            "NO_IMAGES": "Sem imagens"
+        },
+        "NOTIFICATIONS": {
+            "SENT_PHOTO": "Enviar foto",
+            "SENT_GIF": "Enviar GIF",
+            "NOW": "agora"
+        },
+        "SHARE": {
+            "COPY_PHOTO": "Copiar foto",
+            "COPY_VIDEO": "Copiar Video",
+            "USE_WALLPAPER": "Usar como papel de parede",
+            "COPY_NUMBER": "Copiar número",
+            "COPY_LINK": "Copiar Link",
+            "AIRDROP_SENT": "Enviar",
+            "AIRDROP_ACCEPTED": "Aceitar",
+            "AIRDROP_DECLINED": "Recusar",
+            "AIRDROP_NO_USERS": "Sem telefones por perto",
+            "WALLPAPER_POPUP": {
+                "TITLE": "Usar com papel de parede",
+                "TEXT": "Tem a certeza de que deseja definir esta imagem como papel de parede?",
                 "CANCEL": "Cancelar",
-                "CALL": "Ligar",
-                "VIDEO_CALL": "Vídeo-chamada",
-                "MESSAGE": "Mensagem"
+                "PROCEED": "Confirmar"
             },
-            "IMAGE": {
-                "SAVE_TO_GALLERY": "Salvar na Galeria"
-            },
-            "GALLERY": {
-                "CANCEL": "Cancelar",
-                "EXTERNAL_URL": "URL Externa",
-                "EXTERNAL_URL_BLACKLISTED": "Este link está na BlackList",
-                "NO_IMAGES": "Sem imagens"
-            },
-            "NOTIFICATIONS": {
-                "SENT_PHOTO": "Enviar foto",
-                "SENT_GIF": "Enviar GIF",
-                "NOW": "agora"
-            },
-            "SHARE": {
-                "COPY_PHOTO": "Copiar foto",
-                "COPY_VIDEO": "Copiar Video",
-                "USE_WALLPAPER": "Usar como papel de parede",
-                "COPY_NUMBER": "Copiar número",
-                "COPY_LINK": "Copiar Link",
-                "AIRDROP_SENT": "Enviar",
-                "AIRDROP_ACCEPTED": "Aceitar",
-                "AIRDROP_DECLINED": "Recusar",
-                "AIRDROP_NO_USERS": "Sem telefones por perto",
-                "WALLPAPER_POPUP": {
-                    "TITLE": "Usar com papel de parede",
-                    "TEXT": "Tem a certeza de que deseja definir esta imagem como papel de parede?",
-                    "CANCEL": "Cancelar",
-                    "PROCEED": "Confirmar"
-                },
-                "COPY_POPUP": {
-                    "TITLE": "Sucesso",
-                    "DESCRIPTION": "Copiado com sucesso para a área de transferência",
-                    "OK": "OK"
-                }
-            },
-            "AIRDROP": {
-                "TITLE": "Airdrop",
-                "TEXT": "{sender} gostaria de Partilhar um {type}",
-                "VIDEO": "video",
-                "PHOTO": "foto",
-                "CONTACT": "contato",
-                "LOCATION": "localização",
-                "NOTE": "notas",
-                "VOICEMEMO": "gravação",
-                "PLAYLIST": "playlist",
-                "DECLINE": "Recusar",
-                "ACCEPT": "Aceitar"
-            },
-            "DYNAMICISLAND": {
-                "SILENT": "Silencio",
-                "RING": "Toque",
-                "TIMER": "Tempo"
-            },
-            "MUSIC_SELECTOR": {
-                "CANCEL": "Cancelar",
-                "NO-RESULTS": "Nenhuma música configurada.",
-                "SEARCH": "Procurar música",
-                "SELECT_POPUP": {
-                    "TITLE": "Selecione a música",
-                    "DESCRIPTION": "Tem certeza que deseja selecionar {song}",
-                    "CANCEL": "Cancelar",
-                    "PROCEED": "Continuar"
-                }
-            },
-            "BATTERY": {
-                "LOW_BATTERY": "Bateria fraca",
-                "BATTERY_REMAINING": "{percent}% Bateria remanescente",
-                "LOW_POWER_MODE": "Modo de poupança",
-                "CLOSE": "Fechar"
-            },
-            "COLOR_PICKER": {
-                "COLOR": "Cor"
-            },
-            "GIF_SELECTOR": {
-                "SEARCH": "Tenor de pesquisa",
-                "BACK": "Regressar"
+            "COPY_POPUP": {
+                "TITLE": "Sucesso",
+                "DESCRIPTION": "Copiado com sucesso para a área de transferência",
+                "OK": "OK"
             }
+        },
+        "AIRDROP": {
+            "TITLE": "Airdrop",
+            "TEXT": "{sender} gostaria de Partilhar um {type}",
+            "VIDEO": "video",
+            "PHOTO": "foto",
+            "CONTACT": "contato",
+            "LOCATION": "localização",
+            "NOTE": "notas",
+            "VOICEMEMO": "gravação",
+            "PLAYLIST": "playlist",
+            "DECLINE": "Recusar",
+            "ACCEPT": "Aceitar"
+        },
+        "DYNAMICISLAND": {
+            "SILENT": "Silencio",
+            "RING": "Toque",
+            "TIMER": "Tempo"
+        },
+        "MUSIC_SELECTOR": {
+            "CANCEL": "Cancelar",
+            "NO-RESULTS": "Nenhuma música configurada.",
+            "SEARCH": "Procurar música",
+            "SELECT_POPUP": {
+                "TITLE": "Selecione a música",
+                "DESCRIPTION": "Tem certeza que deseja selecionar {song}",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Continuar"
+            }
+        },
+        "BATTERY": {
+            "LOW_BATTERY": "Bateria fraca",
+            "BATTERY_REMAINING": "{percent}% Bateria remanescente",
+            "LOW_POWER_MODE": "Modo de poupança",
+            "CLOSE": "Fechar"
+        },
+        "COLOR_PICKER": {
+            "COLOR": "Cor"
+        },
+        "GIF_SELECTOR": {
+            "SEARCH": "Tenor de pesquisa",
+            "BACK": "Regressar"
         }
     },
     "SETUP": {
