@@ -1,0 +1,41 @@
+name: Validate Locale Files
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Set Up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install Dependencies
+      run: |
+        cd .github/scripts
+        npm install
+
+    - name: Get all changed json locale files
+      id: changed-json-files
+      uses: tj-actions/changed-files@v45
+      with:
+        files: |
+          **.json
+
+    - name: List all changed json locale files
+      if: steps.changed-json-files.outputs.any_changed == 'true'
+      env:
+        ALL_CHANGED_FILES: ${{ steps.changed-json-files.outputs.all_changed_files }}
+      run: |
+        for file in ${ALL_CHANGED_FILES}; do
+          echo "$file was changed"
+          node ./.github/scripts/validate-locale-files.js "$file"
+        done
