@@ -188,7 +188,7 @@
                 "CANCEL": "Cancel",
                 "CONFIRM": "Reset"
             },
-            "UP_TO_DATE": "Your phone is up to date",
+            "UP_TO_DATE": "Your phone is up to date"
         },
         "NOTES": {
             "TITLE": "Notes",
@@ -259,7 +259,7 @@
             "LANDSCAPE": "Landscape",
             "UPLOADING": "Uploading"
         },
-        "DARKCHAT": { //Aqui
+        "DARKCHAT": {
             "TITLE": "Dark Chat",
             "SEARCH": "Search channels",
             "CANCEL": "Cancel",
