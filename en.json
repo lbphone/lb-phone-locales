@@ -651,7 +651,7 @@
             "NEXT": "Next",
             "DONE": "Done",
             "DONE_SUBTITLE": "You sent {amount} to {number}",
-            "NO_REFUNDS": "Payments are nonrefundable, double check the number.",
+            "NO_REFUNDS": "Payments are non-refundable, double check the number.",
             "NEW_BALANCE": "New Balance",
             "HOME": "Home",
             "LATEST_TRANSACTIONS": "Latest Transactions",
