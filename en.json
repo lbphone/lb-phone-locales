@@ -154,13 +154,13 @@
             "BACKUPS": "Backups",
             "SAVE_BACKUP_POPUP": {
                 "TITLE": "Save Backup",
-                "TEXT": "Are you sure you want to save a backup of your data? (Will save your contacts, photos and settings)",
+                "TEXT": "Are you sure you want to save a backup of your data? (Will save your contacts, photos, and settings)",
                 "CANCEL": "Cancel",
                 "CONFIRM": "Save"
             },
             "APPLY_BACKUP_POPUP": {
                 "TITLE": "Apply Backup",
-                "TEXT": "Are you sure you want to apply this backup? (Will overwrite your contacts, photos and settings)",
+                "TEXT": "Are you sure you want to apply this backup? (Will overwrite your contacts, photos, and settings)",
                 "CANCEL": "Cancel",
                 "CONFIRM": "Apply"
             },
