@@ -2,17 +2,18 @@ const fs = require('fs');
 const path = require('path');
 
 const enJson = JSON.parse(fs.readFileSync('en.json', 'utf-8'));
+const parentDir = __dirname.includes('scripts') ? path.resolve(__dirname, '../../') : __dirname;
 
-function validateEnJsonFile(filePath) {
+function validateEnJsonFile(fileName) {
     try {
-        const fileContent = fs.readFileSync(filePath, 'utf8');
+        const fileContent = fs.readFileSync(path.resolve(parentDir, fileName), 'utf8');
         const json = JSON.parse(fileContent);
 
         const checkKeys = (obj, parentKey = '') => {
             for (const key of Object.keys(obj)) {
                 if (!/^[A-Z0-9_-]+$/.test(key)) {
                     throw new Error(
-                        `Key '${parentKey}${key}' in file '${filePath}' is not in uppercase or contains invalid characters.`
+                        `Key '${parentKey}${key}' in file '${fileName}' is not in uppercase or contains invalid characters.`
                     );
                 }
                 if (typeof obj[key] === 'object' && obj[key] !== null && key !== 'APP_NAMES') {
@@ -29,9 +30,9 @@ function validateEnJsonFile(filePath) {
     }
 }
 
-function validateJsonFile(filePath) {
+function validateJsonFile(fileName, skipRecap) {
     try {
-        const fileContent = fs.readFileSync(filePath, 'utf8');
+        const fileContent = fs.readFileSync(path.resolve(parentDir, fileName), 'utf8');
         const json = JSON.parse(fileContent);
 
         const missingKeys = [];
@@ -54,22 +55,26 @@ function validateJsonFile(filePath) {
         checkKeys(enJson, json);
 
         if (missingKeys.length > 0) {
-            console.error(`\x1b[31mThe following keys are missing in the second file '${filePath}':\x1b[0m`);
-            missingKeys.forEach((key) => {
-                console.error(`- ${key}`);
-            });
+            if (!skipRecap) {
+                console.error(`\x1b[31mThe following keys are missing in the second file '${fileName}':\x1b[0m`);
+                missingKeys.forEach((key) => {
+                    console.error(`- ${key}`);
+                });
+            }
             throw new Error(`Key mismatch detected.`);
         }
 
-        console.log(`\x1b[32mFile '${filePath}' passed all checks.\x1b[0m`);
+        console.log(`\x1b[32mFile '${fileName}' passed all checks.\x1b[0m`);
     } catch (error) {
-        console.error(error.message);
+        console.error(`File '${fileName}' did not pass the checks`);
         process.exitCode = 1;
     }
 }
 
-let files = process.argv.slice(2);
-const parentDir = __dirname.includes('scripts') ? path.resolve(__dirname, '../../') : __dirname;
+const args = process.argv.slice(2);
+
+const skipVerification = args.includes('--skipdetails');
+const files = args.filter(arg => arg !== '--skipdetails');
 
 if (files.length === 0) {
    
@@ -82,13 +87,12 @@ if (files.length === 0) {
         const jsonFiles = allFiles.filter(file => file.endsWith('.json'));
 
         jsonFiles.forEach((file) => {
-            console.log(`\x1b[34mChecking ${file}\x1b[0m`);
             switch (file) {
                 case 'en.json':
-                    validateEnJsonFile(path.resolve(parentDir, file));
+                    validateEnJsonFile(file);
                     break
                 default:
-                    validateJsonFile(path.resolve(parentDir, file));
+                    validateJsonFile(file, skipVerification);
                     break;
             }
         });
@@ -102,7 +106,7 @@ if (files.length === 0) {
                     validateEnJsonFile(path.resolve(parentDir, file));
                     break
                 default:
-                    validateJsonFile(path.resolve(parentDir, file));
+                    validateJsonFile(file, path.resolve(parentDir, file), skipVerification);
                     break;
             }
         }
