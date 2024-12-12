@@ -23,4 +23,4 @@ jobs:
 
     - name: Validate all JSON locale Files
       run: |
-        node ./.github/scripts/validate-locale-files.js
+        node ./.github/scripts/validate-locale-files.js --skipdetails
