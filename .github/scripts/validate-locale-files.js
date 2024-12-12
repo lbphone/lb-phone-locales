@@ -65,16 +65,64 @@ function validateJsonFile(fileName, skipRecap) {
         }
 
         console.log(`\x1b[32mFile '${fileName}' passed all checks.\x1b[0m`);
+        return true;
     } catch (error) {
         console.error(`File '${fileName}' did not pass the checks`);
         process.exitCode = 1;
+        return false;
+    }
+}
+
+function updateReadMeFile(localesStatuses) {
+    let fileContent;
+
+    const filePath = path.resolve(parentDir, './README.md');
+    try {
+        fileContent = fs.readFileSync(filePath, 'utf8');
+    } catch (err) {
+        console.error('Unable to open README.md:', err.message);
+        process.exit(1);
+    }
+
+    const regex = /- (✅|❌) \*\*(.*?)\*\* \(Base Locale - v[\d.]+\)/;
+    const enEntry = fileContent.match(regex);
+
+    let updatedLocales = [enEntry ? enEntry[0] : '- ✅ **en.json** (Base Locale - v?.?.?)'];
+
+    localesStatuses.forEach((isUpToDate, fileName) => {
+        const icon = isUpToDate ? '✅' : '❌';
+        const displayName = `**${fileName}**`;
+        updatedLocales.push(`- ${icon} ${displayName}`);
+    });
+    
+    const totalLocales = [...localesStatuses.values()].length + 1;
+    const upToDateLocales = [...localesStatuses.values()].filter(Boolean).length + 1;
+    const summary = `*${upToDateLocales}/${totalLocales} locales up to date*`;
+    
+    let newFileContent = fileContent.replace(
+        /## Locales Status:[\s\S]*?<!-- Recap End -->/g,
+        `## Locales Status:\n${summary}\n${updatedLocales.join('\n')}\n<!-- Recap End -->`
+    );
+
+    if (newFileContent === fileContent) newFileContent += (
+        `\n\n## Locales Status:\n` +
+        `${summary}\n${updatedLocales.join('\n')}\n` +
+        `<!-- Recap End -->`
+    );
+
+    try {
+        fs.writeFileSync(filePath, newFileContent);
+        console.log('README.md has been successfully updated!');
+    } catch (err) {
+        console.error('Error writing to README.md:', err);
     }
 }
 
 const args = process.argv.slice(2);
 
 const skipVerification = args.includes('--skipdetails');
-const files = args.filter(arg => arg !== '--skipdetails');
+const updateReadMe = args.includes('--updatereadme');
+const files = args.filter(arg => arg.endsWith('.json'));
 
 if (files.length === 0) {
    
@@ -86,29 +134,34 @@ if (files.length === 0) {
 
         const jsonFiles = allFiles.filter(file => file.endsWith('.json'));
 
+        const recap = new Map();
+
         jsonFiles.forEach((file) => {
             switch (file) {
                 case 'en.json':
                     validateEnJsonFile(file);
                     break
                 default:
-                    validateJsonFile(file, skipVerification);
+                    const status = validateJsonFile(file, skipVerification);
+                    recap.set(file, status);
                     break;
             }
         });
+
+        if (updateReadMe) updateReadMeFile(recap);
+
     });
 } else {
+    if (updateReadMe) console.warn('cannot use --updatereadme and check individual files');
     files.forEach((file) => {
-        if (file.endsWith('.json')) {
-            console.log(`\x1b[34mChecking ${file}\x1b[0m`);
-            switch (file) {
-                case 'en.json':
-                    validateEnJsonFile(path.resolve(parentDir, file));
-                    break
-                default:
-                    validateJsonFile(file, path.resolve(parentDir, file), skipVerification);
-                    break;
-            }
+        console.log(`\x1b[34mChecking ${file}\x1b[0m`);
+        switch (file) {
+            case 'en.json':
+                validateEnJsonFile(path.resolve(parentDir, file));
+                break
+            default:
+                validateJsonFile(file, path.resolve(parentDir, file), skipVerification);
+                break;
         }
     });
 }
