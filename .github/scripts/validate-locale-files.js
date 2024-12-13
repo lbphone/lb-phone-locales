@@ -160,7 +160,7 @@ if (files.length === 0) {
                 validateEnJsonFile(path.resolve(parentDir, file));
                 break
             default:
-                validateJsonFile(file, path.resolve(parentDir, file), skipVerification);
+                validateJsonFile(file, skipVerification);
                 break;
         }
     });
