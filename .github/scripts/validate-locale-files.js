@@ -104,10 +104,14 @@ function updateReadMeFile(localesStatuses) {
         `## Locales Status:\n${summary}\n${updatedLocales.join('\n')}\n<!-- Recap End -->`
     );
 
-    if (newFileContent === fileContent) newFileContent += (
+    if (newFileContent === fileContent && !fileContent.includes('## Locales Status:')) newFileContent += (
         `\n\n## Locales Status:\n` +
         `${summary}\n${updatedLocales.join('\n')}\n` +
         `<!-- Recap End -->`
+    );
+
+    if (newFileContent === fileContent && fileContent.includes('## Locales Status:')) return console.log(
+        '\x1b[32mNo Changes brought to \x1b[33mREADME.md\x1b[0m'
     );
 
     try {
