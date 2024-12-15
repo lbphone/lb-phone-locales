@@ -8,7 +8,7 @@ Discord: https://discord.gg/lbphone
 
 
 ## Locales Status:
-*4/20 locales up to date*
+*5/20 locales up to date*
 - ✅ **en.json** (Base Locale - v?.?.?)
 - ❌ **ar.json**
 - ❌ **ba.json**
@@ -21,7 +21,7 @@ Discord: https://discord.gg/lbphone
 - ❌ **it.json**
 - ❌ **nl.json**
 - ❌ **no.json**
-- ❌ **pl.json**
+- ✅ **pl.json**
 - ❌ **pt-br.json**
 - ✅ **pt-pt.json**
 - ❌ **ru.json**
