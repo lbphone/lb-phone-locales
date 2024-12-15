@@ -8,154 +8,212 @@
     "M": "m",
     "S": "s",
 
+    "APP_NAMES": {
+        "Phone": "Telefon",
+        "Messages": "Wiadomości",
+        "Notes": "Notatki",
+        "Settings": "Ustawienia",
+        "Photos": "Zdjęcia",
+        "Camera": "Aparat",
+        "Weather": "Pogoda",
+        "Calculator": "Kalkulator",
+        "AppStore": "Aplikacje",
+        "Clock": "Zegar",
+        "Maps": "Mapy",
+        "YellowPages": "Strony",
+        "MarketPlace": "Rynek",
+        "Wallet": "Portfel",
+        "Home": "Dom",
+        "Garage": "Garaż",
+        "Music": "Muzyka",
+        "DarkChat": "Dark Chat",
+        "Crypto": "Krypto",
+        "Mail": "Poczta",
+        "Services": "Usługi",
+        "VoiceMemo": "Notatki głosowe",
+        "Twitter": "Birdy",
+        "Instagram": "InstaPic",
+        "Tinder": "Spark",
+        "TikTok": "Trendy"
+    },
+
     "APPS": {
         "SETTINGS": {
             "TITLE": "Ustawienia",
-            "BACK": "Wróć",
+            "BACK": "Wstecz",
             "DONE": "Gotowe",
             "EDIT": "Edytuj",
             "AIRPLANE_MODE": "Tryb samolotowy",
+            "AIRPLANE_MODE_DESCRIPTION": "Wyłącza połączenia, dane komórkowe itp.",
             "STREAMER_MODE": "Tryb streamera",
-            "BLUETOOTH": "Bluetooth",
+            "STREAMER_MODE_DESCRIPTION": "Rozmywa wrażliwe informacje",
             "GENERAL": "Ogólne",
-            "ABOUT": "To urządzenie...",
+            "GENERAL_DESCRIPTION": "Ustawienia ogólne telefonu",
+            "ABOUT": "Informacje",
             "NAME": "Nazwa",
             "VERSION": "Wersja",
             "MODEL_NAME": "Nazwa modelu",
             "SERIAL_NUMBER": "Numer seryjny",
-            "DEVELOPED_BY": "Opracowany przez ",
-            "PURCHASE_AT": "Zakupione na",
-            "SONGS": "Utwory",
-            "VIDEOS": "Wideo",
+            "DEVELOPED_BY": "Opracowany przez",
+            "PURCHASE_AT": "Zakupiono w",
+            "SONGS": "Piosenki",
+            "VIDEOS": "Filmy",
             "PHOTOS": "Zdjęcia",
             "APPLICATIONS": "Aplikacje",
             "CAPACITY": "Pojemność",
             "AVAILABLE": "Dostępne",
-            "SOFTWARE_UPDATE": "Aktualizacje",
-            "AUTOMATIC_UPDATES": "Automatyczne Aktualizacje",
+            "SOFTWARE_UPDATE": "Aktualizacja oprogramowania",
+            "AUTOMATIC_UPDATES": "Automatyczne aktualizacje",
             "DATE_TIME": "Data i czas",
-            "24_HOUR_TIME": "Czas 24-godzinny",
-            "SET_AUTOMATICALLY": "Ustaw Automatycznie",
+            "24_HOUR_TIME": "Format 24-godzinny",
+            "SET_AUTOMATICALLY": "Ustaw automatycznie",
             "TIME_ZONE": "Strefa czasowa",
             "LANGUAGE_REGION": "Język i region",
             "LANGUAGE": "Język",
             "TEMPERATURE": "Temperatura",
-            "CELCIUS": "Stopnie Celsjusza (°C)",
-            "FAHRENHEIT": "Stopnie Fahrenheita (°F)",
+            "CELCIUS": "Celsjusz",
+            "FAHRENHEIT": "Fahrenheit",
             "BATTERY": "Bateria",
+            "BATTERY_DESCRIPTION": "Przeglądaj stan i użycie baterii",
             "SOUND_HAPTICS": "Dźwięki i haptyka",
-            "SOUND_HAPTICS_PATTERNS": "Dźwięki i melodie haptyczne",
+            "SOUND_HAPTICS_DESCRIPTION": "Zmień dźwięki i wibracje",
+            "SOUND_HAPTICS_PATTERNS": "Wzory dźwięków i haptyki",
             "RINGTONE": "Dzwonek",
-            "TEXT_TONE": "SMS/MMS",
-            "RINGTONE_VOLUME": "Głośność dzwonków i alertów",
-            "DEFAULT": "Domyślne",
-            "PHONE_STORAGE": "Pamięć Telefonu",
+            "TEXT_TONE": "Ton wiadomości",
+            "RINGTONE_VOLUME": "Głośność dzwonka i powiadomień",
+            "DEFAULT": "Domyślny",
+            "PHONE_STORAGE": "Pamięć telefonu",
             "STORAGE": "Pamięć",
-            "USED": "W użyciu",
+            "USED": "Użyte",
             "OF": "z",
             "DISPLAY_BRIGHTNESS": "Ekran i jasność",
+            "DISPLAY_BRIGHTNESS_DESCRIPTION": "Dostosuj ekran i jasność",
+            "DARK": "Ciemny",
+            "LIGHT": "Jasny",
             "APPEARANCE": "Wygląd",
-            "AUTOMATIC": "Automatycznie",
+            "AUTOMATIC": "Automatyczny",
             "BRIGHTNESS": "Jasność",
-            "PHONE_SCALE": "Rozmiar telefonu",
+            "PHONE_SCALE": "Skala telefonu",
+            "FRAME_COLOR": "Kolor ramki",
             "WALLPAPER": "Tapeta",
+            "WALLPAPER_DESCRIPTION": "Zmień tapetę i inne ustawienia tła",
             "WALLPAPERS": "Tapety",
             "CHOOSE_NEW_WALLPAPER": "Wybierz nową tapetę",
             "NOTIFICATIONS": "Powiadomienia",
-            "ALLOW_NOTIFICATIONS": "Zezwól na powiadomienia",
+            "NOTIFICATIONS_DESCRIPTION": "Wybierz, które aplikacje mogą wysyłać powiadomienia",
+            "ALLOW_NOTIFICATIONS": "Zezwalaj na powiadomienia",
             "SOUNDS": "Dźwięki",
             "PHONE": "Telefon",
+            "PHONE_DESCRIPTION": "Przełącz identyfikację dzwoniącego, blokuj numery itp.",
             "BLOCKED_CONTACTS": "Zablokowane kontakty",
             "MY_NUMBER": "Mój numer",
-            "SHOW_CALLER_ID": "Pokaż ID rozmówcy",
+            "SHOW_CALLER_ID": "Pokaż identyfikator dzwoniącego",
             "UNBLOCK_POPUP": {
                 "TITLE": "Odblokuj numer",
                 "TEXT": "Czy na pewno chcesz odblokować ten numer?",
                 "CANCEL": "Anuluj",
                 "CONFIRM": "Odblokuj"
             },
-            "FACE_ID_PASSWORD": "Face ID i kod",
+            "FACE_ID_PASSWORD": "Odblokowanie twarzą i hasło",
+            "FACE_ID_PASSWORD_DESCRIPTION": "Zabezpiecz swój telefon",
             "ENTER_PASSCODE": "Wprowadź kod",
             "PASSCODE": "Kod",
-            "FACE_ID": "Face ID",
-            "RESET_FACE_ID": "Resetuj Face ID",
-            "ENABLE_FACE_ID": "Włącz Face ID",
+            "FACE_ID": "Odblokowanie twarzą",
+            "RESET_FACE_ID": "Resetuj odblokowanie twarzą",
+            "ENABLE_FACE_ID": "Włącz odblokowanie twarzą",
             "PIN_CODE": "Kod PIN",
+            "PIN_CODE_ERROR": {
+                "TITLE": "Błąd",
+                "WRONG": "Nieprawidłowy kod PIN",
+                "OK": "OK"
+            },
             "DISABLE_FACE_ID_POPUP": {
-                "TITLE": "Wyłącz Face ID",
-                "TEXT": "Czy na pewno chcesz wyłączyć Face ID?",
+                "TITLE": "Wyłącz odblokowanie twarzą",
+                "TEXT": "Czy na pewno chcesz wyłączyć odblokowanie twarzą?",
                 "CANCEL": "Anuluj",
                 "CONFIRM": "Wyłącz"
             },
             "ENABLE_FACE_ID_POPUP": {
-                "TITLE": "Włącz Face ID",
-                "TEXT": "Czy na pewno chcesz włączyć Face ID?",
+                "TITLE": "Włącz odblokowanie twarzą",
+                "TEXT": "Czy na pewno chcesz włączyć odblokowanie twarzą?",
                 "CANCEL": "Anuluj",
                 "CONFIRM": "Włącz"
             },
             "DISABLE_PIN_POPUP": {
                 "TITLE": "Wyłącz kod PIN",
-                "TEXT": "Czy na pewno chczesz wyłączyć kod PIN? (Spowoduje to również wyłączenie Face ID)",
+                "TEXT": "Czy na pewno chcesz wyłączyć kod PIN? (To również wyłączy odblokowanie twarzą)",
                 "CANCEL": "Anuluj",
-                "CONFIRM": "Wyłącz"
+                "CONFIRM": "Potwierdź"
             },
             "TURN_PASSCODE_OFF": "Wyłącz kod",
             "TURN_PASSCODE_ON": "Włącz kod",
             "CHANGE_PASSCODE": "Zmień kod",
-            "CLOUD_BACKUP": "Kopia zapasowa",
+            "CLOUD_BACKUP": "Kopia zapasowa w chmurze",
             "YOUR_PROFILE": "Twój profil",
-            "CREATE_BACKUP": "Stwórz kopię zapasową",
+            "CREATE_BACKUP": "Utwórz kopię zapasową",
+            "BACKUPS": "Kopie zapasowe",
             "SAVE_BACKUP_POPUP": {
-                "TITLE": "Zapisz kopie zapasową",
-                "TEXT": "Czy na pewno chcesz zapisać kopię zapasową swoich danych? (Zapisuje Twoje kontakty, zdjęcia i ustawienia)",
+                "TITLE": "Zapisz kopię zapasową",
+                "TEXT": "Czy na pewno chcesz zapisać kopię zapasową swoich danych? (Zostaną zapisane twoje kontakty, zdjęcia i ustawienia)",
                 "CANCEL": "Anuluj",
                 "CONFIRM": "Zapisz"
             },
-            "BACKUPS": "Kopie zapasowe",
             "APPLY_BACKUP_POPUP": {
-                "TITLE": "Użyj kopię zapasową",
-                "TEXT": "Czy na pewno chcesz użyć tę kopię zapasową? (Zastąpi twoje kontakty, zdjęcia i ustawienia)",
+                "TITLE": "Przywróć kopię zapasową",
+                "TEXT": "Czy na pewno chcesz przywrócić tę kopię zapasową? (Twoje kontakty, zdjęcia i ustawienia zostaną nadpisane)",
                 "CANCEL": "Anuluj",
-                "CONFIRM": "Użyj"
+                "CONFIRM": "Zastosuj"
             },
-            "SUCCESS": "Udało się!",
+            "BACKUP_ERROR_POPUP": {
+                "WARNING": "Ostrzeżenie",
+                "ERROR": "Błąd",
+                "ALREADY_HAVE": "Masz już kopię zapasową dla tego numeru",
+                "SAME_PHONE": "Nie możesz zastosować kopii zapasowej utworzonej na tym samym telefonie",
+                "OK": "OK"
+            },
+            "SUCCESS": "Sukces",
             "SUCCESS_TEXT": "Telefon uruchomi się ponownie za 5 sekund...",
             "OK": "OK",
             "ON": "Włączone",
+            "OFF": "Wyłączone",
             "REMOVE_BACKUP_POPUP": {
-                "TITLE": "Usuń kopię zapasowa",
-                "TEXT": "Czy na pewno chcesz usunąć tę kopię zapasową??",
+                "TITLE": "Usuń kopię zapasową",
+                "TEXT": "Czy na pewno chcesz usunąć tę kopię zapasową?",
                 "CANCEL": "Anuluj",
                 "CONFIRM": "Usuń"
             },
             "RESET_POPUP": {
                 "TITLE": "Resetuj telefon",
-                "TEXT": "Czy na pewno chcesz zresetować swój telefon [TO USUNIE WSZYSTKIE DANE!]",
+                "TEXT": "Czy na pewno chcesz zresetować telefon? [TO USUNIE WSZYSTKO]",
                 "CANCEL": "Anuluj",
                 "CONFIRM": "Resetuj"
-            }
+            },
+            "UP_TO_DATE": "Twój telefon jest aktualny",
+            "BLUR_HOMESCREEN": "Rozmyj ekran główny"
         },
         "NOTES": {
             "TITLE": "Notatki",
             "SEARCH_PLACEHOLDER": "Szukaj",
             "FOOTER": "{amount} Notatek",
             "NEW_NOTE": "Nowa notatka",
-            "LAST_EDITED": "Ostatnio edytowane: {date}",
+            "LAST_EDITED": "Ostatnio edytowano: {date}",
             "DELETE_TITLE": "Usuń {title}",
-            "DELETE_TEXT": "Czy napewno chcesz usunąć '{title}'?",
+            "DELETE_TEXT": "Czy na pewno chcesz usunąć '{title}'?",
             "BUTTON_CANCEL": "Anuluj",
             "BUTTON_DELETE": "Usuń"
         },
         "CLOCK": {
             "WORLDCLOCK": {
                 "TITLE": "Zegar światowy",
-                "TODAY": "Dziś",
+                "TODAY": "Dzisiaj",
                 "TOMORROW": "Jutro",
-                "YESTERDAY": "Wczoraj"
+                "YESTERDAY": "Wczoraj",
+                "LOCAL_TIME": "Czas lokalny",
+                "HRS": "{time} godz."
             },
             "ALARM": {
                 "TITLE": "Alarm",
-                "ADD": "Dodawj Alarm",
+                "ADD": "Dodaj alarm",
                 "CANCEL": "Anuluj",
                 "EDIT": "Edytuj",
                 "DONE": "Gotowe",
@@ -163,107 +221,219 @@
                 "LABEL": "Etykieta",
                 "SOUND": "Dźwięk",
                 "SNOOZE": "Drzemka",
-                "DELETE_TITLE": "Usuń Alarm",
+                "DELETE_TITLE": "Usuń alarm",
                 "DELETE_TEXT": "Czy na pewno chcesz usunąć ten alarm?",
                 "BUTTON_CANCEL": "Anuluj",
-                "BUTTON_DELETE": "Usuń"
+                "BUTTON_DELETE": "Usuń",
+                "ALARMS": "Alarmy",
+                "NEW_ALARM": "Nowy alarm",
+                "EDIT_ALARM": "Edit Alarm"
             },
             "STOPWATCH": {
                 "TITLE": "Stoper",
                 "START": "Start",
                 "STOP": "Stop",
                 "RESET": "Resetuj",
-                "LAP": "Pomiar"
+                "LAP": "Okrążenie",
+                "TIME": "Czas",
+                "TOTAL": "Łącznie",
+                "NO_LAPS": "Brak okrążeń"
             },
             "TIMER": {
-                "TITLE": "Minutnik",
+                "TITLE": "Timer",
                 "START": "Start",
                 "STOP": "Stop",
                 "CANCEL": "Anuluj",
                 "HOURS": "Godziny",
                 "MINUTES": "Minuty",
-                "SECONDS": "Sekundy"
+                "SECONDS": "Sekundy",
+                "NO_RECENTS": "Brak ostatnich"
             },
             "ALERT": {
-                "STOP": "Stop"
+                "STOP": "Stop",
+                "RESTART": "Uruchom ponownie"
             }
         },
         "CAMERA": {
             "VIDEO": "Wideo",
             "PHOTO": "Zdjęcie",
-            "LANDSCAPE": "Panorama",
+            "LANDSCAPE": "Krajobraz",
             "UPLOADING": "Przesyłanie"
         },
         "DARKCHAT": {
             "TITLE": "Dark Chat",
-            "USERNAME": "Nazwa użytkownika",
-            "SET_USERNAME": "Ustaw swoją nazwę użytkownika. UWAGA: MOŻNA TO USTAWIĆ TYLKO RAZ.",
+            "SEARCH": "Szukaj kanałów",
             "CANCEL": "Anuluj",
             "SET": "Ustaw",
             "JOIN": "Dołącz",
             "LEAVE": "Opuść",
             "NEW_ROOM": "Nowy pokój",
-            "NEW_ROOM_TEXT": "Wpisz kod, aby dołączyć lub utworzyć pokój",
-            "ROOM_CODE": "Kod Pokoju",
+            "NEW_ROOM_TEXT": "Wpisz kod pokoju, aby dołączyć lub utworzyć pokój",
+            "ROOM_CODE": "Kod pokoju",
             "LEAVE_ROOM": "Opuść pokój",
-            "LEAVE_ROOM_TEXT": "Czy na pewno chcesz opuścić ten pokój??",
+            "LEAVE_ROOM_TEXT": "Czy na pewno chcesz opuścić ten pokój?",
             "NOW": "Teraz",
-            "INPUT_PLACEHOLDER": "Napisz wiadomość..."
+            "INPUT_PLACEHOLDER": "Wpisz wiadomość...",
+            "NO_CHATS": "Brak czatów",
+            "NO_CHATS_TEXT": "Nie dołączyłeś jeszcze do żadnego kanału. Dołącz lub utwórz, naciskając znak plus w prawym górnym rogu.",
+            "MEMBER": "Użytkownik",
+            "MEMBERS": "Użytkownicy",
+
+            "USERNAME": "Nazwa użytkownika",
+            "PASSWORD": "Hasło",
+            "LOGIN": "Zaloguj się",
+            "SIGN_UP": "Zarejestruj się",
+            "NO_ACCOUNT": "Nie masz konta?",
+            "ALREADY_HAVE": "Masz już konto?",
+
+            "CHANGE_ACCOUNT": "Zmień konto",
+            "CHANGE_PASSWORD": "Zmień hasło",
+            "DELETE_ACCOUNT": "Usuń konto",
+
+            "ERROR": "Błąd",
+            "INVALID_LENGTH": "Hasło musi mieć co najmniej 3 znaki",
+            "USERNAME_TAKEN": "Nazwa użytkownika jest już zajęta",
+            "UNKNOWN": "Nieznany błąd",
+            "INVALID_USERNAME": "Nazwa użytkownika nie istnieje",
+            "INCORRECT_PASSWORD": "Nieprawidłowe hasło",
+            "OK": "OK",
+
+            "LEAVE_CHANNEL": {
+                "TITLE": "Opuść kanał",
+                "DESCRIPTION": "Czy na pewno chcesz opuścić ten kanał?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Opuść"
+            },
+
+            "SET_PASSWORD_POPUP": {
+                "TITLE": "Ustaw hasło",
+                "DESCRIPTION": "Musisz ustawić hasło dla swojego konta",
+                "PLACEHOLDER": "Hasło"
+            }
         },
         "APPSTORE": {
             "TITLE": "Aplikacje",
             "SEARCH": "Szukaj",
             "GET": "Pobierz",
             "OPEN": "Otwórz",
-            "TODAY": "Dziś",
+            "TODAY": "Dzisiaj",
+            "POPULAR_APPS": "Popularne aplikacje",
             "GAMES": "Gry",
             "APPS": "Aplikacje",
-            "WHAT_WE_PLAYING": "W co teraz gramy",
+            "WHAT_WE_PLAYING": "W co gramy",
             "INFORMATION": "Informacje",
-            "PROVIDER": "Deweloper",
+            "PROVIDER": "Dostawca",
             "SIZE": "Rozmiar",
             "COMPATIBILITY": "Zgodność",
-            "IN_APP_PURCHASES": "Zakupy w aplikacji"
+            "IN_APP_PURCHASES": "Zakupy w aplikacji",
+            "WORKS_WITH_PHONE": "Działa z tym telefonem",
+            "NO": "Nie",
+            "YES": "Tak",
+            "PURCHASE_APP_POPUP": {
+                "TITLE": "Zakup aplikację",
+                "DESCRIPTION": "Czy chcesz zakupić {app} za {price}?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Kup"
+            }
         },
         "PHOTOS": {
             "TITLE": "Zdjęcia",
             "SELECT": "Wybierz",
             "CANCEL": "Anuluj",
-            "SELECT_ITEMS": "Wybrane zdjęcia",
-            "SELECTED_COUNT": "{count} wybranych zdjęć",
-            "PHOTO_COUNT": "{count} zdjęć",
-            "DELETE_TITLE": "Usuń {count} zdjęć",
-            "DELETE_TEXT": "Czy na pewno chcesz usunąć {count} zdjęć",
-            "DELETE_BUTTON_CANCEL": "Anuluj",
-            "DELETE_BUTTON_DELETE": "Usuń",
-            "DELETE_IMAGE_TITLE": "Usuń zdjęcie",
-            "DELETE_IMAGE_TEXT": "Czy na pewno chcesz usunąć to zdjęcie?",
-            "DELETE_IMAGE_BUTTON_CANCEL": "Anuluj",
-            "DELETE_IMAGE_BUTTON_DELETE": "Usuń"
+            "EDIT": "Edytuj",
+            "DONE": "Gotowe",
+            "DELETE": "Usuń",
+            "SELECT_ITEMS": "Wybierz elementy",
+            "SELECTED_COUNT": "Wybrano {count} elementów",
+
+            "PHOTOS": "Zdjęcia",
+            "ALBUMS": "Albumy",
+            "LIBRARY": "Biblioteka",
+            "GALLERY": "Galeria",
+            "MY_ALBUMS": "Moje albumy",
+            "MEDIA_TYPES": "Typy mediów",
+            "NEW_ALBUM_POPUP": {
+                "TITLE": "Nowy album",
+                "DESCRIPTION": "Wprowadź nazwę dla tego albumu",
+                "PLACEHOLDER": "Tytuł",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Zapisz"
+            },
+            "REMOVE_ALBUM": {
+                "TITLE": "Usuń \"{name}\"",
+                "DESCRIPTION": "Czy na pewno chcesz usunąć album \"{name}\"? Zdjęcia nie zostaną usunięte",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Usuń"
+            },
+            "RENAME_ALBUM_POPUP": {
+                "TITLE": "Zmień nazwę albumu",
+                "DESCRIPTION": "Wprowadź nową nazwę dla tego albumu",
+                "PLACEHOLDER": "Nowa nazwa albumu",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Dalej"
+            },
+            "DELETE_IMAGE_POPUP": {
+                "TITLE": "Usuń obraz",
+                "DESCRIPTION": "Czy na pewno chcesz usunąć ten obraz?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Usuń"
+            },
+            "IMPORT_IMAGE_POPUP": {
+                "TITLE": "Importuj do albumu",
+                "DESCRIPTION": "Importuj obraz do tego albumu",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Importuj",
+                "PLACEHOLDER": "URL obrazu"
+            },
+    
+            "NO_PHOTOS": "Brak zdjęć lub filmów",
+            "NO_PHOTOS_INSTRUCTIONS": "Możesz robić zdjęcia i filmy za pomocą aparatu",
+            "PHOTO_COUNT": "{amount} zdjęć",
+            "VIDEO_COUNT": "{amount} filmów",
+    
+            "DELETE_CONTEXT_TITLE": "Czy chcesz usunąć {type} czy usunąć je z tego albumu",
+            "THESE_PHOTOS": "te zdjęcia",
+            "THIS_PHOTO": "to zdjęcie",
+            "REMOVE_FROM_ALBUM": "Usuń z albumu",
+            "ADD_TO_ALBUM": "Dodaj do albumu",
+            "ADD_TO_FAVOURITES": "Dodaj do ulubionych",
+            "REMOVE_FROM_FAVOURITES": "Remove from Favourites",
+            "VIDEOS": "Filmy",
+            "SELFIES": "Selfie",
+            "SCREENSHOTS": "Zrzuty ekranu",
+            "IMPORTS": "Importy",
+            "DUPLICATES": "Duplikaty",
+            "YEARS": "Lata",
+            "MONTHS": "Miesiące",
+            "DAYS": "Dni",
+            "ALL_PHOTOS": "Wszystkie zdjęcia",
+
+            "FAVOURITES": "Ulubione",
+            "RECENTS": "Ostatnie"
         },
         "WEATHER": {
             "TITLE": "Pogoda",
             "HOURLY_FORECAST": "Prognoza godzinowa",
             "NOW": "Teraz",
             "FEELS_LIKE": "Odczuwalna",
-            "FEELS_LIKE_SAME": "Podobna do faktycznej temperatury",
-            "FEELS_LIKE_HUMIDITY": "Wilgotność sprawia, że ​​jest cieplej",
-            "FEELS_LIKE_WIND": "Wiatr sprawia, że ​​jest chłodniej",
+            "FEELS_LIKE_SAME": "Podobna do rzeczywistej temperatury.",
+            "FEELS_LIKE_HUMIDITY": "Wilgotność sprawia, że odczuwalna temperatura jest wyższa",
+            "FEELS_LIKE_WIND": "Wiatr sprawia, że odczuwalna temperatura jest niższa",
             "SUNRISE": "Wschód słońca",
             "SUNSET": "Zachód słońca",
             "WIND": "Wiatr",
             "PRECIPITATION": "Opady",
-            "LAST_24H": "w ciągu ost. 24h",
-            "EXPECTED_24H": "przewidywane w ciągu nast. 24h",
+            "LAST_24H": "w ciągu ostatnich 24h",
+            "EXPECTED_24H": "przewidywane w ciągu następnych 24h",
             "TYPES": {
-                "CLOUDY": "Pochmurnie",
+                "CLOUDY": "Pochmurno",
                 "LIGHT_RAIN": "Lekki deszcz",
-                "HEAVY_RAIN": "Ulewa",
+                "HEAVY_RAIN": "Ulewny deszcz",
                 "RAIN": "Deszcz",
                 "SNOW": "Śnieg",
                 "FOG": "Mgła",
-                "CLEAR": "Przejrzyste",
-                "MOSTLY_CLEAR": "W większości przejrzyste",
+                "CLEAR": "Bezchmurnie",
+                "MOSTLY_CLEAR": "Przeważnie bezchmurnie",
                 "THUNDER": "Burza",
                 "TORNADO": "Tornado",
                 "WINDY": "Wietrznie"
@@ -275,14 +445,16 @@
             "PEOPLE": "Osoby",
             "MEMBERS": "Członkowie",
             "OTHER": "Inne",
-            "SENT_A_PHOTO": "Wysłano zdjęcie",
-            "SENT_AUDIO_MESSAGE": "Wysłano wiadomość głosową",
+            "SENT_A_PHOTO": "Wysłał(a) zdjęcie",
+            "SENT_AUDIO_MESSAGE": "Wysłał(a) wiadomość audio",
             "SENT": "Wysłano",
-            "REQUESTED": "Wymagane",
-            "MISSED_CALL": "{number} próbował się z tobą skontaktować, ale nie odebrałeś, naciśnij na numer aby oddzwonić",
-            "NOT_DELIVERED": "Nie dostarczony",
+            "REQUESTED": "Żądano",
+            "MISSED_CALL": "{number} próbował(a) do Ciebie zadzwonić, ale nie odebrałeś(aś). Naciśnij numer, aby oddzwonić",
+            "NOT_DELIVERED": "Nie dostarczono",
             "PLACEHOLDER": "Wiadomość tekstowa",
             "DONE": "Gotowe",
+            "EDIT": "Edytuj",
+            "READ": "Przeczytane",
             "CANCEL": "Anuluj",
             "SEND": "Wyślij",
             "UNKNOWN": "Nieznany",
@@ -290,23 +462,26 @@
             "SEARCH": "Szukaj",
             "ADD_MEMBER": "Dodaj członka",
             "SHARE_LOCATION": "Udostępnij moją lokalizację",
-            "LEAVE_GROUP": "Opuść rozmowę",
-            "SENT_LOCATION": "Udostępnił swoją lokalizację, kliknij, aby otworzyć w Mapach",
-            "SENT_LOCATION_SHORT": "Udostępnił swoją lokalizację",
-            "DELETE": "Delete",
+            "LEAVE_GROUP": "Opuść grupę",
+            "SENT_LOCATION": "Udostępnił(a) swoją lokalizację, kliknij, aby otworzyć w Mapach",
+            "SENT_LOCATION_SHORT": "Udostępnił(a) swoją lokalizację",
+            "TRIED_TO_CALL": "{number} próbował(a) do Ciebie zadzwonić",
+            "DELETE": "Usuń",
+            "GROUP": "Grupa",
+            "GROUP_NAME": "Nazwa grupy",
             "REMOVE_POPUP": {
                 "TITLE": "Usuń członka",
-                "TEXT": "Czy na pewno chcesz usunąć {name} z tej grupy?",
+                "TEXT": "Czy na pewno chcesz usunąć {name} z grupy?",
                 "REMOVE": "Usuń"
             },
             "LEAVE_POPUP": {
-                "TITLE": "Opuść Grupę",
-                "TEXT": "Czy na pewno chcesz opuścić tą grupę?",
+                "TITLE": "Opuść grupę",
+                "TEXT": "Czy na pewno chcesz opuścić tę grupę?",
                 "LEAVE": "Opuść"
             },
             "ADD_POPUP": {
                 "TITLE": "Dodaj członka",
-                "TEXT": "Wpisz numer, aby dodać do '{name}'?",
+                "TEXT": "Wpisz numer, aby dodać do grupy '{name}'?",
                 "ADD": "Dodaj"
             },
             "SEND_LOCATION_POPUP": {
@@ -316,14 +491,42 @@
                 "SEND": "Wyślij"
             },
             "PAY": {
-                "REQUEST": "Zażądaj",
-                "REQUESTED": "Zażądane",
+                "REQUEST": "Żądaj",
+                "REQUESTED": "Żądano",
                 "PAY": "Zapłać",
                 "SEND": "Wyślij",
                 "SEND_TITLE": "Wyślij {amount}",
-                "SEND_DESCRIPTION": "Czy na pewno chcesz wysłać {amount} do {name}?",
+                "SEND_DESCRIPTION": "Czy chcesz wysłać {amount} do {name}?",
                 "SEND_BUTTON_CANCEL": "Anuluj",
                 "SEND_BUTTON_SEND": "Wyślij"
+            },
+            "PAYMENT_FAILED_POPUP": {
+                "TITLE": "Płatność nie powiodła się",
+                "DESCRIPTION": "Błąd: {error}",
+                "CLOSE": "Zamknij"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "Usuń konwersację",
+                "DESCRIPTION": "Czy na pewno chcesz usunąć tę konwersację?",
+                "CANCEL": "Anuluj",
+                "DELETE": "Usuń"
+            },
+            "REMOVE_AVATAR_POPUP": {
+                "TITLE": "Usuń awatar",
+                "DESCRIPTION": "Czy na pewno chcesz usunąć awatar grupy?",
+                "CANCEL": "Anuluj",
+                "REMOVE": "Usuń"
+            },
+            "MARK_AS_READ": "Oznacz jako przeczytane",
+            "MESSAGE_DELETED": "Wiadomość usunięta",
+            "OPEN_IN_MAPS": "Otwórz w Mapach",
+            "USERS_LOCATION": "Lokalizacja użytkownika {user}",
+            "START_RECORDING": "Naciśnij przycisk, aby rozpocząć nagrywanie",
+            "LOADING": "Ładowanie...",
+            "EMPTY_RECORDING": {
+                "TITLE": "Puste nagranie",
+                "DESCRIPTION": "Nie możesz wysłać pustego nagrania",
+                "OK": "OK"
             }
         },
         "PHONE": {
@@ -336,22 +539,40 @@
                 "CALL_TEXT": "Czy na pewno chcesz zadzwonić do {name}?",
                 "CALL_BUTTON_CANCEL": "Anuluj",
                 "CALL_BUTTON_CALL": "Zadzwoń",
-                "NO_CALLER_ID": "No Caller ID",
-                "UNKNOWN": "Unknown",
+                "NO_CALLER_ID": "Brak ID dzwoniącego",
+                "UNKNOWN": "Nieznany",
                 "USER_BUSY": "Użytkownik zajęty",
                 "USER_UNAVAILABLE": "Użytkownik niedostępny",
                 "CALL_BACK": "Oddzwoń",
                 "DECLINE": "Odrzuć",
-                "ACCEPT": "Odbierz",
-                "END": "Rozłącz",
-                "VIDEO_CALL": "Rozmowa wideo",
+                "ACCEPT": "Akceptuj",
+                "END": "Zakończ",
+                "VIDEO_CALL": "Połączenie wideo",
                 "MUTE": "Wycisz",
                 "KEYPAD": "Klawiatura",
                 "SPEAKER": "Głośnik",
-                "ADD_CALL": "Dodaj do rozmowy",
+                "ADD_CALL": "Dodaj połączenie",
                 "VIDEO": "Wideo",
                 "CONTACTS": "Kontakty",
-                "MOBILE": "Rozmowa"
+                "MOBILE": "Komórka",
+                "VIDEO_CALL_REQUEST": {
+                    "TITLE": "Żądanie połączenia wideo",
+                    "DESCRIPTION": "Czy chcesz zaakceptować połączenie wideo?",
+                    "CANCEL": "Anuluj",
+                    "PROCEED": "Akceptuj"
+                },
+                "REQUEST_VIDEO": {
+                    "TITLE": "Połączenie wideo",
+                    "DESCRIPTION": "Czy chcesz rozpocząć połączenie wideo?",
+                    "CANCEL": "Anuluj",
+                    "PROCEED": "Kontynuuj"
+                },
+                "STOP_VIDEO": {
+                    "TITLE": "Zatrzymaj wideo",
+                    "DESCRIPTION": "Czy na pewno chcesz przestać udostępniać swój obraz wideo?",
+                    "CANCEL": "Anuluj",
+                    "PROCEED": "Zatrzymaj"
+                }
             },
             "CONTACTS": {
                 "TITLE": "Kontakty",
@@ -361,29 +582,34 @@
                 "MY_CARD": "Moja wizytówka",
                 "ADD_PHOTO": "Dodaj zdjęcie",
                 "REMOVE_CONTACT_TITLE": "Usuń kontakt",
-                "REMOVE_CONTACT_TEXT": "Czy na pewno chcesz usunąc ten kontakt?",
+                "REMOVE_CONTACT_TEXT": "Czy na pewno chcesz usunąć ten kontakt?",
                 "REMOVE_CONTACT_BUTTON_CANCEL": "Anuluj",
                 "REMOVE_CONTACT_BUTTON_DELETE": "Usuń",
                 "DELETE_CONTACT": "Usuń kontakt",
-                "MESSAGE": "Wiadomość",
-                "CALL": "Połącz",
-                "VIDEO": "Wideo",
-                "MAIN": "komórka",
+                "MESSAGE": "wiadomość",
+                "CALL": "połączenie",
+                "VIDEO": "wideo",
+                "SHARE": "udostępnij",
+                "MAIN": "główny",
                 "SHARE_CONTACT": "Udostępnij kontakt",
-                "SHARE_LOCATION": "Udostępnij swoją lokalizację",
+                "SHARE_LOCATION": "Udostępnij moją lokalizację",
                 "REMOVE_FAVORITE": "Usuń z ulubionych",
                 "ADD_FAVORITE": "Dodaj do ulubionych",
                 "ADD_CONTACT": "Dodaj do kontaktów",
-                "UNBLOCK_CALLER": "Odblokuj tę osobę",
-                "BLOCK_CALLER": "Blokuj tę osobę",
+                "UNBLOCK_CALLER": "Odblokuj tego rozmówcę",
+                "BLOCK_CALLER": "Zablokuj tego rozmówcę",
                 "UNBLOCK_NUMBER_TITLE": "Odblokuj numer",
-                "UNBLOCK_NUMBER_TEXT": "Czy na pewno chcesz odblokować {number}?",
+                "UNBLOCK_NUMBER_TEXT": "Czy na pewno chcesz odblokować numer {number}?",
                 "UNBLOCK_NUMBER_BUTTON_CANCEL": "Anuluj",
                 "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Odblokuj",
                 "BLOCK_NUMBER_TITLE": "Zablokuj numer",
-                "BLOCK_NUMBER_TEXT": "Czy na pewno chcesz zablokować {number}?",
+                "BLOCK_NUMBER_TEXT": "Czy na pewno chcesz zablokować numer {number}?",
                 "BLOCK_NUMBER_BUTTON_CANCEL": "Anuluj",
-                "BLOCK_NUMBER_BUTTON_BLOCK": "Zablokuj"
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Zablokuj",
+                "EMAIL": "Email",
+                "ADDRESS": "Adres",
+                "CHANGE_AVATAR": "Zmień awatar",
+                "REMOVE_AVATAR": "Usuń awatar"
             },
             "FAVOURITES": {
                 "TITLE": "Ulubione",
@@ -393,11 +619,29 @@
                 "REMOVE_BUTTON_REMOVE": "Usuń"
             },
             "KEYPAD": {
-                "TITLE": "Przyciski",
+                "TITLE": "Klawiatura",
                 "ADD_NUMBER": "Dodaj numer"
             },
             "RECENTS": {
-                "TITLE": "Ostatnie"
+                "TITLE": "Ostatnie",
+                "ALL": "Wszystkie",
+                "MISSED": "Nieodebrane"
+            },
+            "VOICEMAIL": {
+                "TITLE": "Poczta głosowa",
+                "AT": "o",
+                "DELETE_POPUP": {
+                    "TITLE": "Usuń pocztę głosową",
+                    "DESCRIPTION": "Czy na pewno chcesz usunąć tę wiadomość głosową?",
+                    "CANCEL": "Anuluj",
+                    "PROCEED": "Usuń"
+                },
+                "CALL_POPUP": {
+                    "TITLE": "Połączenie",
+                    "DESCRIPTION": "Czy na pewno chcesz zadzwonić do {number}?",
+                    "CANCEL": "Anuluj",
+                    "PROCEED": "Zadzwoń"
+                }
             }
         },
         "WALLET": {
@@ -405,93 +649,167 @@
             "BALANCE": "Saldo",
             "SEND": "Wyślij",
             "NEXT": "Dalej",
-            "DONE": "Potwierdź",
-            "DONE_SUBTITLE": "Przelałeś {amount} do {number}",
-            "NO_REFUNDS": "Płatności nie podlegają zwrotowi, upewnij się, że podałeś prawidłowy numer",
+            "DONE": "Gotowe",
+            "DONE_SUBTITLE": "Wysłałeś {amount} do {number}",
+            "NO_REFUNDS": "Płatności nie podlegają zwrotowi, sprawdź numer ponownie.",
             "NEW_BALANCE": "Nowe saldo",
-            "LATEST_TRANSACTIONS": "Ostatnie transakcje",
+            "HOME": "Strona główna",
+            "LATEST_TRANSACTIONS": "Najnowsze transakcje",
+            "TRANSACTIONS": "Transakcje",
+            "ALL_TRANSACTIONS": "Wszystkie transakcje",
+            "LATEST_BILLS": "Najnowsze rachunki",
             "NOW": "Teraz",
             "AGO": "temu",
-            "NUMBER_DOES_NOT_EXIST": "Numer nie istnieje",
-            "NOT_ENOUGH_MONEY": "Nie posiadasz wystarczająco pieniędzy"
+            "SELECT_CONTACT": "Wybierz kontakt",
+            "TODAY": "Dzisiaj",
+            "YESTERDAY": "Wczoraj",
+    
+            "INSUFFICIENT_FUNDS": {
+                "TITLE": "Niewystarczające środki",
+                "DESCRIPTION": "Nie masz wystarczających środków, aby wysłać tę kwotę"
+            },
+            "NUMBER_DOES_NOT_EXIST": {
+                "TITLE": "Nie można kontynuować",
+                "DESCRIPTION": "Wprowadzony numer nie istnieje lub gracz nie jest online"
+            },
+            "AIRPLANE_MODE": {
+                "TITLE": "Błąd",
+                "DESCRIPTION": "Próbujesz wykonać akcję wymagającą dostępu do internetu, wyłącz tryb samolotowy, aby kontynuować."
+            },
+            "INVALID_AMOUNT": {
+                "TITLE": "Nieprawidłowa kwota",
+                "DESCRIPTION": "Wprowadziłeś nieprawidłową kwotę"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Nie udało się wysłać",
+                "DESCRIPTION": "Nie udało się wysłać pieniędzy (brak wyposażonego telefonu)"
+            },
+            "EXCEED_DAILY": {
+                "TITLE": "Przekroczono dzienny limit",
+                "DESCRIPTION": "Przekroczyłeś swój dzienny limit"
+            },
+            "EXCEED_WEEKLY": {
+                "TITLE": "Przekroczono tygodniowy limit",
+                "DESCRIPTION": "Przekroczyłeś swój tygodniowy limit"
+            },
+            "FAILED_ADD": {
+                "TITLE": "Nie udało się dodać pieniędzy",
+                "DESCRIPTION": "Nie udało się dodać pieniędzy na wskazane konto"
+            },
+    
+            "OK": "OK"
         },
         "GARAGE": {
             "TITLTE": "Garaż",
-            "ACTIONS": "Działani",
-            "MY_CARS": "Moje pojazdy",
-            "OUT": "Na zewnątrz",
+            "ACTIONS": "Akcje",
+            "MY_CARS": "Moje samochody",
+            "OUT": "Poza",
             "GARAGE": "Garaż",
+            "IMPOUNDED": "Odholowany",
+            "IMPOUND_INFO": "Informacje o odholowaniu",
             "LOCATION": "Lokalizacja",
-            "SUMMON": "Sprowadź",
-            "VALET": "Dostarcz",
+            "SUMMON": "Przywołaj",
+            "VALET": "Parkingowy",
             "STATISTICS": "Statystyki",
             "FUEL": "Paliwo",
             "ENGINE": "Silnik",
             "BODY": "Karoseria",
+            "VEHICLE": "Pojazd",
+            "STATUS": "Status",
+            "LOCKED": "Zablokowany",
+            "LOCK": "Zablokuj",
+            "UNLOCKED": "Odblokowany",
+            "UNLOCK": "Odblokuj",
+    
             "WAYPOINT_POPUP": {
-                "TITLE": "Pokaż lokalizację",
-                "TEXT": "Chcesz zaznaczyć {model} na mapie?",
+                "TITLE": "Ustaw punkt",
+                "TEXT": "Czy chcesz ustawić punkt do swojego {model}?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Zaznacz"
+                "PROCEED": "Kontynuuj"
             },
             "VALET_POPUP": {
-                "TITLE": "Dostarcz",
-                "TEXT": "Chcesz, aby dostarczyć {model} ({plate})?",
-                "TEXT_PAID": "Chcesz, aby dostarczyć {model} ({plate}) za {amount}?",
+                "TITLE": "Parkingowy",
+                "TEXT": "Czy chcesz zamówić parkingowego dla swojego {model} ({plate})?",
+                "TEXT_PAID": "Czy chcesz zamówić parkingowego dla swojego {model} ({plate}) za {amount}?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Dostarcz"
+                "PROCEED": "Kontynuuj"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} pojazd",
+                "TEXT": "Czy chcesz {toggle} swój pojazd?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Kontynuuj"
+            },
+            "IMPOUND_REASON": {
+                "REASON": "Powód",
+                "RETRIEVABLE": "Do odzyskania",
+                "IMPOUNDER": "Odholowany przez",
+                "PRICE": "Koszt"
             }
         },
         "HOME": {
             "TITLE": "Dom",
-            "MY_HOMES": "Moje mieszkania",
-            "MY_HOME": "Moje mieszkanie",
-            "KEY_ACCESS": "Dostęp do mieszkania",
+            "MY_HOMES": "Moje domy",
+            "MY_HOME": "Mój dom",
+            "KEY_ACCESS": "Dostęp kluczem",
             "ACTIONS": "Akcje",
-            "FRONT_DOOR": "Drzwi",
+            "FRONT_DOOR": "Drzwi frontowe",
             "LOCATION": "Lokalizacja",
-            "SET_WAYPOINT": "Pokaż lokalizację",
-            "UNLOCK": "Otwórz",
-            "UNLOCKED": "Otwarte",
-            "LOCK": "Zamknij",
-            "LOCKED": "Zamknięte",
-            "GIVE_KEY": "Wręcz klucze",
+            "SET_WAYPOINT": "Ustaw punkt",
+            "UNLOCK": "Odblokuj",
+            "UNLOCKED": "Odblokowany",
+            "LOCK": "Zablokuj",
+            "LOCKED": "Zablokowany",
+            "GIVE_KEY": "Daj klucz",
             "MANAGE": "Zarządzaj",
             "WAYPOINT_POPUP": {
-                "TITLE": "Pokaż lokalizację",
-                "TEXT": "Chcesz zaznaczyć {home} na mapie?",
+                "TITLE": "Ustaw punkt",
+                "TEXT": "Czy chcesz ustawić punkt do {home}?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Zaznacz"
+                "PROCEED": "Kontynuuj"
             },
             "LOCK_POPUP": {
-                "TITLE": "{toggle} mieszkanie",
-                "TEXT": "Chcesz {toggle} swoje mieszkanie?",
+                "TITLE": "{toggle} dom",
+                "TEXT": "Czy chcesz {toggle} swój dom?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Wykonaj"
+                "PROCEED": "Kontynuuj"
             },
             "GIVE_KEY_POPUP": {
-                "TITLE": "Wręcz klucze",
-                "TEXT": "Podaj ID osoby, której chcesz dać klucze",
+                "TITLE": "Daj klucz",
+                "TEXT": "Wprowadź ID osoby, której chcesz dać klucz",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Wykonaj"
+                "PROCEED": "Kontynuuj"
             },
             "REMOVE_KEY_POPUP": {
-                "TITLE": "Zabierz klucze",
-                "TEXT": "Na pewno chcesz zabrać klucze {name}?",
+                "TITLE": "Usuń posiadacza klucza",
+                "TEXT": "Czy na pewno chcesz odebrać dostęp od {name}?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Wykonaj"
+                "PROCEED": "Kontynuuj"
             }
         },
         "MARKETPLACE": {
-            "CANCEL": "Anuluj",
-            "SEARCH": "Szukaj ofert lub numerów",
-            "NEW_POST": "Nowe ogłoszenie",
+            "MARKETPLACE": "Rynek",
             "TITLE": "Tytuł",
-            "DESCRIPTION": "Opis",
+            "SEARCH": "Szukaj ogłoszeń lub numerów",
+            "HOME": "Strona główna",
+            "YOUR_POSTS": "Twoje posty",
             "PRICE": "Cena",
-            "POST": "Udostępnij",
-            "CONTACT": "Kontakt",
+            "DESCRIPTION": "Opis",
+            "IMAGES": "Obrazy",
+            "POST": "Opublikuj",
+            "AMOUNT_OF_TOTAL": "{amount} z {total}",
+            "MESSAGE": "Wiadomość",
+            "CALL": "Zadzwoń",
             "REMOVE": "Usuń",
+
+            "ERROR_POPUP": {
+                "TITLE": "Błąd",
+                "NO_TITLE": "Musisz wprowadzić tytuł",
+                "NO_DESCRIPTION": "Musisz wprowadzić opis",
+                "NO_PRICE": "Musisz wprowadzić cenę",
+                "NO_ATTACHMENTS": "Musisz dołączyć co najmniej jeden obraz",
+                "OK": "OK"
+            },
             "DELETE_POPUP": {
                 "TITLE": "Usuń ogłoszenie",
                 "TEXT": "Czy na pewno chcesz usunąć to ogłoszenie?",
@@ -500,26 +818,33 @@
             }
         },
         "YELLOWPAGES": {
-            "SEARCH": "Szukaj ofert lub numerów",
+            "PAGES": "Strony",
+            "SEARCH": "Szukaj postów lub numerów",
             "FROM": "Od",
             "CANCEL": "Anuluj",
-            "NEW_POST": "Nowe ogłoszenie",
+            "NEW_POST": "Nowy post",
             "TITLE": "Tytuł",
             "DESCRIPTION": "Opis",
             "PRICE": "Cena",
-            "POST": "Udostępnij",
+            "POST": "Opublikuj",
             "CALL": "Zadzwoń",
+            "ERROR_POPUP": {
+                "TITLE": "Błąd",
+                "NO_TITLE": "Musisz wprowadzić tytuł",
+                "NO_DESCRIPTION": "Musisz wprowadzić opis",
+                "OK": "OK"
+            },
             "DELETE_POPUP": {
-                "TITLE": "Usuń ogłoszenie",
-                "TEXT": "Czy na pewno chcesz usunąć to ogłoszenie?",
+                "TITLE": "Usuń post",
+                "TEXT": "Czy na pewno chcesz usunąć ten post?",
                 "CANCEL": "Anuluj",
                 "PROCEED": "Usuń"
             }
         },
         "MAIL": {
-            "TITLE": "Mail",
+            "TITLE": "Poczta",
             "YOU": "Ty",
-            "UPDATED_NOW": "Odświeżono w tym momencie",
+            "UPDATED_NOW": "Zaktualizowano przed chwilą",
             "NEW_MESSAGE": "Nowa wiadomość",
             "INBOX": "Skrzynka odbiorcza",
             "TO": "Do",
@@ -530,43 +855,55 @@
             "SEND": "Wyślij",
             "EMAIL": "Email",
             "EMAIL_INVALID": "Nieprawidłowy adres email",
-            "EMAIL_EXISTS": "Ten adres email już istnieje",
+            "EMAIL_EXISTS": "Email już istnieje",
             "PASSWORD": "Hasło",
-            "WRONG_PASSWORD": "Niepoprawne hasło",
-            "LOGIN": "Login",
-            "NO_EMAIL": "Nie posiadasz konta?",
-            "CREATE_ONE": "Stwórz teraz",
-            "UNREAD": "Nieodczytane",
-            "CREATE_MAIL": "Stwórz konto",
-            "ALREADY_HAVE": "Posiadasz już konto?",
+            "WRONG_PASSWORD": "Nieprawidłowe hasło",
+            "LOGIN": "Zaloguj się",
+            "NO_EMAIL": "Nie masz adresu email?",
+            "CREATE_ONE": "Utwórz jeden",
+            "UNREAD": "Nieprzeczytane",
+            "CREATE_MAIL": "Utwórz email",
+            "ALREADY_HAVE": "Masz już adres email?",
+            "ADD_EMAIL": "Dodaj email",
+            "RE": "Re: {subject}",
+            "CHANGE_ACCOUNT": "Zmień konto",
+            "CHANGE_PASSWORD": "Zmień hasło",
+            "DELETE_ACCOUNT": "Usuń konto",
             "SIGN_OUT_POPUP": {
-                "TITLE": "Wyloguj",
+                "TITLE": "Wyloguj się",
                 "DESCRIPTION": "Czy na pewno chcesz się wylogować?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Wyloguj"
+                "PROCEED": "Kontynuuj"
+            },
+            "DELETE_MAIL_POPUP": {
+                "TITLE": "Usuń email",
+                "DESCRIPTION": "Czy na pewno chcesz usunąć ten email?",
+                "CANCEL": "Anuluj",
+                "DELETE": "Usuń"
             }
         },
         "MAPS": {
             "TITLE": "Mapy",
-            "GO": "Oznacz",
+            "GO": "Jedź",
             "ADD": "Dodaj",
             "EDIT": "Edytuj",
             "DELETE": "Usuń",
-            "SET_WAYPOINT": "Oznacz na mapie",
+            "SET_WAYPOINT": "Ustaw punkt",
+            "SHARE": "Udostępnij",
 
             "ADD_LOCATION_POPUP": {
                 "TITLE": "Dodaj lokalizację",
-                "DESCRIPTION": "Podaj nazwę nowej lokalizacji",
+                "DESCRIPTION": "Wprowadź nazwę lokalizacji, którą chcesz dodać",
                 "PLACEHOLDER": "Nazwa",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Dodaj"
+                "PROCEED": "Kontynuuj"
             },
             "CHANGE_NAME_POPUP": {
                 "TITLE": "Zmień nazwę",
-                "DESCRIPTION": "Podaj nową nazwę lokalizacji",
+                "DESCRIPTION": "Wprowadź nową nazwę lokalizacji",
                 "PLACEHOLDER": "Nazwa",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Zmień"
+                "PROCEED": "Kontynuuj"
             }
         },
         "MUSIC": {
@@ -575,48 +912,55 @@
             "SEARCH": "Szukaj",
             "ADD_QUEUE": "Dodaj do kolejki",
             "ADD_PLAYLIST": "Dodaj do playlisty",
-            "REMOVE_SONG": "Usuń piosenkę",
-            "NOT_PLAYING": "Nie odtwarza",
+            "REMOVE_SONG": "Usuń utwór",
+            "NOT_PLAYING": "Nie odtwarzane",
+            "EDIT_PLAYLIST": "Edytuj playlistę",
             "DELETE_PLAYLIST": "Usuń playlistę",
-            "SEARCH_PLACEHOLDER": "Artysta, Piosenka, Album, Playlista",
+            "SEARCH_PLACEHOLDER": "Artyści, Utwory, Albumy, Playlisty",
             "SONGS": "Utwory",
             "ALBUMS": "Albumy",
-            "PLAY": "Graj",
-            "SHUFFLE": "Losowe odtwarzanie",
+            "PLAY": "Odtwórz",
+            "SHUFFLE": "Losowe",
             "ARTIST": "Artysta",
             "ALBUM": "Album",
             "PLAYLIST": "Playlista",
             "SONG": "Utwór",
             "SONG_EXISTS_POPUP": {
-                "TITLE": "Utwór jest już dodany",
-                "DESCRIPTION": "Ten utwór znajduje się już w playliście",
+                "TITLE": "Utwór już istnieje",
+                "DESCRIPTION": "Ten utwór już znajduje się na tej playliście",
                 "CANCEL": "Anuluj"
             },
             "NEW_PLAYLIST_POPUP": {
                 "TITLE": "Nowa playlista",
-                "DESCRIPTION": "Stwórz nową playlistę",
-                "PLACEHOLDER": "Nazwa",
+                "DESCRIPTION": "Utwórz nową playlistę",
+                "PLACEHOLDER": "Nazwa playlisty",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Stwórz"
+                "PROCEED": "Kontynuuj"
+            },
+            "REMOVE_SONG_POPUP": {
+                "TITLE": "Usuń utwór",
+                "DESCRIPTION": "Czy na pewno chcesz usunąć ten utwór z playlisty?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Kontynuuj"
             }
         },
         "TINDER": {
-            "TITLE": "Tinder",
+            "TITLE": "Spark",
             "LIKES_YOU_TOO": "też cię lubi!",
             "KEEP_SWIPING": "Przesuwaj dalej",
-            "SAY_SOMETHING_NICE": "Napisz coś miłego",
-            "NO_MORE": "Skończyły się osoby do przesuwania, sprawdź ponownie później!",
+            "SAY_SOMETHING_NICE": "Powiedz coś miłego",
+            "NO_MORE": "Skończyliśmy się z osobami do przesunięcia, sprawdź później!",
             "SEND": "Wyślij",
-            "AGREE_TERMS": "Klikająć 'Stwórz konto' zgadzasz się z warunkami usługi oraz polityką prywatności",
-            "CREATE_ACCOUNT": "Stwórz konto",
-            "AGE_PUBLIC": "Twój wiek będzie widoczny",
-            "BE_OVER_18": "Musisz mieć powyżej 18 lat aby korzystać z tej aplikacji",
-            "NAME_MINIMUM": "Twoje imię musi zawierać przynajmniej 3 znaki",
+            "AGREE_TERMS": "Klikając 'Utwórz konto' zgadzasz się z naszym Regulaminem i Polityką Prywatności",
+            "CREATE_ACCOUNT": "Utwórz konto",
+            "AGE_PUBLIC": "Twój wiek będzie widoczny publicznie",
+            "BE_OVER_18": "Musisz mieć powyżej 18 lat, aby korzystać z tej usługi",
+            "NAME_MINIMUM": "Twoje imię musi mieć co najmniej 3 znaki",
             "ADD_PHOTOS": "Dodaj zdjęcia",
-            "PHOTOS_MINIMUM": "Musisz dodać przynajmniej 1 zdjęcie",
-            "DESCRIPTION": "Powiedz coś o sobie",
-            "DESCRIPTION_MINIMUM": "Twój opis musi zawierać przynajmniej 10 znaków",
-            "SHOW_ME": "Pokaż MAIL",
+            "PHOTOS_MINIMUM": "Musisz mieć co najmniej jedno zdjęcie",
+            "DESCRIPTION": "Opowiedz nam trochę o sobie",
+            "DESCRIPTION_MINIMUM": "Twój opis musi mieć co najmniej 10 znaków",
+            "SHOW_ME": "Pokaż mi",
             "WOMEN": "Kobiety",
             "MEN": "Mężczyźni",
             "EVERYONE": "Wszyscy",
@@ -628,29 +972,35 @@
             "NAME": "Imię",
             "PHOTOS": "Zdjęcia",
             "ABOUT_ME": "O mnie",
-            "INTERESTED_IN": "Zainteresowania",
+            "INTERESTED_IN": "Zainteresowany(a)",
             "GENDER": "Płeć",
             "SAVE": "Zapisz",
             "NEW_MATCHES": "Nowe dopasowania",
             "MESSAGES": "Wiadomości",
-            "SEARCH_MATCHES": "Szukaj w dopasowaniach"
+            "VISIBILITY": "Widoczność profilu",
+            "VISIBLE": "Widoczny",
+            "HIDDEN": "Ukryty",
+            "HIDDEN_WARNING": "Twoje konto jest obecnie ukryte. Nie będziesz widoczny dla innych użytkowników i nie będziesz mógł przesuwać.",
+            "HIDDEN_PROFILE": "Twój profil nie jest aktywny. Możesz go aktywować w ustawieniach.",
+            "SEARCH_MATCHES": "Szukaj dopasowań",
+            "DELETE_ACCOUNT": "Usuń konto"
         },
         "INSTAGRAM": {
-            "TITLE": "Instagram",
+            "TITLE": "InstaPic",
             "SEND": "Wyślij",
-            "POST": "Posty",
+            "POST": "Opublikuj",
             "MESSAGE_PLACEHOLDER": "Wiadomość...",
             "NEW_MESSAGE": "Nowa wiadomość",
             "NOW": "Teraz",
             "GO_LIVE_POPUP": {
-                "TITLE": "Rozpocznij transmisję Live",
-                "DESCRIPTION": "Czy na pewno chcesz rozpocząć transmisję live?",
+                "TITLE": "Rozpocznij transmisję na żywo",
+                "DESCRIPTION": "Czy na pewno chcesz rozpocząć transmisję na żywo?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Rozpocznij"
+                "PROCEED": "Kontynuuj"
             },
             "END_LIVE_POPUP": {
-                "TITLE": "Zakończ transmisję",
-                "DESCRIPTION": "Czy na pewno chcesz {action} tą transmisję?",
+                "TITLE": "Zakończ transmisję na żywo",
+                "DESCRIPTION": "Czy na pewno chcesz {action} tę transmisję na żywo?",
                 "CANCEL": "Anuluj",
                 "END": "Zakończ",
                 "LEAVE": "Opuść"
@@ -659,212 +1009,498 @@
                 "TITLE": "Przestań obserwować",
                 "DESCRIPTION": "Czy na pewno chcesz przestać obserwować {name}?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Potwierdź"
+                "PROCEED": "Kontynuuj"
             },
             "DELETE_POST_POPUP": {
                 "TITLE": "Usuń post",
                 "DESCRIPTION": "Czy na pewno chcesz usunąć ten post?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Potwierdź"
+                "PROCEED": "Kontynuuj"
             },
             "SIGN_OUT_POPUP": {
                 "TITLE": "Wyloguj się",
                 "DESCRIPTION": "Czy na pewno chcesz się wylogować?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Potwierdź"
+                "PROCEED": "Kontynuuj"
             },
-            "LIVE_ENDED": "Transmisja zakończona",
-            "COMMENT_PLACEHOLDER": "Skomentuj",
-            "LIVE": "Live",
-            "YOUR_STORY": "Twoje Story",
-            "CREATE_STORY": "Dodaj Story",
-            "GO_LIVE": "Rozpocznij transmisję Live",
-            "EMPTY_FEED": "Obserwuj innych użytkowników aby widzieć tutaj ich zdjęcia i filmy",
+            "DELETE_STORY": {
+                "TITLE": "Usuń relację",
+                "DESCRIPTION": "Czy na pewno chcesz usunąć tę relację?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Kontynuuj"
+            },
+            "INVITE_LIVE_POPUP": {
+                "TITLE": "Zaproszenie do transmisji na żywo",
+                "DESCRIPTION": "{username} zaprosił(a) Cię do swojej transmisji na żywo. Czy chcesz dołączyć?",
+                "NO": "Nie",
+                "YES": "Tak"
+            },
+            "REMOVE_LIVE_POPUP": {
+                "TITLE": "Usuń {username}",
+                "DESCRIPTION": "Czy na pewno chcesz usunąć {username} ze swojej transmisji na żywo?",
+                "CANCEL": "Anuluj",
+                "REMOVE": "Usuń"
+            },
+            "LEAVE_LIVE_POPUP": {
+                "TITLE": "Opuść transmisję na żywo",
+                "DESCRIPTION": "Czy na pewno chcesz opuścić tę transmisję na żywo?",
+                "LEAVE": "Opuść"
+            },
+            "LIVE_ENDED": "Transmisja na żywo zakończona",
+            "COMMENT_PLACEHOLDER": "Komentarz",
+            "LIVE": "Na żywo",
+            "YOUR_STORY": "Twoja relacja",
+            "CREATE_STORY": "Utwórz relację",
+            "GO_LIVE": "Na żywo",
+            "EMPTY_FEED": "Zacznij obserwować ludzi, aby zobaczyć ich zdjęcia i filmy tutaj",
             "COMMENTS": "Komentarze",
             "ADD_COMMENT_AS": "Dodaj komentarz jako {name}",
             "NEW_POST": "Nowy post",
             "NEXT": "Dalej",
-            "CAPTION_PLACEHOLDER": "Dodaj opis...",
+            "CAPTION_PLACEHOLDER": "Napisz podpis...",
             "ACTIVITY": "Aktywność",
             "FOLLOW": "Obserwuj",
             "FOLLOWING": "Obserwowani",
             "FOLLOWERS": "Obserwujący",
-            "FOLLOWER": "Obserwuje",
-            "LIKES": "Polubień",
-            "LIKED_BY": "Lubi to",
+            "FOLLOWER": "Obserwujący",
+            "REQUESTED": "Oczekujące",
+            "LIKES": "Polubienia",
+            "LIKED_BY": "Polubione przez",
             "VIEW_ALL_COMMENTS": "Zobacz wszystkie {count} komentarze",
-            "FIRST_COMMENT": "Bądź pierwszym który to skomentuje...",
-            "NO_ACCOUNT": "Konto z taką nazwą nie istnieje",
-            "WRONG_USERNAME_OR_PASSWORD": "Nieprawidłowa nazwa użytkownika lub hasło",
+            "FIRST_COMMENT": "Bądź pierwszą osobą, która skomentuje...",
             "LOG_IN": "Zaloguj się",
-            "ACCOUNT_WITH_USERNAME": "Ta nazwa użytkownika jest już zajęta",
-            "CREATE_ACCOUNT": "Stwórz konto",
+            "CREATE_ACCOUNT": "Utwórz konto",
             "USERNAME_PLACEHOLDER": "Nazwa użytkownika",
             "NAME_PLACEHOLDER": "Imię",
             "PASSWORD_PLACEHOLDER": "Hasło",
-            "NOT_HAVE_ACCOUNT": "Nie posiadasz konta?",
-            "HAVE_ACCOUNT": "Posiadasz już konto?",
-            "LIKED_PHOTO": "polubił twoje zdjęcie.",
-            "LIKED_COMMENT": "polubił twój komentarz: {comment}",
-            "COMMENTED": "skomentował twój post: {comment}",
-            "FOLLOWED": "zaczął ciebie obserwować.",
+            "NOT_HAVE_ACCOUNT": "Nie masz konta?",
+            "HAVE_ACCOUNT": "Masz już konto?",
+            "LIKED_PHOTO": "polubił(a) Twoje zdjęcie.",
+            "LIKED_COMMENT": "polubił(a) Twój komentarz: {comment}",
+            "COMMENTED": "skomentował(a) Twój post: {comment}",
+            "FOLLOWED": "zaczął(a) Cię obserwować.",
             "DONE": "Gotowe",
             "EDIT_PROFILE": "Edytuj profil",
             "CHANGE_PICTURE": "Zmień zdjęcie profilowe",
-            "NAME": "Nazwa",
+            "NAME": "Imię",
             "BIO": "Bio",
-            "SIGN_OUT": "Wyloguj",
+            "PRIVATE": "Przełącz prywatność",
+            "SIGN_OUT": "Wyloguj się",
+            "CHANGE_PASSWORD": "Zmień hasło",
+            "DELETE_ACCOUNT": "Usuń konto",
             "POSTS": "Posty",
             "MESSAGE": "Wiadomość",
-            "SENT_A_PHOTO": "wysłał zdjęcie",
+            "SENT_A_PHOTO": "wysłał(a) zdjęcie",
             "TO": "Do",
-            "SEND_A_MESSAGE": "Wyślij wiadomość..."
+            "SEND_A_MESSAGE": "Wyślij wiadomość...",
+            "STORY_VIEWERS": "Oglądający",
+            "PARTICIPANTS": "Uczestnicy",
+            "SEEN_BY": "Wyświetlone przez {count}",
+            "ADD_ACCOUNT": "Dodaj konto",
+            "INVITE": "Zaproś",
+            "REMOVE": "Usuń",
+            "IN_THIS_ROOM": "W tym pokoju",
+            "WHOS_WATCHING": "Kto ogląda",
+            "FOLLOW_REQUESTS": "Prośby o obserwowanie",
+            "CONFIRM": "Potwierdź",
+            "DELETE": "Usuń",
+            "ANDOTHERS": "{username} + {amount} innych",
+            "PRIVATE_ACCOUNT": "To konto jest prywatne",
+            "PRIVATE_ACCOUNT_DESCRIPTION": "Obserwuj to konto, aby zobaczyć jego zdjęcia i filmy.",
+            "ERROR": "Błąd",
+            "USERNAME_TAKEN": "Nazwa użytkownika jest już zajęta",
+            "UNKNOWN": "Nieznany błąd",
+            "UNKNOWN_ACCOUNT": "Konto nie istnieje",
+            "INVALID_USERNAME": "Nieprawidłowa nazwa użytkownika",
+            "INCORRECT_PASSWORD": "Nieprawidłowe hasło",
+            "OK": "OK",
+            "LOCATION": "Lokalizacja",
+            "CHOOSE_LOCATION": {
+                "TITLE": "Wybierz lokalizację",
+                "DESCRIPTION": "Wybierz lokalizację dla tego postu",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Kontynuuj"
+            }
         },
         "TWITTER": {
-            "TITLE": "Twitter",
+            "TITLE": "Birdy",
             "SEARCH_FOR": "Szukaj '{search}'",
-            "START_SEARCHING": "Rozpocznij wyszukiwanie aby odkrywać Twitter",
-            "TRENDING_HASHTAGS": "Najpopularniejsze hashtagi",
-            "SENT_ATTACHMENT": "wysłał załącznik",
+            "START_SEARCHING": "Zacznij szukać, aby odkrywać Birdy",
+            "TRENDING_HASHTAGS": "Popularne hashtagi",
+            "SENT_ATTACHMENT": "wysłał(a) załącznik",
             "TO": "Do",
-            "TWEETS": "Tweety",
+            "TWEETS": "Posty",
             "REPLIES": "Odpowiedzi",
             "MEDIA": "Media",
             "LIKES": "Polubienia",
             "CANCEL": "Anuluj",
-            "TWEET": "Tweetuj",
-            "TWEET_REPLY": "Tweetuj odpowiedź",
+            "TWEET": "Post",
+            "TWEET_REPLY": "Opublikuj swoją odpowiedź",
             "TWEET_GENERAL": "Co się dzieje?",
             "EDIT_PROFILE": "Edytuj profil",
             "SAVE": "Zapisz",
-            "NAME": "Nazwa",
+            "NAME": "Imię",
             "JOIN_DATE": "Data dołączenia",
+            "PROTECTED_POSTS": "Chroń swoje posty",
             "BIO": "Bio",
-            "SIGN_OUT": "Wyloguj",
+            "SIGN_OUT": "Wyloguj się",
+            "CHANGE_PASSWORD": "Zmień hasło",
+            "DELETE_ACCOUNT": "Usuń konto",
             "SIGN_OUT_POPUP": {
-                "TITLE": "Wyloguj",
+                "TITLE": "Wyloguj się",
                 "DESCRIPTION": "Czy na pewno chcesz się wylogować?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Potwierdź"
+                "PROCEED": "Kontynuuj"
             },
             "UNFOLLOW_POPUP": {
                 "TITLE": "Przestań obserwować",
                 "DESCRIPTION": "Czy na pewno chcesz przestać obserwować {name}?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Potwierdź"
+                "PROCEED": "Kontynuuj"
             },
             "RETWEET_POPUP": {
-                "RETWEET": "Retweet",
-                "UNDO_RETWEET": "Cofnij Retweet",
+                "RETWEET": "Udostępnij ponownie",
+                "UNDO_RETWEET": "Cofnij udostępnienie",
                 "DESCRIPTION": "Czy na pewno chcesz {action}?",
-                "CANCEL": "Anuluj"
+                "CANCEL": "Anuluj",
+                "PROCEED": "Kontynuuj"
             },
             "DELETE_POPUP": {
-                "TITLE": "Usuń Tweeta",
-                "DESCRIPTION": "Czy na pewno chcesz usunąc tego Tweeta?",
+                "TITLE": "Usuń post",
+                "DESCRIPTION": "Czy na pewno chcesz usunąć ten post?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Potwierdź"
+                "PROCEED": "Kontynuuj"
             },
             "NOTIFICATIONS_POPUP": {
                 "TITLE": "Powiadomienia",
-                "DESCRIPTION": "Czy na pewno chcesz {action} powiadomienia o @{name}?",
+                "DESCRIPTION": "Czy na pewno chcesz {action} powiadomienia dla @{name}?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Potwierdź",
-                "ENABLE": "Włączyć",
-                "DISABLE": "Wyłączyć"
+                "PROCEED": "Kontynuuj",
+                "ENABLE": "Włącz",
+                "DISABLE": "Wyłącz"
             },
             "PROMOTE_POPUP": {
-                "TITLE": "Promuj Tweeta",
-                "DESCRIPTION": "Czy na pewno chcesz promować tego Tweeta za {price} za {views} wyświetleń?",
+                "TITLE": "Promuj post",
+                "DESCRIPTION": "Czy chcesz promować ten post za {price} na {views} wyświetleń?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Potwierdź"
+                "PROCEED": "Kontynuuj"
             },
             "YOU": "Ty",
             "FOLLOW": "Obserwuj",
-            "FOLLOWING": "Obserwowanych",
-            "FOLLOWERS": "Obserwujących",
-            "RETWEETED": "Retweetował",
-            "REPLYING_TO": "W odpowiedzi do {name}",
-            "RETWEETED_BY": "Podał dalej Tweeta od",
+            "PENDING": "Oczekujące",
+            "FOLLOWING": "Obserwujesz",
+            "FOLLOWERS": "Obserwujący",
+            "RETWEETED": "Udostępniono ponownie",
+            "REPLYING_TO": "Odpowiadasz do {name}",
+            "RETWEETED_BY": "Udostępnione przez",
             "LIKED_BY": "Polubione przez",
             "ALL": "Wszystkie",
             "NOTIFICATIONS": "Powiadomienia",
-            "FOLLOWS_YOU": "Obserwuje ciebie",
-            "JOINED": "Dołączył {date}",
-            "LIKED_TWEET": "polubił twojego Tweeta",
-            "RETWEETED_TWEET": "Podał dalej twojego Tweeta",
-            "FOLLOWED": "Zaczął ciebie obserwować.",
-            "SIGN_UP_TEXT": "Sprawdź co dzieje się na świecie",
-            "TERMS_OF_SERVICE": "Tworząc konto akceptujesz warunki usługi i politykę prywatności.",
-            "HAS_ACCOUNT": "Posiadasz już konto?",
-            "CREATE_YOUR_ACCOUNT": "Stwórz konto",
-            "NAME_PLACEHOLDER": "Nazwa",
+            "FOLLOWS_YOU": "Obserwuje cię",
+            "JOINED": "Dołączył(a) {date}",
+            "LIKED_TWEET": "polubił(a) twój post",
+            "RETWEETED_TWEET": "udostępnił(a) ponownie twój post",
+            "FOLLOWED": "zaczął(a) cię obserwować",
+            "SIGN_UP_TEXT": "Zobacz, co dzieje się na świecie teraz",
+            "TERMS_OF_SERVICE": "Rejestrując się, akceptujesz nasz Regulamin i Politykę Prywatności.",
+            "HAS_ACCOUNT": "Masz już konto?",
+            "CREATE_YOUR_ACCOUNT": "Utwórz swoje konto",
+            "NAME_PLACEHOLDER": "Imię",
             "USERNAME_PLACEHOLDER": "Nazwa użytkownika",
             "PASSWORD_PLACEHOLDER": "Hasło",
-            "GET_STARTED": "Aby rozpocząć, podaj swój @pseudonim",
+            "GET_STARTED": "Aby zacząć, najpierw wprowadź swój @nazwa_użytkownika",
             "FORGOT_PASSWORD": "Zapomniałeś hasła?",
-            "ENTER_PASSWORD": "Podaj hasło",
-            "SEARCH_DIRECT_MESSAGES": "Szukaj wiadomości",
-            "SEARCH_TWITTER": "Wyszukiwarka Tweetera",
+            "ENTER_PASSWORD": "Wprowadź swoje hasło",
+            "SEARCH_DIRECT_MESSAGES": "Szukaj wiadomości bezpośrednich",
+            "SEARCH_TWITTER": "Szukaj w Birdy",
             "MESSAGE_PLACEHOLDER": "Wiadomość...",
             "NOW": "Teraz",
             "LOGIN": "Zaloguj się",
-            "CREATE_ACCOUNT": "Stwórz konto",
+            "NEXT": "Dalej",
+            "CREATE_ACCOUNT": "Utwórz konto",
             "PROMOTE": "Promuj",
-            "PIN": "Przypnij Tweeta",
-            "UNPIN": "Odepnij Tweeta"
+            "PIN": "Przypnij post",
+            "UNPIN": "Odepnij post",
+            "NEW_MESSAGE": "Nowa wiadomość",
+            "PROMOTED": "Promowane",
+            "ADD_ACCOUNT": "Dodaj konto",
+            "FOLLOWER_REQUESTS": "Prośby o obserwowanie",
+            "NEW_POSTS": "Nowe posty",
+            "NEW_POST": "Nowy post",
+            "PROTECTED_TWEETS_TITLE": "Te posty są chronione.",
+            "PROTECTED_TWEETS_DESCRIPTION": "Tylko potwierdzeni obserwujący mają dostęp do postów i pełnego profilu @{username}. Naciśnij przycisk 'Obserwuj', aby wysłać prośbę o obserwowanie."
         },
         "SERVICES": {
             "ACTIONS": "Akcje",
             "COMPANIES": "Firmy",
             "MESSAGES": "Wiadomości",
+            "SETTINGS": "Ustawienia",
 
             "CLOSED": "Zamknięte",
             "YOUR_MESSAGES": "Twoje wiadomości",
-            "JOB_MESSAGES": "Firmowe wiadomości",
+            "JOB_MESSAGES": "Wiadomości służbowe",
 
-            "DUTY": "Służba",
-            "GO_ON_DUTY": "Wejdź na służbę",
-            "GO_OFF_DUTY": "Zakończ służbę",
+            "DUTY": "Dyżur",
+            "DUTY_DESCRIPTION": "Przełącz swój status dyżuru",
+            "GO_ON_DUTY": "Rozpocznij dyżur",
+            "GO_OFF_DUTY": "Zakończ dyżur",
+            "JOB_CALLS": "Połączenia służbowe",
+            "JOB_CALLS_DESCRIPTION": "{toggle} odbieranie połączeń od klientów.",
+
+            "ENABLE": "Włącz",
+            "DISABLE": "Wyłącz",
+
+            "DISABLE_CALLS": "Wyłącz połączenia",
+            "ENABLE_CALLS": "Włącz połączenia",
             "BALANCE": "Saldo",
             "MANAGE_EMPLOYEES": "Zarządzaj pracownikami",
             "HIRE": "Zatrudnij",
-            "SET_GRADE": "Ustaw stanowisko",
+            "SET_GRADE": "Ustaw stopień",
             "UNEMPLOYED": "Jesteś bezrobotny",
 
+            "ALL": "Wszystkie",
+            "AVAILABLE": "Dostępne",
+            "SEARCH_EMPLOYEES": "Szukaj pracowników",
+
+            "PERSONAL": "Osobiste",
+            "JOB": "Praca",
+
             "DEPOSIT_POPUP": {
-                "TITLE": "Depozyt",
-                "DESCRIPTION": "Deponuj pieniądze na konto firmy",
+                "TITLE": "Wpłata",
+                "DESCRIPTION": "Wpłać pieniądze na konto firmy",
                 "AMOUNT": "Kwota",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Potwierdź"
+                "PROCEED": "Kontynuuj"
             },
             "WITHDRAW_POPUP": {
-                "TITLE": "Wypłać",
+                "TITLE": "Wypłata",
                 "DESCRIPTION": "Wypłać pieniądze z konta firmy",
+                "NOT_ENOUGH_MONEY": "Nie ma wystarczająco pieniędzy na koncie firmy",
                 "AMOUNT": "Kwota",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Potwierdź"
+                "PROCEED": "Kontynuuj"
             },
             "HIRE_POPUP": {
                 "TITLE": "Zatrudnij",
                 "DESCRIPTION": "Zatrudnij nowego pracownika",
                 "PLACEHOLDER": "ID",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Potwierdź"
+                "PROCEED": "Kontynuuj"
             },
             "FIRE_POPUP": {
                 "TITLE": "Zwolnij",
                 "DESCRIPTION": "Czy na pewno chcesz zwolnić {name}?",
                 "PLACEHOLDER": "ID",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Potwierdź"
+                "PROCEED": "Kontynuuj"
             },
             "CALL_POPUP": {
-                "TITLE": "Połącz",
+                "TITLE": "Zadzwoń",
                 "DESCRIPTION": "Czy na pewno chcesz zadzwonić do {name}?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Potwierdź"
+                "PROCEED": "Kontynuuj"
+            }
+        },
+        "CRYPTO": {
+            "TITLE": "Krypto",
+            "BALANCE": "Szacowane saldo",
+            "BUY": "Kup",
+            "SELL": "Sprzedaj",
+            "TRANSFER": "Przelej",
+            "SELL_ALL": "Sprzedaj wszystko",
+            "NO_MONEY": "Nie masz wystarczająco pieniędzy",
+            "NO_COINS": "Nie masz tej monety",
+            "NOT_ENOUGH_COINS": "Nie masz wystarczająco monet",
+            "ATLEAST_ONE_COIN": "Musisz {action} co najmniej jedną {currency}",
+            "INVALID_COIN": "Nieprawidłowa moneta",
+            "NO_NUMBER": "Nie podano numeru telefonu",
+            "INVALID_NUMBER": "Nieprawidłowy numer telefonu (użytkownik może nie być online)",
+            "ERROR": "Błąd",
+            "CLOSE": "Zamknij",
+            "BUY_POPUP": {
+                "TITLE": "Kup {coin}",
+                "DESCRIPTION": "Wprowadź kwotę {coin} (w $), którą chcesz kupić",
+                "PLACEHOLDER": "$1000",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Kontynuuj"
+            },
+            "SELL_POPUP": {
+                "TITLE": "Sprzedaj {coin}",
+                "DESCRIPTION": "Wprowadź kwotę {coin} (w $), którą chcesz sprzedać",
+                "PLACEHOLDER": "$1000"
+            },
+            "SELL_ALL_POPUP": {
+                "TITLE": "Sprzedaj wszystkie {coin}",
+                "DESCRIPTION": "Czy na pewno chcesz sprzedać wszystkie swoje {coin} za ${amount}?"
+            },
+            "TRANSFER_POPUP": {
+                "TITLE": "Przelej {coin}",
+                "DESCRIPTION": "Wprowadź kwotę {coin} (w $), którą chcesz przelać (wybierz kontakt w następnym kroku)",
+                "PLACEHOLDER": "$1000",
+                "NEXT": "Dalej"
+            },
+            "SUCCESSFULLY_TRANSFERED_POPUP": {
+                "TITLE": "Pomyślnie przelano",
+                "DESCRIPTION": "Pomyślnie przelałeś ${amount} {coin} do {number}",
+                "CLOSE": "Zamknij"
+            }
+        },
+        "TIKTOK": {
+            "TITLE": "Trendy",
+
+            "HOME": "Strona główna",
+            "DISCOVER": "Odkrywaj",
+            "INBOX": "Skrzynka odbiorcza",
+            "PROFILE": "Profil",
+
+            "COMMENTS_TITLE": "{count} komentarzy",
+            "REPLY": "Odpowiedz",
+            "VIEW_REPLIES": "Zobacz odpowiedzi",
+            "ADD_COMMENT": "Dodaj komentarz...",
+            "REPLY_TO": "Odpowiedz do {name}",
+            "PIN_COMMENT": "Przypnij komentarz",
+            "UNPIN_COMMENT": "Odepnij komentarz",
+            "DELETE_COMMENT": "Usuń komentarz",
+            "DELETE": "Usuń",
+            "PINNED": "Przypięte",
+            "PIN_VIDEO": "Przypnij wideo",
+            "UNPIN_VIDEO": "Odepnij wideo",
+            "PIN": "przypnij",
+            "UNPIN": "odepnij",
+            "MAX_PINNED_TITLE": "Maksymalna liczba przypiętych",
+            "MAX_PINNED_DESCRIPTION": "Możesz przypiąć maksymalnie 3 wideo",
+            "OK": "OK",
+            "CREATOR": "Twórca",
+            "LIKED_BY_CREATOR": "Polubione przez twórcę",
+
+            "PIN_VIDEO_POPUP": {
+                "TITLE": "Przypnij wideo",
+                "DESCRIPTION": "Czy na pewno chcesz {action} to wideo?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Kontynuuj"
+            },
+            "DELETE_VIDEO_POPUP": {
+                "TITLE": "Usuń wideo",
+                "DESCRIPTION": "Czy na pewno chcesz usunąć to wideo?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Kontynuuj"
+            },
+            "FAILED_UPLOAD_POPUP": {
+                "TITLE": "Nie udało się przesłać TTS",
+                "DESCRIPTION": "Właściciel serwera nie skonfigurował poprawnie przesyłania audio. Skontaktuj się z nim, aby naprawić ten problem.",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Ignoruj"
+            },
+
+            "SHARE_TITLE": "Udostępnij do",
+            "SHARE": "Udostępnij",
+            "REPORT": "Zgłoś",
+            "SAVE_VIDEO": "Zapisz wideo",
+            "ADD_FAVOURITE": "Dodaj do ulubionych",
+            "CANCEL": "Anuluj",
+            "GO_BACK": "Wróć",
+
+            "FOLLOWING": "Obserwowani",
+            "FOLLOWERS": "Obserwujący",
+            "UNFOLLOW": "Przestań obserwować",
+            "FOLLOW": "Obserwuj",
+            "FOR_YOU": "Dla Ciebie",
+            "VIDEOS": "Wideo",
+            "LIKES": "Polubienia",
+
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Przestań obserwować",
+                "DESCRIPTION": "Czy na pewno chcesz przestać obserwować {name}?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Kontynuuj"
+            },
+
+            "LOGIN_TITLE": "Zaloguj się do Trendy",
+            "LOGIN_SUBTITLE": "Zarządzaj swoim kontem, sprawdzaj powiadomienia, komentuj wideo i więcej.",
+            "SIGNUP_TITLE": "Zarejestruj się w Trendy",
+            "SIGNUP_SUBTITLE": "Utwórz profil, obserwuj inne konta, twórz własne wideo i więcej.",
+            "NAME": "Imię",
+            "USERNAME": "Nazwa użytkownika",
+            "PASSWORD": "Hasło",
+            "BIO": "Bio",
+            "SHOW_LIKES": "Pokaż polubienia",
+
+            "LOGIN": "Zaloguj się",
+            "SIGNUP": "Zarejestruj się",
+            "NO_ACCOUNT": "Nie masz konta?",
+            "ALREADY_ACCOUNT": "Masz już konto?",
+            "SEARCH_PLACEHOLDER": "Szukaj użytkowników",
+
+            "STARTED_FOLLOWING": "zaczął(a) Cię obserwować.",
+            "LIKED_VIDEO": "polubił(a) Twoje wideo.",
+            "LIKED_COMMENT": "polubił(a) Twój komentarz.",
+            "SAVED_VIDEO": "dodał(a) Twoje wideo do ulubionych.",
+            "COMMENTED": "skomentował(a): {comment}",
+            "REPLIED": "odpowiedział(a) na Twój komentarz: {comment}",
+
+            "EDIT_PROFILE": "Edytuj profil",
+            "MESSAGE": "Wiadomość",
+            "CHANGE_PHOTO": "Zmień zdjęcie",
+            "LOGOUT": "Wyloguj się",
+            "CHANGE_PASSWORD": "Zmień hasło",
+            "DELETE_ACCOUNT": "Usuń konto",
+            "ADD_TO_YOUR_PROFILE": "Dodaj do swojego profilu",
+            "LIKED_HIDDEN_TITLE": "Polubione wideo tego użytkownika są prywatne.",
+            "LIKED_HIDDEN_SUBTITLE": "Wideo polubione przez {name} są obecnie ukryte.",
+
+            "INVALID_ACCOUNT_POPUP": {
+                "TITLE": "Nieprawidłowy {name}",
+                "DESCRIPTION": "Nie jesteś zalogowany na konto {name}, które podałeś, popraw to.",
+                "OK": "OK"
+            },
+            "REMOVE_ACCOUNT_POPUP": {
+                "TITLE": "Usuń konto {name}",
+                "DESCRIPTION": "Czy na pewno chcesz usunąć swoje konto {name} ze swojego profilu?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Kontynuuj"
+            },
+    
+            "ADD_ACCOUNT_TITLE": "Dodaj konto",
+            "ADD_ACCOUNT": "Dodaj {name} do swojego profilu",
+            "UPLOAD_VIDEO": "Prześlij wideo",
+            "UPLOAD": "Prześlij",
+            "PREVIEW": "Podgląd",
+            "CAPTION": "Podpis",
+            "CAPTION_PLACEHOLDER": "Dodaj podpis...",
+            "TTS": "Tekst na mowę (TTS)",
+            "TTS_PLACEHOLDER": "Dodaj tekst do mowy...",
+            "MUSIC": "Muzyka",
+            "SELECT_MUSIC": "Wybierz muzykę",
+            "OPTIONAL": "Opcjonalne",
+
+            "DIRECT_MESSAGES": "Wiadomości bezpośrednie",
+            "ALL_ACTIVITY": "Cała aktywność",
+            "NO_NOTIFICATIONS": "Powiadomienia nie są dostępne",
+            "NO_NOTIFICATIONS_SUBTITLE": "Powiadomienia o Twoim koncie pojawią się tutaj.",
+            "NO_FOLLOWING_TITLE": "Zacznij obserwować ludzi, a ich wideo pojawią się tutaj.",
+            "NO_MESSAGES_TITLE": "Napisz do swoich znajomych",
+            "NO_MESSAGES_SUBTITLE": "Udostępniaj wideo lub rozpocznij rozmowę"
+        },
+        "VOICEMEMO": {
+            "TITLE": "Notatki głosowe",
+            "VOICE_RECORDINGS": "Nagrania głosowe",
+            "SEARCH_RECORDINGS": "Szukaj nagrań",
+            "DEFAULT_NAME": "Nowe nagranie",
+            "DELETE_POPUP": {
+                "TITLE": "Usuń notatkę głosową",
+                "DESCRIPTION": "Czy na pewno chcesz usunąć tę notatkę głosową?",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Kontynuuj"
+            },
+            "NO_MICROPHONE_POPUP": {
+                "TITLE": "Brak mikrofonu",
+                "DESCRIPTION": "Nie mamy dostępu do Twojego mikrofonu, upewnij się, że jest podłączony i zaakceptuj wyskakujące okienko w prawym górnym rogu ekranu",
+                "OK": "OK"
+            },
+            "EMPTY_RECORDING_POPUP": {
+                "TITLE": "Puste nagranie",
+                "DESCRIPTION": "Nie możesz zapisać nagrania bez żadnego dźwięku",
+                "OK": "OK"
             }
         }
     },
@@ -872,102 +1508,300 @@
         "CONTEXT_MENU": {
             "CANCEL": "Anuluj",
             "CALL": "Zadzwoń",
-            "VIDEO_CALL": "Wideo rozmowa",
+            "VIDEO_CALL": "Połączenie wideo",
             "MESSAGE": "Wiadomość"
         },
         "IMAGE": {
-            "SAVE_TO_GALLERY": "Zapisz w galerii"
+            "SAVE_TO_GALLERY": "Zapisz do galerii"
         },
         "GALLERY": {
             "CANCEL": "Anuluj",
-            "EXTERNAL_URL": "Zewnętrzny adres URL",
-            "NO_IMAGES": "Brak zdjęć"
+            "EXTERNAL_URL": "Zewnętrzny URL",
+            "EXTERNAL_URL_BLACKLISTED": "Ten URL jest na czarnej liście",
+            "NO_IMAGES": "Brak obrazów"
         },
         "NOTIFICATIONS": {
-            "SENT_PHOTO": "Wysłał zdjęcie",
-            "SENT_GIF": "Wysłał GIF",
+            "SENT_PHOTO": "Wysłał(a) zdjęcie",
+            "SENT_GIF": "Wysłał(a) GIF",
             "NOW": "teraz"
         },
         "SHARE": {
             "COPY_PHOTO": "Kopiuj zdjęcie",
-            "USE_WALLPAPER": "Użyj jako tapetę",
+            "COPY_VIDEO": "Kopiuj wideo",
+            "USE_WALLPAPER": "Ustaw jako tapetę",
             "COPY_NUMBER": "Kopiuj numer",
+            "COPY_LINK": "Kopiuj link",
             "AIRDROP_SENT": "Wysłano",
-            "AIRDROP_ACCEPTED": "Przyjęto",
+            "AIRDROP_ACCEPTED": "Zaakceptowano",
             "AIRDROP_DECLINED": "Odrzucono",
+            "AIRDROP_NO_USERS": "Brak telefonów w pobliżu",
             "WALLPAPER_POPUP": {
-                "TITLE": "Użyj jako tapetę",
-                "TEXT": "Czy na pewno chcesz użyć to zdjęcie jako tapetę?",
+                "TITLE": "Ustaw jako tapetę",
+                "TEXT": "Czy na pewno chcesz ustawić ten obraz jako tapetę?",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Ustaw"
+                "PROCEED": "Kontynuuj"
+            },
+            "COPY_POPUP": {
+                "TITLE": "Sukces",
+                "DESCRIPTION": "Pomyślnie skopiowano do schowka",
+                "OK": "OK"
             }
         },
         "AIRDROP": {
-            "TITLE": "Airdrop",
-            "TEXT": "{sender} chciałby udostępnić {type}",
+            "TITLE": "AirShare",
+            "TEXT": "{sender} chce udostępnić {type}",
             "VIDEO": "wideo",
             "PHOTO": "zdjęcie",
             "CONTACT": "kontakt",
+            "LOCATION": "lokalizację",
+            "NOTE": "notatkę",
+            "VOICEMEMO": "notatkę głosową",
+            "PLAYLIST": "playlistę",
             "DECLINE": "Odrzuć",
             "ACCEPT": "Akceptuj"
+        },
+        "DYNAMICISLAND": {
+            "SILENT": "Cisza",
+            "RING": "Dzwonek",
+            "TIMER": "Timer"
+        },
+        "MUSIC_SELECTOR": {
+            "CANCEL": "Anuluj",
+            "NO-RESULTS": "Brak skonfigurowanej muzyki, powiedz właścicielowi serwera, aby dodał utwory",
+            "SEARCH": "Szukaj utworu",
+            "SELECT_POPUP": {
+                "TITLE": "Wybierz utwór",
+                "DESCRIPTION": "Czy na pewno chcesz wybrać {song}",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Kontynuuj"
+            }
+        },
+        "BATTERY": {
+            "LOW_BATTERY": "Niski poziom baterii",
+            "BATTERY_REMAINING": "Pozostało {percent}% baterii",
+            "LOW_POWER_MODE": "Tryb niskiego zużycia energii",
+            "CLOSE": "Zamknij"
+        },
+        "COLOR_PICKER": {
+            "COLOR": "Kolor"
+        },
+        "GIF_SELECTOR": {
+            "SEARCH": "Szukaj w Tenor",
+            "BACK": "Wstecz"
         }
     },
     "SETUP": {
         "HELLO": "Cześć",
-        "NEXT": "Kliknij, aby rozpocząć",
-        "CREATE_PASSCODE": "Utwórz kod",
-        "CREATE_PASSCODE_TEXT": "Kod chroni Twoje dane i służy do odblokowywania telefonu.",
-        "SKIP": "Pomiń ten krok",
-        "FACE_ID_SETUP": "Face ID Setup",
-        "FACE_ID_TEXT": "Skonfiguruj funkcję Face ID, aby automatycznie odblokowywać telefon, gdy Twoja twarz jest widoczna.",
-        "ENABLE_FACE_ID": "Włącz Face ID",
-        "APPEARANCE": "Wygląd",
-        "APPEARANCE_TEXT": "Wybierz jasny albo ciemny motyw",
+        "SELECT_LANGUAGE": "Wybierz swój język",
+        "NEXT": "Kliknij, aby otworzyć",
+        "CREATE_PASSCODE": "Ustaw PIN",
+        "CREATE_PASSCODE_TEXT": "Kod PIN jest używany do zabezpieczenia urządzenia i jest wymagany do jego odblokowania.",
+        "SKIP": "Pomiń",
+        "FACE_ID_SETUP": "Odblokowanie twarzą",
+        "FACE_ID_TEXT": "Skonfiguruj odblokowanie twarzą, aby łatwo otworzyć telefon bez wprowadzania kodu PIN.",
+        "FACE_ID_TEXT_ALT": "Odblokowanie twarzą działa tylko, gdy twarz nie jest zasłonięta.",
+        "ENABLE_FACE_ID": "Włącz odblokowanie twarzą",
+        "APPEARANCE": "Motyw",
+        "APPEARANCE_TEXT": "Wybierz ciemny lub jasny motyw dla urządzenia",
         "CONTINUE": "Kontynuuj",
-        "WELCOME_TO": "Witaj w",
+        "WELCOME_TO": "Witamy w",
         "CLICK": "Kliknij, aby rozpocząć"
     },
     "HOMESCREEN": {
         "DONE": "Gotowe",
-        "REMOVE": "Usuń",
-        "REMOVE_TEXT": "Usunięcie tej aplikacji nie spowoduje usnięcia danych. Aplikację można później ponownie zainstalować W App Store",
-        "BUTTON_CANCEL": "Anuluj",
-        "BUTTON_DELETE": "Usuń"
+        "CLOSE_ALL": "Zamknij wszystko",
+        "REMOVE_APP_POPUP": {
+            "TITLE": "Usuń '{app}'?",
+            "DESCRIPTION": "Usunięcie tej aplikacji NIE usunie jej danych. Aplikacja może być później ponownie zainstalowana ze sklepu z aplikacjami.",
+            "CANCEL": "Anuluj",
+            "PROCEED": "Usuń"
+        }
     },
     "LOCKSCREEN": {
-        "ENTER_PASSCODE": "Wprowadź hasło",
-        "DELETE": "Usuń"
+        "ENTER_PASSCODE": "Wprowadź kod",
+        "DELETE": "Usuń",
+        "FONT_AND_COLOR": "Czcionka i kolor"
+    },
+    "MISC": {
+        "AIRPLANE_MODE_POPUP": {
+            "TITLE": "Błąd",
+            "DESCRIPTION": "Próbujesz wykonać akcję wymagającą dostępu do internetu, wyłącz tryb samolotowy, aby kontynuować.",
+            "OK": "OK"
+        },
+        "TODAY_TIME": "Dzisiaj, {hours}:{minutes}",
+        "YESTERDAY_TIME": "Wczoraj, {hours}:{minutes}",
+        "CHANGE_PASSWORD": {
+            "TITLE": "Zmień hasło",
+            "DESCRIPTION": "Proszę wypełnić {type} hasło do {app}",
+            "ERROR": "Nie udało się zmienić hasła",
+            "CURRENT": "obecne",
+            "NEW": "nowe",
+            "PLACEHOLDER_CURRENT": "Obecne hasło",
+            "PLACEHOLDER_NEW": "Nowe hasło",
+            "CANCEL": "Anuluj",
+            "NEXT": "Dalej",
+            "PROCEED": "Kontynuuj",
+            "SUCCESS": "Hasło zostało pomyślnie zmienione",
+            "OK": "OK"
+        },
+        "DELETE_ACCOUNT": {
+            "TITLE": "Usuń konto",
+            "DESCRIPTION": "Aby usunąć swoje konto {app}, proszę wypełnić poniżej swoje hasło. UWAGA: Ta czynność jest nieodwracalna.",
+            "ERROR": "Nie udało się usunąć konta",
+            "PLACEHOLDER": "Hasło",
+            "CANCEL": "Anuluj",
+            "PROCEED": "Kontynuuj",
+            "OK": "OK"
+        }
     },
     "BACKEND": {
         "CALLS": {
-            "NO_CALLER_ID": "Brak ID",
-            "MISSED_CALL": "Nieodebrane połączenie"
+            "NO_CALLER_ID": "Brak ID dzwoniącego",
+            "MISSED_CALL": "Nieodebrane połączenie",
+            "NEW_VOICEMAIL": "Poczta głosowa"
         },
         "GARAGE": {
-            "VALET": "Dostawa",
-            "COULDNT_FIND": "Nie udało się znaleźć pojazdu.",
-            "ALREADY_OUT": "Ten pojazd jest już sprowadzony.",
-            "NO_MONEY": "Nie posiadasz wystarczająco pieniądzy.",
-            "ON_WAY": "Pojazd jest w drodze.",
-            "MARKED": "Pojazd został oznaczony na GPS."
+            "VALET": "Parkingowy",
+            "COULDNT_FIND": "Nie można znaleźć pojazdu.",
+            "ALREADY_OUT": "Pojazd jest już poza garażem.",
+            "NO_MONEY": "Nie masz wystarczająco pieniędzy.",
+            "ON_WAY": "Twój pojazd jest w drodze.",
+            "MARKED": "Twój pojazd został oznaczony na twoim GPS."
         },
         "INSTAGRAM": {
-            "NOT_ALLOWED_LIVE": "Nie możesz prowadzić transmisji Live",
-            "STARTED_LIVE": "{username} rozpoczął transmisję na żywo"
+            "NOT_ALLOWED_LIVE": "Nie możesz rozpocząć transmisji na żywo",
+            "NOT_ALLOWED_STORY": "Nie możesz publikować relacji",
+            "STARTED_LIVE": "{username} rozpoczął(a) transmisję na żywo",
+            "JOINED_LIVE": "{invitee} dołącza do transmisji na żywo z {inviter}.",
+            "LIKED_PHOTO": "{username} polubił(a) twoje zdjęcie",
+            "LIKED_COMMENT": "{username} polubił(a) twój komentarz",
+            "COMMENTED": "{username} skomentował(a) twój post",
+            "NEW_FOLLOWER": "{username} zaczął(a) cię obserwować",
+            "FOLLOW_REQUEST_ACCEPTED_TITLE": "Prośba o obserwowanie zaakceptowana",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "{displayName} ({username}) zaakceptował(a) twoją prośbę o obserwowanie.",
+            "NEW_FOLLOW_REQUEST_TITLE": "Nowa prośba o obserwowanie",
+            "NEW_FOLLOW_REQUEST_DESCRIPTION": "{displayName} ({username}) chce cię obserwować."
         },
         "TINDER": {
             "NEW_MATCH": "Nowe dopasowanie",
-            "MATCHED_WITH": "Dopasowałeś się z {name}"
+            "MATCHED_WITH": "Masz dopasowanie z {name}"
         },
         "CAMERA": {
-            "TAKE_PHOTO": "Wciśnij {key} aby zrobić zdjęcie",
-            "FLIP_CAMERA": "Wciśnij {key} aby odwrócić kamerę",
-            "TOGGLE_FLASH": "Wciśnij {key} aby przełączać flasha",
-            "TOGGLE_CURSOR": "Wciśnij {key} aby móc się rozglądać",
-            "CHANGE_MODE": "Wciśnij {key} {key2} aby zmienić tryb aparatu"
+            "TAKE_PHOTO": "Naciśnij {key}, aby zrobić zdjęcie",
+            "FLIP_CAMERA": "Naciśnij {key}, aby obrócić kamerę",
+            "TOGGLE_FLASH": "Naciśnij {key}, aby włączyć/wyłączyć lampę błyskową",
+            "TOGGLE_CURSOR": "Naciśnij {key}, aby przełączać kursor i rozglądać się",
+            "CHANGE_MODE": "Naciśnij {key} {key2}, aby zmienić tryb kamery",
+            "ROLL": "Naciśnij {key} {key2} aby obrócić kamerę",
+            "FREEZE": "Naciśnij {key} aby zamrozić/odblokować kamerę"
         },
         "SERVICES": {
-            "NEW_MESSAGE": "Nowa wiadomość"
+            "NEW_MESSAGE": "Nowa wiadomość",
+            "ANONYMOUS": "Anonimowy"
+        },
+        "TWITTER": {
+            "LIKE": "Polubione przez {displayName}:",
+            "RETWEET": "Udostępnione przez {displayName}:",
+            "REPLY": "{displayName} odpowiedział(a):",
+            "FOLLOW": "{username} zaczął(a) cię obserwować",
+            "TWEET": "{username} właśnie opublikował(a)",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "@{username} zaakceptował(a) twoją prośbę o obserwowanie.",
+            "NEW_FOLLOW_REQUEST": "@{username} chce cię obserwować!"
+        },
+        "TIKTOK": {
+            "LIKE": "{displayName} polubił(a) twoje wideo.",
+            "COMMENT": "{displayName} skomentował(a) twoje wideo.",
+            "FOLLOW": "{displayName} zaczął(a) cię obserwować.",
+            "SAVE": "{displayName} dodał(a) twoje wideo do ulubionych.",
+            "LIKED_COMMENT": "{displayName} polubił(a) twój komentarz.",
+            "REPLIED_COMMENT": "{displayName} odpowiedział(a) na twój komentarz.",
+            "DM": "{displayName}"
+        },
+        "MISC": {
+            "VERIFIED": "Twoje konto zostało zweryfikowane",
+            "X_PHONE": "Telefon {name}",
+
+            "LOGGED_OUT_PASSWORD": {
+                "TITLE": "Zostałeś(aś) wylogowany(a)",
+                "DESCRIPTION": "Zostałeś(aś) wylogowany(a) z konta, ponieważ twoje hasło zostało zmienione."
+            },
+
+            "DELETED_NOTIFICATION": {
+                "TITLE": "Konto usunięte",
+                "DESCRIPTION": "Twoje konto zostało usunięte."
+            }
+        },
+        "CRYPTO": {
+            "RECEIVED_TRANSFER_TITLE": "Otrzymano {coin}",
+            "RECEIVED_TRANSFER_DESCRIPTION": "Otrzymałeś(aś) {amount} {coin} o wartości ${value}"
+        },
+        "MAIL": {
+            "AUTOMATIC_PASSWORD": {
+                "SENDER": "System",
+                "SUBJECT": "Twój adres email",
+                "MESSAGE": "Cześć,\n\nTwój automatycznie wygenerowany adres email to {address}, a twoje hasło to {password}"
+            }
+        },
+        "LOGS": {
+            "MAIL_TITLE": "Email",
+            "NEW_MAIL": "{sender} wysłał(a) email do {recipient}",
+
+            "MESSAGE_TITLE": "Wiadomość tekstowa",
+            "NEW_MESSAGE": "{sender} wysłał(a) wiadomość do {recipient}: {message}",
+
+            "CALL_ENDED": "Połączenie zakończone",
+            "CALL_DESCRIPTION": "Połączenie między `{caller}` a `{callee}` trwające {duration}s zostało zakończone. Odebrane: `{answered}`",
+
+            "NEW_SERVICE_TITLE": "Nowa wiadomość",
+            "NEW_SERVICE_CONTENT": "{sender} wysłał(a) wiadomość do {channel}: {message}",
+
+            "RECEIVED_TITLE": "Otrzymano ${amount}",
+            "PAID_TITLE": "Zapłacono ${amount}",
+            "TRANSACTION": "{number} dokonał(a) transakcji w wysokości ${amount} do {company}",
+
+            "BOUGHT_CRYPTO": "Kupiono krypto",
+            "SOLD_CRYPTO": "Sprzedano krypto",
+            "CRYPTO_DETAILS": "**Moneta**: {coin}\n**Ilość**: {amount}\n**Wartość**: ${price}",
+            "TRANSFERRED_CRYPTO": "Przelano krypto",
+            "TRANSFERRED_CRYPTO_DETAILS": "**Moneta**: {coin}\n**Ilość**: {amount}\n**Do**: {to}\n**Od**: {from}",
+
+            "DARKCHAT_CREATED_TITLE": "Utworzono kanał",
+            "DARKCHAT_CREATED_DESCRIPTION": "{creator} utworzył(a) kanał o nazwie {channel}",
+            "DARKCHAT_MESSAGE_TITLE": "Nowa wiadomość",
+            "DARKCHAT_MESSAGE_DESCRIPTION": "{sender} wysłał(a) wiadomość w {channel}: {message}",
+
+            "MARKETPLACE_NEW_TITLE": "Nowe ogłoszenie",
+            "MARKETPLACE_NEW_DESCRIPTION": "**Sprzedawca**: {seller}\n**Tytuł**: {title}\n**Cena**: ${price}\n**Opis**: {description}\n**Załączniki**: {attachments}\n**ID:** {id}",
+            "MARKETPLACE_DELETED": "Post usunięty",
+
+            "YELLOWPAGES_NEW_TITLE": "Nowy post",
+            "YELLOWPAGES_NEW_DESCRIPTION": "**Tytuł**: {title}\n**Opis**: {description}\n**Załącznik**: {attachment}\n**ID:** {id}",
+            "YELLOWPAGES_DELETED": "Post usunięty",
+
+            "LIVE_TITLE": "Na żywo",
+            "STARTED_LIVE": "{username} rozpoczął(a) transmisję na żywo",
+            "ENDED_LIVE": "{username} zakończył(a) transmisję na żywo",
+            "ADDED_STORY": "{username} dodał(a) zdjęcie do swojej relacji",
+
+            "TRENDY_UPLOAD_TITLE": "Nowe wideo",
+            "TRENDY_UPLOAD_DESCRIPTION": "{username} przesłał(a) nowe wideo z podpisem {caption} i id {id}",
+            "TRENDY_DELETE_TITLE": "Usunięto wideo",
+            "TRENDY_DELETE_DESCRIPTION": "{username} usunął(a) wideo o id {id}",
+
+            "UPLOADED_MEDIA": "Przesłano multimedia",
+            "UPLOADED_MEDIA_DESCRIPTION": "Zrobiono {type} o id {id}\n{link}",
+            "VIDEO": "wideo",
+            "PHOTO": "zdjęcie",
+
+            "CHANGED_PASSWORD": {
+                "TITLE": "Zmieniono hasło",
+                "DESCRIPTION": "{number} zmienił(a) hasło do konta {username} w {app}."
+            },
+
+            "DELETED_ACCOUNT": {
+                "TITLE": "Usunięto konto",
+                "DESCRIPTION": "{number} usunął(a) konto {username} w {app}."
+            }
         }
     }
 }
