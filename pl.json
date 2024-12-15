@@ -1114,12 +1114,12 @@
             "INVALID_USERNAME": "Nieprawidłowa nazwa użytkownika",
             "INCORRECT_PASSWORD": "Nieprawidłowe hasło",
             "OK": "OK",
-            "LOCATION": "Location",
+            "LOCATION": "Lokalizacja",
             "CHOOSE_LOCATION": {
-                "TITLE": "Choose Location",
-                "DESCRIPTION": "Choose a location for this post",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
+                "TITLE": "Wybierz lokalizację",
+                "DESCRIPTION": "Wybierz lokalizację dla tego postu",
+                "CANCEL": "Anuluj",
+                "PROCEED": "Kontynuuj"
             }
         },
         "TWITTER": {
@@ -1692,8 +1692,8 @@
             "TOGGLE_FLASH": "Naciśnij {key}, aby włączyć/wyłączyć lampę błyskową",
             "TOGGLE_CURSOR": "Naciśnij {key}, aby przełączać kursor i rozglądać się",
             "CHANGE_MODE": "Naciśnij {key} {key2}, aby zmienić tryb kamery",
-            "ROLL": "Press {key} {key2} to roll the camera",
-            "FREEZE": "Press {key} to freeze/unfreeze the camera"
+            "ROLL": "Naciśnij {key} {key2} aby obrócić kamerę",
+            "FREEZE": "Naciśnij {key} aby zamrozić/odblokować kamerę"
         },
         "SERVICES": {
             "NEW_MESSAGE": "Nowa wiadomość",
