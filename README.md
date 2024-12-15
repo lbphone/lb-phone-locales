@@ -9,7 +9,7 @@ Discord: https://discord.gg/lbphone
 
 ## Locales Status:
 *5/20 locales up to date*
-- ✅ **en.json** (Base Locale - v?.?.?)
+- ✅ **en.json** (Base Locale - v2.1.8)
 - ❌ **ar.json**
 - ❌ **ba.json**
 - ❌ **cs.json**
