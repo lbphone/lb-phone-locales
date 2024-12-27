@@ -88,8 +88,8 @@
             "OF": "de",
             "DISPLAY_BRIGHTNESS": "Tela e Brilho",
             "DISPLAY_BRIGHTNESS_DESCRIPTION": "Ajustar tela e brilho",
-            "DARK": "Dark",
-            "LIGHT": "Light",
+            "DARK": "Escuro",
+            "LIGHT": "Luz",
             "APPEARANCE": "Aparência",
             "AUTOMATIC": "Automático",
             "BRIGHTNESS": "Brilho",
@@ -397,6 +397,7 @@
             "REMOVE_FROM_ALBUM": "Remover do Álbum",
             "ADD_TO_ALBUM": "Adicionar ao Álbum",
             "ADD_TO_FAVOURITES": "Adicionar aos Favoritos",
+            "REMOVE_FROM_FAVOURITES": "Remover dos favoritos",
             "VIDEOS": "Vídeos",
             "SELFIES": "Selfies",
             "SCREENSHOTS": "Capturas de Tela",
@@ -699,7 +700,7 @@
             "OK": "OK"
         },
         "GARAGE": {
-            "TITLE": "Garagem",
+            "TITLTE": "Garagem",
             "ACTIONS": "Ações",
             "MY_CARS": "Meus Carros",
             "OUT": "Fora",
@@ -1113,12 +1114,12 @@
             "INVALID_USERNAME": "Nome de usuário inválido",
             "INCORRECT_PASSWORD": "Senha incorreta",
             "OK": "OK",
-            "LOCATION": "Location",
+            "LOCATION": "Localização",
             "CHOOSE_LOCATION": {
-                "TITLE": "Choose Location",
-                "DESCRIPTION": "Choose a location for this post",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
+                "TITLE": "Escolha a localização",
+                "DESCRIPTION": "Escolha o local para esta postagem",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Prosseguir"
             }
         },
         "TWITTER": {
