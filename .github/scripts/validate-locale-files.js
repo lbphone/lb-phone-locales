@@ -84,10 +84,10 @@ function updateReadMeFile(localesStatuses) {
         process.exit(1);
     }
 
-    const regex = /- (✅|❌) \*\*(.*?)\*\* \(Base Locale - v[\d.]+\)/;
+    const regex = /- (✅|❌) \*\*(.*?)\*\* \(Base Locale\)/;
     const enEntry = fileContent.match(regex);
 
-    let updatedLocales = [enEntry ? enEntry[0] : '- ✅ **en.json** (Base Locale - v?.?.?)'];
+    let updatedLocales = [enEntry ? enEntry[0] : '- ✅ **en.json** (Base Locale)'];
 
     localesStatuses.forEach((isUpToDate, fileName) => {
         const icon = isUpToDate ? '✅' : '❌';

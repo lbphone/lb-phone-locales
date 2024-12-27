@@ -9,7 +9,7 @@ Discord: https://discord.gg/zKfDSem4Sj
 
 ## Locales Status:
 *7/20 locales up to date*
-- ✅ **en.json** (Base Locale - v?.?.?)
+- ✅ **en.json** (Base Locale)
 - ❌ **ar.json**
 - ✅ **ba.json**
 - ❌ **cs.json**
