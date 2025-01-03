@@ -262,7 +262,7 @@
         },
         "DARKCHAT": {
             "TITLE": "DarkChat",
-            "SET_USERNAME": "Benutzername festlegen. INFO: Du kannst ihn später nicht mehr ändern!",
+            "SEARCH": "Kanäle suchen",
             "CANCEL": "Abbrechen",
             "SET": "Festlegen",
             "JOIN": "Beitreten",
@@ -1483,7 +1483,7 @@
         },
         "VOICEMEMO": {
             "TITLE": "Sprachnotiz",
-            "ALL_RECORDINGS": "Alle Aufnahmen",
+            "VOICE_RECORDINGS": "Sprachaufnahmen",
             "SEARCH_RECORDINGS": "Aufnahmen suchen",
             "DEFAULT_NAME": "Neue Aufnahme",
             "DELETE_POPUP": {
@@ -1693,7 +1693,7 @@
             "TOGGLE_CURSOR": "Drücke {key} um den Cursor umzuschalten und dich umzusehen",
             "CHANGE_MODE": "Drücke {key} {key2} um den Kameramodus zu wechseln",
             "ROLL": "Drücke {key} {key2}, um die Kamera zu drehen",
-            "EINFRIEREN": "Drücke {key}, um die Kamera einzufrieren/aufzutauen"
+            "FREEZE": "Drücke {key}, um die Kamera einzufrieren/aufzutauen"
         },
         "SERVICES": {
             "NEW_MESSAGE": "Neue Nachricht",
@@ -1782,7 +1782,7 @@
             "STARTED_LIVE": "{username} hat ein Live-Video gestartet",
             "ENDED_LIVE": "{username} hat ein Live-Video beendet",
             "ADDED_STORY": "{username} hat ein Foto zu ihrer Story hinzugefügt",
-            
+
             "TRENDY_UPLOAD_TITLE": "Neues Video",
             "TRENDY_UPLOAD_DESCRIPTION": "{username} hat ein neues Video mit dem Untertitel {caption} und der ID {id} hochgeladen",
             "TRENDY_DELETE_TITLE": "Ein Video gelöscht",
