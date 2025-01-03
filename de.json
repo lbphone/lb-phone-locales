@@ -46,7 +46,7 @@
             "AIRPLANE_MODE": "Flugmodus",
             "AIRPLANE_MODE_DESCRIPTION": "Deaktivieren von Anrufen, Mobilfunkdaten usw..",
             "STREAMER_MODE": "Streamer-Modus",
-            "BLUETOOTH": "Bluetooth",
+            "STREAMER_MODE_DESCRIPTION": "Verwischt empfindliche Informationen",
             "GENERAL": "Allgemein",
             "GENERAL_DESCRIPTION": "Allgemeine Einstellungen für das Handy",
             "ABOUT": "Über",
@@ -88,6 +88,8 @@
             "OF": "von",
             "DISPLAY_BRIGHTNESS": "Bildschirm & Helligkeit",
             "DISPLAY_BRIGHTNESS_DESCRIPTION": "Display und Helligkeit einstellen",
+            "DARK": "Dunkel",
+            "LIGHT": "Hell",
             "APPEARANCE": "Aussehen",
             "AUTOMATIC": "Automatisch",
             "BRIGHTNESS": "Helligkeit",
@@ -120,6 +122,11 @@
             "RESET_FACE_ID": "Face ID zurücksetzen",
             "ENABLE_FACE_ID": "Face ID aktivieren",
             "PIN_CODE": "PIN-Code",
+            "PIN_CODE_ERROR": {
+                "TITLE": "Error",
+                "WRONG": "Falscher Pin-Code",
+                "OK": "OK"
+            },
             "DISABLE_FACE_ID_POPUP": {
                 "TITLE": "Face ID deaktivieren",
                 "TEXT": "Möchtest du Face ID wirklich deaktivieren?",
@@ -144,18 +151,25 @@
             "CLOUD_BACKUP": "Cloud-Backup",
             "YOUR_PROFILE": "Dein Profil",
             "CREATE_BACKUP": "Backup erstellen",
+            "BACKUPS": "Backups",
             "SAVE_BACKUP_POPUP": {
                 "TITLE": "Backup speichern",
                 "TEXT": "Willst du wirklich ein Backup deiner Daten hochladen? (Speichert deine Kontakte, Fotos und Einstellungen)",
                 "CANCEL": "Abbrechen",
                 "CONFIRM": "Speichern"
             },
-            "BACKUPS": "Backups",
             "APPLY_BACKUP_POPUP": {
                 "TITLE": "Backup anwenden",
                 "TEXT": "Bist du sicher, dass du dieses Backup anwenden möchtest? (Überschreibt deine Kontakte, Fotos und Einstellungen)",
                 "CANCEL": "Abbrechen",
                 "CONFIRM": "Anwenden"
+            },
+            "BACKUP_ERROR_POPUP": {
+                "WARNING": "Warnung",
+                "ERROR": "Fehler",
+                "ALREADY_HAVE": "Du hast bereits ein Backup für diese Nummer",
+                "SAME_PHONE": "Du kannst kein Backup anwenden, das vom gleichen Telefon erstellt wurde",
+                "OK": "OK"                
             },
             "SUCCESS": "Erfolgreich",
             "SUCCESS_TEXT": "Telefon wird in 5 Sekunden neu gestartet",
@@ -174,7 +188,8 @@
                 "CANCEL": "Abbrechen",
                 "CONFIRM": "Zurücksetzen"
             },
-            "UP_TO_DATE": "Dein Handy ist auf dem neuesten Stand"
+            "UP_TO_DATE": "Dein Handy ist auf dem neuesten Stand",
+            "BLUR_HOMESCREEN": "Startbildschirm verwischen"
         },
         "NOTES": {
             "TITLE": "Notizen",
@@ -192,7 +207,9 @@
                 "TITLE": "Weltuhr",
                 "TODAY": "Heute",
                 "TOMORROW": "Morgen",
-                "YESTERDAY": "Gestern"
+                "YESTERDAY": "Gestern",
+                "LOCAL_TIME": "Lokalezeit",
+                "HRS": "{time} std"
             },
             "ALARM": {
                 "TITLE": "Wecker",
@@ -209,7 +226,8 @@
                 "BUTTON_CANCEL": "Abbrechen",
                 "BUTTON_DELETE": "Löschen",
                 "ALARMS": "Alarme",
-                "NEW_ALARM": "Neuer Alarm"
+                "NEW_ALARM": "Neuer Alarm",
+                "EDIT_ALARM": "Alarm bearbeiten"
             },
             "STOPWATCH": {
                 "TITLE": "Stoppuhr",
@@ -244,7 +262,7 @@
         },
         "DARKCHAT": {
             "TITLE": "DarkChat",
-            "SET_USERNAME": "Benutzername festlegen. INFO: Du kannst ihn später nicht mehr ändern!",
+            "SEARCH": "Kanäle suchen",
             "CANCEL": "Abbrechen",
             "SET": "Festlegen",
             "JOIN": "Beitreten",
@@ -331,11 +349,12 @@
             "PHOTOS": "Fotos",
             "ALBUMS": "Alben",
             "LIBRARY": "Mediathek",
+            "GALLERY": "Gallerie",
             "MY_ALBUMS": "Meine Alben",
             "MEDIA_TYPES": "Medien-Typen",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "Neues Album",
-                "DESCRIPTION": "Gin einen Namen für das Album ein",
+                "DESCRIPTION": "Gib einen Namen für das Album ein",
                 "PLACEHOLDER": "Titel",
                 "CANCEL": "Abbrechen",
                 "PROCEED": "Speichern"
@@ -363,7 +382,7 @@
                 "TITLE": "Ins Album importieren",
                 "DESCRIPTION": "Ein Bild in dieses Album importieren",
                 "CANCEL": "Abbrechen",
-                "PROCEED": "Löschen",
+                "PROCEED": "Bestätigen",
                 "PLACEHOLDER": "Bild URL"
             },
 
@@ -378,6 +397,7 @@
             "REMOVE_FROM_ALBUM": "Aus Album entfernen",
             "ADD_TO_ALBUM": "Zum Album hinzufügen",
             "ADD_TO_FAVOURITES": "Zu Favoriten hinzufügen",
+            "REMOVE_FROM_FAVOURITES": "Aus Favoriten entfernen",
             "VIDEOS": "Videos",
             "SELFIES": "Selfies",
             "SCREENSHOTS": "Screenshots",
@@ -447,6 +467,8 @@
             "SENT_LOCATION_SHORT": "Standort wurde geteilt",
             "TRIED_TO_CALL": "{number} hat versucht dich anzurufen",
             "DELETE": "Löschen",
+            "GROUP": "Gruppe",
+            "GROUP_NAME": "Gruppenname",
             "REMOVE_POPUP": {
                 "TITLE": "Mitglied entfernen",
                 "TEXT": "Willst du {name} wirklich aus der Gruppe entfernen?",
@@ -498,6 +520,7 @@
             "MARK_AS_READ": "Als gelesen markieren",
             "MESSAGE_DELETED": "Nachricht gelöscht",
             "OPEN_IN_MAPS": "In Karten öffnen",
+            "USERS_LOCATION": "{user}'s Standort",
             "START_RECORDING": "Drücke die Taste, um die Aufnahme zu starten",
             "LOADING": "Wird geladen...",
             "EMPTY_RECORDING": {
@@ -549,7 +572,7 @@
                     "DESCRIPTION": "Bist du sicher, dass du das Teilen deines Videos stoppen möchtest?",
                     "CANCEL": "Abbrechen",
                     "PROCEED": "Stoppen"
-                }            
+                }
             },
             "CONTACTS": {
                 "TITLE": "Kontakte",
@@ -600,7 +623,9 @@
                 "ADD_NUMBER": "Nummer hinzufügen"
             },
             "RECENTS": {
-                "TITLE": "Kürzlich"
+                "TITLE": "Kürzlich",                
+                "ALL": "ALLE",
+                "MISSED": "Verpasst"
             },
             "VOICEMAIL": {
                 "TITLE": "Voicemail",
@@ -638,7 +663,7 @@
             "SELECT_CONTACT": "Kontakt auswählen",
             "TODAY": "Heute",
             "YESTERDAY": "Gestern",
-        
+
             "INSUFFICIENT_FUNDS": {
                 "TITLE": "Nicht genügend Geld",
                 "DESCRIPTION": "Du hast nicht genug Geld, um diesen Betrag zu senden"
@@ -671,8 +696,8 @@
                 "TITLE": "Geld hinzufügen fehlgeschlagen",
                 "DESCRIPTION": "Geld konnte nicht auf das angegebene Konto hinzugefügt werden"
             },
-        
-            "OK": "OK"        
+
+            "OK": "OK"
         },
         "GARAGE": {
             "TITLTE": "Garage",
@@ -1086,8 +1111,16 @@
             "USERNAME_TAKEN": "Benutzername ist schon vergeben",
             "UNKNOWN": "Unbekannter Fehler",
             "UNKNOWN_ACCOUNT": "Das Konto existiert nicht",
+            "INVALID_USERNAME": "Ungültiger Username",
             "INCORRECT_PASSWORD": "Falsches Passwort",
-            "OK": "OK"
+            "OK": "OK",
+            "LOCATION": "Standort",
+            "CHOOSE_LOCATION": {
+                "TITLE": "Standort auswählen",
+                "DESCRIPTION": "Wählen Sie einen Standort für diesen Beitrag aus",
+                "CANCEL": "Abbrechen",
+                "PROCEED": "Fortfahren"
+            }
         },
         "TWITTER": {
             "TITLE": "Birdy",
@@ -1111,6 +1144,8 @@
             "PROTECTED_POSTS": "Schütze deine Tweets",
             "BIO": "Beschreibung",
             "SIGN_OUT": "Abmelden",
+            "CHANGE_PASSWORD": "Passwort ändern",
+            "DELETE_ACCOUNT": "Account löschen",
             "SIGN_OUT_POPUP": {
                 "TITLE": "Abmelden",
                 "DESCRIPTION": "Bist du dir sicher, dass du dich abmelden willst?",
@@ -1199,6 +1234,7 @@
             "ACTIONS": "Verwaltung",
             "COMPANIES": "Unternehmen",
             "MESSAGES": "Nachrichten",
+            "SETTINGS": "Settings",
 
             "CLOSED": "Geschlossen",
             "YOUR_MESSAGES": "Deine Nachrichten",
@@ -1406,6 +1442,8 @@
             "MESSAGE": "Nachricht",
             "CHANGE_PHOTO": "Foto ändern",
             "LOGOUT": "Abmelden",
+            "CHANGE_PASSWORD": "Passwort ändern",
+            "DELETE_ACCOUNT": "Account löschen",
             "ADD_TO_YOUR_PROFILE": "Zu deinem Profil hinzufügen",
             "LIKED_HIDDEN_TITLE": "Die von diesem User geliketen Videos sind privat.",
             "LIKED_HIDDEN_SUBTITLE": "Videos, die {name} geliket hat, sind derzeit privat.",
@@ -1425,6 +1463,7 @@
             "ADD_ACCOUNT_TITLE": "Account hinzufügen",
             "ADD_ACCOUNT": "Füge {name} zu deinem Profil hinzu",
             "UPLOAD_VIDEO": "Video hochladen",
+            "UPLOAD": "Hochladen",
             "PREVIEW": "Vorschau",
             "CAPTION": "Titel",
             "CAPTION_PLACEHOLDER": "Füge einen Titel hinzu...",
@@ -1444,7 +1483,8 @@
         },
         "VOICEMEMO": {
             "TITLE": "Sprachnotiz",
-            "ALL_RECORDINGS": "Alle Aufnahmen",
+            "VOICE_RECORDINGS": "Sprachaufnahmen",
+            "SEARCH_RECORDINGS": "Aufnahmen suchen",
             "DEFAULT_NAME": "Neue Aufnahme",
             "DELETE_POPUP": {
                 "TITLE": "Sprachnotiz löschen",
@@ -1487,8 +1527,10 @@
         },
         "SHARE": {
             "COPY_PHOTO": "Foto kopieren",
+            "COPY_VIDEO": "Video kopieren",
             "USE_WALLPAPER": "Als Hintergrundbild verwenden",
             "COPY_NUMBER": "Nummer kopieren",
+            "COPY_LINK": "Link kopieren",
             "AIRDROP_SENT": "Airdrop gesendet",
             "AIRDROP_ACCEPTED": "Angenommen",
             "AIRDROP_DECLINED": "Abgelehnt",
@@ -1567,6 +1609,7 @@
     },
     "HOMESCREEN": {
         "DONE": "Fertig",
+        "CLOSE_ALL": "Alles schließen",
         "REMOVE_APP_POPUP": {
             "TITLE": "'{app}' entfernen?",
             "DESCRIPTION": "Beim Löschen dieser App werden die Daten NICHT gelöscht. Die App kann später im App Store neu installiert werden.",
@@ -1648,7 +1691,9 @@
             "FLIP_CAMERA": "Drücke {key} um die Kamera zu drehen",
             "TOGGLE_FLASH": "Drücke {key} um den Blitz umzuschalten",
             "TOGGLE_CURSOR": "Drücke {key} um den Cursor umzuschalten und dich umzusehen",
-            "CHANGE_MODE": "Drücke {key} {key2} um den Kameramodus zu wechseln"
+            "CHANGE_MODE": "Drücke {key} {key2} um den Kameramodus zu wechseln",
+            "ROLL": "Drücke {key} {key2}, um die Kamera zu drehen",
+            "FREEZE": "Drücke {key}, um die Kamera einzufrieren/aufzutauen"
         },
         "SERVICES": {
             "NEW_MESSAGE": "Neue Nachricht",
@@ -1680,11 +1725,11 @@
                 "TITLE": "Du wurdest abgemeldet",
                 "DESCRIPTION": "Du wurdest von deinem Konto abgemeldet, da dein Passwort geändert wurde."
             },
-        
+
             "DELETED_NOTIFICATION": {
                 "TITLE": "Konto gelöscht",
                 "DESCRIPTION": "Dein Konto wurde gelöscht."
-            }        
+            }
         },
         "CRYPTO": {
             "RECEIVED_TRANSFER_TITLE": "{coin} erhalten",
@@ -1752,7 +1797,7 @@
                 "TITLE": "Passwort geändert",
                 "DESCRIPTION": "{number} hat das Passwort für das Konto {username} auf {app} geändert."
             },
-        
+
             "DELETED_ACCOUNT": {
                 "TITLE": "Konto gelöscht",
                 "DESCRIPTION": "{number} hat das Konto {username} auf {app} gelöscht."
