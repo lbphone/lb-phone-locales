@@ -787,6 +787,7 @@
             }
         },
         "MARKETPLACE": {
+            "MARKETPLACE": "市场",
             "TITLE": "市场",
             "SEARCH": "搜索帖子或号码",
             "HOME": "首页",
