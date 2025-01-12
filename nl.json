@@ -456,7 +456,6 @@
             "EDIT": "Bewerken",
             "READ": "Read",
             "CANCEL": "Annuleer",
-            "CANCEL": "Annuleer",
             "SEND": "Verstuur",
             "UNKNOWN": "Onbekend",
             "TO": "Naar",
@@ -466,6 +465,7 @@
             "LEAVE_GROUP": "Gesprek verlaten",
             "SENT_LOCATION": "Heeft een locatie gedeeld, druk om in Maps te openen",
             "SENT_LOCATION_SHORT": "Heeft zijn locatie gedeeld",
+            "TRIED_TO_CALL": "{number} heeft je geprobeerd te bellen",
             "DELETE": "Verwijder",
             "GROUP": "Groep",
             "GROUP_NAME": "Groepsnaam",
@@ -589,6 +589,7 @@
                 "MESSAGE": "bericht",
                 "CALL": "bel",
                 "VIDEO": "video",
+                "SHARE": "Delen",                
                 "MAIN": "hoofd",
                 "SHARE_CONTACT": "Deel contact",
                 "SHARE_LOCATION": "Deel mijn locatie",
@@ -1699,13 +1700,13 @@
             "ANONYMOUS": "Anoniem"
         },
         "TWITTER": {
-            "LIKE": "{displayName} vind je video leuk.",
-            "COMMENT": "{displayName} heeft op je video gereageerd.",
-            "FOLLOW": "{displayName} volgt je nu.",
-            "SAVE": "{displayName} heeft je video toegevoegd aan favorieten.",
-            "LIKED_COMMENT": "{displayName} vind je reactie leuk.",
-            "REPLIED_COMMENT": "{displayName} heeft gereageerd op je reactie.",
-            "DM": "{displayName}"
+            "LIKE": "Vind ik leuk van {displayName}:",
+            "RETWEET": "ReTjilp door {displayName}:",
+            "REPLY": "{displayName} heeft gereageerd:",
+            "FOLLOW": "{username} volgt jou nu",
+            "TWEET": "{username} heeft zojuist iets geTjilpt",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "@{username} heeft jouw volgverzoek geaccepteerd.",
+            "NEW_FOLLOW_REQUEST": "@{username} heeft gevraagd om jou te volgen!"
         },
         "TIKTOK": {
             "LIKE": "{displayName} vind je video leuk.",
