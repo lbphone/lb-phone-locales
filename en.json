@@ -44,7 +44,7 @@
             "DONE": "Done",
             "EDIT": "Edit",
             "AIRPLANE_MODE": "Airplane Mode",
-            "AIRPLANE_MODE_DESCRIPTION": "Disable calls, cellular data, etc.",
+            "AIRPLANE_MODE_DESCRIPTION": "Disable calls, cellular data etc.",
             "STREAMER_MODE": "Streamer Mode",
             "STREAMER_MODE_DESCRIPTION": "Blurs sensitive information",
             "GENERAL": "General",
@@ -104,7 +104,7 @@
             "ALLOW_NOTIFICATIONS": "Allow Notifications",
             "SOUNDS": "Sounds",
             "PHONE": "Phone",
-            "PHONE_DESCRIPTION": "Toggle caller id, block numbers, etc.",
+            "PHONE_DESCRIPTION": "Toggle caller id, block numbers etc.",
             "BLOCKED_CONTACTS": "Blocked Contacts",
             "MY_NUMBER": "My Number",
             "SHOW_CALLER_ID": "Show Caller ID",
@@ -154,13 +154,13 @@
             "BACKUPS": "Backups",
             "SAVE_BACKUP_POPUP": {
                 "TITLE": "Save Backup",
-                "TEXT": "Are you sure you want to save a backup of your data? (Will save your contacts, photos, and settings)",
+                "TEXT": "Are you sure you want to save a backup of your data? (Will save your contacts, photos and settings)",
                 "CANCEL": "Cancel",
                 "CONFIRM": "Save"
             },
             "APPLY_BACKUP_POPUP": {
                 "TITLE": "Apply Backup",
-                "TEXT": "Are you sure you want to apply this backup? (Will overwrite your contacts, photos, and settings)",
+                "TEXT": "Are you sure you want to apply this backup? (Will overwrite your contacts, photos and settings)",
                 "CANCEL": "Cancel",
                 "CONFIRM": "Apply"
             },
@@ -651,7 +651,7 @@
             "NEXT": "Next",
             "DONE": "Done",
             "DONE_SUBTITLE": "You sent {amount} to {number}",
-            "NO_REFUNDS": "Payments are non-refundable, double check the number.",
+            "NO_REFUNDS": "Payments are non refundable, double check the number.",
             "NEW_BALANCE": "New Balance",
             "HOME": "Home",
             "LATEST_TRANSACTIONS": "Latest Transactions",
@@ -674,7 +674,7 @@
             },
             "AIRPLANE_MODE": {
                 "TITLE": "Error",
-                "DESCRIPTION": "You're trying to perform an action that requires internet access, disable airplane mode to continue."
+                "DESCRIPTION": "You're trying to perform a action that requires internet access, disable airplane mode to continue."
             },
             "INVALID_AMOUNT": {
                 "TITLE": "Invalid amount",
@@ -1228,7 +1228,10 @@
             "NEW_POSTS": "New Posts",
             "NEW_POST": "New Post",
             "PROTECTED_TWEETS_TITLE": "These posts are protected.",
-            "PROTECTED_TWEETS_DESCRIPTION": "Only confirmed followers have access to @{username}'s posts and complete profile. Tap the 'Follow' button to send a follow request."
+            "PROTECTED_TWEETS_DESCRIPTION": "Only confirmed followers have access to @{username}'s posts and complete profile. Tap the 'Follow' button to send a follow request.",
+            "INVALID_ACCOUNT": "Invalid account",
+            "INVALID_PASSWORD": "Invalid password",
+            "USERNAME_TAKEN": "Username is already taken"
         },
         "SERVICES": {
             "ACTIONS": "Actions",
@@ -1340,8 +1343,8 @@
                 "NEXT": "Next"
             },
             "SUCCESSFULLY_TRANSFERED_POPUP": {
-                "TITLE": "Successfully transferred",
-                "DESCRIPTION": "You successfully transferred ${amount} of {coin} to {number}",
+                "TITLE": "Successfully transfered",
+                "DESCRIPTION": "You successfully transfered ${amount} of {coin} to {number}",
                 "CLOSE": "Close"
             }
         },
@@ -1595,7 +1598,7 @@
         "SELECT_LANGUAGE": "Select your language",
         "NEXT": "Click to open",
         "CREATE_PASSCODE": "Set a pin",
-        "CREATE_PASSCODE_TEXT": "A pin code is used to secure your device and is required to unlock it.",
+        "CREATE_PASSCODE_TEXT": "A pin code is used to secure your deviceand is required to unlock it.",
         "SKIP": "Skip",
         "FACE_ID_SETUP": "Face Unlock",
         "FACE_ID_TEXT": "Set up Face Unlock to easily open your phone without entering your pin code.",
@@ -1723,7 +1726,7 @@
 
             "LOGGED_OUT_PASSWORD": {
                 "TITLE": "You were logged out",
-                "DESCRIPTION": "You were logged out from your account since your password was changed."
+                "DESCRIPTION": "You were logged out from your account sincce your password was changed."
             },
 
             "DELETED_NOTIFICATION": {
