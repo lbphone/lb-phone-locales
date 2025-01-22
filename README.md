@@ -8,26 +8,26 @@ Discord: https://discord.gg/zKfDSem4Sj
 
 
 ## Locales Status:
-*11/21 locales up to date*
+*1/21 locales up to date*
 - ✅ **en.json** (Base Locale)
 - ❌ **ar.json**
-- ✅ **ba.json**
+- ❌ **ba.json**
 - ❌ **cs.json**
-- ✅ **de.json**
-- ✅ **dk.json**
+- ❌ **de.json**
+- ❌ **dk.json**
 - ❌ **es.json**
-- ✅ **fr.json**
+- ❌ **fr.json**
 - ❌ **hu.json**
-- ✅ **it.json**
-- ✅ **nl.json**
+- ❌ **it.json**
+- ❌ **nl.json**
 - ❌ **no.json**
-- ✅ **pl.json**
-- ✅ **pt-br.json**
-- ✅ **pt-pt.json**
+- ❌ **pl.json**
+- ❌ **pt-br.json**
+- ❌ **pt-pt.json**
 - ❌ **ru.json**
 - ❌ **sv.json**
 - ❌ **th.json**
 - ❌ **tr.json**
 - ❌ **ua.json**
-- ✅ **zh-cn.json**
+- ❌ **zh-cn.json**
 <!-- Recap End -->
