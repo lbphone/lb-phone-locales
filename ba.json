@@ -1228,7 +1228,10 @@
             "NEW_POSTS": "Nove objave",
             "NEW_POST": "Nova objava",
             "PROTECTED_TWEETS_TITLE": "Ove objave su zaštićene.",
-            "PROTECTED_TWEETS_DESCRIPTION": "Samo prihvaćeni pratitelji imaju uvid u @{username} objave. Zaprati da bi mogao vidjeti objave."
+            "PROTECTED_TWEETS_DESCRIPTION": "Samo prihvaćeni pratitelji imaju uvid u @{username} objave. Zaprati da bi mogao vidjeti objave.",
+            "INVALID_ACCOUNT": "Nepostojeći nalog",
+            "INVALID_PASSWORD": "Neispravna lozinka",
+            "USERNAME_TAKEN": "Taj username se već koristi"
         },
         "SERVICES": {
             "ACTIONS": "Mogućnosti",

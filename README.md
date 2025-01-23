@@ -11,7 +11,7 @@ Discord: https://discord.gg/zKfDSem4Sj
 *2/21 locales up to date*
 - ✅ **en.json** (Base Locale)
 - ❌ **ar.json**
-- ❌ **ba.json**
+- ✅ **ba.json**
 - ❌ **cs.json**
 - ❌ **de.json**
 - ❌ **dk.json**
