@@ -151,13 +151,13 @@
             "CLOUD_BACKUP": "Sauvegarde sur le cloud",
             "YOUR_PROFILE": "Votre profil",
             "CREATE_BACKUP": "Créer une sauvegarde",
+            "BACKUPS": "Sauvegardes",
             "SAVE_BACKUP_POPUP": {
                 "TITLE": "Enregistrer la sauvegarde",
                 "TEXT": "Voulez-vous vraiment enregistrer une sauvegarde de vos données ? (Enregistrera vos contacts, photos et paramètres)",
                 "CANCEL": "Annuler",
                 "CONFIRM": "Confirmer"
             },
-            "BACKUPS": "Sauvegardes",
             "APPLY_BACKUP_POPUP": {
                 "TITLE": "Appliquer la sauvegarde",
                 "TEXT": "Voulez-vous vraiment appliquer cette sauvegarde ? (Écrasera vos contacts, photos et paramètres)",
@@ -1228,7 +1228,10 @@
             "NEW_POSTS": "Nouvelles publications",
             "NEW_POST": "Nouvvelle publication",
             "PROTECTED_TWEETS_TITLE": "Ces publications sont privés.",
-            "PROTECTED_TWEETS_DESCRIPTION": "Seuls les abonnés confirmés peuvent voir les publications et le profil de @{username}."
+            "PROTECTED_TWEETS_DESCRIPTION": "Seuls les abonnés confirmés peuvent voir les publications et le profil de @{username}.",
+            "INVALID_ACCOUNT": "Compte Invalid",
+            "INVALID_PASSWORD": "Mot de Passe Invalid",
+            "USERNAME_TAKEN": "Ce nom d'utilisateur est déjà pris"
         },
         "SERVICES": {
             "ACTIONS": "Actions",
