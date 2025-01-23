@@ -792,11 +792,11 @@
             "TITLE": "Titre",
             "SEARCH": "Rechercher des listes ou des numéros",
             "HOME": "Accueil",
-            "YOUR_POSTS": "Vos Posts",
+            "YOUR_POSTS": "Vos Publications",
             "PRICE": "Prix",
             "DESCRIPTION": "Description",
             "IMAGES": "Images",
-            "POST": "Poster",
+            "POST": "Publier",
             "AMOUNT_OF_TOTAL": "{amount} sur {total}",
             "MESSAGE": "Message",
             "CALL": "Appeler",
@@ -822,7 +822,7 @@
             "SEARCH": "Rechercher des messages ou des numéros",
             "FROM": "De",
             "CANCEL": "Annuler",
-            "NEW_POST": "Nouveau post",
+            "NEW_POST": "Nouvelle publication",
             "TITLE": "Titre",
             "DESCRIPTION": "Description",
             "PRICE": "Prix",
@@ -1012,8 +1012,8 @@
                 "PROCEED": "Suivant"
             },
             "DELETE_POST_POPUP": {
-                "TITLE": "Supprimer ce post",
-                "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer ce post ?",
+                "TITLE": "Supprimer cette publication",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer cette publication ?",
                 "CANCEL": "Annuler",
                 "PROCEED": "Suivant"
             },
@@ -1055,7 +1055,7 @@
             "EMPTY_FEED": "Commencez par suivre des gens pour voir leurs photos et vidéos ici",
             "COMMENTS": "Commentaires",
             "ADD_COMMENT_AS": "Ajouter des commentaires en tant que {name}",
-            "NEW_POST": "Nouveau post",
+            "NEW_POST": "Nouvelle publication",
             "NEXT": "Suivant",
             "CAPTION_PLACEHOLDER": "Écrivez une description...",
             "ACTIVITY": "Activité",
@@ -1077,7 +1077,7 @@
             "HAVE_ACCOUNT": "Vous avez déjà un compte ?",
             "LIKED_PHOTO": "a liké votre photo.",
             "LIKED_COMMENT": "a liké votre commentaire: {comment}",
-            "COMMENTED": "a commenté votre post: {comment}",
+            "COMMENTED": "a commenté votre publication: {comment}",
             "FOLLOWED": "a commencé à vous suivre",
             "DONE": "Fait",
             "EDIT_PROFILE": "Modifier votre profil",
@@ -1117,7 +1117,7 @@
             "LOCATION": "Lieux",
             "CHOOSE_LOCATION": {
                 "TITLE": "Choisir un lieu",
-                "DESCRIPTION": "Choisissez un lieu pour ce post",
+                "DESCRIPTION": "Choisissez un lieu pour cette publication",
                 "CANCEL": "Annuler",
                 "PROCEED": "Valider"
             }
@@ -1225,10 +1225,10 @@
             "PROMOTED": "Sponsorisé",
             "ADD_ACCOUNT": "Ajouter un compte",
             "FOLLOWER_REQUESTS": "Demandes de suivi",
-            "NEW_POSTS": "Nouveaux Posts",
-            "NEW_POST": "Nouvveau Post",
-            "PROTECTED_TWEETS_TITLE": "Ces posts sont privés.",
-            "PROTECTED_TWEETS_DESCRIPTION": "Seuls les abonnés confirmés peuvent voir les posts et le profil de @{username}."
+            "NEW_POSTS": "Nouvelles publications",
+            "NEW_POST": "Nouvvelle publication",
+            "PROTECTED_TWEETS_TITLE": "Ces publications sont privés.",
+            "PROTECTED_TWEETS_DESCRIPTION": "Seuls les abonnés confirmés peuvent voir les publications et le profil de @{username}."
         },
         "SERVICES": {
             "ACTIONS": "Actions",
@@ -1704,7 +1704,7 @@
             "RETWEET": "Republié par {displayName}:",
             "REPLY": "{displayName} a répondu:",
             "FOLLOW": "{username} a commencé à vous suivre",
-            "TWEET": "{username} vient de poster",
+            "TWEET": "{username} vient de publier",
             "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "@{username} a accepté votre demande de suivi.",
             "NEW_FOLLOW_REQUEST": "@{username} a demandé à vous suivre!"
         },
@@ -1770,13 +1770,13 @@
             "DARKCHAT_MESSAGE_TITLE": "Nouveau message",
             "DARKCHAT_MESSAGE_DESCRIPTION": "{sender} a envoyé un message dans {channel}: {message}",
 
-            "MARKETPLACE_NEW_TITLE": "Nouveau post",
+            "MARKETPLACE_NEW_TITLE": "Nouvelle publication",
             "MARKETPLACE_NEW_DESCRIPTION": "**Vendeur**: {seller}\n**Titre**: {title}\n**Prix**: ${price}\n**Description**: {description}\n**Pièces-jointes**: {attachments}\n**ID:** {id}",
-            "MARKETPLACE_DELETED": "Post supprimé",
+            "MARKETPLACE_DELETED": "Publication supprimé",
 
-            "YELLOWPAGES_NEW_TITLE": "Nouveau post",
+            "YELLOWPAGES_NEW_TITLE": "Nouvelle publication",
             "YELLOWPAGES_NEW_DESCRIPTION": "**Titre**: {title}\n**Description**: {description}\n**Pièces-jointes**: {attachment}\n**ID:** {id}",
-            "YELLOWPAGES_DELETED": "Post supprimé",
+            "YELLOWPAGES_DELETED": "Publication supprimé",
 
             "LIVE_TITLE": "Live",
             "STARTED_LIVE": "{username} a commencé un live",
