@@ -1,0 +1,59 @@
+name: Update Readme Locale Recap
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '*.json'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Set Up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install Dependencies
+      run: |
+        cd .github/scripts
+        npm install
+
+    - name: Bump package version
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+    - name: Update ReadMe
+      run: |
+        node ./.github/scripts/validate-locale-files.js --skipdetails --updatereadme
+      continue-on-error: true
+
+    - name: Check Readme has changed
+      id: check-readme
+      run: |
+        git status --porcelain README.md | grep '^[ AM]' > /dev/null
+        if [[ $? -eq 0 ]]; then
+          echo "Changes detected in README.md"
+          echo "README_CHANGED=true" >> $GITHUB_ENV
+        else
+          echo "No changes in README.md"
+          echo "README_CHANGED=false" >> $GITHUB_ENV
+        fi
+      continue-on-error: true
+
+    - name: Commit Changes
+      if: env.README_CHANGED == 'true'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git add README.md
+        git commit -m "Update README.md with locale validation changes"
+        git push
