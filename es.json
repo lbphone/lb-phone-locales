@@ -210,7 +210,6 @@
                 "YESTERDAY": "Pasado",
                 "LOCAL_TIME": "Hora local",
                 "HRS": "{time} hrs"
-                "YESTERDAY": "Pasado"
             },
             "ALARM": {
                 "TITLE": "Alarma",
@@ -279,22 +278,7 @@
             "NO_CHATS_TEXT": "No haz ingresado a ningún canal. Únete/crea (a) uno presionando el signo más en la esquina superior derecha",
             "MEMBER": "Integrante",
             "MEMBERS": "Integrantes",
-            "SET_USERNAME": "Establece tu nombre de usuario. NOTA: SÓLO SE PUEDE AJUSTAR UNA VEZ",
-            "CANCEL": "Cancelar",
-            "SET": "Fijar",
-            "JOIN": "Entrar",
-            "LEAVE": "Salir",
-            "NEW_ROOM": "Nueva sala",
-            "NEW_ROOM_TEXT": "Escriba un código de sala para unirse o crear una sala",
-            "ROOM_CODE": "Código de sala",
-            "LEAVE_ROOM": "Dejar sala",
-            "LEAVE_ROOM_TEXT": "¿Estás segur@ de que quieres salir de esta sala?",
-            "NOW": "Ahora",
-            "INPUT_PLACEHOLDER": "Escribe un mensaje...",
-            "NO_CHATS": "Sin chats",
-            "NO_CHATS_TEXT": "Aún no te has unido a ningún canal. Únete o crea uno pulsando el signo más en la esquina superior derecha.",
-            "MEMBER": "Miembro",
-            "MEMBERS": "Miembros",
+
             "USERNAME": "Usuario",
             "PASSWORD": "Contraseña",
             "LOGIN": "Iniciar sesión",
@@ -642,7 +626,6 @@
                 "TITLE": "Recientes",
                 "ALL": "Todas",
                 "MISSED": "Perdidas"
-                "TITLE": "Recientes"
             },
             "VOICEMAIL": {
                 "TITLE": "Mensaje de voz",
@@ -1138,8 +1121,6 @@
                 "CANCEL": "Cancelar",
                 "PROCEED": "Proceder"
             }
-            "INCORRECT_PASSWORD": "Contraseña incorrecta",
-            "OK": "OK"
         },
         "TWITTER": {
             "TITLE": "Birdy",
@@ -1251,13 +1232,13 @@
             "INVALID_ACCOUNT": "Cuenta no válida",
             "INVALID_PASSWORD": "Contraseña no válida",
             "USERNAME_TAKEN": "El nombre de usuario se encuentra ocupado"
-            "PROTECTED_TWEETS_DESCRIPTION": "Solo los seguidores confirmados tienen acceso a publicaciones y perfil completo de @{username}'s. Presiona el botón 'Seguir' para enviar solicitud de seguimiento."
         },
         "SERVICES": {
             "ACTIONS": "Acciones",
             "COMPANIES": "Compañías",
             "MESSAGES": "Mensajes",
             "SETTINGS": "Ajustes",
+
             "CLOSED": "Cerrado",
             "YOUR_MESSAGES": "Tus mensajes",
             "JOB_MESSAGES": "Mensajes trabajo",
@@ -1716,7 +1697,6 @@
             "CHANGE_MODE": "Presiona {key} {key2} para cambiar el modo de cámara",
             "ROLL": "Presiona {key} {key2} mover la cámara",
             "FREEZE": "Presiona {key} para congelar/descongelar cámara"
-            "CHANGE_MODE": "Presiona {key} {key2} para cambiar el modo de cámara"
         },
         "SERVICES": {
             "NEW_MESSAGE": "Nuevo mensaje",
