@@ -28,6 +28,6 @@ Discord: https://discord.gg/zKfDSem4Sj
 - ❌ **sv.json**
 - ❌ **th.json**
 - ❌ **tr.json**
-- ❌ **ua.json**
+- ✅ **ua.json**
 - ❌ **zh-cn.json**
 <!-- Recap End -->
