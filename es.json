@@ -151,13 +151,13 @@
             "CLOUD_BACKUP": "Respaldo en la nube",
             "YOUR_PROFILE": "Tu perfil",
             "CREATE_BACKUP": "Crear respaldo",
+            "BACKUPS": "Respaldos",
             "SAVE_BACKUP_POPUP": {
                 "TITLE": "Guardar copia de seguridad",
                 "TEXT": "¿Estás segur@ de que desea guardar una copia de seguridad de sus datos? (Guardará sus contactos, fotos y configuraciones)",
                 "CANCEL": "Cancelar",
                 "CONFIRM": "Guardar"
             },
-            "BACKUPS": "Respaldos",
             "APPLY_BACKUP_POPUP": {
                 "TITLE": "Aplicar respaldo",
                 "TEXT": "¿Estás segur@ de que desea aplicar esta copia de seguridad? (Sobrescribirá sus contactos, fotos y configuraciones)",
