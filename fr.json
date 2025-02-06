@@ -1226,11 +1226,11 @@
             "ADD_ACCOUNT": "Ajouter un compte",
             "FOLLOWER_REQUESTS": "Demandes de suivi",
             "NEW_POSTS": "Nouvelles publications",
-            "NEW_POST": "Nouvvelle publication",
+            "NEW_POST": "Nouvelle publication",
             "PROTECTED_TWEETS_TITLE": "Ces publications sont privés.",
             "PROTECTED_TWEETS_DESCRIPTION": "Seuls les abonnés confirmés peuvent voir les publications et le profil de @{username}.",
-            "INVALID_ACCOUNT": "Compte Invalid",
-            "INVALID_PASSWORD": "Mot de Passe Invalid",
+            "INVALID_ACCOUNT": "Compte Invalide",
+            "INVALID_PASSWORD": "Mot de Passe Invalide",
             "USERNAME_TAKEN": "Ce nom d'utilisateur est déjà pris"
         },
         "SERVICES": {
