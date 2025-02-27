@@ -285,6 +285,7 @@
             "SIGN_UP": "Sign Up",
             "NO_ACCOUNT": "Don't have an account?",
             "ALREADY_HAVE": "Already have an account?",
+            "USERNAME_NOT_ALLOWED": "Username not allowed",
 
             "CHANGE_ACCOUNT": "Change Account",
             "CHANGE_PASSWORD": "Change Password",
@@ -1113,6 +1114,7 @@
             "UNKNOWN_ACCOUNT": "Account does not exist",
             "INVALID_USERNAME": "Invalid username",
             "INCORRECT_PASSWORD": "Incorrect password",
+            "USERNAME_NOT_ALLOWED": "Username not allowed",
             "OK": "OK",
             "LOCATION": "Location",
             "CHOOSE_LOCATION": {
@@ -1231,7 +1233,8 @@
             "PROTECTED_TWEETS_DESCRIPTION": "Only confirmed followers have access to @{username}'s posts and complete profile. Tap the 'Follow' button to send a follow request.",
             "INVALID_ACCOUNT": "Invalid account",
             "INVALID_PASSWORD": "Invalid password",
-            "USERNAME_TAKEN": "Username is already taken"
+            "USERNAME_TAKEN": "Username is already taken",
+            "USERNAME_NOT_ALLOWED": "Username not allowed"
         },
         "SERVICES": {
             "ACTIONS": "Actions",
