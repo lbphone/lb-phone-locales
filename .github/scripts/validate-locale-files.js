@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const enJson = JSON.parse(fs.readFileSync('en.json', 'utf-8'));
 const parentDir = __dirname.includes('scripts') ? path.resolve(__dirname, '../../') : __dirname;
+const enJson = JSON.parse(fs.readFileSync(path.join(parentDir, 'en.json'), 'utf-8'));
 
 function validateEnJsonFile(fileName) {
     try {
