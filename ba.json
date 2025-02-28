@@ -285,6 +285,7 @@
             "SIGN_UP": "Kreiraj nalog",
             "NO_ACCOUNT": "Nemate korisnički nalog?",
             "ALREADY_HAVE": "Već imate korisnički nalog?",
+            "USERNAME_NOT_ALLOWED": "Ime nije dozvoljeno",
 
             "CHANGE_ACCOUNT": "Promjeni nalog",
             "CHANGE_PASSWORD": "Promjeni šifru",
@@ -1113,6 +1114,7 @@
             "UNKNOWN_ACCOUNT": "Nalog ne postoji",
             "INVALID_USERNAME": "Neispravano ime",
             "INCORRECT_PASSWORD": "Neispravna šifra",
+            "USERNAME_NOT_ALLOWED": "Ime nije dozvoljeno",
             "OK": "OK",
             "LOCATION": "Lokacija",
             "CHOOSE_LOCATION": {
@@ -1231,7 +1233,8 @@
             "PROTECTED_TWEETS_DESCRIPTION": "Samo prihvaćeni pratitelji imaju uvid u @{username} objave. Zaprati da bi mogao vidjeti objave.",
             "INVALID_ACCOUNT": "Nepostojeći nalog",
             "INVALID_PASSWORD": "Neispravna lozinka",
-            "USERNAME_TAKEN": "Taj username se već koristi"
+            "USERNAME_TAKEN": "To ime se već koristi",
+            "USERNAME_NOT_ALLOWED": "Ime nije dozvoljeno"
         },
         "SERVICES": {
             "ACTIONS": "Mogućnosti",
