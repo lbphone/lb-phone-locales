@@ -1234,7 +1234,7 @@
             "INVALID_ACCOUNT": "Compte Invalide",
             "INVALID_PASSWORD": "Mot de Passe Invalide",
             "USERNAME_TAKEN": "Ce nom d'utilisateur est déjà pris",
-            "USERNAME_NOT_ALLOWED": "Nom d'utilisateur non autorisé",
+            "USERNAME_NOT_ALLOWED": "Nom d'utilisateur non autorisé"
         },
         "SERVICES": {
             "ACTIONS": "Actions",
