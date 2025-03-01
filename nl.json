@@ -285,6 +285,7 @@
             "SIGN_UP": "Aanmelden",
             "NO_ACCOUNT": "Heb je nog geen account?",
             "ALREADY_HAVE": "Heb je al een account?",
+            "USERNAME_NOT_ALLOWED": "Gebruikersnaam is niet toegestaan",
             
             "CHANGE_ACCOUNT": "Verander Account",
             "CHANGE_PASSWORD": "Verander Wachtwoord",
@@ -1113,6 +1114,7 @@
             "UNKNOWN_ACCOUNT": "Account bestaat niet",
             "INVALID_USERNAME": "Verkeerde gebruikersnaam",
             "INCORRECT_PASSWORD": "Verkeerd wachtwoord",
+            "USERNAME_NOT_ALLOWED": "Gebruikersnaam is niet toegestaan",
             "OK": "OK",
             "LOCATION": "Locatie",
             "CHOOSE_LOCATION": {
@@ -1231,7 +1233,8 @@
             "PROTECTED_TWEETS_DESCRIPTION": "Alleen geverifeerde Birds hebben toegang tot @{username}'s posts en het complete profiel. Klik op de 'Volgen' knop om een volgverzoek te verzenden.",
             "INVALID_ACCOUNT": "Onbekend account",
             "INVALID_PASSWORD": "Onbekend password",
-            "USERNAME_TAKEN": "Gebruikersnaam is al in gebruik"
+            "USERNAME_TAKEN": "Gebruikersnaam is al in gebruik",
+            "USERNAME_NOT_ALLOWED": "Gebruikersnaam is niet toegestaan"
         },
         "SERVICES": {
             "ACTIONS": "Acties",
