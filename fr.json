@@ -285,6 +285,7 @@
             "SIGN_UP": "Inscription",
             "NO_ACCOUNT": "Vous n'avez pas de compte ?",
             "ALREADY_HAVE": "Vous avez déjà un compte ?",
+            "USERNAME_NOT_ALLOWED": "Nom d'utilisateur non autorisé",
 
             "CHANGE_ACCOUNT": "Changer de compte",
             "CHANGE_PASSWORD": "Changer de mot de passe",
@@ -1113,6 +1114,7 @@
             "UNKNOWN_ACCOUNT": "Compte inexistant",
             "INVALID_USERNAME": "Nom d'utilisateur inexistant",
             "INCORRECT_PASSWORD": "Mot de passe incorrect",
+            "USERNAME_NOT_ALLOWED": "Nom d'utilisateur non autorisé",
             "OK": "OK",
             "LOCATION": "Lieux",
             "CHOOSE_LOCATION": {
@@ -1231,7 +1233,8 @@
             "PROTECTED_TWEETS_DESCRIPTION": "Seuls les abonnés confirmés peuvent voir les publications et le profil de @{username}.",
             "INVALID_ACCOUNT": "Compte Invalide",
             "INVALID_PASSWORD": "Mot de Passe Invalide",
-            "USERNAME_TAKEN": "Ce nom d'utilisateur est déjà pris"
+            "USERNAME_TAKEN": "Ce nom d'utilisateur est déjà pris",
+            "USERNAME_NOT_ALLOWED": "Nom d'utilisateur non autorisé"
         },
         "SERVICES": {
             "ACTIONS": "Actions",
