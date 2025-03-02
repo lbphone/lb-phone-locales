@@ -31,10 +31,7 @@
         "Mail": "Email",
         "Services": "Services",
         "VoiceMemo": "Dictaphone",
-        "Twitter": "Birdy",
-        "Instagram": "InstaPic",
-        "Tinder": "Spark",
-        "TikTok": "Trendy"
+        "Twitter": "Birdy"
     },
 
     "APPS": {
