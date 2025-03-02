@@ -285,6 +285,7 @@
             "SIGN_UP": "Registrarse",
             "NO_ACCOUNT": "¿No tienes una cuenta?",
             "ALREADY_HAVE": "¿Ya tienes una cuenta?",
+            "USERNAME_NOT_ALLOWED": "Nombre de usuario no permitido",
 
             "CHANGE_ACCOUNT": "Cambiar cuenta",
             "CHANGE_PASSWORD": "Cambiar contraseña",
@@ -1113,6 +1114,7 @@
             "UNKNOWN_ACCOUNT": "La cuenta no existe",
             "INVALID_USERNAME": "Usuario incorrecto",
             "INCORRECT_PASSWORD": "Contraseña incorrecta",
+            "USERNAME_NOT_ALLOWED": "Nombre de usuario no permitido",
             "OK": "OK",
             "LOCATION": "Ubicación",
             "CHOOSE_LOCATION": {
@@ -1231,7 +1233,8 @@
             "PROTECTED_TWEETS_DESCRIPTION": "Solo los seguidores confirmados tienen acceso a publicaciones y perfil completo de @{username}. Presiona el botón 'Seguir' para enviar solicitud de seguimiento.",
             "INVALID_ACCOUNT": "Cuenta no válida",
             "INVALID_PASSWORD": "Contraseña no válida",
-            "USERNAME_TAKEN": "El nombre de usuario se encuentra ocupado"
+            "USERNAME_TAKEN": "El nombre de usuario se encuentra ocupado",
+            "USERNAME_NOT_ALLOWED": "Nombre de usuario no permitido"
         },
         "SERVICES": {
             "ACTIONS": "Acciones",
