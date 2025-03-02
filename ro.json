@@ -285,6 +285,7 @@
             "SIGN_UP": "Inregistrare",
             "NO_ACCOUNT": "Nu ai un cont?",
             "ALREADY_HAVE": "Ai deja un cont?",
+            "USERNAME_NOT_ALLOWED": "Numele de utilizator nu este acceptat!",
 
             "CHANGE_ACCOUNT": "Schimba Contul",
             "CHANGE_PASSWORD": "Schimba Parola",
@@ -1113,6 +1114,7 @@
             "UNKNOWN_ACCOUNT": "Contul nu exista",
             "INVALID_USERNAME": "Nume de utilizator invalid",
             "INCORRECT_PASSWORD": "Parola incorecta",
+            "USERNAME_NOT_ALLOWED": "Numele de utilizator nu este acceptat!",
             "OK": "OK",
             "LOCATION": "Locatie",
             "CHOOSE_LOCATION": {
@@ -1231,7 +1233,8 @@
             "PROTECTED_TWEETS_DESCRIPTION": "Doar urmaritorii confirmati au acces la postarile si profilul complet al lui @{username}. Apasa butonul 'Urmareste' pentru a trimite o cerere de urmarire.",
             "INVALID_ACCOUNT": "Cont invalid",
             "INVALID_PASSWORD": "Parola invalida",
-            "USERNAME_TAKEN": "Numele de utilizator este deja folosit"
+            "USERNAME_TAKEN": "Numele de utilizator este deja folosit",
+            "USERNAME_NOT_ALLOWED": "Numele de utilizator nu este acceptat!"
         },
         "SERVICES": {
             "ACTIONS": "Actiuni",
