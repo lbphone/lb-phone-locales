@@ -88,6 +88,8 @@
             "OF": "de",
             "DISPLAY_BRIGHTNESS": "Pantalla & Brillo",
             "DISPLAY_BRIGHTNESS_DESCRIPTION": "Ajustar la pantalla y el brillo",
+            "DARK": "Oscuro",
+            "LIGHT": "Claro",
             "APPEARANCE": "Apariencia",
             "AUTOMATIC": "Automática",
             "BRIGHTNESS": "Brillo",
@@ -120,6 +122,11 @@
             "RESET_FACE_ID": "Resetear ID rostro",
             "ENABLE_FACE_ID": "Habilitar ID rostro",
             "PIN_CODE": "Código PIN",
+            "PIN_CODE_ERROR": {
+                "TITLE": "Error",
+                "WRONG": "Código PIN incorrecto",
+                "OK": "OK"
+            },
             "DISABLE_FACE_ID_POPUP": {
                 "TITLE": "Desactivar identificación facial",
                 "TEXT": "¿Estás segur@ de que quieres desactivar Face ID?",
@@ -144,18 +151,25 @@
             "CLOUD_BACKUP": "Respaldo en la nube",
             "YOUR_PROFILE": "Tu perfil",
             "CREATE_BACKUP": "Crear respaldo",
+            "BACKUPS": "Respaldos",
             "SAVE_BACKUP_POPUP": {
                 "TITLE": "Guardar copia de seguridad",
                 "TEXT": "¿Estás segur@ de que desea guardar una copia de seguridad de sus datos? (Guardará sus contactos, fotos y configuraciones)",
                 "CANCEL": "Cancelar",
                 "CONFIRM": "Guardar"
             },
-            "BACKUPS": "Respaldos",
             "APPLY_BACKUP_POPUP": {
                 "TITLE": "Aplicar respaldo",
                 "TEXT": "¿Estás segur@ de que desea aplicar esta copia de seguridad? (Sobrescribirá sus contactos, fotos y configuraciones)",
                 "CANCEL": "Cancelar",
                 "CONFIRM": "Aplicar"
+            },
+            "BACKUP_ERROR_POPUP": {
+                "WARNING": "Advertencia",
+                "ERROR": "Error",
+                "ALREADY_HAVE": "Ya tienes un respaldo para este número",
+                "SAME_PHONE": "No puedes restaurar un respaldo creado con el mismo teléfono",
+                "OK": "OK"
             },
             "SUCCESS": "Operación exitosa",
             "SUCCESS_TEXT": "El teléfono se reiniciará en 5 segundos...",
@@ -193,7 +207,9 @@
                 "TITLE": "Reloj mundial",
                 "TODAY": "Hoy",
                 "TOMORROW": "Mañana",
-                "YESTERDAY": "Pasado"
+                "YESTERDAY": "Pasado",
+                "LOCAL_TIME": "Hora local",
+                "HRS": "{time} hrs"
             },
             "ALARM": {
                 "TITLE": "Alarma",
@@ -210,7 +226,8 @@
                 "BUTTON_CANCEL": "Cancelar",
                 "BUTTON_DELETE": "Eliminar",
                 "ALARMS": "Alarmas",
-                "NEW_ALARM": "Nueva alarma"
+                "NEW_ALARM": "Nueva alarma",
+                "EDIT_ALARM": "Editar Alarma"
             },
             "STOPWATCH": {
                 "TITLE": "Cronógrafo",
@@ -245,22 +262,22 @@
         },
         "DARKCHAT": {
             "TITLE": "Dark Chat",
-            "SET_USERNAME": "Establece tu nombre de usuario. NOTA: SÓLO SE PUEDE AJUSTAR UNA VEZ",
+            "SEARCH": "Buscar canales",
             "CANCEL": "Cancelar",
             "SET": "Fijar",
-            "JOIN": "Entrar",
+            "JOIN": "Unirse",
             "LEAVE": "Salir",
-            "NEW_ROOM": "Nueva sala",
-            "NEW_ROOM_TEXT": "Escriba un código de sala para unirse o crear una sala",
-            "ROOM_CODE": "Código de sala",
-            "LEAVE_ROOM": "Dejar sala",
-            "LEAVE_ROOM_TEXT": "¿Estás segur@ de que quieres salir de esta sala?",
+            "NEW_ROOM": "Nuevo canal",
+            "NEW_ROOM_TEXT": "Escribe el código del canal para ingresar o crea uno nuevo",
+            "ROOM_CODE": "Código del canal",
+            "LEAVE_ROOM": "Dejar canal",
+            "LEAVE_ROOM_TEXT": "¿Estás segur@ que deseas salir de este canal?",
             "NOW": "Ahora",
             "INPUT_PLACEHOLDER": "Escribe un mensaje...",
             "NO_CHATS": "Sin chats",
-            "NO_CHATS_TEXT": "Aún no te has unido a ningún canal. Únete o crea uno pulsando el signo más en la esquina superior derecha.",
-            "MEMBER": "Miembro",
-            "MEMBERS": "Miembros",
+            "NO_CHATS_TEXT": "No haz ingresado a ningún canal. Únete/crea (a) uno presionando el signo más en la esquina superior derecha",
+            "MEMBER": "Integrante",
+            "MEMBERS": "Integrantes",
 
             "USERNAME": "Usuario",
             "PASSWORD": "Contraseña",
@@ -380,6 +397,7 @@
             "REMOVE_FROM_ALBUM": "Quitar del Álbum",
             "ADD_TO_ALBUM": "Añadir a Álbum",
             "ADD_TO_FAVOURITES": "Añadir a Favoritos",
+            "REMOVE_FROM_FAVOURITES": "Quitar de favoritos",
             "VIDEOS": "Videos",
             "SELFIES": "Selfies",
             "SCREENSHOTS": "Capturas",
@@ -502,6 +520,7 @@
             "MARK_AS_READ": "Marcar como leído",
             "MESSAGE_DELETED": "Mensaje eliminado",
             "OPEN_IN_MAPS": "Abrir en Mapas",
+            "USERS_LOCATION": "Ubicación de {user}",
             "START_RECORDING": "Pulse el botón para iniciar la grabación",
             "LOADING": "Cargando...",
             "EMPTY_RECORDING": {
@@ -604,7 +623,9 @@
                 "ADD_NUMBER": "Añadir número"
             },
             "RECENTS": {
-                "TITLE": "Recientes"
+                "TITLE": "Recientes",
+                "ALL": "Todas",
+                "MISSED": "Perdidas"
             },
             "VOICEMAIL": {
                 "TITLE": "Mensaje de voz",
@@ -1090,8 +1111,16 @@
             "USERNAME_TAKEN": "El nombre de usuario ya existe",
             "UNKNOWN": "Error desconocido",
             "UNKNOWN_ACCOUNT": "La cuenta no existe",
+            "INVALID_USERNAME": "Usuario incorrecto",
             "INCORRECT_PASSWORD": "Contraseña incorrecta",
-            "OK": "OK"
+            "OK": "OK",
+            "LOCATION": "Ubicación",
+            "CHOOSE_LOCATION": {
+                "TITLE": "Escoge ubicación",
+                "DESCRIPTION": "Fija una ubicación para este post",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Proceder"
+            }
         },
         "TWITTER": {
             "TITLE": "Birdy",
@@ -1199,12 +1228,16 @@
             "NEW_POSTS": "Nuevas publicaciones",
             "NEW_POST": "Nueva publicación",
             "PROTECTED_TWEETS_TITLE": "Estas publicaciones están protegidas",
-            "PROTECTED_TWEETS_DESCRIPTION": "Solo los seguidores confirmados tienen acceso a publicaciones y perfil completo de @{username}'s. Presiona el botón 'Seguir' para enviar solicitud de seguimiento."
+            "PROTECTED_TWEETS_DESCRIPTION": "Solo los seguidores confirmados tienen acceso a publicaciones y perfil completo de @{username}. Presiona el botón 'Seguir' para enviar solicitud de seguimiento.",
+            "INVALID_ACCOUNT": "Cuenta no válida",
+            "INVALID_PASSWORD": "Contraseña no válida",
+            "USERNAME_TAKEN": "El nombre de usuario se encuentra ocupado"
         },
         "SERVICES": {
             "ACTIONS": "Acciones",
             "COMPANIES": "Compañías",
             "MESSAGES": "Mensajes",
+            "SETTINGS": "Ajustes",
 
             "CLOSED": "Cerrado",
             "YOUR_MESSAGES": "Tus mensajes",
@@ -1500,6 +1533,7 @@
             "COPY_VIDEO": "Copiar video",
             "USE_WALLPAPER": "Usar como fondo",
             "COPY_NUMBER": "Copiar número",
+            "COPY_LINK": "Copiar enlace",
             "AIRDROP_SENT": "Enviado",
             "AIRDROP_ACCEPTED": "Aceptado",
             "AIRDROP_DECLINED": "Rechazado",
@@ -1567,7 +1601,7 @@
         "CREATE_PASSCODE_TEXT": "Se utiliza un código PIN para proteger su dispositivo y es necesario para desbloquearlo",
         "SKIP": "Saltar",
         "FACE_ID_SETUP": "Desbloqueo facial",
-        "FACE_ID_TEXT": "Configura desbloqueo facial para abrir fácilmente tu teléfono sin ingresar su código PIN.",
+        "FACE_ID_TEXT": "Configura desbloqueo facial para abrir fácilmente el teléfono sin ingresar tu código PIN.",
         "FACE_ID_TEXT_ALT": "El desbloqueo facial solo funciona cuando tu cara no está obstruida",
         "ENABLE_FACE_ID": "Habilitar desbloqueo facial",
         "APPEARANCE": "Tema",
@@ -1660,7 +1694,9 @@
             "FLIP_CAMERA": "Presiona {key} para voltear cámara",
             "TOGGLE_FLASH": "Presiona {key} para alternar flash",
             "TOGGLE_CURSOR": "Presiona {key} para alternar el cursor y mirar alrededor",
-            "CHANGE_MODE": "Presiona {key} {key2} para cambiar el modo de cámara"
+            "CHANGE_MODE": "Presiona {key} {key2} para cambiar el modo de cámara",
+            "ROLL": "Presiona {key} {key2} mover la cámara",
+            "FREEZE": "Presiona {key} para congelar/descongelar cámara"
         },
         "SERVICES": {
             "NEW_MESSAGE": "Nuevo mensaje",
