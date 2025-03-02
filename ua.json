@@ -30,7 +30,7 @@
         "Crypto": "Криптовалюта",
         "Mail": "Пошта",
         "Services": "Послуги",
-        "VoiceMemo": "Голосовi нагадування",
+        "VoiceMemo": "Диктофон",
         "Twitter": "Пташка",
         "Instagram": "iнста-пiк",
         "Tinder": "Знайомства",
@@ -88,8 +88,8 @@
             "OF": "з",
             "DISPLAY_BRIGHTNESS": "Дисплей & яскравiсть",
             "DISPLAY_BRIGHTNESS_DESCRIPTION": "Вiдрегулюйте дисплей i яскравiсть",
-            "DARK": "Dark",
-            "LIGHT": "Light",
+            "DARK": "Темна",
+            "LIGHT": "Світла",
             "APPEARANCE": "Зовнiшнiй вигляд",
             "AUTOMATIC": "Автоматично",
             "BRIGHTNESS": "Яскравiсть",
@@ -106,7 +106,7 @@
             "PHONE": "Телефон",
             "PHONE_DESCRIPTION": "Перемикання iдентифiкатора абонента, блокування номерiв тощо.",
             "BLOCKED_CONTACTS": "Заблокованi контакти",
-            "MY_NUMBER": "My Number",
+            "MY_NUMBER": "Мій номер",
             "SHOW_CALLER_ID": "Показати iдентифiкатор абонента",
             "UNBLOCK_POPUP": {
                 "TITLE": "Розблокувати номер",
@@ -123,8 +123,8 @@
             "ENABLE_FACE_ID": "Увiмкнути Фейс-ID",
             "PIN_CODE": "PIN код",
             "PIN_CODE_ERROR": {
-                "TITLE": "Error",
-                "WRONG": "Wrong Pin Code",
+                "TITLE": "Помилка",
+                "WRONG": "Неправильний PIN-код",
                 "OK": "OK"
             },
             "DISABLE_FACE_ID_POPUP": {
@@ -151,7 +151,7 @@
             "CLOUD_BACKUP": "Резервна копiя",
             "YOUR_PROFILE": "Ваш профiль",
             "CREATE_BACKUP": "Створити резервну копiю",
-            "BACKUPS": "Backups",
+            "BACKUPS": "Резервні копії",
             "SAVE_BACKUP_POPUP": {
                 "TITLE": "Зберегти резервну копiю",
                 "TEXT": "Ви впевненi, що хочете зберегти резервну копiю своїх даних? (Буде збережено вашi контакти, фотографiї та налаштування)",
@@ -165,12 +165,12 @@
                 "CONFIRM": "Застосувати"
             },
             "BACKUP_ERROR_POPUP": {
-                "WARNING": "Warning",
-                "ERROR": "Error",
-                "ALREADY_HAVE": "You already have a backup for this number",
-                "SAME_PHONE": "You cannot apply a backup created from the same phone",
+                "WARNING": "Попередження",
+                "ERROR": "Помилка",
+                "ALREADY_HAVE": "У вас вже є резервна копія для цього номера",
+                "SAME_PHONE": "Ви не можете застосувати резервну копію, створену з цього ж телефону",
                 "OK": "OK"
-            },
+            }
             "SUCCESS": "Успiшно",
             "SUCCESS_TEXT": "Телефон перезавантажиться через 5 секунд...",
             "OK": "OK",
@@ -208,8 +208,8 @@
                 "TODAY": "Сьогоднi",
                 "TOMORROW": "Завтра",
                 "YESTERDAY": "Вчора",
-                "LOCAL_TIME": "Local Time",
-                "HRS": "{time} hrs"
+                "LOCAL_TIME": "Місцевий час",
+                "HRS": "{time} год"
             },
             "ALARM": {
                 "TITLE": "Будильник",
@@ -227,7 +227,7 @@
                 "BUTTON_DELETE": "Видалити",
                 "ALARMS": "Будильники",
                 "NEW_ALARM": "Новий будильник",
-                "EDIT_ALARM": "Edit Alarm"
+                "EDIT_ALARM": "Редагувати будильник"
             },
             "STOPWATCH": {
                 "TITLE": "Секундомiр",
@@ -285,6 +285,7 @@
             "SIGN_UP": "Зареєструватися",
             "NO_ACCOUNT": "Немає облiкового запису?",
             "ALREADY_HAVE": "Вже маєте акаунт?",
+            "USERNAME_NOT_ALLOWED": "Ім'я користувача заборонено",
 
             "CHANGE_ACCOUNT": "Змiнити облiковий запис",
             "CHANGE_PASSWORD": "Змiнити пароль",
@@ -397,7 +398,7 @@
             "REMOVE_FROM_ALBUM": "Видалити з альбому",
             "ADD_TO_ALBUM": "Додати в альбом",
             "ADD_TO_FAVOURITES": "Додати в улюблене",
-            "REMOVE_FROM_FAVOURITES": "Remove from Favourites",
+            "REMOVE_FROM_FAVOURITES": "Видалити з обранного",
             "VIDEOS": "Вiдео",
             "SELFIES": "Селфi",
             "SCREENSHOTS": "Скрiншоти",
@@ -476,7 +477,7 @@
             },
             "LEAVE_POPUP": {
                 "TITLE": "Вийти з групи",
-                "TEXT": "Are you sure you want to leave this group?",
+                "TEXT": "Ви впевнені, що бажаєте залишити цю групу?",
                 "LEAVE": "Вийти"
             },
             "ADD_POPUP": {
@@ -520,7 +521,7 @@
             "MARK_AS_READ": "Позначити як прочитане",
             "MESSAGE_DELETED": "Повiдомлення видалено",
             "OPEN_IN_MAPS": "Вiдкрити в Картах",
-            "USERS_LOCATION": "{user}'s location",
+            "USERS_LOCATION": "Місцезнаходження {user}'s",
             "START_RECORDING": "Натиснiть кнопку, щоб почати запис",
             "LOADING": "Завантаження...",
             "EMPTY_RECORDING": {
@@ -624,8 +625,8 @@
             },
             "RECENTS": {
                 "TITLE": "Нещодавнi",
-                "ALL": "All",
-                "MISSED": "Missed"
+                "ALL": "Всі",
+                "MISSED": "Пропущені"
             },
             "VOICEMAIL": {
                 "TITLE": "Голосове повiдомлення",
@@ -1111,15 +1112,16 @@
             "USERNAME_TAKEN": "iм'я користувача вже зайнято",
             "UNKNOWN": "Невiдома помилка",
             "UNKNOWN_ACCOUNT": "Облiкового запису не iснує",
-            "INVALID_USERNAME": "Invalid username",
-            "INCORRECT_PASSWORD": "Incorrect password",
-            "OK": "OK",
-            "LOCATION": "Location",
+            "INVALID_USERNAME": "Недійсне ім'я користувача",
+            "INCORRECT_PASSWORD": "Невірний пароль",
+            "USERNAME_NOT_ALLOWED": "Ім'я користувача заборонено",
+            "OK": "ОК",
+            "LOCATION": "Розташування",
             "CHOOSE_LOCATION": {
-                "TITLE": "Choose Location",
-                "DESCRIPTION": "Choose a location for this post",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
+                "TITLE": "Оберіть Розташування",
+                "DESCRIPTION": "Оберіть місце для цієї публікації",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Продовжити"
             }
         },
         "TWITTER": {
@@ -1238,7 +1240,7 @@
             "ACTIONS": "Подiї",
             "COMPANIES": "Компанiї",
             "MESSAGES": "Повiдомлення",
-            "SETTINGS": "Settings",
+            "SETTINGS": "Налаштунки",
 
             "CLOSED": "Недоступно",
             "YOUR_MESSAGES": "Вашi повiдомлення",
@@ -1534,7 +1536,7 @@
             "COPY_VIDEO": "Копiювати вiдео",
             "USE_WALLPAPER": "Встановити як шпалери",
             "COPY_NUMBER": "Копiювати номер",
-            "COPY_LINK": "Copy Link",
+            "COPY_LINK": "Копіювати посилання",
             "AIRDROP_SENT": "Вiдправленi",
             "AIRDROP_ACCEPTED": "Прийнятi",
             "AIRDROP_DECLINED": "Вiдхиленi",
