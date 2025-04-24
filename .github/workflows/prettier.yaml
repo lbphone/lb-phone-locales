@@ -3,16 +3,16 @@ name: Prettier Format JSON
 on:
   workflow_dispatch:
   push:
-    branches: [fucking-tests,main]
+    branches: [main]
     paths:
       - '*.json'
   pull_request:
-    branches: [fucking-tests,main]
+    branches: [main]
 
 jobs:
   format:
     runs-on: ubuntu-latest
-    if: github.repository == 'lbphone/lb-phone-locales' || github.repository == 'Maximus7474/lb-phone-locales'
+    if: github.repository == 'lbphone/lb-phone-locales'
 
     steps:
       - name: Checkout repository
