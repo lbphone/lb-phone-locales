@@ -67,7 +67,7 @@ function validateJsonFile(fileName, skipRecap) {
         console.log(`\x1b[32mFile '${fileName}' passed all checks.\x1b[0m`);
         return true;
     } catch (error) {
-        console.error(`File '${fileName}' did not pass the checks`);
+        console.error(`\x1b[31mAn error occured: File '${fileName}' did not pass the checks:\x1b[0m\n`, error.message);
         process.exitCode = 1;
         return false;
     }

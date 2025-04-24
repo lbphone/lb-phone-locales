@@ -1,0 +1,59 @@
+name: Prettier Format JSON
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '*.json'
+  pull_request:
+    branches: [main]
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    if: github.repository == 'lbphone/lb-phone-locales'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Prettier
+        run: npm install prettier
+
+      - name: Get all changed json locale files
+        id: changed-json-files
+        uses: tj-actions/changed-files@v45
+        with:
+          files: |
+            **.json
+
+      - name: List all changed JSON files
+        run: |
+          echo "Changed JSON files:"
+          for file in ${{ steps.changed-json-files.outputs.all_changed_files }}; do
+            echo "$file"
+          done
+
+      - name: Format JSON files with Prettier
+        if: steps.changed-json-files.outputs.any_changed == 'true'
+        run: |
+          for file in ${{ steps.changed-json-files.outputs.all_changed_files }}; do
+            echo "$file was changed"
+            npx prettier --write --tab-width 4 $file
+          done
+
+      - name: Commit changes
+        run: |
+          if [[ `git status --porcelain` ]]; then
+            git config --global user.name "GitHub Actions"
+            git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add .
+            git commit -m "chore(json): auto-format JSON with Prettier"
+            git push
+          fi
