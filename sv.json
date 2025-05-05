@@ -1657,13 +1657,13 @@
 			"MATCHED_WITH": "Du matchade med {namn}"
 		},
 		"CAMERA": {
-			"TAKE_PHOTO": "Tryck på {Key} för att ta ett foto",
-			"FLIP_CAMERA": "Tryck på {Key} för att vända kameran",
-			"TOGGLE_FLASH": "Tryck på {Key} för att växla på blixt",
-			"TOGGLE_CURSOR": "Tryck på {Key} för att växla markören",
+			"TAKE_PHOTO": "Tryck på {key} för att ta ett foto",
+			"FLIP_CAMERA": "Tryck på {key} för att vända kameran",
+			"TOGGLE_FLASH": "Tryck på {key} för att växla på blixt",
+			"TOGGLE_CURSOR": "Tryck på {key} för att växla markören",
 			"CHANGE_MODE": "Tryck på {key} {key2} för att ändra läget",
 			"ROLL": "Tryck på {key} {key2} för att rulla kameran",
-			"FREEZE": "Tryck på {Key} för att frysa/ta upp kameran"
+			"FREEZE": "Tryck på {key} för att frysa/ta upp kameran"
 		},
 		"SERVICES": {
 			"NEW_MESSAGE": "Nytt meddelande",
