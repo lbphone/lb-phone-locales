@@ -20,6 +20,18 @@ This repository holds the locale files for lb-phone script. To maintain consiste
 
     - If you are updating multiple locale files, separate the changes into distinct commits.
 
+4. **Structure**  
+    When updating the locales, make sure that you do not alter the keys or the strings between brackets.
+    If any of these are altered it will break the translation in game by either not updating the templated strings or defaulting to the translation key.
+
+    Example:
+    ```json
+    {
+        "KEY": "Value is of nature {type}"
+    }
+    ```
+    The `"KEY"` and `{type}` can not be altered, they need to be written as is.
+
 ---
 
 ## How to Contribute
