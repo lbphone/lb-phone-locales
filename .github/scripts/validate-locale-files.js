@@ -61,13 +61,14 @@ function validateJsonFile(fileName, skipRecap) {
                     console.error(`- ${key}`);
                 });
             }
-            throw new Error(`Key mismatch detected.`);
+            throw new Error(`Missing: ${missingKeys.length} keys`);
         }
 
         console.log(`\x1b[32mFile '${fileName}' passed all checks.\x1b[0m`);
         return true;
     } catch (error) {
-        console.error(`\x1b[31mAn error occured: File '${fileName}' did not pass the checks:\x1b[0m\n`, error.message);
+        const padding = Math.max(0, 10 - fileName.length);
+        console.error(`\x1b[31mAn error occurred: File '${fileName}' did not pass the checks:\x1b[0m${' '.repeat(padding)}`, error.message);
         process.exitCode = 1;
         return false;
     }
