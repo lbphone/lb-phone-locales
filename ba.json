@@ -1700,7 +1700,7 @@
             "TOGGLE_FLASH": "Stisni {key} da ugasite blic",
             "TOGGLE_CURSOR": "Stisni {key} da maknete kursor, i da gledate uokolo",
             "CHANGE_MODE": "Stisni {key} {key2} da promjenite mod kamere",
-			"ROLL": "Stisni {key} {key2} da okrenete kameru",
+            "ROLL": "Stisni {key} {key2} da okrenete kameru",
             "FREEZE": "Stisni {key} da zaledite/odledite kameru"
         },
         "SERVICES": {

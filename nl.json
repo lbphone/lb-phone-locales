@@ -279,7 +279,7 @@
             "NO_CHATS_TEXT": "Je bent nog geen lid van een ruimte. Wordt lid of maak er zelf aan aan, door te klikken op het plusje in de rechterbovenhoek.",
             "MEMBER": "Deelnemer",
             "MEMBERS": "Deelnemers",
-            
+
             "USERNAME": "Gebruikersnaam",
             "PASSWORD": "Wachtwoord",
             "LOGIN": "Log In",
@@ -287,11 +287,11 @@
             "NO_ACCOUNT": "Heb je nog geen account?",
             "ALREADY_HAVE": "Heb je al een account?",
             "USERNAME_NOT_ALLOWED": "Gebruikersnaam is niet toegestaan",
-            
+
             "CHANGE_ACCOUNT": "Verander Account",
             "CHANGE_PASSWORD": "Verander Wachtwoord",
             "DELETE_ACCOUNT": "Verwijder Account",
-            
+
             "ERROR": "Fout",
             "INVALID_LENGTH": "Wachtwoord moet minimaal 3 karakters bevatten",
             "USERNAME_TAKEN": "Gebruikersnaam is al in gebruik",
@@ -299,14 +299,14 @@
             "INVALID_USERNAME": "Gebruikersnaam bestaat niet",
             "INCORRECT_PASSWORD": "Incorrect wachtwoord",
             "OK": "OK",
-            
+
             "LEAVE_CHANNEL": {
                 "TITLE": "Verlaat kanaal",
                 "DESCRIPTION": "Weet je zeker dat je dit kanaal wilt verlaten?",
                 "CANCEL": "Annuleer",
                 "PROCEED": "Verlaat"
             },
-            
+
             "SET_PASSWORD_POPUP": {
                 "TITLE": "Voer wachtwoord in",
                 "DESCRIPTION": "Je moet een wachtwoord invoeren voor je account",
@@ -347,7 +347,7 @@
             "DELETE": "Verwijder",
             "SELECT_ITEMS": "Selecteer onderdelen",
             "SELECTED_COUNT": "{count} onderdelen geselecteerd",
-            
+
             "PHOTOS": "Foto's",
             "ALBUMS": "Albums",
             "LIBRARY": "Bibliotheek",
@@ -387,12 +387,12 @@
                 "PROCEED": "Importeer",
                 "PLACEHOLDER": "Afbeelding URL"
             },
-            
+
             "NO_PHOTOS": "Geen foto's of videos",
             "NO_PHOTOS_INSTRUCTIONS": "Je kan foto's en video's maken met je camera",
             "PHOTO_COUNT": "{amount} Foto's",
             "VIDEO_COUNT": "{amount} Videos",
-            
+
             "DELETE_CONTEXT_TITLE": "Wil je {type} volledig verwijderen of alleen verwijderen uit dit album",
             "THESE_PHOTOS": "deze foto's",
             "THIS_PHOTO": "deze foto",
@@ -409,7 +409,7 @@
             "MONTHS": "Maanden",
             "DAYS": "Dagen",
             "ALL_PHOTOS": "Alle foto's",
-            
+
             "FAVOURITES": "Favorieten",
             "RECENTS": "Recente"
         },
@@ -665,7 +665,7 @@
             "SELECT_CONTACT": "Selecteer contact",
             "TODAY": "Vandaag",
             "YESTERDAY": "Gisteren",
-            
+
             "INSUFFICIENT_FUNDS": {
                 "TITLE": "Onvoldoende saldo",
                 "DESCRIPTION": "Je hebt op dit moment onvoldoende saldo om dit bedrag te versturen"
@@ -698,7 +698,7 @@
                 "TITLE": "Toevoegen van bedrag miskukt",
                 "DESCRIPTION": "Het is niet gelukt om dit bedrag over te maken aan het opgegeven account"
             },
-            
+
             "OK": "OK"
         },
         "GARAGE": {
@@ -722,7 +722,7 @@
             "LOCK": "Vergrendelen",
             "UNLOCKED": "Ontgrendeld",
             "UNLOCK": "Ontgrendelen",
-            
+
             "WAYPOINT_POPUP": {
                 "TITLE": "Route instellen",
                 "TEXT": "Wil je een route naar je {model} instellen?",
@@ -803,7 +803,7 @@
             "MESSAGE": "Bericht",
             "CALL": "Bellen",
             "REMOVE": "Verwijder",
-            
+
             "ERROR_POPUP": {
                 "TITLE": "Fout!",
                 "NO_TITLE": "Je moet een titel invoeren",
@@ -892,7 +892,7 @@
             "DELETE": "Verwijder",
             "SET_WAYPOINT": "Markering zetten",
             "SHARE": "Delen",
-            
+
             "ADD_LOCATION_POPUP": {
                 "TITLE": "Locatie toevoegen",
                 "DESCRIPTION": "Vul de naam in van de locatie die je wilt zetten",
@@ -1243,21 +1243,21 @@
             "COMPANIES": "Hulpdiensten",
             "MESSAGES": "Berichten",
             "SETTINGS": "Instellingen",
-            
+
             "CLOSED": "Gesloten",
             "YOUR_MESSAGES": "Jouw berichtem",
             "JOB_MESSAGES": "Bedrijf berichten",
-            
+
             "DUTY": "Dienst",
             "DUTY_DESCRIPTION": "Schakel jouw dienst status",
             "GO_ON_DUTY": "Ga in dienst",
             "GO_OFF_DUTY": "Ga uit dienst",
             "JOB_CALLS": "Job Calls",
             "JOB_CALLS_DESCRIPTION": "Zet het ontvangen van telefonische meldingen {toggle}.",
-            
+
             "ENABLE": "aan",
             "DISABLE": "uit",
-            
+
             "DISABLE_CALLS": "Zet telefonische meldingen uit",
             "ENABLE_CALLS": "Zet telefonische meldingen aan",
             "BALANCE": "Balans",
@@ -1265,14 +1265,14 @@
             "HIRE": "Aannemen",
             "SET_GRADE": "Verander rang",
             "UNEMPLOYED": "Je bent werkloos",
-            
+
             "ALL": "Alle",
             "AVAILABLE": "Beschikbare",
             "SEARCH_EMPLOYEES": "Zoek medewerkers",
-            
+
             "PERSONAL": "Persoonlijk",
             "JOB": "Baan",
-            
+
             "DEPOSIT_POPUP": {
                 "TITLE": "Storten",
                 "DESCRIPTION": "Stort geld in het bedrijfsaccount",
@@ -1399,7 +1399,7 @@
                 "CANCEL": "Annuleer",
                 "PROCEED": "Negeer"
             },
-            
+
             "SHARE_TITLE": "Delen met",
             "SHARE": "Delen",
             "REPORT": "Rapporteer",
@@ -1407,7 +1407,7 @@
             "ADD_FAVOURITE": "Voeg toe aan favorieten",
             "CANCEL": "Annuleer",
             "GO_BACK": "Ga terug",
-            
+
             "FOLLOWING": "Volgend",
             "FOLLOWERS": "Volgers",
             "UNFOLLOW": "Ontvolgen",
@@ -1415,14 +1415,14 @@
             "FOR_YOU": "Voor jou",
             "VIDEOS": "Video's",
             "LIKES": "Vind ik leuks",
-            
+
             "UNFOLLOW_POPUP": {
                 "TITLE": "Ontvolgen",
                 "DESCRIPTION": "Weet je zeker dat je {name} wilt ontvolgen?",
                 "CANCEL": "Annuleer",
                 "PROCEED": "Doorgaan"
             },
-            
+
             "LOGIN_TITLE": "Log in op Trendy",
             "LOGIN_SUBTITLE": "Beheer meldingen over uw accountcontrole, geef commentaar op video's en meer.",
             "SIGNUP_TITLE": "Registreer voor Trendy",
@@ -1432,20 +1432,20 @@
             "PASSWORD": "Wachtwoord",
             "BIO": "Bio",
             "SHOW_LIKES": "Toon vind ik leuks",
-            
+
             "LOGIN": "Log in",
             "SIGNUP": "Registreer",
             "NO_ACCOUNT": "Heb je nog geen account?",
             "ALREADY_ACCOUNT": "Heb je al een account?",
             "SEARCH_PLACEHOLDER": "Zoek naar gebruikers",
-            
+
             "STARTED_FOLLOWING": "volgt jou nu",
             "LIKED_VIDEO": "vind jouw video leuk.",
             "LIKED_COMMENT": "vind jouw reactie leuk",
             "SAVED_VIDEO": "heeft jou video toegevoegd aan favorieten.",
             "COMMENTED": "Reageerde: {comment}",
             "REPLIED": "reageerde op jouw reactie: {comment}",
-            
+
             "EDIT_PROFILE": "Bewerk profiel",
             "MESSAGE": "Bericht",
             "CHANGE_PHOTO": "Verander Foto",
@@ -1455,7 +1455,7 @@
             "ADD_TO_YOUR_PROFILE": "Toevoegen aan je profiel",
             "LIKED_HIDDEN_TITLE": "Deze gebruikers leuk gevonden video's zijn privé.",
             "LIKED_HIDDEN_SUBTITLE": "Video's leuk gevonden door {name} zijn momenteel verborgen.",
-            
+
             "INVALID_ACCOUNT_POPUP": {
                 "TITLE": "Ongeldig {name}",
                 "DESCRIPTION": "Je bent niet ingelogd op het {name} account dat u heeft ingevoerd. Corrigeer dit alstublieft.",
@@ -1467,7 +1467,7 @@
                 "CANCEL": "Annuleer",
                 "PROCEED": "Doorgaan"
             },
-            
+
             "ADD_ACCOUNT_TITLE": "Account toevoegen",
             "ADD_ACCOUNT": "Voeg {name} toe aan je profiel",
             "UPLOAD_VIDEO": "Video Uploaden",
@@ -1480,7 +1480,7 @@
             "MUSIC": "Muziek",
             "SELECT_MUSIC": "Selecteer Muziek",
             "OPTIONAL": "Optioneell",
-            
+
             "DIRECT_MESSAGES": "Directe berichten",
             "ALL_ACTIVITY": "Alle Activiteit",
             "NO_NOTIFICATIONS": "Notificaties zijn niet beschikbaar",
@@ -1728,12 +1728,12 @@
         "MISC": {
             "VERIFIED": "Je account is nu geverifieerd",
             "X_PHONE": "{name}'s Telefoon",
-            
+
             "LOGGED_OUT_PASSWORD": {
                 "TITLE": "Je bent uitgelogd",
                 "DESCRIPTION": "Je bent uitgelogd van je account, omdat je wachtwoord is gewijzigd."
             },
-            
+
             "DELETED_NOTIFICATION": {
                 "TITLE": "Account verwijderd",
                 "DESCRIPTION": "Je account is verwijderd."
@@ -1753,59 +1753,59 @@
         "LOGS": {
             "MAIL_TITLE": "Email",
             "NEW_MAIL": "{sender} heeft een email gestuurd naar {recipient}",
-            
+
             "MESSAGE_TITLE": "Tekstbericht",
             "NEW_MESSAGE": "{sender} heeft een tekstbericht gestuurd naar {recipient}: {message}",
-            
+
             "CALL_ENDED": "Gesprek Beëindigd",
             "CALL_DESCRIPTION": "Een gesprek tussen `{caller}` en `{callee}` dat {duration}s duurde is Beëindigd. Opgenomen: `{answered}`",
-            
+
             "NEW_SERVICE_TITLE": "Nieuw bericht",
             "NEW_SERVICE_CONTENT": "{sender} heeft een bericht naar {channel} gestuurd: {message}",
-            
+
             "RECEIVED_TITLE": "Ontvangen ${amount}",
             "PAID_TITLE": "Betaald ${amount}",
             "TRANSACTION": "{number} heeft een betaling gedaan van ${amount} naar {company}",
-            
+
             "BOUGHT_CRYPTO": "Crypto gekocht",
             "SOLD_CRYPTO": "Crypto verkocht",
             "CRYPTO_DETAILS": "**Munt**: {coin}\n**hoeveelheid**: {amount}\n**Waarde**: ${price}",
             "TRANSFERRED_CRYPTO": "Verstuurde crypto",
             "TRANSFERRED_CRYPTO_DETAILS": "**Munt**: {coin}\n**hoeveelheid**: {amount}\n**Naar**: {to}\n**Van**: {from}",
-            
+
             "DARKCHAT_CREATED_TITLE": "Kanaal aangemaakt",
             "DARKCHAT_CREATED_DESCRIPTION": "{creator} heeft een kanaal aangemaakt {channel}",
             "DARKCHAT_MESSAGE_TITLE": "Nieuw Bericht",
             "DARKCHAT_MESSAGE_DESCRIPTION": "{sender} heeft een bericht verstuurd in {channel}: {message}",
-            
+
             "MARKETPLACE_NEW_TITLE": "Nieuwe advertentie",
             "MARKETPLACE_NEW_DESCRIPTION": "**Verkoper**: {seller}\n**Titel**: {title}\n**Prijs**: ${price}\n**Beschrijving**: {description}\n**Bijlagen**: {attachments}\n**ID:** {id}",
             "MARKETPLACE_DELETED": "Post verwijderd",
-            
+
             "YELLOWPAGES_NEW_TITLE": "Nieuwe post",
             "YELLOWPAGES_NEW_DESCRIPTION": "**Titel**: {title}\n**Beschrijving**: {description}\n**Bijlagen**: {attachment}\n**ID:** {id}",
             "YELLOWPAGES_DELETED": "Post verwijderd",
-            
+
             "LIVE_TITLE": "Live",
             "STARTED_LIVE": "{username} is een livevideo gestart",
             "ENDED_LIVE": "{username} heeft een livevideo beëindigd",
             "ADDED_STORY": "{username} heeft een foto op hun verhaal gezet",
-            
+
             "TRENDY_UPLOAD_TITLE": "Nieuwe video",
             "TRENDY_UPLOAD_DESCRIPTION": "{username} heeft een nieuwe video geplaatst met de beschrijving {caption} en id {id}",
             "TRENDY_DELETE_TITLE": "Heeft een video verwijderd",
             "TRENDY_DELETE_DESCRIPTION": "{username} heeft een video verwijderd met het id {id}",
-            
+
             "UPLOADED_MEDIA": "Uploaded media",
             "UPLOADED_MEDIA_DESCRIPTION": "Heeft een {type} met het id {id}\n{link}",
             "VIDEO": "video",
             "PHOTO": "foto",
-            
+
             "CHANGED_PASSWORD": {
                 "TITLE": "Wachtwoord gewijzigd",
                 "DESCRIPTION": "{number} heeft het wachtwoord voor account {username} gewijzigd bij de app {app}."
             },
-            
+
             "DELETED_ACCOUNT": {
                 "TITLE": "Account verwijderd",
                 "DESCRIPTION": "{number} heeft het account {username} verwijderd voor de app {app}."

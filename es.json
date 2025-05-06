@@ -1745,9 +1745,9 @@
         },
         "MAIL": {
             "AUTOMATIC_PASSWORD": {
-				"SENDER": "Sistema",
-				"SUBJECT": "Contraseña",
-				"MESSAGE": "Hola!,\n\nTu casilla de correo es {address} y tu contraseña es {password}"
+                "SENDER": "Sistema",
+                "SUBJECT": "Contraseña",
+                "MESSAGE": "Hola!,\n\nTu casilla de correo es {address} y tu contraseña es {password}"
             }
         },
         "LOGS": {
@@ -1797,9 +1797,9 @@
             "TRENDY_DELETE_DESCRIPTION": "{username} eliminó un video con id {id}",
 
             "UPLOADED_MEDIA": "Medios cargados",
-			"UPLOADED_MEDIA_DESCRIPTION": "Tomó un(a) {type} con el id {id}\n{link}",
-			"VIDEO": "video",
-			"PHOTO": "foto",
+            "UPLOADED_MEDIA_DESCRIPTION": "Tomó un(a) {type} con el id {id}\n{link}",
+            "VIDEO": "video",
+            "PHOTO": "foto",
 
             "CHANGED_PASSWORD": {
                 "TITLE": "Contraseña cambiada",
