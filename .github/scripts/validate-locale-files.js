@@ -35,9 +35,11 @@ function validateJsonFile(fileName, skipRecap) {
         const fileContent = fs.readFileSync(path.resolve(parentDir, fileName), 'utf8');
         const json = JSON.parse(fileContent);
 
+        const placeholderRegex = /{[\w.]+}/g;
         const missingKeys = [];
+        const brokenTranslations = [];
 
-        const checkKeys = (obj1, obj2, parentKey = '') => {
+        const checkEntries = (obj1, obj2, parentKey = '') => {
             const keys1 = Object.keys(obj1);
             const keys2 = Object.keys(obj2);
 
@@ -46,13 +48,50 @@ function validateJsonFile(fileName, skipRecap) {
                     missingKeys.push(`${parentKey}${key}`);
                 }
 
+                if (typeof obj1[key] === 'string' && typeof obj2[key] === 'string') {
+                    const translation1 = obj1[key];
+                    const translation2 = obj2[key];
+        
+                    // Extract placeholders from both translations
+                    const placeholders1 = translation1.match(placeholderRegex) || [];
+                    const placeholders2 = translation2.match(placeholderRegex) || [];
+        
+                    // Compare placeholders
+                    const missingInTranslation2 = placeholders1.filter(ph => !placeholders2.includes(ph));
+
+                    // Check for mismatched placeholder text
+                    const mismatchedPlaceholders = placeholders1.filter(ph1 => 
+                        placeholders2.some(ph2 => ph1 !== ph2 && ph1.slice(1, -1) === ph2.slice(1, -1))
+                    );
+
+                    if (missingInTranslation2.length > 0 || mismatchedPlaceholders.length > 0) {
+                        console.log(`\x1b[35mWarning\x1b[0m: Placeholders in '${parentKey}${key}' diverge:`);
+                        console.log(`  - In '${fileName}': \x1b[33m${translation2}\x1b[0m`);
+                        console.log(`  - In 'en.json': \x1b[33m${translation1}\x1b[0m`);
+                        if (missingInTranslation2.length > 0) {
+                            console.log(`  - Missing in '${fileName}': \x1b[31m${missingInTranslation2.join(', ')}\x1b[0m`);
+                        }
+                        if (mismatchedPlaceholders.length > 0) {
+                            console.log(`  - Mismatched placeholders: \x1b[31m${mismatchedPlaceholders.join(', ')}\x1b[0m`);
+                        }
+                    }
+        
+                    if (missingInTranslation2.length > 0 || mismatchedPlaceholders.length > 0) {
+                        brokenTranslations.push({
+                            key: `${parentKey}${key}`,
+                            missingInTranslation2,
+                            mismatchedPlaceholders,
+                        });
+                    }
+                }
+
                 if (typeof obj1[key] === 'object' && obj1[key] !== null && typeof obj2[key] === 'object' && obj2[key] !== null) {
-                    checkKeys(obj1[key], obj2[key], `${parentKey}${key}.`);
+                    checkEntries(obj1[key], obj2[key], `${parentKey}${key}.`);
                 }
             }
         };
 
-        checkKeys(enJson, json);
+        checkEntries(enJson, json);
 
         if (missingKeys.length > 0) {
             if (!skipRecap) {
