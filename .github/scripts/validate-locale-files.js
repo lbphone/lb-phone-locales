@@ -51,11 +51,11 @@ function validateJsonFile(fileName, skipRecap) {
                 if (typeof obj1[key] === 'string' && typeof obj2[key] === 'string') {
                     const translation1 = obj1[key];
                     const translation2 = obj2[key];
-        
+            
                     // Extract placeholders from both translations
                     const placeholders1 = translation1.match(placeholderRegex) || [];
                     const placeholders2 = translation2.match(placeholderRegex) || [];
-        
+            
                     // Compare placeholders
                     const missingInTranslation2 = placeholders1.filter(ph => !placeholders2.includes(ph));
 
@@ -65,22 +65,12 @@ function validateJsonFile(fileName, skipRecap) {
                     );
 
                     if (missingInTranslation2.length > 0 || mismatchedPlaceholders.length > 0) {
-                        console.log(`\x1b[35mWarning\x1b[0m: Placeholders in '${parentKey}${key}' diverge:`);
-                        console.log(`  - In '${fileName}': \x1b[33m${translation2}\x1b[0m`);
-                        console.log(`  - In 'en.json': \x1b[33m${translation1}\x1b[0m`);
-                        if (missingInTranslation2.length > 0) {
-                            console.log(`  - Missing in '${fileName}': \x1b[31m${missingInTranslation2.join(', ')}\x1b[0m`);
-                        }
-                        if (mismatchedPlaceholders.length > 0) {
-                            console.log(`  - Mismatched placeholders: \x1b[31m${mismatchedPlaceholders.join(', ')}\x1b[0m`);
-                        }
-                    }
-        
-                    if (missingInTranslation2.length > 0 || mismatchedPlaceholders.length > 0) {
                         brokenTranslations.push({
                             key: `${parentKey}${key}`,
                             missingInTranslation2,
                             mismatchedPlaceholders,
+                            translation1,
+                            translation2,
                         });
                     }
                 }
@@ -93,14 +83,31 @@ function validateJsonFile(fileName, skipRecap) {
 
         checkEntries(enJson, json);
 
-        if (missingKeys.length > 0) {
+        if (missingKeys.length > 0 || brokenTranslations.length > 0) {
             if (!skipRecap) {
-                console.error(`\x1b[31mThe following keys are missing in the second file '${fileName}':\x1b[0m`);
-                missingKeys.forEach((key) => {
-                    console.error(`- ${key}`);
-                });
+                if (missingKeys.length > 0) {
+                    console.error(`\x1b[31mThe following keys are missing in the second file '${fileName}':\x1b[0m`);
+                    missingKeys.forEach((key) => {
+                        console.error(`- ${key}`);
+                    });
+                }
+
+                if (brokenTranslations.length > 0) {
+                    console.error(`\x1b[31mThe following keys have mismatched placeholders in '${fileName}':\x1b[0m`);
+                    brokenTranslations.forEach(({ key, missingInTranslation2, mismatchedPlaceholders, translation1, translation2 }) => {
+                        console.error(`- Key: ${key}`);
+                        console.error(`  - In '${fileName}': \x1b[33m${translation2}\x1b[0m`);
+                        console.error(`  - In 'en.json': \x1b[33m${translation1}\x1b[0m`);
+                        if (missingInTranslation2.length > 0) {
+                            console.error(`  - Missing in '${fileName}': \x1b[31m${missingInTranslation2.join(', ')}\x1b[0m`);
+                        }
+                        if (mismatchedPlaceholders.length > 0) {
+                            console.error(`  - Mismatched placeholders: \x1b[31m${mismatchedPlaceholders.join(', ')}\x1b[0m`);
+                        }
+                    });
+                }
             }
-            throw new Error(`Missing: ${missingKeys.length} keys`);
+            throw new Error(`Missing: ${missingKeys.length} keys, Mismatched: ${brokenTranslations.length} placeholders`);
         }
 
         console.log(`\x1b[32mFile '${fileName}' passed all checks.\x1b[0m`);
