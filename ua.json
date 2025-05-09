@@ -80,8 +80,8 @@
             "SOUND_HAPTICS_PATTERNS": "Звуковi та тактильнi вiзерунки",
             "RINGTONE": "Рiнгтон",
             "TEXT_TONE": "Тон тексту",
-            "RINGTONE_VOLUME": "Гучнiсть дзвiнка та оповiщення",
-            "CALL_VOLUME": "Гучність дзвінків",
+            "RINGTONE_VOLUME": "Гучнiсть рингтону",
+            "CALL_VOLUME": "Гучність дзвінка",
             "DEFAULT": "За замовчуванням",
             "PHONE_STORAGE": "Пам'ять телефону",
             "STORAGE": "Доступно",
@@ -892,7 +892,7 @@
             "DELETE": "Видалити",
             "SET_WAYPOINT": "Встановити маршрут",
             "SHARE": "Подiлитись",
-
+            
             "ADD_LOCATION_POPUP": {
                 "TITLE": "Додати мiсцезнаходження",
                 "DESCRIPTION": "Введiть назву мiсця, яке потрiбно додати",
@@ -1100,7 +1100,7 @@
             "SEEN_BY": "Переглянуто {count}",
             "ADD_ACCOUNT": "Додати облiковий запис",
             "INVITE": "Запросити",
-            "INVITED": "Запрошені",
+            "INVITED": "Запрошено",
             "REMOVE": "Видалити",
             "IN_THIS_ROOM": "У цiй кiмнатi",
             "WHOS_WATCHING": "Хто дивиться",
