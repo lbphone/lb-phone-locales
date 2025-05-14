@@ -1319,7 +1319,7 @@
             "NO_MONEY": "Vous n'avez pas assez d'argent",
             "NO_COINS": "Vous ne possédez pas de cet actif",
             "NOT_ENOUGH_COINS": "Vous n'avez pas assez de cet actif",
-            "ATLEAST_ONE_COIN": "Vous devez {action} au moins une unité de cet actif",
+            "ATLEAST_ONE_COIN": "Vous devez {action} au moins une unité de {currency}",
             "INVALID_COIN": "Actif invalide",
             "NO_NUMBER": "Aucun numéro n'a été entré",
             "INVALID_NUMBER": "Numéro invalide (l'utilisateur peut ne pas être en ligne)",
