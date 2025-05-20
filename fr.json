@@ -7,6 +7,9 @@
     "H": "h",
     "M": "m",
     "S": "s",
+    "SECONDS": "secondes",
+    "MINUTES": "minutes",
+    "HOURS": "heures",
 
     "APP_NAMES": {
         "Phone": "Téléphone",
@@ -342,6 +345,8 @@
             "TITLE": "Photo",
             "SELECT": "Sélectionner",
             "CANCEL": "Annuler",
+            "PROCEED": "Procéder",
+            "OK": "OK",
             "EDIT": "Modifier",
             "DONE": "Fini",
             "DELETE": "Supprimer",
@@ -353,7 +358,9 @@
             "LIBRARY": "Galerie",
             "GALLERY": "Galerie",
             "MY_ALBUMS": "Mes Albums",
+            "SHARED_ALBUMS": "Albums partagés",
             "MEDIA_TYPES": "Types de médias",
+            "MANAGE_MEMBERS": "Gérer les membres",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "Nouvel album",
                 "DESCRIPTION": "Entrer un nom pour cet album",
@@ -363,9 +370,11 @@
             },
             "REMOVE_ALBUM": {
                 "TITLE": "Supprimer '{name}'",
-                "DESCRIPTION": "Êtes vous dûr de vouloir supprimer l'album '{name}' ? Les photos ne seront pas supprimés",
-                "CANCEL": "Annuler",
-                "PROCEED": "Supprimer"
+                "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer l'album \"{name}\" ? Les photos ne seront pas supprimées"
+            },
+            "LEAVE_SHARED_ALBUM": {
+                "TITLE": "Leave \"{name}\"",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir quitter l'album \"{name}\" ? Vous ne pourrez plus y télécharger de photos."
             },
             "RENAME_ALBUM_POPUP": {
                 "TITLE": "Renommer l'Album",
@@ -387,13 +396,27 @@
                 "PROCEED": "Importer",
                 "PLACEHOLDER": "URL de l'Image"
             },
+            "ERROR": "Erreur",
+            "SUCCESS": "Succès",
+            "CONTACT_ALREADY_IN_ALBUM": "Contact déjà dans l'album",
+            "CONTACT_ADDED_TO_ALBUM": "Contact ajouté à l'album",
+            "MEMBERS": "{count} Membres",
+            "INVITE": "Invite",
+            "LEAVE_ALBUM": "Quitter l'album",
+            "CREATE_SHARED_ALBUM": "Créer un album partagé",
+            "MANAGE_SHARED_ALBUM": "Gérer l'album partagé",
+            "REMOVE_MEMBER": {
+                "TITLE": "Supprimer le membre",
+                "DESCRIPTION": "Êtes-vous sûr de vouloir retirer ce membre de l'album ?",
+                "SUCCESS": "Membre retiré de l'album"
+            },
 
             "NO_PHOTOS": "Pas de photos ou vidéos",
             "NO_PHOTOS_INSTRUCTIONS": "Vous pouvez prendre des images et photos avec l'appareil photo",
             "PHOTO_COUNT": "{amount} Photos",
             "VIDEO_COUNT": "{amount} Vidéos",
 
-            "DELETE_CONTEXT_TITLE": "Voulez vous supprimer {type} ou les retirer de cet album",
+            "DELETE_CONTEXT_TITLE": "Voulez vous supprimer {type} ou les retirer de cet album ?",
             "THESE_PHOTOS": "ces photos",
             "THIS_PHOTO": "cette photo",
             "REMOVE_FROM_ALBUM": "Retirer de l'Album",
@@ -627,7 +650,11 @@
             "RECENTS": {
                 "TITLE": "Récents",
                 "ALL": "Tous",
-                "MISSED": "Manqués"
+                "MISSED": "Manqués",
+                "OUTGOING_CALL": "Appel sortant",
+                "INCOMING_CALL": "Appel entrant",
+                "CANCELLED_CALL": "Appel annulé",
+                "MISSED_CALL": "Appel manqué"
             },
             "VOICEMAIL": {
                 "TITLE": "Boîte vocale",
@@ -910,6 +937,7 @@
         },
         "MUSIC": {
             "TITLE": "Musique",
+            "HOME": "Accueil",
             "LIBRARY": "Bibliothèque",
             "SEARCH": "Rechercher",
             "ADD_QUEUE": "Ajouter à la file d'attente",
@@ -1124,7 +1152,16 @@
                 "DESCRIPTION": "Choisissez un lieu pour cette publication",
                 "CANCEL": "Annuler",
                 "PROCEED": "Valider"
-            }
+            },
+            "REPLIED_TO_YOUR_STORY": "Répondu à votre story",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "A répondu à votre story : {content}",
+
+            "SHARE_TO_STORY": {
+                "TITLE": "Partager la story",
+                "SUCCESS": "Poste partagé",
+                "DESCRIPTION": "Votre message a été partagé avec votre story"
+            },
+            "VIEW_POST": "Voir le poste"
         },
         "TWITTER": {
             "TITLE": "Birdy",
@@ -1202,6 +1239,7 @@
             "NOTIFICATIONS": "Notifications",
             "FOLLOWS_YOU": "Vous suis",
             "JOINED": "A rejoint {date}",
+            "PINNED_POST": "Publication épinglé",
             "LIKED_TWEET": "a liké votre publication",
             "RETWEETED_TWEET": "a republié votre publication",
             "FOLLOWED": "a commencé à vous suivre",
@@ -1565,6 +1603,7 @@
             "NOTE": "note",
             "VOICEMEMO": "enregistrement vocal",
             "PLAYLIST": "playlist",
+            "ALBUM": "album",
             "DECLINE": "Refuser",
             "ACCEPT": "Accepter"
         },
