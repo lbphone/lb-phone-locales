@@ -7,6 +7,9 @@
     "H": "h",
     "M": "m",
     "S": "s",
+    "SECONDS": "seconds",
+    "MINUTES": "minutes",
+    "HOURS": "hours",
 
     "APP_NAMES": {
         "Phone": "Phone",
@@ -342,6 +345,8 @@
             "TITLE": "Photos",
             "SELECT": "Select",
             "CANCEL": "Cancel",
+            "PROCEED": "Proceed",
+            "OK": "OK",
             "EDIT": "Edit",
             "DONE": "Done",
             "DELETE": "Delete",
@@ -353,7 +358,9 @@
             "LIBRARY": "Library",
             "GALLERY": "Gallery",
             "MY_ALBUMS": "My Albums",
+            "SHARED_ALBUMS": "Shared Albums",
             "MEDIA_TYPES": "Media Types",
+            "MANAGE_MEMBERS": "Manage Members",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "New Album",
                 "DESCRIPTION": "Enter a name for this album",
@@ -363,9 +370,11 @@
             },
             "REMOVE_ALBUM": {
                 "TITLE": "Remove \"{name}\"",
-                "DESCRIPTION": "Are you sure you want to delete the album \"{name}\"? The photos will not be deleted",
-                "CANCEL": "Cancel",
-                "PROCEED": "Remove"
+                "DESCRIPTION": "Are you sure you want to delete the album \"{name}\"? The photos will not be deleted"
+            },
+            "LEAVE_SHARED_ALBUM": {
+                "TITLE": "Leave \"{name}\"",
+                "DESCRIPTION": "Are you sure you want to leave the album \"{name}\"? You will no longer be able to upload photos to it"
             },
             "RENAME_ALBUM_POPUP": {
                 "TITLE": "Rename Album",
@@ -387,13 +396,27 @@
                 "PROCEED": "Import",
                 "PLACEHOLDER": "Image URL"
             },
+            "ERROR": "Error",
+            "SUCCESS": "Success",
+            "CONTACT_ALREADY_IN_ALBUM": "Contact already in album",
+            "CONTACT_ADDED_TO_ALBUM": "Contact added to album",
+            "MEMBERS": "{count} Members",
+            "INVITE": "Invite",
+            "LEAVE_ALBUM": "Leave Album",
+            "CREATE_SHARED_ALBUM": "Create Shared Album",
+            "MANAGE_SHARED_ALBUM": "Manage Shared Album",
+            "REMOVE_MEMBER": {
+                "TITLE": "Remove Member",
+                "DESCRIPTION": "Are you sure you want to remove this member from the album?",
+                "SUCCESS": "Member removed from album"
+            },
 
             "NO_PHOTOS": "No Photos or Videos",
             "NO_PHOTOS_INSTRUCTIONS": "You can take photos and videos using the camera",
             "PHOTO_COUNT": "{amount} Photos",
             "VIDEO_COUNT": "{amount} Videos",
 
-            "DELETE_CONTEXT_TITLE": "Do you want to delete {type} or remove them from this album",
+            "DELETE_CONTEXT_TITLE": "Do you want to delete {type} or remove them from this album?",
             "THESE_PHOTOS": "these photos",
             "THIS_PHOTO": "this photo",
             "REMOVE_FROM_ALBUM": "Remove from Album",
@@ -627,7 +650,11 @@
             "RECENTS": {
                 "TITLE": "Recents",
                 "ALL": "All",
-                "MISSED": "Missed"
+                "MISSED": "Missed",
+                "OUTGOING_CALL": "Outgoing Call",
+                "INCOMING_CALL": "Incoming Call",
+                "CANCELLED_CALL": "Cancelled Call",
+                "MISSED_CALL": "Missed Call"
             },
             "VOICEMAIL": {
                 "TITLE": "Voicemail",
@@ -910,6 +937,7 @@
         },
         "MUSIC": {
             "TITLE": "Music",
+            "HOME": "Home",
             "LIBRARY": "Library",
             "SEARCH": "Search",
             "ADD_QUEUE": "Add to Queue",
@@ -1124,7 +1152,16 @@
                 "DESCRIPTION": "Choose a location for this post",
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
-            }
+            },
+            "REPLIED_TO_YOUR_STORY": "Replied to your story",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "Replied to your story: {content}",
+
+            "SHARE_TO_STORY": {
+                "TITLE": "Share to Story",
+                "SUCCESS": "Post Shared",
+                "DESCRIPTION": "Your post has been shared to your story"
+            },
+            "VIEW_POST": "View Post"
         },
         "TWITTER": {
             "TITLE": "Birdy",
@@ -1202,6 +1239,7 @@
             "NOTIFICATIONS": "Notifications",
             "FOLLOWS_YOU": "Follows you",
             "JOINED": "Joined {date}",
+            "PINNED_POST": "Pinned Post",
             "LIKED_TWEET": "liked your post",
             "RETWEETED_TWEET": "reposted your post",
             "FOLLOWED": "followed you",
@@ -1565,6 +1603,7 @@
             "NOTE": "note",
             "VOICEMEMO": "voicememo",
             "PLAYLIST": "playlist",
+            "ALBUM": "album",
             "DECLINE": "Decline",
             "ACCEPT": "Accept"
         },
