@@ -373,7 +373,7 @@
                 "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer l'album \"{name}\" ? Les photos ne seront pas supprimées"
             },
             "LEAVE_SHARED_ALBUM": {
-                "TITLE": "Leave \"{name}\"",
+                "TITLE": "Quitter \"{name}\"",
                 "DESCRIPTION": "Êtes-vous sûr de vouloir quitter l'album \"{name}\" ? Vous ne pourrez plus y télécharger de photos."
             },
             "RENAME_ALBUM_POPUP": {
