@@ -7,6 +7,9 @@
     "H": "h",
     "M": "m",
     "S": "s",
+    "SECONDS": "sekunden",
+    "MINUTES": "minuten",
+    "HOURS": "stunden",
 
     "APP_NAMES": {
         "Phone": "Telefon",
@@ -81,6 +84,7 @@
             "RINGTONE": "Klingelton",
             "TEXT_TONE": "Benachrichtigungston",
             "RINGTONE_VOLUME": "Klingelton und Benachrichtigungslautstärke",
+            "CALL_VOLUME": "Anrufvolumen",
             "DEFAULT": "Standard",
             "PHONE_STORAGE": "Telefonspeicher",
             "STORAGE": "Speicher",
@@ -280,12 +284,12 @@
             "MEMBERS": "Mitglieder",
 
             "USERNAME": "Benutzername",
-			"USERNAME_NOT_ALLOWED": "Benutzername nicht erlaubt",
             "PASSWORD": "Passwort",
             "LOGIN": "Log In",
             "SIGN_UP": "Anmelden",
             "NO_ACCOUNT": "Haben sie kein Konto?",
             "ALREADY_HAVE": "Haben Sie schon ein Konto?",
+			"USERNAME_NOT_ALLOWED": "Benutzername nicht erlaubt",
 
             "CHANGE_ACCOUNT": "Konto wechseln",
             "CHANGE_PASSWORD": "Passwort verändern",
@@ -341,6 +345,8 @@
             "TITLE": "Fotos",
             "SELECT": "Auswählen",
             "CANCEL": "Abbrechen",
+            "PROCEED": "Speichern",
+            "OK": "OK",
             "EDIT": "Bearbeiten",
             "DONE": "Fertig",
             "DELETE": "Löschen",
@@ -352,7 +358,9 @@
             "LIBRARY": "Mediathek",
             "GALLERY": "Gallerie",
             "MY_ALBUMS": "Meine Alben",
+            "SHARED_ALBUMS": "Gemeinsame Alben",
             "MEDIA_TYPES": "Medien-Typen",
+            "MANAGE_MEMBERS": "Mitglieder verwalten",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "Neues Album",
                 "DESCRIPTION": "Gib einen Namen für das Album ein",
@@ -362,9 +370,11 @@
             },
             "REMOVE_ALBUM": {
                 "TITLE": "\"{name}\" löschen",
-                "DESCRIPTION": "Bist du dir sicher dass du \"{name}\" löschen willst? Die Fotos werden nicht gelöscht.",
-                "CANCEL": "Abbrechen",
-                "PROCEED": "Löschen"
+                "DESCRIPTION": "Bist du dir sicher dass du \"{name}\" löschen willst? Die Fotos werden nicht gelöscht."
+            },
+            "LEAVE_SHARED_ALBUM": {
+                "TITLE": "\"{name}\" verlassed",
+                "DESCRIPTION": "Sind Sie sicher, dass Sie das Album \"{name}\" verlassen möchten? Sie können dann keine Fotos mehr in das Album hochladen."
             },
             "RENAME_ALBUM_POPUP": {
                 "TITLE": "Album umbenennen",
@@ -385,6 +395,20 @@
                 "CANCEL": "Abbrechen",
                 "PROCEED": "Bestätigen",
                 "PLACEHOLDER": "Bild URL"
+            },
+            "ERROR": "Fehler",
+            "SUCCESS": "Erfolg",
+            "CONTACT_ALREADY_IN_ALBUM": "Kontakt bereits im Album",
+            "CONTACT_ADDED_TO_ALBUM": "Kontakt zum Album hinzugefügt",
+            "MEMBERS": "{count} Mitglieder",
+            "INVITE": "Einladen",
+            "LEAVE_ALBUM": "Album verlassen",
+            "CREATE_SHARED_ALBUM": "Gemeinsames Album erstellen",
+            "MANAGE_SHARED_ALBUM": "Gemeinsames Album verwalten",
+            "REMOVE_MEMBER": {
+                "TITLE": "Mitglied entfernen",
+                "DESCRIPTION": "Sind Sie sicher, dass Sie dieses Mitglied aus dem Album entfernen möchten?",
+                "SUCCESS": "Mitglied aus dem Album entfernt"
             },
 
             "NO_PHOTOS": "Keine Bilder oder Videos",
@@ -626,7 +650,11 @@
             "RECENTS": {
                 "TITLE": "Kürzlich",                
                 "ALL": "ALLE",
-                "MISSED": "Verpasst"
+                "MISSED": "Verpasst",
+                "OUTGOING_CALL": "Ausgehender Anruf",
+                "INCOMING_CALL": "Eingehender Anruf",
+                "CANCELLED_CALL": "Abgebrochener Anruf",
+                "MISSED_CALL": "Verpasster Anruf"
             },
             "VOICEMAIL": {
                 "TITLE": "Voicemail",
@@ -909,6 +937,7 @@
         },
         "MUSIC": {
             "TITLE": "Musik",
+            "HOME": "Heim",
             "LIBRARY": "Mediathek",
             "SEARCH": "Suchen",
             "ADD_QUEUE": "Zur Warteschlange",
@@ -1099,6 +1128,7 @@
             "SEEN_BY": "Gesehen von {count}",
             "ADD_ACCOUNT": "Account hinzufügen",
             "INVITE": "Einladen",
+            "INVITED": "Eingeladen",
             "REMOVE": "Entfernen",
             "IN_THIS_ROOM": "In diesem Raum",
             "WHOS_WATCHING": "Wer schaut zu",
@@ -1112,9 +1142,9 @@
             "USERNAME_TAKEN": "Benutzername ist schon vergeben",
             "UNKNOWN": "Unbekannter Fehler",
             "UNKNOWN_ACCOUNT": "Das Konto existiert nicht",
-			"USERNAME_NOT_ALLOWED": "Benutzername nicht erlaubt",
             "INVALID_USERNAME": "Ungültiger Username",
             "INCORRECT_PASSWORD": "Falsches Passwort",
+			"USERNAME_NOT_ALLOWED": "Benutzername nicht erlaubt",
             "OK": "OK",
             "LOCATION": "Standort",
             "CHOOSE_LOCATION": {
@@ -1122,7 +1152,16 @@
                 "DESCRIPTION": "Wählen Sie einen Standort für diesen Beitrag aus",
                 "CANCEL": "Abbrechen",
                 "PROCEED": "Fortfahren"
-            }
+            },
+            "REPLIED_TO_YOUR_STORY": "Auf Ihre Story geantwortet",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "Hat geantwortet: {content}",
+
+            "SHARE_TO_STORY": {
+                "TITLE": "Zur Story teilen",
+                "SUCCESS": "Post geteilt",
+                "DESCRIPTION": "Ihr Post wurde für Ihre Story freigegeben"
+            },
+            "VIEW_POST": "Post ansehen"
         },
         "TWITTER": {
             "TITLE": "Birdy",
@@ -1200,14 +1239,13 @@
             "NOTIFICATIONS": "Benachrichtigungen",
             "FOLLOWS_YOU": "Folgt dir",
             "JOINED": "{date} beigetreten",
+            "PINNED_POST": "Angepinnter Beitrag",
             "LIKED_TWEET": "gefällt dein Tweet",
             "RETWEETED_TWEET": "hat deinen Tweet retweeted",
             "FOLLOWED": "folgt dir",
             "SIGN_UP_TEXT": "Schau was gerade in der Welt passiert",
             "TERMS_OF_SERVICE": "Mit der Anmeldung stimmen Sie unseren Nutzungsbedingungen und Datenschutzbestimmungen zu.",
             "HAS_ACCOUNT": "Du hast schon einen Account?",
-            "INVALID_ACCOUNT": "Ungültiger Account",
-            "INVALID_PASSWORD": "Ungültiges Passwort",
             "CREATE_YOUR_ACCOUNT": "Account erstellen",
             "NAME_PLACEHOLDER": "Name",
             "USERNAME_PLACEHOLDER": "Benutzername",
@@ -1225,8 +1263,6 @@
             "PROMOTE": "Promote",
             "PIN": "Tweet anpinnen",
             "UNPIN": "Tweet nicht mehr anpinnen",
-			"USERNAME_NOT_ALLOWED": "Benutzername nicht erlaubt",
-			"USERNAME_TAKEN": "Der Benutzername ist bereits vergeben",
             "NEW_MESSAGE": "Neue Nachricht",
             "PROMOTED": "Promoted",
             "ADD_ACCOUNT": "Account hinzufügen",
@@ -1234,7 +1270,11 @@
             "NEW_POSTS": "Neue Posts",
             "NEW_POST": "Neuer Post",
             "PROTECTED_TWEETS_TITLE": "Diese Stellen sind geschützt.",
-            "PROTECTED_TWEETS_DESCRIPTION": "Nur bestätigte Follower haben Zugang zu den Beiträgen und dem vollständigen Profil von @{Benutzername}. Tippen Sie auf die Schaltfläche \"Folgen\", um eine Folgeanfrage zu senden."
+            "PROTECTED_TWEETS_DESCRIPTION": "Nur bestätigte Follower haben Zugang zu den Beiträgen und dem vollständigen Profil von @{Benutzername}. Tippen Sie auf die Schaltfläche \"Folgen\", um eine Folgeanfrage zu senden.",
+            "INVALID_ACCOUNT": "Ungültiger Account",
+            "INVALID_PASSWORD": "Ungültiges Passwort",
+			"USERNAME_NOT_ALLOWED": "Benutzername nicht erlaubt",
+			"USERNAME_TAKEN": "Der Benutzername ist bereits vergeben"
         },
         "SERVICES": {
             "ACTIONS": "Verwaltung",
@@ -1563,6 +1603,7 @@
             "NOTE": "Notiz",
             "VOICEMEMO": "Sprachnotiz",
             "PLAYLIST": "Playlist",
+            "ALBUM": "Album",
             "DECLINE": "Ablehnen",
             "ACCEPT": "Akzeptieren"
         },
