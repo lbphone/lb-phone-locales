@@ -173,7 +173,7 @@
                 "ERROR": "Fehler",
                 "ALREADY_HAVE": "Du hast bereits ein Backup für diese Nummer",
                 "SAME_PHONE": "Du kannst kein Backup anwenden, das vom gleichen Telefon erstellt wurde",
-                "OK": "OK"                
+                "OK": "OK"
             },
             "SUCCESS": "Erfolgreich",
             "SUCCESS_TEXT": "Telefon wird in 5 Sekunden neu gestartet",
@@ -289,7 +289,7 @@
             "SIGN_UP": "Anmelden",
             "NO_ACCOUNT": "Haben sie kein Konto?",
             "ALREADY_HAVE": "Haben Sie schon ein Konto?",
-			"USERNAME_NOT_ALLOWED": "Benutzername nicht erlaubt",
+            "USERNAME_NOT_ALLOWED": "Benutzername nicht erlaubt",
 
             "CHANGE_ACCOUNT": "Konto wechseln",
             "CHANGE_PASSWORD": "Passwort verändern",
@@ -648,7 +648,7 @@
                 "ADD_NUMBER": "Nummer hinzufügen"
             },
             "RECENTS": {
-                "TITLE": "Kürzlich",                
+                "TITLE": "Kürzlich",
                 "ALL": "ALLE",
                 "MISSED": "Verpasst",
                 "OUTGOING_CALL": "Ausgehender Anruf",
@@ -1144,7 +1144,7 @@
             "UNKNOWN_ACCOUNT": "Das Konto existiert nicht",
             "INVALID_USERNAME": "Ungültiger Username",
             "INCORRECT_PASSWORD": "Falsches Passwort",
-			"USERNAME_NOT_ALLOWED": "Benutzername nicht erlaubt",
+            "USERNAME_NOT_ALLOWED": "Benutzername nicht erlaubt",
             "OK": "OK",
             "LOCATION": "Standort",
             "CHOOSE_LOCATION": {
@@ -1273,8 +1273,8 @@
             "PROTECTED_TWEETS_DESCRIPTION": "Nur bestätigte Follower haben Zugang zu den Beiträgen und dem vollständigen Profil von @{Benutzername}. Tippen Sie auf die Schaltfläche \"Folgen\", um eine Folgeanfrage zu senden.",
             "INVALID_ACCOUNT": "Ungültiger Account",
             "INVALID_PASSWORD": "Ungültiges Passwort",
-			"USERNAME_NOT_ALLOWED": "Benutzername nicht erlaubt",
-			"USERNAME_TAKEN": "Der Benutzername ist bereits vergeben"
+            "USERNAME_NOT_ALLOWED": "Benutzername nicht erlaubt",
+            "USERNAME_TAKEN": "Der Benutzername ist bereits vergeben"
         },
         "SERVICES": {
             "ACTIONS": "Verwaltung",
