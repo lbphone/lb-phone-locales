@@ -731,8 +731,8 @@
             },
             "VALET_POPUP": {
                 "TITLE": "バレー",
-                "TEXT": "{model} ({plate})をバレーしますか？",
-                "TEXT_PAID": "{model} ({plate})を{amount}でバレーしますか？",
+                "TEXT": "{model} ({plate})を呼び出しますか？",
+                "TEXT_PAID": "{model} ({plate})を{amount}で呼び出しますか？",
                 "CANCEL": "キャンセル",
                 "PROCEED": "続行"
             },
