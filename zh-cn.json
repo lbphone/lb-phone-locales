@@ -215,516 +215,516 @@
                 "LOCAL_TIME": "当地时间",
                 "HRS": "{time} 小时"
             },
-        "ALARM": {
-            "TITLE": "闹钟",
-            "ADD": "添加闹钟",
-            "CANCEL": "取消",
-            "EDIT": "编辑",
-            "DONE": "完成",
-            "SAVE": "保存",
-            "LABEL": "标签",
-            "SOUND": "铃声",
-            "SNOOZE": "小睡",
-            "DELETE_TITLE": "删除闹钟",
-            "DELETE_TEXT": "您确定要删除此闹钟吗? ",
-            "BUTTON_CANCEL": "取消",
-            "BUTTON_DELETE": "删除",
-            "ALARMS": "闹钟",
-            "NEW_ALARM": "新建闹钟",
-            "EDIT_ALARM": "编辑闹钟"
-        },
-        "STOPWATCH": {
-            "TITLE": "秒表",
-            "START": "开始",
-            "STOP": "停止",
-            "RESET": "重置",
-            "LAP": "圈数",
-            "TIME": "时间",
-            "TOTAL": "总计",
-            "NO_LAPS": "无圈数记录"
-        },
-        "TIMER": {
-            "TITLE": "计时器",
-            "START": "开始",
-            "STOP": "停止",
-            "CANCEL": "取消",
-            "HOURS": "小时",
-            "MINUTES": "分钟",
-            "SECONDS": "秒",
-            "NO_RECENTS": "无最近记录"
-        },
-        "ALERT": {
-            "STOP": "停止",
-            "RESTART": "重新开始"
-        }
-    },
-    "CAMERA": {
-        "VIDEO": "视频",
-        "PHOTO": "照片",
-        "LANDSCAPE": "全景",
-        "UPLOADING": "上传中"
-    },
-    "DARKCHAT": {
-        "TITLE": "暗聊",
-        "SEARCH": "搜索频道",
-        "CANCEL": "取消",
-        "SET": "设置",
-        "JOIN": "加入",
-        "LEAVE": "离开",
-        "NEW_ROOM": "新建房间",
-        "NEW_ROOM_TEXT": "输入房间代码以加入或创建房间",
-        "ROOM_CODE": "房间代码",
-        "LEAVE_ROOM": "离开房间",
-        "LEAVE_ROOM_TEXT": "您确定要离开此房间吗? ",
-        "NOW": "现在",
-        "INPUT_PLACEHOLDER": "输入消息...",
-        "NO_CHATS": "无聊天记录",
-        "NO_CHATS_TEXT": "您尚未加入任何频道, 请通过右上角的加号加入或创建频道",
-        "MEMBER": "成员",
-        "MEMBERS": "成员",
-    
-        "USERNAME": "用户名",
-        "PASSWORD": "密码",
-        "LOGIN": "登录",
-        "SIGN_UP": "注册",
-        "NO_ACCOUNT": "没有账号? ",
-        "ALREADY_HAVE": "已有账号? ",
-        "USERNAME_NOT_ALLOWED": "用户名不被允许",
-    
-        "CHANGE_ACCOUNT": "切换账号",
-        "CHANGE_PASSWORD": "更改密码",
-        "DELETE_ACCOUNT": "删除账号",
-    
-        "ERROR": "错误",
-        "INVALID_LENGTH": "密码至少需要3个字符",
-        "USERNAME_TAKEN": "用户名已被占用",
-        "UNKNOWN": "未知错误",
-        "INVALID_USERNAME": "用户名不存在",
-        "INCORRECT_PASSWORD": "密码错误",
-        "OK": "确定",
-    
-        "LEAVE_CHANNEL": {
-            "TITLE": "离开频道",
-            "DESCRIPTION": "您确定要离开此频道吗? ",
-            "CANCEL": "取消",
-            "PROCEED": "离开"
-        },
-    
-        "SET_PASSWORD_POPUP": {
-            "TITLE": "设置密码",
-            "DESCRIPTION": "您需要为您的账号设置密码",
-            "PLACEHOLDER": "密码"
-        }
-    },
-    "APPSTORE": {
-        "TITLE": "应用",
-        "SEARCH": "搜索",
-        "GET": "获取",
-        "OPEN": "打开",
-        "TODAY": "今日",
-        "POPULAR_APPS": "热门应用",
-        "GAMES": "游戏",
-        "APPS": "应用",
-        "WHAT_WE_PLAYING": "我们正在玩",
-        "INFORMATION": "信息",
-        "PROVIDER": "提供商",
-        "SIZE": "大小",
-        "COMPATIBILITY": "兼容性",
-        "IN_APP_PURCHASES": "应用内购买",
-        "WORKS_WITH_PHONE": "适用于此手机",
-        "NO": "否",
-        "YES": "是",
-        "PURCHASE_APP_POPUP": {
-            "TITLE": "购买应用",
-            "DESCRIPTION": "您要以 {price} 购买 {app} 吗? ",
-            "CANCEL": "取消",
-            "PROCEED": "购买"
-        }
-    },
-    "PHOTOS": {
-        "TITLE": "照片",
-        "SELECT": "选择",
-        "CANCEL": "取消",
-        "PROCEED": "继续",
-        "OK": "确定",
-        "EDIT": "编辑",
-        "DONE": "完成",
-        "DELETE": "删除",
-        "SELECT_ITEMS": "选择项目",
-        "SELECTED_COUNT": "已选择 {count} 个项目",
-
-        "PHOTOS": "照片",
-        "ALBUMS": "相册",
-        "LIBRARY": "库",
-        "GALLERY": "图库",
-        "MY_ALBUMS": "我的相册",
-        "SHARED_ALBUMS": "共享相册",
-        "MEDIA_TYPES": "媒体类型",
-        "MANAGE_MEMBERS": "管理成员",
-        "NEW_ALBUM_POPUP": {
-            "TITLE": "新建相册",
-            "DESCRIPTION": "为该相册输入名称",
-            "PLACEHOLDER": "标题",
-            "CANCEL": "取消",
-            "PROCEED": "保存"
-        },
-        "REMOVE_ALBUM": {
-            "TITLE": "删除 \"{name}\"",
-            "DESCRIPTION": "您确定要删除相册 \"{name}\" 吗? 照片不会被删除"
-        },
-        "LEAVE_SHARED_ALBUM": {
-            "TITLE": "离开 \"{name}\"",
-            "DESCRIPTION": "你确定要离开相册 \"{name}\"吗？你将无法再上传照片到该相册"
-        },
-        "RENAME_ALBUM_POPUP": {
-            "TITLE": "重命名相册",
-            "DESCRIPTION": "为该相册输入新名称",
-            "PLACEHOLDER": "新相册名称",
-            "CANCEL": "取消",
-            "PROCEED": "确定"
-        },
-        "DELETE_IMAGE_POPUP": {
-            "TITLE": "删除图片",
-            "DESCRIPTION": "您确定要删除此图片吗? ",
-            "CANCEL": "取消",
-            "PROCEED": "删除"
-        },
-        "IMPORT_IMAGE_POPUP": {
-            "TITLE": "导入到相册",
-            "DESCRIPTION": "将图片导入到此相册",
-            "CANCEL": "取消",
-            "PROCEED": "导入",
-            "PLACEHOLDER": "图片URL"
-        },
-        "ERROR": "错误",
-        "SUCCESS": "成功",
-        "CONTACT_ALREADY_IN_ALBUM": "联系人已在相册中",
-        "CONTACT_ADDED_TO_ALBUM": "联系人已添加到相册",
-        "MEMBERS": "{count} 名成员",
-        "INVITE": "邀请",
-        "LEAVE_ALBUM": "离开相册",
-        "CREATE_SHARED_ALBUM": "创建共享相册",
-        "MANAGE_SHARED_ALBUM": "管理共享相册",
-        "REMOVE_MEMBER": {
-            "TITLE": "移除成员",
-            "DESCRIPTION": "你确定要将此成员从相册中移除吗?",
-            "SUCCESS": "成员已从相册中移除"
-        },
-
-        "NO_PHOTOS": "无照片或视频",
-        "NO_PHOTOS_INSTRUCTIONS": "您可以使用相机拍摄照片和视频",
-        "PHOTO_COUNT": "{amount} 张照片",
-        "VIDEO_COUNT": "{amount} 段视频",
-
-        "DELETE_CONTEXT_TITLE": "您是要删除 {type} 还是要将其从相册中移除",
-        "THESE_PHOTOS": "这些照片",
-        "THIS_PHOTO": "这张照片",
-        "REMOVE_FROM_ALBUM": "从相册中移除",
-        "ADD_TO_ALBUM": "添加到相册",
-        "ADD_TO_FAVOURITES": "添加到收藏夹",
-        "REMOVE_FROM_FAVOURITES": "从收藏夹中移除",
-        "VIDEOS": "视频",
-        "SELFIES": "自拍",
-        "SCREENSHOTS": "屏幕截图",
-        "IMPORTS": "导入",
-        "DUPLICATES": "重复项",
-        "YEARS": "年份",
-        "MONTHS": "月份",
-        "DAYS": "日期",
-        "ALL_PHOTOS": "所有照片",
-
-        "FAVOURITES": "收藏夹",
-        "RECENTS": "最近"
-    },
-    "WEATHER": {
-        "TITLE": "天气",
-        "HOURLY_FORECAST": "小时预报",
-        "NOW": "当前",
-        "FEELS_LIKE": "体感温度",
-        "FEELS_LIKE_SAME": "与实际温度相近",
-        "FEELS_LIKE_HUMIDITY": "湿度使温度感觉更高",
-        "FEELS_LIKE_WIND": "风使温度感觉更低",
-        "SUNRISE": "日出",
-        "SUNSET": "日落",
-        "WIND": "风",
-        "PRECIPITATION": "降水",
-        "LAST_24H": "过去24小时",
-        "EXPECTED_24H": "未来24小时预计",
-        "TYPES": {
-            "CLOUDY": "多云",
-            "LIGHT_RAIN": "小雨",
-            "HEAVY_RAIN": "大雨",
-            "RAIN": "雨",
-            "SNOW": "雪",
-            "FOG": "雾",
-            "CLEAR": "晴朗",
-            "MOSTLY_CLEAR": "大部分晴朗",
-            "THUNDER": "雷雨",
-            "TORNADO": "龙卷风",
-            "WINDY": "大风"
-        }
-    },
-    "MESSAGES": {
-        "TITLE": "消息",
-        "NEW_MESSAGE": "新消息",
-        "PEOPLE": "联系人",
-        "MEMBERS": "成员",
-        "OTHER": "其他",
-        "SENT_A_PHOTO": "发送了一张照片",
-        "SENT_AUDIO_MESSAGE": "发送了一条语音消息",
-        "SENT": "已发送",
-        "REQUESTED": "已请求",
-        "MISSED_CALL": "{number} 尝试给您打电话, 但您未接听, 点击号码回拨",
-        "NOT_DELIVERED": "未送达",
-        "PLACEHOLDER": "短信内容",
-        "DONE": "完成",
-        "EDIT": "编辑",
-        "READ": "已读",
-        "CANCEL": "取消",
-        "SEND": "发送",
-        "UNKNOWN": "未知",
-        "TO": "发送给",
-        "SEARCH": "搜索",
-        "ADD_MEMBER": "添加成员",
-        "SHARE_LOCATION": "分享我的位置",
-        "LEAVE_GROUP": "退出群组",
-        "SENT_LOCATION": "分享了位置, 点击在地图中打开",
-        "SENT_LOCATION_SHORT": "分享了位置",
-        "TRIED_TO_CALL": "{number} 尝试给您打电话",
-        "DELETE": "删除",
-        "GROUP": "群组",
-        "GROUP_NAME": "群组名称",
-        "REMOVE_POPUP": {
-            "TITLE": "移除成员",
-            "TEXT": "您确定要将 {name} 从群组中移除吗? ",
-            "REMOVE": "移除"
-        },
-        "LEAVE_POPUP": {
-            "TITLE": "退出群组",
-            "TEXT": "您确定要退出此群组吗? ",
-            "LEAVE": "退出"
-        },
-        "ADD_POPUP": {
-            "TITLE": "添加成员",
-            "TEXT": "输入号码以添加到 '{name}' 群组",
-            "ADD": "添加"
-        },
-        "SEND_LOCATION_POPUP": {
-            "TITLE": "分享位置",
-            "TEXT": "您要分享您的位置吗? ",
-            "CANCEL": "取消",
-            "SEND": "发送"
-        },
-        "PAY": {
-            "REQUEST": "请求",
-            "REQUESTED": "已请求",
-            "PAY": "支付",
-            "SEND": "发送",
-            "SEND_TITLE": "发送 {amount}",
-            "SEND_DESCRIPTION": "您要向 {name} 发送 {amount} 吗? ",
-            "SEND_BUTTON_CANCEL": "取消",
-            "SEND_BUTTON_SEND": "发送"
-        },
-        "PAYMENT_FAILED_POPUP": {
-            "TITLE": "支付失败",
-            "DESCRIPTION": "错误：{error}",
-            "CLOSE": "关闭"
-        },
-        "DELETE_CONVERSATION": {
-            "TITLE": "删除对话",
-            "DESCRIPTION": "您确定要删除此对话吗? ",
-            "CANCEL": "取消",
-            "DELETE": "删除"
-        },
-        "REMOVE_AVATAR_POPUP": {
-            "TITLE": "移除头像",
-            "DESCRIPTION": "您确定要移除群组头像吗? ",
-            "CANCEL": "取消",
-            "REMOVE": "移除"
-        },
-        "MARK_AS_READ": "标记为已读",
-        "MESSAGE_DELETED": "消息已删除",
-        "OPEN_IN_MAPS": "在地图中打开",
-        "USERS_LOCATION": "{user} 的位置",
-        "START_RECORDING": "按下按钮开始录音",
-        "LOADING": "加载中...",
-        "EMPTY_RECORDING": {
-            "TITLE": "空白录音",
-            "DESCRIPTION": "您无法发送空白录音",
-            "OK": "确定"
-        }
-    },
-    "PHONE": {
-        "TITLE": "电话",
-        "DONE": "完成",
-        "EDIT": "编辑",
-        "CANCEL": "取消",
-        "CALL": {
-            "CALL_TITLE": "呼叫 {name}",
-            "CALL_TEXT": "您确定要呼叫 {name} 吗? ",
-            "CALL_BUTTON_CANCEL": "取消",
-            "CALL_BUTTON_CALL": "呼叫",
-            "NO_CALLER_ID": "无来电显示",
-            "UNKNOWN": "未知",
-            "USER_BUSY": "用户忙",
-            "USER_UNAVAILABLE": "用户不可用",
-            "CALL_BACK": "回拨",
-            "DECLINE": "拒绝",
-            "ACCEPT": "接听",
-            "END": "结束",
-            "VIDEO_CALL": "视频通话",
-            "MUTE": "静音",
-            "KEYPAD": "拨号盘",
-            "SPEAKER": "扬声器",
-            "ADD_CALL": "添加通话",
-            "VIDEO": "视频",
-            "CONTACTS": "联系人",
-            "MOBILE": "手机",
-            "VIDEO_CALL_REQUEST": {
-                "TITLE": "视频通话请求",
-                "DESCRIPTION": "您要接受视频通话吗? ",
+            "ALARM": {
+                "TITLE": "闹钟",
+                "ADD": "添加闹钟",
                 "CANCEL": "取消",
-                "PROCEED": "接受"
+                "EDIT": "编辑",
+                "DONE": "完成",
+                "SAVE": "保存",
+                "LABEL": "标签",
+                "SOUND": "铃声",
+                "SNOOZE": "小睡",
+                "DELETE_TITLE": "删除闹钟",
+                "DELETE_TEXT": "您确定要删除此闹钟吗? ",
+                "BUTTON_CANCEL": "取消",
+                "BUTTON_DELETE": "删除",
+                "ALARMS": "闹钟",
+                "NEW_ALARM": "新建闹钟",
+                "EDIT_ALARM": "编辑闹钟"
             },
-            "REQUEST_VIDEO": {
-                "TITLE": "视频通话",
-                "DESCRIPTION": "您要开始视频通话吗? ",
-                "CANCEL": "取消",
-                "PROCEED": "继续"
+            "STOPWATCH": {
+                "TITLE": "秒表",
+                "START": "开始",
+                "STOP": "停止",
+                "RESET": "重置",
+                "LAP": "圈数",
+                "TIME": "时间",
+                "TOTAL": "总计",
+                "NO_LAPS": "无圈数记录"
             },
-            "STOP_VIDEO": {
-                "TITLE": "停止视频",
-                "DESCRIPTION": "您确定要停止分享视频吗? ",
+            "TIMER": {
+                "TITLE": "计时器",
+                "START": "开始",
+                "STOP": "停止",
                 "CANCEL": "取消",
-                "PROCEED": "停止"
+                "HOURS": "小时",
+                "MINUTES": "分钟",
+                "SECONDS": "秒",
+                "NO_RECENTS": "无最近记录"
+            },
+            "ALERT": {
+                "STOP": "停止",
+                "RESTART": "重新开始"
             }
         },
-        "CONTACTS": {
-            "TITLE": "联系人",
-            "FIRST_NAME": "名",
-            "LAST_NAME": "姓",
-            "PHONE_NUMBER": "电话号码",
-            "MY_CARD": "我的名片",
-            "ADD_PHOTO": "添加照片",
-            "REMOVE_CONTACT_TITLE": "删除联系人",
-            "REMOVE_CONTACT_TEXT": "您确定要删除此联系人吗? ",
-            "REMOVE_CONTACT_BUTTON_CANCEL": "取消",
-            "REMOVE_CONTACT_BUTTON_DELETE": "删除",
-            "DELETE_CONTACT": "删除联系人",
-            "MESSAGE": "消息",
-            "CALL": "通话",
+        "CAMERA": {
             "VIDEO": "视频",
-            "SHARE": "分享",
-            "MAIN": "主要",
-            "SHARE_CONTACT": "分享联系人",
-            "SHARE_LOCATION": "分享我的位置",
-            "REMOVE_FAVORITE": "从收藏夹中移除",
-            "ADD_FAVORITE": "添加到收藏夹",
-            "ADD_CONTACT": "添加到联系人",
-            "UNBLOCK_CALLER": "取消屏蔽此来电者",
-            "BLOCK_CALLER": "屏蔽此来电者",
-            "UNBLOCK_NUMBER_TITLE": "取消屏蔽号码",
-            "UNBLOCK_NUMBER_TEXT": "您确定要取消屏蔽 {number} 吗? ",
-            "UNBLOCK_NUMBER_BUTTON_CANCEL": "取消",
-            "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "取消屏蔽",
-            "BLOCK_NUMBER_TITLE": "屏蔽号码",
-            "BLOCK_NUMBER_TEXT": "您确定要屏蔽 {number} 吗? ",
-            "BLOCK_NUMBER_BUTTON_CANCEL": "取消",
-            "BLOCK_NUMBER_BUTTON_BLOCK": "屏蔽",
-            "EMAIL": "电子邮箱",
-            "ADDRESS": "地址",
-            "CHANGE_AVATAR": "更换头像",
-            "REMOVE_AVATAR": "移除头像"
+            "PHOTO": "照片",
+            "LANDSCAPE": "全景",
+            "UPLOADING": "上传中"
         },
-        "FAVOURITES": {
-            "TITLE": "收藏夹",
-            "REMOVE_TITLE": "从收藏夹中移除",
-            "REMOVE_TEXT": "您确定要将此联系人从收藏夹中移除吗? ",
-            "REMOVE_BUTTON_CANCEL": "取消",
-            "REMOVE_BUTTON_REMOVE": "移除"
+        "DARKCHAT": {
+            "TITLE": "暗聊",
+            "SEARCH": "搜索频道",
+            "CANCEL": "取消",
+            "SET": "设置",
+            "JOIN": "加入",
+            "LEAVE": "离开",
+            "NEW_ROOM": "新建房间",
+            "NEW_ROOM_TEXT": "输入房间代码以加入或创建房间",
+            "ROOM_CODE": "房间代码",
+            "LEAVE_ROOM": "离开房间",
+            "LEAVE_ROOM_TEXT": "您确定要离开此房间吗? ",
+            "NOW": "现在",
+            "INPUT_PLACEHOLDER": "输入消息...",
+            "NO_CHATS": "无聊天记录",
+            "NO_CHATS_TEXT": "您尚未加入任何频道, 请通过右上角的加号加入或创建频道",
+            "MEMBER": "成员",
+            "MEMBERS": "成员",
+
+            "USERNAME": "用户名",
+            "PASSWORD": "密码",
+            "LOGIN": "登录",
+            "SIGN_UP": "注册",
+            "NO_ACCOUNT": "没有账号? ",
+            "ALREADY_HAVE": "已有账号? ",
+            "USERNAME_NOT_ALLOWED": "用户名不被允许",
+
+            "CHANGE_ACCOUNT": "切换账号",
+            "CHANGE_PASSWORD": "更改密码",
+            "DELETE_ACCOUNT": "删除账号",
+
+            "ERROR": "错误",
+            "INVALID_LENGTH": "密码至少需要3个字符",
+            "USERNAME_TAKEN": "用户名已被占用",
+            "UNKNOWN": "未知错误",
+            "INVALID_USERNAME": "用户名不存在",
+            "INCORRECT_PASSWORD": "密码错误",
+            "OK": "确定",
+
+            "LEAVE_CHANNEL": {
+                "TITLE": "离开频道",
+                "DESCRIPTION": "您确定要离开此频道吗? ",
+                "CANCEL": "取消",
+                "PROCEED": "离开"
+            },
+
+            "SET_PASSWORD_POPUP": {
+                "TITLE": "设置密码",
+                "DESCRIPTION": "您需要为您的账号设置密码",
+                "PLACEHOLDER": "密码"
+            }
         },
-        "KEYPAD": {
-            "TITLE": "拨号盘",
-            "ADD_NUMBER": "添加号码"
+        "APPSTORE": {
+            "TITLE": "应用",
+            "SEARCH": "搜索",
+            "GET": "获取",
+            "OPEN": "打开",
+            "TODAY": "今日",
+            "POPULAR_APPS": "热门应用",
+            "GAMES": "游戏",
+            "APPS": "应用",
+            "WHAT_WE_PLAYING": "我们正在玩",
+            "INFORMATION": "信息",
+            "PROVIDER": "提供商",
+            "SIZE": "大小",
+            "COMPATIBILITY": "兼容性",
+            "IN_APP_PURCHASES": "应用内购买",
+            "WORKS_WITH_PHONE": "适用于此手机",
+            "NO": "否",
+            "YES": "是",
+            "PURCHASE_APP_POPUP": {
+                "TITLE": "购买应用",
+                "DESCRIPTION": "您要以 {price} 购买 {app} 吗? ",
+                "CANCEL": "取消",
+                "PROCEED": "购买"
+            }
         },
-        "RECENTS": {
-            "TITLE": "通话记录",
-            "ALL": "全部",
-            "MISSED": "未接听",
-            "OUTGOING_CALL": "拨出电话",
-            "INCOMING_CALL": "来电",
-            "CANCELLED_CALL": "已取消的通话",
-            "MISSED_CALL": "未接来电"
-        },
-        "VOICEMAIL": {
-            "TITLE": "语音信箱",
-            "AT": "在",
-            "DELETE_POPUP": {
-                "TITLE": "删除语音信箱",
-                "DESCRIPTION": "您确定要删除此语音信箱吗? ",
+        "PHOTOS": {
+            "TITLE": "照片",
+            "SELECT": "选择",
+            "CANCEL": "取消",
+            "PROCEED": "继续",
+            "OK": "确定",
+            "EDIT": "编辑",
+            "DONE": "完成",
+            "DELETE": "删除",
+            "SELECT_ITEMS": "选择项目",
+            "SELECTED_COUNT": "已选择 {count} 个项目",
+
+            "PHOTOS": "照片",
+            "ALBUMS": "相册",
+            "LIBRARY": "库",
+            "GALLERY": "图库",
+            "MY_ALBUMS": "我的相册",
+            "SHARED_ALBUMS": "共享相册",
+            "MEDIA_TYPES": "媒体类型",
+            "MANAGE_MEMBERS": "管理成员",
+            "NEW_ALBUM_POPUP": {
+                "TITLE": "新建相册",
+                "DESCRIPTION": "为该相册输入名称",
+                "PLACEHOLDER": "标题",
+                "CANCEL": "取消",
+                "PROCEED": "保存"
+            },
+            "REMOVE_ALBUM": {
+                "TITLE": "删除 \"{name}\"",
+                "DESCRIPTION": "您确定要删除相册 \"{name}\" 吗? 照片不会被删除"
+            },
+            "LEAVE_SHARED_ALBUM": {
+                "TITLE": "离开 \"{name}\"",
+                "DESCRIPTION": "你确定要离开相册 \"{name}\"吗？你将无法再上传照片到该相册"
+            },
+            "RENAME_ALBUM_POPUP": {
+                "TITLE": "重命名相册",
+                "DESCRIPTION": "为该相册输入新名称",
+                "PLACEHOLDER": "新相册名称",
+                "CANCEL": "取消",
+                "PROCEED": "确定"
+            },
+            "DELETE_IMAGE_POPUP": {
+                "TITLE": "删除图片",
+                "DESCRIPTION": "您确定要删除此图片吗? ",
                 "CANCEL": "取消",
                 "PROCEED": "删除"
             },
-            "CALL_POPUP": {
-                "TITLE": "呼叫",
-                "DESCRIPTION": "您确定要呼叫 {number} 吗? ",
+            "IMPORT_IMAGE_POPUP": {
+                "TITLE": "导入到相册",
+                "DESCRIPTION": "将图片导入到此相册",
                 "CANCEL": "取消",
-                "PROCEED": "呼叫"
+                "PROCEED": "导入",
+                "PLACEHOLDER": "图片URL"
+            },
+            "ERROR": "错误",
+            "SUCCESS": "成功",
+            "CONTACT_ALREADY_IN_ALBUM": "联系人已在相册中",
+            "CONTACT_ADDED_TO_ALBUM": "联系人已添加到相册",
+            "MEMBERS": "{count} 名成员",
+            "INVITE": "邀请",
+            "LEAVE_ALBUM": "离开相册",
+            "CREATE_SHARED_ALBUM": "创建共享相册",
+            "MANAGE_SHARED_ALBUM": "管理共享相册",
+            "REMOVE_MEMBER": {
+                "TITLE": "移除成员",
+                "DESCRIPTION": "你确定要将此成员从相册中移除吗?",
+                "SUCCESS": "成员已从相册中移除"
+            },
+
+            "NO_PHOTOS": "无照片或视频",
+            "NO_PHOTOS_INSTRUCTIONS": "您可以使用相机拍摄照片和视频",
+            "PHOTO_COUNT": "{amount} 张照片",
+            "VIDEO_COUNT": "{amount} 段视频",
+
+            "DELETE_CONTEXT_TITLE": "您是要删除 {type} 还是要将其从相册中移除",
+            "THESE_PHOTOS": "这些照片",
+            "THIS_PHOTO": "这张照片",
+            "REMOVE_FROM_ALBUM": "从相册中移除",
+            "ADD_TO_ALBUM": "添加到相册",
+            "ADD_TO_FAVOURITES": "添加到收藏夹",
+            "REMOVE_FROM_FAVOURITES": "从收藏夹中移除",
+            "VIDEOS": "视频",
+            "SELFIES": "自拍",
+            "SCREENSHOTS": "屏幕截图",
+            "IMPORTS": "导入",
+            "DUPLICATES": "重复项",
+            "YEARS": "年份",
+            "MONTHS": "月份",
+            "DAYS": "日期",
+            "ALL_PHOTOS": "所有照片",
+
+            "FAVOURITES": "收藏夹",
+            "RECENTS": "最近"
+        },
+        "WEATHER": {
+            "TITLE": "天气",
+            "HOURLY_FORECAST": "小时预报",
+            "NOW": "当前",
+            "FEELS_LIKE": "体感温度",
+            "FEELS_LIKE_SAME": "与实际温度相近",
+            "FEELS_LIKE_HUMIDITY": "湿度使温度感觉更高",
+            "FEELS_LIKE_WIND": "风使温度感觉更低",
+            "SUNRISE": "日出",
+            "SUNSET": "日落",
+            "WIND": "风",
+            "PRECIPITATION": "降水",
+            "LAST_24H": "过去24小时",
+            "EXPECTED_24H": "未来24小时预计",
+            "TYPES": {
+                "CLOUDY": "多云",
+                "LIGHT_RAIN": "小雨",
+                "HEAVY_RAIN": "大雨",
+                "RAIN": "雨",
+                "SNOW": "雪",
+                "FOG": "雾",
+                "CLEAR": "晴朗",
+                "MOSTLY_CLEAR": "大部分晴朗",
+                "THUNDER": "雷雨",
+                "TORNADO": "龙卷风",
+                "WINDY": "大风"
             }
-        }
-    },
-    "WALLET": {
-        "TITLE": "钱包",
-        "BALANCE": "余额",
-        "SEND": "发送",
-        "NEXT": "下一步",
-        "DONE": "完成",
-        "DONE_SUBTITLE": "您已向 {number} 发送 {amount}",
-        "NO_REFUNDS": "支付不可退款, 请再次确认号码",
-        "NEW_BALANCE": "新余额",
-        "HOME": "主页",
-        "LATEST_TRANSACTIONS": "最近交易",
-        "TRANSACTIONS": "交易",
-        "ALL_TRANSACTIONS": "所有交易",
-        "LATEST_BILLS": "最近账单",
-        "NOW": "现在",
-        "AGO": "前",
-        "SELECT_CONTACT": "选择联系人",
-        "TODAY": "今天",
-        "YESTERDAY": "昨天",
-    
-        "INSUFFICIENT_FUNDS": {
-            "TITLE": "余额不足",
-            "DESCRIPTION": "您的余额不足以发送此金额"
         },
-        "NUMBER_DOES_NOT_EXIST": {
-            "TITLE": "无法继续",
-            "DESCRIPTION": "您输入的号码不存在或用户不在线"
+        "MESSAGES": {
+            "TITLE": "消息",
+            "NEW_MESSAGE": "新消息",
+            "PEOPLE": "联系人",
+            "MEMBERS": "成员",
+            "OTHER": "其他",
+            "SENT_A_PHOTO": "发送了一张照片",
+            "SENT_AUDIO_MESSAGE": "发送了一条语音消息",
+            "SENT": "已发送",
+            "REQUESTED": "已请求",
+            "MISSED_CALL": "{number} 尝试给您打电话, 但您未接听, 点击号码回拨",
+            "NOT_DELIVERED": "未送达",
+            "PLACEHOLDER": "短信内容",
+            "DONE": "完成",
+            "EDIT": "编辑",
+            "READ": "已读",
+            "CANCEL": "取消",
+            "SEND": "发送",
+            "UNKNOWN": "未知",
+            "TO": "发送给",
+            "SEARCH": "搜索",
+            "ADD_MEMBER": "添加成员",
+            "SHARE_LOCATION": "分享我的位置",
+            "LEAVE_GROUP": "退出群组",
+            "SENT_LOCATION": "分享了位置, 点击在地图中打开",
+            "SENT_LOCATION_SHORT": "分享了位置",
+            "TRIED_TO_CALL": "{number} 尝试给您打电话",
+            "DELETE": "删除",
+            "GROUP": "群组",
+            "GROUP_NAME": "群组名称",
+            "REMOVE_POPUP": {
+                "TITLE": "移除成员",
+                "TEXT": "您确定要将 {name} 从群组中移除吗? ",
+                "REMOVE": "移除"
+            },
+            "LEAVE_POPUP": {
+                "TITLE": "退出群组",
+                "TEXT": "您确定要退出此群组吗? ",
+                "LEAVE": "退出"
+            },
+            "ADD_POPUP": {
+                "TITLE": "添加成员",
+                "TEXT": "输入号码以添加到 '{name}' 群组",
+                "ADD": "添加"
+            },
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "分享位置",
+                "TEXT": "您要分享您的位置吗? ",
+                "CANCEL": "取消",
+                "SEND": "发送"
+            },
+            "PAY": {
+                "REQUEST": "请求",
+                "REQUESTED": "已请求",
+                "PAY": "支付",
+                "SEND": "发送",
+                "SEND_TITLE": "发送 {amount}",
+                "SEND_DESCRIPTION": "您要向 {name} 发送 {amount} 吗? ",
+                "SEND_BUTTON_CANCEL": "取消",
+                "SEND_BUTTON_SEND": "发送"
+            },
+            "PAYMENT_FAILED_POPUP": {
+                "TITLE": "支付失败",
+                "DESCRIPTION": "错误：{error}",
+                "CLOSE": "关闭"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "删除对话",
+                "DESCRIPTION": "您确定要删除此对话吗? ",
+                "CANCEL": "取消",
+                "DELETE": "删除"
+            },
+            "REMOVE_AVATAR_POPUP": {
+                "TITLE": "移除头像",
+                "DESCRIPTION": "您确定要移除群组头像吗? ",
+                "CANCEL": "取消",
+                "REMOVE": "移除"
+            },
+            "MARK_AS_READ": "标记为已读",
+            "MESSAGE_DELETED": "消息已删除",
+            "OPEN_IN_MAPS": "在地图中打开",
+            "USERS_LOCATION": "{user} 的位置",
+            "START_RECORDING": "按下按钮开始录音",
+            "LOADING": "加载中...",
+            "EMPTY_RECORDING": {
+                "TITLE": "空白录音",
+                "DESCRIPTION": "您无法发送空白录音",
+                "OK": "确定"
+            }
         },
-        "AIRPLANE_MODE": {
-            "TITLE": "错误",
-            "DESCRIPTION": "您尝试执行的操作需要互联网连接, 请关闭飞行模式以继续"
+        "PHONE": {
+            "TITLE": "电话",
+            "DONE": "完成",
+            "EDIT": "编辑",
+            "CANCEL": "取消",
+            "CALL": {
+                "CALL_TITLE": "呼叫 {name}",
+                "CALL_TEXT": "您确定要呼叫 {name} 吗? ",
+                "CALL_BUTTON_CANCEL": "取消",
+                "CALL_BUTTON_CALL": "呼叫",
+                "NO_CALLER_ID": "无来电显示",
+                "UNKNOWN": "未知",
+                "USER_BUSY": "用户忙",
+                "USER_UNAVAILABLE": "用户不可用",
+                "CALL_BACK": "回拨",
+                "DECLINE": "拒绝",
+                "ACCEPT": "接听",
+                "END": "结束",
+                "VIDEO_CALL": "视频通话",
+                "MUTE": "静音",
+                "KEYPAD": "拨号盘",
+                "SPEAKER": "扬声器",
+                "ADD_CALL": "添加通话",
+                "VIDEO": "视频",
+                "CONTACTS": "联系人",
+                "MOBILE": "手机",
+                "VIDEO_CALL_REQUEST": {
+                    "TITLE": "视频通话请求",
+                    "DESCRIPTION": "您要接受视频通话吗? ",
+                    "CANCEL": "取消",
+                    "PROCEED": "接受"
+                },
+                "REQUEST_VIDEO": {
+                    "TITLE": "视频通话",
+                    "DESCRIPTION": "您要开始视频通话吗? ",
+                    "CANCEL": "取消",
+                    "PROCEED": "继续"
+                },
+                "STOP_VIDEO": {
+                    "TITLE": "停止视频",
+                    "DESCRIPTION": "您确定要停止分享视频吗? ",
+                    "CANCEL": "取消",
+                    "PROCEED": "停止"
+                }
+            },
+            "CONTACTS": {
+                "TITLE": "联系人",
+                "FIRST_NAME": "名",
+                "LAST_NAME": "姓",
+                "PHONE_NUMBER": "电话号码",
+                "MY_CARD": "我的名片",
+                "ADD_PHOTO": "添加照片",
+                "REMOVE_CONTACT_TITLE": "删除联系人",
+                "REMOVE_CONTACT_TEXT": "您确定要删除此联系人吗? ",
+                "REMOVE_CONTACT_BUTTON_CANCEL": "取消",
+                "REMOVE_CONTACT_BUTTON_DELETE": "删除",
+                "DELETE_CONTACT": "删除联系人",
+                "MESSAGE": "消息",
+                "CALL": "通话",
+                "VIDEO": "视频",
+                "SHARE": "分享",
+                "MAIN": "主要",
+                "SHARE_CONTACT": "分享联系人",
+                "SHARE_LOCATION": "分享我的位置",
+                "REMOVE_FAVORITE": "从收藏夹中移除",
+                "ADD_FAVORITE": "添加到收藏夹",
+                "ADD_CONTACT": "添加到联系人",
+                "UNBLOCK_CALLER": "取消屏蔽此来电者",
+                "BLOCK_CALLER": "屏蔽此来电者",
+                "UNBLOCK_NUMBER_TITLE": "取消屏蔽号码",
+                "UNBLOCK_NUMBER_TEXT": "您确定要取消屏蔽 {number} 吗? ",
+                "UNBLOCK_NUMBER_BUTTON_CANCEL": "取消",
+                "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "取消屏蔽",
+                "BLOCK_NUMBER_TITLE": "屏蔽号码",
+                "BLOCK_NUMBER_TEXT": "您确定要屏蔽 {number} 吗? ",
+                "BLOCK_NUMBER_BUTTON_CANCEL": "取消",
+                "BLOCK_NUMBER_BUTTON_BLOCK": "屏蔽",
+                "EMAIL": "电子邮箱",
+                "ADDRESS": "地址",
+                "CHANGE_AVATAR": "更换头像",
+                "REMOVE_AVATAR": "移除头像"
+            },
+            "FAVOURITES": {
+                "TITLE": "收藏夹",
+                "REMOVE_TITLE": "从收藏夹中移除",
+                "REMOVE_TEXT": "您确定要将此联系人从收藏夹中移除吗? ",
+                "REMOVE_BUTTON_CANCEL": "取消",
+                "REMOVE_BUTTON_REMOVE": "移除"
+            },
+            "KEYPAD": {
+                "TITLE": "拨号盘",
+                "ADD_NUMBER": "添加号码"
+            },
+            "RECENTS": {
+                "TITLE": "通话记录",
+                "ALL": "全部",
+                "MISSED": "未接听",
+                "OUTGOING_CALL": "拨出电话",
+                "INCOMING_CALL": "来电",
+                "CANCELLED_CALL": "已取消的通话",
+                "MISSED_CALL": "未接来电"
+            },
+            "VOICEMAIL": {
+                "TITLE": "语音信箱",
+                "AT": "在",
+                "DELETE_POPUP": {
+                    "TITLE": "删除语音信箱",
+                    "DESCRIPTION": "您确定要删除此语音信箱吗? ",
+                    "CANCEL": "取消",
+                    "PROCEED": "删除"
+                },
+                "CALL_POPUP": {
+                    "TITLE": "呼叫",
+                    "DESCRIPTION": "您确定要呼叫 {number} 吗? ",
+                    "CANCEL": "取消",
+                    "PROCEED": "呼叫"
+                }
+            }
         },
-        "INVALID_AMOUNT": {
-            "TITLE": "金额无效",
-            "DESCRIPTION": "您输入的金额无效"
-        },
-        "FAILED_SEND": {
-            "TITLE": "发送失败",
-            "DESCRIPTION": "发送资金失败（无电话设备）"
-        },
-        "EXCEED_DAILY": {
-            "TITLE": "每日限额已超",
-            "DESCRIPTION": "您已超过每日限额"
-        },
-        "EXCEED_WEEKLY": {
-            "TITLE": "每周限额已超",
-            "DESCRIPTION": "您已超过每周限额"
-        },
-        "FAILED_ADD": {
-            "TITLE": "添加资金失败",
-            "DESCRIPTION": "无法向指定账户添加资金"
-        },
+        "WALLET": {
+            "TITLE": "钱包",
+            "BALANCE": "余额",
+            "SEND": "发送",
+            "NEXT": "下一步",
+            "DONE": "完成",
+            "DONE_SUBTITLE": "您已向 {number} 发送 {amount}",
+            "NO_REFUNDS": "支付不可退款, 请再次确认号码",
+            "NEW_BALANCE": "新余额",
+            "HOME": "主页",
+            "LATEST_TRANSACTIONS": "最近交易",
+            "TRANSACTIONS": "交易",
+            "ALL_TRANSACTIONS": "所有交易",
+            "LATEST_BILLS": "最近账单",
+            "NOW": "现在",
+            "AGO": "前",
+            "SELECT_CONTACT": "选择联系人",
+            "TODAY": "今天",
+            "YESTERDAY": "昨天",
+
+            "INSUFFICIENT_FUNDS": {
+                "TITLE": "余额不足",
+                "DESCRIPTION": "您的余额不足以发送此金额"
+            },
+            "NUMBER_DOES_NOT_EXIST": {
+                "TITLE": "无法继续",
+                "DESCRIPTION": "您输入的号码不存在或用户不在线"
+            },
+            "AIRPLANE_MODE": {
+                "TITLE": "错误",
+                "DESCRIPTION": "您尝试执行的操作需要互联网连接, 请关闭飞行模式以继续"
+            },
+            "INVALID_AMOUNT": {
+                "TITLE": "金额无效",
+                "DESCRIPTION": "您输入的金额无效"
+            },
+            "FAILED_SEND": {
+                "TITLE": "发送失败",
+                "DESCRIPTION": "发送资金失败（无电话设备）"
+            },
+            "EXCEED_DAILY": {
+                "TITLE": "每日限额已超",
+                "DESCRIPTION": "您已超过每日限额"
+            },
+            "EXCEED_WEEKLY": {
+                "TITLE": "每周限额已超",
+                "DESCRIPTION": "您已超过每周限额"
+            },
+            "FAILED_ADD": {
+                "TITLE": "添加资金失败",
+                "DESCRIPTION": "无法向指定账户添加资金"
+            },
 
             "OK": "OK"
         },
@@ -749,7 +749,7 @@
             "LOCK": "锁定",
             "UNLOCKED": "已解锁",
             "UNLOCK": "解锁",
-    
+
             "WAYPOINT_POPUP": {
                 "TITLE": "设置导航点",
                 "TEXT": "您要为您的 {model} 设置导航点吗? ",
@@ -830,7 +830,7 @@
             "MESSAGE": "消息",
             "CALL": "呼叫",
             "REMOVE": "移除",
-    
+
             "ERROR_POPUP": {
                 "TITLE": "错误",
                 "NO_TITLE": "您需要输入标题",
@@ -919,7 +919,7 @@
             "DELETE": "删除",
             "SET_WAYPOINT": "设置导航点",
             "SHARE": "分享",
-    
+
             "ADD_LOCATION_POPUP": {
                 "TITLE": "添加位置",
                 "DESCRIPTION": "输入您想添加的位置名称",
@@ -1157,9 +1157,9 @@
             "REPLIED_TO_YOUR_STORY_CONTENT": "回复了你的动态：{content}",
 
             "SHARE_TO_STORY": {
-                    "TITLE": "分享到动态",
-                    "SUCCESS": "已分享",
-                    "DESCRIPTION": "你的帖子已分享到你的动态"
+                "TITLE": "分享到动态",
+                "SUCCESS": "已分享",
+                "DESCRIPTION": "你的帖子已分享到你的动态"
             },
             "VIEW_POST": "查看内容"
         },
@@ -1281,21 +1281,21 @@
             "COMPANIES": "公司",
             "MESSAGES": "消息",
             "SETTINGS": "设置",
-        
+
             "CLOSED": "已关闭",
             "YOUR_MESSAGES": "你的消息",
             "JOB_MESSAGES": "工作消息",
-        
+
             "DUTY": "值班",
             "DUTY_DESCRIPTION": "切换你的工作状态",
             "GO_ON_DUTY": "上班",
             "GO_OFF_DUTY": "下班",
             "JOB_CALLS": "工作电话",
             "JOB_CALLS_DESCRIPTION": "{toggle} 接收客户电话",
-        
+
             "ENABLE": "启用",
             "DISABLE": "禁用",
-        
+
             "DISABLE_CALLS": "禁用电话",
             "ENABLE_CALLS": "启用电话",
             "BALANCE": "余额",
@@ -1303,14 +1303,14 @@
             "HIRE": "雇佣",
             "SET_GRADE": "设置等级",
             "UNEMPLOYED": "你目前处于失业状态",
-        
+
             "ALL": "全部",
             "AVAILABLE": "可用",
             "SEARCH_EMPLOYEES": "搜索员工",
-        
+
             "PERSONAL": "个人",
             "JOB": "工作",
-        
+
             "DEPOSIT_POPUP": {
                 "TITLE": "存款",
                 "DESCRIPTION": "将资金存入公司账户",
@@ -1393,12 +1393,12 @@
         },
         "TIKTOK": {
             "TITLE": "抖音",
-        
+
             "HOME": "首页",
             "DISCOVER": "发现",
             "INBOX": "消息",
             "PROFILE": "个人资料",
-        
+
             "COMMENTS_TITLE": "{count} 条评论",
             "REPLY": "回复",
             "VIEW_REPLIES": "查看回复",
@@ -1418,7 +1418,7 @@
             "OK": "确定",
             "CREATOR": "创作者",
             "LIKED_BY_CREATOR": "被创作者点赞",
-        
+
             "PIN_VIDEO_POPUP": {
                 "TITLE": "置顶视频",
                 "DESCRIPTION": "你确定要 {action} 此视频吗? ",
@@ -1437,7 +1437,7 @@
                 "CANCEL": "取消",
                 "PROCEED": "忽略"
             },
-        
+
             "SHARE_TITLE": "分享到",
             "SHARE": "分享",
             "REPORT": "举报",
@@ -1445,7 +1445,7 @@
             "ADD_FAVOURITE": "添加到收藏",
             "CANCEL": "取消",
             "GO_BACK": "返回",
-        
+
             "FOLLOWING": "已关注",
             "FOLLOWERS": "粉丝",
             "UNFOLLOW": "取消关注",
@@ -1453,14 +1453,14 @@
             "FOR_YOU": "推荐",
             "VIDEOS": "视频",
             "LIKES": "赞",
-        
+
             "UNFOLLOW_POPUP": {
                 "TITLE": "取消关注",
                 "DESCRIPTION": "你确定要取消关注 {name} 吗? ",
                 "CANCEL": "取消",
                 "PROCEED": "继续"
             },
-        
+
             "LOGIN_TITLE": "登录抖音",
             "LOGIN_SUBTITLE": "管理你的账号, 查看通知, 评论视频等",
             "SIGNUP_TITLE": "注册抖音",
@@ -1470,20 +1470,20 @@
             "PASSWORD": "密码",
             "BIO": "简介",
             "SHOW_LIKES": "显示赞",
-        
+
             "LOGIN": "登录",
             "SIGNUP": "注册",
             "NO_ACCOUNT": "没有账号? ",
             "ALREADY_ACCOUNT": "已有账号? ",
             "SEARCH_PLACEHOLDER": "搜索用户",
-        
+
             "STARTED_FOLLOWING": "开始关注你",
             "LIKED_VIDEO": "点赞了你的视频",
             "LIKED_COMMENT": "点赞了你的评论",
             "SAVED_VIDEO": "将你的视频添加到收藏",
             "COMMENTED": "评论：{comment}",
             "REPLIED": "回复你的评论：{comment}",
-        
+
             "EDIT_PROFILE": "编辑个人资料",
             "MESSAGE": "消息",
             "CHANGE_PHOTO": "更换照片",
@@ -1493,7 +1493,7 @@
             "ADD_TO_YOUR_PROFILE": "添加到你的个人资料",
             "LIKED_HIDDEN_TITLE": "此用户的点赞视频是私密的",
             "LIKED_HIDDEN_SUBTITLE": "{name} 的点赞视频目前是隐藏的",
-        
+
             "INVALID_ACCOUNT_POPUP": {
                 "TITLE": "无效的 {name}",
                 "DESCRIPTION": "你输入的 {name} 账号未登录, 请修正",
@@ -1550,92 +1550,92 @@
             }
         }
     },
-        "COMPONENTS": {
-            "CONTEXT_MENU": {
+    "COMPONENTS": {
+        "CONTEXT_MENU": {
+            "CANCEL": "取消",
+            "CALL": "通话",
+            "VIDEO_CALL": "视频通话",
+            "MESSAGE": "消息"
+        },
+        "IMAGE": {
+            "SAVE_TO_GALLERY": "保存到图库"
+        },
+        "GALLERY": {
+            "CANCEL": "取消",
+            "EXTERNAL_URL": "外部链接",
+            "EXTERNAL_URL_BLACKLISTED": "此链接已被列入黑名单",
+            "NO_IMAGES": "没有图片"
+        },
+        "NOTIFICATIONS": {
+            "SENT_PHOTO": "发送了一张照片",
+            "SENT_GIF": "发送了一个 GIF",
+            "NOW": "刚刚"
+        },
+        "SHARE": {
+            "COPY_PHOTO": "复制照片",
+            "COPY_VIDEO": "复制视频",
+            "USE_WALLPAPER": "用作壁纸",
+            "COPY_NUMBER": "复制号码",
+            "COPY_LINK": "复制链接",
+            "AIRDROP_SENT": "已发送",
+            "AIRDROP_ACCEPTED": "已接受",
+            "AIRDROP_DECLINED": "已拒绝",
+            "AIRDROP_NO_USERS": "附近没有手机",
+            "WALLPAPER_POPUP": {
+                "TITLE": "用作壁纸",
+                "TEXT": "你确定要将此图片设为壁纸吗? ",
                 "CANCEL": "取消",
-                "CALL": "通话",
-                "VIDEO_CALL": "视频通话",
-                "MESSAGE": "消息"
+                "PROCEED": "继续"
             },
-            "IMAGE": {
-                "SAVE_TO_GALLERY": "保存到图库"
-            },
-            "GALLERY": {
-                "CANCEL": "取消",
-                "EXTERNAL_URL": "外部链接",
-                "EXTERNAL_URL_BLACKLISTED": "此链接已被列入黑名单",
-                "NO_IMAGES": "没有图片"
-            },
-            "NOTIFICATIONS": {
-                "SENT_PHOTO": "发送了一张照片",
-                "SENT_GIF": "发送了一个 GIF",
-                "NOW": "刚刚"
-            },
-            "SHARE": {
-                "COPY_PHOTO": "复制照片",
-                "COPY_VIDEO": "复制视频",
-                "USE_WALLPAPER": "用作壁纸",
-                "COPY_NUMBER": "复制号码",
-                "COPY_LINK": "复制链接",
-                "AIRDROP_SENT": "已发送",
-                "AIRDROP_ACCEPTED": "已接受",
-                "AIRDROP_DECLINED": "已拒绝",
-                "AIRDROP_NO_USERS": "附近没有手机",
-                "WALLPAPER_POPUP": {
-                    "TITLE": "用作壁纸",
-                    "TEXT": "你确定要将此图片设为壁纸吗? ",
-                    "CANCEL": "取消",
-                    "PROCEED": "继续"
-                },
-                "COPY_POPUP": {
-                    "TITLE": "成功",
-                    "DESCRIPTION": "已成功复制到剪贴板",
-                    "OK": "确定"
-                }
-            },
-            "AIRDROP": {
-                "TITLE": "隔空分享",
-                "TEXT": "{sender} 想要分享一个 {type}",
-                "VIDEO": "视频",
-                "PHOTO": "照片",
-                "CONTACT": "联系人",
-                "LOCATION": "位置",
-                "NOTE": "笔记",
-                "VOICEMEMO": "语音备忘",
-                "PLAYLIST": "播放列表",
-                "ALBUM": "相册",
-                "DECLINE": "拒绝",
-                "ACCEPT": "接受"
-            },
-            "DYNAMICISLAND": {
-                "SILENT": "静音",
-                "RING": "响铃",
-                "TIMER": "计时器"
-            },
-            "MUSIC_SELECTOR": {
-                "CANCEL": "取消",
-                "NO-RESULTS": "没有配置音乐, 请告知服务器管理员添加歌曲",
-                "SEARCH": "搜索歌曲",
-                "SELECT_POPUP": {
-                    "TITLE": "选择歌曲",
-                    "DESCRIPTION": "你确定要选择 {song} 吗? ",
-                    "CANCEL": "取消",
-                    "PROCEED": "继续"
-                }
-            },
-            "BATTERY": {
-                "LOW_BATTERY": "电量低",
-                "BATTERY_REMAINING": "剩余电量 {percent}%",
-                "LOW_POWER_MODE": "低电量模式",
-                "CLOSE": "关闭"
-            },
-            "COLOR_PICKER": {
-                "COLOR": "颜色"
-            },
-            "GIF_SELECTOR": {
-                "SEARCH": "搜索 Tenor",
-                "BACK": "返回"
+            "COPY_POPUP": {
+                "TITLE": "成功",
+                "DESCRIPTION": "已成功复制到剪贴板",
+                "OK": "确定"
             }
+        },
+        "AIRDROP": {
+            "TITLE": "隔空分享",
+            "TEXT": "{sender} 想要分享一个 {type}",
+            "VIDEO": "视频",
+            "PHOTO": "照片",
+            "CONTACT": "联系人",
+            "LOCATION": "位置",
+            "NOTE": "笔记",
+            "VOICEMEMO": "语音备忘",
+            "PLAYLIST": "播放列表",
+            "ALBUM": "相册",
+            "DECLINE": "拒绝",
+            "ACCEPT": "接受"
+        },
+        "DYNAMICISLAND": {
+            "SILENT": "静音",
+            "RING": "响铃",
+            "TIMER": "计时器"
+        },
+        "MUSIC_SELECTOR": {
+            "CANCEL": "取消",
+            "NO-RESULTS": "没有配置音乐, 请告知服务器管理员添加歌曲",
+            "SEARCH": "搜索歌曲",
+            "SELECT_POPUP": {
+                "TITLE": "选择歌曲",
+                "DESCRIPTION": "你确定要选择 {song} 吗? ",
+                "CANCEL": "取消",
+                "PROCEED": "继续"
+            }
+        },
+        "BATTERY": {
+            "LOW_BATTERY": "电量低",
+            "BATTERY_REMAINING": "剩余电量 {percent}%",
+            "LOW_POWER_MODE": "低电量模式",
+            "CLOSE": "关闭"
+        },
+        "COLOR_PICKER": {
+            "COLOR": "颜色"
+        },
+        "GIF_SELECTOR": {
+            "SEARCH": "搜索 Tenor",
+            "BACK": "返回"
+        }
     },
     "SETUP": {
         "HELLO": "你好",
@@ -1767,7 +1767,7 @@
         "MISC": {
             "VERIFIED": "你的账号已通过验证",
             "X_PHONE": "{name} 的手机",
-            
+
             "LOGGED_OUT_PASSWORD": {
                 "TITLE": "你已登出",
                 "DESCRIPTION": "由于密码被更改, 你需要重新登录你的账号"
