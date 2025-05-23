@@ -7,6 +7,9 @@
     "H": "時間",
     "M": "分",
     "S": "秒",
+    "SECONDS": "秒",
+    "MINUTES": "分",
+    "HOURS": "時間",
 
     "APP_NAMES": {
         "Phone": "電話",
@@ -342,6 +345,8 @@
             "TITLE": "写真",
             "SELECT": "選択",
             "CANCEL": "キャンセル",
+            "PROCEED": "続行",
+            "OK": "OK",
             "EDIT": "編集",
             "DONE": "完了",
             "DELETE": "削除",
@@ -353,7 +358,9 @@
             "LIBRARY": "ライブラリ",
             "GALLERY": "ギャラリー",
             "MY_ALBUMS": "マイアルバム",
+            "SHARED_ALBUMS": "共有アルバム",
             "MEDIA_TYPES": "メディアタイプ",
+            "MANAGE_MEMBERS": "メンバーを管理",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "新しいアルバム",
                 "DESCRIPTION": "このアルバムの名前を入力してください",
@@ -363,9 +370,11 @@
             },
             "REMOVE_ALBUM": {
                 "TITLE": "{name}を削除",
-                "DESCRIPTION": "アルバム{name}を削除してもよろしいですか？写真は削除されません",
-                "CANCEL": "キャンセル",
-                "PROCEED": "削除"
+                "DESCRIPTION": "アルバム{name}を削除してもよろしいですか？写真は削除されません"
+            },
+            "LEAVE_SHARED_ALBUM": {
+                "TITLE": "\"{name}\"を退出",
+                "DESCRIPTION": "アルバム\"{name}\"を退出してもよろしいですか？写真をアップロードできなくなります"
             },
             "RENAME_ALBUM_POPUP": {
                 "TITLE": "アルバム名を変更",
@@ -386,6 +395,20 @@
                 "CANCEL": "キャンセル",
                 "PROCEED": "インポート",
                 "PLACEHOLDER": "画像URL"
+            },
+            "ERROR": "エラー",
+            "SUCCESS": "成功",
+            "CONTACT_ALREADY_IN_ALBUM": "連絡先はすでにアルバムに存在します",
+            "CONTACT_ADDED_TO_ALBUM": "連絡先をアルバムに追加しました",
+            "MEMBERS": "{count}人のメンバー",
+            "INVITE": "招待",
+            "LEAVE_ALBUM": "アルバムを退出",
+            "CREATE_SHARED_ALBUM": "共有アルバムを作成",
+            "MANAGE_SHARED_ALBUM": "共有アルバムを管理",
+            "REMOVE_MEMBER": {
+                "TITLE": "メンバーを削除",
+                "DESCRIPTION": "このメンバーをアルバムから削除してもよろしいですか？",
+                "SUCCESS": "メンバーをアルバムから削除しました"
             },
 
             "NO_PHOTOS": "写真やビデオはありません",
@@ -627,7 +650,11 @@
             "RECENTS": {
                 "TITLE": "履歴",
                 "ALL": "すべて",
-                "MISSED": "不在着信"
+                "MISSED": "不在着信",
+                "OUTGOING_CALL": "発信",
+                "INCOMING_CALL": "着信",
+                "CANCELLED_CALL": "キャンセルされた通話",
+                "MISSED_CALL": "不在着信"
             },
             "VOICEMAIL": {
                 "TITLE": "留守番電話",
@@ -648,7 +675,7 @@
         },
         "WALLET": {
             "TITLE": "ウォレット",
-            "BALANCE": "推定残高",
+            "BALANCE": "残高",
             "SEND": "送信",
             "NEXT": "次へ",
             "DONE": "完了",
@@ -702,7 +729,7 @@
             "OK": "OK"
         },
         "GARAGE": {
-            "TITLTE": "ガレージ",
+            "TITLE": "ガレージ",
             "ACTIONS": "アクション",
             "MY_CARS": "マイカー",
             "OUT": "出庫中",
@@ -910,6 +937,10 @@
         },
         "MUSIC": {
             "TITLE": "ミュージック",
+            "HOME": "ホーム",
+            "RECENTLY_ADDED": "最近追加された項目",
+            "CATEGORIES": "カテゴリ",
+            "PLAYLISTS": "プレイリスト",
             "LIBRARY": "ライブラリ",
             "SEARCH": "検索",
             "ADD_QUEUE": "キューに追加",
@@ -921,6 +952,7 @@
             "SEARCH_PLACEHOLDER": "アーティスト、曲、アルバム、プレイリスト",
             "SONGS": "曲",
             "ALBUMS": "アルバム",
+            "ARTISTS": "アーティスト",
             "PLAY": "再生",
             "SHUFFLE": "シャッフル",
             "ARTIST": "アーティスト",
@@ -1124,7 +1156,16 @@
                 "DESCRIPTION": "この投稿の場所を選択してください",
                 "CANCEL": "キャンセル",
                 "PROCEED": "続行"
-            }
+            },
+            "REPLIED_TO_YOUR_STORY": "あなたのストーリーに返信しました",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "あなたのストーリーに返信しました: {content}",
+
+            "SHARE_TO_STORY": {
+                "TITLE": "ストーリーに共有",
+                "SUCCESS": "投稿を共有しました",
+                "DESCRIPTION": "投稿があなたのストーリーに共有されました"
+            },
+            "VIEW_POST": "投稿を表示"
         },
         "TWITTER": {
             "TITLE": "バーディー",
@@ -1202,6 +1243,7 @@
             "NOTIFICATIONS": "通知",
             "FOLLOWS_YOU": "あなたをフォローしています",
             "JOINED": "{date}に参加",
+            "PINNED_POST": "ピン留めされた投稿",
             "LIKED_TWEET": "があなたの投稿にいいね！しました",
             "RETWEETED_TWEET": "があなたの投稿をリポストしました",
             "FOLLOWED": "があなたをフォローしました",
@@ -1565,6 +1607,7 @@
             "NOTE": "メモ",
             "VOICEMEMO": "ボイスメモ",
             "PLAYLIST": "プレイリスト",
+            "ALBUM": "アルバム",
             "DECLINE": "拒否",
             "ACCEPT": "受け入れ"
         },
