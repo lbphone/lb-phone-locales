@@ -1249,9 +1249,9 @@
             "JOB_MESSAGES": "ジョブメッセージ",
 
             "DUTY": "勤務",
-            "DUTY_DESCRIPTION": "勤務ステータスを切り替え",
-            "GO_ON_DUTY": "出勤する",
-            "GO_OFF_DUTY": "退勤する",
+            "DUTY_DESCRIPTION": "勤務状態の切り替え",
+            "GO_ON_DUTY": "出勤",
+            "GO_OFF_DUTY": "退勤",
             "JOB_CALLS": "ジョブコール",
             "JOB_CALLS_DESCRIPTION": "顧客からの通話受信を{toggle}にします",
 
