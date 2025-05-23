@@ -703,7 +703,7 @@
             },
             "AIRPLANE_MODE": {
                 "TITLE": "Error",
-                "DESCRIPTION": "You're trying to perform a action that requires internet access, disable airplane mode to continue."
+                "DESCRIPTION": "You're trying to perform an action that requires internet access, disable airplane mode or get service to continue."
             },
             "INVALID_AMOUNT": {
                 "TITLE": "Invalid amount",
@@ -938,6 +938,9 @@
         "MUSIC": {
             "TITLE": "Music",
             "HOME": "Home",
+            "RECENTLY_ADDED": "Recently Added",
+            "CATEGORIES": "Categories",
+            "PLAYLISTS": "Playlists",
             "LIBRARY": "Library",
             "SEARCH": "Search",
             "ADD_QUEUE": "Add to Queue",
@@ -949,6 +952,7 @@
             "SEARCH_PLACEHOLDER": "Artists, Songs, Albums, Playlists",
             "SONGS": "Songs",
             "ALBUMS": "Albums",
+            "ARTISTS": "Artists",
             "PLAY": "Play",
             "SHUFFLE": "Shuffle",
             "ARTIST": "Artist",
@@ -1672,7 +1676,7 @@
     "MISC": {
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "Error",
-            "DESCRIPTION": "You're trying to perform a action that requires internet access, disable airplane mode to continue.",
+            "DESCRIPTION": "You're trying to perform an action that requires internet access, disable airplane mode or get service to continue.",
             "OK": "OK"
         },
         "TODAY_TIME": "Today, {hours}:{minutes}",
