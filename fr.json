@@ -938,6 +938,9 @@
         "MUSIC": {
             "TITLE": "Musique",
             "HOME": "Accueil",
+            "RECENTLY_ADDED": "Ajouter récemment",
+            "CATEGORIES": "Catégories",
+            "PLAYLISTS": "Playlistes",
             "LIBRARY": "Bibliothèque",
             "SEARCH": "Rechercher",
             "ADD_QUEUE": "Ajouter à la file d'attente",
@@ -949,6 +952,7 @@
             "SEARCH_PLACEHOLDER": "Artistes, Musiques, Albums, Playlists",
             "SONGS": "Musiques",
             "ALBUMS": "Albums",
+            "ARTISTS": "Artistes",
             "PLAY": "Jouer",
             "SHUFFLE": "Aléatoire",
             "ARTIST": "Artistes",
