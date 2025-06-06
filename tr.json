@@ -465,35 +465,35 @@
             }
         },
         "MESSAGES": {
-        "TITLE": "Mesajlar",
-        "NEW_MESSAGE": "Yeni Mesaj",
-        "PEOPLE": "Kişiler",
-        "MEMBERS": "Üyeler",
-        "OTHER": "Diğer",
-        "SENT_A_PHOTO": "Bir fotoğraf gönderdi",
-        "SENT_AUDIO_MESSAGE": "Bir sesli mesaj gönderdi",
-        "SENT": "Gönderildi",
-        "REQUESTED": "Talep edildi",
-        "MISSED_CALL": "{number} sizi aradı ama cevap vermediniz, geri aramak için numaraya dokunun",
-        "NOT_DELIVERED": "Teslim edilmedi",
-        "PLACEHOLDER": "Mesaj yazın",
-        "DONE": "Tamamlandı",
-        "EDIT": "Düzenle",
-        "READ": "Okundu",
-        "CANCEL": "İptal",
-        "SEND": "Gönder",
-        "UNKNOWN": "Bilinmiyor",
-        "TO": "Alıcı",
-        "SEARCH": "Ara",
-        "ADD_MEMBER": "Üye Ekle",
-        "SHARE_LOCATION": "Konumumu Paylaş",
-        "LEAVE_GROUP": "Grubu Terket",
-        "SENT_LOCATION": "Konumunu paylaştı, Haritalar'da açmak için tıklayın",
-        "SENT_LOCATION_SHORT": "Konumunu paylaştı",
-        "TRIED_TO_CALL": "{number} sizi aramaya çalıştı",
-        "DELETE": "Sil",
-        "GROUP": "Grup",
-        "GROUP_NAME": "Grup Adı",
+            "TITLE": "Mesajlar",
+            "NEW_MESSAGE": "Yeni Mesaj",
+            "PEOPLE": "Kişiler",
+            "MEMBERS": "Üyeler",
+            "OTHER": "Diğer",
+            "SENT_A_PHOTO": "Bir fotoğraf gönderdi",
+            "SENT_AUDIO_MESSAGE": "Bir sesli mesaj gönderdi",
+            "SENT": "Gönderildi",
+            "REQUESTED": "Talep edildi",
+            "MISSED_CALL": "{number} sizi aradı ama cevap vermediniz, geri aramak için numaraya dokunun",
+            "NOT_DELIVERED": "Teslim edilmedi",
+            "PLACEHOLDER": "Mesaj yazın",
+            "DONE": "Tamamlandı",
+            "EDIT": "Düzenle",
+            "READ": "Okundu",
+            "CANCEL": "İptal",
+            "SEND": "Gönder",
+            "UNKNOWN": "Bilinmiyor",
+            "TO": "Alıcı",
+            "SEARCH": "Ara",
+            "ADD_MEMBER": "Üye Ekle",
+            "SHARE_LOCATION": "Konumumu Paylaş",
+            "LEAVE_GROUP": "Grubu Terket",
+            "SENT_LOCATION": "Konumunu paylaştı, Haritalar'da açmak için tıklayın",
+            "SENT_LOCATION_SHORT": "Konumunu paylaştı",
+            "TRIED_TO_CALL": "{number} sizi aramaya çalıştı",
+            "DELETE": "Sil",
+            "GROUP": "Grup",
+            "GROUP_NAME": "Grup Adı",
             "REMOVE_POPUP": {
                 "TITLE": "Üyeyi Kaldır",
                 "TEXT": "{name} adlı üyeyi gruptan çıkarmak istediğinize emin misiniz?",
@@ -776,60 +776,60 @@
                 "PRICE": "Ücret"
             }
         },
-            "HOME": {
-                "TITLE": "Ev",
-                "MY_HOMES": "Evlerim",
-                "MY_HOME": "Evim",
-                "KEY_ACCESS": "Anahtar Erişimi",
-                "ACTIONS": "İşlemler",
-                "FRONT_DOOR": "Ön Kapı",
-                "LOCATION": "Konum",
-                "SET_WAYPOINT": "Konum Belirle",
-                "UNLOCK": "Kilidi Aç",
-                "UNLOCKED": "Kilidi Açık",
-                "LOCK": "Kilitle",
-                "LOCKED": "Kilitli",
-                "GIVE_KEY": "Anahtar Ver",
-                "MANAGE": "Yönet",
-                "WAYPOINT_POPUP": {
-                    "TITLE": "Konum Belirle",
-                    "TEXT": "{home} için konum belirlemek istiyor musunuz?",
-                    "CANCEL": "İptal",
-                    "PROCEED": "Onayla"
-                },
-                "LOCK_POPUP": {
-                    "TITLE": "Evi {toggle}",
-                    "TEXT": "Evinizi {toggle} istiyor musunuz?",
-                    "CANCEL": "İptal",
-                    "PROCEED": "Onayla"
-                },
-                "GIVE_KEY_POPUP": {
-                    "TITLE": "Anahtar Ver",
-                    "TEXT": "Anahtar vermek istediğiniz kişinin ID'sini girin",
-                    "CANCEL": "İptal",
-                    "PROCEED": "Onayla"
-                },
-                "REMOVE_KEY_POPUP": {
-                    "TITLE": "Anahtar Sahibinin Erişimini Kaldır",
-                    "TEXT": "{name} kişisinin erişimini kaldırmak istediğinizden emin misiniz?",
-                    "CANCEL": "İptal",
-                    "PROCEED": "Onayla"
-                }
+        "HOME": {
+            "TITLE": "Ev",
+            "MY_HOMES": "Evlerim",
+            "MY_HOME": "Evim",
+            "KEY_ACCESS": "Anahtar Erişimi",
+            "ACTIONS": "İşlemler",
+            "FRONT_DOOR": "Ön Kapı",
+            "LOCATION": "Konum",
+            "SET_WAYPOINT": "Konum Belirle",
+            "UNLOCK": "Kilidi Aç",
+            "UNLOCKED": "Kilidi Açık",
+            "LOCK": "Kilitle",
+            "LOCKED": "Kilitli",
+            "GIVE_KEY": "Anahtar Ver",
+            "MANAGE": "Yönet",
+            "WAYPOINT_POPUP": {
+                "TITLE": "Konum Belirle",
+                "TEXT": "{home} için konum belirlemek istiyor musunuz?",
+                "CANCEL": "İptal",
+                "PROCEED": "Onayla"
             },
-            "MARKETPLACE": {
-                "MARKETPLACE": "Pazar Yeri",
-                "TITLE": "Başlık",
-                "SEARCH": "İlan veya numara ara",
-                "HOME": "Ana Sayfa",
-                "YOUR_POSTS": "İlanların",
-                "PRICE": "Fiyat",
-                "DESCRIPTION": "Açıklama",
-                "IMAGES": "Görseller",
-                "POST": "Yayınla",
-                "AMOUNT_OF_TOTAL": "{total} üzerinden {amount}",
-                "MESSAGE": "Mesaj",
-                "CALL": "Ara",
-                "REMOVE": "Kaldır",
+            "LOCK_POPUP": {
+                "TITLE": "Evi {toggle}",
+                "TEXT": "Evinizi {toggle} istiyor musunuz?",
+                "CANCEL": "İptal",
+                "PROCEED": "Onayla"
+            },
+            "GIVE_KEY_POPUP": {
+                "TITLE": "Anahtar Ver",
+                "TEXT": "Anahtar vermek istediğiniz kişinin ID'sini girin",
+                "CANCEL": "İptal",
+                "PROCEED": "Onayla"
+            },
+            "REMOVE_KEY_POPUP": {
+                "TITLE": "Anahtar Sahibinin Erişimini Kaldır",
+                "TEXT": "{name} kişisinin erişimini kaldırmak istediğinizden emin misiniz?",
+                "CANCEL": "İptal",
+                "PROCEED": "Onayla"
+            }
+        },
+        "MARKETPLACE": {
+            "MARKETPLACE": "Pazar Yeri",
+            "TITLE": "Başlık",
+            "SEARCH": "İlan veya numara ara",
+            "HOME": "Ana Sayfa",
+            "YOUR_POSTS": "İlanların",
+            "PRICE": "Fiyat",
+            "DESCRIPTION": "Açıklama",
+            "IMAGES": "Görseller",
+            "POST": "Yayınla",
+            "AMOUNT_OF_TOTAL": "{total} üzerinden {amount}",
+            "MESSAGE": "Mesaj",
+            "CALL": "Ara",
+            "REMOVE": "Kaldır",
 
             "ERROR_POPUP": {
                 "TITLE": "Hata",
@@ -847,27 +847,27 @@
             }
         },
         "YELLOWPAGES": {
-                "PAGES": "Sayfalar",
-                "SEARCH": "İlan veya numara ara",
-                "FROM": "Kimden",
+            "PAGES": "Sayfalar",
+            "SEARCH": "İlan veya numara ara",
+            "FROM": "Kimden",
+            "CANCEL": "İptal",
+            "NEW_POST": "Yeni İlan",
+            "TITLE": "Başlık",
+            "DESCRIPTION": "Açıklama",
+            "PRICE": "Fiyat",
+            "POST": "Yayınla",
+            "CALL": "Ara",
+            "ERROR_POPUP": {
+                "TITLE": "Hata",
+                "NO_TITLE": "Bir başlık girmeniz gerekiyor",
+                "NO_DESCRIPTION": "Bir açıklama girmeniz gerekiyor",
+                "OK": "Tamam"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "İlanı Sil",
+                "TEXT": "Bu ilanı silmek istediğinizden emin misiniz?",
                 "CANCEL": "İptal",
-                "NEW_POST": "Yeni İlan",
-                "TITLE": "Başlık",
-                "DESCRIPTION": "Açıklama",
-                "PRICE": "Fiyat",
-                "POST": "Yayınla",
-                "CALL": "Ara",
-                "ERROR_POPUP": {
-                    "TITLE": "Hata",
-                    "NO_TITLE": "Bir başlık girmeniz gerekiyor",
-                    "NO_DESCRIPTION": "Bir açıklama girmeniz gerekiyor",
-                    "OK": "Tamam"
-                },
-                "DELETE_POPUP": {
-                    "TITLE": "İlanı Sil",
-                    "TEXT": "Bu ilanı silmek istediğinizden emin misiniz?",
-                    "CANCEL": "İptal",
-                    "PROCEED": "Sil"
+                "PROCEED": "Sil"
             }
         },
         "MAIL": {
@@ -935,7 +935,7 @@
                 "PROCEED": "Devam Et"
             }
         },
-            "MUSIC": {
+        "MUSIC": {
             "TITLE": "Müzik",
             "HOME": "Ana Sayfa",
             "RECENTLY_ADDED": "Son Eklenenler",
@@ -1682,18 +1682,18 @@
         "TODAY_TIME": "Bugün, {hours}:{minutes}",
         "YESTERDAY_TIME": "Dün, {hours}:{minutes}",
         "CHANGE_PASSWORD": {
-        "TITLE": "Şifre değiştir",
-        "DESCRIPTION": "Lütfen {app} {type} şifrenizi girin",
-        "ERROR": "Şifre değiştirilemedi",
-        "CURRENT": "mevcut",
-        "NEW": "yeni",
-        "PLACEHOLDER_CURRENT": "Mevcut şifre",
-        "PLACEHOLDER_NEW": "Yeni şifre",
-        "CANCEL": "İptal",
-        "NEXT": "İleri",
-        "PROCEED": "Devam",
-        "SUCCESS": "Şifre başarıyla değiştirildi",
-        "OK": "Tamam"
+            "TITLE": "Şifre değiştir",
+            "DESCRIPTION": "Lütfen {app} {type} şifrenizi girin",
+            "ERROR": "Şifre değiştirilemedi",
+            "CURRENT": "mevcut",
+            "NEW": "yeni",
+            "PLACEHOLDER_CURRENT": "Mevcut şifre",
+            "PLACEHOLDER_NEW": "Yeni şifre",
+            "CANCEL": "İptal",
+            "NEXT": "İleri",
+            "PROCEED": "Devam",
+            "SUCCESS": "Şifre başarıyla değiştirildi",
+            "OK": "Tamam"
         },
         "DELETE_ACCOUNT": {
             "TITLE": "Hesabı sil",
