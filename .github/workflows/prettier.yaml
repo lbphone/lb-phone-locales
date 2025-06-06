@@ -10,7 +10,7 @@ on:
 jobs:
   format:
     runs-on: ubuntu-latest
-    if: github.repository == 'lbphone/lb-phone-locales'
+    if: github.repository != 'lbphone/lb-phone-locales'
 
     steps:
       - name: Checkout repository
