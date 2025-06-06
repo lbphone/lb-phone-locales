@@ -938,6 +938,9 @@
         "MUSIC": {
             "TITLE": "音乐",
             "HOME": "主页",
+            "RECENTLY_ADDED": "最近添加",
+            "CATEGORIES": "分类",
+            "PLAYLISTS": "播放列表",
             "LIBRARY": "音乐库",
             "SEARCH": "搜索",
             "ADD_QUEUE": "添加到队列",
@@ -949,6 +952,7 @@
             "SEARCH_PLACEHOLDER": "艺术家、歌曲、专辑、播放列表",
             "SONGS": "歌曲",
             "ALBUMS": "专辑",
+            "ARTISTS": "艺术家",
             "PLAY": "播放",
             "SHUFFLE": "随机播放",
             "ARTIST": "艺术家",
