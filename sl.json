@@ -1,0 +1,1858 @@
+{
+    "LABEL": "Slovenščina",
+    "SEARCH": "Iskanje",
+    "CANCEL": "Prekliči",
+    "NOW": "zdaj",
+    "D": "d",
+    "H": "h",
+    "M": "m",
+    "S": "s",
+    "SECONDS": "sekunde",
+    "MINUTES": "minute",
+    "HOURS": "ure",
+
+    "APP_NAMES": {
+        "Phone": "Telefon",
+        "Messages": "Sporočila",
+        "Notes": "Beležke",
+        "Settings": "Nastavitve",
+        "Photos": "Fotografije",
+        "Camera": "Kamera",
+        "Weather": "Vreme",
+        "Calculator": "Kalkulator",
+        "AppStore": "Aplikacije",
+        "Clock": "Ura",
+        "Maps": "Zemljevidi",
+        "YellowPages": "Strani",
+        "MarketPlace": "Tržnica",
+        "Wallet": "Denarnica",
+        "Home": "Dom",
+        "Garage": "Garaža",
+        "Music": "Glasba",
+        "DarkChat": "Temni Klepet",
+        "Crypto": "Kripto",
+        "Mail": "Pošta",
+        "Services": "Storitve",
+        "VoiceMemo": "Glasovni Posnetki",
+        "Twitter": "Birdy",
+        "Instagram": "InstaPic",
+        "Tinder": "Iskra",
+        "TikTok": "Trendi"
+    },
+
+    "APPS": {
+        "SETTINGS": {
+            "TITLE": "Nastavitve",
+            "BACK": "Nazaj",
+            "DONE": "Končano",
+            "EDIT": "Uredi",
+            "AIRPLANE_MODE": "Način letenja",
+            "AIRPLANE_MODE_DESCRIPTION": "Onemogočite klice, mobilne podatke itd.",
+            "STREAMER_MODE": "Način pretakanja",
+            "STREAMER_MODE_DESCRIPTION": "Zamegli občutljive informacije",
+            "GENERAL": "Splošno",
+            "GENERAL_DESCRIPTION": "Splošne nastavitve za vaš telefon",
+            "ABOUT": "O telefonu",
+            "NAME": "Ime",
+            "VERSION": "Različica",
+            "MODEL_NAME": "Ime modela",
+            "SERIAL_NUMBER": "Serijska številka",
+            "DEVELOPED_BY": "Razvil",
+            "PURCHASE_AT": "Kupljeno pri",
+            "SONGS": "Pesmi",
+            "VIDEOS": "Video posnetki",
+            "PHOTOS": "Fotografije",
+            "APPLICATIONS": "Aplikacije",
+            "CAPACITY": "Kapaciteta",
+            "AVAILABLE": "Na voljo",
+            "SOFTWARE_UPDATE": "Posodobitev programske opreme",
+            "AUTOMATIC_UPDATES": "Samodejne posodobitve",
+            "DATE_TIME": "Datum in čas",
+            "24_HOUR_TIME": "24-urna ura",
+            "SET_AUTOMATICALLY": "Nastavi samodejno",
+            "TIME_ZONE": "Časovni pas",
+            "LANGUAGE_REGION": "Jezik in regija",
+            "LANGUAGE": "Jezik",
+            "TEMPERATURE": "Temperatura",
+            "CELCIUS": "Celzija",
+            "FAHRENHEIT": "Fahrenheit",
+            "BATTERY": "Baterija",
+            "BATTERY_DESCRIPTION": "Prikaži življenjsko dobo in uporabo baterije",
+            "SOUND_HAPTICS": "Zvok in haptika",
+            "SOUND_HAPTICS_DESCRIPTION": "Spremenite zvoke in vibracije",
+            "SOUND_HAPTICS_PATTERNS": "Vzorci zvoka in haptike",
+            "RINGTONE": "Zvonjenje",
+            "TEXT_TONE": "Zvok sporočila",
+            "RINGTONE_VOLUME": "Glasnost zvonjenja in opozoril",
+            "CALL_VOLUME": "Glasnost klica",
+            "DEFAULT": "Privzeto",
+            "PHONE_STORAGE": "Prostor v telefonu",
+            "STORAGE": "Shranjevanje",
+            "USED": "Uporabljeno",
+            "OF": "od",
+            "DISPLAY_BRIGHTNESS": "Zaslon in svetlost",
+            "DISPLAY_BRIGHTNESS_DESCRIPTION": "Prilagodite zaslon in svetlost",
+            "DARK": "Temno",
+            "LIGHT": "Svetlo",
+            "APPEARANCE": "Videz",
+            "AUTOMATIC": "Samodejno",
+            "BRIGHTNESS": "Svetlost",
+            "PHONE_SCALE": "Velikost telefona",
+            "FRAME_COLOR": "Barva okvirja",
+            "WALLPAPER": "Ozadje",
+            "WALLPAPER_DESCRIPTION": "Spremenite ozadje in druge nastavitve ozadja",
+            "WALLPAPERS": "Ozadja",
+            "CHOOSE_NEW_WALLPAPER": "Izberite novo ozadje",
+            "NOTIFICATIONS": "Obvestila",
+            "NOTIFICATIONS_DESCRIPTION": "Izberite, katere aplikacije lahko pošiljajo obvestila",
+            "ALLOW_NOTIFICATIONS": "Dovoli obvestila",
+            "SOUNDS": "Zvoki",
+            "PHONE": "Telefon",
+            "PHONE_DESCRIPTION": "Vklopite/izklopite ID kličočega, blokirajte številke itd.",
+            "BLOCKED_CONTACTS": "Blokirani stiki",
+            "MY_NUMBER": "Moja številka",
+            "SHOW_CALLER_ID": "Pokaži ID kličočega",
+            "UNBLOCK_POPUP": {
+                "TITLE": "Odblokiraj številko",
+                "TEXT": "Ste prepričani, da želite odblokirati to številko?",
+                "CANCEL": "Prekliči",
+                "CONFIRM": "Odblokiraj"
+            },
+            "FACE_ID_PASSWORD": "Odklepanje obraza in koda",
+            "FACE_ID_PASSWORD_DESCRIPTION": "Zavarujte svoj telefon",
+            "ENTER_PASSCODE": "Vnesite kodo",
+            "PASSCODE": "Koda",
+            "FACE_ID": "Odklepanje obraza",
+            "RESET_FACE_ID": "Ponastavi odklepanje obraza",
+            "ENABLE_FACE_ID": "Omogoči odklepanje obraza",
+            "PIN_CODE": "Pin koda",
+            "PIN_CODE_ERROR": {
+                "TITLE": "Napaka",
+                "WRONG": "Napačna Pin koda",
+                "OK": "V redu"
+            },
+            "DISABLE_FACE_ID_POPUP": {
+                "TITLE": "Izklopi odklepanje obraza",
+                "TEXT": "Ste prepričani, da želite izklopiti odklepanje obraza?",
+                "CANCEL": "Prekliči",
+                "CONFIRM": "Izklopi"
+            },
+            "ENABLE_FACE_ID_POPUP": {
+                "TITLE": "Omogoči odklepanje obraza",
+                "TEXT": "Ste prepričani, da želite omogočiti odklepanje obraza?",
+                "CANCEL": "Prekliči",
+                "CONFIRM": "Omogoči"
+            },
+            "DISABLE_PIN_POPUP": {
+                "TITLE": "Izklopi Pin kodo",
+                "TEXT": "Ste prepričani, da želite izklopiti Pin kodo? (To bo onemogočilo tudi odklepanje obraza)",
+                "CANCEL": "Prekliči",
+                "CONFIRM": "Potrdi"
+            },
+            "TURN_PASSCODE_OFF": "Izklopi kodo",
+            "TURN_PASSCODE_ON": "Vklopi kodo",
+            "CHANGE_PASSCODE": "Spremeni kodo",
+            "CLOUD_BACKUP": "Varnostno kopiranje v oblak",
+            "YOUR_PROFILE": "Vaš profil",
+            "CREATE_BACKUP": "Ustvari varnostno kopijo",
+            "BACKUPS": "Varnostne kopije",
+            "SAVE_BACKUP_POPUP": {
+                "TITLE": "Shrani varnostno kopijo",
+                "TEXT": "Ste prepričani, da želite shraniti varnostno kopijo svojih podatkov? (Shranjeni bodo vaši stiki, fotografije in nastavitve)",
+                "CANCEL": "Prekliči",
+                "CONFIRM": "Shrani"
+            },
+            "APPLY_BACKUP_POPUP": {
+                "TITLE": "Uporabi varnostno kopijo",
+                "TEXT": "Ste prepričani, da želite uporabiti to varnostno kopijo? (Prebrisani bodo vaši stiki, fotografije in nastavitve)",
+                "CANCEL": "Prekliči",
+                "CONFIRM": "Uporabi"
+            },
+            "BACKUP_ERROR_POPUP": {
+                "WARNING": "Opozorilo",
+                "ERROR": "Napaka",
+                "ALREADY_HAVE": "Za to številko že imate varnostno kopijo",
+                "SAME_PHONE": "Ne morete uporabiti varnostne kopije, ustvarjene iz istega telefona",
+                "OK": "V redu"
+            },
+            "SUCCESS": "Uspeh",
+            "SUCCESS_TEXT": "Telefon se bo znova zagnal v 5 sekundah...",
+            "OK": "V redu",
+            "ON": "Vklopljeno",
+            "OFF": "Izklopljeno",
+            "REMOVE_BACKUP_POPUP": {
+                "TITLE": "Odstrani varnostno kopijo",
+                "TEXT": "Ste prepričani, da želite odstraniti to varnostno kopijo?",
+                "CANCEL": "Prekliči",
+                "CONFIRM": "Odstrani"
+            },
+            "RESET_POPUP": {
+                "TITLE": "Ponastavi telefon",
+                "TEXT": "Ste prepričani, da želite ponastaviti telefon? [TO BO ODSTRANILO VSE]",
+                "CANCEL": "Prekliči",
+                "CONFIRM": "Ponastavi"
+            },
+            "UP_TO_DATE": "Vaš telefon je posodobljen",
+            "BLUR_HOMESCREEN": "Zamegli začetni zaslon"
+        },
+        "NOTES": {
+            "TITLE": "Beležke",
+            "SEARCH_PLACEHOLDER": "Iskanje",
+            "FOOTER": "{amount} Beležk",
+            "NEW_NOTE": "Nova beležka",
+            "LAST_EDITED": "Nazadnje urejeno: {date}",
+            "DELETE_TITLE": "Izbriši {title}",
+            "DELETE_TEXT": "Ste prepričani, da želite izbrisati '{title}'?",
+            "BUTTON_CANCEL": "Prekliči",
+            "BUTTON_DELETE": "Izbriši"
+        },
+        "CLOCK": {
+            "WORLDCLOCK": {
+                "TITLE": "Svetovna ura",
+                "TODAY": "Danes",
+                "TOMORROW": "Jutri",
+                "YESTERDAY": "Včeraj",
+                "LOCAL_TIME": "Lokalni čas",
+                "HRS": "{time} ure"
+            },
+            "ALARM": {
+                "TITLE": "Alarm",
+                "ADD": "Dodaj alarm",
+                "CANCEL": "Prekliči",
+                "EDIT": "Uredi",
+                "DONE": "Končano",
+                "SAVE": "Shrani",
+                "LABEL": "Oznaka",
+                "SOUND": "Zvok",
+                "SNOOZE": "Dremež",
+                "DELETE_TITLE": "Izbriši alarm",
+                "DELETE_TEXT": "Ste prepričani, da želite izbrisati ta alarm?",
+                "BUTTON_CANCEL": "Prekliči",
+                "BUTTON_DELETE": "Izbriši",
+                "ALARMS": "Alarmi",
+                "NEW_ALARM": "Nov alarm",
+                "EDIT_ALARM": "Uredi alarm"
+            },
+            "STOPWATCH": {
+                "TITLE": "Štoparica",
+                "START": "Začni",
+                "STOP": "Ustavi",
+                "RESET": "Ponastavi",
+                "LAP": "Krog",
+                "TIME": "Čas",
+                "TOTAL": "Skupaj",
+                "NO_LAPS": "Ni krogov"
+            },
+            "TIMER": {
+                "TITLE": "Časovnik",
+                "START": "Začni",
+                "STOP": "Ustavi",
+                "CANCEL": "Prekliči",
+                "HOURS": "Ure",
+                "MINUTES": "Minute",
+                "SECONDS": "Sekunde",
+                "NO_RECENTS": "Ni zadnjih"
+            },
+            "ALERT": {
+                "STOP": "Ustavi",
+                "RESTART": "Ponovni zagon"
+            }
+        },
+        "CAMERA": {
+            "VIDEO": "Video",
+            "PHOTO": "Fotografija",
+            "LANDSCAPE": "Pokrajina",
+            "UPLOADING": "Nalaganje"
+        },
+        "DARKCHAT": {
+            "TITLE": "Temni Klepet",
+            "SEARCH": "Iskanje kanalov",
+            "CANCEL": "Prekliči",
+            "SET": "Nastavi",
+            "JOIN": "Pridruži se",
+            "LEAVE": "Zapusti",
+            "NEW_ROOM": "Nova soba",
+            "NEW_ROOM_TEXT": "Vnesite kodo sobe za pridružitev ali ustvarjanje sobe",
+            "ROOM_CODE": "Koda sobe",
+            "LEAVE_ROOM": "Zapusti sobo",
+            "LEAVE_ROOM_TEXT": "Ste prepričani, da želite zapustiti to sobo?",
+            "NOW": "Zdaj",
+            "INPUT_PLACEHOLDER": "Vnesite sporočilo...",
+            "NO_CHATS": "Ni klepetov",
+            "NO_CHATS_TEXT": "Še niste se pridružili nobenemu kanalu. Pridružite se/ustvarite ga s pritiskom na znak plus v zgornjem desnem kotu.",
+            "MEMBER": "Član",
+            "MEMBERS": "Člani",
+
+            "USERNAME": "Uporabniško ime",
+            "PASSWORD": "Geslo",
+            "LOGIN": "Prijava",
+            "SIGN_UP": "Registracija",
+            "NO_ACCOUNT": "Nimate računa?",
+            "ALREADY_HAVE": "Že imate račun?",
+            "USERNAME_NOT_ALLOWED": "Uporabniško ime ni dovoljeno",
+
+            "CHANGE_ACCOUNT": "Spremeni račun",
+            "CHANGE_PASSWORD": "Spremeni geslo",
+            "DELETE_ACCOUNT": "Izbriši račun",
+
+            "ERROR": "Napaka",
+            "INVALID_LENGTH": "Geslo mora imeti vsaj 3 znake",
+            "USERNAME_TAKEN": "Uporabniško ime je že zasedeno",
+            "UNKNOWN": "Neznana napaka",
+            "INVALID_USERNAME": "Uporabniško ime ne obstaja",
+            "INCORRECT_PASSWORD": "Napačno geslo",
+            "OK": "V redu",
+
+            "LEAVE_CHANNEL": {
+                "TITLE": "Zapusti kanal",
+                "DESCRIPTION": "Ste prepričani, da želite zapustiti ta kanal?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Zapusti"
+            },
+
+            "SET_PASSWORD_POPUP": {
+                "TITLE": "Nastavi geslo",
+                "DESCRIPTION": "Za svoj račun morate nastaviti geslo",
+                "PLACEHOLDER": "Geslo"
+            }
+        },
+        "APPSTORE": {
+            "TITLE": "Aplikacije",
+            "SEARCH": "Iskanje",
+            "GET": "Pridobi",
+            "OPEN": "Odpri",
+            "TODAY": "Danes",
+            "POPULAR_APPS": "Priljubljene aplikacije",
+            "GAMES": "Igre",
+            "APPS": "Aplikacije",
+            "WHAT_WE_PLAYING": "Kaj igramo",
+            "INFORMATION": "Informacije",
+            "PROVIDER": "Ponudnik",
+            "SIZE": "Velikost",
+            "COMPATIBILITY": "Združljivost",
+            "IN_APP_PURCHASES": "Nakupi v aplikaciji",
+            "WORKS_WITH_PHONE": "Deluje s tem telefonom",
+            "NO": "Ne",
+            "YES": "Da",
+            "PURCHASE_APP_POPUP": {
+                "TITLE": "Nakup aplikacije",
+                "DESCRIPTION": "Ali želite kupiti aplikacijo {app} za {price}?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nakup"
+            }
+        },
+        "PHOTOS": {
+            "TITLE": "Fotografije",
+            "SELECT": "Izberi",
+            "CANCEL": "Prekliči",
+            "PROCEED": "Nadaljuj",
+            "OK": "V redu",
+            "EDIT": "Uredi",
+            "DONE": "Končano",
+            "DELETE": "Izbriši",
+            "SELECT_ITEMS": "Izberi elemente",
+            "SELECTED_COUNT": "{count} elementov izbranih",
+
+            "PHOTOS": "Fotografije",
+            "ALBUMS": "Albumi",
+            "LIBRARY": "Knjižnica",
+            "GALLERY": "Galerija",
+            "MY_ALBUMS": "Moji albumi",
+            "SHARED_ALBUMS": "Skupni albumi",
+            "MEDIA_TYPES": "Vrste medijev",
+            "MANAGE_MEMBERS": "Upravljanje članov",
+            "NEW_ALBUM_POPUP": {
+                "TITLE": "Nov album",
+                "DESCRIPTION": "Vnesite ime za ta album",
+                "PLACEHOLDER": "Naslov",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Shrani"
+            },
+            "REMOVE_ALBUM": {
+                "TITLE": "Odstrani \"{name}\"",
+                "DESCRIPTION": "Ste prepričani, da želite izbrisati album \"{name}\"? Fotografije ne bodo izbrisane"
+            },
+            "LEAVE_SHARED_ALBUM": {
+                "TITLE": "Zapusti \"{name}\"",
+                "DESCRIPTION": "Ste prepričani, da želite zapustiti album \"{name}\"? V njega ne boste več mogli nalagati fotografij"
+            },
+            "RENAME_ALBUM_POPUP": {
+                "TITLE": "Preimenuj album",
+                "DESCRIPTION": "Vnesite novo ime za ta album",
+                "PLACEHOLDER": "Novo ime albuma",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "DELETE_IMAGE_POPUP": {
+                "TITLE": "Izbriši sliko",
+                "DESCRIPTION": "Ste prepričani, da želite izbrisati to sliko?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Izbriši"
+            },
+            "IMPORT_IMAGE_POPUP": {
+                "TITLE": "Uvozi v album",
+                "DESCRIPTION": "Uvozite sliko v ta album",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Uvozi",
+                "PLACEHOLDER": "URL slike"
+            },
+            "ERROR": "Napaka",
+            "SUCCESS": "Uspeh",
+            "CONTACT_ALREADY_IN_ALBUM": "Stik je že v albumu",
+            "CONTACT_ADDED_TO_ALBUM": "Stik je dodan v album",
+            "MEMBERS": "{count} Članov",
+            "INVITE": "Povabi",
+            "LEAVE_ALBUM": "Zapusti album",
+            "CREATE_SHARED_ALBUM": "Ustvari skupni album",
+            "MANAGE_SHARED_ALBUM": "Upravljanje skupnega albuma",
+            "REMOVE_MEMBER": {
+                "TITLE": "Odstrani člana",
+                "DESCRIPTION": "Ste prepričani, da želite odstraniti tega člana iz albuma?",
+                "SUCCESS": "Član odstranjen iz albuma"
+            },
+
+            "NO_PHOTOS": "Ni fotografij ali videoposnetkov",
+            "NO_PHOTOS_INSTRUCTIONS": "S kamero lahko posnamete fotografije in videoposnetke",
+            "PHOTO_COUNT": "{amount} Fotografij",
+            "VIDEO_COUNT": "{amount} Video posnetkov",
+
+            "DELETE_CONTEXT_TITLE": "Ali želite izbrisati {type} ali jih odstraniti iz tega albuma?",
+            "THESE_PHOTOS": "te fotografije",
+            "THIS_PHOTO": "to fotografijo",
+            "REMOVE_FROM_ALBUM": "Odstrani iz albuma",
+            "ADD_TO_ALBUM": "Dodaj v album",
+            "ADD_TO_FAVOURITES": "Dodaj med priljubljene",
+            "REMOVE_FROM_FAVOURITES": "Odstrani iz priljubljenih",
+            "VIDEOS": "Video posnetki",
+            "SELFIES": "Selfiji",
+            "SCREENSHOTS": "Posnetki zaslona",
+            "IMPORTS": "Uvozi",
+            "DUPLICATES": "Podvojeni",
+            "YEARS": "Leta",
+            "MONTHS": "Meseci",
+            "DAYS": "Dnevi",
+            "ALL_PHOTOS": "Vse fotografije",
+
+            "FAVOURITES": "Priljubljene",
+            "RECENTS": "Zadnji"
+        },
+        "WEATHER": {
+            "TITLE": "Vreme",
+            "HOURLY_FORECAST": "Urna napoved",
+            "NOW": "Zdaj",
+            "FEELS_LIKE": "Občutek kot",
+            "FEELS_LIKE_SAME": "Podobno dejanski temperaturi.",
+            "FEELS_LIKE_HUMIDITY": "Vlaga povzroča občutek višje temperature",
+            "FEELS_LIKE_WIND": "Veter povzroča občutek nižje temperature",
+            "SUNRISE": "Sončni vzhod",
+            "SUNSET": "Sončni zahod",
+            "WIND": "Veter",
+            "PRECIPITATION": "Padavine",
+            "LAST_24H": "v zadnjih 24 urah",
+            "EXPECTED_24H": "pričakovano v naslednjih 24 urah",
+            "TYPES": {
+                "CLOUDY": "Oblačno",
+                "LIGHT_RAIN": "Rahlo deževje",
+                "HEAVY_RAIN": "Močno deževje",
+                "RAIN": "Dež",
+                "SNOW": "Sneg",
+                "FOG": "Megla",
+                "CLEAR": "Jasno",
+                "MOSTLY_CLEAR": "Večinoma jasno",
+                "THUNDER": "Grom",
+                "TORNADO": "Tornado",
+                "WINDY": "Vetrno"
+            }
+        },
+        "MESSAGES": {
+            "TITLE": "Sporočila",
+            "NEW_MESSAGE": "Novo sporočilo",
+            "PEOPLE": "Osebe",
+            "MEMBERS": "Člani",
+            "OTHER": "Drugo",
+            "SENT_A_PHOTO": "Poslal fotografijo",
+            "SENT_AUDIO_MESSAGE": "Poslal zvočno sporočilo",
+            "SENT": "Poslano",
+            "REQUESTED": "Zahtevano",
+            "MISSED_CALL": "{number} vas je poskušal poklicati, vendar se niste oglasili, pritisnite na številko za povratni klic",
+            "NOT_DELIVERED": "Ni dostavljeno",
+            "PLACEHOLDER": "Besedilno sporočilo",
+            "DONE": "Končano",
+            "EDIT": "Uredi",
+            "READ": "Prebrano",
+            "CANCEL": "Prekliči",
+            "SEND": "Pošlji",
+            "UNKNOWN": "Neznano",
+            "TO": "Za",
+            "SEARCH": "Iskanje",
+            "ADD_MEMBER": "Dodaj člana",
+            "SHARE_LOCATION": "Deli mojo lokacijo",
+            "LEAVE_GROUP": "Zapusti skupino",
+            "SENT_LOCATION": "Delil svojo lokacijo, kliknite za odprtje v Zemljevidih",
+            "SENT_LOCATION_SHORT": "Delil svojo lokacijo",
+            "TRIED_TO_CALL": "{number} vas je poskušal poklicati",
+            "DELETE": "Izbriši",
+            "GROUP": "Skupina",
+            "GROUP_NAME": "Ime skupine",
+            "REMOVE_POPUP": {
+                "TITLE": "Odstrani člana",
+                "TEXT": "Ste prepričani, da želite odstraniti {name} iz skupine?",
+                "REMOVE": "Odstrani"
+            },
+            "LEAVE_POPUP": {
+                "TITLE": "Zapusti skupino",
+                "TEXT": "Ste prepričani, da želite zapustiti to skupino?",
+                "LEAVE": "Zapusti"
+            },
+            "ADD_POPUP": {
+                "TITLE": "Dodaj člana",
+                "TEXT": "Vnesite številko, ki jo želite dodati v skupino '{name}'?",
+                "ADD": "Dodaj"
+            },
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "Deli lokacijo",
+                "TEXT": "Ali želite deliti svojo lokacijo?",
+                "CANCEL": "Prekliči",
+                "SEND": "Pošlji"
+            },
+            "PAY": {
+                "REQUEST": "Zahtevaj",
+                "REQUESTED": "Zahtevano",
+                "PAY": "Plačaj",
+                "SEND": "Pošlji",
+                "SEND_TITLE": "Pošlji {amount}",
+                "SEND_DESCRIPTION": "Ali želite poslati {amount} osebi {name}?",
+                "SEND_BUTTON_CANCEL": "Prekliči",
+                "SEND_BUTTON_SEND": "Pošlji"
+            },
+            "PAYMENT_FAILED_POPUP": {
+                "TITLE": "Plačilo ni uspelo",
+                "DESCRIPTION": "Napaka: {error}",
+                "CLOSE": "Zapri"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "Izbriši pogovor",
+                "DESCRIPTION": "Ste prepričani, da želite izbrisati ta pogovor?",
+                "CANCEL": "Prekliči",
+                "DELETE": "Izbriši"
+            },
+            "REMOVE_AVATAR_POPUP": {
+                "TITLE": "Odstrani avatar",
+                "DESCRIPTION": "Ste prepričani, da želite odstraniti avatar skupine?",
+                "CANCEL": "Prekliči",
+                "REMOVE": "Odstrani"
+            },
+            "MARK_AS_READ": "Označi kot prebrano",
+            "MESSAGE_DELETED": "Sporočilo izbrisano",
+            "OPEN_IN_MAPS": "Odpri v Zemljevidih",
+            "USERS_LOCATION": "Lokacija {user}",
+            "START_RECORDING": "Pritisnite gumb za začetek snemanja",
+            "LOADING": "Nalaganje...",
+            "EMPTY_RECORDING": {
+                "TITLE": "Prazen posnetek",
+                "DESCRIPTION": "Praznega posnetka ne morete poslati",
+                "OK": "V redu"
+            }
+        },
+        "PHONE": {
+            "TITLE": "Telefon",
+            "DONE": "Končano",
+            "EDIT": "Uredi",
+            "CANCEL": "Prekliči",
+            "CALL": {
+                "CALL_TITLE": "Kliči {name}",
+                "CALL_TEXT": "Ste prepričani, da želite poklicati {name}?",
+                "CALL_BUTTON_CANCEL": "Prekliči",
+                "CALL_BUTTON_CALL": "Kliči",
+                "NO_CALLER_ID": "Ni ID-ja kličočega",
+                "UNKNOWN": "Neznano",
+                "USER_BUSY": "Uporabnik je zaseden",
+                "USER_UNAVAILABLE": "Uporabnik ni na voljo",
+                "CALL_BACK": "Pokliči nazaj",
+                "DECLINE": "Zavrni",
+                "ACCEPT": "Sprejmi",
+                "END": "Končaj",
+                "VIDEO_CALL": "Video klic",
+                "MUTE": "Izklopi zvok",
+                "KEYPAD": "Tipkovnica",
+                "SPEAKER": "Zvočnik",
+                "ADD_CALL": "Dodaj klic",
+                "VIDEO": "Video",
+                "CONTACTS": "Stiki",
+                "MOBILE": "Mobilni",
+                "VIDEO_CALL_REQUEST": {
+                    "TITLE": "Zahteva za video klic",
+                    "DESCRIPTION": "Ali želite sprejeti video klic?",
+                    "CANCEL": "Prekliči",
+                    "PROCEED": "Sprejmi"
+                },
+                "REQUEST_VIDEO": {
+                    "TITLE": "Video klic",
+                    "DESCRIPTION": "Ali želite začeti video klic?",
+                    "CANCEL": "Prekliči",
+                    "PROCEED": "Nadaljuj"
+                },
+                "STOP_VIDEO": {
+                    "TITLE": "Ustavi video",
+                    "DESCRIPTION": "Ste prepričani, da želite prenehati deliti svoj video?",
+                    "CANCEL": "Prekliči",
+                    "PROCEED": "Ustavi"
+                }
+            },
+            "CONTACTS": {
+                "TITLE": "Stiki",
+                "FIRST_NAME": "Ime",
+                "LAST_NAME": "Priimek",
+                "PHONE_NUMBER": "Telefonska številka",
+                "MY_CARD": "Moja kartica",
+                "ADD_PHOTO": "Dodaj fotografijo",
+                "REMOVE_CONTACT_TITLE": "Odstrani stik",
+                "REMOVE_CONTACT_TEXT": "Ste prepričani, da želite odstraniti ta stik?",
+                "REMOVE_CONTACT_BUTTON_CANCEL": "Prekliči",
+                "REMOVE_CONTACT_BUTTON_DELETE": "Izbriši",
+                "DELETE_CONTACT": "Izbriši stik",
+                "MESSAGE": "sporočilo",
+                "CALL": "klic",
+                "VIDEO": "video",
+                "SHARE": "deli",
+                "MAIN": "glavno",
+                "SHARE_CONTACT": "Deli stik",
+                "SHARE_LOCATION": "Deli mojo lokacijo",
+                "REMOVE_FAVORITE": "Odstrani iz priljubljenih",
+                "ADD_FAVORITE": "Dodaj med priljubljene",
+                "ADD_CONTACT": "Dodaj med stike",
+                "UNBLOCK_CALLER": "Odblokiraj tega kličočega",
+                "BLOCK_CALLER": "Blokiraj tega kličočega",
+                "UNBLOCK_NUMBER_TITLE": "Odblokiraj številko",
+                "UNBLOCK_NUMBER_TEXT": "Ste prepričani, da želite odblokirati {number}?",
+                "UNBLOCK_NUMBER_BUTTON_CANCEL": "Prekliči",
+                "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Odblokiraj",
+                "BLOCK_NUMBER_TITLE": "Blokiraj številko",
+                "BLOCK_NUMBER_TEXT": "Ste prepričani, da želite blokirati {number}?",
+                "BLOCK_NUMBER_BUTTON_CANCEL": "Prekliči",
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Blokiraj",
+                "EMAIL": "Elektronska pošta",
+                "ADDRESS": "Naslov",
+                "CHANGE_AVATAR": "Spremeni avatar",
+                "REMOVE_AVATAR": "Odstrani avatar"
+            },
+            "FAVOURITES": {
+                "TITLE": "Priljubljene",
+                "REMOVE_TITLE": "Odstrani iz priljubljenih",
+                "REMOVE_TEXT": "Ste prepričani, da želite odstraniti ta stik iz svojih priljubljenih?",
+                "REMOVE_BUTTON_CANCEL": "Prekliči",
+                "REMOVE_BUTTON_REMOVE": "Odstrani"
+            },
+            "KEYPAD": {
+                "TITLE": "Tipkovnica",
+                "ADD_NUMBER": "Dodaj številko"
+            },
+            "RECENTS": {
+                "TITLE": "Zadnji",
+                "ALL": "Vsi",
+                "MISSED": "Zgrešeni",
+                "OUTGOING_CALL": "Odhodni klic",
+                "INCOMING_CALL": "Dohodni klic",
+                "CANCELLED_CALL": "Preklican klic",
+                "MISSED_CALL": "Zgrešen klic"
+            },
+            "VOICEMAIL": {
+                "TITLE": "Glasovna pošta",
+                "AT": "ob",
+                "DELETE_POPUP": {
+                    "TITLE": "Izbriši glasovno pošto",
+                    "DESCRIPTION": "Ste prepričani, da želite izbrisati to glasovno pošto?",
+                    "CANCEL": "Prekliči",
+                    "PROCEED": "Izbriši"
+                },
+                "CALL_POPUP": {
+                    "TITLE": "Kliči",
+                    "DESCRIPTION": "Ste prepričani, da želite poklicati {number}?",
+                    "CANCEL": "Prekliči",
+                    "PROCEED": "Kliči"
+                }
+            }
+        },
+        "WALLET": {
+            "TITLE": "Denarnica",
+            "BALANCE": "Ocenjeno stanje",
+            "SEND": "Pošlji",
+            "NEXT": "Naprej",
+            "DONE": "Končano",
+            "DONE_SUBTITLE": "Poslali ste {amount} osebi {number}",
+            "NO_REFUNDS": "Plačila niso vračljiva, dvakrat preverite številko.",
+            "NEW_BALANCE": "Novo stanje",
+            "HOME": "Domov",
+            "LATEST_TRANSACTIONS": "Zadnje transakcije",
+            "TRANSACTIONS": "Transakcije",
+            "ALL_TRANSACTIONS": "Vse transakcije",
+            "LATEST_BILLS": "Zadnji računi",
+            "NOW": "Zdaj",
+            "AGO": "nazaj",
+            "SELECT_CONTACT": "Izberi stik",
+            "TODAY": "Danes",
+            "YESTERDAY": "Včeraj",
+
+            "INSUFFICIENT_FUNDS": {
+                "TITLE": "Ni dovolj denarja",
+                "DESCRIPTION": "Nimate dovolj denarja za pošiljanje tega zneska"
+            },
+            "NUMBER_DOES_NOT_EXIST": {
+                "TITLE": "Ni bilo mogoče nadaljevati",
+                "DESCRIPTION": "Vnesena številka ne obstaja ali pa igralec ni povezan"
+            },
+            "AIRPLANE_MODE": {
+                "TITLE": "Napaka",
+                "DESCRIPTION": "Poskušate izvesti dejanje, ki zahteva internetni dostop, onemogočite način letenja ali pridobite storitev za nadaljevanje."
+            },
+            "INVALID_AMOUNT": {
+                "TITLE": "Neveljaven znesek",
+                "DESCRIPTION": "Vnesli ste neveljaven znesek"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Pošiljanje ni uspelo",
+                "DESCRIPTION": "Pošiljanje denarja ni uspelo (ni opremljenega telefona)"
+            },
+            "EXCEED_DAILY": {
+                "TITLE": "Presežen dnevni limit",
+                "DESCRIPTION": "Presegli ste svoj dnevni limit"
+            },
+            "EXCEED_WEEKLY": {
+                "TITLE": "Presežen tedenski limit",
+                "DESCRIPTION": "Presegli ste svoj tedenski limit"
+            },
+            "FAILED_ADD": {
+                "TITLE": "Dodajanje denarja ni uspelo",
+                "DESCRIPTION": "Dodajanje denarja na določen račun ni uspelo"
+            },
+
+            "OK": "V redu"
+        },
+        "GARAGE": {
+            "TITLTE": "Garaža",
+            "ACTIONS": "Dejanja",
+            "MY_CARS": "Moji avtomobili",
+            "OUT": "Zunaj",
+            "GARAGE": "Garaža",
+            "IMPOUNDED": "Zaseženo",
+            "IMPOUND_INFO": "Informacije o zasegu",
+            "LOCATION": "Lokacija",
+            "SUMMON": "Pokliči",
+            "VALET": "Parkiranje",
+            "STATISTICS": "Statistika",
+            "FUEL": "Gorivo",
+            "ENGINE": "Motor",
+            "BODY": "Karoserija",
+            "VEHICLE": "Vozilo",
+            "STATUS": "Status",
+            "LOCKED": "Zaklenjeno",
+            "LOCK": "Zakleni",
+            "UNLOCKED": "Odklenjeno",
+            "UNLOCK": "Odkleni",
+
+            "WAYPOINT_POPUP": {
+                "TITLE": "Nastavi točko poti",
+                "TEXT": "Ali želite nastaviti točko poti do svojega {model}?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "VALET_POPUP": {
+                "TITLE": "Parkiranje",
+                "TEXT": "Ali želite parkirati svoje vozilo {model} ({plate})?",
+                "TEXT_PAID": "Ali želite parkirati svoje vozilo {model} ({plate}) za {amount}?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} vozilo",
+                "TEXT": "Ali želite {toggle} svoje vozilo?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "IMPOUND_REASON": {
+                "REASON": "Razlog",
+                "RETRIEVABLE": "Mogoče prevzeti",
+                "IMPOUNDER": "Zasegel",
+                "PRICE": "Cena"
+            }
+        },
+        "HOME": {
+            "TITLE": "Dom",
+            "MY_HOMES": "Moji domovi",
+            "MY_HOME": "Moj dom",
+            "KEY_ACCESS": "Dostop s ključem",
+            "ACTIONS": "Dejanja",
+            "FRONT_DOOR": "Vhodna vrata",
+            "LOCATION": "Lokacija",
+            "SET_WAYPOINT": "Nastavi točko poti",
+            "UNLOCK": "Odkleni",
+            "UNLOCKED": "Odklenjeno",
+            "LOCK": "Zakleni",
+            "LOCKED": "Zaklenjeno",
+            "GIVE_KEY": "Daj ključ",
+            "MANAGE": "Upravljanje",
+            "WAYPOINT_POPUP": {
+                "TITLE": "Nastavi točko poti",
+                "TEXT": "Ali želite nastaviti točko poti do {home}?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} Dom",
+                "TEXT": "Ali želite {toggle} svoj dom?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "GIVE_KEY_POPUP": {
+                "TITLE": "Daj ključ",
+                "TEXT": "Vnesite ID osebe, ki ji želite dati ključ",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "REMOVE_KEY_POPUP": {
+                "TITLE": "Odstrani imetnika ključa",
+                "TEXT": "Ste prepričani, da želite odstraniti dostop osebi {name}?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            }
+        },
+        "MARKETPLACE": {
+            "MARKETPLACE": "Tržnica",
+            "TITLE": "Naslov",
+            "SEARCH": "Iskanje oglasov ali številk",
+            "HOME": "Domov",
+            "YOUR_POSTS": "Vaši oglasi",
+            "PRICE": "Cena",
+            "DESCRIPTION": "Opis",
+            "IMAGES": "Slike",
+            "POST": "Objavi",
+            "AMOUNT_OF_TOTAL": "{amount} od {total}",
+            "MESSAGE": "Sporočilo",
+            "CALL": "Kliči",
+            "REMOVE": "Odstrani",
+
+            "ERROR_POPUP": {
+                "TITLE": "Napaka",
+                "NO_TITLE": "Vnesti morate naslov",
+                "NO_DESCRIPTION": "Vnesti morate opis",
+                "NO_PRICE": "Vnesti morate ceno",
+                "NO_ATTACHMENTS": "Priložiti morate vsaj eno sliko",
+                "OK": "V redu"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "Izbriši oglas",
+                "TEXT": "Ste prepričani, da želite izbrisati ta oglas?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Izbriši"
+            }
+        },
+        "YELLOWPAGES": {
+            "PAGES": "Strani",
+            "SEARCH": "Iskanje objav ali številk",
+            "FROM": "Od",
+            "CANCEL": "Prekliči",
+            "NEW_POST": "Nova objava",
+            "TITLE": "Naslov",
+            "DESCRIPTION": "Opis",
+            "PRICE": "Cena",
+            "POST": "Objavi",
+            "CALL": "Kliči",
+            "ERROR_POPUP": {
+                "TITLE": "Napaka",
+                "NO_TITLE": "Vnesti morate naslov",
+                "NO_DESCRIPTION": "Vnesti morate opis",
+                "OK": "V redu"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "Izbriši objavo",
+                "TEXT": "Ste prepričani, da želite izbrisati to objavo?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Izbriši"
+            }
+        },
+        "MAIL": {
+            "TITLE": "Pošta",
+            "YOU": "Vi",
+            "UPDATED_NOW": "Posodobljeno zdaj",
+            "NEW_MESSAGE": "Novo sporočilo",
+            "INBOX": "Prejeto",
+            "TO": "Za",
+            "FROM": "Od",
+            "SUBJECT": "Zadeva",
+            "MESSAGE": "Sporočilo",
+            "CANCEL": "Prekliči",
+            "SEND": "Pošlji",
+            "EMAIL": "Elektronska pošta",
+            "EMAIL_INVALID": "Neveljaven e-poštni naslov",
+            "EMAIL_EXISTS": "E-pošta že obstaja",
+            "PASSWORD": "Geslo",
+            "WRONG_PASSWORD": "Napačno geslo",
+            "LOGIN": "Prijava",
+            "NO_EMAIL": "Nimate e-poštnega naslova?",
+            "CREATE_ONE": "Ustvari ga",
+            "UNREAD": "Neprebrano",
+            "CREATE_MAIL": "Ustvari e-pošto",
+            "ALREADY_HAVE": "Že imate e-poštni naslov?",
+            "ADD_EMAIL": "Dodaj e-pošto",
+            "RE": "Re: {subject}",
+            "CHANGE_ACCOUNT": "Spremeni račun",
+            "CHANGE_PASSWORD": "Spremeni geslo",
+            "DELETE_ACCOUNT": "Izbriši račun",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Odjava",
+                "DESCRIPTION": "Ste prepričani, da se želite odjaviti?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "DELETE_MAIL_POPUP": {
+                "TITLE": "Izbriši e-pošto",
+                "DESCRIPTION": "Ste prepričani, da želite izbrisati to e-pošto?",
+                "CANCEL": "Prekliči",
+                "DELETE": "Izbriši"
+            }
+        },
+        "MAPS": {
+            "TITLE": "Zemljevidi",
+            "GO": "Pojdi",
+            "ADD": "Dodaj",
+            "EDIT": "Uredi",
+            "DELETE": "Izbriši",
+            "SET_WAYPOINT": "Nastavi točko poti",
+            "SHARE": "Deli",
+
+            "ADD_LOCATION_POPUP": {
+                "TITLE": "Dodaj lokacijo",
+                "DESCRIPTION": "Vnesite ime lokacije, ki jo želite dodati",
+                "PLACEHOLDER": "Ime",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "CHANGE_NAME_POPUP": {
+                "TITLE": "Spremeni ime",
+                "DESCRIPTION": "Vnesite novo ime lokacije",
+                "PLACEHOLDER": "Ime",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            }
+        },
+        "MUSIC": {
+            "TITLE": "Glasba",
+            "HOME": "Domov",
+            "RECENTLY_ADDED": "Nazadnje dodano",
+            "CATEGORIES": "Kategorije",
+            "PLAYLISTS": "Seznami predvajanja",
+            "LIBRARY": "Knjižnica",
+            "SEARCH": "Iskanje",
+            "ADD_QUEUE": "Dodaj v vrsto",
+            "ADD_PLAYLIST": "Dodaj v seznam predvajanja",
+            "REMOVE_SONG": "Odstrani pesem",
+            "NOT_PLAYING": "Ne predvaja se",
+            "EDIT_PLAYLIST": "Uredi seznam predvajanja",
+            "DELETE_PLAYLIST": "Izbriši seznam predvajanja",
+            "SEARCH_PLACEHOLDER": "Izvajalci, pesmi, albumi, seznami predvajanja",
+            "SONGS": "Pesmi",
+            "ALBUMS": "Albumi",
+            "ARTISTS": "Izvajalci",
+            "PLAY": "Predvajaj",
+            "SHUFFLE": "Naključno",
+            "ARTIST": "Izvajalec",
+            "ALBUM": "Album",
+            "PLAYLIST": "Seznam predvajanja",
+            "SONG": "Pesem",
+            "SONG_EXISTS_POPUP": {
+                "TITLE": "Pesem že obstaja",
+                "DESCRIPTION": "Ta pesem že obstaja v tem seznamu predvajanja",
+                "CANCEL": "Prekliči"
+            },
+            "NEW_PLAYLIST_POPUP": {
+                "TITLE": "Nov seznam predvajanja",
+                "DESCRIPTION": "Ustvari nov seznam predvajanja",
+                "PLACEHOLDER": "Ime seznama predvajanja",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "REMOVE_SONG_POPUP": {
+                "TITLE": "Odstrani pesem",
+                "DESCRIPTION": "Ste prepričani, da želite odstraniti to pesem iz seznama predvajanja?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            }
+        },
+        "TINDER": {
+            "TITLE": "Iskra",
+            "LIKES_YOU_TOO": "vas tudi všečka!",
+            "KEEP_SWIPING": "Nadaljujte s potegom",
+            "SAY_SOMETHING_NICE": "Recite nekaj lepega",
+            "NO_MORE": "Zmanjkalo nam je ljudi, ki jih lahko všečkate, vrnite se kasneje!",
+            "SEND": "Pošlji",
+            "AGREE_TERMS": "S pritiskom na 'Ustvari račun' se strinjate z našimi Pogoji storitve in Politiko zasebnosti",
+            "CREATE_ACCOUNT": "Ustvari račun",
+            "AGE_PUBLIC": "Vaša starost bo javna",
+            "BE_OVER_18": "Za uporabo te storitve morate biti starejši od 18 let",
+            "NAME_MINIMUM": "Vaše ime mora imeti vsaj 3 znake",
+            "ADD_PHOTOS": "Dodaj fotografije",
+            "PHOTOS_MINIMUM": "Imeti morate vsaj eno fotografijo",
+            "DESCRIPTION": "Povejte nam nekaj o sebi",
+            "DESCRIPTION_MINIMUM": "Vaš opis mora imeti vsaj 10 znakov",
+            "SHOW_ME": "Pokaži mi",
+            "WOMEN": "Ženske",
+            "MEN": "Moški",
+            "EVERYONE": "Vsi",
+            "EVERYTHING": "Vse",
+            "I_AM": "Sem",
+            "MALE": "Moški",
+            "FEMALE": "Ženska",
+            "CONTINUE": "Nadaljuj",
+            "NAME": "Ime",
+            "PHOTOS": "Fotografije",
+            "ABOUT_ME": "O meni",
+            "INTERESTED_IN": "Zanima me",
+            "GENDER": "Spol",
+            "SAVE": "Shrani",
+            "NEW_MATCHES": "Novi pari",
+            "MESSAGES": "Sporočila",
+            "VISIBILITY": "Vidnost profila",
+            "VISIBLE": "Vidno",
+            "HIDDEN": "Skrito",
+            "HIDDEN_WARNING": "Vaš račun je trenutno skrit. Ne boste prikazani drugim uporabnikom in ne boste mogli potegovati.",
+            "HIDDEN_PROFILE": "Vaš profil ni aktiven. Profil lahko aktivirate v nastavitvah.",
+            "SEARCH_MATCHES": "Iskanje parov",
+            "DELETE_ACCOUNT": "Izbriši račun"
+        },
+        "INSTAGRAM": {
+            "TITLE": "InstaPic",
+            "SEND": "Pošlji",
+            "POST": "Objavi",
+            "MESSAGE_PLACEHOLDER": "Sporočilo...",
+            "NEW_MESSAGE": "Novo sporočilo",
+            "NOW": "Zdaj",
+            "GO_LIVE_POPUP": {
+                "TITLE": "Pojdi v živo",
+                "DESCRIPTION": "Ste prepričani, da želite iti v živo?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "END_LIVE_POPUP": {
+                "TITLE": "Končaj v živo",
+                "DESCRIPTION": "Ste prepričani, da želite {action} ta prenos v živo?",
+                "CANCEL": "Prekliči",
+                "END": "Končaj",
+                "LEAVE": "Zapusti"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Prenehaj slediti",
+                "DESCRIPTION": "Ste prepričani, da želite prenehati slediti {name}?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "DELETE_POST_POPUP": {
+                "TITLE": "Izbriši objavo",
+                "DESCRIPTION": "Ste prepričani, da želite izbrisati to objavo?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Odjava",
+                "DESCRIPTION": "Ste prepričani, da se želite odjaviti?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "DELETE_STORY": {
+                "TITLE": "Izbriši zgodbo",
+                "DESCRIPTION": "Ste prepričani, da želite izbrisati to zgodbo?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "INVITE_LIVE_POPUP": {
+                "TITLE": "Vabilo v živo",
+                "DESCRIPTION": "{username} vas je povabil na svoj prenos v živo, se želite pridružiti?",
+                "NO": "Ne",
+                "YES": "Da"
+            },
+            "REMOVE_LIVE_POPUP": {
+                "TITLE": "Odstrani {username}",
+                "DESCRIPTION": "Ste prepričani, da želite odstraniti {username} iz svojega prenosa v živo?",
+                "CANCEL": "Prekliči",
+                "REMOVE": "Odstrani"
+            },
+            "LEAVE_LIVE_POPUP": {
+                "TITLE": "Zapusti prenos v živo",
+                "DESCRIPTION": "Ste prepričani, da želite zapustiti ta prenos v živo?",
+                "LEAVE": "Zapusti"
+            },
+            "LIVE_ENDED": "Prenos v živo končan",
+            "COMMENT_PLACEHOLDER": "Komentar",
+            "LIVE": "V živo",
+            "YOUR_STORY": "Vaša zgodba",
+            "CREATE_STORY": "Ustvari zgodbo",
+            "GO_LIVE": "Pojdi v živo",
+            "EMPTY_FEED": "Začnite slediti ljudem, da boste tukaj videli njihove fotografije in videoposnetke",
+            "COMMENTS": "Komentarji",
+            "ADD_COMMENT_AS": "Dodaj komentar kot {name}",
+            "NEW_POST": "Nova objava",
+            "NEXT": "Naprej",
+            "CAPTION_PLACEHOLDER": "Napiši naslov...",
+            "ACTIVITY": "Dejavnost",
+            "FOLLOW": "Sledi",
+            "FOLLOWING": "Sledim",
+            "FOLLOWERS": "Sledilci",
+            "FOLLOWER": "Sledilec",
+            "REQUESTED": "Zahtevano",
+            "LIKES": "Všečki",
+            "LIKED_BY": "Všečkali",
+            "VIEW_ALL_COMMENTS": "Prikaži vse {count} komentarje",
+            "FIRST_COMMENT": "Bodite prvi, ki bo komentiral...",
+            "LOG_IN": "Prijava",
+            "CREATE_ACCOUNT": "Ustvari račun",
+            "USERNAME_PLACEHOLDER": "Uporabniško ime",
+            "NAME_PLACEHOLDER": "Ime",
+            "PASSWORD_PLACEHOLDER": "Geslo",
+            "NOT_HAVE_ACCOUNT": "Nimate računa?",
+            "HAVE_ACCOUNT": "Imate račun?",
+            "LIKED_PHOTO": "je všečkala/všečkal vašo fotografijo.",
+            "LIKED_COMMENT": "je všečkala/všečkal vaš komentar: {comment}",
+            "COMMENTED": "je komentirala/komentiral na vašo objavo: {comment}",
+            "FOLLOWED": "vas je začela/začel slediti.",
+            "DONE": "Končano",
+            "EDIT_PROFILE": "Uredi profil",
+            "CHANGE_PICTURE": "Spremeni profilno sliko",
+            "NAME": "Ime",
+            "BIO": "Bio",
+            "PRIVATE": "Preklopi na zasebno",
+            "SIGN_OUT": "Odjava",
+            "CHANGE_PASSWORD": "Spremeni geslo",
+            "DELETE_ACCOUNT": "Izbriši račun",
+            "POSTS": "Objave",
+            "MESSAGE": "Sporočilo",
+            "SENT_A_PHOTO": "poslal fotografijo",
+            "TO": "Za",
+            "SEND_A_MESSAGE": "Pošlji sporočilo...",
+            "STORY_VIEWERS": "Ogledovalci",
+            "PARTICIPANTS": "Udeleženci",
+            "SEEN_BY": "Ogledalo {count}",
+            "ADD_ACCOUNT": "Dodaj račun",
+            "INVITE": "Povabi",
+            "INVITED": "Povabljen",
+            "REMOVE": "Odstrani",
+            "IN_THIS_ROOM": "V tej sobi",
+            "WHOS_WATCHING": "Kdo gleda",
+            "FOLLOW_REQUESTS": "Zahteve za sledenje",
+            "CONFIRM": "Potrdi",
+            "DELETE": "Izbriši",
+            "ANDOTHERS": "{username} + {amount} ostali",
+            "PRIVATE_ACCOUNT": "Ta račun je zaseben",
+            "PRIVATE_ACCOUNT_DESCRIPTION": "Sledite temu računu, da boste videli njihove fotografije in videoposnetke.",
+            "ERROR": "Napaka",
+            "USERNAME_TAKEN": "Uporabniško ime je že zasedeno",
+            "UNKNOWN": "Neznana napaka",
+            "UNKNOWN_ACCOUNT": "Račun ne obstaja",
+            "INVALID_USERNAME": "Neveljavno uporabniško ime",
+            "INCORRECT_PASSWORD": "Napačno geslo",
+            "USERNAME_NOT_ALLOWED": "Uporabniško ime ni dovoljeno",
+            "OK": "V redu",
+            "LOCATION": "Lokacija",
+            "CHOOSE_LOCATION": {
+                "TITLE": "Izberi lokacijo",
+                "DESCRIPTION": "Izberi lokacijo za to objavo",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "REPLIED_TO_YOUR_STORY": "Odgovoril na vašo zgodbo",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "Odgovoril na vašo zgodbo: {content}",
+
+            "SHARE_TO_STORY": {
+                "TITLE": "Deli v zgodbo",
+                "SUCCESS": "Objava deljena",
+                "DESCRIPTION": "Vaša objava je bila deljena v vašo zgodbo"
+            },
+            "VIEW_POST": "Prikaži objavo"
+        },
+        "TWITTER": {
+            "TITLE": "Birdy",
+            "SEARCH_FOR": "Iskanje za '{search}'",
+            "START_SEARCHING": "Začnite iskati, da raziščete Birdy",
+            "TRENDING_HASHTAGS": "Priljubljeni hashtagi",
+            "SENT_ATTACHMENT": "poslal prilogo",
+            "TO": "Za",
+            "TWEETS": "Objave",
+            "REPLIES": "Odgovori",
+            "MEDIA": "Mediji",
+            "LIKES": "Všečki",
+            "CANCEL": "Prekliči",
+            "TWEET": "Objavi",
+            "TWEET_REPLY": "Objavi svoj odgovor",
+            "TWEET_GENERAL": "Kaj se dogaja?",
+            "EDIT_PROFILE": "Uredi profil",
+            "SAVE": "Shrani",
+            "NAME": "Ime",
+            "JOIN_DATE": "Datum pridružitve",
+            "PROTECTED_POSTS": "Zaščitite svoje objave",
+            "BIO": "Bio",
+            "SIGN_OUT": "Odjava",
+            "CHANGE_PASSWORD": "Spremeni geslo",
+            "DELETE_ACCOUNT": "Izbriši račun",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Odjava",
+                "DESCRIPTION": "Ste prepričani, da se želite odjaviti?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Prenehaj slediti",
+                "DESCRIPTION": "Ste prepričani, da želite prenehati slediti {name}?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "RETWEET_POPUP": {
+                "RETWEET": "Ponovna objava",
+                "UNDO_RETWEET": "Razveljavi ponovno objavo",
+                "DESCRIPTION": "Ste prepričani, da želite {action}?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "Izbriši objavo",
+                "DESCRIPTION": "Ste prepričani, da želite izbrisati to objavo?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "NOTIFICATIONS_POPUP": {
+                "TITLE": "Obvestila",
+                "DESCRIPTION": "Ste prepričani, da želite {action} obvestila na @{name}?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj",
+                "ENABLE": "Omogoči",
+                "DISABLE": "Onemogoči"
+            },
+            "PROMOTE_POPUP": {
+                "TITLE": "Promoviraj objavo",
+                "DESCRIPTION": "Ali želite promovirati to objavo za {price} za {views} ogledov?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "YOU": "Vi",
+            "FOLLOW": "Sledi",
+            "PENDING": "Čakajoče",
+            "FOLLOWING": "Sledim",
+            "FOLLOWERS": "Sledilci",
+            "RETWEETED": "Ponovno objavljeno",
+            "REPLYING_TO": "Odgovarjam {name}",
+            "RETWEETED_BY": "Ponovno objavil/a",
+            "LIKED_BY": "Všečkal/a",
+            "ALL": "Vse",
+            "NOTIFICATIONS": "Obvestila",
+            "FOLLOWS_YOU": "Vam sledi",
+            "JOINED": "Pridružil/a {date}",
+            "PINNED_POST": "Pripeta objava",
+            "LIKED_TWEET": "je všečkal/a vašo objavo",
+            "RETWEETED_TWEET": "je ponovno objavil/a vašo objavo",
+            "FOLLOWED": "vas je začel/a slediti",
+            "SIGN_UP_TEXT": "Poglejte, kaj se trenutno dogaja po svetu",
+            "TERMS_OF_SERVICE": "S prijavo se strinjate z našimi Pogoji storitve in Politiko zasebnosti.",
+            "HAS_ACCOUNT": "Imate že račun?",
+            "CREATE_YOUR_ACCOUNT": "Ustvarite svoj račun",
+            "NAME_PLACEHOLDER": "Ime",
+            "USERNAME_PLACEHOLDER": "Uporabniško ime",
+            "PASSWORD_PLACEHOLDER": "Geslo",
+            "GET_STARTED": "Za začetek vnesite svoje @uporabniško ime",
+            "FORGOT_PASSWORD": "Pozabljeno geslo?",
+            "ENTER_PASSWORD": "Vnesite svoje geslo",
+            "SEARCH_DIRECT_MESSAGES": "Iskanje neposrednih sporočil",
+            "SEARCH_TWITTER": "Iskanje Birdy",
+            "MESSAGE_PLACEHOLDER": "Sporočilo...",
+            "NOW": "Zdaj",
+            "LOGIN": "Prijava",
+            "NEXT": "Naprej",
+            "CREATE_ACCOUNT": "Ustvari račun",
+            "PROMOTE": "Promoviraj",
+            "PIN": "Pripni objavo",
+            "UNPIN": "Odpni objavo",
+            "NEW_MESSAGE": "Novo sporočilo",
+            "PROMOTED": "Promovirano",
+            "ADD_ACCOUNT": "Dodaj račun",
+            "FOLLOWER_REQUESTS": "Zahteve za sledilce",
+            "NEW_POSTS": "Nove objave",
+            "NEW_POST": "Nova objava",
+            "PROTECTED_TWEETS_TITLE": "Te objave so zaščitene.",
+            "PROTECTED_TWEETS_DESCRIPTION": "Dostop do objav in celotnega profila @{username} imajo samo potrjeni sledilci. Dotaknite se gumba 'Sledi', da pošljete zahtevo za sledenje.",
+            "INVALID_ACCOUNT": "Neveljaven račun",
+            "INVALID_PASSWORD": "Neveljavno geslo",
+            "USERNAME_TAKEN": "Uporabniško ime je že zasedeno",
+            "USERNAME_NOT_ALLOWED": "Uporabniško ime ni dovoljeno"
+        },
+        "SERVICES": {
+            "ACTIONS": "Dejanja",
+            "COMPANIES": "Podjetja",
+            "MESSAGES": "Sporočila",
+            "SETTINGS": "Nastavitve",
+
+            "CLOSED": "Zaprto",
+            "YOUR_MESSAGES": "Vaša sporočila",
+            "JOB_MESSAGES": "Job Sporočila",
+
+            "DUTY": "Dolžnost",
+            "DUTY_DESCRIPTION": "Preklopite svoj status dolžnosti",
+            "GO_ON_DUTY": "Pojdi na dolžnost",
+            "GO_OFF_DUTY": "Pojdi iz dolžnosti",
+            "JOB_CALLS": "Job Klici",
+            "JOB_CALLS_DESCRIPTION": "{toggle} sprejemanje klicev strank.",
+
+            "ENABLE": "Omogoči",
+            "DISABLE": "Onemogoči",
+
+            "DISABLE_CALLS": "Onemogoči klice",
+            "ENABLE_CALLS": "Omogoči klice",
+            "BALANCE": "Stanje",
+            "MANAGE_EMPLOYEES": "Upravljanje zaposlenih",
+            "HIRE": "Zaposli",
+            "SET_GRADE": "Nastavi stopnjo",
+            "UNEMPLOYED": "Ste nezaposleni",
+
+            "ALL": "Vsi",
+            "AVAILABLE": "Na voljo",
+            "SEARCH_EMPLOYEES": "Iskanje zaposlenih",
+
+            "PERSONAL": "Osebno",
+            "JOB": "Job",
+
+            "DEPOSIT_POPUP": {
+                "TITLE": "Vložek",
+                "DESCRIPTION": "Vložite denar na račun podjetja",
+                "AMOUNT": "Znesek",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "WITHDRAW_POPUP": {
+                "TITLE": "Izplačilo",
+                "DESCRIPTION": "Izplačajte denar z računa podjetja",
+                "NOT_ENOUGH_MONEY": "Na računu podjetja ni dovolj denarja",
+                "AMOUNT": "Znesek",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "HIRE_POPUP": {
+                "TITLE": "Zaposli",
+                "DESCRIPTION": "Zaposli novega uslužbenca",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "FIRE_POPUP": {
+                "TITLE": "Odpusti",
+                "DESCRIPTION": "Ste prepričani, da želite odpustiti {name}?",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "CALL_POPUP": {
+                "TITLE": "Kliči",
+                "DESCRIPTION": "Ste prepričani, da želite poklicati {name}?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            }
+        },
+        "CRYPTO": {
+            "TITLE": "Kripto",
+            "BALANCE": "Ocenjeno stanje",
+            "BUY": "Nakup",
+            "SELL": "Prodaja",
+            "TRANSFER": "Prenos",
+            "SELL_ALL": "Prodaj vse",
+            "NO_MONEY": "Nimate dovolj denarja",
+            "NO_COINS": "Nimate nobene te kriptovalute",
+            "NOT_ENOUGH_COINS": "Nimate dovolj kriptovalut",
+            "ATLEAST_ONE_COIN": "Morate {action} vsaj eno {currency}",
+            "INVALID_COIN": "Neveljavna kriptovaluta",
+            "NO_NUMBER": "Ni navedene telefonske številke",
+            "INVALID_NUMBER": "Neveljavna telefonska številka (uporabnik morda ni povezan)",
+            "ERROR": "Napaka",
+            "CLOSE": "Zapri",
+            "BUY_POPUP": {
+                "TITLE": "Nakup {coin}",
+                "DESCRIPTION": "Vnesite znesek {coin} (v $) , ki ga želite kupiti",
+                "PLACEHOLDER": "$1000",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "SELL_POPUP": {
+                "TITLE": "Prodaja {coin}",
+                "DESCRIPTION": "Vnesite znesek {coin} (v $) , ki ga želite prodati",
+                "PLACEHOLDER": "$1000"
+            },
+            "SELL_ALL_POPUP": {
+                "TITLE": "Prodaj vse {coin}",
+                "DESCRIPTION": "Ste prepričani, da želite prodati vse svoje {coin} za ${amount}?"
+            },
+            "TRANSFER_POPUP": {
+                "TITLE": "Prenos {coin}",
+                "DESCRIPTION": "Vnesite znesek {coin} (v $) , ki ga želite prenesti (v naslednjem koraku izberite stik)",
+                "PLACEHOLDER": "$1000",
+                "NEXT": "Naprej"
+            },
+            "SUCCESSFULLY_TRANSFERED_POPUP": {
+                "TITLE": "Uspešno preneseno",
+                "DESCRIPTION": "Uspešno ste prenesli ${amount} {coin} osebi {number}",
+                "CLOSE": "Zapri"
+            }
+        },
+        "TIKTOK": {
+            "TITLE": "Trendi",
+
+            "HOME": "Domov",
+            "DISCOVER": "Odkrij",
+            "INBOX": "Prejeto",
+            "PROFILE": "Profil",
+
+            "COMMENTS_TITLE": "{count} komentarjev",
+            "REPLY": "Odgovori",
+            "VIEW_REPLIES": "Prikaži odgovore",
+            "ADD_COMMENT": "Dodaj komentar...",
+            "REPLY_TO": "Odgovori na {name}",
+            "PIN_COMMENT": "Pripni komentar",
+            "UNPIN_COMMENT": "Odpni komentar",
+            "DELETE_COMMENT": "Izbriši komentar",
+            "DELETE": "Izbriši",
+            "PINNED": "Pripeto",
+            "PIN_VIDEO": "Pripni video",
+            "UNPIN_VIDEO": "Odpni video",
+            "PIN": "pripni",
+            "UNPIN": "odpni",
+            "MAX_PINNED_TITLE": "Največ pripetih",
+            "MAX_PINNED_DESCRIPTION": "Pripnete lahko največ 3 videoposnetke",
+            "OK": "V redu",
+            "CREATOR": "Ustvarjalec",
+            "LIKED_BY_CREATOR": "Všečkal/a ustvarjalec",
+
+            "PIN_VIDEO_POPUP": {
+                "TITLE": "Pripni video",
+                "DESCRIPTION": "Ste prepričani, da želite {action} ta video?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "DELETE_VIDEO_POPUP": {
+                "TITLE": "Izbriši video",
+                "DESCRIPTION": "Ste prepričani, da želite izbrisati ta video?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "FAILED_UPLOAD_POPUP": {
+                "TITLE": "Nalaganje TTS ni uspelo",
+                "DESCRIPTION": "Lastnik strežnika ni pravilno nastavil nalaganja zvoka. Prosimo, kontaktirajte ga, da odpravi to težavo.",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Ignoriraj"
+            },
+
+            "SHARE_TITLE": "Deli z",
+            "SHARE": "Deli",
+            "REPORT": "Prijavi",
+            "SAVE_VIDEO": "Shrani video",
+            "ADD_FAVOURITE": "Dodaj med priljubljene",
+            "CANCEL": "Prekliči",
+            "GO_BACK": "Nazaj",
+
+            "FOLLOWING": "Sledim",
+            "FOLLOWERS": "Sledilci",
+            "UNFOLLOW": "Prenehaj slediti",
+            "FOLLOW": "Sledi",
+            "FOR_YOU": "Za vas",
+            "VIDEOS": "Videoposnetki",
+            "LIKES": "Všečki",
+
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Prenehaj slediti",
+                "DESCRIPTION": "Ste prepričani, da želite prenehati slediti {name}?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+
+            "LOGIN_TITLE": "Prijava v Trendy",
+            "LOGIN_SUBTITLE": "Upravljajte svoj račun, preverite obvestila, komentirajte videoposnetke in še več.",
+            "SIGNUP_TITLE": "Registracija za Trendy",
+            "SIGNUP_SUBTITLE": "Ustvarite profil, sledite drugim računom, ustvarite lastne videoposnetke in še več.",
+            "NAME": "Ime",
+            "USERNAME": "Uporabniško ime",
+            "PASSWORD": "Geslo",
+            "BIO": "Bio",
+            "SHOW_LIKES": "Pokaži všečke",
+
+            "LOGIN": "Prijava",
+            "SIGNUP": "Registracija",
+            "NO_ACCOUNT": "Nimate računa?",
+            "ALREADY_ACCOUNT": "Imate že račun?",
+            "SEARCH_PLACEHOLDER": "Iskanje uporabnikov",
+
+            "STARTED_FOLLOWING": "vas je začel/a slediti.",
+            "LIKED_VIDEO": "je všečkal/a vaš video.",
+            "LIKED_COMMENT": "je všečkal/a vaš komentar.",
+            "SAVED_VIDEO": "je dodal/a vaš video med priljubljene.",
+            "COMMENTED": "je komentiral/a: {comment}",
+            "REPLIED": "je odgovoril/a na vaš komentar: {comment}",
+
+            "EDIT_PROFILE": "Uredi profil",
+            "MESSAGE": "Sporočilo",
+            "CHANGE_PHOTO": "Spremeni fotografijo",
+            "LOGOUT": "Odjava",
+            "CHANGE_PASSWORD": "Spremeni geslo",
+            "DELETE_ACCOUNT": "Izbriši račun",
+            "ADD_TO_YOUR_PROFILE": "Dodaj na svoj profil",
+            "LIKED_HIDDEN_TITLE": "Všečkani videoposnetki tega uporabnika so zasebni.",
+            "LIKED_HIDDEN_SUBTITLE": "Videoposnetki, ki jih je všečkal/a {name}, so trenutno skriti.",
+
+            "INVALID_ACCOUNT_POPUP": {
+                "TITLE": "Neveljaven {name}",
+                "DESCRIPTION": "Niste prijavljeni v račun {name}, ki ste ga vnesli, prosimo, popravite ga.",
+                "OK": "V redu"
+            },
+            "REMOVE_ACCOUNT_POPUP": {
+                "TITLE": "Odstrani račun {name}",
+                "DESCRIPTION": "Ste prepričani, da želite odstraniti svoj račun {name} iz svojega profila?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+
+            "ADD_ACCOUNT_TITLE": "Dodaj račun",
+            "ADD_ACCOUNT": "Dodaj {name} na svoj profil",
+            "UPLOAD_VIDEO": "Naloži video",
+            "UPLOAD": "Naloži",
+            "PREVIEW": "Predogled",
+            "CAPTION": "Naslov",
+            "CAPTION_PLACEHOLDER": "Dodaj naslov...",
+            "TTS": "Pretvorba besedila v govor (TTS)",
+            "TTS_PLACEHOLDER": "Dodaj besedilo za pretvorbo v govor...",
+            "MUSIC": "Glasba",
+            "SELECT_MUSIC": "Izberi glasbo",
+            "OPTIONAL": "Izbirno",
+
+            "DIRECT_MESSAGES": "Neposredna sporočila",
+            "ALL_ACTIVITY": "Vsa dejavnost",
+            "NO_NOTIFICATIONS": "Obvestila niso na voljo",
+            "NO_NOTIFICATIONS_SUBTITLE": "Obvestila o vašem računu se bodo prikazala tukaj.",
+            "NO_FOLLOWING_TITLE": "Začnite slediti ljudem in njihovi videoposnetki se bodo prikazali tukaj.",
+            "NO_MESSAGES_TITLE": "Sporočite svojim prijateljem",
+            "NO_MESSAGES_SUBTITLE": "Delite videoposnetke ali začnite pogovor"
+        },
+        "VOICEMEMO": {
+            "TITLE": "Glasovni posnetek",
+            "VOICE_RECORDINGS": "Glasovni posnetki",
+            "SEARCH_RECORDINGS": "Iskanje posnetkov",
+            "DEFAULT_NAME": "Nov posnetek",
+            "DELETE_POPUP": {
+                "TITLE": "Izbriši glasovni posnetek",
+                "DESCRIPTION": "Ste prepričani, da želite izbrisati ta glasovni posnetek?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "NO_MICROPHONE_POPUP": {
+                "TITLE": "Ni mikrofona",
+                "DESCRIPTION": "Nimamo dostopa do vašega mikrofona, poskrbite, da je priključen in sprejmite pojavno okno v zgornjem desnem kotu zaslona",
+                "OK": "V redu"
+            },
+            "EMPTY_RECORDING_POPUP": {
+                "TITLE": "Prazen posnetek",
+                "DESCRIPTION": "Posnetka brez zvoka ne morete shraniti",
+                "OK": "V redu"
+            }
+        }
+    },
+    "COMPONENTS": {
+        "CONTEXT_MENU": {
+            "CANCEL": "Prekliči",
+            "CALL": "Kliči",
+            "VIDEO_CALL": "Video klic",
+            "MESSAGE": "Sporočilo"
+        },
+        "IMAGE": {
+            "SAVE_TO_GALLERY": "Shrani v galerijo"
+        },
+        "GALLERY": {
+            "CANCEL": "Prekliči",
+            "EXTERNAL_URL": "Zunanji URL",
+            "EXTERNAL_URL_BLACKLISTED": "Ta URL je na črnem seznamu",
+            "NO_IMAGES": "Ni slik"
+        },
+        "NOTIFICATIONS": {
+            "SENT_PHOTO": "Poslal fotografijo",
+            "SENT_GIF": "Poslal GIF",
+            "NOW": "zdaj"
+        },
+        "SHARE": {
+            "COPY_PHOTO": "Kopiraj fotografijo",
+            "COPY_VIDEO": "Kopiraj video",
+            "USE_WALLPAPER": "Uporabi kot ozadje",
+            "COPY_NUMBER": "Kopiraj številko",
+            "COPY_LINK": "Kopiraj povezavo",
+            "AIRDROP_SENT": "Poslano",
+            "AIRDROP_ACCEPTED": "Sprejeto",
+            "AIRDROP_DECLINED": "Zavrnjeno",
+            "AIRDROP_NO_USERS": "Ni telefonov v bližini",
+            "WALLPAPER_POPUP": {
+                "TITLE": "Uporabi kot ozadje",
+                "TEXT": "Ste prepričani, da želite nastaviti to sliko kot ozadje?",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            },
+            "COPY_POPUP": {
+                "TITLE": "Uspeh",
+                "DESCRIPTION": "Uspešno kopirano v odložišče",
+                "OK": "V redu"
+            }
+        },
+        "AIRDROP": {
+            "TITLE": "AirShare",
+            "TEXT": "{sender} želi deliti {type}",
+            "VIDEO": "video",
+            "PHOTO": "fotografija",
+            "CONTACT": "stik",
+            "LOCATION": "lokacija",
+            "NOTE": "beležka",
+            "VOICEMEMO": "glasovni posnetek",
+            "PLAYLIST": "seznam predvajanja",
+            "ALBUM": "album",
+            "DECLINE": "Zavrni",
+            "ACCEPT": "Sprejmi"
+        },
+        "DYNAMICISLAND": {
+            "SILENT": "Tiho",
+            "RING": "Zvok",
+            "TIMER": "Časovnik"
+        },
+        "MUSIC_SELECTOR": {
+            "CANCEL": "Prekliči",
+            "NO-RESULTS": "Glasba ni konfigurirana, sporočite lastniku strežnika, naj doda pesmi",
+            "SEARCH": "Iskanje pesmi",
+            "SELECT_POPUP": {
+                "TITLE": "Izberi pesem",
+                "DESCRIPTION": "Ste prepričani, da želite izbrati {song}",
+                "CANCEL": "Prekliči",
+                "PROCEED": "Nadaljuj"
+            }
+        },
+        "BATTERY": {
+            "LOW_BATTERY": "Nizka baterija",
+            "BATTERY_REMAINING": "{percent}% baterije preostalo",
+            "LOW_POWER_MODE": "Varčevanje z energijo",
+            "CLOSE": "Zapri"
+        },
+        "COLOR_PICKER": {
+            "COLOR": "Barva"
+        },
+        "GIF_SELECTOR": {
+            "SEARCH": "Išči Tenor",
+            "BACK": "Nazaj"
+        }
+    },
+    "SETUP": {
+        "HELLO": "Pozdravljeni",
+        "SELECT_LANGUAGE": "Izberite svoj jezik",
+        "NEXT": "Kliknite za odprtje",
+        "CREATE_PASSCODE": "Nastavite pin",
+        "CREATE_PASSCODE_TEXT": "Pin koda se uporablja za zaščito vaše naprave in je potrebna za odklepanje.",
+        "SKIP": "Preskoči",
+        "FACE_ID_SETUP": "Odklepanje obraza",
+        "FACE_ID_TEXT": "Nastavite odklepanje obraza, da enostavno odprete telefon, ne da bi vnašali pin kodo.",
+        "FACE_ID_TEXT_ALT": "Odklepanje obraza deluje samo, če vaš obraz ni zakrit.",
+        "ENABLE_FACE_ID": "Omogoči odklepanje obraza",
+        "APPEARANCE": "Tema",
+        "APPEARANCE_TEXT": "Izberite temno ali svetlo temo za svojo napravo",
+        "CONTINUE": "Nadaljuj",
+        "WELCOME_TO": "Dobrodošli v",
+        "CLICK": "Kliknite za začetek"
+    },
+    "HOMESCREEN": {
+        "DONE": "Končano",
+        "CLOSE_ALL": "Zapri vse",
+        "REMOVE_APP_POPUP": {
+            "TITLE": "Odstrani aplikacijo '{app}'?",
+            "DESCRIPTION": "Brisanje te aplikacije NE bo izbrisalo njenih podatkov. Aplikacijo je mogoče pozneje ponovno namestiti iz App Store.",
+            "CANCEL": "Prekliči",
+            "PROCEED": "Izbriši"
+        }
+    },
+    "LOCKSCREEN": {
+        "ENTER_PASSCODE": "Vnesite kodo",
+        "DELETE": "Izbriši",
+        "FONT_AND_COLOR": "Pisava in barva"
+    },
+    "MISC": {
+        "AIRPLANE_MODE_POPUP": {
+            "TITLE": "Napaka",
+            "DESCRIPTION": "Poskušate izvesti dejanje, ki zahteva internetni dostop, onemogočite način letenja ali pridobite storitev za nadaljevanje.",
+            "OK": "V redu"
+        },
+        "TODAY_TIME": "Danes, {hours}:{minutes}",
+        "YESTERDAY_TIME": "Včeraj, {hours}:{minutes}",
+        "CHANGE_PASSWORD": {
+            "TITLE": "Spremeni geslo",
+            "DESCRIPTION": "Izpolnite svoje {type} {app} geslo",
+            "ERROR": "Spreminjanje gesla ni uspelo",
+            "CURRENT": "trenutno",
+            "NEW": "novo",
+            "PLACEHOLDER_CURRENT": "Trenutno geslo",
+            "PLACEHOLDER_NEW": "Novo geslo",
+            "CANCEL": "Prekliči",
+            "NEXT": "Naprej",
+            "PROCEED": "Nadaljuj",
+            "SUCCESS": "Geslo uspešno spremenjeno",
+            "OK": "V redu"
+        },
+        "DELETE_ACCOUNT": {
+            "TITLE": "Izbriši račun",
+            "DESCRIPTION": "Za izbris vašega računa {app} vnesite svoje geslo spodaj. OPOMBA: To dejanje je nepopravljivo.",
+            "ERROR": "Brisanje računa ni uspelo",
+            "PLACEHOLDER": "Geslo",
+            "CANCEL": "Prekliči",
+            "PROCEED": "Nadaljuj",
+            "OK": "V redu"
+        }
+    },
+    "BACKEND": {
+        "CALLS": {
+            "NO_CALLER_ID": "Ni ID-ja kličočega",
+            "MISSED_CALL": "Zgrešen klic",
+            "NEW_VOICEMAIL": "Glasovna pošta"
+        },
+        "GARAGE": {
+            "VALET": "Parkiranje",
+            "COULDNT_FIND": "Vozila ni bilo mogoče najti.",
+            "ALREADY_OUT": "Vozilo je že zunaj.",
+            "NO_MONEY": "Nimate dovolj denarja.",
+            "ON_WAY": "Vaše vozilo je na poti.",
+            "MARKED": "Vaše vozilo je označeno na vašem GPS-u."
+        },
+        "INSTAGRAM": {
+            "NOT_ALLOWED_LIVE": "Ne smete iti v živo",
+            "NOT_ALLOWED_STORY": "Ne smete objavljati zgodb",
+            "STARTED_LIVE": "{username} je začel prenos v živo",
+            "JOINED_LIVE": "{invitee} je zdaj v živo z {inviter}.",
+            "LIKED_PHOTO": "{username} je všečkal/a vašo fotografijo",
+            "LIKED_COMMENT": "{username} je všečkal/a vaš komentar",
+            "COMMENTED": "{username} je komentiral/a na vašo objavo",
+            "NEW_FOLLOWER": "{username} vas je začel/a slediti",
+            "FOLLOW_REQUEST_ACCEPTED_TITLE": "Zahteva za sledenje sprejeta",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "{displayName} ({username}) je sprejel/a vašo zahtevo za sledenje.",
+            "NEW_FOLLOW_REQUEST_TITLE": "Nova zahteva za sledenje",
+            "NEW_FOLLOW_REQUEST_DESCRIPTION": "{displayName} ({username}) je zahteval/a, da vam sledi."
+        },
+        "TINDER": {
+            "NEW_MATCH": "Nov par",
+            "MATCHED_WITH": "Ujemate se z {name}"
+        },
+        "CAMERA": {
+            "TAKE_PHOTO": "Pritisnite {key} za fotografiranje",
+            "FLIP_CAMERA": "Pritisnite {key} za obračanje kamere",
+            "TOGGLE_FLASH": "Pritisnite {key} za vklop/izklop bliskavice",
+            "TOGGLE_CURSOR": "Pritisnite {key} za vklop/izklop kazalca",
+            "CHANGE_MODE": "Pritisnite {key} {key2} za spremembo načina",
+            "ROLL": "Pritisnite {key} {key2} za obračanje kamere",
+            "FREEZE": "Pritisnite {key} za zamrznitev/odmrzovanje kamere"
+        },
+        "SERVICES": {
+            "NEW_MESSAGE": "Novo sporočilo",
+            "ANONYMOUS": "Anonimno"
+        },
+        "TWITTER": {
+            "LIKE": "Všečkal/a {displayName}:",
+            "RETWEET": "Ponovno objavil/a {displayName}:",
+            "REPLY": "{displayName} je odgovoril/a:",
+            "FOLLOW": "{username} vas je začel/a slediti",
+            "TWEET": "{username} je pravkar objavil/a",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "@{username} je sprejel/a vašo zahtevo za sledenje.",
+            "NEW_FOLLOW_REQUEST": "@{username} je zahteval/a, da vam sledi!"
+        },
+        "TIKTOK": {
+            "LIKE": "{displayName} je všečkal/a vaš video.",
+            "COMMENT": "{displayName} je komentiral/a na vaš video.",
+            "FOLLOW": "{displayName} vas je začel/a slediti.",
+            "SAVE": "{displayName} je dodal/a vaš video med priljubljene.",
+            "LIKED_COMMENT": "{displayName} je všečkal/a vaš komentar.",
+            "REPLIED_COMMENT": "{displayName} je odgovoril/a na vaš komentar.",
+            "DM": "{displayName}"
+        },
+        "MISC": {
+            "VERIFIED": "Vaš račun je bil preverjen",
+            "X_PHONE": "Telefon {name}",
+
+            "LOGGED_OUT_PASSWORD": {
+                "TITLE": "Bili ste odjavljeni",
+                "DESCRIPTION": "Bili ste odjavljeni iz svojega računa, ker je bilo vaše geslo spremenjeno."
+            },
+
+            "DELETED_NOTIFICATION": {
+                "TITLE": "Račun izbrisan",
+                "DESCRIPTION": "Vaš račun je bil izbrisan."
+            }
+        },
+        "CRYPTO": {
+            "RECEIVED_TRANSFER_TITLE": "Prejeto {coin}",
+            "RECEIVED_TRANSFER_DESCRIPTION": "Prejeli ste {amount} {coin} v vrednosti ${value}"
+        },
+        "MAIL": {
+            "AUTOMATIC_PASSWORD": {
+                "SENDER": "Sistem",
+                "SUBJECT": "Vaš e-poštni naslov",
+                "MESSAGE": "Živjo,\n\nVaš samodejno ustvarjen e-poštni naslov je {address} in vaše geslo je {password}"
+            }
+        },
+        "LOGS": {
+            "MAIL_TITLE": "E-pošta",
+            "NEW_MAIL": "{sender} je poslal/a e-pošto {recipient}",
+
+            "MESSAGE_TITLE": "Besedilno sporočilo",
+            "NEW_MESSAGE": "{sender} je poslal/a sporočilo {recipient}: {message}",
+
+            "CALL_ENDED": "Klic končan",
+            "CALL_DESCRIPTION": "Klic med `{caller}` in `{callee}`, ki je trajal {duration}s, se je končal. Odgovorjeno: `{answered}`",
+
+            "NEW_SERVICE_TITLE": "Novo sporočilo",
+            "NEW_SERVICE_CONTENT": "{sender} je poslal/a sporočilo {channel}: {message}",
+
+            "RECEIVED_TITLE": "Prejeto ${amount}",
+            "PAID_TITLE": "Plačano ${amount}",
+            "TRANSACTION": "{number} je izvedel/a transakcijo ${amount} podjetju {company}",
+
+            "BOUGHT_CRYPTO": "Kupil/a kriptovaluto",
+            "SOLD_CRYPTO": "Prodal/a kriptovaluto",
+            "CRYPTO_DETAILS": "**Kriptovaluta**: {coin}\n**Znesek**: {amount}\n**Vrednost**: ${price}",
+            "TRANSFERRED_CRYPTO": "Prenesena kriptovaluta",
+            "TRANSFERRED_CRYPTO_DETAILS": "**Kriptovaluta**: {coin}\n**Znesek**: {amount}\n**Za**: {to}\n**Od**: {from}",
+
+            "DARKCHAT_CREATED_TITLE": "Ustvarjen kanal",
+            "DARKCHAT_CREATED_DESCRIPTION": "{creator} je ustvaril/a kanal z imenom {channel}",
+            "DARKCHAT_MESSAGE_TITLE": "Novo sporočilo",
+            "DARKCHAT_MESSAGE_DESCRIPTION": "{sender} je poslal/a sporočilo v {channel}: {message}",
+
+            "MARKETPLACE_NEW_TITLE": "Nov oglas",
+            "MARKETPLACE_NEW_DESCRIPTION": "**Prodajalec**: {seller}\n**Naslov**: {title}\n**Cena**: ${price}\n**Opis**: {description}\n**Priloge**: {attachments}\n**ID:** {id}",
+            "MARKETPLACE_DELETED": "Objava izbrisana",
+
+            "YELLOWPAGES_NEW_TITLE": "Nova objava",
+            "YELLOWPAGES_NEW_DESCRIPTION": "**Naslov**: {title}\n**Opis**: {description}\n**Priloga**: {attachment}\n**ID:** {id}",
+            "YELLOWPAGES_DELETED": "Objava izbrisana",
+
+            "LIVE_TITLE": "V živo",
+            "STARTED_LIVE": "{username} je začel/a prenos v živo",
+            "ENDED_LIVE": "{username} je končal/a prenos v živo",
+            "ADDED_STORY": "{username} je dodal/a fotografijo v svojo zgodbo",
+
+            "TRENDY_UPLOAD_TITLE": "Nov video",
+            "TRENDY_UPLOAD_DESCRIPTION": "{username} je naložil/a nov video z naslovom {caption} in ID-jem {id}",
+            "TRENDY_DELETE_TITLE": "Izbrisal/a video",
+            "TRENDY_DELETE_DESCRIPTION": "{username} je izbrisal/a video z ID-jem {id}",
+
+            "UPLOADED_MEDIA": "Naloženi mediji",
+            "UPLOADED_MEDIA_DESCRIPTION": "Posnel/a je {type} z ID-jem {id}\n{link}",
+            "VIDEO": "video",
+            "PHOTO": "fotografija",
+
+            "CHANGED_PASSWORD": {
+                "TITLE": "Spremenjeno geslo",
+                "DESCRIPTION": "{number} je spremenil/a geslo za račun {username} na {app}."
+            },
+
+            "DELETED_ACCOUNT": {
+                "TITLE": "Račun izbrisan",
+                "DESCRIPTION": "{number} je izbrisal/a račun {username} na {app}."
+            }
+        }
+    }
+}
