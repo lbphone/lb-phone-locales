@@ -1165,7 +1165,16 @@
                 "DESCRIPTION": "Alege o locatie pentru aceasta postare",
                 "CANCEL": "Anuleaza",
                 "PROCEED": "Continua"
-            }
+            },
+            "REPLIED_TO_YOUR_STORY": "A raspuns la povestea ta",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "A raspuns la povestea ta: {content}",
+
+            "SHARE_TO_STORY": {
+                "TITLE": "Distribuie in Poveste",
+                "SUCCESS": "Postare Distribuita",
+                "DESCRIPTION": "Postarea ta a fost distribuita in poveste"
+            },
+            "VIEW_POST": "Vezi Postarea"
         },
         "TWITTER": {
             "TITLE": "Birdy",
