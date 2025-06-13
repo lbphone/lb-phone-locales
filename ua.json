@@ -7,6 +7,9 @@
     "H": "h",
     "M": "m",
     "S": "s",
+    "SECONDS": "seconds",
+    "MINUTES": "minutes",
+    "HOURS": "hours",
 
     "APP_NAMES": {
         "Phone": "Телефон",
@@ -342,6 +345,8 @@
             "TITLE": "Галерея",
             "SELECT": "Обрати",
             "CANCEL": "Скасувати",
+            "PROCEED": "Продовжити",
+            "OK": "OK",
             "EDIT": "Редагувати",
             "DONE": "Готово",
             "DELETE": "Видалити",
@@ -353,7 +358,9 @@
             "LIBRARY": "Бiблiотека",
             "GALLERY": "Галерея",
             "MY_ALBUMS": "Мої альбоми",
+            "SHARED_ALBUMS": "Спільні альбоми",
             "MEDIA_TYPES": "Тип медiа",
+            "MANAGE_MEMBERS": "Керування учасниками",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "Новий альбом",
                 "DESCRIPTION": "Введiть назву альбома",
@@ -363,9 +370,11 @@
             },
             "REMOVE_ALBUM": {
                 "TITLE": "Видалити \"{name}\"",
-                "DESCRIPTION": "Ви впевненi, що хочете видалити альбом \"{name}\"? Фотографiї не будуть видаленi",
-                "CANCEL": "Скасувати",
-                "PROCEED": "Видалити"
+                "DESCRIPTION": "Ви впевненi, що хочете видалити альбом \"{name}\"? Фотографiї не будуть видаленi"
+            },
+            "LEAVE_SHARED_ALBUM": {
+                "TITLE": "Вийти з \"{name}\"",
+                "DESCRIPTION": "Ви впевнені, що хочете вийти з альбому \"{name}\"? Після цього ви більше не зможете завантажувати фото до нього"
             },
             "RENAME_ALBUM_POPUP": {
                 "TITLE": "Перейменувати альбом",
@@ -386,6 +395,20 @@
                 "CANCEL": "Скасувати",
                 "PROCEED": "iмпортувати",
                 "PLACEHOLDER": "URL зображення"
+            },
+            "ERROR": "Помилка",
+            "SUCCESS": "Успішно",
+            "CONTACT_ALREADY_IN_ALBUM": "Контакт уже додано до альбому",
+            "CONTACT_ADDED_TO_ALBUM": "Контакт додано до альбому",
+            "MEMBERS": "{count} учасників",
+            "INVITE": "Запросити",
+            "LEAVE_ALBUM": "Вийти з альбому",
+            "CREATE_SHARED_ALBUM": "Створити спільний альбом",
+            "MANAGE_SHARED_ALBUM": "Керувати спільним альбомом",
+            "REMOVE_MEMBER": {
+                "TITLE": "Видалити учасника",
+                "DESCRIPTION": "Ви впевнені, що хочете видалити цього учасника з альбому?",
+                "SUCCESS": "Учасника видалено з альбому"
             },
 
             "NO_PHOTOS": "Немає фото чи вiдео",
@@ -625,9 +648,13 @@
                 "ADD_NUMBER": "Додати номер"
             },
             "RECENTS": {
-                "TITLE": "Нещодавнi",
-                "ALL": "Всі",
-                "MISSED": "Пропущені"
+                "TITLE": "Нещодавні",
+                "ALL": "Усі",
+                "MISSED": "Пропущені",
+                "OUTGOING_CALL": "Вихідний дзвінок",
+                "INCOMING_CALL": "Вхідний дзвінок",
+                "CANCELLED_CALL": "Скасований дзвінок",
+                "MISSED_CALL": "Пропущений дзвінок"
             },
             "VOICEMAIL": {
                 "TITLE": "Голосове повiдомлення",
@@ -910,7 +937,11 @@
         },
         "MUSIC": {
             "TITLE": "Музика",
-            "LIBRARY": "Бiблiотека",
+            "HOME": "Головна",
+            "RECENTLY_ADDED": "Нещодавно додані",
+            "CATEGORIES": "Категорії",
+            "PLAYLISTS": "Плейлисти",
+            "LIBRARY": "Бібліотека",
             "SEARCH": "Пошук",
             "ADD_QUEUE": "Додати в чергу",
             "ADD_PLAYLIST": "Додати до плейлiста",
@@ -921,6 +952,7 @@
             "SEARCH_PLACEHOLDER": "Виконавцi, пiснi, альбоми, плейлiсти",
             "SONGS": "Пiснi",
             "ALBUMS": "Альбоми",
+            "ARTISTS": "Виконавці",
             "PLAY": "Грати",
             "SHUFFLE": "Перетасувати",
             "ARTIST": "Виконавець",
@@ -930,7 +962,7 @@
             "SONG_EXISTS_POPUP": {
                 "TITLE": "Пiсня вже iснує",
                 "DESCRIPTION": "Ця пiсня вже iснує в цьому плейлiстi",
-                "CANCEL": "Cancel"
+                "CANCEL": "Скасувати"
             },
             "NEW_PLAYLIST_POPUP": {
                 "TITLE": "Новий плейлiст",
@@ -1124,7 +1156,16 @@
                 "DESCRIPTION": "Оберіть місце для цієї публікації",
                 "CANCEL": "Скасувати",
                 "PROCEED": "Продовжити"
-            }
+            },
+            "REPLIED_TO_YOUR_STORY": "Відповів(ла) на вашу історію",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "Відповів(ла) на вашу історію: {content}",
+
+            "SHARE_TO_STORY": {
+                "TITLE": "Поділитися в історії",
+                "SUCCESS": "Допис опубліковано",
+                "DESCRIPTION": "Ваш допис додано до історії"
+            },
+            "VIEW_POST": "Переглянути допис"
         },
         "TWITTER": {
             "TITLE": "Цьвiрк",
@@ -1202,6 +1243,7 @@
             "NOTIFICATIONS": "Сповiщення",
             "FOLLOWS_YOU": "Слiдкує за вами",
             "JOINED": "Приєднався {date}",
+            "PINNED_POST": "Pinned Post",
             "LIKED_TWEET": "сподобався ваш пост",
             "RETWEETED_TWEET": "перепублiкував ваш пост",
             "FOLLOWED": "стежить за вами",
@@ -1565,6 +1607,7 @@
             "NOTE": "нотатки",
             "VOICEMEMO": "голосовий",
             "PLAYLIST": "плейлiст",
+            "ALBUM": "альбом",
             "DECLINE": "Скасувати",
             "ACCEPT": "Пiдтвердити"
         },
