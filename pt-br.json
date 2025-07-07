@@ -909,6 +909,11 @@
                 "DESCRIPTION": "Tem certeza de que deseja excluir este email?",
                 "CANCEL": "Cancelar",
                 "DELETE": "Excluir"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Falha no envio",
+                "DESCRIPTION": "Falha ao enviar e-mail (o destinatário existe?)",
+                "OK": "OK"
             }
         },
         "MAPS": {
