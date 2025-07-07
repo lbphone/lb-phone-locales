@@ -374,7 +374,7 @@
                 "CANCEL": "Cancelar",
                 "PROCEED": "Eliminar"
             },
-                "LEAVE_SHARED_ALBUM": {
+            "LEAVE_SHARED_ALBUM": {
                 "TITLE": "Dejar \"{name}\"",
                 "DESCRIPTION": "¿Estás seguro de que deseas abandonar el álbum \"{name}\"? Ya no podrás subir fotos allí"
             },
