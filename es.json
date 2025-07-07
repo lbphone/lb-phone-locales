@@ -7,6 +7,9 @@
     "H": "h",
     "M": "m",
     "S": "s",
+    "SECONDS": "segundos",
+    "MINUTES": "minutos",
+    "HOURS": "horas",
 
     "APP_NAMES": {
         "Phone": "Teléfono",
@@ -342,6 +345,8 @@
             "TITLE": "Fotos",
             "SELECT": "Seleccionar",
             "CANCEL": "Cancelar",
+            "PROCEED": "Proceder",
+            "OK": "OK",
             "EDIT": "Editar",
             "DONE": "Listo",
             "DELETE": "Eliminar",
@@ -353,7 +358,9 @@
             "LIBRARY": "Libreria",
             "GALLERY": "Galería",
             "MY_ALBUMS": "Mis Álbumes",
+            "SHARED_ALBUMS": "Álbumes compartidos",
             "MEDIA_TYPES": "Tipos de medios",
+            "MANAGE_MEMBERS": "Administrar miembros",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "Nuevo Álbum",
                 "DESCRIPTION": "Ingresa un nombre para el álbum",
@@ -366,6 +373,10 @@
                 "DESCRIPTION": "¿Estás seguro que deseas eliminar el album \"{name}\"? Las fotos no serán eliminadas",
                 "CANCEL": "Cancelar",
                 "PROCEED": "Eliminar"
+            },
+                "LEAVE_SHARED_ALBUM": {
+                "TITLE": "Dejar \"{name}\"",
+                "DESCRIPTION": "¿Estás seguro de que deseas abandonar el álbum \"{name}\"? Ya no podrás subir fotos allí"
             },
             "RENAME_ALBUM_POPUP": {
                 "TITLE": "Renombrar álbum",
@@ -386,6 +397,20 @@
                 "CANCEL": "Cancelar",
                 "PROCEED": "Importar",
                 "PLACEHOLDER": "URL de foto"
+            },
+            "ERROR": "Error",
+            "SUCCESS": "Exito",
+            "CONTACT_ALREADY_IN_ALBUM": "El contacto ya se encuentra en el álbum",
+            "CONTACT_ADDED_TO_ALBUM": "Contacto añadido al álbum",
+            "MEMBERS": "{count} Miembros",
+            "INVITE": "Invitar",
+            "LEAVE_ALBUM": "Dejar álbum",
+            "CREATE_SHARED_ALBUM": "Crear álbum compartido",
+            "MANAGE_SHARED_ALBUM": "Gestionar álbum compartido",
+            "REMOVE_MEMBER": {
+                "TITLE": "Remover miembro",
+                "DESCRIPTION": "¿Estás seguro de que deseas eliminar a este miembro del álbum?",
+                "SUCCESS": "Miembro removido del álbum"
             },
 
             "NO_PHOTOS": "Sin fotos o videos",
@@ -627,7 +652,11 @@
             "RECENTS": {
                 "TITLE": "Recientes",
                 "ALL": "Todas",
-                "MISSED": "Perdidas"
+                "MISSED": "Perdidas",
+                "OUTGOING_CALL": "Llamada saliente",
+                "INCOMING_CALL": "Llamada entrante",
+                "CANCELLED_CALL": "Llamada cancelada",
+                "MISSED_CALL": "Llamada perdida"
             },
             "VOICEMAIL": {
                 "TITLE": "Mensaje de voz",
@@ -882,6 +911,11 @@
                 "DESCRIPTION": "¿Estás seguro de que desea eliminar este correo electrónico?",
                 "CANCEL": "Cancelar",
                 "DELETE": "Eliminar"
+            },
+            "FAILED_SEND": {
+                "TITLE": "No se pudo enviar",
+                "DESCRIPTION": "Error al enviar el correo (¿existe el destinatario?)",
+                "OK": "OK"
             }
         },
         "MAPS": {
@@ -909,41 +943,45 @@
             }
         },
         "MUSIC": {
-            "TITLE": "Music",
-            "LIBRARY": "Library",
-            "SEARCH": "Search",
-            "ADD_QUEUE": "Add to Queue",
-            "ADD_PLAYLIST": "Add to Playlist",
-            "REMOVE_SONG": "Remove Song",
-            "NOT_PLAYING": "Not Playing",
-            "EDIT_PLAYLIST": "Edit Playlist",
-            "DELETE_PLAYLIST": "Delete Playlist",
-            "SEARCH_PLACEHOLDER": "Artists, Songs, Albums, Playlists",
-            "SONGS": "Songs",
-            "ALBUMS": "Albums",
-            "PLAY": "Play",
-            "SHUFFLE": "Shuffle",
-            "ARTIST": "Artist",
+            "TITLE": "Música",
+            "HOME": "Inicio",
+            "RECENTLY_ADDED": "Añadido recientemente",
+            "CATEGORIES": "Categorías",
+            "PLAYLISTS": "Listas de reproducción",
+            "LIBRARY": "Librería",
+            "SEARCH": "Buscar",
+            "ADD_QUEUE": "Añadir a la cola",
+            "ADD_PLAYLIST": "Agregar a la lista de reproducción",
+            "REMOVE_SONG": "Eliminar canción",
+            "NOT_PLAYING": "Sin reproducción",
+            "EDIT_PLAYLIST": "Editar lista de reproducción",
+            "DELETE_PLAYLIST": "Eliminar lista de reproducción",
+            "SEARCH_PLACEHOLDER": "Artistas, Canciones, Álbumes, Listas de reproducción",
+            "SONGS": "Canciones",
+            "ALBUMS": "Álbumes",
+            "PLAY": "Reproducir",
+            "SHUFFLE": "Aleatoria",
+            "ARTIST": "Artista",
             "ALBUM": "Album",
-            "PLAYLIST": "Playlist",
-            "SONG": "Song",
+            "PLAYLIST": "lista de reproducción",
+            "SONG": "Canción",
             "SONG_EXISTS_POPUP": {
-                "TITLE": "Song already exists",
-                "DESCRIPTION": "This song already exists in this playlist",
-                "CANCEL": "Cancel"
+                "TITLE": "La canción ya existe",
+                "DESCRIPTION": "Esta canción ya existe en esta lista de reproducción",
+                "CANCEL": "Cancelar"
             },
             "NEW_PLAYLIST_POPUP": {
-                "TITLE": "New Playlist",
-                "DESCRIPTION": "Create a new playlist",
-                "PLACEHOLDER": "Playlist Name",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
+                "TITLE": "Nueva lista de reproducción",
+                "DESCRIPTION": "Crear una nueva lista de reproducción",
+                "PLACEHOLDER": "Nombre de la lista de reproducción",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Proceder"
             },
             "REMOVE_SONG_POPUP": {
-                "TITLE": "Remove Song",
-                "DESCRIPTION": "Are you sure you want to remove this song from the playlist?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
+                "TITLE": "Eliminar canción",
+                "DESCRIPTION": "¿Estás seguro de que deseas eliminar esta canción de la lista de reproducción?",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Proceder"
             }
         },
         "TINDER": {
@@ -1124,7 +1162,16 @@
                 "DESCRIPTION": "Fija una ubicación para este post",
                 "CANCEL": "Cancelar",
                 "PROCEED": "Proceder"
-            }
+            },
+            "REPLIED_TO_YOUR_STORY": "Respondió a tu historia",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "Respondió a tu historia: {content}",
+
+            "SHARE_TO_STORY": {
+                "TITLE": "Compartir en la historia",
+                "SUCCESS": "Publicación compartida",
+                "DESCRIPTION": "Tu publicación ha sido compartida en tu historia"
+            },
+            "VIEW_POST": "Ver publicación"
         },
         "TWITTER": {
             "TITLE": "Birdy",
@@ -1201,7 +1248,8 @@
             "ALL": "Todos",
             "NOTIFICATIONS": "Notificaciones",
             "FOLLOWS_YOU": "Te sigue",
-            "JOINED": "Ingresó en {date}",
+            "JOINED": "Ingresó el {date}",
+            "PINNED_POST": "Publicación fijada",
             "LIKED_TWEET": "liked your post",
             "RETWEETED_TWEET": "republicó tu publicación",
             "FOLLOWED": "te siguió",
@@ -1565,6 +1613,7 @@
             "NOTE": "nota",
             "VOICEMEMO": "nota de voz",
             "PLAYLIST": "lista de reproducción",
+            "ALBUM": "álbum",
             "DECLINE": "Rechazar",
             "ACCEPT": "Aceptar"
         },
