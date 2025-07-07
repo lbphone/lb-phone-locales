@@ -909,6 +909,11 @@
                 "DESCRIPTION": "Esti sigur ca vrei sa stergi acest email?",
                 "CANCEL": "Anuleaza",
                 "DELETE": "Sterge"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Nu a reușit să trimită",
+                "DESCRIPTION": "A eșuat trimiterea mesajului (destinatarul există?)",
+                "OK": "OK"
             }
         },
         "MAPS": {
