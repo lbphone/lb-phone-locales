@@ -909,6 +909,11 @@
                 "DESCRIPTION": "您确定要删除此邮箱吗? ",
                 "CANCEL": "取消",
                 "DELETE": "删除"
+            },
+            "FAILED_SEND": {
+                "TITLE": "发送失败",
+                "DESCRIPTION": "发送邮件失败（收件人是否存在？）",
+                "OK": "确定"
             }
         },
         "MAPS": {
