@@ -7,6 +7,9 @@
     "H": "h",
     "M": "m",
     "S": "s",
+    "SECONDS": "segundos",
+    "MINUTES": "minutos",
+    "HOURS": "horas",
 
     "APP_NAMES": {
         "Phone": "Telefone",
@@ -81,6 +84,7 @@
             "RINGTONE": "Toque",
             "TEXT_TONE": "Toque de Texto",
             "RINGTONE_VOLUME": "Volume de toque e alerta",
+            "CALL_VOLUME": "Volume da chamada",
             "DEFAULT": "Padrão",
             "PHONE_STORAGE": "Armazenamento do Telefone",
             "STORAGE": "Armazenamento",
@@ -123,8 +127,8 @@
             "ENABLE_FACE_ID": "Ativar Desbloqueio Facial",
             "PIN_CODE": "Código PIN",
             "PIN_CODE_ERROR": {
-                "TITLE": "Error",
-                "WRONG": "Wrong Pin Code",
+                "TITLE": "Erro",
+                "WRONG": "Código PIN Incorreto",
                 "OK": "OK"
             },
             "DISABLE_FACE_ID_POPUP": {
@@ -285,6 +289,7 @@
             "SIGN_UP": "Cadastrar",
             "NO_ACCOUNT": "Não tem uma conta?",
             "ALREADY_HAVE": "Já tem uma conta?",
+            "USERNAME_NOT_ALLOWED": "Nome de usuário não permitido",
 
             "CHANGE_ACCOUNT": "Mudar Conta",
             "CHANGE_PASSWORD": "Mudar Senha",
@@ -340,6 +345,8 @@
             "TITLE": "Fotos",
             "SELECT": "Selecionar",
             "CANCEL": "Cancelar",
+            "PROCEED": "Prosseguir",
+            "OK": "OK",
             "EDIT": "Editar",
             "DONE": "Concluído",
             "DELETE": "Excluir",
@@ -351,7 +358,9 @@
             "LIBRARY": "Biblioteca",
             "GALLERY": "Galeria",
             "MY_ALBUMS": "Meus Álbuns",
+            "SHARED_ALBUMS": "Álbuns Compartilhados",
             "MEDIA_TYPES": "Tipos de Mídia",
+            "MANAGE_MEMBERS": "Gerenciar Membros",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "Novo Álbum",
                 "DESCRIPTION": "Digite um nome para este álbum",
@@ -361,9 +370,11 @@
             },
             "REMOVE_ALBUM": {
                 "TITLE": "Remover \"{name}\"",
-                "DESCRIPTION": "Tem certeza de que deseja excluir o álbum \"{name}\"? As fotos não serão excluídas",
-                "CANCEL": "Cancelar",
-                "PROCEED": "Remover"
+                "DESCRIPTION": "Tem certeza de que deseja excluir o álbum \"{name}\"? As fotos não serão excluídas"
+            },
+            "LEAVE_SHARED_ALBUM": {
+                "TITLE": "Sair \"{name}\"",
+                "DESCRIPTION": "Você tem certeza de que deseja sair do álbum \"{name}\"? Você não poderá mais fazer upload de fotos"
             },
             "RENAME_ALBUM_POPUP": {
                 "TITLE": "Renomear Álbum",
@@ -384,6 +395,20 @@
                 "CANCEL": "Cancelar",
                 "PROCEED": "Importar",
                 "PLACEHOLDER": "URL da Imagem"
+            },
+            "ERROR": "Erro",
+            "SUCCESS": "Sucesso",
+            "CONTACT_ALREADY_IN_ALBUM": "Contato já no álbum",
+            "CONTACT_ADDED_TO_ALBUM": "Contato adicionado ao álbum",
+            "MEMBERS": "{count} Membros",
+            "INVITE": "Convite",
+            "LEAVE_ALBUM": "Sair do Álbum",
+            "CREATE_SHARED_ALBUM": "Criar Álbum Compartilhado",
+            "MANAGE_SHARED_ALBUM": "Gerenciar Álbum Compartilhado",
+            "REMOVE_MEMBER": {
+                "TITLE": "Remover Membro",
+                "DESCRIPTION": "Você tem certeza de que deseja remover este membro do álbum?",
+                "SUCCESS": "Membro removido do álbum"
             },
 
             "NO_PHOTOS": "Sem Fotos ou Vídeos",
@@ -625,7 +650,11 @@
             "RECENTS": {
                 "TITLE": "Recentes",
                 "ALL": "Todos",
-                "MISSED": "Perdidas"
+                "MISSED": "Perdidas",
+                "OUTGOING_CALL": "Chamada Efetuada",
+                "INCOMING_CALL": "Chamada Recebida",
+                "CANCELLED_CALL": "Chamada Cancelada",
+                "MISSED_CALL": "Chamada Perdida"
             },
             "VOICEMAIL": {
                 "TITLE": "Correio de Voz",
@@ -880,6 +909,11 @@
                 "DESCRIPTION": "Tem certeza de que deseja excluir este email?",
                 "CANCEL": "Cancelar",
                 "DELETE": "Excluir"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Falha no envio",
+                "DESCRIPTION": "Falha ao enviar e-mail (o destinatário existe?)",
+                "OK": "OK"
             }
         },
         "MAPS": {
@@ -908,6 +942,10 @@
         },
         "MUSIC": {
             "TITLE": "Música",
+            "HOME": "Início",
+            "RECENTLY_ADDED": "Adicionado Recentemente",
+            "CATEGORIES": "Categorias",
+            "PLAYLISTS": "Playlists",
             "LIBRARY": "Biblioteca",
             "SEARCH": "Buscar",
             "ADD_QUEUE": "Adicionar à Fila",
@@ -919,6 +957,7 @@
             "SEARCH_PLACEHOLDER": "Artistas, Músicas, Álbuns, Playlists",
             "SONGS": "Músicas",
             "ALBUMS": "Álbuns",
+            "ARTISTS": "Artistas",
             "PLAY": "Tocar",
             "SHUFFLE": "Aleatório",
             "ARTIST": "Artista",
@@ -1098,6 +1137,7 @@
             "SEEN_BY": "Visto por {count}",
             "ADD_ACCOUNT": "Adicionar Conta",
             "INVITE": "Convidar",
+            "INVITED": "Convidado",
             "REMOVE": "Remover",
             "IN_THIS_ROOM": "Nesta Sala",
             "WHOS_WATCHING": "Quem está assistindo",
@@ -1113,6 +1153,7 @@
             "UNKNOWN_ACCOUNT": "Conta não existente",
             "INVALID_USERNAME": "Nome de usuário inválido",
             "INCORRECT_PASSWORD": "Senha incorreta",
+            "USERNAME_NOT_ALLOWED": "Nome de usuário não permitido",
             "OK": "OK",
             "LOCATION": "Localização",
             "CHOOSE_LOCATION": {
@@ -1120,7 +1161,16 @@
                 "DESCRIPTION": "Escolha o local para esta postagem",
                 "CANCEL": "Cancelar",
                 "PROCEED": "Prosseguir"
-            }
+            },
+            "REPLIED_TO_YOUR_STORY": "Respondeu seu story",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "Respondeu seu story: {content}",
+
+            "SHARE_TO_STORY": {
+                "TITLE": "Compartilhar no Story",
+                "SUCCESS": "Postagem Compartilhada",
+                "DESCRIPTION": "Seu post foi compartilhado no story"
+            },
+            "VIEW_POST": "Ver Publicação"
         },
         "TWITTER": {
             "TITLE": "Birdy",
@@ -1198,6 +1248,7 @@
             "NOTIFICATIONS": "Notificações",
             "FOLLOWS_YOU": "Segue você",
             "JOINED": "Entrou em {date}",
+            "PINNED_POST": "Postagem Fixada",
             "LIKED_TWEET": "curtiu sua postagem",
             "RETWEETED_TWEET": "repostou sua postagem",
             "FOLLOWED": "começou a seguir você",
@@ -1228,7 +1279,11 @@
             "NEW_POSTS": "Novas Postagens",
             "NEW_POST": "Nova Postagem",
             "PROTECTED_TWEETS_TITLE": "Essas postagens estão protegidas.",
-            "PROTECTED_TWEETS_DESCRIPTION": "Apenas seguidores confirmados têm acesso às postagens e ao perfil completo de @{username}. Toque no botão 'Seguir' para enviar um pedido de seguimento."
+            "PROTECTED_TWEETS_DESCRIPTION": "Apenas seguidores confirmados têm acesso às postagens e ao perfil completo de @{username}. Toque no botão 'Seguir' para enviar um pedido de seguimento.",
+            "INVALID_ACCOUNT": "Conta inválida",
+            "INVALID_PASSWORD": "Senha inválida",
+            "USERNAME_TAKEN": "Nome de usuário já está em uso",
+            "USERNAME_NOT_ALLOWED": "Nome de usuário não permitido"
         },
         "SERVICES": {
             "ACTIONS": "Ações",
@@ -1557,6 +1612,7 @@
             "NOTE": "nota",
             "VOICEMEMO": "gravação",
             "PLAYLIST": "playlist",
+            "ALBUM": "álbum",
             "DECLINE": "Recusar",
             "ACCEPT": "Aceitar"
         },
@@ -1687,14 +1743,14 @@
             "MATCHED_WITH": "Você deu match com {name}"
         },
         "CAMERA": {
-            "TAKE_PHOTO": "Pressione {key} para tirar uma foto",
-            "FLIP_CAMERA": "Pressione {key} para alternar a câmera",
-            "TOGGLE_FLASH": "Pressione {key} para alternar o flash",
-            "TOGGLE_CURSOR": "Pressione {key} para alternar o cursor",
-            "CHANGE_MODE": "Pressione {key} {key2} para mudar o modo",
-            "ROLL": "Pressione {key} {key2} para girar a câmera",
-            "FREEZE": "Pressione {key} para congelar/descongelar a câmera"
-        },
+			"TAKE_PHOTO": "{key} Tirar foto",
+			"FLIP_CAMERA": "{key} Alternar câmera",
+			"TOGGLE_FLASH": "{key} Alternar flash",
+			"TOGGLE_CURSOR": "{key} Alternar cursor e olhar ao redor",
+			"CHANGE_MODE": "{key} {key2} Mudar modo da câmera",
+			"ROLL": "{key} {key2} Girar câmera",
+			"FREEZE": "{key} Travar/Retomar a câmera"
+		},
         "SERVICES": {
             "NEW_MESSAGE": "Nova Mensagem",
             "ANONYMOUS": "Anônimo"

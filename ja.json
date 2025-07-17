@@ -909,6 +909,11 @@
                 "DESCRIPTION": "このメールを削除してもよろしいですか？",
                 "CANCEL": "キャンセル",
                 "DELETE": "削除"
+            },
+            "FAILED_SEND": {
+                "TITLE": "送信に失敗",
+                "DESCRIPTION": "メールの送信に失敗しました（受信者は存在しますか？）",
+                "OK": "OK"
             }
         },
         "MAPS": {

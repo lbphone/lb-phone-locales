@@ -909,6 +909,11 @@
                 "DESCRIPTION": "Êtes-vous sûr de vouloir le supprimer ?",
                 "CANCEL": "Annuler",
                 "DELETE": "Supprimer"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Échec de l'envoi",
+                "DESCRIPTION": "Écheck de l'envoi du mail (Est-ce que ce destinataire existe?)",
+                "OK": "OK"
             }
         },
         "MAPS": {

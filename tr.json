@@ -909,6 +909,11 @@
                 "DESCRIPTION": "Bu e-postayı silmek istediğinizden emin misiniz?",
                 "CANCEL": "İptal",
                 "DELETE": "Sil"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Gönderilemedi",
+                "DESCRIPTION": "Posta gönderilemedi (alıcı var mı?)",
+                "OK": "Tamam"
             }
         },
         "MAPS": {

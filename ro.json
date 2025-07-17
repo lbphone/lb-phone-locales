@@ -7,6 +7,9 @@
     "H": "o",
     "M": "m",
     "S": "s",
+    "SECONDS": "secunde",
+    "MINUTES": "minute",
+    "HOURS": "ore",
 
     "APP_NAMES": {
         "Phone": "Telefon",
@@ -342,6 +345,8 @@
             "TITLE": "Fotografii",
             "SELECT": "Selecteaza",
             "CANCEL": "Anuleaza",
+            "PROCEED": "Continua",
+            "OK": "OK",
             "EDIT": "Editeaza",
             "DONE": "Gata",
             "DELETE": "Sterge",
@@ -353,7 +358,9 @@
             "LIBRARY": "Biblioteca",
             "GALLERY": "Galerie",
             "MY_ALBUMS": "Albumele Mele",
+            "SHARED_ALBUMS": "Albume Partajate",
             "MEDIA_TYPES": "Tipuri Media",
+            "MANAGE_MEMBERS": "Administreaza Membri",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "Album Nou",
                 "DESCRIPTION": "Introdu un nume pentru acest album",
@@ -363,9 +370,11 @@
             },
             "REMOVE_ALBUM": {
                 "TITLE": "Sterge \"{name}\"",
-                "DESCRIPTION": "Esti sigur ca vrei sa stergi albumul \"{name}\"? Fotografiile nu vor fi sterse",
-                "CANCEL": "Anuleaza",
-                "PROCEED": "Sterge"
+                "DESCRIPTION": "Esti sigur ca vrei sa stergi albumul \"{name}\"? Fotografiile nu vor fi sterse"
+            },
+            "LEAVE_SHARED_ALBUM": {
+                "TITLE": "Paraseste \"{name}\"",
+                "DESCRIPTION": "Esti sigur ca vrei sa parasesti albumul \"{name}\"? Nu vei mai avea acces sa urci poze in acesta"
             },
             "RENAME_ALBUM_POPUP": {
                 "TITLE": "Redenumeste Albumul",
@@ -386,6 +395,20 @@
                 "CANCEL": "Anuleaza",
                 "PROCEED": "Importa",
                 "PLACEHOLDER": "URL Imagine"
+            },
+            "ERROR": "Eroare",
+            "SUCCESS": "Succes",
+            "CONTACT_ALREADY_IN_ALBUM": "Persoana este deja in album",
+            "CONTACT_ADDED_TO_ALBUM": "Persoana adaugata in album",
+            "MEMBERS": "{count} membri",
+            "INVITE": "Invita",
+            "LEAVE_ALBUM": "Paraseste Album",
+            "CREATE_SHARED_ALBUM": "Creeaza Album Partajat",
+            "MANAGE_SHARED_ALBUM": "Administreaza Album Partajat",
+            "REMOVE_MEMBER": {
+                "TITLE": "Inlatura Membru",
+                "DESCRIPTION": "Esti sigur ca vrei sa inlaturi acest membru din album?",
+                "SUCCESS": "Membru inlaturat din album"
             },
 
             "NO_PHOTOS": "Nicio Fotografie sau Video",
@@ -627,7 +650,11 @@
             "RECENTS": {
                 "TITLE": "Recente",
                 "ALL": "Toate",
-                "MISSED": "Pierdute"
+                "MISSED": "Pierdut",
+                "OUTGOING_CALL": "Apel Initiat-",
+                "INCOMING_CALL": "Apel Primit",
+                "CANCELLED_CALL": "Apel Anulat",
+                "MISSED_CALL": "Apel Pierdut"
             },
             "VOICEMAIL": {
                 "TITLE": "Mesagerie Vocala",
@@ -676,7 +703,7 @@
             },
             "AIRPLANE_MODE": {
                 "TITLE": "Eroare",
-                "DESCRIPTION": "Incercati sa efectuati o actiune care necesita acces la internet, dezactivati modul avion pentru a continua."
+                "DESCRIPTION": "Incercati sa efectuati o actiune care necesita acces la internet, dezactivati modul avion sau fa rost de semnal pentru a continua."
             },
             "INVALID_AMOUNT": {
                 "TITLE": "Suma invalida",
@@ -882,6 +909,11 @@
                 "DESCRIPTION": "Esti sigur ca vrei sa stergi acest email?",
                 "CANCEL": "Anuleaza",
                 "DELETE": "Sterge"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Nu a reușit să trimită",
+                "DESCRIPTION": "A eșuat trimiterea mesajului (destinatarul există?)",
+                "OK": "OK"
             }
         },
         "MAPS": {
@@ -906,10 +938,23 @@
                 "PLACEHOLDER": "Nume",
                 "CANCEL": "Anuleaza",
                 "PROCEED": "Continua"
-            }
+            },
+            "REPLIED_TO_YOUR_STORY": "Ti-a raspuns la story",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "Ti-a raspuns la story: {content}",
+
+            "SHARE_TO_STORY": {
+                "TITLE": "Posteaza pe Story",
+                "SUCCESS": "Postare trimis",
+                "DESCRIPTION": "Postarea a fost postatat pe Story"
+            },
+            "VIEW_POST": "Vezi postare"
         },
         "MUSIC": {
             "TITLE": "Muzica",
+            "HOME": "Acasa",
+            "RECENTLY_ADDED": "Adaugate de curand",
+            "CATEGORIES": "Categori",
+            "PLAYLISTS": "Playlisturi",
             "LIBRARY": "Biblioteca",
             "SEARCH": "Cauta",
             "ADD_QUEUE": "Adauga in Coada",
@@ -921,6 +966,7 @@
             "SEARCH_PLACEHOLDER": "Artisti, Melodii, Albume, Playlisturi",
             "SONGS": "Melodii",
             "ALBUMS": "Albume",
+            "ARTISTS": "Artisti",
             "PLAY": "Canta",
             "SHUFFLE": "Amesteca",
             "ARTIST": "Artist",
@@ -1124,7 +1170,16 @@
                 "DESCRIPTION": "Alege o locatie pentru aceasta postare",
                 "CANCEL": "Anuleaza",
                 "PROCEED": "Continua"
-            }
+            },
+            "REPLIED_TO_YOUR_STORY": "A raspuns la povestea ta",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "A raspuns la povestea ta: {content}",
+
+            "SHARE_TO_STORY": {
+                "TITLE": "Distribuie in Poveste",
+                "SUCCESS": "Postare Distribuita",
+                "DESCRIPTION": "Postarea ta a fost distribuita in poveste"
+            },
+            "VIEW_POST": "Vezi Postarea"
         },
         "TWITTER": {
             "TITLE": "Birdy",
@@ -1202,6 +1257,7 @@
             "NOTIFICATIONS": "Notificari",
             "FOLLOWS_YOU": "Te urmareste",
             "JOINED": "S-a inregistrat {date}",
+            "PINNED_POST": "Postare fixata",
             "LIKED_TWEET": "a apreciat postarea ta",
             "RETWEETED_TWEET": "a republicat postarea ta",
             "FOLLOWED": "te-a urmarit",
@@ -1565,6 +1621,7 @@
             "NOTE": "nota",
             "VOICEMEMO": "memo vocal",
             "PLAYLIST": "playlist",
+            "ALBUM": "album",
             "DECLINE": "Refuza",
             "ACCEPT": "Accepta"
         },
@@ -1633,7 +1690,7 @@
     "MISC": {
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "Eroare",
-            "DESCRIPTION": "Incercati sa efectuati o actiune care necesita acces la internet, dezactivati modul avion pentru a continua.",
+            "DESCRIPTION": "Incercati sa efectuati o actiune care necesita acces la internet, dezactivati modul avion sau fa rost de semnal pentru a continua.",
             "OK": "OK"
         },
         "TODAY_TIME": "Astazi, {hours}:{minutes}",

@@ -152,27 +152,27 @@
             "TURN_PASSCODE_OFF": "Turn Passcode Off",
             "TURN_PASSCODE_ON": "Turn Passcode On",
             "CHANGE_PASSCODE": "Change Passcode",
-            "CLOUD_BACKUP": "Cloud Backup",
+            "CLOUD_BACKUP": "Import from Phone",
             "YOUR_PROFILE": "Your Profile",
             "CREATE_BACKUP": "Create Backup",
-            "BACKUPS": "Backups",
+            "BACKUPS": "Imports",
             "SAVE_BACKUP_POPUP": {
-                "TITLE": "Save Backup",
+                "TITLE": "Import",
                 "TEXT": "Are you sure you want to save a backup of your data? (Will save your contacts, photos and settings)",
                 "CANCEL": "Cancel",
                 "CONFIRM": "Save"
             },
             "APPLY_BACKUP_POPUP": {
-                "TITLE": "Apply Backup",
-                "TEXT": "Are you sure you want to apply this backup? (Will overwrite your contacts, photos and settings)",
+                "TITLE": "Import",
+                "TEXT": "Are you sure you want to import from this phone? (Will overwrite your contacts, photos and settings)",
                 "CANCEL": "Cancel",
                 "CONFIRM": "Apply"
             },
             "BACKUP_ERROR_POPUP": {
                 "WARNING": "Warning",
                 "ERROR": "Error",
-                "ALREADY_HAVE": "You already have a backup for this number",
-                "SAME_PHONE": "You cannot apply a backup created from the same phone",
+                "ALREADY_HAVE": "You already have an import for this number",
+                "SAME_PHONE": "You cannot import from the same phone",
                 "OK": "OK"
             },
             "SUCCESS": "Success",
@@ -181,8 +181,8 @@
             "ON": "On",
             "OFF": "Off",
             "REMOVE_BACKUP_POPUP": {
-                "TITLE": "Remove Backup",
-                "TEXT": "Are you sure you want to remove this backup?",
+                "TITLE": "Remove Import",
+                "TEXT": "Are you sure you want to remove this import?",
                 "CANCEL": "Cancel",
                 "CONFIRM": "Remove"
             },
@@ -909,6 +909,11 @@
                 "DESCRIPTION": "Are you sure you want to delete this email?",
                 "CANCEL": "Cancel",
                 "DELETE": "Delete"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Failed to send",
+                "DESCRIPTION": "Failed to send mail (does the recipient exist?)",
+                "OK": "OK"
             }
         },
         "MAPS": {

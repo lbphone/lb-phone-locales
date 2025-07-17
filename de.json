@@ -909,6 +909,11 @@
                 "DESCRIPTION": "Sind Sie sicher, dass Sie diese E-Mail löschen möchten?",
                 "CANCEL": "Abbrechen",
                 "DELETE": "Löschen"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Senden fehlgeschlagen",
+                "DESCRIPTION": "Mailversand fehlgeschlagen (existiert der Empfänger?)",
+                "OK": "OK"
             }
         },
         "MAPS": {
