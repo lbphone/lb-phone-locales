@@ -1743,14 +1743,14 @@
             "MATCHED_WITH": "Você deu match com {name}"
         },
         "CAMERA": {
-			"TAKE_PHOTO": "{key} Tirar foto",
-			"FLIP_CAMERA": "{key} Alternar câmera",
-			"TOGGLE_FLASH": "{key} Alternar flash",
-			"TOGGLE_CURSOR": "{key} Alternar cursor e olhar ao redor",
-			"CHANGE_MODE": "{key} {key2} Mudar modo da câmera",
-			"ROLL": "{key} {key2} Girar câmera",
-			"FREEZE": "{key} Travar/Retomar a câmera"
-		},
+            "TAKE_PHOTO": "{key} Tirar foto",
+            "FLIP_CAMERA": "{key} Alternar câmera",
+            "TOGGLE_FLASH": "{key} Alternar flash",
+            "TOGGLE_CURSOR": "{key} Alternar cursor e olhar ao redor",
+            "CHANGE_MODE": "{key} {key2} Mudar modo da câmera",
+            "ROLL": "{key} {key2} Girar câmera",
+            "FREEZE": "{key} Travar/Retomar a câmera"
+        },
         "SERVICES": {
             "NEW_MESSAGE": "Nova Mensagem",
             "ANONYMOUS": "Anônimo"
