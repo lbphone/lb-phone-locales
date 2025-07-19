@@ -342,6 +342,8 @@
             "TITLE": "Foto's",
             "SELECT": "Selecteer",
             "CANCEL": "Annuleer",
+            "PROCEED": "Doorgaan",
+            "OK": "OK",
             "EDIT": "Wijzigen",
             "DONE": "Klaar",
             "DELETE": "Verwijder",
@@ -353,7 +355,9 @@
             "LIBRARY": "Bibliotheek",
             "GALLERY": "Galerij",
             "MY_ALBUMS": "Mijn Albums",
+            "SHARED_ALBUMS": "Gedeelde Albums",
             "MEDIA_TYPES": "Media Types",
+            "MANAGE_MEMBERS": "Beheer Deelnemers",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "Nieuw Album",
                 "DESCRIPTION": "Voer een naam in voor dit album",
@@ -363,9 +367,11 @@
             },
             "REMOVE_ALBUM": {
                 "TITLE": "Verwijder \"{name}\"",
-                "DESCRIPTION": "Weet je zeker dat je het album \"{name}\" wilt verwijderen? De foto's zullen niet worden verwijderd.",
-                "CANCEL": "Annuleer",
-                "PROCEED": "Verwijder"
+                "DESCRIPTION": "Weet je zeker dat je het album \"{name}\" wilt verwijderen? De foto's zullen niet worden verwijderd."
+            },
+            "LEAVE_SHARED_ALBUM": {
+                "TITLE": "Verlaat \"{name}\"",
+                "DESCRIPTION": "Weet je zeker dat je het album \"{name}\" wilt verlaten? Je kan hier dan geen foto's meer in uploaden."
             },
             "RENAME_ALBUM_POPUP": {
                 "TITLE": "Hoernoem Album",
@@ -387,13 +393,27 @@
                 "PROCEED": "Importeer",
                 "PLACEHOLDER": "Afbeelding URL"
             },
+            "ERROR": "Error",
+            "SUCCESS": "Succesvol",
+            "CONTACT_ALREADY_IN_ALBUM": "Contact is al toegevoegd aan dit album",
+            "CONTACT_ADDED_TO_ALBUM": "Contact toegevoegd aan dit album",
+            "MEMBERS": "{count} deelnemers",
+            "INVITE": "Uitnodigen",
+            "LEAVE_ALBUM": "Verlaat Album",
+            "CREATE_SHARED_ALBUM": "Maak gedeeld Album",
+            "MANAGE_SHARED_ALBUM": "Beheer gedeeld Album",
+            "REMOVE_MEMBER": {
+                "TITLE": "Verwijder deelnemer",
+                "DESCRIPTION": "Weet je zeker dat jdeze deelnemer wilt verwijderen van dit album?",
+                "SUCCESS": "Deelnemer verwijderd van album"
+            },
 
             "NO_PHOTOS": "Geen foto's of videos",
             "NO_PHOTOS_INSTRUCTIONS": "Je kan foto's en video's maken met je camera",
             "PHOTO_COUNT": "{amount} Foto's",
             "VIDEO_COUNT": "{amount} Videos",
 
-            "DELETE_CONTEXT_TITLE": "Wil je {type} volledig verwijderen of alleen verwijderen uit dit album",
+            "DELETE_CONTEXT_TITLE": "Wil je {type} volledig verwijderen of alleen verwijderen uit dit album?",
             "THESE_PHOTOS": "deze foto's",
             "THIS_PHOTO": "deze foto",
             "REMOVE_FROM_ALBUM": "Verwijder van album",
@@ -627,7 +647,11 @@
             "RECENTS": {
                 "TITLE": "Recent",
                 "ALL": "Alle",
-                "MISSED": "Gemist"
+                "MISSED": "Gemist",
+                "OUTGOING_CALL": "Uitgaande oproep",
+                "INCOMING_CALL": "Inkomende oproep",
+                "CANCELLED_CALL": "Geannuleerde oproep",
+                "MISSED_CALL": "Gemiste oproep"
             },
             "VOICEMAIL": {
                 "TITLE": "Voicemail",
@@ -882,6 +906,11 @@
                 "DESCRIPTION": "Weet je zeker dat je deze email wilt verwijderen?",
                 "CANCEL": "Annuleer",
                 "DELETE": "Verwijder"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Verzenden mislukt",
+                "DESCRIPTION": "Het verzenden van de mail is mislukt (bestaat het adres van de ontvanger wel?)",
+                "OK": "OK"
             }
         },
         "MAPS": {
@@ -910,6 +939,10 @@
         },
         "MUSIC": {
             "TITLE": "Muziek",
+            "HOME": "Home",
+            "RECENTLY_ADDED": "Recent toegevoegd",
+            "CATEGORIES": "Categorieen",
+            "PLAYLISTS": "Afspeellijsten",
             "LIBRARY": "Bibliotheek",
             "SEARCH": "Zoek",
             "ADD_QUEUE": "Aan wachtrij toevoegen",
@@ -921,6 +954,7 @@
             "SEARCH_PLACEHOLDER": "Artiesten, Nummers, Albums, Afspeellijsten",
             "SONGS": "Nummers",
             "ALBUMS": "Albums",
+            "ARTISTS": "Artiesten",
             "PLAY": "Speel af",
             "SHUFFLE": "Shuffle",
             "ARTIST": "Artiest",
@@ -1124,7 +1158,16 @@
                 "DESCRIPTION": "Selecteer een locatie voor deze post",
                 "CANCEL": "Annuleer",
                 "PROCEED": "Doorgaan"
-            }
+            },
+            "REPLIED_TO_YOUR_STORY": "Gereageerd op je story",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "Gereageerd op je story: {content}",
+
+            "SHARE_TO_STORY": {
+                "TITLE": "Share to Story",
+                "SUCCESS": "Post Shared",
+                "DESCRIPTION": "Your post has been shared to your story"
+            },
+            "VIEW_POST": "View Post"
         },
         "TWITTER": {
             "TITLE": "Birdy",
@@ -1202,6 +1245,7 @@
             "NOTIFICATIONS": "Meldingen",
             "FOLLOWS_YOU": "Volgt je nu",
             "JOINED": "Lid sinds {date}",
+            "PINNED_POST": "Gepinde Post",
             "LIKED_TWEET": "vind je tjilp leuk",
             "RETWEETED_TWEET": "heeft je tjilp geretweet",
             "FOLLOWED": "volgt je nu",
@@ -1565,6 +1609,7 @@
             "NOTE": "Notitie",
             "VOICEMEMO": "Spraakbericht",
             "PLAYLIST": "Afspeellijst",
+            "ALBUM": "album",
             "DECLINE": "Weigeren",
             "ACCEPT": "Acceptern"
         },
