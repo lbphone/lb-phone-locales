@@ -7,6 +7,9 @@
     "H": "u",
     "M": "m",
     "S": "s",
+    "SECONDS": "seconden",
+    "MINUTES": "minuten",
+    "HOURS": "uren",
 
     "APP_NAMES": {
         "Phone": "Telefoon",
