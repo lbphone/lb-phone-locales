@@ -1025,7 +1025,7 @@
             "DELETE_ACCOUNT": "Konto löschen"
         },
         "INSTAGRAM": {
-            "TITLE": "Instagram",
+            "TITLE": "InstaPic",
             "SEND": "Senden",
             "POST": "Posten",
             "MESSAGE_PLACEHOLDER": "Nachricht...",
@@ -1586,7 +1586,7 @@
             "USE_WALLPAPER": "Als Hintergrundbild verwenden",
             "COPY_NUMBER": "Nummer kopieren",
             "COPY_LINK": "Link kopieren",
-            "AIRDROP_SENT": "Airdrop gesendet",
+            "AIRDROP_SENT": "AirShare gesendet",
             "AIRDROP_ACCEPTED": "Angenommen",
             "AIRDROP_DECLINED": "Abgelehnt",
             "AIRDROP_NO_USERS": "Keine Handys in der Nähe",
@@ -1603,7 +1603,7 @@
             }
         },
         "AIRDROP": {
-            "TITLE": "Airdrop",
+            "TITLE": "AirShare",
             "TEXT": "{sender} will ein {type} mit dir teilen",
             "VIDEO": "Video",
             "PHOTO": "Foto",
