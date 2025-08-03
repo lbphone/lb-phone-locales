@@ -7,6 +7,9 @@
     "H": "s",
     "M": "m",
     "S": "s",
+	"SECONDS": "sekundi",
+    "MINUTES": "minuta",
+    "HOURS": "sati",
 
     "APP_NAMES": {
         "Phone": "Telefon",
@@ -149,27 +152,27 @@
             "TURN_PASSCODE_OFF": "Izbriši pin",
             "TURN_PASSCODE_ON": "Postavi pin",
             "CHANGE_PASSCODE": "Promjeni pin",
-            "CLOUD_BACKUP": "Cloud Backup",
+            "CLOUD_BACKUP": "Prebaci sa telefona",
             "YOUR_PROFILE": "Vaš profil",
             "CREATE_BACKUP": "Kreiraj Backup",
-            "BACKUPS": "Backupovi",
+            "BACKUPS": "Unosi",
             "SAVE_BACKUP_POPUP": {
-                "TITLE": "Sačuvaj Backup",
+                "TITLE": "Unos",
                 "TEXT": "Da li ste sigurni da želite uraditi backup Vaših podataka? (Backup kontakta, fotografije, postavke)",
                 "CANCEL": "Odustani",
                 "CONFIRM": "Sačuvaj"
             },
             "APPLY_BACKUP_POPUP": {
-                "TITLE": "Vrati Backup",
-                "TEXT": "Da li ste sigurni da želite vratiti ovaj backup? (Zamjenit ce trenutne kontakte, fotografije, postavke)",
+                "TITLE": "Unos",
+                "TEXT": "Da li ste sigurni da želite unijeti podatke sa telefona? (Zamjenit ce trenutne kontakte, fotografije, postavke)",
                 "CANCEL": "Odustani",
                 "CONFIRM": "Potvrdi"
             },
             "BACKUP_ERROR_POPUP": {
                 "WARNING": "Upozorenje",
                 "ERROR": "Greška",
-                "ALREADY_HAVE": "Već imate backup za ovaj broj",
-                "SAME_PHONE": "Ne možete vratiti backup na istom telefonu",
+                "ALREADY_HAVE": "Već imate unos za ovaj broj",
+                "SAME_PHONE": "Ne možete izvršiti unos na istom telefonu",
                 "OK": "OK"
             },
             "SUCCESS": "Uspješno",
@@ -178,8 +181,8 @@
             "ON": "Uključeno",
             "OFF": "Isključeno",
             "REMOVE_BACKUP_POPUP": {
-                "TITLE": "Obriši Backup",
-                "TEXT": "Da li ste sigurni da želite obrasati backup?",
+                "TITLE": "Obriši unos",
+                "TEXT": "Da li ste sigurni da želite obrasati unos?",
                 "CANCEL": "Odustani",
                 "CONFIRM": "Obriši"
             },
@@ -342,6 +345,8 @@
             "TITLE": "Slike",
             "SELECT": "Odaberi",
             "CANCEL": "Odustani",
+			"PROCEED": "Nastavi",
+            "OK": "OK",
             "EDIT": "Izmjeni",
             "DONE": "Gotovo",
             "DELETE": "Obriši",
@@ -353,7 +358,9 @@
             "LIBRARY": "Biblioteka",
             "GALLERY": "Galerija",
             "MY_ALBUMS": "Moji albumi",
+			"SHARED_ALBUMS": "Podijeljeni albumi",
             "MEDIA_TYPES": "Vrste dokumenata",
+			"MANAGE_MEMBERS": "Uredi članove",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "Novi album",
                 "DESCRIPTION": "Odaberite ime za album",
@@ -363,9 +370,11 @@
             },
             "REMOVE_ALBUM": {
                 "TITLE": "Obriši \"{name}\"",
-                "DESCRIPTION": "Da li sigurni da želite obrisati album \"{name}\"? Slike neće biti obrisane",
-                "CANCEL": "Odustani",
-                "PROCEED": "Obriši"
+                "DESCRIPTION": "Da li sigurni da želite obrisati album \"{name}\"? Slike neće biti obrisane"
+            },
+			"LEAVE_SHARED_ALBUM": {
+                "TITLE": "Napusti \"{name}\"",
+                "DESCRIPTION": "Da li sigurni da želite napustiti album \"{name}\"? Više nećete moći ubacivati slike"
             },
             "RENAME_ALBUM_POPUP": {
                 "TITLE": "Preimenuj album",
@@ -387,13 +396,27 @@
                 "PROCEED": "Ubaci",
                 "PLACEHOLDER": "URL fotografije"
             },
-
+			"ERROR": "Greška",
+            "SUCCESS": "Uspješno",
+            "CONTACT_ALREADY_IN_ALBUM": "Kontakt se već nalazi u albumu",
+            "CONTACT_ADDED_TO_ALBUM": "Kontakt dodan u album",
+            "MEMBERS": "{count} Članova",
+            "INVITE": "Dodaj",
+            "LEAVE_ALBUM": "Napusti album",
+            "CREATE_SHARED_ALBUM": "Kreiraj dijeljeni album",
+            "MANAGE_SHARED_ALBUM": "Upravljaj dijeljenim albumom",
+            "REMOVE_MEMBER": {
+                "TITLE": "Izbaci člana",
+                "DESCRIPTION": "Da li ste sigurni da želite izbaciti člana?",
+                "SUCCESS": "Član izbačen iz albuma"
+            },
+			
             "NO_PHOTOS": "Nema fotografija ili videa",
             "NO_PHOTOS_INSTRUCTIONS": "Možete uslikati slike i snimiti videe pomoću kamere",
             "PHOTO_COUNT": "{amount} Slika",
             "VIDEO_COUNT": "{amount} Videa",
 
-            "DELETE_CONTEXT_TITLE": "Da li želite obrisati {type} ili maketi ih iz albuma",
+            "DELETE_CONTEXT_TITLE": "Da li želite obrisati {type} ili maketi ih iz albuma?",
             "THESE_PHOTOS": "ove fotografije",
             "THIS_PHOTO": "ovu fotografiju",
             "REMOVE_FROM_ALBUM": "Micanje iz albuma",
@@ -627,7 +650,11 @@
             "RECENTS": {
                 "TITLE": "Nedavno",
                 "ALL": "Svi",
-                "MISSED": "Propušteni"
+                "MISSED": "Propušteni",
+				"OUTGOING_CALL": "Odlazni poziv",
+                "INCOMING_CALL": "Dolazni poziv",
+                "CANCELLED_CALL": "Otkazan poziv",
+                "MISSED_CALL": "Propušten poziv"
             },
             "VOICEMAIL": {
                 "TITLE": "Govorna pošta",
@@ -882,6 +909,11 @@
                 "DESCRIPTION": "Da li ste sigurni da želite obrisati Email?",
                 "CANCEL": "Odustani",
                 "DELETE": "Obriši"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Poruka nije poslana",
+                "DESCRIPTION": "Mail nije poslana, provjerite da li je kontakt tačan",
+                "OK": "OK"
             }
         },
         "MAPS": {
@@ -910,6 +942,10 @@
         },
         "MUSIC": {
             "TITLE": "Muzika",
+			"HOME": "Početna",
+            "RECENTLY_ADDED": "Nedavno dodano",
+            "CATEGORIES": "Kategorije",
+            "PLAYLISTS": "Playliste",
             "LIBRARY": "Biblioteka",
             "SEARCH": "Pretraži",
             "ADD_QUEUE": "Dodaj u sljedeće",
@@ -921,6 +957,7 @@
             "SEARCH_PLACEHOLDER": "Izvođači, Pjesme, Albumi, Playliste",
             "SONGS": "Pjesme",
             "ALBUMS": "Albumi",
+			"ARTISTS": "Izođači",
             "PLAY": "Pusti",
             "SHUFFLE": "Izmješaj",
             "ARTIST": "Izvođač",
@@ -1124,7 +1161,16 @@
                 "DESCRIPTION": "Odaberite lokaciju za objavu",
                 "CANCEL": "Odustani",
                 "PROCEED": "Nastavi"
-            }
+            },
+            "REPLIED_TO_YOUR_STORY": "je odgovorio na Vaš story",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "Poruka: {content}",
+
+            "SHARE_TO_STORY": {
+                "TITLE": "Podijeli na svoj story",
+                "SUCCESS": "Post Shared",
+                "DESCRIPTION": "Vaša objava je podijeljena na Vaš story"
+            },
+            "VIEW_POST": "Pogledaj objavu"
         },
         "TWITTER": {
             "TITLE": "Birdy",
@@ -1202,6 +1248,7 @@
             "NOTIFICATIONS": "Notifikacije",
             "FOLLOWS_YOU": "Vas je zapratio",
             "JOINED": "Pridruzio se {date}",
+			"PINNED_POST": "Prikvačena objava",
             "LIKED_TWEET": "je likeovao Vašu objavu",
             "RETWEETED_TWEET": "je repostovao Vašu objavu",
             "FOLLOWED": "Vas je zapratio",
@@ -1565,6 +1612,7 @@
             "NOTE": "bilješku",
             "VOICEMEMO": "glasovni zapis",
             "PLAYLIST": "playlistu",
+			"ALBUM": "album",
             "DECLINE": "Odbij",
             "ACCEPT": "Prihvati"
         },
