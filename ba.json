@@ -7,7 +7,7 @@
     "H": "s",
     "M": "m",
     "S": "s",
-	"SECONDS": "sekundi",
+    "SECONDS": "sekundi",
     "MINUTES": "minuta",
     "HOURS": "sati",
 
@@ -345,7 +345,7 @@
             "TITLE": "Slike",
             "SELECT": "Odaberi",
             "CANCEL": "Odustani",
-			"PROCEED": "Nastavi",
+            "PROCEED": "Nastavi",
             "OK": "OK",
             "EDIT": "Izmjeni",
             "DONE": "Gotovo",
@@ -358,9 +358,9 @@
             "LIBRARY": "Biblioteka",
             "GALLERY": "Galerija",
             "MY_ALBUMS": "Moji albumi",
-			"SHARED_ALBUMS": "Podijeljeni albumi",
+            "SHARED_ALBUMS": "Podijeljeni albumi",
             "MEDIA_TYPES": "Vrste dokumenata",
-			"MANAGE_MEMBERS": "Uredi članove",
+            "MANAGE_MEMBERS": "Uredi članove",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "Novi album",
                 "DESCRIPTION": "Odaberite ime za album",
@@ -372,7 +372,7 @@
                 "TITLE": "Obriši \"{name}\"",
                 "DESCRIPTION": "Da li sigurni da želite obrisati album \"{name}\"? Slike neće biti obrisane"
             },
-			"LEAVE_SHARED_ALBUM": {
+            "LEAVE_SHARED_ALBUM": {
                 "TITLE": "Napusti \"{name}\"",
                 "DESCRIPTION": "Da li sigurni da želite napustiti album \"{name}\"? Više nećete moći ubacivati slike"
             },
@@ -396,7 +396,7 @@
                 "PROCEED": "Ubaci",
                 "PLACEHOLDER": "URL fotografije"
             },
-			"ERROR": "Greška",
+            "ERROR": "Greška",
             "SUCCESS": "Uspješno",
             "CONTACT_ALREADY_IN_ALBUM": "Kontakt se već nalazi u albumu",
             "CONTACT_ADDED_TO_ALBUM": "Kontakt dodan u album",
@@ -410,7 +410,7 @@
                 "DESCRIPTION": "Da li ste sigurni da želite izbaciti člana?",
                 "SUCCESS": "Član izbačen iz albuma"
             },
-			
+
             "NO_PHOTOS": "Nema fotografija ili videa",
             "NO_PHOTOS_INSTRUCTIONS": "Možete uslikati slike i snimiti videe pomoću kamere",
             "PHOTO_COUNT": "{amount} Slika",
@@ -651,7 +651,7 @@
                 "TITLE": "Nedavno",
                 "ALL": "Svi",
                 "MISSED": "Propušteni",
-				"OUTGOING_CALL": "Odlazni poziv",
+                "OUTGOING_CALL": "Odlazni poziv",
                 "INCOMING_CALL": "Dolazni poziv",
                 "CANCELLED_CALL": "Otkazan poziv",
                 "MISSED_CALL": "Propušten poziv"
@@ -942,7 +942,7 @@
         },
         "MUSIC": {
             "TITLE": "Muzika",
-			"HOME": "Početna",
+            "HOME": "Početna",
             "RECENTLY_ADDED": "Nedavno dodano",
             "CATEGORIES": "Kategorije",
             "PLAYLISTS": "Playliste",
@@ -957,7 +957,7 @@
             "SEARCH_PLACEHOLDER": "Izvođači, Pjesme, Albumi, Playliste",
             "SONGS": "Pjesme",
             "ALBUMS": "Albumi",
-			"ARTISTS": "Izođači",
+            "ARTISTS": "Izođači",
             "PLAY": "Pusti",
             "SHUFFLE": "Izmješaj",
             "ARTIST": "Izvođač",
@@ -1248,7 +1248,7 @@
             "NOTIFICATIONS": "Notifikacije",
             "FOLLOWS_YOU": "Vas je zapratio",
             "JOINED": "Pridruzio se {date}",
-			"PINNED_POST": "Prikvačena objava",
+            "PINNED_POST": "Prikvačena objava",
             "LIKED_TWEET": "je likeovao Vašu objavu",
             "RETWEETED_TWEET": "je repostovao Vašu objavu",
             "FOLLOWED": "Vas je zapratio",
@@ -1612,7 +1612,7 @@
             "NOTE": "bilješku",
             "VOICEMEMO": "glasovni zapis",
             "PLAYLIST": "playlistu",
-			"ALBUM": "album",
+            "ALBUM": "album",
             "DECLINE": "Odbij",
             "ACCEPT": "Prihvati"
         },
