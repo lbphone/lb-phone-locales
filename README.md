@@ -1,4 +1,4 @@
-# lb-phone-locales
+# LB-phone locales
 Offical locale files for https://lbscripts.com
 
 If you're fluent in any language and wish to contribute, you can fork this repository and add or update your language!
