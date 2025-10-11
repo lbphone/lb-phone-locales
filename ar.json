@@ -232,7 +232,7 @@
             "CANCEL": "إلغاء",
             "SELECT_ITEMS": "حدد العناصر",
             "SELECTED_COUNT": "{count} العناصر المحددة",
-            "PHOTO_COUNT": "{count} الصور",
+            "PHOTO_COUNT": "{amount} الصور",
 
             "DELETE_TITLE": "من الصور {count} حذف",
             "DELETE_TEXT": "صور؟ {count} هل تريد حذف",
