@@ -1317,7 +1317,7 @@
             "NEW_POSTS": "Neue Posts",
             "NEW_POST": "Neuer Post",
             "PROTECTED_TWEETS_TITLE": "Diese Stellen sind geschützt.",
-            "PROTECTED_TWEETS_DESCRIPTION": "Nur bestätigte Follower haben Zugang zu den Beiträgen und dem vollständigen Profil von @{Benutzername}. Tippen Sie auf die Schaltfläche \"Folgen\", um eine Folgeanfrage zu senden.",
+            "PROTECTED_TWEETS_DESCRIPTION": "Nur bestätigte Follower haben Zugang zu den Beiträgen und dem vollständigen Profil von @{username}. Tippen Sie auf die Schaltfläche \"Folgen\", um eine Folgeanfrage zu senden.",
             "INVALID_ACCOUNT": "Ungültiger Account",
             "INVALID_PASSWORD": "Ungültiges Passwort",
             "USERNAME_NOT_ALLOWED": "Benutzername nicht erlaubt",
@@ -1451,7 +1451,7 @@
             "REPLY": "Antworten",
             "VIEW_REPLIES": "Antworten anzeigen",
             "ADD_COMMENT": "Füge einen Kommentar hinzu...",
-            "REPLY_TO": "Antwort an {Name}",
+            "REPLY_TO": "Antwort an {name}",
             "PIN_COMMENT": "Kommentar anpinnen",
             "UNPIN_COMMENT": "Kommentar nicht mehr anpinnen",
             "DELETE_COMMENT": "Kommentar löschen",
@@ -1544,7 +1544,7 @@
 
             "INVALID_ACCOUNT_POPUP": {
                 "TITLE": "Ungültig {name}",
-                "DESCRIPTION": "Du bist nicht bei dem von dir eingegebenen Konto {Name} angemeldet, bitte korrigiere es.",
+                "DESCRIPTION": "Du bist nicht bei dem von dir eingegebenen Konto {name} angemeldet, bitte korrigiere es.",
                 "OK": "OK"
             },
             "REMOVE_ACCOUNT_POPUP": {
