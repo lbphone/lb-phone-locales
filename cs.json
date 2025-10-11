@@ -244,7 +244,7 @@
             "CANCEL": "Zrušit",
             "SELECT_ITEMS": "Vybrat",
             "SELECTED_COUNT": "{count} Vybráno",
-            "PHOTO_COUNT": "{count} Fotografie",
+            "PHOTO_COUNT": "{amount} Fotografie",
             "DELETE_TITLE": "Odstranit {count} obrázků",
             "DELETE_TEXT": "Chcete smazat? {count} obrázků",
             "DELETE_BUTTON_CANCEL": "Zrušit",
@@ -1362,14 +1362,14 @@
 		"DARKCHAT_CREATED_TITLE": "Vytvořený kanál",
 		"DARKCHAT_CREATED_DESCRIPTION": "{creator} vytvořil kanál s názvem {channel}",
 		"DARKCHAT_MESSAGE_TITLE": "Nová zpráva",
-		"DARKCHAT_MESSAGE_DESCRIPTION": "{odesílatel} poslal zprávu v {kanálu}: {message}",
+		"DARKCHAT_MESSAGE_DESCRIPTION": "{sender} poslal zprávu v {channel}: {message}",
 
 		"MARKETPLACE_NEW_TITLE": "Nový zápis",
-		"MARKETPLACE_NEW_DESCRIPTION": "**Prodejce**: {prodejce}\n**Název**: {title}\n**Cena**: ${price}\n**Popis**: {description}\n **Přílohy**: {attachments}\n**ID:** {id}",
+		"MARKETPLACE_NEW_DESCRIPTION": "**Prodejce**: {seller}\n**Název**: {title}\n**Cena**: ${price}\n**Popis**: {description}\n **Přílohy**: {attachments}\n**ID:** {id}",
 		"MARKETPLACE_DELETED": "Příspěvek smazán",
 
 		"YELLOWPAGES_NEW_TITLE": "Nový příspěvek",
-		"YELLOWPAGES_NEW_DESCRIPTION": "**Název**: {title}\n**Popis**: {description}\n**Příloha**: {příloha}\n**ID:** {id}",
+		"YELLOWPAGES_NEW_DESCRIPTION": "**Název**: {title}\n**Popis**: {description}\n**Příloha**: {attachment}\n**ID:** {id}",
 		"YELLOWPAGES_DELETED": "Příspěvek smazán",
 
 		"LIVE_TITLE": "Živě",
