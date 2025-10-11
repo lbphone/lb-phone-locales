@@ -232,7 +232,7 @@
             "CANCEL": "Выбрать",
             "SELECT_ITEMS": "Выберите предметы",
             "SELECTED_COUNT": "{count} Выбранные предметы",
-            "PHOTO_COUNT": "{count} фото",
+            "PHOTO_COUNT": "{amount} фото",
 
             "DELETE_TITLE": "Удалить {count} изображений",
             "DELETE_TEXT": "Вы хотите удалить {count} изображений",
