@@ -270,10 +270,31 @@
             "CANCEL": "Cancel",
             "SET": "Set",
             "JOIN": "Join",
+            "CREATE": "Create",
             "LEAVE": "Leave",
-            "NEW_ROOM": "New Room",
-            "NEW_ROOM_TEXT": "Type in a room code to Join or Create a room",
+            "JOIN_ROOM": "Join Room",
+            "JOIN_ROOM_TEXT": "Type in a room code to join a room",
+            "CREATE_ROOM": "Create Room",
+            "CREATE_ROOM_TEXT": "Type in a room code to create a room",
             "ROOM_CODE": "Room Code",
+
+            "INVALID_CHANNEL": "Invalid Channel",
+            "INVALID_CHANNEL_TEXT": "The channel does not exist",
+            "ALREADY_IN_CHANNEL": "Already in Channel",
+            "ALREADY_IN_CHANNEL_TEXT": "You are already in this channel",
+            "PASSWORD_REQUIRED": "Password Required",
+            "PASSWORD_REQUIRED_TEXT": "The channel requires a password",
+            "PASSWORD_PLACEHOLDER": "Password",
+            "PASSWORD_PLACEHOLDER_OPTIONAL": "Password (optional)",
+            "INCORRECT_PASSWORD": "Incorrect Password",
+            "INCORRECT_PASSWORD_TEXT": "The password is incorrect",
+            "CHANNEL_EXISTS": "Channel Exists",
+            "CHANNEL_EXISTS_TEXT": "The channel already exists",
+            "INVALID_NAME": "Invalid Name",
+            "INVALID_NAME_TEXT": "The name is invalid (min 1 length, max 5)",
+            "UNKNOWN_ERROR": "Unknown Error",
+            "UNKNOWN_ERROR_TEXT": "An unknown error occurred",
+
             "LEAVE_ROOM": "Leave Room",
             "LEAVE_ROOM_TEXT": "Are you sure you want to leave this room?",
             "NOW": "Now",
@@ -300,7 +321,6 @@
             "USERNAME_TAKEN": "Username is already taken",
             "UNKNOWN": "Unknown error",
             "INVALID_USERNAME": "Username does not exist",
-            "INCORRECT_PASSWORD": "Incorrect password",
             "OK": "OK",
 
             "LEAVE_CHANNEL": {
@@ -552,6 +572,10 @@
                 "TITLE": "Empty Recording",
                 "DESCRIPTION": "You can't send an empty recording",
                 "OK": "OK"
+            },
+            "GROUP_MEMBER_LIMIT_NOTIFICATION": {
+                "TITLE": "Member limit reached",
+                "CONTENT": "You have reached the maximum amount of members in a group ({limit})."
             }
         },
         "PHONE": {
@@ -634,7 +658,11 @@
                 "EMAIL": "Email",
                 "ADDRESS": "Address",
                 "CHANGE_AVATAR": "Change Avatar",
-                "REMOVE_AVATAR": "Remove Avatar"
+                "REMOVE_AVATAR": "Remove Avatar",
+                "RINGTONES": "Ringtones",
+                "RINGTONE": "Ringtone",
+                "DEFAULT": "Default",
+                "BACK": "Back"
             },
             "FAVOURITES": {
                 "TITLE": "Favorites",
@@ -988,6 +1016,7 @@
             "LIKES_YOU_TOO": "likes you too!",
             "KEEP_SWIPING": "Keep swiping",
             "SAY_SOMETHING_NICE": "Say something nice",
+            "TYPE_A_MESSAGE": "Type a message...",
             "NO_MORE": "We've run out of people for you to swipe on, check back later!",
             "SEND": "Send",
             "AGREE_TERMS": "By pressing 'Create Account' you agree to our Terms of Service and Privacy Policy",
@@ -1022,7 +1051,14 @@
             "HIDDEN_WARNING": "Your account is currently hidden. You will not be shown to other users, and not able to swipe.",
             "HIDDEN_PROFILE": "Your profile is not active. You can activate your profile in settings.",
             "SEARCH_MATCHES": "Search Matches",
-            "DELETE_ACCOUNT": "Delete Account"
+            "DELETE_ACCOUNT": "Delete Account",
+            "ERROR": {
+                "TITLE": "Error",
+                "SHORT_NAME": "Issue saving Spark profile, (name needs to be at least 2 characters)",
+                "SHORT_BIO": "Issue saving Spark profile, (bio needs to be at least 5 characters)",
+                "NO_PHOTOS": "Issue saving Spark profile, (no photos)",
+                "OK": "OK"
+            }
         },
         "INSTAGRAM": {
             "TITLE": "InstaPic",
@@ -1368,6 +1404,7 @@
             "NOT_ENOUGH_COINS": "You don't have enough coins",
             "ATLEAST_ONE_COIN": "You must {action} at least one {currency}",
             "INVALID_COIN": "Invalid coin",
+            "TOO_HIGH": "Amount is too high (max {amount})",
             "NO_NUMBER": "No phonenumber provided",
             "INVALID_NUMBER": "Invalid phonenumber (the user may not be online)",
             "ERROR": "Error",
@@ -1679,6 +1716,14 @@
         "FONT_AND_COLOR": "Font & Color"
     },
     "MISC": {
+        "ORDINAL": {
+            "ZERO": "th",
+            "ONE": "st",
+            "TWO": "nd",
+            "FEW": "rd",
+            "MANY": "th",
+            "OTHER": "th"
+        },
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "Error",
             "DESCRIPTION": "You're trying to perform an action that requires internet access, disable airplane mode or get service to continue.",
@@ -1743,13 +1788,13 @@
             "MATCHED_WITH": "You matched with {name}"
         },
         "CAMERA": {
-            "TAKE_PHOTO": "Press {key} to take a photo",
-            "FLIP_CAMERA": "Press {key} to flip the camera",
-            "TOGGLE_FLASH": "Press {key} to toggle the flash",
-            "TOGGLE_CURSOR": "Press {key} to toggle the cursor",
-            "CHANGE_MODE": "Press {key} {key2} to change the mode",
-            "ROLL": "Press {key} {key2} to roll the camera",
-            "FREEZE": "Press {key} to freeze/unfreeze the camera"
+            "TAKE_PHOTO": "{key} take a photo",
+            "FLIP_CAMERA": "{key} flip camera",
+            "TOGGLE_FLASH": "{key} toggle flash",
+            "TOGGLE_CURSOR": "{key} toggle cursor",
+            "CHANGE_MODE": "{key} {key2} change mode",
+            "ROLL": "{key} {key2} roll the camera",
+            "FREEZE": "{key} freeze/unfreeze the camera"
         },
         "SERVICES": {
             "NEW_MESSAGE": "New Message",
