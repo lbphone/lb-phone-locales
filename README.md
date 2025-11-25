@@ -15,30 +15,30 @@ Discord: https://discord.gg/zKfDSem4Sj
 > ---
 
 ## Locales Status:
-*13/25 locales up to date*
+*4/25 locales up to date*
 - ✅ **en.json** (Base Locale)
 - ❌ **ar.json**
-- ✅ **ba.json**
+- ❌ **ba.json**
 - ❌ **cs.json**
 - ✅ **de.json**
 - ❌ **dk.json**
-- ✅ **es.json**
+- ❌ **es.json**
 - ✅ **fr.json**
 - ❌ **hu.json**
 - ❌ **it.json**
-- ✅ **ja.json**
-- ✅ **ko.json**
-- ✅ **nl.json**
+- ❌ **ja.json**
+- ❌ **ko.json**
+- ❌ **nl.json**
 - ❌ **no.json**
 - ❌ **pl.json**
 - ✅ **pt-br.json**
 - ❌ **pt-pt.json**
-- ✅ **ro.json**
+- ❌ **ro.json**
 - ❌ **ru.json**
 - ❌ **sl.json**
 - ❌ **sv.json**
 - ❌ **th.json**
-- ✅ **tr.json**
-- ✅ **ua.json**
-- ✅ **zh-cn.json**
+- ❌ **tr.json**
+- ❌ **ua.json**
+- ❌ **zh-cn.json**
 <!-- Recap End -->
