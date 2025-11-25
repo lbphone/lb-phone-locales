@@ -6,14 +6,6 @@ Please refer to the [Contributing Guidelines](https://github.com/lbphone/lb-phon
 
 Discord: https://discord.gg/zKfDSem4Sj
 
-> [!NOTE]
-> If contributing for the beta version of lb-phone, please set the base branch in the pull request to `beta-v24`.
->
-> ---
-> <img width="1233" height="177" alt="image" src="https://github.com/user-attachments/assets/e6c5bac0-a4f5-4340-81d8-121c9a00c65d" />
->
-> ---
-
 ## Locales Status:
 *4/25 locales up to date*
 - ✅ **en.json** (Base Locale)
