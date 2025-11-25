@@ -1824,7 +1824,7 @@
 
             "LOGGED_OUT_PASSWORD": {
                 "TITLE": "You were logged out",
-                "DESCRIPTION": "You were logged out from your account sincce your password was changed."
+                "DESCRIPTION": "You were logged out from your account since your password was changed."
             },
 
             "DELETED_NOTIFICATION": {
