@@ -270,10 +270,31 @@
             "CANCEL": "Odustani",
             "SET": "Postavi",
             "JOIN": "Pridruži se",
+			"CREATE": "Kreiraj",
             "LEAVE": "Napusti",
-            "NEW_ROOM": "Nova soba",
-            "NEW_ROOM_TEXT": "Upiši šifru sobe da se pridružiš ili da kreiraš novu",
+            "JOIN_ROOM": "Uđi u sobu",
+            "JOIN_ROOM_TEXT": "Pošalji poruku da se pridružiš",
+            "CREATE_ROOM": "Kreiraj sobu",
+            "CREATE_ROOM_TEXT": "Upiši kod sobe da kreiraš",
             "ROOM_CODE": "Šifra sobe",
+			
+			"INVALID_CHANNEL": "Nepostojeći kanal",
+            "INVALID_CHANNEL_TEXT": "Kanal ne postoji",
+            "ALREADY_IN_CHANNEL": "Već ste u kanalu",
+            "ALREADY_IN_CHANNEL_TEXT": "Već se nalazite u ovom kanalu",
+            "PASSWORD_REQUIRED": "Šifra neophodna",
+            "PASSWORD_REQUIRED_TEXT": "Ovaj kanal zahtjeva šifru",
+            "PASSWORD_PLACEHOLDER": "Šifra",
+            "PASSWORD_PLACEHOLDER_OPTIONAL": "Šifra (opcionalno)",
+            "INCORRECT_PASSWORD": "Pogrešna šifra",
+            "INCORRECT_PASSWORD_TEXT": "Šifra je netačna",
+            "CHANNEL_EXISTS": "Kanal postoji",
+            "CHANNEL_EXISTS_TEXT": "Kanal već postoji",
+            "INVALID_NAME": "Nemoguće ime",
+            "INVALID_NAME_TEXT": "Ime nije ispravno (min 1, max 5)",
+            "UNKNOWN_ERROR": "Nepoznata greška",
+            "UNKNOWN_ERROR_TEXT": "Desila se nepoznata greška",
+			
             "LEAVE_ROOM": "Napusti sobu",
             "LEAVE_ROOM_TEXT": "Da li ste sigurni da želite napustiti sobu?",
             "NOW": "Sada",
@@ -300,7 +321,6 @@
             "USERNAME_TAKEN": "To ime se već koristi",
             "UNKNOWN": "Nepoznata greška",
             "INVALID_USERNAME": "Korisničko ime ne postoji",
-            "INCORRECT_PASSWORD": "Pogrešna šifra",
             "OK": "OK",
 
             "LEAVE_CHANNEL": {
@@ -552,6 +572,10 @@
                 "TITLE": "Prazan snimak",
                 "DESCRIPTION": "Ne možete slati prazne snimke",
                 "OK": "OK"
+            },
+			"GROUP_MEMBER_LIMIT_NOTIFICATION": {
+                "TITLE": "Limit članova",
+                "CONTENT": "Limit članova je dostignut - ({limit})."
             }
         },
         "PHONE": {
@@ -634,7 +658,11 @@
                 "EMAIL": "Email",
                 "ADDRESS": "Adresa",
                 "CHANGE_AVATAR": "Izmjeni avatar",
-                "REMOVE_AVATAR": "Obrisi avatar"
+                "REMOVE_AVATAR": "Obrisi avatar",
+				"RINGTONES": "Zvona",
+                "RINGTONE": "Zvono",
+                "DEFAULT": "Default",
+                "BACK": "Nazad"
             },
             "FAVOURITES": {
                 "TITLE": "Omiljeni",
@@ -987,7 +1015,8 @@
             "TITLE": "Spark",
             "LIKES_YOU_TOO": "je Vaš par!",
             "KEEP_SWIPING": "Nastavi dalje",
-            "SAY_SOMETHING_NICE": "Recite joj nešto lijepo",
+            "SAY_SOMETHING_NICE": "Recite nešto lijepo",
+			"TYPE_A_MESSAGE": "Upišite poruku...",
             "NO_MORE": "Trenutno ne postoji više profila koje niste vidjeli, pokušajte kasnije!",
             "SEND": "Pošalji",
             "AGREE_TERMS": "Stiskanjem na 'Kreiraj nalog' slažete se sa Uslovima korištenja i Politikom privatnosti",
@@ -1022,7 +1051,14 @@
             "HIDDEN_WARNING": "Vaš nalog je trenutno skriven. Nećete biti vidljivi drugima i nećete moći swipeati.",
             "HIDDEN_PROFILE": "Vaš nalog nije aktiviran. Možete aktivirati Vaš nalog u postavkama.",
             "SEARCH_MATCHES": "Pretraži pogotke",
-            "DELETE_ACCOUNT": "Obriši nalog"
+            "DELETE_ACCOUNT": "Obriši nalog",
+			"ERROR": {
+                "TITLE": "Greška",
+                "SHORT_NAME": "Greška pri čuvanju Spark profila, (ime mora biti duže od 2 slova)",
+                "SHORT_BIO": "Greška pri čuvanju Spark profila, (biografija mora biti duža od 5 slova)",
+                "NO_PHOTOS": "Greška pri čuvanju Spark profila, (nema slika)",
+                "OK": "OK"
+            }
         },
         "INSTAGRAM": {
             "TITLE": "InstaPic",
@@ -1247,7 +1283,7 @@
             "ALL": "Sve",
             "NOTIFICATIONS": "Notifikacije",
             "FOLLOWS_YOU": "Vas je zapratio",
-            "JOINED": "Pridruzio se {date}",
+            "JOINED": "Pridružio se {date}",
 			"PINNED_POST": "Prikvačena objava",
             "LIKED_TWEET": "je likeovao Vašu objavu",
             "RETWEETED_TWEET": "je repostovao Vašu objavu",
@@ -1368,6 +1404,7 @@
             "NOT_ENOUGH_COINS": "Nemate dovoljan broj coina",
             "ATLEAST_ONE_COIN": "Morate {action} minimalno jedan {currency}",
             "INVALID_COIN": "Nepostojeći coin",
+			"TOO_HIGH": "Količina je prevelika (max {amount})",
             "NO_NUMBER": "Broj telefona nije upisan",
             "INVALID_NUMBER": "Pogrešan broj telefona (korisnik možda nije aktivan)",
             "ERROR": "Greška",
@@ -1679,6 +1716,14 @@
         "FONT_AND_COLOR": "Font & Boja"
     },
     "MISC": {
+		"ORDINAL": {
+            "ZERO": ".",
+            "ONE": ".",
+            "TWO": ".",
+            "FEW": ".",
+            "MANY": ".",
+            "OTHER": "."
+        },
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "Greška",
             "DESCRIPTION": "Za ovo Vam je potrebna internetska konekcija, isključite avionski režim rada.",
@@ -1743,13 +1788,13 @@
             "MATCHED_WITH": "Upareni ste sa {name}"
         },
         "CAMERA": {
-            "TAKE_PHOTO": "Stisni {key} da uslikate",
-            "FLIP_CAMERA": "Stisni {key} da okrenete kameru",
-            "TOGGLE_FLASH": "Stisni {key} da ugasite blic",
-            "TOGGLE_CURSOR": "Stisni {key} da maknete kursor, i da gledate uokolo",
-            "CHANGE_MODE": "Stisni {key} {key2} da promjenite mod kamere",
-            "ROLL": "Stisni {key} {key2} da okrenete kameru",
-            "FREEZE": "Stisni {key} da zaledite/odledite kameru"
+            "TAKE_PHOTO": "{key} da uslikate",
+            "FLIP_CAMERA": "{key} da okrenete kameru",
+            "TOGGLE_FLASH": "{key} da ugasite blic",
+            "TOGGLE_CURSOR": "{key} da maknete kursor, i da gledate uokolo",
+            "CHANGE_MODE": "{key} {key2} da promjenite mod kamere",
+            "ROLL": "{key} {key2} da okrenete kameru",
+            "FREEZE": "{key} da zaledite/odledite kameru"
         },
         "SERVICES": {
             "NEW_MESSAGE": "Nova poruka",
