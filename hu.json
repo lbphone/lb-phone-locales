@@ -232,7 +232,7 @@
             "CANCEL": "Mégsem",
             "SELECT_ITEMS": "Elemek kiválasztása",
             "SELECTED_COUNT": "{count} Elem kiválasztva",
-            "PHOTO_COUNT": "{count} fotó",
+            "PHOTO_COUNT": "{amount} fotó",
 
             "DELETE_TITLE": "{count} kép törlése",
             "DELETE_TEXT": "Biztosan kitörölsz {count} képet?",

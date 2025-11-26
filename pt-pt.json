@@ -388,7 +388,7 @@
 
             "NO_PHOTOS": "Sem fotos ou videos",
             "NO_PHOTOS_INSTRUCTIONS": "Pode captar fotos ou videos usando a camera",
-            "PHOTO_COUNT": "{photos} Fotos",
+            "PHOTO_COUNT": "{amount} Fotos",
             "VIDEO_COUNT": "{amount} Videos",
 
             "DELETE_CONTEXT_TITLE": "Quer apagar {type} ou remove-los deste album",
@@ -1311,7 +1311,7 @@
             "NO_MONEY": "Não tem dinheiro",
             "NO_COINS": "Não tem nenhuma moeda.",
             "NOT_ENOUGH_COINS": "Não tem moedas suficientes",
-            "ATLEAST_ONE_COIN": "É necessário {action} pelo menos 1 moeda.",
+            "ATLEAST_ONE_COIN": "É necessário {action} pelo menos 1 {currency}.",
             "INVALID_COIN": "Moeda inválida",
             "NO_NUMBER": "Não foi fornecido numero de telefone",
             "INVALID_NUMBER": "Numero de telefone inválido (O destinatário pode estar offline)",

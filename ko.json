@@ -1,0 +1,1863 @@
+{
+    "LABEL": "한국어",
+    "SEARCH": "검색",
+    "CANCEL": "취소",
+    "NOW": "지금",
+    "D": "일",
+    "H": "시간",
+    "M": "분",
+    "S": "초",
+    "SECONDS": "초",
+    "MINUTES": "분",
+    "HOURS": "시간",
+
+    "APP_NAMES": {
+        "Phone": "전화",
+        "Messages": "메시지",
+        "Notes": "메모",
+        "Settings": "설정",
+        "Photos": "사진",
+        "Camera": "카메라",
+        "Weather": "날씨",
+        "Calculator": "계산기",
+        "AppStore": "앱",
+        "Clock": "시계",
+        "Maps": "지도",
+        "YellowPages": "페이지",
+        "MarketPlace": "마켓플레이스",
+        "Wallet": "지갑",
+        "Home": "홈",
+        "Garage": "차고",
+        "Music": "음악",
+        "DarkChat": "다크 채팅",
+        "Crypto": "암호화폐",
+        "Mail": "메일",
+        "Services": "서비스",
+        "VoiceMemo": "음성 메모",
+        "Twitter": "버디",
+        "Instagram": "인스타픽",
+        "Tinder": "스파크",
+        "TikTok": "트렌디"
+    },
+
+    "APPS": {
+        "SETTINGS": {
+            "TITLE": "설정",
+            "BACK": "뒤로",
+            "DONE": "완료",
+            "EDIT": "편집",
+            "AIRPLANE_MODE": "비행기 모드",
+            "AIRPLANE_MODE_DESCRIPTION": "통화, 셀룰러 데이터 등을 비활성화합니다.",
+            "STREAMER_MODE": "스트리머 모드",
+            "STREAMER_MODE_DESCRIPTION": "민감한 정보를 흐리게 처리합니다",
+            "GENERAL": "일반",
+            "GENERAL_DESCRIPTION": "휴대폰의 일반 설정",
+            "ABOUT": "정보",
+            "NAME": "이름",
+            "VERSION": "버전",
+            "MODEL_NAME": "모델명",
+            "SERIAL_NUMBER": "일련번호",
+            "DEVELOPED_BY": "개발자",
+            "PURCHASE_AT": "구매처",
+            "SONGS": "노래",
+            "VIDEOS": "동영상",
+            "PHOTOS": "사진",
+            "APPLICATIONS": "애플리케이션",
+            "CAPACITY": "용량",
+            "AVAILABLE": "사용 가능",
+            "SOFTWARE_UPDATE": "소프트웨어 업데이트",
+            "AUTOMATIC_UPDATES": "자동 업데이트",
+            "DATE_TIME": "날짜 및 시간",
+            "24_HOUR_TIME": "24시간 형식",
+            "SET_AUTOMATICALLY": "자동 설정",
+            "TIME_ZONE": "시간대",
+            "LANGUAGE_REGION": "언어 및 지역",
+            "LANGUAGE": "언어",
+            "TEMPERATURE": "온도",
+            "CELCIUS": "섭씨",
+            "FAHRENHEIT": "화씨",
+            "BATTERY": "배터리",
+            "BATTERY_DESCRIPTION": "배터리 수명 및 사용량 보기",
+            "SOUND_HAPTICS": "사운드 및 햅틱",
+            "SOUND_HAPTICS_DESCRIPTION": "소리 및 진동 변경",
+            "SOUND_HAPTICS_PATTERNS": "사운드 및 햅틱 패턴",
+            "RINGTONE": "벨소리",
+            "TEXT_TONE": "문자 알림음",
+            "RINGTONE_VOLUME": "벨소리 및 알림 볼륨",
+            "CALL_VOLUME": "통화 볼륨",
+            "DEFAULT": "기본",
+            "PHONE_STORAGE": "휴대폰 저장공간",
+            "STORAGE": "저장공간",
+            "USED": "사용됨",
+            "OF": "/",
+            "DISPLAY_BRIGHTNESS": "디스플레이 및 밝기",
+            "DISPLAY_BRIGHTNESS_DESCRIPTION": "디스플레이 및 밝기 조정",
+            "DARK": "다크",
+            "LIGHT": "라이트",
+            "APPEARANCE": "모양",
+            "AUTOMATIC": "자동",
+            "BRIGHTNESS": "밝기",
+            "PHONE_SCALE": "휴대폰 크기",
+            "FRAME_COLOR": "프레임 색상",
+            "WALLPAPER": "배경화면",
+            "WALLPAPER_DESCRIPTION": "배경화면 및 기타 배경 설정 변경",
+            "WALLPAPERS": "배경화면",
+            "CHOOSE_NEW_WALLPAPER": "새 배경화면 선택",
+            "NOTIFICATIONS": "알림",
+            "NOTIFICATIONS_DESCRIPTION": "알림을 보낼 수 있는 앱 선택",
+            "ALLOW_NOTIFICATIONS": "알림 허용",
+            "SOUNDS": "소리",
+            "PHONE": "전화",
+            "PHONE_DESCRIPTION": "발신자 표시 전환, 번호 차단 등",
+            "BLOCKED_CONTACTS": "차단된 연락처",
+            "MY_NUMBER": "내 번호",
+            "SHOW_CALLER_ID": "발신자 표시",
+            "UNBLOCK_POPUP": {
+                "TITLE": "번호 차단 해제",
+                "TEXT": "이 번호의 차단을 해제하시겠습니까?",
+                "CANCEL": "취소",
+                "CONFIRM": "차단 해제"
+            },
+            "FACE_ID_PASSWORD": "얼굴 잠금 해제 및 비밀번호",
+            "FACE_ID_PASSWORD_DESCRIPTION": "휴대폰 보안",
+            "ENTER_PASSCODE": "비밀번호 입력",
+            "PASSCODE": "비밀번호",
+            "FACE_ID": "얼굴 잠금 해제",
+            "RESET_FACE_ID": "얼굴 잠금 해제 재설정",
+            "ENABLE_FACE_ID": "얼굴 잠금 해제 활성화",
+            "PIN_CODE": "핀 코드",
+            "PIN_CODE_ERROR": {
+                "TITLE": "오류",
+                "WRONG": "잘못된 핀 코드",
+                "OK": "확인"
+            },
+            "DISABLE_FACE_ID_POPUP": {
+                "TITLE": "얼굴 잠금 해제 끄기",
+                "TEXT": "얼굴 잠금 해제를 끄시겠습니까?",
+                "CANCEL": "취소",
+                "CONFIRM": "끄기"
+            },
+            "ENABLE_FACE_ID_POPUP": {
+                "TITLE": "얼굴 잠금 해제 활성화",
+                "TEXT": "얼굴 잠금 해제를 활성화하시겠습니까?",
+                "CANCEL": "취소",
+                "CONFIRM": "활성화"
+            },
+            "DISABLE_PIN_POPUP": {
+                "TITLE": "핀 코드 끄기",
+                "TEXT": "핀 코드를 끄시겠습니까? (얼굴 잠금 해제도 비활성화됩니다)",
+                "CANCEL": "취소",
+                "CONFIRM": "확인"
+            },
+            "TURN_PASSCODE_OFF": "비밀번호 끄기",
+            "TURN_PASSCODE_ON": "비밀번호 켜기",
+            "CHANGE_PASSCODE": "비밀번호 변경",
+            "CLOUD_BACKUP": "휴대폰에서 가져오기",
+            "YOUR_PROFILE": "내 프로필",
+            "CREATE_BACKUP": "백업 생성",
+            "BACKUPS": "가져오기",
+            "SAVE_BACKUP_POPUP": {
+                "TITLE": "가져오기",
+                "TEXT": "데이터 백업을 저장하시겠습니까? (연락처, 사진 및 설정이 저장됩니다)",
+                "CANCEL": "취소",
+                "CONFIRM": "저장"
+            },
+            "APPLY_BACKUP_POPUP": {
+                "TITLE": "가져오기",
+                "TEXT": "이 휴대폰에서 가져오시겠습니까? (연락처, 사진 및 설정을 덮어씁니다)",
+                "CANCEL": "취소",
+                "CONFIRM": "적용"
+            },
+            "BACKUP_ERROR_POPUP": {
+                "WARNING": "경고",
+                "ERROR": "오류",
+                "ALREADY_HAVE": "이 번호에 대한 가져오기가 이미 있습니다",
+                "SAME_PHONE": "같은 휴대폰에서 가져올 수 없습니다",
+                "OK": "확인"
+            },
+            "SUCCESS": "성공",
+            "SUCCESS_TEXT": "5초 후 휴대폰이 재시작됩니다...",
+            "OK": "확인",
+            "ON": "켜짐",
+            "OFF": "꺼짐",
+            "REMOVE_BACKUP_POPUP": {
+                "TITLE": "가져오기 제거",
+                "TEXT": "이 가져오기를 제거하시겠습니까?",
+                "CANCEL": "취소",
+                "CONFIRM": "제거"
+            },
+            "RESET_POPUP": {
+                "TITLE": "휴대폰 초기화",
+                "TEXT": "휴대폰을 초기화하시겠습니까? [모든 것이 삭제됩니다]",
+                "CANCEL": "취소",
+                "CONFIRM": "초기화"
+            },
+            "UP_TO_DATE": "휴대폰이 최신 상태입니다",
+            "BLUR_HOMESCREEN": "홈 화면 흐리게"
+        },
+        "NOTES": {
+            "TITLE": "메모",
+            "SEARCH_PLACEHOLDER": "검색",
+            "FOOTER": "{amount}개의 메모",
+            "NEW_NOTE": "새 메모",
+            "LAST_EDITED": "마지막 편집: {date}",
+            "DELETE_TITLE": "{title} 삭제",
+            "DELETE_TEXT": "'{title}'을(를) 삭제하시겠습니까?",
+            "BUTTON_CANCEL": "취소",
+            "BUTTON_DELETE": "삭제"
+        },
+        "CLOCK": {
+            "WORLDCLOCK": {
+                "TITLE": "세계 시계",
+                "TODAY": "오늘",
+                "TOMORROW": "내일",
+                "YESTERDAY": "어제",
+                "LOCAL_TIME": "현지 시간",
+                "HRS": "{time}시간"
+            },
+            "ALARM": {
+                "TITLE": "알람",
+                "ADD": "알람 추가",
+                "CANCEL": "취소",
+                "EDIT": "편집",
+                "DONE": "완료",
+                "SAVE": "저장",
+                "LABEL": "라벨",
+                "SOUND": "소리",
+                "SNOOZE": "다시 알림",
+                "DELETE_TITLE": "알람 삭제",
+                "DELETE_TEXT": "이 알람을 삭제하시겠습니까?",
+                "BUTTON_CANCEL": "취소",
+                "BUTTON_DELETE": "삭제",
+                "ALARMS": "알람",
+                "NEW_ALARM": "새 알람",
+                "EDIT_ALARM": "알람 편집"
+            },
+            "STOPWATCH": {
+                "TITLE": "스톱워치",
+                "START": "시작",
+                "STOP": "정지",
+                "RESET": "재설정",
+                "LAP": "랩",
+                "TIME": "시간",
+                "TOTAL": "총계",
+                "NO_LAPS": "랩 없음"
+            },
+            "TIMER": {
+                "TITLE": "타이머",
+                "START": "시작",
+                "STOP": "정지",
+                "CANCEL": "취소",
+                "HOURS": "시간",
+                "MINUTES": "분",
+                "SECONDS": "초",
+                "NO_RECENTS": "최근 항목 없음"
+            },
+            "ALERT": {
+                "STOP": "정지",
+                "RESTART": "다시 시작"
+            }
+        },
+        "CAMERA": {
+            "VIDEO": "동영상",
+            "PHOTO": "사진",
+            "LANDSCAPE": "가로",
+            "UPLOADING": "업로드 중"
+        },
+        "DARKCHAT": {
+            "TITLE": "다크 채팅",
+            "SEARCH": "채널 검색",
+            "CANCEL": "취소",
+            "SET": "설정",
+            "JOIN": "참가",
+            "LEAVE": "나가기",
+            "NEW_ROOM": "새 방",
+            "NEW_ROOM_TEXT": "방에 참가하거나 생성하려면 방 코드를 입력하세요",
+            "ROOM_CODE": "방 코드",
+            "LEAVE_ROOM": "방 나가기",
+            "LEAVE_ROOM_TEXT": "이 방을 나가시겠습니까?",
+            "NOW": "지금",
+            "INPUT_PLACEHOLDER": "메시지 입력...",
+            "NO_CHATS": "채팅 없음",
+            "NO_CHATS_TEXT": "아직 채널에 참가하지 않았습니다. 오른쪽 상단의 더하기 기호를 눌러 참가/생성하세요.",
+            "MEMBER": "멤버",
+            "MEMBERS": "멤버",
+
+            "USERNAME": "사용자명",
+            "PASSWORD": "비밀번호",
+            "LOGIN": "로그인",
+            "SIGN_UP": "가입",
+            "NO_ACCOUNT": "계정이 없으신가요?",
+            "ALREADY_HAVE": "이미 계정이 있으신가요?",
+            "USERNAME_NOT_ALLOWED": "허용되지 않는 사용자명",
+
+            "CHANGE_ACCOUNT": "계정 변경",
+            "CHANGE_PASSWORD": "비밀번호 변경",
+            "DELETE_ACCOUNT": "계정 삭제",
+
+            "ERROR": "오류",
+            "INVALID_LENGTH": "비밀번호는 최소 3자 이상이어야 합니다",
+            "USERNAME_TAKEN": "이미 사용 중인 사용자명입니다",
+            "UNKNOWN": "알 수 없는 오류",
+            "INVALID_USERNAME": "존재하지 않는 사용자명",
+            "INCORRECT_PASSWORD": "잘못된 비밀번호",
+            "OK": "확인",
+
+            "LEAVE_CHANNEL": {
+                "TITLE": "채널 나가기",
+                "DESCRIPTION": "이 채널을 나가시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "나가기"
+            },
+
+            "SET_PASSWORD_POPUP": {
+                "TITLE": "비밀번호 설정",
+                "DESCRIPTION": "계정 비밀번호를 설정해야 합니다",
+                "PLACEHOLDER": "비밀번호"
+            }
+        },
+        "APPSTORE": {
+            "TITLE": "앱",
+            "SEARCH": "검색",
+            "GET": "받기",
+            "OPEN": "열기",
+            "TODAY": "오늘",
+            "POPULAR_APPS": "인기 앱",
+            "GAMES": "게임",
+            "APPS": "앱",
+            "WHAT_WE_PLAYING": "우리가 플레이하는 것",
+            "INFORMATION": "정보",
+            "PROVIDER": "제공자",
+            "SIZE": "크기",
+            "COMPATIBILITY": "호환성",
+            "IN_APP_PURCHASES": "인앱 구매",
+            "WORKS_WITH_PHONE": "이 휴대폰과 호환",
+            "NO": "아니요",
+            "YES": "예",
+            "PURCHASE_APP_POPUP": {
+                "TITLE": "앱 구매",
+                "DESCRIPTION": "{app}을(를) {price}에 구매하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "구매"
+            }
+        },
+        "PHOTOS": {
+            "TITLE": "사진",
+            "SELECT": "선택",
+            "CANCEL": "취소",
+            "PROCEED": "계속",
+            "OK": "확인",
+            "EDIT": "편집",
+            "DONE": "완료",
+            "DELETE": "삭제",
+            "SELECT_ITEMS": "항목 선택",
+            "SELECTED_COUNT": "{count}개 항목 선택됨",
+
+            "PHOTOS": "사진",
+            "ALBUMS": "앨범",
+            "LIBRARY": "라이브러리",
+            "GALLERY": "갤러리",
+            "MY_ALBUMS": "내 앨범",
+            "SHARED_ALBUMS": "공유 앨범",
+            "MEDIA_TYPES": "미디어 유형",
+            "MANAGE_MEMBERS": "멤버 관리",
+            "NEW_ALBUM_POPUP": {
+                "TITLE": "새 앨범",
+                "DESCRIPTION": "이 앨범의 이름을 입력하세요",
+                "PLACEHOLDER": "제목",
+                "CANCEL": "취소",
+                "PROCEED": "저장"
+            },
+            "REMOVE_ALBUM": {
+                "TITLE": "\"{name}\" 제거",
+                "DESCRIPTION": "\"{name}\" 앨범을 삭제하시겠습니까? 사진은 삭제되지 않습니다"
+            },
+            "LEAVE_SHARED_ALBUM": {
+                "TITLE": "\"{name}\" 나가기",
+                "DESCRIPTION": "\"{name}\" 앨범을 나가시겠습니까? 더 이상 사진을 업로드할 수 없습니다"
+            },
+            "RENAME_ALBUM_POPUP": {
+                "TITLE": "앨범 이름 변경",
+                "DESCRIPTION": "이 앨범의 새 이름을 입력하세요",
+                "PLACEHOLDER": "새 앨범 이름",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "DELETE_IMAGE_POPUP": {
+                "TITLE": "이미지 삭제",
+                "DESCRIPTION": "이 이미지를 삭제하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "삭제"
+            },
+            "IMPORT_IMAGE_POPUP": {
+                "TITLE": "앨범으로 가져오기",
+                "DESCRIPTION": "이 앨범으로 이미지 가져오기",
+                "CANCEL": "취소",
+                "PROCEED": "가져오기",
+                "PLACEHOLDER": "이미지 URL"
+            },
+            "ERROR": "오류",
+            "SUCCESS": "성공",
+            "CONTACT_ALREADY_IN_ALBUM": "연락처가 이미 앨범에 있습니다",
+            "CONTACT_ADDED_TO_ALBUM": "연락처가 앨범에 추가되었습니다",
+            "MEMBERS": "{count}명의 멤버",
+            "INVITE": "초대",
+            "LEAVE_ALBUM": "앨범 나가기",
+            "CREATE_SHARED_ALBUM": "공유 앨범 만들기",
+            "MANAGE_SHARED_ALBUM": "공유 앨범 관리",
+            "REMOVE_MEMBER": {
+                "TITLE": "멤버 제거",
+                "DESCRIPTION": "앨범에서 이 멤버를 제거하시겠습니까?",
+                "SUCCESS": "앨범에서 멤버가 제거되었습니다"
+            },
+
+            "NO_PHOTOS": "사진 또는 동영상 없음",
+            "NO_PHOTOS_INSTRUCTIONS": "카메라를 사용하여 사진과 동영상을 찍을 수 있습니다",
+            "PHOTO_COUNT": "{amount}장의 사진",
+            "VIDEO_COUNT": "{amount}개의 동영상",
+
+            "DELETE_CONTEXT_TITLE": "{type}을(를) 삭제하시겠습니까, 아니면 이 앨범에서 제거하시겠습니까?",
+            "THESE_PHOTOS": "이 사진들",
+            "THIS_PHOTO": "이 사진",
+            "REMOVE_FROM_ALBUM": "앨범에서 제거",
+            "ADD_TO_ALBUM": "앨범에 추가",
+            "ADD_TO_FAVOURITES": "즐겨찾기에 추가",
+            "REMOVE_FROM_FAVOURITES": "즐겨찾기에서 제거",
+            "VIDEOS": "동영상",
+            "SELFIES": "셀카",
+            "SCREENSHOTS": "스크린샷",
+            "IMPORTS": "가져오기",
+            "DUPLICATES": "중복",
+            "YEARS": "연도",
+            "MONTHS": "월",
+            "DAYS": "일",
+            "ALL_PHOTOS": "모든 사진",
+
+            "FAVOURITES": "즐겨찾기",
+            "RECENTS": "최근 항목"
+        },
+        "WEATHER": {
+            "TITLE": "날씨",
+            "HOURLY_FORECAST": "시간별 예보",
+            "NOW": "현재",
+            "FEELS_LIKE": "체감",
+            "FEELS_LIKE_SAME": "실제 온도와 비슷합니다.",
+            "FEELS_LIKE_HUMIDITY": "습도로 인해 더 따뜻하게 느껴집니다",
+            "FEELS_LIKE_WIND": "바람으로 인해 더 시원하게 느껴집니다",
+            "SUNRISE": "일출",
+            "SUNSET": "일몰",
+            "WIND": "바람",
+            "PRECIPITATION": "강수량",
+            "LAST_24H": "지난 24시간",
+            "EXPECTED_24H": "향후 24시간 예상",
+            "TYPES": {
+                "CLOUDY": "흐림",
+                "LIGHT_RAIN": "가벼운 비",
+                "HEAVY_RAIN": "폭우",
+                "RAIN": "비",
+                "SNOW": "눈",
+                "FOG": "안개",
+                "CLEAR": "맑음",
+                "MOSTLY_CLEAR": "대체로 맑음",
+                "THUNDER": "천둥",
+                "TORNADO": "토네이도",
+                "WINDY": "바람 많음"
+            }
+        },
+        "MESSAGES": {
+            "TITLE": "메시지",
+            "NEW_MESSAGE": "새 메시지",
+            "PEOPLE": "사람",
+            "MEMBERS": "멤버",
+            "OTHER": "기타",
+            "SENT_A_PHOTO": "사진을 보냈습니다",
+            "SENT_AUDIO_MESSAGE": "음성 메시지를 보냈습니다",
+            "SENT": "전송됨",
+            "REQUESTED": "요청됨",
+            "MISSED_CALL": "{number}에서 전화를 시도했으나 받지 않았습니다. 번호를 눌러 다시 전화하세요",
+            "NOT_DELIVERED": "전송되지 않음",
+            "PLACEHOLDER": "문자 메시지",
+            "DONE": "완료",
+            "EDIT": "편집",
+            "READ": "읽음",
+            "CANCEL": "취소",
+            "SEND": "보내기",
+            "UNKNOWN": "알 수 없음",
+            "TO": "받는 사람",
+            "SEARCH": "검색",
+            "ADD_MEMBER": "멤버 추가",
+            "SHARE_LOCATION": "내 위치 공유",
+            "LEAVE_GROUP": "그룹 나가기",
+            "SENT_LOCATION": "위치를 공유했습니다. 클릭하여 지도에서 열기",
+            "SENT_LOCATION_SHORT": "위치를 공유했습니다",
+            "TRIED_TO_CALL": "{number}에서 전화를 시도했습니다",
+            "DELETE": "삭제",
+            "GROUP": "그룹",
+            "GROUP_NAME": "그룹 이름",
+            "REMOVE_POPUP": {
+                "TITLE": "멤버 제거",
+                "TEXT": "{name}을(를) 그룹에서 제거하시겠습니까?",
+                "REMOVE": "제거"
+            },
+            "LEAVE_POPUP": {
+                "TITLE": "그룹 나가기",
+                "TEXT": "이 그룹을 나가시겠습니까?",
+                "LEAVE": "나가기"
+            },
+            "ADD_POPUP": {
+                "TITLE": "멤버 추가",
+                "TEXT": "'{name}' 그룹에 추가할 번호를 입력하세요",
+                "ADD": "추가"
+            },
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "위치 공유",
+                "TEXT": "위치를 공유하시겠습니까?",
+                "CANCEL": "취소",
+                "SEND": "보내기"
+            },
+            "PAY": {
+                "REQUEST": "요청",
+                "REQUESTED": "요청됨",
+                "PAY": "지불",
+                "SEND": "보내기",
+                "SEND_TITLE": "{amount} 보내기",
+                "SEND_DESCRIPTION": "{name}에게 {amount}을(를) 보내시겠습니까?",
+                "SEND_BUTTON_CANCEL": "취소",
+                "SEND_BUTTON_SEND": "보내기"
+            },
+            "PAYMENT_FAILED_POPUP": {
+                "TITLE": "결제 실패",
+                "DESCRIPTION": "오류: {error}",
+                "CLOSE": "닫기"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "대화 삭제",
+                "DESCRIPTION": "이 대화를 삭제하시겠습니까?",
+                "CANCEL": "취소",
+                "DELETE": "삭제"
+            },
+            "REMOVE_AVATAR_POPUP": {
+                "TITLE": "아바타 제거",
+                "DESCRIPTION": "그룹 아바타를 제거하시겠습니까?",
+                "CANCEL": "취소",
+                "REMOVE": "제거"
+            },
+            "MARK_AS_READ": "읽음으로 표시",
+            "MESSAGE_DELETED": "메시지가 삭제되었습니다",
+            "OPEN_IN_MAPS": "지도에서 열기",
+            "USERS_LOCATION": "{user}의 위치",
+            "START_RECORDING": "버튼을 눌러 녹음 시작",
+            "LOADING": "로딩 중...",
+            "EMPTY_RECORDING": {
+                "TITLE": "빈 녹음",
+                "DESCRIPTION": "빈 녹음을 보낼 수 없습니다",
+                "OK": "확인"
+            }
+        },
+        "PHONE": {
+            "TITLE": "전화",
+            "DONE": "완료",
+            "EDIT": "편집",
+            "CANCEL": "취소",
+            "CALL": {
+                "CALL_TITLE": "{name}에게 전화",
+                "CALL_TEXT": "{name}에게 전화하시겠습니까?",
+                "CALL_BUTTON_CANCEL": "취소",
+                "CALL_BUTTON_CALL": "전화",
+                "NO_CALLER_ID": "발신자 번호 표시 안 함",
+                "UNKNOWN": "알 수 없음",
+                "USER_BUSY": "사용자 통화 중",
+                "USER_UNAVAILABLE": "사용자 응답 없음",
+                "CALL_BACK": "다시 전화",
+                "DECLINE": "거절",
+                "ACCEPT": "수락",
+                "END": "종료",
+                "VIDEO_CALL": "영상 통화",
+                "MUTE": "음소거",
+                "KEYPAD": "키패드",
+                "SPEAKER": "스피커",
+                "ADD_CALL": "통화 추가",
+                "VIDEO": "영상",
+                "CONTACTS": "연락처",
+                "MOBILE": "휴대전화",
+                "VIDEO_CALL_REQUEST": {
+                    "TITLE": "영상 통화 요청",
+                    "DESCRIPTION": "영상 통화를 수락하시겠습니까?",
+                    "CANCEL": "취소",
+                    "PROCEED": "수락"
+                },
+                "REQUEST_VIDEO": {
+                    "TITLE": "영상 통화",
+                    "DESCRIPTION": "영상 통화를 시작하시겠습니까?",
+                    "CANCEL": "취소",
+                    "PROCEED": "계속"
+                },
+                "STOP_VIDEO": {
+                    "TITLE": "영상 중지",
+                    "DESCRIPTION": "영상 공유를 중지하시겠습니까?",
+                    "CANCEL": "취소",
+                    "PROCEED": "중지"
+                }
+            },
+            "CONTACTS": {
+                "TITLE": "연락처",
+                "FIRST_NAME": "이름",
+                "LAST_NAME": "성",
+                "PHONE_NUMBER": "전화번호",
+                "MY_CARD": "내 카드",
+                "ADD_PHOTO": "사진 추가",
+                "REMOVE_CONTACT_TITLE": "연락처 제거",
+                "REMOVE_CONTACT_TEXT": "이 연락처를 제거하시겠습니까?",
+                "REMOVE_CONTACT_BUTTON_CANCEL": "취소",
+                "REMOVE_CONTACT_BUTTON_DELETE": "삭제",
+                "DELETE_CONTACT": "연락처 삭제",
+                "MESSAGE": "메시지",
+                "CALL": "전화",
+                "VIDEO": "영상",
+                "SHARE": "공유",
+                "MAIN": "메인",
+                "SHARE_CONTACT": "연락처 공유",
+                "SHARE_LOCATION": "내 위치 공유",
+                "REMOVE_FAVORITE": "즐겨찾기에서 제거",
+                "ADD_FAVORITE": "즐겨찾기에 추가",
+                "ADD_CONTACT": "연락처에 추가",
+                "UNBLOCK_CALLER": "발신자 차단 해제",
+                "BLOCK_CALLER": "발신자 차단",
+                "UNBLOCK_NUMBER_TITLE": "번호 차단 해제",
+                "UNBLOCK_NUMBER_TEXT": "{number}의 차단을 해제하시겠습니까?",
+                "UNBLOCK_NUMBER_BUTTON_CANCEL": "취소",
+                "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "차단 해제",
+                "BLOCK_NUMBER_TITLE": "번호 차단",
+                "BLOCK_NUMBER_TEXT": "{number}을(를) 차단하시겠습니까?",
+                "BLOCK_NUMBER_BUTTON_CANCEL": "취소",
+                "BLOCK_NUMBER_BUTTON_BLOCK": "차단",
+                "EMAIL": "이메일",
+                "ADDRESS": "주소",
+                "CHANGE_AVATAR": "아바타 변경",
+                "REMOVE_AVATAR": "아바타 제거"
+            },
+            "FAVOURITES": {
+                "TITLE": "즐겨찾기",
+                "REMOVE_TITLE": "즐겨찾기에서 제거",
+                "REMOVE_TEXT": "즐겨찾기에서 이 연락처를 제거하시겠습니까?",
+                "REMOVE_BUTTON_CANCEL": "취소",
+                "REMOVE_BUTTON_REMOVE": "제거"
+            },
+            "KEYPAD": {
+                "TITLE": "키패드",
+                "ADD_NUMBER": "번호 추가"
+            },
+            "RECENTS": {
+                "TITLE": "최근 통화",
+                "ALL": "전체",
+                "MISSED": "부재중",
+                "OUTGOING_CALL": "발신 통화",
+                "INCOMING_CALL": "수신 통화",
+                "CANCELLED_CALL": "취소된 통화",
+                "MISSED_CALL": "부재중 전화"
+            },
+            "VOICEMAIL": {
+                "TITLE": "음성 사서함",
+                "AT": "시각",
+                "DELETE_POPUP": {
+                    "TITLE": "음성 사서함 삭제",
+                    "DESCRIPTION": "이 음성 사서함을 삭제하시겠습니까?",
+                    "CANCEL": "취소",
+                    "PROCEED": "삭제"
+                },
+                "CALL_POPUP": {
+                    "TITLE": "전화",
+                    "DESCRIPTION": "{number}에게 전화하시겠습니까?",
+                    "CANCEL": "취소",
+                    "PROCEED": "전화"
+                }
+            }
+        },
+        "WALLET": {
+            "TITLE": "지갑",
+            "BALANCE": "잔액",
+            "SEND": "보내기",
+            "NEXT": "다음",
+            "DONE": "완료",
+            "DONE_SUBTITLE": "{number}에게 {amount}을(를) 보냈습니다",
+            "NO_REFUNDS": "결제는 환불되지 않습니다. 번호를 다시 확인하세요.",
+            "NEW_BALANCE": "새 잔액",
+            "HOME": "홈",
+            "LATEST_TRANSACTIONS": "최근 거래",
+            "TRANSACTIONS": "거래",
+            "ALL_TRANSACTIONS": "모든 거래",
+            "LATEST_BILLS": "최근 청구서",
+            "NOW": "지금",
+            "AGO": "전",
+            "SELECT_CONTACT": "연락처 선택",
+            "TODAY": "오늘",
+            "YESTERDAY": "어제",
+
+            "INSUFFICIENT_FUNDS": {
+                "TITLE": "잔액 부족",
+                "DESCRIPTION": "이 금액을 보낼 만큼 충분한 돈이 없습니다"
+            },
+            "NUMBER_DOES_NOT_EXIST": {
+                "TITLE": "진행할 수 없음",
+                "DESCRIPTION": "입력한 번호가 존재하지 않거나 플레이어가 온라인 상태가 아닙니다"
+            },
+            "AIRPLANE_MODE": {
+                "TITLE": "오류",
+                "DESCRIPTION": "인터넷 액세스가 필요한 작업을 수행하려고 합니다. 비행기 모드를 비활성화하거나 서비스를 받으세요."
+            },
+            "INVALID_AMOUNT": {
+                "TITLE": "잘못된 금액",
+                "DESCRIPTION": "잘못된 금액을 입력했습니다"
+            },
+            "FAILED_SEND": {
+                "TITLE": "전송 실패",
+                "DESCRIPTION": "돈을 보내지 못했습니다 (휴대폰이 장착되지 않음)"
+            },
+            "EXCEED_DAILY": {
+                "TITLE": "일일 한도 초과",
+                "DESCRIPTION": "일일 한도를 초과했습니다"
+            },
+            "EXCEED_WEEKLY": {
+                "TITLE": "주간 한도 초과",
+                "DESCRIPTION": "주간 한도를 초과했습니다"
+            },
+            "FAILED_ADD": {
+                "TITLE": "돈 추가 실패",
+                "DESCRIPTION": "지정된 계정에 돈을 추가하지 못했습니다"
+            },
+
+            "OK": "확인"
+        },
+        "GARAGE": {
+            "TITLTE": "차고",
+            "ACTIONS": "작업",
+            "MY_CARS": "내 차량",
+            "OUT": "외부",
+            "GARAGE": "차고",
+            "IMPOUNDED": "압류됨",
+            "IMPOUND_INFO": "압류 정보",
+            "LOCATION": "위치",
+            "SUMMON": "소환",
+            "VALET": "발레",
+            "STATISTICS": "통계",
+            "FUEL": "연료",
+            "ENGINE": "엔진",
+            "BODY": "차체",
+            "VEHICLE": "차량",
+            "STATUS": "상태",
+            "LOCKED": "잠김",
+            "LOCK": "잠금",
+            "UNLOCKED": "잠금 해제됨",
+            "UNLOCK": "잠금 해제",
+
+            "WAYPOINT_POPUP": {
+                "TITLE": "경유지 설정",
+                "TEXT": "{model}로 경유지를 설정하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "VALET_POPUP": {
+                "TITLE": "발레",
+                "TEXT": "{model} ({plate})을(를) 발레하시겠습니까?",
+                "TEXT_PAID": "{model} ({plate})을(를) {amount}에 발레하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "차량 {toggle}",
+                "TEXT": "차량을 {toggle}하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "IMPOUND_REASON": {
+                "REASON": "사유",
+                "RETRIEVABLE": "회수 가능",
+                "IMPOUNDER": "압류자",
+                "PRICE": "비용"
+            }
+        },
+        "HOME": {
+            "TITLE": "홈",
+            "MY_HOMES": "내 집",
+            "MY_HOME": "내 집",
+            "KEY_ACCESS": "키 액세스",
+            "ACTIONS": "작업",
+            "FRONT_DOOR": "현관문",
+            "LOCATION": "위치",
+            "SET_WAYPOINT": "경유지 설정",
+            "UNLOCK": "잠금 해제",
+            "UNLOCKED": "잠금 해제됨",
+            "LOCK": "잠금",
+            "LOCKED": "잠김",
+            "GIVE_KEY": "키 주기",
+            "MANAGE": "관리",
+            "WAYPOINT_POPUP": {
+                "TITLE": "경유지 설정",
+                "TEXT": "{home}으로 경유지를 설정하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "집 {toggle}",
+                "TEXT": "집을 {toggle}하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "GIVE_KEY_POPUP": {
+                "TITLE": "키 주기",
+                "TEXT": "키를 줄 사람의 ID를 입력하세요",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "REMOVE_KEY_POPUP": {
+                "TITLE": "키 소유자 제거",
+                "TEXT": "{name}의 액세스 권한을 제거하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            }
+        },
+        "MARKETPLACE": {
+            "MARKETPLACE": "마켓플레이스",
+            "TITLE": "제목",
+            "SEARCH": "리스팅 또는 번호 검색",
+            "HOME": "홈",
+            "YOUR_POSTS": "내 게시물",
+            "PRICE": "가격",
+            "DESCRIPTION": "설명",
+            "IMAGES": "이미지",
+            "POST": "게시",
+            "AMOUNT_OF_TOTAL": "{total} 중 {amount}",
+            "MESSAGE": "메시지",
+            "CALL": "전화",
+            "REMOVE": "제거",
+
+            "ERROR_POPUP": {
+                "TITLE": "오류",
+                "NO_TITLE": "제목을 입력해야 합니다",
+                "NO_DESCRIPTION": "설명을 입력해야 합니다",
+                "NO_PRICE": "가격을 입력해야 합니다",
+                "NO_ATTACHMENTS": "최소 하나의 이미지를 첨부해야 합니다",
+                "OK": "확인"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "리스팅 삭제",
+                "TEXT": "이 리스팅을 삭제하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "삭제"
+            }
+        },
+        "YELLOWPAGES": {
+            "PAGES": "페이지",
+            "SEARCH": "게시물 또는 번호 검색",
+            "FROM": "보낸 사람",
+            "CANCEL": "취소",
+            "NEW_POST": "새 게시물",
+            "TITLE": "제목",
+            "DESCRIPTION": "설명",
+            "PRICE": "가격",
+            "POST": "게시",
+            "CALL": "전화",
+            "ERROR_POPUP": {
+                "TITLE": "오류",
+                "NO_TITLE": "제목을 입력해야 합니다",
+                "NO_DESCRIPTION": "설명을 입력해야 합니다",
+                "OK": "확인"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "게시물 삭제",
+                "TEXT": "이 게시물을 삭제하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "삭제"
+            }
+        },
+        "MAIL": {
+            "TITLE": "메일",
+            "YOU": "나",
+            "UPDATED_NOW": "방금 업데이트됨",
+            "NEW_MESSAGE": "새 메시지",
+            "INBOX": "받은 편지함",
+            "TO": "받는 사람",
+            "FROM": "보낸 사람",
+            "SUBJECT": "제목",
+            "MESSAGE": "메시지",
+            "CANCEL": "취소",
+            "SEND": "보내기",
+            "EMAIL": "이메일",
+            "EMAIL_INVALID": "잘못된 이메일 주소",
+            "EMAIL_EXISTS": "이미 존재하는 이메일",
+            "PASSWORD": "비밀번호",
+            "WRONG_PASSWORD": "잘못된 비밀번호",
+            "LOGIN": "로그인",
+            "NO_EMAIL": "이메일 주소가 없으신가요?",
+            "CREATE_ONE": "만들기",
+            "UNREAD": "읽지 않음",
+            "CREATE_MAIL": "이메일 만들기",
+            "ALREADY_HAVE": "이미 이메일 주소가 있으신가요?",
+            "ADD_EMAIL": "이메일 추가",
+            "RE": "Re: {subject}",
+            "CHANGE_ACCOUNT": "계정 변경",
+            "CHANGE_PASSWORD": "비밀번호 변경",
+            "DELETE_ACCOUNT": "계정 삭제",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "로그아웃",
+                "DESCRIPTION": "로그아웃하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "DELETE_MAIL_POPUP": {
+                "TITLE": "이메일 삭제",
+                "DESCRIPTION": "이 이메일을 삭제하시겠습니까?",
+                "CANCEL": "취소",
+                "DELETE": "삭제"
+            },
+            "FAILED_SEND": {
+                "TITLE": "전송 실패",
+                "DESCRIPTION": "메일을 보내지 못했습니다 (수신자가 존재합니까?)",
+                "OK": "확인"
+            }
+        },
+        "MAPS": {
+            "TITLE": "지도",
+            "GO": "이동",
+            "ADD": "추가",
+            "EDIT": "편집",
+            "DELETE": "삭제",
+            "SET_WAYPOINT": "경유지 설정",
+            "SHARE": "공유",
+
+            "ADD_LOCATION_POPUP": {
+                "TITLE": "위치 추가",
+                "DESCRIPTION": "추가할 위치의 이름을 입력하세요",
+                "PLACEHOLDER": "이름",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "CHANGE_NAME_POPUP": {
+                "TITLE": "이름 변경",
+                "DESCRIPTION": "위치의 새 이름을 입력하세요",
+                "PLACEHOLDER": "이름",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            }
+        },
+        "MUSIC": {
+            "TITLE": "음악",
+            "HOME": "홈",
+            "RECENTLY_ADDED": "최근 추가됨",
+            "CATEGORIES": "카테고리",
+            "PLAYLISTS": "재생 목록",
+            "LIBRARY": "라이브러리",
+            "SEARCH": "검색",
+            "ADD_QUEUE": "대기열에 추가",
+            "ADD_PLAYLIST": "재생 목록에 추가",
+            "REMOVE_SONG": "노래 제거",
+            "NOT_PLAYING": "재생 중 아님",
+            "EDIT_PLAYLIST": "재생 목록 편집",
+            "DELETE_PLAYLIST": "재생 목록 삭제",
+            "SEARCH_PLACEHOLDER": "아티스트, 노래, 앨범, 재생 목록",
+            "SONGS": "노래",
+            "ALBUMS": "앨범",
+            "ARTISTS": "아티스트",
+            "PLAY": "재생",
+            "SHUFFLE": "셔플",
+            "ARTIST": "아티스트",
+            "ALBUM": "앨범",
+            "PLAYLIST": "재생 목록",
+            "SONG": "노래",
+            "SONG_EXISTS_POPUP": {
+                "TITLE": "노래가 이미 존재함",
+                "DESCRIPTION": "이 노래는 이미 이 재생 목록에 있습니다",
+                "CANCEL": "취소"
+            },
+            "NEW_PLAYLIST_POPUP": {
+                "TITLE": "새 재생 목록",
+                "DESCRIPTION": "새 재생 목록 만들기",
+                "PLACEHOLDER": "재생 목록 이름",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "REMOVE_SONG_POPUP": {
+                "TITLE": "노래 제거",
+                "DESCRIPTION": "재생 목록에서 이 노래를 제거하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            }
+        },
+        "TINDER": {
+            "TITLE": "스파크",
+            "LIKES_YOU_TOO": "당신도 좋아합니다!",
+            "KEEP_SWIPING": "계속 스와이프하기",
+            "SAY_SOMETHING_NICE": "좋은 말을 해보세요",
+            "NO_MORE": "스와이프할 사람이 더 이상 없습니다. 나중에 다시 확인하세요!",
+            "SEND": "보내기",
+            "AGREE_TERMS": "'계정 만들기'를 누르면 이용 약관 및 개인정보 보호정책에 동의하는 것입니다",
+            "CREATE_ACCOUNT": "계정 만들기",
+            "AGE_PUBLIC": "귀하의 나이는 공개됩니다",
+            "BE_OVER_18": "이 서비스를 이용하려면 만 18세 이상이어야 합니다",
+            "NAME_MINIMUM": "이름은 최소 3자 이상이어야 합니다",
+            "ADD_PHOTOS": "사진 추가",
+            "PHOTOS_MINIMUM": "최소 한 장의 사진이 있어야 합니다",
+            "DESCRIPTION": "자신에 대해 조금 알려주세요",
+            "DESCRIPTION_MINIMUM": "설명은 최소 10자 이상이어야 합니다",
+            "SHOW_ME": "보여주기",
+            "WOMEN": "여성",
+            "MEN": "남성",
+            "EVERYONE": "모두",
+            "EVERYTHING": "모든 것",
+            "I_AM": "나는",
+            "MALE": "남성",
+            "FEMALE": "여성",
+            "CONTINUE": "계속",
+            "NAME": "이름",
+            "PHOTOS": "사진",
+            "ABOUT_ME": "자기소개",
+            "INTERESTED_IN": "관심사",
+            "GENDER": "성별",
+            "SAVE": "저장",
+            "NEW_MATCHES": "새 매치",
+            "MESSAGES": "메시지",
+            "VISIBILITY": "프로필 표시",
+            "VISIBLE": "표시",
+            "HIDDEN": "숨김",
+            "HIDDEN_WARNING": "계정이 현재 숨겨져 있습니다. 다른 사용자에게 표시되지 않으며 스와이프할 수 없습니다.",
+            "HIDDEN_PROFILE": "프로필이 활성화되지 않았습니다. 설정에서 프로필을 활성화할 수 있습니다.",
+            "SEARCH_MATCHES": "매치 검색",
+            "DELETE_ACCOUNT": "계정 삭제"
+        },
+        "INSTAGRAM": {
+            "TITLE": "인스타픽",
+            "SEND": "보내기",
+            "POST": "게시",
+            "MESSAGE_PLACEHOLDER": "메시지...",
+            "NEW_MESSAGE": "새 메시지",
+            "NOW": "지금",
+            "GO_LIVE_POPUP": {
+                "TITLE": "라이브 방송",
+                "DESCRIPTION": "라이브 방송을 시작하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "END_LIVE_POPUP": {
+                "TITLE": "라이브 종료",
+                "DESCRIPTION": "이 라이브를 {action}하시겠습니까?",
+                "CANCEL": "취소",
+                "END": "종료",
+                "LEAVE": "나가기"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "팔로우 취소",
+                "DESCRIPTION": "{name}을(를) 팔로우 취소하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "DELETE_POST_POPUP": {
+                "TITLE": "게시물 삭제",
+                "DESCRIPTION": "이 게시물을 삭제하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "SIGN_OUT_POPUP": {
+                "TITLE": "로그아웃",
+                "DESCRIPTION": "로그아웃하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "DELETE_STORY": {
+                "TITLE": "스토리 삭제",
+                "DESCRIPTION": "이 스토리를 삭제하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "INVITE_LIVE_POPUP": {
+                "TITLE": "라이브 초대",
+                "DESCRIPTION": "{username}님이 라이브에 초대했습니다. 참여하시겠습니까?",
+                "NO": "아니요",
+                "YES": "예"
+            },
+            "REMOVE_LIVE_POPUP": {
+                "TITLE": "{username} 제거",
+                "DESCRIPTION": "라이브에서 {username}을(를) 제거하시겠습니까?",
+                "CANCEL": "취소",
+                "REMOVE": "제거"
+            },
+            "LEAVE_LIVE_POPUP": {
+                "TITLE": "라이브 나가기",
+                "DESCRIPTION": "이 라이브를 나가시겠습니까?",
+                "LEAVE": "나가기"
+            },
+            "LIVE_ENDED": "라이브 종료됨",
+            "COMMENT_PLACEHOLDER": "댓글",
+            "LIVE": "라이브",
+            "YOUR_STORY": "내 스토리",
+            "CREATE_STORY": "스토리 만들기",
+            "GO_LIVE": "라이브 방송",
+            "EMPTY_FEED": "사람들을 팔로우하여 여기에서 그들의 사진과 동영상을 보세요",
+            "COMMENTS": "댓글",
+            "ADD_COMMENT_AS": "{name}(으)로 댓글 추가",
+            "NEW_POST": "새 게시물",
+            "NEXT": "다음",
+            "CAPTION_PLACEHOLDER": "캡션 작성...",
+            "ACTIVITY": "활동",
+            "FOLLOW": "팔로우",
+            "FOLLOWING": "팔로잉",
+            "FOLLOWERS": "팔로워",
+            "FOLLOWER": "팔로워",
+            "REQUESTED": "요청됨",
+            "LIKES": "좋아요",
+            "LIKED_BY": "좋아요 표시",
+            "VIEW_ALL_COMMENTS": "댓글 {count}개 모두 보기",
+            "FIRST_COMMENT": "첫 댓글을 남겨보세요...",
+            "LOG_IN": "로그인",
+            "CREATE_ACCOUNT": "계정 만들기",
+            "USERNAME_PLACEHOLDER": "사용자명",
+            "NAME_PLACEHOLDER": "이름",
+            "PASSWORD_PLACEHOLDER": "비밀번호",
+            "NOT_HAVE_ACCOUNT": "계정이 없으신가요?",
+            "HAVE_ACCOUNT": "계정이 있으신가요?",
+            "LIKED_PHOTO": "회원님의 사진을 좋아합니다.",
+            "LIKED_COMMENT": "회원님의 댓글을 좋아합니다: {comment}",
+            "COMMENTED": "회원님의 게시물에 댓글을 남겼습니다: {comment}",
+            "FOLLOWED": "회원님을 팔로우하기 시작했습니다.",
+            "DONE": "완료",
+            "EDIT_PROFILE": "프로필 편집",
+            "CHANGE_PICTURE": "프로필 사진 변경",
+            "NAME": "이름",
+            "BIO": "소개",
+            "PRIVATE": "비공개 전환",
+            "SIGN_OUT": "로그아웃",
+            "CHANGE_PASSWORD": "비밀번호 변경",
+            "DELETE_ACCOUNT": "계정 삭제",
+            "POSTS": "게시물",
+            "MESSAGE": "메시지",
+            "SENT_A_PHOTO": "사진을 보냈습니다",
+            "TO": "받는 사람",
+            "SEND_A_MESSAGE": "메시지 보내기...",
+            "STORY_VIEWERS": "조회자",
+            "PARTICIPANTS": "참가자",
+            "SEEN_BY": "{count}명이 봄",
+            "ADD_ACCOUNT": "계정 추가",
+            "INVITE": "초대",
+            "INVITED": "초대됨",
+            "REMOVE": "제거",
+            "IN_THIS_ROOM": "이 방에서",
+            "WHOS_WATCHING": "시청 중인 사람",
+            "FOLLOW_REQUESTS": "팔로우 요청",
+            "CONFIRM": "확인",
+            "DELETE": "삭제",
+            "ANDOTHERS": "{username} 외 {amount}명",
+            "PRIVATE_ACCOUNT": "이 계정은 비공개입니다",
+            "PRIVATE_ACCOUNT_DESCRIPTION": "이 계정을 팔로우하여 사진과 동영상을 보세요.",
+            "ERROR": "오류",
+            "USERNAME_TAKEN": "이미 사용 중인 사용자명입니다",
+            "UNKNOWN": "알 수 없는 오류",
+            "UNKNOWN_ACCOUNT": "존재하지 않는 계정",
+            "INVALID_USERNAME": "잘못된 사용자명",
+            "INCORRECT_PASSWORD": "잘못된 비밀번호",
+            "USERNAME_NOT_ALLOWED": "허용되지 않는 사용자명",
+            "OK": "확인",
+            "LOCATION": "위치",
+            "CHOOSE_LOCATION": {
+                "TITLE": "위치 선택",
+                "DESCRIPTION": "이 게시물의 위치를 선택하세요",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "REPLIED_TO_YOUR_STORY": "회원님의 스토리에 답장했습니다",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "회원님의 스토리에 답장했습니다: {content}",
+
+            "SHARE_TO_STORY": {
+                "TITLE": "스토리에 공유",
+                "SUCCESS": "게시물 공유됨",
+                "DESCRIPTION": "게시물이 스토리에 공유되었습니다"
+            },
+            "VIEW_POST": "게시물 보기"
+        },
+        "TWITTER": {
+            "TITLE": "버디",
+            "SEARCH_FOR": "'{search}' 검색",
+            "START_SEARCHING": "검색을 시작하여 버디를 탐색하세요",
+            "TRENDING_HASHTAGS": "인기 해시태그",
+            "SENT_ATTACHMENT": "첨부 파일을 보냈습니다",
+            "TO": "받는 사람",
+            "TWEETS": "게시물",
+            "REPLIES": "답글",
+            "MEDIA": "미디어",
+            "LIKES": "좋아요",
+            "CANCEL": "취소",
+            "TWEET": "게시",
+            "TWEET_REPLY": "답글 게시",
+            "TWEET_GENERAL": "무슨 일이 일어나고 있나요?",
+            "EDIT_PROFILE": "프로필 편집",
+            "SAVE": "저장",
+            "NAME": "이름",
+            "JOIN_DATE": "가입 날짜",
+            "PROTECTED_POSTS": "게시물 보호",
+            "BIO": "소개",
+            "SIGN_OUT": "로그아웃",
+            "CHANGE_PASSWORD": "비밀번호 변경",
+            "DELETE_ACCOUNT": "계정 삭제",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "로그아웃",
+                "DESCRIPTION": "로그아웃하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "팔로우 취소",
+                "DESCRIPTION": "{name}을(를) 팔로우 취소하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "RETWEET_POPUP": {
+                "RETWEET": "재게시",
+                "UNDO_RETWEET": "재게시 취소",
+                "DESCRIPTION": "{action}하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "게시물 삭제",
+                "DESCRIPTION": "이 게시물을 삭제하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "NOTIFICATIONS_POPUP": {
+                "TITLE": "알림",
+                "DESCRIPTION": "@{name}의 알림을 {action}하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속",
+                "ENABLE": "활성화",
+                "DISABLE": "비활성화"
+            },
+            "PROMOTE_POPUP": {
+                "TITLE": "게시물 홍보",
+                "DESCRIPTION": "{views}회 조회를 위해 {price}에 이 게시물을 홍보하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "YOU": "나",
+            "FOLLOW": "팔로우",
+            "PENDING": "대기 중",
+            "FOLLOWING": "팔로잉",
+            "FOLLOWERS": "팔로워",
+            "RETWEETED": "재게시됨",
+            "REPLYING_TO": "{name}에게 답글",
+            "RETWEETED_BY": "재게시한 사람",
+            "LIKED_BY": "좋아요 표시한 사람",
+            "ALL": "전체",
+            "NOTIFICATIONS": "알림",
+            "FOLLOWS_YOU": "회원님을 팔로우합니다",
+            "JOINED": "{date}에 가입",
+            "PINNED_POST": "고정된 게시물",
+            "LIKED_TWEET": "회원님의 게시물을 좋아합니다",
+            "RETWEETED_TWEET": "회원님의 게시물을 재게시했습니다",
+            "FOLLOWED": "회원님을 팔로우했습니다",
+            "SIGN_UP_TEXT": "지금 세상에서 일어나는 일을 확인하세요",
+            "TERMS_OF_SERVICE": "가입하면 이용 약관 및 개인정보 보호정책에 동의하는 것입니다.",
+            "HAS_ACCOUNT": "이미 계정이 있으신가요?",
+            "CREATE_YOUR_ACCOUNT": "계정 만들기",
+            "NAME_PLACEHOLDER": "이름",
+            "USERNAME_PLACEHOLDER": "사용자명",
+            "PASSWORD_PLACEHOLDER": "비밀번호",
+            "GET_STARTED": "시작하려면 먼저 @사용자명을 입력하세요",
+            "FORGOT_PASSWORD": "비밀번호를 잊으셨나요?",
+            "ENTER_PASSWORD": "비밀번호를 입력하세요",
+            "SEARCH_DIRECT_MESSAGES": "다이렉트 메시지 검색",
+            "SEARCH_TWITTER": "버디 검색",
+            "MESSAGE_PLACEHOLDER": "메시지...",
+            "NOW": "지금",
+            "LOGIN": "로그인",
+            "NEXT": "다음",
+            "CREATE_ACCOUNT": "계정 만들기",
+            "PROMOTE": "홍보",
+            "PIN": "게시물 고정",
+            "UNPIN": "게시물 고정 해제",
+            "NEW_MESSAGE": "새 메시지",
+            "PROMOTED": "홍보됨",
+            "ADD_ACCOUNT": "계정 추가",
+            "FOLLOWER_REQUESTS": "팔로워 요청",
+            "NEW_POSTS": "새 게시물",
+            "NEW_POST": "새 게시물",
+            "PROTECTED_TWEETS_TITLE": "이 게시물은 보호되고 있습니다.",
+            "PROTECTED_TWEETS_DESCRIPTION": "확인된 팔로워만 @{username}의 게시물과 전체 프로필에 액세스할 수 있습니다. '팔로우' 버튼을 눌러 팔로우 요청을 보내세요.",
+            "INVALID_ACCOUNT": "잘못된 계정",
+            "INVALID_PASSWORD": "잘못된 비밀번호",
+            "USERNAME_TAKEN": "이미 사용 중인 사용자명입니다",
+            "USERNAME_NOT_ALLOWED": "허용되지 않는 사용자명"
+        },
+        "SERVICES": {
+            "ACTIONS": "작업",
+            "COMPANIES": "회사",
+            "MESSAGES": "메시지",
+            "SETTINGS": "설정",
+    
+            "CLOSED": "닫힘",
+            "YOUR_MESSAGES": "내 메시지",
+            "JOB_MESSAGES": "업무 메시지",
+
+            "DUTY": "근무",
+            "DUTY_DESCRIPTION": "근무 상태 전환",
+            "GO_ON_DUTY": "근무 시작",
+            "GO_OFF_DUTY": "근무 종료",
+            "JOB_CALLS": "업무 전화",
+            "JOB_CALLS_DESCRIPTION": "고객으로부터 전화 받기를 {toggle}합니다.",
+
+            "ENABLE": "활성화",
+            "DISABLE": "비활성화",
+
+            "DISABLE_CALLS": "전화 비활성화",
+            "ENABLE_CALLS": "전화 활성화",
+            "BALANCE": "잔액",
+            "MANAGE_EMPLOYEES": "직원 관리",
+            "HIRE": "고용",
+            "SET_GRADE": "등급 설정",
+            "UNEMPLOYED": "실업자입니다",
+
+            "ALL": "전체",
+            "AVAILABLE": "사용 가능",
+            "SEARCH_EMPLOYEES": "직원 검색",
+
+            "PERSONAL": "개인",
+            "JOB": "업무",
+
+            "DEPOSIT_POPUP": {
+                "TITLE": "입금",
+                "DESCRIPTION": "회사 계정에 돈을 입금합니다",
+                "AMOUNT": "금액",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "WITHDRAW_POPUP": {
+                "TITLE": "출금",
+                "DESCRIPTION": "회사 계정에서 돈을 출금합니다",
+                "NOT_ENOUGH_MONEY": "회사 계정에 충분한 돈이 없습니다",
+                "AMOUNT": "금액",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "HIRE_POPUP": {
+                "TITLE": "고용",
+                "DESCRIPTION": "새 직원 고용",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "FIRE_POPUP": {
+                "TITLE": "해고",
+                "DESCRIPTION": "{name}을(를) 해고하시겠습니까?",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "CALL_POPUP": {
+                "TITLE": "전화",
+                "DESCRIPTION": "{name}에게 전화하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            }
+        },
+        "CRYPTO": {
+            "TITLE": "암호화폐",
+            "BALANCE": "예상 잔액",
+            "BUY": "구매",
+            "SELL": "판매",
+            "TRANSFER": "전송",
+            "SELL_ALL": "모두 판매",
+            "NO_MONEY": "돈이 충분하지 않습니다",
+            "NO_COINS": "이 코인이 없습니다",
+            "NOT_ENOUGH_COINS": "코인이 충분하지 않습니다",
+            "ATLEAST_ONE_COIN": "최소 1개의 {currency}를 {action}해야 합니다",
+            "INVALID_COIN": "잘못된 코인",
+            "NO_NUMBER": "전화번호가 제공되지 않았습니다",
+            "INVALID_NUMBER": "잘못된 전화번호 (사용자가 온라인 상태가 아닐 수 있습니다)",
+            "ERROR": "오류",
+            "CLOSE": "닫기",
+            "BUY_POPUP": {
+                "TITLE": "{coin} 구매",
+                "DESCRIPTION": "구매할 {coin}의 금액($)을 입력하세요",
+                "PLACEHOLDER": "$1000",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "SELL_POPUP": {
+                "TITLE": "{coin} 판매",
+                "DESCRIPTION": "판매할 {coin}의 금액($)을 입력하세요",
+                "PLACEHOLDER": "$1000"
+            },
+            "SELL_ALL_POPUP": {
+                "TITLE": "모든 {coin} 판매",
+                "DESCRIPTION": "모든 {coin}을(를) ${amount}에 판매하시겠습니까?"
+            },
+            "TRANSFER_POPUP": {
+                "TITLE": "{coin} 전송",
+                "DESCRIPTION": "전송할 {coin}의 금액($)을 입력하세요 (다음 단계에서 연락처 선택)",
+                "PLACEHOLDER": "$1000",
+                "NEXT": "다음"
+            },
+            "SUCCESSFULLY_TRANSFERED_POPUP": {
+                "TITLE": "성공적으로 전송됨",
+                "DESCRIPTION": "{number}에게 {coin}의 ${amount}을(를) 성공적으로 전송했습니다",
+                "CLOSE": "닫기"
+            }
+        },
+        "TIKTOK": {
+            "TITLE": "트렌디",
+    
+            "HOME": "홈",
+            "DISCOVER": "발견",
+            "INBOX": "받은 편지함",
+            "PROFILE": "프로필",
+
+            "COMMENTS_TITLE": "{count}개의 댓글",
+            "REPLY": "답글",
+            "VIEW_REPLIES": "답글 보기",
+            "ADD_COMMENT": "댓글 추가...",
+            "REPLY_TO": "{name}에게 답글",
+            "PIN_COMMENT": "댓글 고정",
+            "UNPIN_COMMENT": "댓글 고정 해제",
+            "DELETE_COMMENT": "댓글 삭제",
+            "DELETE": "삭제",
+            "PINNED": "고정됨",
+            "PIN_VIDEO": "동영상 고정",
+            "UNPIN_VIDEO": "동영상 고정 해제",
+            "PIN": "고정",
+            "UNPIN": "고정 해제",
+            "MAX_PINNED_TITLE": "최대 고정",
+            "MAX_PINNED_DESCRIPTION": "최대 3개의 동영상만 고정할 수 있습니다",
+            "OK": "확인",
+            "CREATOR": "크리에이터",
+            "LIKED_BY_CREATOR": "크리에이터가 좋아함",
+
+            "PIN_VIDEO_POPUP": {
+                "TITLE": "동영상 고정",
+                "DESCRIPTION": "이 동영상을 {action}하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "DELETE_VIDEO_POPUP": {
+                "TITLE": "동영상 삭제",
+                "DESCRIPTION": "이 동영상을 삭제하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "FAILED_UPLOAD_POPUP": {
+                "TITLE": "TTS 업로드 실패",
+                "DESCRIPTION": "서버 소유자가 오디오 업로드를 올바르게 설정하지 않았습니다. 이 문제를 해결하려면 연락하세요.",
+                "CANCEL": "취소",
+                "PROCEED": "무시"
+            },
+
+            "SHARE_TITLE": "공유 대상",
+            "SHARE": "공유",
+            "REPORT": "신고",
+            "SAVE_VIDEO": "동영상 저장",
+            "ADD_FAVOURITE": "즐겨찾기에 추가",
+            "CANCEL": "취소",
+            "GO_BACK": "뒤로 가기",
+
+            "FOLLOWING": "팔로잉",
+            "FOLLOWERS": "팔로워",
+            "UNFOLLOW": "팔로우 취소",
+            "FOLLOW": "팔로우",
+            "FOR_YOU": "추천",
+            "VIDEOS": "동영상",
+            "LIKES": "좋아요",
+
+            "UNFOLLOW_POPUP": {
+                "TITLE": "팔로우 취소",
+                "DESCRIPTION": "{name}을(를) 팔로우 취소하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+
+            "LOGIN_TITLE": "트렌디에 로그인",
+            "LOGIN_SUBTITLE": "계정을 관리하고 알림을 확인하며 동영상에 댓글을 달고 더 많은 작업을 수행하세요.",
+            "SIGNUP_TITLE": "트렌디 가입",
+            "SIGNUP_SUBTITLE": "프로필을 만들고 다른 계정을 팔로우하며 자신의 동영상을 만들고 더 많은 작업을 수행하세요.",
+            "NAME": "이름",
+            "USERNAME": "사용자명",
+            "PASSWORD": "비밀번호",
+            "BIO": "소개",
+            "SHOW_LIKES": "좋아요 표시",
+
+            "LOGIN": "로그인",
+            "SIGNUP": "가입",
+            "NO_ACCOUNT": "계정이 없으신가요?",
+            "ALREADY_ACCOUNT": "이미 계정이 있으신가요?",
+            "SEARCH_PLACEHOLDER": "사용자 검색",
+
+            "STARTED_FOLLOWING": "회원님을 팔로우하기 시작했습니다.",
+            "LIKED_VIDEO": "회원님의 동영상을 좋아합니다.",
+            "LIKED_COMMENT": "회원님의 댓글을 좋아합니다.",
+            "SAVED_VIDEO": "회원님의 동영상을 즐겨찾기에 추가했습니다.",
+            "COMMENTED": "댓글을 남겼습니다: {comment}",
+            "REPLIED": "회원님의 댓글에 답글을 남겼습니다: {comment}",
+
+            "EDIT_PROFILE": "프로필 편집",
+            "MESSAGE": "메시지",
+            "CHANGE_PHOTO": "사진 변경",
+            "LOGOUT": "로그아웃",
+            "CHANGE_PASSWORD": "비밀번호 변경",
+            "DELETE_ACCOUNT": "계정 삭제",
+            "ADD_TO_YOUR_PROFILE": "프로필에 추가",
+            "LIKED_HIDDEN_TITLE": "이 사용자가 좋아요를 표시한 동영상은 비공개입니다.",
+            "LIKED_HIDDEN_SUBTITLE": "{name}님이 좋아요를 표시한 동영상은 현재 숨겨져 있습니다.",
+
+            "INVALID_ACCOUNT_POPUP": {
+                "TITLE": "잘못된 {name}",
+                "DESCRIPTION": "입력한 {name} 계정에 로그인하지 않았습니다. 수정하세요.",
+                "OK": "확인"
+            },
+            "REMOVE_ACCOUNT_POPUP": {
+                "TITLE": "{name} 계정 제거",
+                "DESCRIPTION": "프로필에서 {name} 계정을 제거하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+
+            "ADD_ACCOUNT_TITLE": "계정 추가",
+            "ADD_ACCOUNT": "프로필에 {name} 추가",
+            "UPLOAD_VIDEO": "동영상 업로드",
+            "UPLOAD": "업로드",
+            "PREVIEW": "미리보기",
+            "CAPTION": "캡션",
+            "CAPTION_PLACEHOLDER": "캡션 추가...",
+            "TTS": "텍스트 음성 변환 (TTS)",
+            "TTS_PLACEHOLDER": "텍스트 음성 변환 추가...",
+            "MUSIC": "음악",
+            "SELECT_MUSIC": "음악 선택",
+            "OPTIONAL": "선택사항",
+
+            "DIRECT_MESSAGES": "다이렉트 메시지",
+            "ALL_ACTIVITY": "모든 활동",
+            "NO_NOTIFICATIONS": "알림을 사용할 수 없습니다",
+            "NO_NOTIFICATIONS_SUBTITLE": "계정에 대한 알림이 여기에 표시됩니다.",
+            "NO_FOLLOWING_TITLE": "사람들을 팔로우하기 시작하면 그들의 동영상이 여기에 표시됩니다.",
+            "NO_MESSAGES_TITLE": "친구에게 메시지 보내기",
+            "NO_MESSAGES_SUBTITLE": "동영상을 공유하거나 대화를 시작하세요"
+        },
+        "VOICEMEMO": {
+            "TITLE": "음성 메모",
+            "VOICE_RECORDINGS": "음성 녹음",
+            "SEARCH_RECORDINGS": "녹음 검색",
+            "DEFAULT_NAME": "새 녹음",
+            "DELETE_POPUP": {
+                "TITLE": "음성 메모 삭제",
+                "DESCRIPTION": "이 음성 메모를 삭제하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "NO_MICROPHONE_POPUP": {
+                "TITLE": "마이크 없음",
+                "DESCRIPTION": "마이크에 액세스할 수 없습니다. 마이크가 연결되어 있는지 확인하고 화면 오른쪽 상단의 팝업을 수락하세요",
+                "OK": "확인"
+            },
+            "EMPTY_RECORDING_POPUP": {
+                "TITLE": "빈 녹음",
+                "DESCRIPTION": "오디오가 없는 녹음은 저장할 수 없습니다",
+                "OK": "확인"
+            }
+        }
+    },
+    "COMPONENTS": {
+        "CONTEXT_MENU": {
+            "CANCEL": "취소",
+            "CALL": "전화",
+            "VIDEO_CALL": "영상 통화",
+            "MESSAGE": "메시지"
+        },
+        "IMAGE": {
+            "SAVE_TO_GALLERY": "갤러리에 저장"
+        },
+        "GALLERY": {
+            "CANCEL": "취소",
+            "EXTERNAL_URL": "외부 URL",
+            "EXTERNAL_URL_BLACKLISTED": "이 URL은 차단 목록에 있습니다",
+            "NO_IMAGES": "이미지 없음"
+        },
+        "NOTIFICATIONS": {
+            "SENT_PHOTO": "사진을 보냈습니다",
+            "SENT_GIF": "GIF를 보냈습니다",
+            "NOW": "지금"
+        },
+        "SHARE": {
+            "COPY_PHOTO": "사진 복사",
+            "COPY_VIDEO": "동영상 복사",
+            "USE_WALLPAPER": "배경화면으로 사용",
+            "COPY_NUMBER": "번호 복사",
+            "COPY_LINK": "링크 복사",
+            "AIRDROP_SENT": "전송됨",
+            "AIRDROP_ACCEPTED": "수락됨",
+            "AIRDROP_DECLINED": "거부됨",
+            "AIRDROP_NO_USERS": "근처에 휴대폰이 없습니다",
+            "WALLPAPER_POPUP": {
+                "TITLE": "배경화면으로 사용",
+                "TEXT": "이 이미지를 배경화면으로 설정하시겠습니까?",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            },
+            "COPY_POPUP": {
+                "TITLE": "성공",
+                "DESCRIPTION": "클립보드에 성공적으로 복사되었습니다",
+                "OK": "확인"
+            }
+        },
+        "AIRDROP": {
+            "TITLE": "에어셰어",
+            "TEXT": "{sender}님이 {type}을(를) 공유하려고 합니다",
+            "VIDEO": "동영상",
+            "PHOTO": "사진",
+            "CONTACT": "연락처",
+            "LOCATION": "위치",
+            "NOTE": "메모",
+            "VOICEMEMO": "음성 메모",
+            "PLAYLIST": "재생 목록",
+            "ALBUM": "앨범",
+            "DECLINE": "거부",
+            "ACCEPT": "수락"
+        },
+        "DYNAMICISLAND": {
+            "SILENT": "무음",
+            "RING": "벨소리",
+            "TIMER": "타이머"
+        },
+        "MUSIC_SELECTOR": {
+            "CANCEL": "취소",
+            "NO-RESULTS": "음악이 구성되지 않았습니다. 서버 소유자에게 노래를 추가하도록 알려주세요",
+            "SEARCH": "노래 검색",
+            "SELECT_POPUP": {
+                "TITLE": "노래 선택",
+                "DESCRIPTION": "{song}을(를) 선택하시겠습니까",
+                "CANCEL": "취소",
+                "PROCEED": "계속"
+            }
+        },
+        "BATTERY": {
+            "LOW_BATTERY": "배터리 부족",
+            "BATTERY_REMAINING": "배터리 {percent}% 남음",
+            "LOW_POWER_MODE": "저전력 모드",
+            "CLOSE": "닫기"
+        },
+        "COLOR_PICKER": {
+            "COLOR": "색상"
+        },
+        "GIF_SELECTOR": {
+            "SEARCH": "Tenor 검색",
+            "BACK": "뒤로"
+        }
+    },
+    "SETUP": {
+        "HELLO": "안녕하세요",
+        "SELECT_LANGUAGE": "언어를 선택하세요",
+        "NEXT": "클릭하여 열기",
+        "CREATE_PASSCODE": "핀 설정",
+        "CREATE_PASSCODE_TEXT": "핀 코드는 기기를 보호하는 데 사용되며 잠금을 해제하는 데 필요합니다.",
+        "SKIP": "건너뛰기",
+        "FACE_ID_SETUP": "얼굴 잠금 해제",
+        "FACE_ID_TEXT": "얼굴 잠금 해제를 설정하여 핀 코드를 입력하지 않고도 휴대폰을 쉽게 열 수 있습니다.",
+        "FACE_ID_TEXT_ALT": "얼굴 잠금 해제는 얼굴이 가려지지 않은 경우에만 작동합니다.",
+        "ENABLE_FACE_ID": "얼굴 잠금 해제 활성화",
+        "APPEARANCE": "테마",
+        "APPEARANCE_TEXT": "기기의 다크 또는 라이트 테마를 선택하세요",
+        "CONTINUE": "계속",
+        "WELCOME_TO": "환영합니다",
+        "CLICK": "클릭하여 시작"
+    },
+    "HOMESCREEN": {
+        "DONE": "완료",
+        "CLOSE_ALL": "모두 닫기",
+        "REMOVE_APP_POPUP": {
+            "TITLE": "'{app}' 제거?",
+            "DESCRIPTION": "이 앱을 삭제해도 데이터는 삭제되지 않습니다. 나중에 앱 스토어에서 다시 설치할 수 있습니다.",
+            "CANCEL": "취소",
+            "PROCEED": "삭제"
+        }
+    },
+    "LOCKSCREEN": {
+        "ENTER_PASSCODE": "비밀번호 입력",
+        "DELETE": "삭제",
+        "FONT_AND_COLOR": "글꼴 및 색상"
+    },
+    "MISC": {
+        "AIRPLANE_MODE_POPUP": {
+            "TITLE": "오류",
+            "DESCRIPTION": "인터넷 액세스가 필요한 작업을 수행하려고 합니다. 비행기 모드를 비활성화하거나 서비스를 받으세요.",
+            "OK": "확인"
+        },
+        "TODAY_TIME": "오늘, {hours}:{minutes}",
+        "YESTERDAY_TIME": "어제, {hours}:{minutes}",
+        "CHANGE_PASSWORD": {
+            "TITLE": "비밀번호 변경",
+            "DESCRIPTION": "{app}의 {type} 비밀번호를 입력하세요",
+            "ERROR": "비밀번호 변경 실패",
+            "CURRENT": "현재",
+            "NEW": "새",
+            "PLACEHOLDER_CURRENT": "현재 비밀번호",
+            "PLACEHOLDER_NEW": "새 비밀번호",
+            "CANCEL": "취소",
+            "NEXT": "다음",
+            "PROCEED": "계속",
+            "SUCCESS": "비밀번호가 성공적으로 변경되었습니다",
+            "OK": "확인"
+        },
+        "DELETE_ACCOUNT": {
+            "TITLE": "계정 삭제",
+            "DESCRIPTION": "{app} 계정을 삭제하려면 아래에 비밀번호를 입력하세요. 참고: 이 작업은 되돌릴 수 없습니다.",
+            "ERROR": "계정 삭제 실패",
+            "PLACEHOLDER": "비밀번호",
+            "CANCEL": "취소",
+            "PROCEED": "계속",
+            "OK": "확인"
+        }
+    },
+    "BACKEND": {
+        "CALLS": {
+            "NO_CALLER_ID": "발신자 번호 표시 안 함",
+            "MISSED_CALL": "부재중 전화",
+            "NEW_VOICEMAIL": "음성 사서함"
+        },
+        "GARAGE": {
+            "VALET": "발레",
+            "COULDNT_FIND": "차량을 찾을 수 없습니다.",
+            "ALREADY_OUT": "차량이 이미 외부에 있습니다.",
+            "NO_MONEY": "돈이 충분하지 않습니다.",
+            "ON_WAY": "차량이 오는 중입니다.",
+            "MARKED": "차량이 GPS에 표시되었습니다."
+        },
+        "INSTAGRAM": {
+            "NOT_ALLOWED_LIVE": "라이브 방송이 허용되지 않습니다",
+            "NOT_ALLOWED_STORY": "스토리 게시가 허용되지 않습니다",
+            "STARTED_LIVE": "{username}님이 라이브 방송을 시작했습니다",
+            "JOINED_LIVE": "{invitee}님이 {inviter}님과 라이브 방송 중입니다.",
+            "LIKED_PHOTO": "{username}님이 회원님의 사진을 좋아합니다",
+            "LIKED_COMMENT": "{username}님이 회원님의 댓글을 좋아합니다",
+            "COMMENTED": "{username}님이 회원님의 게시물에 댓글을 남겼습니다",
+            "NEW_FOLLOWER": "{username}님이 회원님을 팔로우하기 시작했습니다",
+            "FOLLOW_REQUEST_ACCEPTED_TITLE": "팔로우 요청 수락됨",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "{displayName} ({username})님이 회원님의 팔로우 요청을 수락했습니다.",
+            "NEW_FOLLOW_REQUEST_TITLE": "새 팔로우 요청",
+            "NEW_FOLLOW_REQUEST_DESCRIPTION": "{displayName} ({username})님이 회원님을 팔로우하려고 합니다."
+        },
+        "TINDER": {
+            "NEW_MATCH": "새 매치",
+            "MATCHED_WITH": "{name}님과 매치되었습니다"
+        },
+        "CAMERA": {
+            "TAKE_PHOTO": "{key}를 눌러 사진 찍기",
+            "FLIP_CAMERA": "{key}를 눌러 카메라 전환",
+            "TOGGLE_FLASH": "{key}를 눌러 플래시 전환",
+            "TOGGLE_CURSOR": "{key}를 눌러 커서 전환",
+            "CHANGE_MODE": "{key} {key2}를 눌러 모드 변경",
+            "ROLL": "{key} {key2}를 눌러 카메라 회전",
+            "FREEZE": "{key}를 눌러 카메라 정지/정지 해제"
+        },
+        "SERVICES": {
+            "NEW_MESSAGE": "새 메시지",
+            "ANONYMOUS": "익명"
+        },
+        "TWITTER": {
+            "LIKE": "{displayName}님이 좋아합니다:",
+            "RETWEET": "{displayName}님이 재게시했습니다:",
+            "REPLY": "{displayName}님이 답글을 남겼습니다:",
+            "FOLLOW": "{username}님이 회원님을 팔로우하기 시작했습니다",
+            "TWEET": "{username}님이 방금 게시했습니다",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "@{username}님이 회원님의 팔로우 요청을 수락했습니다.",
+            "NEW_FOLLOW_REQUEST": "@{username}님이 회원님을 팔로우하려고 합니다!"
+        },
+        "TIKTOK": {
+            "LIKE": "{displayName}님이 회원님의 동영상을 좋아합니다.",
+            "COMMENT": "{displayName}님이 회원님의 동영상에 댓글을 남겼습니다.",
+            "FOLLOW": "{displayName}님이 회원님을 팔로우하기 시작했습니다.",
+            "SAVE": "{displayName}님이 회원님의 동영상을 즐겨찾기에 추가했습니다.",
+            "LIKED_COMMENT": "{displayName}님이 회원님의 댓글을 좋아합니다.",
+            "REPLIED_COMMENT": "{displayName}님이 회원님의 댓글에 답글을 남겼습니다.",
+            "DM": "{displayName}"
+        },
+        "MISC": {
+            "VERIFIED": "계정이 인증되었습니다",
+            "X_PHONE": "{name}의 휴대폰",
+
+            "LOGGED_OUT_PASSWORD": {
+                "TITLE": "로그아웃되었습니다",
+                "DESCRIPTION": "비밀번호가 변경되어 계정에서 로그아웃되었습니다."
+            },
+
+            "DELETED_NOTIFICATION": {
+                "TITLE": "계정 삭제됨",
+                "DESCRIPTION": "계정이 삭제되었습니다."
+            }
+        },
+        "CRYPTO": {
+            "RECEIVED_TRANSFER_TITLE": "{coin} 받음",
+            "RECEIVED_TRANSFER_DESCRIPTION": "${value} 상당의 {amount} {coin}을(를) 받았습니다"
+        },
+        "MAIL": {
+            "AUTOMATIC_PASSWORD": {
+                "SENDER": "시스템",
+                "SUBJECT": "귀하의 이메일 주소",
+                "MESSAGE": "안녕하세요,\n\n자동 생성된 이메일 주소는 {address}이고 비밀번호는 {password}입니다"
+            }
+        },
+        "LOGS": {
+            "MAIL_TITLE": "이메일",
+            "NEW_MAIL": "{sender}님이 {recipient}에게 이메일을 보냈습니다",
+
+            "MESSAGE_TITLE": "문자 메시지",
+            "NEW_MESSAGE": "{sender}님이 {recipient}에게 메시지를 보냈습니다: {message}",
+
+            "CALL_ENDED": "통화 종료됨",
+            "CALL_DESCRIPTION": "`{caller}`와(과) `{callee}` 간의 {duration}초 동안 지속된 통화가 종료되었습니다. 응답: `{answered}`",
+
+            "NEW_SERVICE_TITLE": "새 메시지",
+            "NEW_SERVICE_CONTENT": "{sender}님이 {channel}에 메시지를 보냈습니다: {message}",
+
+            "RECEIVED_TITLE": "${amount} 받음",
+            "PAID_TITLE": "${amount} 지불함",
+            "TRANSACTION": "{number}님이 {company}에 ${amount}의 거래를 했습니다",
+
+            "BOUGHT_CRYPTO": "암호화폐 구매함",
+            "SOLD_CRYPTO": "암호화폐 판매함",
+            "CRYPTO_DETAILS": "**코인**: {coin}\n**금액**: {amount}\n**가치**: ${price}",
+            "TRANSFERRED_CRYPTO": "암호화폐 전송함",
+            "TRANSFERRED_CRYPTO_DETAILS": "**코인**: {coin}\n**금액**: {amount}\n**받는 사람**: {to}\n**보낸 사람**: {from}",
+
+            "DARKCHAT_CREATED_TITLE": "채널 생성됨",
+            "DARKCHAT_CREATED_DESCRIPTION": "{creator}님이 {channel}이라는 채널을 생성했습니다",
+            "DARKCHAT_MESSAGE_TITLE": "새 메시지",
+            "DARKCHAT_MESSAGE_DESCRIPTION": "{sender}님이 {channel}에 메시지를 보냈습니다: {message}",
+
+            "MARKETPLACE_NEW_TITLE": "새 리스팅",
+            "MARKETPLACE_NEW_DESCRIPTION": "**판매자**: {seller}\n**제목**: {title}\n**가격**: ${price}\n**설명**: {description}\n**첨부파일**: {attachments}\n**ID:** {id}",
+            "MARKETPLACE_DELETED": "게시물 삭제됨",
+
+            "YELLOWPAGES_NEW_TITLE": "새 게시물",
+            "YELLOWPAGES_NEW_DESCRIPTION": "**제목**: {title}\n**설명**: {description}\n**첨부파일**: {attachment}\n**ID:** {id}",
+            "YELLOWPAGES_DELETED": "게시물 삭제됨",
+
+            "LIVE_TITLE": "라이브",
+            "STARTED_LIVE": "{username}님이 라이브 방송을 시작했습니다",
+            "ENDED_LIVE": "{username}님이 라이브 방송을 종료했습니다",
+            "ADDED_STORY": "{username}님이 스토리에 사진을 추가했습니다",
+
+            "TRENDY_UPLOAD_TITLE": "새 동영상",
+            "TRENDY_UPLOAD_DESCRIPTION": "{username}님이 {caption} 캡션과 {id} ID로 새 동영상을 업로드했습니다",
+            "TRENDY_DELETE_TITLE": "동영상 삭제됨",
+            "TRENDY_DELETE_DESCRIPTION": "{username}님이 {id} ID의 동영상을 삭제했습니다",
+
+            "UPLOADED_MEDIA": "미디어 업로드됨",
+            "UPLOADED_MEDIA_DESCRIPTION": "{id} ID로 {type}을(를) 찍었습니다\n{link}",
+            "VIDEO": "동영상",
+            "PHOTO": "사진",
+
+            "CHANGED_PASSWORD": {
+                "TITLE": "비밀번호 변경됨",
+                "DESCRIPTION": "{number}님이 {app}에서 {username} 계정의 비밀번호를 변경했습니다."
+            },
+
+            "DELETED_ACCOUNT": {
+                "TITLE": "계정 삭제됨",
+                "DESCRIPTION": "{number}님이 {app}에서 {username} 계정을 삭제했습니다."
+            }
+        }
+    }
+}

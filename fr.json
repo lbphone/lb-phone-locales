@@ -270,10 +270,31 @@
             "CANCEL": "Annuler",
             "SET": "Régler",
             "JOIN": "Rejoindre",
+            "CREATE": "Créer",
             "LEAVE": "Quitter",
-            "NEW_ROOM": "Nouveau salon",
-            "NEW_ROOM_TEXT": "Tapez un code de salon pour rejoindre ou créer un salon",
+            "JOIN_ROOM": "Rejoindre le salon",
+            "JOIN_ROOM_TEXT": "Tapez un code de salon pour rejoindre",
+            "CREATE_ROOM": "Créer un salon",
+            "CREATE_ROOM_TEXT": "Tapez un code de salon pour créer un salon",
             "ROOM_CODE": "Indicatif du salon",
+
+            "INVALID_CHANNEL": "Salon invalid",
+            "INVALID_CHANNEL_TEXT": "Le salon n'existe pas",
+            "ALREADY_IN_CHANNEL": "Déjà rejoins",
+            "ALREADY_IN_CHANNEL_TEXT": "Vous êtes déjà dans ce salon",
+            "PASSWORD_REQUIRED": "Mot de passe reqis",
+            "PASSWORD_REQUIRED_TEXT": "Ce salon nécessite un mot de passe",
+            "PASSWORD_PLACEHOLDER": "Mot de passe",
+            "PASSWORD_PLACEHOLDER_OPTIONAL": "Mot de passe (optional)",
+            "INCORRECT_PASSWORD": "Mot de passe incorrect",
+            "INCORRECT_PASSWORD_TEXT": "Le mot de passe saisie est incorrect",
+            "CHANNEL_EXISTS": "Salon déjà existant",
+            "CHANNEL_EXISTS_TEXT": "Ce salon existe déjà",
+            "INVALID_NAME": "Nom invalide",
+            "INVALID_NAME_TEXT": "Le nom du salon est invalide (minimum 1 charactère, maximum 5)",
+            "UNKNOWN_ERROR": "Erreure Inconnue",
+            "UNKNOWN_ERROR_TEXT": "Une erreure inconnue est survenue.",
+
             "LEAVE_ROOM": "Quitter le salon",
             "LEAVE_ROOM_TEXT": "Voulez-vous vraiment quitter ce salon ?",
             "NOW": "Maintenant",
@@ -300,7 +321,6 @@
             "USERNAME_TAKEN": "Nom d'utilisateur est déjà pris",
             "UNKNOWN": "Erreur Inconnue",
             "INVALID_USERNAME": "Nom d'utilisateur inexistant",
-            "INCORRECT_PASSWORD": "Mot de passe incorrect",
             "OK": "OK",
 
             "LEAVE_CHANNEL": {
@@ -552,6 +572,10 @@
                 "TITLE": "Enregistrement vide",
                 "DESCRIPTION": "Impossible d'envoyer un enregistrement vide",
                 "OK": "OK"
+            },
+            "GROUP_MEMBER_LIMIT_NOTIFICATION": {
+                "TITLE": "Limites de membres atteinte",
+                "CONTENT": "Vous avez atteint la limite de membres pour ce groupe ({limit})."
             }
         },
         "PHONE": {
@@ -634,7 +658,11 @@
                 "EMAIL": "Email",
                 "ADDRESS": "Adresse",
                 "CHANGE_AVATAR": "Changer l'avatar",
-                "REMOVE_AVATAR": "Supprimer l'avatar"
+                "REMOVE_AVATAR": "Supprimer l'avatar",
+                "RINGTONES": "Sonneries",
+                "RINGTONE": "Sonnerie",
+                "DEFAULT": "Par défaut",
+                "BACK": "Retour"
             },
             "FAVOURITES": {
                 "TITLE": "Favoris",
@@ -988,6 +1016,7 @@
             "LIKES_YOU_TOO": "t'a liké aussi!",
             "KEEP_SWIPING": "Continue de swipe",
             "SAY_SOMETHING_NICE": "Dis-lui quelque chose...",
+            "TYPE_A_MESSAGE": "Écrivez un message...",
             "NO_MORE": "Il n'y a plus personne a swipe pour le moment, reviens plus tard!",
             "SEND": "Envoyer",
             "AGREE_TERMS": "En appuyant sur 'Créer un compte', vous acceptez nos conditions d'utilisation et notre politique de confidentialité",
@@ -1022,7 +1051,14 @@
             "HIDDEN_WARNING": "Votre compte est actuellement caché. Vous ne serez pas visible par les autres utilisateurs et vous ne pourrez pas effectuer de swipe..",
             "HIDDEN_PROFILE": "Votre profil n'est pas actif. Vous pouvez activer votre profil dans les paramètres.",
             "SEARCH_MATCHES": "Rechercher les matchs",
-            "DELETE_ACCOUNT": "Supprimer le compte"
+            "DELETE_ACCOUNT": "Supprimer le compte",
+            "ERROR": {
+                "TITLE": "Erreure",
+                "SHORT_NAME": "Erreure de sauvgarde du profile, (le nom doit contenir minimum 2 charactères)",
+                "SHORT_BIO": "Erreure de sauvgarde du profile, (la Biographie doit contenir minimum 5 charactères)",
+                "NO_PHOTOS": "Erreure de sauvgarde du profile, (aucune photos)",
+                "OK": "OK"
+            }
         },
         "INSTAGRAM": {
             "TITLE": "Instagram",
@@ -1368,6 +1404,7 @@
             "NOT_ENOUGH_COINS": "Vous n'avez pas assez de cet actif",
             "ATLEAST_ONE_COIN": "Vous devez {action} au moins une unité de {currency}",
             "INVALID_COIN": "Actif invalide",
+            "TOO_HIGH": "Somme trop grande (max {amount})",
             "NO_NUMBER": "Aucun numéro n'a été entré",
             "INVALID_NUMBER": "Numéro invalide (l'utilisateur peut ne pas être en ligne)",
             "ERROR": "Erreur",
@@ -1679,6 +1716,14 @@
         "FONT_AND_COLOR": "Police & Couleur"
     },
     "MISC": {
+        "ORDINAL": {
+            "ZERO": "",
+            "ONE": "er",
+            "TWO": "nd",
+            "FEW": "ème",
+            "MANY": "ème",
+            "OTHER": "ème"
+        },
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "Erreur",
             "DESCRIPTION": "Vous essayez d'effectuer une action qui nécessite une connexion internet, mais vous êtes en mode avion. Veuillez désactiver le mode avion pour continuer.",

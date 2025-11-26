@@ -511,7 +511,6 @@
             "MARK_AS_READ": "Markera som läst",
             "MESSAGE_DELETED": "Meddelande raderat",
             "OPEN_IN_MAPS": "Öppna i kartor",
-            "USERS_LOCATION": "{Användarens plats",
             "START_RECORDING": "Tryck på knappen för att starta inspelningen",
             "LOADING": "Laddar...",
             "EMPTY_RECORDING": {
@@ -711,7 +710,7 @@
             "UNLOCK": "Låsa upp",
             "WAYPOINT_POPUP": {
                 "TITLE": "Sätt vägpunkt",
-                "TEXT": "Vill du ställa in en vägpunkt till din {modell}?",
+                "TEXT": "Vill du ställa in en vägpunkt till din {model}?",
                 "CANCEL": "Avbryt",
                 "PROCEED": "Fortsätt"
             },
@@ -723,8 +722,8 @@
                 "PROCEED": "Fortsätt"
             },
             "LOCK_POPUP": {
-                "TITLE": "{Växla} fordon",
-                "TEXT": "Vill du {växla} ditt fordon?",
+                "TITLE": "{toggle} fordon",
+                "TEXT": "Vill du {toggle} ditt fordon?",
                 "CANCEL": "Avbryt",
                 "PROCEED": "Fortsätt"
             },
@@ -1650,9 +1649,9 @@
             "COMMENTED": "{username} kommenterade ditt inlägg",
             "NEW_FOLLOWER": "{username} började följa dig",
             "FOLLOW_REQUEST_ACCEPTED_TITLE": "Följbegäran accepterad",
-            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "{displayname} ({username}) Accepterade din följbegäran.",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "{displayName} ({username}) Accepterade din följbegäran.",
             "NEW_FOLLOW_REQUEST_TITLE": "Ny följbegäran",
-            "NEW_FOLLOW_REQUEST_DESCRIPTION": "{displayname} ({username}) har begärt att följa dig."
+            "NEW_FOLLOW_REQUEST_DESCRIPTION": "{displayName} ({username}) har begärt att följa dig."
         },
         "TINDER": {
             "NEW_MATCH": "Ny matchning",
@@ -1726,7 +1725,7 @@
             "TRANSACTION": "{number} gjorde en transaktion på $ {amount} till {company}",
             "BOUGHT_CRYPTO": "Köpte krypto",
             "SOLD_CRYPTO": "Sålt krypto",
-            "CRYPTO_DETAILS": "** mynt **: {coin}\n** Belopp **: {amount}\n** Värde **: $ {value}",
+            "CRYPTO_DETAILS": "** mynt **: {coin}\n** Belopp **: {amount}\n** Värde **: $ {price}",
             "TRANSFERRED_CRYPTO": "Överförd krypto",
             "TRANSFERRED_CRYPTO_DETAILS": "** mynt **: {coin}\n** Belopp **: {amount}\n** till **: {to}\n** från **: {from}",
             "DARKCHAT_CREATED_TITLE": "Skapad kanal",
@@ -1737,7 +1736,7 @@
             "MARKETPLACE_NEW_DESCRIPTION": "** Säljare **: {seller}\n** Titel **: {title}\n** Pris **: $ {price}\n** Beskrivning **: {description}\n** bilagor **: {attachments}\n** id: ** {id}",
             "MARKETPLACE_DELETED": "Efter raderad",
             "YELLOWPAGES_NEW_TITLE": "Ny inlägg",
-            "YELLOWPAGES_NEW_DESCRIPTION": "** Titel **: {titel}\n** Beskrivning **: {Beskrivning}\n** bilaga **: {bifogning}\n** id: ** {id}",
+            "YELLOWPAGES_NEW_DESCRIPTION": "** Titel **: {title}\n** Beskrivning **: {description}\n** bilaga **: {attachment}\n** id: ** {id}",
             "YELLOWPAGES_DELETED": "Efter raderad",
             "LIVE_TITLE": "Live",
             "STARTED_LIVE": "{username} startade en live -video",

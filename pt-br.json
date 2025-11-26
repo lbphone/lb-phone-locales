@@ -270,10 +270,31 @@
             "CANCEL": "Cancelar",
             "SET": "Definir",
             "JOIN": "Entrar",
+            "CREATE": "Criar",
             "LEAVE": "Sair",
-            "NEW_ROOM": "Nova Sala",
-            "NEW_ROOM_TEXT": "Digite um código de sala para Entrar ou Criar uma sala",
+            "JOIN_ROOM": "Entrar na sala",
+            "JOIN_ROOM_TEXT": "Digite um código de sala para Entrar",
+            "CREATE_ROOM": "Criar sala",
+            "CREATE_ROOM_TEXT": "Digite um código de sala para Criar",
             "ROOM_CODE": "Código da Sala",
+
+            "INVALID_CHANNEL": "Canal inválido",
+            "INVALID_CHANNEL_TEXT": "O canal não existe",
+            "ALREADY_IN_CHANNEL": "Já está no canal",
+            "ALREADY_IN_CHANNEL_TEXT": "Você já está neste canal",
+            "PASSWORD_REQUIRED": "Senha necessária",
+            "PASSWORD_REQUIRED_TEXT": "Este canal requer uma senha",
+            "PASSWORD_PLACEHOLDER": "Senha",
+            "PASSWORD_PLACEHOLDER_OPTIONAL": "Senha (opcional)",
+            "INCORRECT_PASSWORD": "Senha incorreta",
+            "INCORRECT_PASSWORD_TEXT": "A senha está incorreta",
+            "CHANNEL_EXISTS": "Canal já existe",
+            "CHANNEL_EXISTS_TEXT": "O canal já existe",
+            "INVALID_NAME": "Nome inválido",
+            "INVALID_NAME_TEXT": "O nome é inválido (min 1, máx 5 caracteres)",
+            "UNKNOWN_ERROR": "Erro desconhecido",
+            "UNKNOWN_ERROR_TEXT": "Ocorreu um erro desconhecido",
+
             "LEAVE_ROOM": "Sair da Sala",
             "LEAVE_ROOM_TEXT": "Tem certeza de que deseja sair desta sala?",
             "NOW": "Agora",
@@ -300,7 +321,6 @@
             "USERNAME_TAKEN": "Nome de usuário já está em uso",
             "UNKNOWN": "Erro desconhecido",
             "INVALID_USERNAME": "Nome de usuário não existe",
-            "INCORRECT_PASSWORD": "Senha incorreta",
             "OK": "OK",
 
             "LEAVE_CHANNEL": {
@@ -552,6 +572,10 @@
                 "TITLE": "Gravação Vazia",
                 "DESCRIPTION": "Você não pode enviar uma gravação vazia",
                 "OK": "OK"
+            },
+            "GROUP_MEMBER_LIMIT_NOTIFICATION": {
+                "TITLE": "Limite de membros do grupo atingido",
+                "CONTENT": "Você atingiu o limite máximo de membros do grupo ({limit})"
             }
         },
         "PHONE": {
@@ -634,7 +658,11 @@
                 "EMAIL": "E-mail",
                 "ADDRESS": "Endereço",
                 "CHANGE_AVATAR": "Mudar Avatar",
-                "REMOVE_AVATAR": "Remover Avatar"
+                "REMOVE_AVATAR": "Remover Avatar",
+                "RINGTONES": "Toques",
+                "RINGTONE": "Toque",
+                "DEFAULT": "Padrão",
+                "BACK": "Voltar"
             },
             "FAVOURITES": {
                 "TITLE": "Favoritos",
@@ -988,6 +1016,7 @@
             "LIKES_YOU_TOO": "também gostou de você!",
             "KEEP_SWIPING": "Continue deslizando",
             "SAY_SOMETHING_NICE": "Diga algo legal",
+            "TYPE_A_MESSAGE": "Digite uma mensagem...",
             "NO_MORE": "Não temos mais pessoas para você deslizar, volte mais tarde!",
             "SEND": "Enviar",
             "AGREE_TERMS": "Ao pressionar 'Criar Conta', você concorda com nossos Termos de Serviço e Política de Privacidade",
@@ -1022,7 +1051,14 @@
             "HIDDEN_WARNING": "Sua conta está atualmente oculta. Você não será mostrado para outros usuários e não poderá deslizar.",
             "HIDDEN_PROFILE": "Seu perfil não está ativo. Você pode ativar seu perfil nas configurações.",
             "SEARCH_MATCHES": "Buscar Matches",
-            "DELETE_ACCOUNT": "Excluir Conta"
+            "DELETE_ACCOUNT": "Excluir Conta",
+            "ERROR": {
+                "TITLE": "Erro",
+                "SHORT_NAME": "Seu nome é muito curto, (mínimo de 2 caracteres)",
+                "SHORT_BIO": "Sua biografia é muito curta, (mínimo de 5 caracteres)",
+                "NO_PHOTOS": "Você precisa adicionar pelo menos uma foto",
+                "OK": "OK"
+            }
         },
         "INSTAGRAM": {
             "TITLE": "InstaPic",
@@ -1368,6 +1404,7 @@
             "NOT_ENOUGH_COINS": "Você não tem moedas suficientes",
             "ATLEAST_ONE_COIN": "Você deve {action} pelo menos uma {currency}",
             "INVALID_COIN": "Moeda inválida",
+            "TOO_HIGH": "O valor é muito alto (máx {amount})",
             "NO_NUMBER": "Nenhum número de telefone fornecido",
             "INVALID_NUMBER": "Número de telefone inválido (o usuário pode não estar online)",
             "ERROR": "Erro",
@@ -1679,6 +1716,14 @@
         "FONT_AND_COLOR": "Fonte e Cor"
     },
     "MISC": {
+        "ORDINAL": {
+            "ZERO": "º",
+            "ONE": "º",
+            "TWO": "º",
+            "FEW": "º",
+            "MANY": "º",
+            "OTHER": "º"
+        },
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "Erro",
             "DESCRIPTION": "Você está tentando realizar uma ação que requer acesso à internet. Desative o modo avião para continuar.",
