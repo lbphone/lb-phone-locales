@@ -294,7 +294,7 @@
             "INVALID_NAME_TEXT": "İsim geçersiz (min 1, max 5 karakter)",
             "UNKNOWN_ERROR": "Bilinmeyen Hata",
             "UNKNOWN_ERROR_TEXT": "Bilinmeyen bir hata oluştu",
-            
+
             "LEAVE_ROOM": "Odadan Ayrıl",
             "LEAVE_ROOM_TEXT": "Bu odadan ayrılmak istediğine emin misin?",
             "NOW": "Şimdi",
@@ -572,10 +572,10 @@
                 "TITLE": "Boş Kayıt",
                 "DESCRIPTION": "Boş kayıt gönderemezsiniz",
                 "OK": "Tamam"
-            },    
+            },
             "GROUP_MEMBER_LIMIT_NOTIFICATION": {
                 "TITLE": "Üye sınırına ulaşıldı",
-                "CONTENT": "Bir gruptaki maksimum üye sayısına ulaştınız ({limit})."             
+                "CONTENT": "Bir gruptaki maksimum üye sayısına ulaştınız ({limit})."
             }
         },
         "PHONE": {
@@ -1016,7 +1016,7 @@
             "LIKES_YOU_TOO": "seni de beğendi!",
             "KEEP_SWIPING": "Kaydırmaya devam et",
             "SAY_SOMETHING_NICE": "Güzel bir şey söyle",
-            "TYPE_A_MESSAGE": "Mesaj yaz...",          
+            "TYPE_A_MESSAGE": "Mesaj yaz...",
             "NO_MORE": "Kaydıracak başka kimse kalmadı, daha sonra tekrar kontrol et!",
             "SEND": "Gönder",
             "AGREE_TERMS": "'Hesap Oluştur' butonuna basarak Hizmet Şartlarımızı ve Gizlilik Politikamızı kabul etmiş olursunuz",
