@@ -1594,6 +1594,20 @@
                 "DESCRIPTION": "Nemůžete uložit záznam bez jakéhokoliv zvuku",
                 "OK": "OK"
             }
+        },
+        "BROWSER": {
+            "TITLE": "Prohlížeč",
+            "SEARCH_PLACEHOLDER": "Hledejte nebo zadejte webovou adresu",
+            "NEW_TAB": "Nová karta",
+            "TABS": "Karty",
+            "TAB": "Karta",
+            "DONE": "Hotovo",
+            "CLOSE_ALL": "Zavřít vše",
+            "HISTORY": "Historie",
+            "BOOKMARKS": "Záložky",
+            "BOOKMARK_REMOVE": "Odebrat záložku",
+            "NO_BOOKMARKS": "Zatím žádné záložky",
+            "NO_HISTORY": "zatím žádná historie"
         }
     },
     "COMPONENTS": {
