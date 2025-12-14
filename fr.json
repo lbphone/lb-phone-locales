@@ -23,7 +23,7 @@
         "AppStore": "Apps",
         "Clock": "Horloge",
         "Maps": "Cartes",
-        "YellowPages": "Pages Jaunes",
+        "YellowPages": "Pages",
         "MarketPlace": "Marché",
         "Wallet": "Portefeuille",
         "Home": "Maison",
@@ -1594,6 +1594,20 @@
                 "DESCRIPTION": "Impossible de stocker un enregistrement sans son.",
                 "OK": "OK"
             }
+        },
+        "BROWSER": {
+            "TITLE": "Navigateur",
+            "SEARCH_PLACEHOLDER": "Saisir une recherche ou un URL",
+            "NEW_TAB": "Nouvel onglet",
+            "TABS": "Onglets",
+            "TAB": "Onglet",
+            "DONE": "Terminé",
+            "CLOSE_ALL": "Tout fermer",
+            "HISTORY": "Historique",
+            "BOOKMARKS": "Favoris",
+            "BOOKMARK_REMOVE": "Retirer des favoris",
+            "NO_BOOKMARKS": "Aucun favoris",
+            "NO_HISTORY": "Aucun historique"
         }
     },
     "COMPONENTS": {

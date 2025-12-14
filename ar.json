@@ -1,150 +1,208 @@
 {
-    "LABEL": "عربي",
+    "LABEL": "العربية",
     "SEARCH": "بحث",
     "CANCEL": "إلغاء",
+    "NOW": "الآن",
+    "D": "ي",
+    "H": "س",
+    "M": "د",
+    "S": "ث",
+    "SECONDS": "ثواني",
+    "MINUTES": "دقائق",
+    "HOURS": "ساعات",
+
+    "APP_NAMES": {
+        "Phone": "الهاتف",
+        "Messages": "الرسائل",
+        "Notes": "الملاحظات",
+        "Settings": "الإعدادات",
+        "Photos": "الصور",
+        "Camera": "الكاميرا",
+        "Weather": "الطقس",
+        "Calculator": "الآلة الحاسبة",
+        "AppStore": "المتجر",
+        "Clock": "الساعة",
+        "Maps": "الخرائط",
+        "YellowPages": "الصفحات",
+        "MarketPlace": "السوق",
+        "Wallet": "المحفظة",
+        "Home": "المنزل",
+        "Garage": "المرآب",
+        "Music": "الموسيقى",
+        "DarkChat": "دورك شات",
+        "Crypto": "العملات",
+        "Mail": "البريد",
+        "Services": "الخدمات",
+        "VoiceMemo": "المذكرات الصوتية",
+        "Twitter": "بيردي",
+        "Instagram": "إنستابيك",
+        "Tinder": "بارك",
+        "TikTok": "ترندي"
+    },
 
     "APPS": {
         "SETTINGS": {
-            "TITLE": "أعدادات",
+            "TITLE": "الإعدادات",
             "BACK": "رجوع",
-            "DONE": "انهاء",
+            "DONE": "تم",
             "EDIT": "تعديل",
-
             "AIRPLANE_MODE": "وضع الطيران",
-            "STREAMER_MODE": "وضع ستريمر",
-            "BLUETOOTH": "بلوتوث",
+            "AIRPLANE_MODE_DESCRIPTION": "تعطيل المكالمات، بيانات الجوال، إلخ.",
+            "STREAMER_MODE": "وضع البث",
+            "STREAMER_MODE_DESCRIPTION": "يشوش على المعلومات الحساسة",
             "GENERAL": "عام",
-
+            "GENERAL_DESCRIPTION": "الإعدادات العامة لهاتفك",
             "ABOUT": "حول",
-            "NAME": "اسم",
-            "VERSION": "إصدار",
-            "MODEL_NAME": "اسم النموذج",
-            "SERIAL_NUMBER": "رقم التسلسل",
-            "DEVELOPED_BY": "تم تطويره بواسطة",
-            "PURCHASE_AT": "الشراء من",
-            "SONGS": "أغاني",
-            "VIDEOS": "فيديوهات",
-            "PHOTOS": "صور",
-            "APPLICATIONS": "تطبيقات",
-            "CAPACITY": "سعة",
-            "AVAILABLE": "متوفر",
-
+            "NAME": "الاسم",
+            "VERSION": "الإصدار",
+            "MODEL_NAME": "اسم الموديل",
+            "SERIAL_NUMBER": "الرقم التسلسلي",
+            "DEVELOPED_BY": "مطور من قبل",
+            "PURCHASE_AT": "تم الشراء من",
+            "SONGS": "الأغاني",
+            "VIDEOS": "الفيديوهات",
+            "PHOTOS": "الصور",
+            "APPLICATIONS": "التطبيقات",
+            "CAPACITY": "السعة",
+            "AVAILABLE": "المتاح",
             "SOFTWARE_UPDATE": "تحديث النظام",
             "AUTOMATIC_UPDATES": "التحديثات التلقائية",
-
             "DATE_TIME": "التاريخ والوقت",
-            "24_HOUR_TIME": "نظام التوقيت ٢٤ ساعة",
-            "SET_AUTOMATICALLY": "اضبط تلقائيًا",
+            "24_HOUR_TIME": "توقيت 24 ساعة",
+            "SET_AUTOMATICALLY": "ضبط تلقائياً",
             "TIME_ZONE": "المنطقة الزمنية",
-
             "LANGUAGE_REGION": "اللغة والمنطقة",
-            "LANGUAGE": "لغة",
+            "LANGUAGE": "اللغة",
             "TEMPERATURE": "درجة الحرارة",
-            "BATTERY": "بطارية",
-
-            "SOUND_HAPTICS": "الصوت واللمس",
-            "SOUND_HAPTICS_PATTERNS": "أنماط الصوت واللمس",
+            "CELCIUS": "مئوية",
+            "FAHRENHEIT": "فهرنهايت",
+            "BATTERY": "البطارية",
+            "BATTERY_DESCRIPTION": "عرض حالة البطارية واستخدامها",
+            "SOUND_HAPTICS": "الصوت والاهتزاز",
+            "SOUND_HAPTICS_DESCRIPTION": "تغيير الأصوات والاهتزازات",
+            "SOUND_HAPTICS_PATTERNS": "أنماط الصوت والاهتزاز",
             "RINGTONE": "نغمة الرنين",
-            "TEXT_TONE": "لهجة النص",
-            "RINGTONE_VOLUME": "صوت المنبه ونغمة الرنين",
-            "DEFAULT": "الأعدادات الأساسية",
-
-            "PHONE_STORAGE": "ذاكرة الهاتف",
-            "STORAGE": "تخزين",
+            "TEXT_TONE": "نغمة الرسائل",
+            "RINGTONE_VOLUME": "صوت الرنين والتنبيهات",
+            "CALL_VOLUME": "صوت المكالمة",
+            "DEFAULT": "الافتراضي",
+            "PHONE_STORAGE": "تخزين الهاتف",
+            "STORAGE": "التخزين",
             "USED": "مستخدم",
-            "OF": "مغلق",
-
+            "OF": "من",
             "DISPLAY_BRIGHTNESS": "الشاشة والسطوع",
-            "APPEARANCE": "مظهر",
+            "DISPLAY_BRIGHTNESS_DESCRIPTION": "تعديل الشاشة والسطوع",
+            "DARK": "داكن",
+            "LIGHT": "فاتح",
+            "APPEARANCE": "المظهر",
             "AUTOMATIC": "تلقائي",
-            "BRIGHTNESS": "سطوع",
+            "BRIGHTNESS": "السطوع",
             "PHONE_SCALE": "مقياس الهاتف",
-
+            "FRAME_COLOR": "لون الإطار",
             "WALLPAPER": "خلفية الشاشة",
+            "WALLPAPER_DESCRIPTION": "تغيير خلفية الشاشة وإعدادات الخلفية الأخرى",
             "WALLPAPERS": "خلفيات الشاشة",
-            "CHOOSE_NEW_WALLPAPER": "اختر خلفية جديدة",
-
-            "NOTIFICATIONS": "إشعارات",
+            "CHOOSE_NEW_WALLPAPER": "اختيار خلفية جديدة",
+            "NOTIFICATIONS": "الإشعارات",
+            "NOTIFICATIONS_DESCRIPTION": "اختر التطبيقات المسموح لها بإرسال إشعارات",
             "ALLOW_NOTIFICATIONS": "السماح بالإشعارات",
-            "SOUNDS": "اصوات",
-
-            "PHONE": "هاتف",
-            "BLOCKED_CONTACTS": "جهات الاتصال المحضورة",
+            "SOUNDS": "الأصوات",
+            "PHONE": "الهاتف",
+            "PHONE_DESCRIPTION": "تبديل معرف المتصل، حظر الأرقام، إلخ.",
+            "BLOCKED_CONTACTS": "جهات الاتصال المحظورة",
             "MY_NUMBER": "رقمي",
-            "SHOW_CALLER_ID": "إظهار هوية المتصل",
-
+            "SHOW_CALLER_ID": "إظهار معرف المتصل",
             "UNBLOCK_POPUP": {
                 "TITLE": "إلغاء حظر الرقم",
                 "TEXT": "هل أنت متأكد أنك تريد إلغاء حظر هذا الرقم؟",
                 "CANCEL": "إلغاء",
-                "CONFIRM": "رفع الحظر"
+                "CONFIRM": "إلغاء الحظر"
             },
-
-            "FACE_ID_PASSWORD": "معرف الوجه ورمز المرور",
-            "ENTER_PASSCODE": "أدخل رمز المرور",
-            "PASSCODE": "رمز المرور",
-            "FACE_ID": "بصمة الوجه",
-            "RESET_FACE_ID": "إعادة تعيين بصمة الوجه",
-            "ENABLE_FACE_ID": "تفعيل بصمة الوجه",
-            "PIN_CODE": "الرقم السري",
-
+            "FACE_ID_PASSWORD": "فتح الوجه وكلمة المرور",
+            "FACE_ID_PASSWORD_DESCRIPTION": "أمن هاتفك",
+            "ENTER_PASSCODE": "أدخل كلمة المرور",
+            "PASSCODE": "كلمة المرور",
+            "FACE_ID": "فتح الوجه",
+            "RESET_FACE_ID": "إعادة ضبط فتح الوجه",
+            "ENABLE_FACE_ID": "تفعيل فتح الوجه",
+            "PIN_CODE": "كود PIN",
+            "PIN_CODE_ERROR": {
+                "TITLE": "خطأ",
+                "WRONG": "كود PIN خاطئ",
+                "OK": "موافق"
+            },
             "DISABLE_FACE_ID_POPUP": {
-                "TITLE": "إيقاف تشغيل بصمة الوجه",
-                "TEXT": "هل أنت متأكد من أنك تريد إيقاف تشغيل بصمة بصمة الوجه؟",
+                "TITLE": "إيقاف فتح الوجه",
+                "TEXT": "هل أنت متأكد أنك تريد إيقاف فتح الوجه؟",
                 "CANCEL": "إلغاء",
-                "CONFIRM": "إيقاف التشغيل"
+                "CONFIRM": "إيقاف"
             },
-
             "ENABLE_FACE_ID_POPUP": {
-                "TITLE": "تفعيل بصمة الوجه",
-                "TEXT": "هل أنت متأكد أنك تريد تفعيل بصمة الوجه؟",
+                "TITLE": "تفعيل فتح الوجه",
+                "TEXT": "هل أنت متأكد أنك تريد تفعيل فتح الوجه؟",
                 "CANCEL": "إلغاء",
                 "CONFIRM": "تفعيل"
             },
             "DISABLE_PIN_POPUP": {
-                "TITLE": "إيقاف تشغيل الرقم السري",
-                "TEXT": "هل أنت متأكد أنك تريد إيقاف الرقم السري؟ (سيؤدي ذلك أيضًا إلى ايقاف تشغيل بصمة الوجه)",
+                "TITLE": "إيقاف كود PIN",
+                "TEXT": "هل أنت متأكد أنك تريد إيقاف كود PIN؟ (هذا سيؤدي أيضاً إلى تعطيل فتح الوجه)",
                 "CANCEL": "إلغاء",
                 "CONFIRM": "تأكيد"
             },
-            "TURN_PASSCODE_OFF": "إيقاف تشغيل رمز المرور",
-            "TURN_PASSCODE_ON": "تشغيل رمز المرور",
-            "CHANGE_PASSCODE": "تغيير رمز المرور",
-            "CLOUD_BACKUP": "نسخ احتياطي ",
+            "TURN_PASSCODE_OFF": "إيقاف كلمة المرور",
+            "TURN_PASSCODE_ON": "تفعيل كلمة المرور",
+            "CHANGE_PASSCODE": "تغيير كلمة المرور",
+            "CLOUD_BACKUP": "استيراد من الهاتف",
             "YOUR_PROFILE": "ملفك الشخصي",
-            "CREATE_BACKUP": "انشئ نسخة احتياطية",
+            "CREATE_BACKUP": "إنشاء نسخة احتياطية",
+            "BACKUPS": "الاستيرادات",
             "SAVE_BACKUP_POPUP": {
-                "TITLE": "حفظ النسخ الاحتياطي",
-                "TEXT": "هل أنت متأكد أنك تريد حفظ نسخة احتياطية من بياناتك؟ (سيتم حفظ جهات الاتصال، الصور والإعدادات الخاصة بك)",
+                "TITLE": "استيراد",
+                "TEXT": "هل أنت متأكد أنك تريد حفظ نسخة احتياطية من بياناتك؟ (سيحفظ جهات اتصالك، صورك وإعداداتك)",
                 "CANCEL": "إلغاء",
                 "CONFIRM": "حفظ"
             },
-            "BACKUPS": "النسخ الاحتياطية",
             "APPLY_BACKUP_POPUP": {
-                "TITLE": "تطبيق النسخ الاحتياطي",
-                "TEXT": "هل أنت متأكد أنك تريد تطبيق هذه النسخة الاحتياطية؟ (سيتم استبدال جهات الاتصال، الصور والإعدادات الخاصة بك)",
+                "TITLE": "استيراد",
+                "TEXT": "هل أنت متأكد أنك تريد الاستيراد من هذا الهاتف؟ (سيستبدل جهات اتصالك، صورك وإعداداتك)",
                 "CANCEL": "إلغاء",
                 "CONFIRM": "تطبيق"
             },
+            "BACKUP_ERROR_POPUP": {
+                "WARNING": "تحذير",
+                "ERROR": "خطأ",
+                "ALREADY_HAVE": "لديك بالفعل استيراد لهذا الرقم",
+                "SAME_PHONE": "لا يمكنك الاستيراد من نفس الهاتف",
+                "OK": "موافق"
+            },
             "SUCCESS": "نجاح",
-            "SUCCESS_TEXT": "سيتم إعادة تشغيل الهاتف في 5 ثوان  ...",
+            "SUCCESS_TEXT": "سيتم إعادة تشغيل الهاتف خلال 5 ثواني...",
             "OK": "موافق",
+            "ON": "تشغيل",
+            "OFF": "إيقاف",
             "REMOVE_BACKUP_POPUP": {
-                "TITLE": "إزالة النسخة الاحتياطية",
-                "TEXT": "هل أنت متأكد أنك تريد إزالة هذه النسخة الاحتياطية؟",
+                "TITLE": "إزالة الاستيراد",
+                "TEXT": "هل أنت متأكد أنك تريد إزالة هذا الاستيراد؟",
                 "CANCEL": "إلغاء",
                 "CONFIRM": "إزالة"
             },
-            "ON": "يعمل"
+            "RESET_POPUP": {
+                "TITLE": "إعادة ضبط الهاتف",
+                "TEXT": "هل أنت متأكد أنك تريد إعادة ضبط هاتفك؟ [هذا سيحذف كل شيء]",
+                "CANCEL": "إلغاء",
+                "CONFIRM": "إعادة ضبط"
+            },
+            "UP_TO_DATE": "هاتفك محدث",
+            "BLUR_HOMESCREEN": "تشويش الشاشة الرئيسية"
         },
         "NOTES": {
-            "TITLE": "ملاحظات",
+            "TITLE": "الملاحظات",
             "SEARCH_PLACEHOLDER": "بحث",
-            "FOOTER": "ملاحظات {amount}",
+            "FOOTER": "{amount} ملاحظة",
             "NEW_NOTE": "ملاحظة جديدة",
             "LAST_EDITED": "آخر تعديل: {date}",
             "DELETE_TITLE": "حذف {title}",
-            "DELETE_TEXT": "هل أنت متأكد أنك تريد حذف '{title}'?",
+            "DELETE_TEXT": "هل أنت متأكد أنك تريد حذف '{title}'؟",
             "BUTTON_CANCEL": "إلغاء",
             "BUTTON_DELETE": "حذف"
         },
@@ -153,113 +211,265 @@
                 "TITLE": "الساعة العالمية",
                 "TODAY": "اليوم",
                 "TOMORROW": "غداً",
-                "YESTERDAY": "أمس"
+                "YESTERDAY": "أمس",
+                "LOCAL_TIME": "الوقت المحلي",
+                "HRS": "{time} ساعات"
             },
             "ALARM": {
-                "TITLE": "منبه",
-                "ADD": "أضف منبه",
+                "TITLE": "المنبه",
+                "ADD": "إضافة منبه",
                 "CANCEL": "إلغاء",
                 "EDIT": "تعديل",
-                "DONE": "انهاء",
+                "DONE": "تم",
                 "SAVE": "حفظ",
-                "LABEL": "ملصق",
-                "SOUND": "صوت",
+                "LABEL": "تسمية",
+                "SOUND": "الصوت",
                 "SNOOZE": "غفوة",
                 "DELETE_TITLE": "حذف المنبه",
                 "DELETE_TEXT": "هل أنت متأكد أنك تريد حذف هذا المنبه؟",
                 "BUTTON_CANCEL": "إلغاء",
-                "BUTTON_DELETE": "حذف"
+                "BUTTON_DELETE": "حذف",
+                "ALARMS": "المنبهات",
+                "NEW_ALARM": "منبه جديد",
+                "EDIT_ALARM": "تعديل المنبه"
             },
             "STOPWATCH": {
                 "TITLE": "ساعة التوقيف",
-                "START": "ابدأ",
-                "STOP": "توقف",
+                "START": "بدء",
+                "STOP": "إيقاف",
                 "RESET": "إعادة ضبط",
-                "LAP": "تعين جولة"
+                "LAP": "دورة",
+                "TIME": "الوقت",
+                "TOTAL": "الإجمالي",
+                "NO_LAPS": "لا توجد دورات"
             },
             "TIMER": {
-                "TITLE": "موقت",
-                "START": "ابدأ",
-                "STOP": "توقف",
+                "TITLE": "المؤقت",
+                "START": "بدء",
+                "STOP": "إيقاف",
                 "CANCEL": "إلغاء",
                 "HOURS": "ساعات",
                 "MINUTES": "دقائق",
-                "SECONDS": "ثوانى"
+                "SECONDS": "ثواني",
+                "NO_RECENTS": "لا توجد مؤخرات"
             },
             "ALERT": {
-                "STOP": "ايقاف"
+                "STOP": "إيقاف",
+                "RESTART": "إعادة تشغيل"
             }
         },
         "CAMERA": {
             "VIDEO": "فيديو",
             "PHOTO": "صورة",
-            "LANDSCAPE": "منظر الطبيعي",
-            "UPLOADING": "تحميل"
+            "LANDSCAPE": "بانوراما",
+            "UPLOADING": "جاري الرفع"
         },
         "DARKCHAT": {
-            "TITLE": "محادثة مظلمة",
-            "USERNAME": "اسم المستخدم",
-            "SET_USERNAME": "قم بتعيين اسم المستخدم الخاص بك. ملاحظة: يمكن ضبط هذا مرة واحدة فقط.",
+            "TITLE": "دورك شات",
+            "SEARCH": "البحث في القنوات",
             "CANCEL": "إلغاء",
             "SET": "تعيين",
-            "JOIN": "انضمام",
+            "JOIN": "انضم",
+            "CREATE": "إنشاء",
             "LEAVE": "مغادرة",
-            "NEW_ROOM": "غرفة جديدة",
-            "NEW_ROOM_TEXT": "اكتب رمز غرفة للانضمام أو إنشاء غرفة",
-            "ROOM_CODE": "رمز الغرفة",
+            "JOIN_ROOM": "انضم للغرفة",
+            "JOIN_ROOM_TEXT": "اكتب كود الغرفة للانضمام",
+            "CREATE_ROOM": "إنشاء غرفة",
+            "CREATE_ROOM_TEXT": "اكتب كود الغرفة لإنشاء غرفة",
+            "ROOM_CODE": "كود الغرفة",
+
+            "INVALID_CHANNEL": "قناة غير صالحة",
+            "INVALID_CHANNEL_TEXT": "القناة غير موجودة",
+            "ALREADY_IN_CHANNEL": "موجود بالفعل في القناة",
+            "ALREADY_IN_CHANNEL_TEXT": "أنت موجود بالفعل في هذه القناة",
+            "PASSWORD_REQUIRED": "كلمة المرور مطلوبة",
+            "PASSWORD_REQUIRED_TEXT": "القناة تتطلب كلمة مرور",
+            "PASSWORD_PLACEHOLDER": "كلمة المرور",
+            "PASSWORD_PLACEHOLDER_OPTIONAL": "كلمة المرور (اختياري)",
+            "INCORRECT_PASSWORD": "كلمة مرور خاطئة",
+            "INCORRECT_PASSWORD_TEXT": "كلمة المرور غير صحيحة",
+            "CHANNEL_EXISTS": "القناة موجودة",
+            "CHANNEL_EXISTS_TEXT": "القناة موجودة بالفعل",
+            "INVALID_NAME": "اسم غير صالح",
+            "INVALID_NAME_TEXT": "الاسم غير صالح (الحد الأدنى 1 حرف، الحد الأقصى 5)",
+            "UNKNOWN_ERROR": "خطأ غير معروف",
+            "UNKNOWN_ERROR_TEXT": "حدث خطأ غير معروف",
+
             "LEAVE_ROOM": "مغادرة الغرفة",
             "LEAVE_ROOM_TEXT": "هل أنت متأكد أنك تريد مغادرة هذه الغرفة؟",
-            "NOW": "الان",
-            "INPUT_PLACEHOLDER": "اكتب رسالة ..."
+            "NOW": "الآن",
+            "INPUT_PLACEHOLDER": "اكتب رسالة...",
+            "NO_CHATS": "لا توجد محادثات",
+            "NO_CHATS_TEXT": "لم تنضم لقناة بعد. انضم أو أنشئ واحدة بالضغط على علامة الزائد في الزاوية اليمنى العليا.",
+            "MEMBER": "عضو",
+            "MEMBERS": "أعضاء",
+
+            "USERNAME": "اسم المستخدم",
+            "PASSWORD": "كلمة المرور",
+            "LOGIN": "تسجيل الدخول",
+            "SIGN_UP": "إنشاء حساب",
+            "NO_ACCOUNT": "ليس لديك حساب؟",
+            "ALREADY_HAVE": "لديك حساب بالفعل؟",
+            "USERNAME_NOT_ALLOWED": "اسم المستخدم غير مسموح",
+
+            "CHANGE_ACCOUNT": "تغيير الحساب",
+            "CHANGE_PASSWORD": "تغيير كلمة المرور",
+            "DELETE_ACCOUNT": "حذف الحساب",
+
+            "ERROR": "خطأ",
+            "INVALID_LENGTH": "يجب أن تكون كلمة المرور 3 أحرف على الأقل",
+            "USERNAME_TAKEN": "اسم المستخدم محجوز بالفعل",
+            "UNKNOWN": "خطأ غير معروف",
+            "INVALID_USERNAME": "اسم المستخدم غير موجود",
+            "OK": "موافق",
+
+            "LEAVE_CHANNEL": {
+                "TITLE": "مغادرة القناة",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد مغادرة هذه القناة؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "مغادرة"
+            },
+
+            "SET_PASSWORD_POPUP": {
+                "TITLE": "تعيين كلمة مرور",
+                "DESCRIPTION": "تحتاج لتعيين كلمة مرور لحسابك",
+                "PLACEHOLDER": "كلمة المرور"
+            }
         },
         "APPSTORE": {
-            "TITLE": "تطبيقات",
+            "TITLE": "التطبيقات",
             "SEARCH": "بحث",
-            "GET": "الحصول على",
-            "OPEN": "افتح",
+            "GET": "احصل عليه",
+            "OPEN": "فتح",
             "TODAY": "اليوم",
-            "GAMES": "ألعاب",
-            "WHAT_WE_PLAYING": "ما الذي نلعبه؟",
+            "POPULAR_APPS": "التطبيقات الشائعة",
+            "GAMES": "الألعاب",
+            "APPS": "التطبيقات",
+            "WHAT_WE_PLAYING": "ماذا نلعب",
             "INFORMATION": "معلومات",
-            "PROVIDER": "مزود",
-            "SIZE": "حجم",
-            "COMPATIBILITY": "توافق",
-            "IN_APP_PURCHASES": "عمليات الشراء داخل التطبيق"
+            "PROVIDER": "المزود",
+            "SIZE": "الحجم",
+            "COMPATIBILITY": "التوافق",
+            "IN_APP_PURCHASES": "مشتريات داخل التطبيق",
+            "WORKS_WITH_PHONE": "يعمل مع هذا الهاتف",
+            "NO": "لا",
+            "YES": "نعم",
+            "PURCHASE_APP_POPUP": {
+                "TITLE": "شراء التطبيق",
+                "DESCRIPTION": "هل تريد شراء {app} بسعر {price}؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "شراء"
+            }
         },
         "PHOTOS": {
-            "TITLE": "صور",
+            "TITLE": "الصور",
             "SELECT": "تحديد",
             "CANCEL": "إلغاء",
-            "SELECT_ITEMS": "حدد العناصر",
-            "SELECTED_COUNT": "{count} العناصر المحددة",
-            "PHOTO_COUNT": "{amount} الصور",
+            "PROCEED": "متابعة",
+            "OK": "موافق",
+            "EDIT": "تعديل",
+            "DONE": "تم",
+            "DELETE": "حذف",
+            "SELECT_ITEMS": "تحديد عناصر",
+            "SELECTED_COUNT": "{count} عنصر محدد",
 
-            "DELETE_TITLE": "من الصور {count} حذف",
-            "DELETE_TEXT": "صور؟ {count} هل تريد حذف",
-            "DELETE_BUTTON_CANCEL": "إلغاء",
-            "DELETE_BUTTON_DELETE": "حذف",
+            "PHOTOS": "الصور",
+            "ALBUMS": "الألبومات",
+            "LIBRARY": "المكتبة",
+            "GALLERY": "المعرض",
+            "MY_ALBUMS": "ألبوماتي",
+            "SHARED_ALBUMS": "الألبومات المشتركة",
+            "MEDIA_TYPES": "أنواع الوسائط",
+            "MANAGE_MEMBERS": "إدارة الأعضاء",
+            "NEW_ALBUM_POPUP": {
+                "TITLE": "ألبوم جديد",
+                "DESCRIPTION": "أدخل اسم لهذا الألبوم",
+                "PLACEHOLDER": "العنوان",
+                "CANCEL": "إلغاء",
+                "PROCEED": "حفظ"
+            },
+            "REMOVE_ALBUM": {
+                "TITLE": "إزالة \"{name}\"",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد حذف الألبوم \"{name}\"? الصور لن تحذف"
+            },
+            "LEAVE_SHARED_ALBUM": {
+                "TITLE": "مغادرة \"{name}\"",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد مغادرة الألبوم \"{name}\"? لن تتمكن من رفع الصور إليه بعد الآن"
+            },
+            "RENAME_ALBUM_POPUP": {
+                "TITLE": "إعادة تسمية الألبوم",
+                "DESCRIPTION": "أدخل اسم جديد لهذا الألبوم",
+                "PLACEHOLDER": "اسم الألبوم الجديد",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "DELETE_IMAGE_POPUP": {
+                "TITLE": "حذف الصورة",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذه الصورة؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "حذف"
+            },
+            "IMPORT_IMAGE_POPUP": {
+                "TITLE": "استيراد للألبوم",
+                "DESCRIPTION": "استيراد صورة لهذا الألبوم",
+                "CANCEL": "إلغاء",
+                "PROCEED": "استيراد",
+                "PLACEHOLDER": "رابط الصورة"
+            },
+            "ERROR": "خطأ",
+            "SUCCESS": "نجاح",
+            "CONTACT_ALREADY_IN_ALBUM": "جهة الاتصال موجودة بالفعل في الألبوم",
+            "CONTACT_ADDED_TO_ALBUM": "تمت إضافة جهة الاتصال للألبوم",
+            "MEMBERS": "{count} عضو",
+            "INVITE": "دعوة",
+            "LEAVE_ALBUM": "مغادرة الألبوم",
+            "CREATE_SHARED_ALBUM": "إنشاء ألبوم مشترك",
+            "MANAGE_SHARED_ALBUM": "إدارة الألبوم المشترك",
+            "REMOVE_MEMBER": {
+                "TITLE": "إزالة العضو",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة هذا العضو من الألبوم؟",
+                "SUCCESS": "تمت إزالة العضو من الألبوم"
+            },
 
-            "DELETE_IMAGE_TITLE": "حذف صورة",
-            "DELETE_IMAGE_TEXT": "هل تريد حذف هذه الصورة؟",
-            "DELETE_IMAGE_BUTTON_CANCEL": "إلغاء",
-            "DELETE_IMAGE_BUTTON_DELETE": "حذف"
+            "NO_PHOTOS": "لا توجد صور أو فيديوهات",
+            "NO_PHOTOS_INSTRUCTIONS": "يمكنك التقاط صور وفيديوهات باستخدام الكاميرا",
+            "PHOTO_COUNT": "{amount} صورة",
+            "VIDEO_COUNT": "{amount} فيديو",
+
+            "DELETE_CONTEXT_TITLE": "هل تريد حذف {type} أو إزالتها من هذا الألبوم؟",
+            "THESE_PHOTOS": "هذه الصور",
+            "THIS_PHOTO": "هذه الصورة",
+            "REMOVE_FROM_ALBUM": "إزالة من الألبوم",
+            "ADD_TO_ALBUM": "إضافة للألبوم",
+            "ADD_TO_FAVOURITES": "إضافة للمفضلة",
+            "REMOVE_FROM_FAVOURITES": "إزالة من المفضلة",
+            "VIDEOS": "الفيديوهات",
+            "SELFIES": "صور السيلفي",
+            "SCREENSHOTS": "لقطات الشاشة",
+            "IMPORTS": "الاستيرادات",
+            "DUPLICATES": "المكررات",
+            "YEARS": "السنوات",
+            "MONTHS": "الأشهر",
+            "DAYS": "الأيام",
+            "ALL_PHOTOS": "كل الصور",
+
+            "FAVOURITES": "المفضلة",
+            "RECENTS": "المؤخرات"
         },
         "WEATHER": {
-            "TITLE": "طقس",
-            "HOURLY_FORECAST": "نشرة جوية كل ساعة",
+            "TITLE": "الطقس",
+            "HOURLY_FORECAST": "التنبؤ بالساعي",
             "NOW": "الآن",
-            "FEELS_LIKE": "يشعر وكأنها",
-            "FEELS_LIKE_SAME": "مماثلة لدرجة الحرارة الفعلية.",
-            "FEELS_LIKE_HUMIDITY": "الرطوبة تجعلها أكثر دفئًا",
-            "FEELS_LIKE_WIND": "تجعل الرياح الجو أكثر برودة",
-
+            "FEELS_LIKE": "تُشعر بـ",
+            "FEELS_LIKE_SAME": "مشابه لدرجة الحرارة الفعلية.",
+            "FEELS_LIKE_HUMIDITY": "الرطوبة تجعل الجو يشعر بدفء أكبر",
+            "FEELS_LIKE_WIND": "الرياح تجعل الجو يشعر ببرودة أكبر",
             "SUNRISE": "شروق الشمس",
             "SUNSET": "غروب الشمس",
-            "WIND": "ريح",
-            "PRECIPITATION": "ترسب",
-            "LAST_24H": "في آخر ٢٤ ساعة",
-            "EXPECTED_24H": "متوقع في ٢٤ ساعة القادمة",
-
+            "WIND": "الرياح",
+            "PRECIPITATION": "التساقط",
+            "LAST_24H": "في آخر 24 ساعة",
+            "EXPECTED_24H": "متوقع في الـ 24 ساعة القادمة",
             "TYPES": {
                 "CLOUDY": "غائم",
                 "LIGHT_RAIN": "مطر خفيف",
@@ -268,36 +478,42 @@
                 "SNOW": "ثلج",
                 "FOG": "ضباب",
                 "CLEAR": "صافي",
-                "MOSTLY_CLEAR": "صاف غالبًا",
+                "MOSTLY_CLEAR": "صافي غالباً",
                 "THUNDER": "رعد",
                 "TORNADO": "إعصار",
                 "WINDY": "عاصف"
             }
         },
         "MESSAGES": {
-            "TITLE": "رسائل",
+            "TITLE": "الرسائل",
             "NEW_MESSAGE": "رسالة جديدة",
-            "PEOPLE": "اشخاص",
-            "MEMBERS": "أعضاء",
-            "OTHER": "غير ذلك",
-            "SENT_A_PHOTO": "تم أرسال صورة",
-            "SENT": "أرسلت",
-            "REQUESTED": "مطلوب",
-            "MISSED_CALL": "{number} حاول الاتصال بك لكنك لم ترد ، اضغط على الرقم لمعاودة الاتصال",
-            "NOT_DELIVERED": "لم يتم تسليمها",
+            "PEOPLE": "الأشخاص",
+            "MEMBERS": "الأعضاء",
+            "OTHER": "آخر",
+            "SENT_A_PHOTO": "أرسل صورة",
+            "SENT_AUDIO_MESSAGE": "أرسل رسالة صوتية",
+            "SENT": "تم الإرسال",
+            "REQUESTED": "تم الطلب",
+            "MISSED_CALL": "حاول {number} الاتصال بك ولم ترد، اضغط على الرقم للاتصال مرة أخرى",
+            "NOT_DELIVERED": "لم يتم التسليم",
             "PLACEHOLDER": "رسالة نصية",
-            "DONE": "انهاء",
+            "DONE": "تم",
+            "EDIT": "تعديل",
+            "READ": "قراءة",
             "CANCEL": "إلغاء",
             "SEND": "إرسال",
-            "UNKNOWN": "مجهول",
+            "UNKNOWN": "غير معروف",
             "TO": "إلى",
             "SEARCH": "بحث",
             "ADD_MEMBER": "إضافة عضو",
-            "SHARE_LOCATION": "مشاركة الموقع الخاص بي",
-            "LEAVE_GROUP": "مغادرة المحادثة",
-            "SENT_LOCATION": "شاركوا موقعهم ، انقر للفتح في الخرائط",
-            "SENT_LOCATION_SHORT": "شاركوا موقعهم",
-
+            "SHARE_LOCATION": "مشاركة موقعي",
+            "LEAVE_GROUP": "مغادرة المجموعة",
+            "SENT_LOCATION": "شارك موقعه، اضغط لفتحه في الخرائط",
+            "SENT_LOCATION_SHORT": "شارك موقعه",
+            "TRIED_TO_CALL": "حاول {number} الاتصال بك",
+            "DELETE": "حذف",
+            "GROUP": "مجموعة",
+            "GROUP_NAME": "اسم المجموعة",
             "REMOVE_POPUP": {
                 "TITLE": "إزالة العضو",
                 "TEXT": "هل أنت متأكد أنك تريد إزالة {name} من المجموعة؟",
@@ -310,7 +526,7 @@
             },
             "ADD_POPUP": {
                 "TITLE": "إضافة عضو",
-                "TEXT": "المجموعة؟ '{name}' اكتب رقمًا للإضافة إلى",
+                "TEXT": "اكتب رقم لإضافته لمجموعة '{name}'؟",
                 "ADD": "إضافة"
             },
             "SEND_LOCATION_POPUP": {
@@ -324,292 +540,1367 @@
                 "REQUESTED": "تم الطلب",
                 "PAY": "دفع",
                 "SEND": "إرسال",
-                "SEND_TITLE": "{amount} إرسال ",
-                "SEND_DESCRIPTION": "هل تريد أن ترسل {amount} الى {name}؟",
+                "SEND_TITLE": "إرسال {amount}",
+                "SEND_DESCRIPTION": "هل تريد إرسال {amount} إلى {name}؟",
                 "SEND_BUTTON_CANCEL": "إلغاء",
                 "SEND_BUTTON_SEND": "إرسال"
+            },
+            "PAYMENT_FAILED_POPUP": {
+                "TITLE": "فشل الدفع",
+                "DESCRIPTION": "خطأ: {error}",
+                "CLOSE": "إغلاق"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "حذف المحادثة",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذه المحادثة؟",
+                "CANCEL": "إلغاء",
+                "DELETE": "حذف"
+            },
+            "REMOVE_AVATAR_POPUP": {
+                "TITLE": "إزالة الصورة الشخصية",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة صورة المجموعة الشخصية؟",
+                "CANCEL": "إلغاء",
+                "REMOVE": "إزالة"
+            },
+            "MARK_AS_READ": "تعليم كمقروءة",
+            "MESSAGE_DELETED": "تم حذف الرسالة",
+            "OPEN_IN_MAPS": "فتح في الخرائط",
+            "USERS_LOCATION": "موقع {user}",
+            "START_RECORDING": "اضغط الزر لبدء التسجيل",
+            "LOADING": "جاري التحميل...",
+            "EMPTY_RECORDING": {
+                "TITLE": "تسجيل فارغ",
+                "DESCRIPTION": "لا يمكنك إرسال تسجيل فارغ",
+                "OK": "موافق"
+            },
+            "GROUP_MEMBER_LIMIT_NOTIFICATION": {
+                "TITLE": "تم الوصول للحد الأقصى للأعضاء",
+                "CONTENT": "لقد وصلت للحد الأقصى لعدد الأعضاء في المجموعة ({limit})."
             }
         },
         "PHONE": {
-            "TITLE": "هاتف",
-            "DONE": "انهاء",
+            "TITLE": "الهاتف",
+            "DONE": "تم",
             "EDIT": "تعديل",
             "CANCEL": "إلغاء",
-
             "CALL": {
-                "CALL_TITLE": "اتصل بـ {name}",
+                "CALL_TITLE": "الاتصال بـ {name}",
                 "CALL_TEXT": "هل أنت متأكد أنك تريد الاتصال بـ {name}؟",
                 "CALL_BUTTON_CANCEL": "إلغاء",
-                "CALL_BUTTON_CALL": "اتصل",
-
-                "NO_CALLER_ID": "لا يوجد معرف المتصل",
-                "UNKNOWN": "مجهول",
+                "CALL_BUTTON_CALL": "اتصال",
+                "NO_CALLER_ID": "بدون معرف المتصل",
+                "UNKNOWN": "غير معروف",
                 "USER_BUSY": "المستخدم مشغول",
-                "USER_UNAVAILABLE": "المستخدم غير متوفر",
-                "CALL_BACK": "معاودة الاتصال",
+                "USER_UNAVAILABLE": "المستخدم غير متاح",
+                "CALL_BACK": "الاتصال مرة أخرى",
                 "DECLINE": "رفض",
                 "ACCEPT": "قبول",
                 "END": "إنهاء",
                 "VIDEO_CALL": "مكالمة فيديو",
-
-                "MUTE": "كتم الصوت",
+                "MUTE": "كتم",
                 "KEYPAD": "لوحة المفاتيح",
                 "SPEAKER": "مكبر الصوت",
                 "ADD_CALL": "إضافة مكالمة",
                 "VIDEO": "فيديو",
                 "CONTACTS": "جهات الاتصال",
-                "MOBILE": "الهاتف المحمول"
+                "MOBILE": "جوال",
+                "VIDEO_CALL_REQUEST": {
+                    "TITLE": "طلب مكالمة فيديو",
+                    "DESCRIPTION": "هل تريد قبول مكالمة الفيديو؟",
+                    "CANCEL": "إلغاء",
+                    "PROCEED": "قبول"
+                },
+                "REQUEST_VIDEO": {
+                    "TITLE": "مكالمة فيديو",
+                    "DESCRIPTION": "هل تريد بدء مكالمة فيديو؟",
+                    "CANCEL": "إلغاء",
+                    "PROCEED": "متابعة"
+                },
+                "STOP_VIDEO": {
+                    "TITLE": "إيقاف الفيديو",
+                    "DESCRIPTION": "هل أنت متأكد أنك تريد إيقاف مشاركة الفيديو الخاص بك؟",
+                    "CANCEL": "إلغاء",
+                    "PROCEED": "إيقاف"
+                }
             },
-
             "CONTACTS": {
                 "TITLE": "جهات الاتصال",
-                "FIRST_NAME": "الاسم الاول",
-                "LAST_NAME": "الاسم الاخير",
+                "FIRST_NAME": "الاسم الأول",
+                "LAST_NAME": "اسم العائلة",
                 "PHONE_NUMBER": "رقم الهاتف",
                 "MY_CARD": "بطاقتي",
                 "ADD_PHOTO": "إضافة صورة",
-
                 "REMOVE_CONTACT_TITLE": "إزالة جهة الاتصال",
                 "REMOVE_CONTACT_TEXT": "هل أنت متأكد أنك تريد إزالة جهة الاتصال هذه؟",
                 "REMOVE_CONTACT_BUTTON_CANCEL": "إلغاء",
                 "REMOVE_CONTACT_BUTTON_DELETE": "حذف",
-                "DELETE_CONTACT": "حذف جهة اتصال",
-
+                "DELETE_CONTACT": "حذف جهة الاتصال",
                 "MESSAGE": "رسالة",
                 "CALL": "اتصال",
                 "VIDEO": "فيديو",
+                "SHARE": "مشاركة",
                 "MAIN": "رئيسي",
-
-                "SHARE_CONTACT": "شارك جهة الإتصال",
-                "SHARE_LOCATION": "مشاركة الموقع الخاص بي",
+                "SHARE_CONTACT": "مشاركة جهة الاتصال",
+                "SHARE_LOCATION": "مشاركة موقعي",
                 "REMOVE_FAVORITE": "إزالة من المفضلة",
-                "ADD_FAVORITE": "اضافة الى المفضلة",
-                "ADD_CONTACT": "اضافة إلى جهات الاتصال",
-
-                "UNBLOCK_CALLER": "رفع الحظر عن هذا المتصل",
+                "ADD_FAVORITE": "إضافة للمفضلة",
+                "ADD_CONTACT": "إضافة لجهات الاتصال",
+                "UNBLOCK_CALLER": "إلغاء حظر هذا المتصل",
                 "BLOCK_CALLER": "حظر هذا المتصل",
-
-                "UNBLOCK_NUMBER_TITLE": "رفع الحظر عن هذا الرقم",
+                "UNBLOCK_NUMBER_TITLE": "إلغاء حظر الرقم",
                 "UNBLOCK_NUMBER_TEXT": "هل أنت متأكد أنك تريد إلغاء حظر {number}؟",
                 "UNBLOCK_NUMBER_BUTTON_CANCEL": "إلغاء",
-                "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "رفع الحظر",
-
-                "BLOCK_NUMBER_TITLE": "حظر هذا الرقم",
+                "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "إلغاء الحظر",
+                "BLOCK_NUMBER_TITLE": "حظر الرقم",
                 "BLOCK_NUMBER_TEXT": "هل أنت متأكد أنك تريد حظر {number}؟",
                 "BLOCK_NUMBER_BUTTON_CANCEL": "إلغاء",
-                "BLOCK_NUMBER_BUTTON_BLOCK": "حظر"
+                "BLOCK_NUMBER_BUTTON_BLOCK": "حظر",
+                "EMAIL": "البريد الإلكتروني",
+                "ADDRESS": "العنوان",
+                "CHANGE_AVATAR": "تغيير الصورة الشخصية",
+                "REMOVE_AVATAR": "إزالة الصورة الشخصية",
+                "RINGTONES": "نغمات الرنين",
+                "RINGTONE": "نغمة الرنين",
+                "DEFAULT": "الافتراضي",
+                "BACK": "رجوع"
             },
             "FAVOURITES": {
-                "TITLE": "مفضلات",
-
-                "REMOVE_TITLE": "إزالة من المفضلات",
-                "REMOVE_TEXT": "هل أنت متأكد أنك تريد إزالة جهة الاتصال هذه من المفضلة؟",
+                "TITLE": "المفضلة",
+                "REMOVE_TITLE": "إزالة من المفضلة",
+                "REMOVE_TEXT": "هل أنت متأكد أنك تريد إزالة جهة الاتصال هذه من مفضلتك؟",
                 "REMOVE_BUTTON_CANCEL": "إلغاء",
                 "REMOVE_BUTTON_REMOVE": "إزالة"
             },
             "KEYPAD": {
                 "TITLE": "لوحة المفاتيح",
-                "ADD_NUMBER": "أضف رقم"
+                "ADD_NUMBER": "إضافة رقم"
             },
             "RECENTS": {
-                "TITLE": "مؤخرًا"
+                "TITLE": "المؤخرات",
+                "ALL": "الكل",
+                "MISSED": "المفقودة",
+                "OUTGOING_CALL": "مكالمة صادرة",
+                "INCOMING_CALL": "مكالمة واردة",
+                "CANCELLED_CALL": "مكالمة ملغاة",
+                "MISSED_CALL": "مكالمة فائتة"
+            },
+            "VOICEMAIL": {
+                "TITLE": "البريد الصوتي",
+                "AT": "في",
+                "DELETE_POPUP": {
+                    "TITLE": "حذف البريد الصوتي",
+                    "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذا البريد الصوتي؟",
+                    "CANCEL": "إلغاء",
+                    "PROCEED": "حذف"
+                },
+                "CALL_POPUP": {
+                    "TITLE": "اتصال",
+                    "DESCRIPTION": "هل أنت متأكد أنك تريد الاتصال بـ {number}؟",
+                    "CANCEL": "إلغاء",
+                    "PROCEED": "اتصال"
+                }
             }
         },
         "WALLET": {
-            "TITLE": "محفظة",
+            "TITLE": "المحفظة",
             "BALANCE": "الرصيد",
             "SEND": "إرسال",
             "NEXT": "التالي",
-            "DONE": "انهاء",
-            "DONE_SUBTITLE": "لقد أرسلت مبلغ {amount} إلى {number}",
-
-            "NO_REFUNDS": "المدفوعات غير قابلة للاسترداد ، تحقق مرة أخرى من الرقم.",
-            "NEW_BALANCE": "رصيد جديد",
+            "DONE": "تم",
+            "DONE_SUBTITLE": "لقد أرسلت {amount} إلى {number}",
+            "NO_REFUNDS": "المدفوعات غير قابلة للاسترداد، تحقق من الرقم مرة أخرى.",
+            "NEW_BALANCE": "الرصيد الجديد",
+            "HOME": "الرئيسية",
             "LATEST_TRANSACTIONS": "آخر المعاملات",
+            "TRANSACTIONS": "المعاملات",
+            "ALL_TRANSACTIONS": "كل المعاملات",
+            "LATEST_BILLS": "آخر الفواتير",
+            "NOW": "الآن",
+            "AGO": "منذ",
+            "SELECT_CONTACT": "اختر جهة اتصال",
+            "TODAY": "اليوم",
+            "YESTERDAY": "أمس",
 
-            "NOW": "حاليا",
-            "AGO": "في الماضي"
+            "INSUFFICIENT_FUNDS": {
+                "TITLE": "مال غير كافٍ",
+                "DESCRIPTION": "ليس لديك مال كافٍ لإرسال هذا المبلغ"
+            },
+            "NUMBER_DOES_NOT_EXIST": {
+                "TITLE": "لا يمكن المتابعة",
+                "DESCRIPTION": "الرقم الذي أدخلته غير موجود أو اللاعب غير متصل"
+            },
+            "AIRPLANE_MODE": {
+                "TITLE": "خطأ",
+                "DESCRIPTION": "تحاول تنفيذ إجراء يتطلب اتصال بالإنترنت، قم بتعطيل وضع الطيران أو احصل على خدمة للمتابعة."
+            },
+            "INVALID_AMOUNT": {
+                "TITLE": "مبلغ غير صالح",
+                "DESCRIPTION": "لقد أدخلت مبلغ غير صالح"
+            },
+            "FAILED_SEND": {
+                "TITLE": "فشل الإرسال",
+                "DESCRIPTION": "فشل إرسال المال (لا يوجد هاتف مجهز)"
+            },
+            "EXCEED_DAILY": {
+                "TITLE": "تجاوز الحد اليومي",
+                "DESCRIPTION": "لقد تجاوزت الحد اليومي"
+            },
+            "EXCEED_WEEKLY": {
+                "TITLE": "تجاوز الحد الأسبوعي",
+                "DESCRIPTION": "لقد تجاوزت الحد الأسبوعي"
+            },
+            "FAILED_ADD": {
+                "TITLE": "فشل إضافة المال",
+                "DESCRIPTION": "فشل إضافة المال للحساب المحدد"
+            },
+
+            "OK": "موافق"
         },
         "GARAGE": {
-            "TITLTE": "كراج",
-
-            "ACTIONS": "أجراءات",
+            "TITLTE": "المرآب",
+            "ACTIONS": "الإجراءات",
             "MY_CARS": "سياراتي",
             "OUT": "خارج",
-            "GARAGE": "كراج",
-            "LOCATION": "موقع",
+            "GARAGE": "المرآب",
+            "IMPOUNDED": "مصادرة",
+            "IMPOUND_INFO": "معلومات المصادرة",
+            "LOCATION": "الموقع",
             "SUMMON": "استدعاء",
-            "VALET": "فحص",
-            "STATISTICS": "إحصائيات",
+            "VALET": "خدمة الصالة",
+            "STATISTICS": "الإحصائيات",
             "FUEL": "الوقود",
-            "ENGINE": "محرك",
-            "BODY": "هيكل",
+            "ENGINE": "المحرك",
+            "BODY": "الهيكل",
+            "VEHICLE": "المركبة",
+            "STATUS": "الحالة",
+            "LOCKED": "مقفل",
+            "LOCK": "قفل",
+            "UNLOCKED": "مفتوح",
+            "UNLOCK": "فتح",
 
             "WAYPOINT_POPUP": {
-                "TITLE": "تعيين إحداثية",
-                "TEXT": "هل تريد تعيين إحداثية لـ {model} الخاص بك؟",
+                "TITLE": "تعيين نقطة مسار",
+                "TEXT": "هل تريد تعيين نقطة مسار لـ {model} الخاص بك؟",
                 "CANCEL": "إلغاء",
-                "PROCEED": "المتابعة"
+                "PROCEED": "متابعة"
             },
             "VALET_POPUP": {
-                "TITLE": "فحص",
-                "TEXT": "هل تريد فحص {model} ({plate})؟",
-                "TEXT_PAID": "هل ترغب في خدمة {model} ({plate}) مقابل {amount}؟",
+                "TITLE": "خدمة الصالة",
+                "TEXT": "هل تريد خدمة الصالة لـ {model} ({plate})؟",
+                "TEXT_PAID": "هل تريد خدمة الصالة لـ {model} ({plate}) بمقابل {amount}؟",
                 "CANCEL": "إلغاء",
-                "PROCEED": "المتابعة"
+                "PROCEED": "متابعة"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} المركبة",
+                "TEXT": "هل تريد {toggle} مركبتك؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "IMPOUND_REASON": {
+                "REASON": "السبب",
+                "RETRIEVABLE": "قابل للاسترجاع",
+                "IMPOUNDER": "مصادرة من قبل",
+                "PRICE": "التكلفة"
             }
         },
         "HOME": {
-            "TITLE": "بيت",
-            "MY_HOMES": "منازلى",
+            "TITLE": "المنزل",
+            "MY_HOMES": "منازلي",
             "MY_HOME": "منزلي",
-            "KEY_ACCESS": "مفتاح الدخول ",
-            "ACTIONS": "أجراءات",
+            "KEY_ACCESS": "صلاحية المفتاح",
+            "ACTIONS": "الإجراءات",
             "FRONT_DOOR": "الباب الأمامي",
-            "LOCATION": "موقع",
-            "SET_WAYPOINT": "تعيين إحداثية",
-            "UNLOCK": "فتح القفل",
-            "UNLOCKED": "غيرمقفل",
+            "LOCATION": "الموقع",
+            "SET_WAYPOINT": "تعيين نقطة مسار",
+            "UNLOCK": "فتح",
+            "UNLOCKED": "مفتوح",
             "LOCK": "قفل",
             "LOCKED": "مقفل",
-            "GIVE_KEY": "أعط مفتاح",
-            "MANAGE": "تدبير",
-
+            "GIVE_KEY": "إعطاء مفتاح",
+            "MANAGE": "إدارة",
             "WAYPOINT_POPUP": {
-                "TITLE": "تعيين إحداثية",
-                "TEXT": "هل تريد تعيين احداثيات على {home}؟",
+                "TITLE": "تعيين نقطة مسار",
+                "TEXT": "هل تريد تعيين نقطة مسار لـ {home}؟",
                 "CANCEL": "إلغاء",
-                "PROCEED": "المتابعة"
+                "PROCEED": "متابعة"
             },
             "LOCK_POPUP": {
                 "TITLE": "{toggle} المنزل",
                 "TEXT": "هل تريد {toggle} منزلك؟",
                 "CANCEL": "إلغاء",
-                "PROCEED": "المتابعة"
+                "PROCEED": "متابعة"
             },
             "GIVE_KEY_POPUP": {
-                "TITLE": "أعط المفتاح",
-                "TEXT": "أدخل ID الشخص الذي تريد إعطاء مفتاح له",
+                "TITLE": "إعطاء مفتاح",
+                "TEXT": "أدخل معرف الشخص الذي تريد إعطاءه مفتاح",
                 "CANCEL": "إلغاء",
-                "PROCEED": "المتابعة"
+                "PROCEED": "متابعة"
             },
-
             "REMOVE_KEY_POPUP": {
-                "TITLE": "إزالة حامل المفاتيح",
-                "TEXT": "هل أنت متأكد أنك تريد إزالة الوصول من {name}؟",
+                "TITLE": "إزالة حامل المفتاح",
+                "TEXT": "هل أنت متأكد أنك تريد إزالة الصلاحية من {name}؟",
                 "CANCEL": "إلغاء",
-                "PROCEED": "المتابعة"
+                "PROCEED": "متابعة"
             }
         },
         "MARKETPLACE": {
-            "CANCEL": "إلغاء",
-            "SEARCH": "ابحث عن قوائم أو أرقام",
-            "NEW_POST": "منشور جديد",
-            "TITLE": "عنوان",
-            "DESCRIPTION": "وصف",
-            "PRICE": "سعر",
-            "POST": "بريد",
-            "CONTACT": "جهة الاتصال",
+            "MARKETPLACE": "السوق",
+            "TITLE": "العنوان",
+            "SEARCH": "ابحث في الإعلانات أو الأرقام",
+            "HOME": "الرئيسية",
+            "YOUR_POSTS": "إعلاناتك",
+            "PRICE": "السعر",
+            "DESCRIPTION": "الوصف",
+            "IMAGES": "الصور",
+            "POST": "نشر",
+            "AMOUNT_OF_TOTAL": "{amount} من {total}",
+            "MESSAGE": "رسالة",
+            "CALL": "اتصال",
             "REMOVE": "إزالة",
 
+            "ERROR_POPUP": {
+                "TITLE": "خطأ",
+                "NO_TITLE": "تحتاج لإدخال عنوان",
+                "NO_DESCRIPTION": "تحتاج لإدخال وصف",
+                "NO_PRICE": "تحتاج لإدخال سعر",
+                "NO_ATTACHMENTS": "تحتاج لإرفاق صورة واحدة على الأقل",
+                "OK": "موافق"
+            },
             "DELETE_POPUP": {
-                "TITLE": "حذف القائمة",
-                "TEXT": "هل أنت متأكد أنك تريد حذف هذه القائمة؟",
+                "TITLE": "حذف الإعلان",
+                "TEXT": "هل أنت متأكد أنك تريد حذف هذا الإعلان؟",
                 "CANCEL": "إلغاء",
                 "PROCEED": "حذف"
             }
         },
         "YELLOWPAGES": {
-            "SEARCH": "ابحث عن بريد أو أرقام",
+            "PAGES": "الصفحات",
+            "SEARCH": "ابحث في المنشورات أو الأرقام",
             "FROM": "من",
             "CANCEL": "إلغاء",
-            "NEW_POST": "بريد جديد",
-
-            "TITLE": "عنوان",
-            "DESCRIPTION": "وصف",
-            "PRICE": "سعر",
-            "POST": "بريد",
-            "CALL": "مكالمة",
-
+            "NEW_POST": "منشور جديد",
+            "TITLE": "العنوان",
+            "DESCRIPTION": "الوصف",
+            "PRICE": "السعر",
+            "POST": "نشر",
+            "CALL": "اتصال",
+            "ERROR_POPUP": {
+                "TITLE": "خطأ",
+                "NO_TITLE": "تحتاج لإدخال عنوان",
+                "NO_DESCRIPTION": "تحتاج لإدخال وصف",
+                "OK": "موافق"
+            },
             "DELETE_POPUP": {
-                "TITLE": "حذف بريد",
-                "TEXT": "هل أنت متأكد أنك تريد حذف هذه المشاركة؟",
+                "TITLE": "حذف المنشور",
+                "TEXT": "هل أنت متأكد أنك تريد حذف هذا المنشور؟",
                 "CANCEL": "إلغاء",
                 "PROCEED": "حذف"
+            }
+        },
+        "MAIL": {
+            "TITLE": "البريد",
+            "YOU": "أنت",
+            "UPDATED_NOW": "تم التحديث الآن",
+            "NEW_MESSAGE": "رسالة جديدة",
+            "INBOX": "صندوق الوارد",
+            "TO": "إلى",
+            "FROM": "من",
+            "SUBJECT": "الموضوع",
+            "MESSAGE": "الرسالة",
+            "CANCEL": "إلغاء",
+            "SEND": "إرسال",
+            "EMAIL": "البريد الإلكتروني",
+            "EMAIL_INVALID": "عنوان بريد إلكتروني غير صالح",
+            "EMAIL_EXISTS": "البريد الإلكتروني موجود بالفعل",
+            "PASSWORD": "كلمة المرور",
+            "WRONG_PASSWORD": "كلمة مرور خاطئة",
+            "LOGIN": "تسجيل الدخول",
+            "NO_EMAIL": "ليس لديك بريد إلكتروني؟",
+            "CREATE_ONE": "أنشئ واحداً",
+            "UNREAD": "غير مقروء",
+            "CREATE_MAIL": "إنشاء بريد إلكتروني",
+            "ALREADY_HAVE": "لديك بريد إلكتروني بالفعل؟",
+            "ADD_EMAIL": "إضافة بريد إلكتروني",
+            "RE": "رد: {subject}",
+            "CHANGE_ACCOUNT": "تغيير الحساب",
+            "CHANGE_PASSWORD": "تغيير كلمة المرور",
+            "DELETE_ACCOUNT": "حذف الحساب",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "تسجيل الخروج",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "DELETE_MAIL_POPUP": {
+                "TITLE": "حذف البريد الإلكتروني",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذا البريد الإلكتروني؟",
+                "CANCEL": "إلغاء",
+                "DELETE": "حذف"
+            },
+            "FAILED_SEND": {
+                "TITLE": "فشل الإرسال",
+                "DESCRIPTION": "فشل إرسال البريد (هل المستلم موجود؟)",
+                "OK": "موافق"
+            }
+        },
+        "MAPS": {
+            "TITLE": "الخرائط",
+            "GO": "اذهب",
+            "ADD": "إضافة",
+            "EDIT": "تعديل",
+            "DELETE": "حذف",
+            "SET_WAYPOINT": "تعيين نقطة مسار",
+            "SHARE": "مشاركة",
+
+            "ADD_LOCATION_POPUP": {
+                "TITLE": "إضافة موقع",
+                "DESCRIPTION": "أدخل اسم الموقع الذي تريد إضافته",
+                "PLACEHOLDER": "الاسم",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "CHANGE_NAME_POPUP": {
+                "TITLE": "تغيير الاسم",
+                "DESCRIPTION": "أدخل الاسم الجديد للموقع",
+                "PLACEHOLDER": "الاسم",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            }
+        },
+        "MUSIC": {
+            "TITLE": "الموسيقى",
+            "HOME": "الرئيسية",
+            "RECENTLY_ADDED": "المضافة مؤخراً",
+            "CATEGORIES": "الفئات",
+            "PLAYLISTS": "قوائم التشغيل",
+            "LIBRARY": "المكتبة",
+            "SEARCH": "بحث",
+            "ADD_QUEUE": "إضافة للقائمة",
+            "ADD_PLAYLIST": "إضافة لقائمة التشغيل",
+            "REMOVE_SONG": "إزالة الأغنية",
+            "NOT_PLAYING": "لا شيء مشغّل",
+            "EDIT_PLAYLIST": "تعديل قائمة التشغيل",
+            "DELETE_PLAYLIST": "حذف قائمة التشغيل",
+            "SEARCH_PLACEHOLDER": "الفنانون، الأغاني، الألبومات، قوائم التشغيل",
+            "SONGS": "الأغاني",
+            "ALBUMS": "الألبومات",
+            "ARTISTS": "الفنانون",
+            "PLAY": "تشغيل",
+            "SHUFFLE": "خلط",
+            "ARTIST": "الفنان",
+            "ALBUM": "الألبوم",
+            "PLAYLIST": "قائمة التشغيل",
+            "SONG": "الأغنية",
+            "SONG_EXISTS_POPUP": {
+                "TITLE": "الأغنية موجودة بالفعل",
+                "DESCRIPTION": "هذه الأغنية موجودة بالفعل في قائمة التشغيل هذه",
+                "CANCEL": "إلغاء"
+            },
+            "NEW_PLAYLIST_POPUP": {
+                "TITLE": "قائمة تشغيل جديدة",
+                "DESCRIPTION": "إنشاء قائمة تشغيل جديدة",
+                "PLACEHOLDER": "اسم قائمة التشغيل",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "REMOVE_SONG_POPUP": {
+                "TITLE": "إزالة الأغنية",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة هذه الأغنية من قائمة التشغيل؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            }
+        },
+        "TINDER": {
+            "TITLE": "بارك",
+            "LIKES_YOU_TOO": "أعجب بك أيضاً!",
+            "KEEP_SWIPING": "استمر في التمرير",
+            "SAY_SOMETHING_NICE": "قل شيئاً لطيفاً",
+            "TYPE_A_MESSAGE": "اكتب رسالة...",
+            "NO_MORE": "لقد نفذ الأشخاص الذين يمكنك التمرير عليهم، افحص لاحقاً!",
+            "SEND": "إرسال",
+            "AGREE_TERMS": "بالضغط على 'إنشاء حساب' فإنك توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا",
+            "CREATE_ACCOUNT": "إنشاء حساب",
+            "AGE_PUBLIC": "عمرك سيكون عاماً",
+            "BE_OVER_18": "يجب أن تكون فوق 18 لاستخدام هذه الخدمة",
+            "NAME_MINIMUM": "يجب أن يكون اسمك مكون من 3 أحرف على الأقل",
+            "ADD_PHOTOS": "إضافة صور",
+            "PHOTOS_MINIMUM": "يجب أن تمتلك صورة واحدة على الأقل",
+            "DESCRIPTION": "أخبرنا قليلاً عن نفسك",
+            "DESCRIPTION_MINIMUM": "يجب أن يكون وصفك مكون من 10 أحرف على الأقل",
+            "SHOW_ME": "أظهر لي",
+            "WOMEN": "نساء",
+            "MEN": "رجال",
+            "EVERYONE": "الجميع",
+            "EVERYTHING": "كل شيء",
+            "I_AM": "أنا",
+            "MALE": "ذكر",
+            "FEMALE": "أنثى",
+            "CONTINUE": "متابعة",
+            "NAME": "الاسم",
+            "PHOTOS": "الصور",
+            "ABOUT_ME": "عني",
+            "INTERESTED_IN": "مهتم بـ",
+            "GENDER": "الجنس",
+            "SAVE": "حفظ",
+            "NEW_MATCHES": "الموائمات الجديدة",
+            "MESSAGES": "الرسائل",
+            "VISIBILITY": "ظهور الملف",
+            "VISIBLE": "مرئي",
+            "HIDDEN": "مخفي",
+            "HIDDEN_WARNING": "حسابك مخفي حالياً. لن يتم عرضك للمستخدمين الآخرين، ولن تتمكن من التمرير.",
+            "HIDDEN_PROFILE": "ملفك غير نشط. يمكنك تفعيل ملفك من الإعدادات.",
+            "SEARCH_MATCHES": "البحث في الموائمات",
+            "DELETE_ACCOUNT": "حذف الحساب",
+            "ERROR": {
+                "TITLE": "خطأ",
+                "SHORT_NAME": "مشكلة في حفظ ملف بارك، (يجب أن يكون الاسم مكون من حرفين على الأقل)",
+                "SHORT_BIO": "مشكلة في حفظ ملف بارك، (يجب أن يكون الوصف مكون من 5 أحرف على الأقل)",
+                "NO_PHOTOS": "مشكلة في حفظ ملف بارك، (لا توجد صور)",
+                "OK": "موافق"
+            }
+        },
+        "INSTAGRAM": {
+            "TITLE": "إنستابيك",
+            "SEND": "إرسال",
+            "POST": "نشر",
+            "MESSAGE_PLACEHOLDER": "رسالة...",
+            "NEW_MESSAGE": "رسالة جديدة",
+            "NOW": "الآن",
+            "GO_LIVE_POPUP": {
+                "TITLE": "البث المباشر",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد البث المباشر؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "END_LIVE_POPUP": {
+                "TITLE": "إنهاء البث المباشر",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد {action} هذا البث المباشر؟",
+                "CANCEL": "إلغاء",
+                "END": "إنهاء",
+                "LEAVE": "مغادرة"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "إلغاء المتابعة",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد إلغاء متابعة {name}؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "DELETE_POST_POPUP": {
+                "TITLE": "حذف المنشور",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذا المنشور؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "SIGN_OUT_POPUP": {
+                "TITLE": "تسجيل الخروج",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "DELETE_STORY": {
+                "TITLE": "حذف القصة",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذه القصة؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "INVITE_LIVE_POPUP": {
+                "TITLE": "دعوة للبث المباشر",
+                "DESCRIPTION": "{username} دعاك لبثه المباشر، هل تريد الانضمام؟",
+                "NO": "لا",
+                "YES": "نعم"
+            },
+            "REMOVE_LIVE_POPUP": {
+                "TITLE": "إزالة {username}",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة {username} من بثك المباشر؟",
+                "CANCEL": "إلغاء",
+                "REMOVE": "إزالة"
+            },
+            "LEAVE_LIVE_POPUP": {
+                "TITLE": "مغادرة البث المباشر",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد مغادرة هذا البث المباشر؟",
+                "LEAVE": "مغادرة"
+            },
+            "LIVE_ENDED": "انتهى البث المباشر",
+            "COMMENT_PLACEHOLDER": "تعليق",
+            "LIVE": "مباشر",
+            "YOUR_STORY": "قصتك",
+            "CREATE_STORY": "إنشاء قصة",
+            "GO_LIVE": "اذهب للمباشر",
+            "EMPTY_FEED": "ابدأ بمتابعة الأشخاص لترى صورهم وفيديوهاتهم هنا",
+            "COMMENTS": "التعليقات",
+            "ADD_COMMENT_AS": "أضف تعليقاً كـ {name}",
+            "NEW_POST": "منشور جديد",
+            "NEXT": "التالي",
+            "CAPTION_PLACEHOLDER": "اكتب تعليقاً...",
+            "ACTIVITY": "النشاط",
+            "FOLLOW": "متابعة",
+            "FOLLOWING": "يتبع",
+            "FOLLOWERS": "المتابعون",
+            "FOLLOWER": "متابع",
+            "REQUESTED": "تم الطلب",
+            "LIKES": "الإعجابات",
+            "LIKED_BY": "أعجب بـ",
+            "VIEW_ALL_COMMENTS": "عرض كل التعليقات {count}",
+            "FIRST_COMMENT": "كن أول من يعلق...",
+            "LOG_IN": "تسجيل الدخول",
+            "CREATE_ACCOUNT": "إنشاء حساب",
+            "USERNAME_PLACEHOLDER": "اسم المستخدم",
+            "NAME_PLACEHOLDER": "الاسم",
+            "PASSWORD_PLACEHOLDER": "كلمة المرور",
+            "NOT_HAVE_ACCOUNT": "ليس لديك حساب؟",
+            "HAVE_ACCOUNT": "لديك حساب؟",
+            "LIKED_PHOTO": "أعجب بصورتك.",
+            "LIKED_COMMENT": "أعجب بتعليقك: {comment}",
+            "COMMENTED": "علق على منشورك: {comment}",
+            "FOLLOWED": "بدأ متابعتك.",
+            "DONE": "تم",
+            "EDIT_PROFILE": "تعديل الملف",
+            "CHANGE_PICTURE": "تغيير الصورة الشخصية",
+            "NAME": "الاسم",
+            "BIO": "السيرة",
+            "PRIVATE": "تبديل الخصوصية",
+            "SIGN_OUT": "تسجيل الخروج",
+            "CHANGE_PASSWORD": "تغيير كلمة المرور",
+            "DELETE_ACCOUNT": "حذف الحساب",
+            "POSTS": "المنشورات",
+            "MESSAGE": "رسالة",
+            "SENT_A_PHOTO": "أرسل صورة",
+            "TO": "إلى",
+            "SEND_A_MESSAGE": "أرسل رسالة...",
+            "STORY_VIEWERS": "المشاهدون",
+            "PARTICIPANTS": "المشاركون",
+            "SEEN_BY": "شوهد من قبل {count}",
+            "ADD_ACCOUNT": "إضافة حساب",
+            "INVITE": "دعوة",
+            "INVITED": "تمت الدعوة",
+            "REMOVE": "إزالة",
+            "IN_THIS_ROOM": "في هذه الغرفة",
+            "WHOS_WATCHING": "من يشاهد",
+            "FOLLOW_REQUESTS": "طلبات المتابعة",
+            "CONFIRM": "تأكيد",
+            "DELETE": "حذف",
+            "ANDOTHERS": "{username} + {amount} آخرين",
+            "PRIVATE_ACCOUNT": "هذا الحساب خاص",
+            "PRIVATE_ACCOUNT_DESCRIPTION": "تابع هذا الحساب لترى صوره وفيديوهاته.",
+            "ERROR": "خطأ",
+            "USERNAME_TAKEN": "اسم المستخدم محجوز بالفعل",
+            "UNKNOWN": "خطأ غير معروف",
+            "UNKNOWN_ACCOUNT": "الحساب غير موجود",
+            "INVALID_USERNAME": "اسم مستخدم غير صالح",
+            "INCORRECT_PASSWORD": "كلمة مرور خاطئة",
+            "USERNAME_NOT_ALLOWED": "اسم المستخدم غير مسموح",
+            "OK": "موافق",
+            "LOCATION": "الموقع",
+            "CHOOSE_LOCATION": {
+                "TITLE": "اختر الموقع",
+                "DESCRIPTION": "اختر موقع لهذا المنشور",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "REPLIED_TO_YOUR_STORY": "رد على قصتك",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "رد على قصتك: {content}",
+
+            "SHARE_TO_STORY": {
+                "TITLE": "مشاركة للقصة",
+                "SUCCESS": "تم مشاركة المنشور",
+                "DESCRIPTION": "تمت مشاركة منشورك لقصتك"
+            },
+            "VIEW_POST": "عرض المنشور"
+        },
+        "TWITTER": {
+            "TITLE": "بيردي",
+            "SEARCH_FOR": "البحث عن '{search}'",
+            "START_SEARCHING": "ابدأ البحث لاستكشاف بيردي",
+            "TRENDING_HASHTAGS": "الهاشتاقات الشائعة",
+            "SENT_ATTACHMENT": "أرسل مرفقاً",
+            "TO": "إلى",
+            "TWEETS": "التغريدات",
+            "REPLIES": "الردود",
+            "MEDIA": "الوسائط",
+            "LIKES": "الإعجابات",
+            "CANCEL": "إلغاء",
+            "TWEET": "تغريدة",
+            "TWEET_REPLY": "اكتب ردك",
+            "TWEET_GENERAL": "ماذا يحدث؟",
+            "EDIT_PROFILE": "تعديل الملف",
+            "SAVE": "حفظ",
+            "NAME": "الاسم",
+            "JOIN_DATE": "تاريخ الانضمام",
+            "PROTECTED_POSTS": "حماية تغريداتك",
+            "BIO": "السيرة",
+            "SIGN_OUT": "تسجيل الخروج",
+            "CHANGE_PASSWORD": "تغيير كلمة المرور",
+            "DELETE_ACCOUNT": "حذف الحساب",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "تسجيل الخروج",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "إلغاء المتابعة",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد إلغاء متابعة {name}؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "RETWEET_POPUP": {
+                "RETWEET": "إعادة نشر",
+                "UNDO_RETWEET": "تراجع عن إعادة النشر",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد {action}؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "حذف التغريدة",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذه التغريدة؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "NOTIFICATIONS_POPUP": {
+                "TITLE": "الإشعارات",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد {action} الإشعارات على @{name}؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة",
+                "ENABLE": "تفعيل",
+                "DISABLE": "تعطيل"
+            },
+            "PROMOTE_POPUP": {
+                "TITLE": "ترويج التغريدة",
+                "DESCRIPTION": "هل تريد ترويج هذه التغريدة بمقابل {price} مقابل {views} مشاهدة؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "YOU": "أنت",
+            "FOLLOW": "متابعة",
+            "PENDING": "قيد الانتظار",
+            "FOLLOWING": "يتبع",
+            "FOLLOWERS": "المتابعون",
+            "RETWEETED": "أعيد نشره",
+            "REPLYING_TO": "يرد على {name}",
+            "RETWEETED_BY": "أعيد نشره بواسطة",
+            "LIKED_BY": "أعجب بـ",
+            "ALL": "الكل",
+            "NOTIFICATIONS": "الإشعارات",
+            "FOLLOWS_YOU": "يتبعك",
+            "JOINED": "انضم في {date}",
+            "PINNED_POST": "التغريدة المثبتة",
+            "LIKED_TWEET": "أعجب بتغريدتك",
+            "RETWEETED_TWEET": "أعاد نشر تغريدتك",
+            "FOLLOWED": "تابعك",
+            "SIGN_UP_TEXT": "شاهد ما يحدث في العالم الآن",
+            "TERMS_OF_SERVICE": "بإنشاء الحساب، فإنك توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا.",
+            "HAS_ACCOUNT": "لديك حساب بالفعل؟",
+            "CREATE_YOUR_ACCOUNT": "أنشئ حسابك",
+            "NAME_PLACEHOLDER": "الاسم",
+            "USERNAME_PLACEHOLDER": "اسم المستخدم",
+            "PASSWORD_PLACEHOLDER": "كلمة المرور",
+            "GET_STARTED": "لتبدأ، أولاً أدخل @اسم المستخدم الخاص بك",
+            "FORGOT_PASSWORD": "نسيت كلمة المرور؟",
+            "ENTER_PASSWORD": "أدخل كلمة المرور الخاصة بك",
+            "SEARCH_DIRECT_MESSAGES": "البحث في الرسائل المباشرة",
+            "SEARCH_TWITTER": "البحث في بيردي",
+            "MESSAGE_PLACEHOLDER": "رسالة...",
+            "NOW": "الآن",
+            "LOGIN": "تسجيل الدخول",
+            "NEXT": "التالي",
+            "CREATE_ACCOUNT": "إنشاء حساب",
+            "PROMOTE": "ترويج",
+            "PIN": "تثبيت التغريدة",
+            "UNPIN": "إلغاء تثبيت التغريدة",
+            "NEW_MESSAGE": "رسالة جديدة",
+            "PROMOTED": "مروَّج",
+            "ADD_ACCOUNT": "إضافة حساب",
+            "FOLLOWER_REQUESTS": "طلبات المتابعة",
+            "NEW_POSTS": "تغريدات جديدة",
+            "NEW_POST": "تغريدة جديدة",
+            "PROTECTED_TWEETS_TITLE": "هذه التغريدات محمية.",
+            "PROTECTED_TWEETS_DESCRIPTION": "فقط المتابعون المؤكدون لديهم حق الوصول لتغريدات @{username} وملفه الكامل. اضغط زر 'متابعة' لإرسال طلب متابعة.",
+            "INVALID_ACCOUNT": "حساب غير صالح",
+            "INVALID_PASSWORD": "كلمة مرور غير صالحة",
+            "USERNAME_TAKEN": "اسم المستخدم محجوز بالفعل",
+            "USERNAME_NOT_ALLOWED": "اسم المستخدم غير مسموح"
+        },
+        "SERVICES": {
+            "ACTIONS": "الإجراءات",
+            "COMPANIES": "الشركات",
+            "MESSAGES": "الرسائل",
+            "SETTINGS": "الإعدادات",
+
+            "CLOSED": "مغلق",
+            "YOUR_MESSAGES": "رسائلك",
+            "JOB_MESSAGES": "رسائل العمل",
+
+            "DUTY": "المناوبة",
+            "DUTY_DESCRIPTION": "تبديل حالة المناوبة الخاصة بك",
+            "GO_ON_DUTY": "بدء المناوبة",
+            "GO_OFF_DUTY": "إنهاء المناوبة",
+            "JOB_CALLS": "مكالمات العمل",
+            "JOB_CALLS_DESCRIPTION": "{toggle} استقبال مكالمات من الزبائن.",
+
+            "ENABLE": "تفعيل",
+            "DISABLE": "تعطيل",
+
+            "DISABLE_CALLS": "تعطيل المكالمات",
+            "ENABLE_CALLS": "تفعيل المكالمات",
+            "BALANCE": "الرصيد",
+            "MANAGE_EMPLOYEES": "إدارة الموظفين",
+            "HIRE": "توظيف",
+            "SET_GRADE": "تعيين درجة",
+            "UNEMPLOYED": "أنت عاطل عن العمل",
+
+            "ALL": "الكل",
+            "AVAILABLE": "متاح",
+            "SEARCH_EMPLOYEES": "البحث في الموظفين",
+
+            "PERSONAL": "شخصي",
+            "JOB": "عمل",
+
+            "DEPOSIT_POPUP": {
+                "TITLE": "إيداع",
+                "DESCRIPTION": "إيداع المال في حساب الشركة",
+                "AMOUNT": "المبلغ",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "WITHDRAW_POPUP": {
+                "TITLE": "سحب",
+                "DESCRIPTION": "سحب المال من حساب الشركة",
+                "NOT_ENOUGH_MONEY": "ليس هناك مال كافٍ في حساب الشركة",
+                "AMOUNT": "المبلغ",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "HIRE_POPUP": {
+                "TITLE": "توظيف",
+                "DESCRIPTION": "توظيف موظف جديد",
+                "PLACEHOLDER": "المعرف",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "FIRE_POPUP": {
+                "TITLE": "فصل",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد فصل {name}؟",
+                "PLACEHOLDER": "المعرف",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "CALL_POPUP": {
+                "TITLE": "اتصال",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد الاتصال بـ {name}؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            }
+        },
+        "CRYPTO": {
+            "TITLE": "العملات",
+            "BALANCE": "الرصيد التقريبي",
+            "BUY": "شراء",
+            "SELL": "بيع",
+            "TRANSFER": "تحويل",
+            "SELL_ALL": "بيع الكل",
+            "NO_MONEY": "ليس لديك مال كافٍ",
+            "NO_COINS": "ليس لديك أي من هذه العملة",
+            "NOT_ENOUGH_COINS": "ليس لديك ما يكفي من العملات",
+            "ATLEAST_ONE_COIN": "يجب أن {action} عملة {currency} واحدة على الأقل",
+            "INVALID_COIN": "عملة غير صالحة",
+            "TOO_HIGH": "المبلغ مرتفع جداً (الحد الأقصى {amount})",
+            "NO_NUMBER": "لم يتم تقديم رقم هاتف",
+            "INVALID_NUMBER": "رقم هاتف غير صالح (قد يكون المستخدم غير متصل)",
+            "ERROR": "خطأ",
+            "CLOSE": "إغلاق",
+            "BUY_POPUP": {
+                "TITLE": "شراء {coin}",
+                "DESCRIPTION": "أدخل مبلغ {coin} (بالدولار) الذي تريد شراءه",
+                "PLACEHOLDER": "1000$",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "SELL_POPUP": {
+                "TITLE": "بيع {coin}",
+                "DESCRIPTION": "أدخل مبلغ {coin} (بالدولار) الذي تريد بيعه",
+                "PLACEHOLDER": "1000$"
+            },
+            "SELL_ALL_POPUP": {
+                "TITLE": "بيع كل {coin}",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد بيع كل {coin} الخاص بك مقابل {amount}$؟"
+            },
+            "TRANSFER_POPUP": {
+                "TITLE": "تحويل {coin}",
+                "DESCRIPTION": "أدخل مبلغ {coin} (بالدولار) الذي تريد تحويله (اختر جهة اتصال في الخطوة التالية)",
+                "PLACEHOLDER": "1000$",
+                "NEXT": "التالي"
+            },
+            "SUCCESSFULLY_TRANSFERED_POPUP": {
+                "TITLE": "تم التحويل بنجاح",
+                "DESCRIPTION": "لقد قمت بتحويل {amount}$ من {coin} إلى {number} بنجاح",
+                "CLOSE": "إغلاق"
+            }
+        },
+        "TIKTOK": {
+            "TITLE": "ترندي",
+
+            "HOME": "الرئيسية",
+            "DISCOVER": "اكتشف",
+            "INBOX": "صندوق الوارد",
+            "PROFILE": "الملف",
+
+            "COMMENTS_TITLE": "{count} تعليق",
+            "REPLY": "رد",
+            "VIEW_REPLIES": "عرض الردود",
+            "ADD_COMMENT": "أضف تعليقاً...",
+            "REPLY_TO": "رد على {name}",
+            "PIN_COMMENT": "تثبيت التعليق",
+            "UNPIN_COMMENT": "إلغاء تثبيت التعليق",
+            "DELETE_COMMENT": "حذف التعليق",
+            "DELETE": "حذف",
+            "PINNED": "مثبت",
+            "PIN_VIDEO": "تثبيت الفيديو",
+            "UNPIN_VIDEO": "إلغاء تثبيت الفيديو",
+            "PIN": "تثبيت",
+            "UNPIN": "إلغاء التثبيت",
+            "MAX_PINNED_TITLE": "حد التثبيت",
+            "MAX_PINNED_DESCRIPTION": "يمكنك تثبيت 3 فيديوهات كحد أقصى",
+            "OK": "موافق",
+            "CREATOR": "المُنشئ",
+            "LIKED_BY_CREATOR": "أعجب به المُنشئ",
+
+            "PIN_VIDEO_POPUP": {
+                "TITLE": "تثبيت الفيديو",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد {action} هذا الفيديو؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "DELETE_VIDEO_POPUP": {
+                "TITLE": "حذف الفيديو",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذا الفيديو؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "FAILED_UPLOAD_POPUP": {
+                "TITLE": "فشل رفع TTS",
+                "DESCRIPTION": "لم يقم مالك السيرفر بإعداد رفع الصوت بشكل صحيح. رجاءً تواصل معهم لإصلاح هذه المشكلة.",
+                "CANCEL": "إلغاء",
+                "PROCEED": "تجاهل"
+            },
+
+            "SHARE_TITLE": "شارك إلى",
+            "SHARE": "مشاركة",
+            "REPORT": "الإبلاغ",
+            "SAVE_VIDEO": "حفظ الفيديو",
+            "ADD_FAVOURITE": "إضافة للمفضلة",
+            "CANCEL": "إلغاء",
+            "GO_BACK": "رجوع",
+
+            "FOLLOWING": "يتبع",
+            "FOLLOWERS": "المتابعون",
+            "UNFOLLOW": "إلغاء المتابعة",
+            "FOLLOW": "متابعة",
+            "FOR_YOU": "من أجلك",
+            "VIDEOS": "الفيديوهات",
+            "LIKES": "الإعجابات",
+
+            "UNFOLLOW_POPUP": {
+                "TITLE": "إلغاء المتابعة",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد إلغاء متابعة {name}؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+
+            "LOGIN_TITLE": "سجل الدخول لترندي",
+            "LOGIN_SUBTITLE": "أدر حسابك، تحقق من الإشعارات، علق على الفيديوهات، والمزيد.",
+            "SIGNUP_TITLE": "اشترك في ترندي",
+            "SIGNUP_SUBTITLE": "أنشئ ملفاً، تابع حسابات أخرى، أنشئ فيديوهاتك الخاصة، والمزيد.",
+            "NAME": "الاسم",
+            "USERNAME": "اسم المستخدم",
+            "PASSWORD": "كلمة المرور",
+            "BIO": "السيرة",
+            "SHOW_LIKES": "إظهار الإعجابات",
+
+            "LOGIN": "تسجيل الدخول",
+            "SIGNUP": "إنشاء حساب",
+            "NO_ACCOUNT": "ليس لديك حساب؟",
+            "ALREADY_ACCOUNT": "لديك حساب بالفعل؟",
+            "SEARCH_PLACEHOLDER": "البحث عن المستخدمين",
+
+            "STARTED_FOLLOWING": "بدأ متابعتك.",
+            "LIKED_VIDEO": "أعجب بفيديوك.",
+            "LIKED_COMMENT": "أعجب بتعليقك.",
+            "SAVED_VIDEO": "أضاف فيديوك للمفضلة.",
+            "COMMENTED": "علق: {comment}",
+            "REPLIED": "رد على تعليقك: {comment}",
+
+            "EDIT_PROFILE": "تعديل الملف",
+            "MESSAGE": "رسالة",
+            "CHANGE_PHOTO": "تغيير الصورة",
+            "LOGOUT": "تسجيل الخروج",
+            "CHANGE_PASSWORD": "تغيير كلمة المرور",
+            "DELETE_ACCOUNT": "حذف الحساب",
+            "ADD_TO_YOUR_PROFILE": "أضف لملفك",
+            "LIKED_HIDDEN_TITLE": "فيديوهات الإعجابات لهذا المستخدم خاصة.",
+            "LIKED_HIDDEN_SUBTITLE": "الفيديوهات التي أعجب بها {name} مخفية حالياً.",
+
+            "INVALID_ACCOUNT_POPUP": {
+                "TITLE": "{name} غير صالح",
+                "DESCRIPTION": "أنت غير مسجل الدخول في حساب {name} الذي أدخلته، رجاءً صححه.",
+                "OK": "موافق"
+            },
+            "REMOVE_ACCOUNT_POPUP": {
+                "TITLE": "إزالة حساب {name}",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة حساب {name} الخاص بك من ملفك؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+
+            "ADD_ACCOUNT_TITLE": "إضافة حساب",
+            "ADD_ACCOUNT": "أضف {name} لملفك",
+            "UPLOAD_VIDEO": "رفع فيديو",
+            "UPLOAD": "رفع",
+            "PREVIEW": "معاينة",
+            "CAPTION": "تعليق",
+            "CAPTION_PLACEHOLDER": "أضف تعليقاً...",
+            "TTS": "النص للكلام (TTS)",
+            "TTS_PLACEHOLDER": "أضف نص للكلام...",
+            "MUSIC": "الموسيقى",
+            "SELECT_MUSIC": "اختر موسيقى",
+            "OPTIONAL": "اختياري",
+
+            "DIRECT_MESSAGES": "الرسائل المباشرة",
+            "ALL_ACTIVITY": "كل النشاط",
+            "NO_NOTIFICATIONS": "الإشعارات غير متاحة",
+            "NO_NOTIFICATIONS_SUBTITLE": "الإشعارات المتعلقة بحسابك ستظهر هنا.",
+            "NO_FOLLOWING_TITLE": "ابدأ بمتابعة الأشخاص وستظهر فيديوهاتهم هنا.",
+            "NO_MESSAGES_TITLE": "راسل أصدقاءك",
+            "NO_MESSAGES_SUBTITLE": "شارك فيديوهات أو ابدأ محادثة"
+        },
+        "VOICEMEMO": {
+            "TITLE": "المذكرات الصوتية",
+            "VOICE_RECORDINGS": "التسجيلات الصوتية",
+            "SEARCH_RECORDINGS": "البحث في التسجيلات",
+            "DEFAULT_NAME": "تسجيل جديد",
+            "DELETE_POPUP": {
+                "TITLE": "حذف المذكرة الصوتية",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذه المذكرة الصوتية؟",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "NO_MICROPHONE_POPUP": {
+                "TITLE": "لا يوجد ميكروفون",
+                "DESCRIPTION": "ليس لدينا صلاحية على الميكروفون الخاص بك، تأكد من وجود ميكروفون متصل واقبل النافذة المنبثقة في أعلى يمين شاشتك",
+                "OK": "موافق"
+            },
+            "EMPTY_RECORDING_POPUP": {
+                "TITLE": "تسجيل فارغ",
+                "DESCRIPTION": "لا يمكنك تخزين تسجيل بدون أي صوت",
+                "OK": "موافق"
             }
         }
     },
     "COMPONENTS": {
         "CONTEXT_MENU": {
             "CANCEL": "إلغاء",
-            "CALL": "مكالمة",
+            "CALL": "اتصال",
             "VIDEO_CALL": "مكالمة فيديو",
             "MESSAGE": "رسالة"
         },
         "IMAGE": {
-            "SAVE_TO_GALLERY": "حفظ في المعرض"
+            "SAVE_TO_GALLERY": "حفظ للمعرض"
         },
         "GALLERY": {
             "CANCEL": "إلغاء",
-            "EXTERNAL_URL": "URL خارجي"
+            "EXTERNAL_URL": "رابط خارجي",
+            "EXTERNAL_URL_BLACKLISTED": "هذا الرابط في القائمة السوداء",
+            "NO_IMAGES": "لا توجد صور"
         },
         "NOTIFICATIONS": {
-            "SENT_PHOTO": "تم ارسال صورة",
-            "SENT_GIF": "تم ارسال GIF",
+            "SENT_PHOTO": "أرسل صورة",
+            "SENT_GIF": "أرسل GIF",
             "NOW": "الآن"
         },
         "SHARE": {
             "COPY_PHOTO": "نسخ الصورة",
+            "COPY_VIDEO": "نسخ الفيديو",
             "USE_WALLPAPER": "استخدام كخلفية",
             "COPY_NUMBER": "نسخ الرقم",
-
+            "COPY_LINK": "نسخ الرابط",
             "AIRDROP_SENT": "تم الإرسال",
-
+            "AIRDROP_ACCEPTED": "تم القبول",
+            "AIRDROP_DECLINED": "تم الرفض",
+            "AIRDROP_NO_USERS": "لا توجد هواتف قريبة",
             "WALLPAPER_POPUP": {
                 "TITLE": "استخدام كخلفية",
-                "TEXT": "هل أنت متأكد أنك تريد تعيين هذه الصورة كخلفية للشاشة؟",
+                "TEXT": "هل أنت متأكد أنك تريد تعيين هذه الصورة كخلفية شاشتك؟",
                 "CANCEL": "إلغاء",
-                "PROCEED": "المتابعة"
+                "PROCEED": "متابعة"
+            },
+            "COPY_POPUP": {
+                "TITLE": "نجاح",
+                "DESCRIPTION": "تم النسخ للحافظة بنجاح",
+                "OK": "موافق"
             }
         },
         "AIRDROP": {
-            "TITLE": "الواردات",
-            "TEXT": "يرغب {sender} في مشاركة {type}",
+            "TITLE": "شارك جوّال",
+            "TEXT": "{sender} يود مشاركة {type}",
             "VIDEO": "فيديو",
             "PHOTO": "صورة",
-            "CONTACT": "جهة الاتصال",
+            "CONTACT": "جهة اتصال",
+            "LOCATION": "موقع",
+            "NOTE": "ملاحظة",
+            "VOICEMEMO": "مذكرة صوتية",
+            "PLAYLIST": "قائمة تشغيل",
+            "ALBUM": "ألبوم",
             "DECLINE": "رفض",
             "ACCEPT": "قبول"
+        },
+        "DYNAMICISLAND": {
+            "SILENT": "صامت",
+            "RING": "رنين",
+            "TIMER": "المؤقت"
+        },
+        "MUSIC_SELECTOR": {
+            "CANCEL": "إلغاء",
+            "NO-RESULTS": "لم يتم إعداد أي موسيقى، أخبر مالك السيرفر بإضافة أغاني",
+            "SEARCH": "ابحث عن أغنية",
+            "SELECT_POPUP": {
+                "TITLE": "اختيار الأغنية",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد اختيار {song}",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            }
+        },
+        "BATTERY": {
+            "LOW_BATTERY": "بطارية منخفضة",
+            "BATTERY_REMAINING": "بقي {percent}% من البطارية",
+            "LOW_POWER_MODE": "وضع الطاقة المنخفضة",
+            "CLOSE": "إغلاق"
+        },
+        "COLOR_PICKER": {
+            "COLOR": "اللون"
+        },
+        "GIF_SELECTOR": {
+            "SEARCH": "ابحث في Tenor",
+            "BACK": "رجوع"
         }
     },
     "SETUP": {
-        "HELLO": "مرحبًا",
-        "NEXT": "انقر لفتح",
-
-        "CREATE_PASSCODE": "قم بإنشاء رمز مرور",
-        "CREATE_PASSCODE_TEXT": "يحمي رمز المرور بياناتك ويستخدم لفتح جهازك.",
-        "SKIP": "تخطي هذه الخطوة",
-
-        "FACE_ID_SETUP": "إعداد جهاز التعرف على الوجه",
-        "FACE_ID_TEXT": "قم بإعداد معرف الوجه لإلغاء قفل هاتفك تلقائيًا عندما يكون وجهك في الإطار.",
-        "ENABLE_FACE_ID": "تفعيل معرف الوجه",
-
-        "APPEARANCE": "مظهر",
-        "APPEARANCE_TEXT": "حدد مظهرًا فاتحًا أو داكنًا",
-
-        "CONTINUE": "المتابعة",
-        "WELCOME_TO": "مرحبا بك في",
+        "HELLO": "مرحباً",
+        "SELECT_LANGUAGE": "اختر لغتك",
+        "NEXT": "اضغط لفتح",
+        "CREATE_PASSCODE": "تعيين PIN",
+        "CREATE_PASSCODE_TEXT": "كود PIN يُستخدم لتأمين جهازك وهو مطلوب لفتحه.",
+        "SKIP": "تخطي",
+        "FACE_ID_SETUP": "فتح الوجه",
+        "FACE_ID_TEXT": "أعد فتح الوجه لفتح هاتفك بسهولة دون إدخال كود PIN.",
+        "FACE_ID_TEXT_ALT": "فتح الوجه يعمل فقط عندما لا يكون وجهك مغطى.",
+        "ENABLE_FACE_ID": "تفعيل فتح الوجه",
+        "APPEARANCE": "السمة",
+        "APPEARANCE_TEXT": "اختر سمة داكنة أو فاتحة لجهازك",
+        "CONTINUE": "متابعة",
+        "WELCOME_TO": "مرحباً بك في",
         "CLICK": "اضغط للبدء"
     },
     "HOMESCREEN": {
-        "DONE": "انهاء",
-        "REMOVE": "إزالة",
-        "REMOVE_TEXT": "لن يؤدي حذف هذا التطبيق إلى حذف بياناته. يمكن إعادة تثبيت التطبيق في وقت لاحق من متجر التطبيقات.",
-        "BUTTON_CANCEL": "إلغاء",
-        "BUTTON_DELETE": "حذف"
+        "DONE": "تم",
+        "CLOSE_ALL": "إغلاق الكل",
+        "REMOVE_APP_POPUP": {
+            "TITLE": "إزالة '{app}'؟",
+            "DESCRIPTION": "حذف هذا التطبيق لن يحذف بياناته. يمكن إعادة تثبيت التطبيق لاحقاً من المتجر.",
+            "CANCEL": "إلغاء",
+            "PROCEED": "حذف"
+        }
     },
     "LOCKSCREEN": {
-        "ENTER_PASSCODE": "أدخل رمز المرور",
-        "DELETE": "حذف"
+        "ENTER_PASSCODE": "أدخل كود المرور",
+        "DELETE": "حذف",
+        "FONT_AND_COLOR": "الخط واللون"
+    },
+    "MISC": {
+        "ORDINAL": {
+            "ZERO": "th",
+            "ONE": "st",
+            "TWO": "nd",
+            "FEW": "rd",
+            "MANY": "th",
+            "OTHER": "th"
+        },
+        "AIRPLANE_MODE_POPUP": {
+            "TITLE": "خطأ",
+            "DESCRIPTION": "تحاول تنفيذ إجراء يتطلب اتصال بالإنترنت، قم بتعطيل وضع الطيران أو احصل على خدمة للمتابعة.",
+            "OK": "موافق"
+        },
+        "TODAY_TIME": "اليوم، {hours}:{minutes}",
+        "YESTERDAY_TIME": "أمس، {hours}:{minutes}",
+        "CHANGE_PASSWORD": {
+            "TITLE": "تغيير كلمة المرور",
+            "DESCRIPTION": "رجاءً املأ {type} كلمة مرور {app}",
+            "ERROR": "فشل في تغيير كلمة المرور",
+            "CURRENT": "الحالية",
+            "NEW": "الجديدة",
+            "PLACEHOLDER_CURRENT": "كلمة المرور الحالية",
+            "PLACEHOLDER_NEW": "كلمة المرور الجديدة",
+            "CANCEL": "إلغاء",
+            "NEXT": "التالي",
+            "PROCEED": "متابعة",
+            "SUCCESS": "تم تغيير كلمة المرور بنجاح",
+            "OK": "موافق"
+        },
+        "DELETE_ACCOUNT": {
+            "TITLE": "حذف الحساب",
+            "DESCRIPTION": "لحذف حسابك على {app}، رجاءً املأ كلمة المرور الخاصة بك أدناه. ملاحظة: هذا الإجراء غير قابل للتراجع.",
+            "ERROR": "فشل في حذف الحساب",
+            "PLACEHOLDER": "كلمة المرور",
+            "CANCEL": "إلغاء",
+            "PROCEED": "متابعة",
+            "OK": "موافق"
+        }
+    },
+    "BACKEND": {
+        "CALLS": {
+            "NO_CALLER_ID": "بدون معرف المتصل",
+            "MISSED_CALL": "مكالمة فائتة",
+            "NEW_VOICEMAIL": "بريد صوتي"
+        },
+        "GARAGE": {
+            "VALET": "خدمة الصالة",
+            "COULDNT_FIND": "لم نتمكن من العثور على المركبة.",
+            "ALREADY_OUT": "المركبة موجودة بالفعل بالخارج.",
+            "NO_MONEY": "ليس لديك مال كافٍ.",
+            "ON_WAY": "مركبتك في طريقها إليك.",
+            "MARKED": "تم وضع علامة على مركبتك على الـ GPS الخاص بك."
+        },
+        "INSTAGRAM": {
+            "NOT_ALLOWED_LIVE": "غير مسموح لك بالبث المباشر",
+            "NOT_ALLOWED_STORY": "غير مسموح لك بنشر القصص",
+            "STARTED_LIVE": "{username} بدأ بثاً مباشراً",
+            "JOINED_LIVE": "{invitee} الآن يبث مباشرة مع {inviter}.",
+            "LIKED_PHOTO": "{username} أعجب بصورتك",
+            "LIKED_COMMENT": "{username} أعجب بتعليقك",
+            "COMMENTED": "{username} علق على منشورك",
+            "NEW_FOLLOWER": "{username} بدأ متابعتك",
+            "FOLLOW_REQUEST_ACCEPTED_TITLE": "تم قبول طلب المتابعة",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "{displayName} ({username}) قبل طلب متابعتك.",
+            "NEW_FOLLOW_REQUEST_TITLE": "طلب متابعة جديد",
+            "NEW_FOLLOW_REQUEST_DESCRIPTION": "{displayName} ({username}) طلب متابعتك."
+        },
+        "TINDER": {
+            "NEW_MATCH": "مواءمة جديدة",
+            "MATCHED_WITH": "لقد توائمتَ مع {name}"
+        },
+        "CAMERA": {
+            "TAKE_PHOTO": "{key} التقط صورة",
+            "FLIP_CAMERA": "{key} قلب الكاميرا",
+            "TOGGLE_FLASH": "{key} تبديل الفلاش",
+            "TOGGLE_CURSOR": "{key} تبديل المؤشر",
+            "CHANGE_MODE": "{key} {key2} تغيير الوضع",
+            "ROLL": "{key} {key2} لف الكاميرا",
+            "FREEZE": "{key} تجميد/فك تجميد الكاميرا"
+        },
+        "SERVICES": {
+            "NEW_MESSAGE": "رسالة جديدة",
+            "ANONYMOUS": "مجهول"
+        },
+        "TWITTER": {
+            "LIKE": "أعجب بـ {displayName}:",
+            "RETWEET": "أعيد نشره بواسطة {displayName}:",
+            "REPLY": "{displayName} ردّ:",
+            "FOLLOW": "{username} بدأ متابعتك",
+            "TWEET": "{username} غرّد للتو",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "@{username} قبل طلب متابعتك.",
+            "NEW_FOLLOW_REQUEST": "@{username} طلب متابعتك!"
+        },
+        "TIKTOK": {
+            "LIKE": "{displayName} أعجب بفيديوك.",
+            "COMMENT": "{displayName} علق على فيديوك.",
+            "FOLLOW": "{displayName} بدأ متابعتك.",
+            "SAVE": "{displayName} أضاف فيديوك للمفضلة.",
+            "LIKED_COMMENT": "{displayName} أعجب بتعليقك.",
+            "REPLIED_COMMENT": "{displayName} ردّ على تعليقك.",
+            "DM": "{displayName}"
+        },
+        "MISC": {
+            "VERIFIED": "تم التحقق من حسابك",
+            "X_PHONE": "هاتف {name}",
+            "LOGGED_OUT_PASSWORD": {
+                "TITLE": "لقد تم تسجيل خروجك",
+                "DESCRIPTION": "لقد تم تسجيل خروجك من حسابك لأن كلمة مرورك تغيرت."
+            },
+            "DELETED_NOTIFICATION": {
+                "TITLE": "تم حذف الحساب",
+                "DESCRIPTION": "تم حذف حسابك."
+            }
+        },
+        "CRYPTO": {
+            "RECEIVED_TRANSFER_TITLE": "استلمت {coin}",
+            "RECEIVED_TRANSFER_DESCRIPTION": "استلمت {amount} {coin} بقيمة {value}$"
+        },
+        "MAIL": {
+            "AUTOMATIC_PASSWORD": {
+                "SENDER": "النظام",
+                "SUBJECT": "عنوان بريدك الإلكتروني",
+                "MESSAGE": "مرحباً,\n\nعنوان بريدك الإلكتروني الذي تم إنشاؤه تلقائياً هو {address} وكلمة مرورك هي {password}"
+            }
+        },
+        "LOGS": {
+            "MAIL_TITLE": "Email",
+            "NEW_MAIL": "{sender} sent an email to {recipient}",
+
+            "MESSAGE_TITLE": "Text message",
+            "NEW_MESSAGE": "{sender} sent a message to {recipient}: {message}",
+
+            "CALL_ENDED": "Call ended",
+            "CALL_DESCRIPTION": "A call between `{caller}` and `{callee}` that lasted {duration}s has ended. Answered: `{answered}`",
+
+            "NEW_SERVICE_TITLE": "New message",
+            "NEW_SERVICE_CONTENT": "{sender} sent a message to {channel}: {message}",
+
+            "RECEIVED_TITLE": "Received ${amount}",
+            "PAID_TITLE": "Paid ${amount}",
+            "TRANSACTION": "{number} made a transaction of ${amount} to {company}",
+
+            "BOUGHT_CRYPTO": "Bought crypto",
+            "SOLD_CRYPTO": "Sold crypto",
+            "CRYPTO_DETAILS": "**Coin**: {coin}\n**Amount**: {amount}\n**Value**: ${price}",
+            "TRANSFERRED_CRYPTO": "Transferred crypto",
+            "TRANSFERRED_CRYPTO_DETAILS": "**Coin**: {coin}\n**Amount**: {amount}\n**To**: {to}\n**From**: {from}",
+
+            "DARKCHAT_CREATED_TITLE": "Created channel",
+            "DARKCHAT_CREATED_DESCRIPTION": "{creator} created a channel called {channel}",
+            "DARKCHAT_MESSAGE_TITLE": "New message",
+            "DARKCHAT_MESSAGE_DESCRIPTION": "{sender} sent a message in {channel}: {message}",
+
+            "MARKETPLACE_NEW_TITLE": "New listing",
+            "MARKETPLACE_NEW_DESCRIPTION": "**Seller**: {seller}\n**Title**: {title}\n**Price**: ${price}\n**Description**: {description}\n**Attachments**: {attachments}\n**ID:** {id}",
+            "MARKETPLACE_DELETED": "Post deleted",
+
+            "YELLOWPAGES_NEW_TITLE": "New post",
+            "YELLOWPAGES_NEW_DESCRIPTION": "**Title**: {title}\n**Description**: {description}\n**Attachment**: {attachment}\n**ID:** {id}",
+            "YELLOWPAGES_DELETED": "Post deleted",
+
+            "LIVE_TITLE": "Live",
+            "STARTED_LIVE": "{username} started a live video",
+            "ENDED_LIVE": "{username} ended a live video",
+            "ADDED_STORY": "{username} added a photo to their story",
+
+            "TRENDY_UPLOAD_TITLE": "New video",
+            "TRENDY_UPLOAD_DESCRIPTION": "{username} uploaded a new video with the caption {caption} and id {id}",
+            "TRENDY_DELETE_TITLE": "Deleted a video",
+            "TRENDY_DELETE_DESCRIPTION": "{username} deleted a video with the id {id}",
+
+            "UPLOADED_MEDIA": "Uploaded media",
+            "UPLOADED_MEDIA_DESCRIPTION": "Took a {type} with the id {id}\n{link}",
+            "VIDEO": "video",
+            "PHOTO": "photo",
+
+            "CHANGED_PASSWORD": {
+                "TITLE": "Changed password",
+                "DESCRIPTION": "{number} changed the password for the account {username} on {app}."
+            },
+
+            "DELETED_ACCOUNT": {
+                "TITLE": "Deleted account",
+                "DESCRIPTION": "{number} deleted the account {username} on {app}."
+            }
+        }
     }
 }
