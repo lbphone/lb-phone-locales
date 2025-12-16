@@ -1594,6 +1594,21 @@
                 "DESCRIPTION": "Nem tárolhatsz felvételt hang nélkül",
                 "OK": "OK"
             }
+        },
+        "BROWSER": {
+            "TITLE": "Böngésző",
+            "SEARCH_PLACEHOLDER": "Keress vagy írj be egy linket",
+            "NEW_TAB": "Új lap",
+            "TABS": "Lapok",
+            "TAB": "Lap",
+            "DONE": "Kész",
+            "CLOSE_ALL": "Összes bezárása",
+            "HISTORY": "Élőzmények",
+            "BOOKMARKS": "Könyvjelzők",
+            "BOOKMARK_REMOVE": "Könyvjelző eltávolítása",
+            "NO_BOOKMARKS": "Még nincs könyvjelződ",
+            "NO_HISTORY": "Még nincsenek előzményeid",
+            "FAILED_LOAD_PAGE": "Nem sikerült betölteni az oldalt"
         }
     },
     "COMPONENTS": {
