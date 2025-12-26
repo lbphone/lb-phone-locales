@@ -7,6 +7,9 @@
     "H": "g",
     "M": "m",
     "S": "s",
+    "SECONDS": "sekundy",
+    "MINUTES": "minuty",
+    "HOURS": "godziny",
 
     "APP_NAMES": {
         "Phone": "Telefon",
@@ -81,6 +84,7 @@
             "RINGTONE": "Dzwonek",
             "TEXT_TONE": "Ton wiadomości",
             "RINGTONE_VOLUME": "Głośność dzwonka i powiadomień",
+            "CALL_VOLUME": "Głośność połączeń",
             "DEFAULT": "Domyślny",
             "PHONE_STORAGE": "Pamięć telefonu",
             "STORAGE": "Pamięć",
@@ -266,40 +270,61 @@
             "CANCEL": "Anuluj",
             "SET": "Ustaw",
             "JOIN": "Dołącz",
-            "LEAVE": "Opuść",
-            "NEW_ROOM": "Nowy pokój",
-            "NEW_ROOM_TEXT": "Wpisz kod pokoju, aby dołączyć lub utworzyć pokój",
+            "CREATE": "Utwórz",
+            "LEAVE": "Opuszcz",
+            "JOIN_ROOM": "Dołącz do pokoju",
+            "JOIN_ROOM_TEXT": "Wpisz kod pokoju, aby dołączyć do pokoju",
+            "CREATE_ROOM": "Utwórz pokój",
+            "CREATE_ROOM_TEXT": "Wpisz kod pokoju, aby utworzyć pokój",
             "ROOM_CODE": "Kod pokoju",
-            "LEAVE_ROOM": "Opuść pokój",
+
+            "INVALID_CHANNEL": "Nieprawidłowy kanał",
+            "INVALID_CHANNEL_TEXT": "Kanał nie istnieje",
+            "ALREADY_IN_CHANNEL": "Już w kanale",
+            "ALREADY_IN_CHANNEL_TEXT": "Już jesteś w tym kanale",
+            "PASSWORD_REQUIRED": "Wymagane hasło",
+            "PASSWORD_REQUIRED_TEXT": "Kanał wymaga hasła",
+            "PASSWORD_PLACEHOLDER": "Hasło",
+            "PASSWORD_PLACEHOLDER_OPTIONAL": "Hasło (opcjonalnie)",
+            "INCORRECT_PASSWORD": "Nieprawidłowe hasło",
+            "INCORRECT_PASSWORD_TEXT": "Hasło jest nieprawidłowe",
+            "CHANNEL_EXISTS": "Kanał istnieje",
+            "CHANNEL_EXISTS_TEXT": "Kanał już istnieje",
+            "INVALID_NAME": "Nieprawidłowa nazwa",
+            "INVALID_NAME_TEXT": "Nazwa jest nieprawidłowa (min 1 znak, max 5)",
+            "UNKNOWN_ERROR": "Nieznany błąd",
+            "UNKNOWN_ERROR_TEXT": "Wystąpił nieznany błąd",
+
+            "LEAVE_ROOM": "Opuszcz pokój",
             "LEAVE_ROOM_TEXT": "Czy na pewno chcesz opuścić ten pokój?",
             "NOW": "Teraz",
             "INPUT_PLACEHOLDER": "Wpisz wiadomość...",
             "NO_CHATS": "Brak czatów",
-            "NO_CHATS_TEXT": "Nie dołączyłeś jeszcze do żadnego kanału. Dołącz lub utwórz, naciskając znak plus w prawym górnym rogu.",
-            "MEMBER": "Użytkownik",
-            "MEMBERS": "Użytkownicy",
+            "NO_CHATS_TEXT": "Nie dołączyłeś jeszcze do kanału. Dołącz/utwórz jeden, naciskając znak plus w prawym górnym rogu.",
+            "MEMBER": "Członek",
+            "MEMBERS": "Członkowie",
 
             "USERNAME": "Nazwa użytkownika",
             "PASSWORD": "Hasło",
             "LOGIN": "Zaloguj się",
             "SIGN_UP": "Zarejestruj się",
             "NO_ACCOUNT": "Nie masz konta?",
-            "ALREADY_HAVE": "Masz już konto?",
+            "ALREADY_HAVE": "Już masz konto?",
+            "USERNAME_NOT_ALLOWED": "Nazwa użytkownika niedozwolona",
 
             "CHANGE_ACCOUNT": "Zmień konto",
             "CHANGE_PASSWORD": "Zmień hasło",
             "DELETE_ACCOUNT": "Usuń konto",
 
             "ERROR": "Błąd",
-            "INVALID_LENGTH": "Hasło musi mieć co najmniej 3 znaki",
+            "INVALID_LENGTH": "Hasło musi mieć minimum 3 znaki",
             "USERNAME_TAKEN": "Nazwa użytkownika jest już zajęta",
             "UNKNOWN": "Nieznany błąd",
             "INVALID_USERNAME": "Nazwa użytkownika nie istnieje",
-            "INCORRECT_PASSWORD": "Nieprawidłowe hasło",
             "OK": "OK",
 
             "LEAVE_CHANNEL": {
-                "TITLE": "Opuść kanał",
+                "TITLE": "Opuszcz kanał",
                 "DESCRIPTION": "Czy na pewno chcesz opuścić ten kanał?",
                 "CANCEL": "Anuluj",
                 "PROCEED": "Opuść"
@@ -340,6 +365,8 @@
             "TITLE": "Zdjęcia",
             "SELECT": "Wybierz",
             "CANCEL": "Anuluj",
+            "PROCEED": "Kontynuuj",
+            "OK": "OK",
             "EDIT": "Edytuj",
             "DONE": "Gotowe",
             "DELETE": "Usuń",
@@ -351,7 +378,9 @@
             "LIBRARY": "Biblioteka",
             "GALLERY": "Galeria",
             "MY_ALBUMS": "Moje albumy",
+            "SHARED_ALBUMS": "Udostępnione albumy",
             "MEDIA_TYPES": "Typy mediów",
+            "MANAGE_MEMBERS": "Zarządzaj członkami",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "Nowy album",
                 "DESCRIPTION": "Wprowadź nazwę dla tego albumu",
@@ -361,43 +390,59 @@
             },
             "REMOVE_ALBUM": {
                 "TITLE": "Usuń \"{name}\"",
-                "DESCRIPTION": "Czy na pewno chcesz usunąć album \"{name}\"? Zdjęcia nie zostaną usunięte",
-                "CANCEL": "Anuluj",
-                "PROCEED": "Usuń"
+                "DESCRIPTION": "Czy na pewno chcesz usunąć album \"{name}\"? Zdjęcia nie zostaną usunięte"
+            },
+            "LEAVE_SHARED_ALBUM": {
+                "TITLE": "Opuszcz \"{name}\"",
+                "DESCRIPTION": "Czy na pewno chcesz opuścić album \"{name}\"? Nie będziesz już mógł do niego dodawać zdjęć"
             },
             "RENAME_ALBUM_POPUP": {
                 "TITLE": "Zmień nazwę albumu",
                 "DESCRIPTION": "Wprowadź nową nazwę dla tego albumu",
                 "PLACEHOLDER": "Nowa nazwa albumu",
                 "CANCEL": "Anuluj",
-                "PROCEED": "Dalej"
+                "PROCEED": "Zapisz"
             },
             "DELETE_IMAGE_POPUP": {
-                "TITLE": "Usuń obraz",
-                "DESCRIPTION": "Czy na pewno chcesz usunąć ten obraz?",
+                "TITLE": "Usuń zdjęcie",
+                "DESCRIPTION": "Czy na pewno chcesz usunąć to zdjęcie?",
                 "CANCEL": "Anuluj",
                 "PROCEED": "Usuń"
             },
             "IMPORT_IMAGE_POPUP": {
-                "TITLE": "Importuj do albumu",
-                "DESCRIPTION": "Importuj obraz do tego albumu",
+                "TITLE": "Import do albumu",
+                "DESCRIPTION": "Importuj zdjęcie do tego albumu",
                 "CANCEL": "Anuluj",
                 "PROCEED": "Importuj",
-                "PLACEHOLDER": "URL obrazu"
+                "PLACEHOLDER": "Adres URL zdjęcia"
             },
-    
+            "ERROR": "Błąd",
+            "SUCCESS": "Sukces",
+            "CONTACT_ALREADY_IN_ALBUM": "Kontakt już w albumie",
+            "CONTACT_ADDED_TO_ALBUM": "Kontakt dodany do albumu",
+            "MEMBERS": "{count} Członków",
+            "INVITE": "Zaproś",
+            "LEAVE_ALBUM": "Opuść album",
+            "CREATE_SHARED_ALBUM": "Utwórz album współdzielony",
+            "MANAGE_SHARED_ALBUM": "Zarządzaj albumem współdzielonym",
+            "REMOVE_MEMBER": {
+                "TITLE": "Usuń członka",
+                "DESCRIPTION": "Czy na pewno chcesz usunąć tego członka z albumu?",
+                "SUCCESS": "Członek usunięty z albumu"
+            },
+
             "NO_PHOTOS": "Brak zdjęć lub filmów",
             "NO_PHOTOS_INSTRUCTIONS": "Możesz robić zdjęcia i filmy za pomocą aparatu",
-            "PHOTO_COUNT": "{amount} zdjęć",
-            "VIDEO_COUNT": "{amount} filmów",
-    
-            "DELETE_CONTEXT_TITLE": "Czy chcesz usunąć {type} czy usunąć je z tego albumu",
+            "PHOTO_COUNT": "{amount} Zdjęć",
+            "VIDEO_COUNT": "{amount} Filmów",
+
+            "DELETE_CONTEXT_TITLE": "Czy chcesz usunąć {type} czy usunąć je z tego albumu?",
             "THESE_PHOTOS": "te zdjęcia",
             "THIS_PHOTO": "to zdjęcie",
             "REMOVE_FROM_ALBUM": "Usuń z albumu",
             "ADD_TO_ALBUM": "Dodaj do albumu",
             "ADD_TO_FAVOURITES": "Dodaj do ulubionych",
-            "REMOVE_FROM_FAVOURITES": "Remove from Favourites",
+            "REMOVE_FROM_FAVOURITES": "Usuń z ulubionych",
             "VIDEOS": "Filmy",
             "SELFIES": "Selfie",
             "SCREENSHOTS": "Zrzuty ekranu",
@@ -527,6 +572,10 @@
                 "TITLE": "Puste nagranie",
                 "DESCRIPTION": "Nie możesz wysłać pustego nagrania",
                 "OK": "OK"
+            },
+            "GROUP_MEMBER_LIMIT_NOTIFICATION": {
+                "TITLE": "Osiągnięto limit członków",
+                "CONTENT": "Osiągnąłeś maksymalną liczbę członków w grupie ({limit})."
             }
         },
         "PHONE": {
@@ -609,7 +658,11 @@
                 "EMAIL": "Email",
                 "ADDRESS": "Adres",
                 "CHANGE_AVATAR": "Zmień awatar",
-                "REMOVE_AVATAR": "Usuń awatar"
+                "REMOVE_AVATAR": "Usuń awatar",
+                "RINGTONES": "Dzwonki",
+                "RINGTONE": "Dzwonek",
+                "DEFAULT": "Domyślny",
+                "BACK": "Wstecz"
             },
             "FAVOURITES": {
                 "TITLE": "Ulubione",
@@ -625,7 +678,11 @@
             "RECENTS": {
                 "TITLE": "Ostatnie",
                 "ALL": "Wszystkie",
-                "MISSED": "Nieodebrane"
+                "MISSED": "Nieodebrane",
+                "OUTGOING_CALL": "Outgoing Call",
+                "INCOMING_CALL": "Incoming Call",
+                "CANCELLED_CALL": "Cancelled Call",
+                "MISSED_CALL": "Missed Call"
             },
             "VOICEMAIL": {
                 "TITLE": "Poczta głosowa",
@@ -880,6 +937,11 @@
                 "DESCRIPTION": "Czy na pewno chcesz usunąć ten email?",
                 "CANCEL": "Anuluj",
                 "DELETE": "Usuń"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Nie udało się wysłać",
+                "DESCRIPTION": "Nie udało się wysłać maila (czy odbiorca istnieje?)",
+                "OK": "OK"
             }
         },
         "MAPS": {
@@ -908,6 +970,10 @@
         },
         "MUSIC": {
             "TITLE": "Muzyka",
+            "HOME": "Strona główna",
+            "RECENTLY_ADDED": "Ostatnio dodane",
+            "CATEGORIES": "Kategorie",
+            "PLAYLISTS": "Playlisty",
             "LIBRARY": "Biblioteka",
             "SEARCH": "Szukaj",
             "ADD_QUEUE": "Dodaj do kolejki",
@@ -919,6 +985,7 @@
             "SEARCH_PLACEHOLDER": "Artyści, Utwory, Albumy, Playlisty",
             "SONGS": "Utwory",
             "ALBUMS": "Albumy",
+            "ARTISTS": "Artyści",
             "PLAY": "Odtwórz",
             "SHUFFLE": "Losowe",
             "ARTIST": "Artysta",
@@ -983,7 +1050,14 @@
             "HIDDEN_WARNING": "Twoje konto jest obecnie ukryte. Nie będziesz widoczny dla innych użytkowników i nie będziesz mógł przesuwać.",
             "HIDDEN_PROFILE": "Twój profil nie jest aktywny. Możesz go aktywować w ustawieniach.",
             "SEARCH_MATCHES": "Szukaj dopasowań",
-            "DELETE_ACCOUNT": "Usuń konto"
+            "DELETE_ACCOUNT": "Usuń konto",
+            "ERROR": {
+                "TITLE": "Błąd",
+                "SHORT_NAME": "Problem z zapisem profilu Spark, (imię musi mieć co najmniej 2 znaki)",
+                "SHORT_BIO": "Problem z zapisem profilu Spark, (opis musi mieć co najmniej 5 znaków)",
+                "NO_PHOTOS": "Problem z zapisem profilu Spark, (brak zdjęć)",
+                "OK": "OK"
+            }
         },
         "INSTAGRAM": {
             "TITLE": "InstaPic",
@@ -1098,6 +1172,7 @@
             "SEEN_BY": "Wyświetlone przez {count}",
             "ADD_ACCOUNT": "Dodaj konto",
             "INVITE": "Zaproś",
+            "INVITED": "Zaproszono",
             "REMOVE": "Usuń",
             "IN_THIS_ROOM": "W tym pokoju",
             "WHOS_WATCHING": "Kto ogląda",
@@ -1113,6 +1188,7 @@
             "UNKNOWN_ACCOUNT": "Konto nie istnieje",
             "INVALID_USERNAME": "Nieprawidłowa nazwa użytkownika",
             "INCORRECT_PASSWORD": "Nieprawidłowe hasło",
+            "USERNAME_NOT_ALLOWED": "Nazwa użytkownika niedozwolona",
             "OK": "OK",
             "LOCATION": "Lokalizacja",
             "CHOOSE_LOCATION": {
@@ -1120,7 +1196,16 @@
                 "DESCRIPTION": "Wybierz lokalizację dla tego postu",
                 "CANCEL": "Anuluj",
                 "PROCEED": "Kontynuuj"
-            }
+            },
+            "REPLIED_TO_YOUR_STORY": "Odpowiedź na Twoją historię",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "Odpowiedź na Twoją historię: {content}",
+
+            "SHARE_TO_STORY": {
+                "TITLE": "Udostępnij w historii",
+                "SUCCESS": "Post udostępniony",
+                "DESCRIPTION": "Twój post został udostępniony w Twojej historii"
+            },
+            "VIEW_POST": "Zobacz post"
         },
         "TWITTER": {
             "TITLE": "Birdy",
@@ -1198,6 +1283,7 @@
             "NOTIFICATIONS": "Powiadomienia",
             "FOLLOWS_YOU": "Obserwuje cię",
             "JOINED": "Dołączył(a) {date}",
+            "PINNED_POST": "Przypięty post",
             "LIKED_TWEET": "polubił(a) twój post",
             "RETWEETED_TWEET": "udostępnił(a) ponownie twój post",
             "FOLLOWED": "zaczął(a) cię obserwować",
@@ -1228,7 +1314,11 @@
             "NEW_POSTS": "Nowe posty",
             "NEW_POST": "Nowy post",
             "PROTECTED_TWEETS_TITLE": "Te posty są chronione.",
-            "PROTECTED_TWEETS_DESCRIPTION": "Tylko potwierdzeni obserwujący mają dostęp do postów i pełnego profilu @{username}. Naciśnij przycisk 'Obserwuj', aby wysłać prośbę o obserwowanie."
+            "PROTECTED_TWEETS_DESCRIPTION": "Tylko potwierdzeni obserwujący mają dostęp do postów i pełnego profilu @{username}. Naciśnij przycisk 'Obserwuj', aby wysłać prośbę o obserwowanie.",
+            "INVALID_ACCOUNT": "Nieprawidłowe konto",
+            "INVALID_PASSWORD": "Nieprawidłowe hasło",
+            "USERNAME_TAKEN": "Nazwa użytkownika jest już zajęta",
+            "USERNAME_NOT_ALLOWED": "Nazwa użytkownika niedozwolona"
         },
         "SERVICES": {
             "ACTIONS": "Akcje",
@@ -1313,6 +1403,7 @@
             "NOT_ENOUGH_COINS": "Nie masz wystarczająco monet",
             "ATLEAST_ONE_COIN": "Musisz {action} co najmniej jedną {currency}",
             "INVALID_COIN": "Nieprawidłowa moneta",
+            "TOO_HIGH": "Kwota jest zbyt wysoka (maksymalnie {amount})",
             "NO_NUMBER": "Nie podano numeru telefonu",
             "INVALID_NUMBER": "Nieprawidłowy numer telefonu (użytkownik może nie być online)",
             "ERROR": "Błąd",
@@ -1502,6 +1593,21 @@
                 "DESCRIPTION": "Nie możesz zapisać nagrania bez żadnego dźwięku",
                 "OK": "OK"
             }
+        },
+        "BROWSER": {
+            "TITLE": "Przeglądarka",
+            "SEARCH_PLACEHOLDER": "Szukaj lub wpisz adres URL",
+            "NEW_TAB": "Nowa karta",
+            "TABS": "Karty",
+            "TAB": "Karta",
+            "DONE": "Gotowe",
+            "CLOSE_ALL": "Zamknij wszystko",
+            "HISTORY": "Historia",
+            "BOOKMARKS": "Zakładki",
+            "BOOKMARK_REMOVE": "Usuń zakładkę",
+            "NO_BOOKMARKS": "Brak zakładek",
+            "NO_HISTORY": "Brak historii",
+            "FAILED_LOAD_PAGE": "Nie udało się załadować strony"
         }
     },
     "COMPONENTS": {
@@ -1557,6 +1663,7 @@
             "NOTE": "notatkę",
             "VOICEMEMO": "notatkę głosową",
             "PLAYLIST": "playlistę",
+            "ALBUM": "album",
             "DECLINE": "Odrzuć",
             "ACCEPT": "Akceptuj"
         },
@@ -1623,6 +1730,14 @@
         "FONT_AND_COLOR": "Czcionka i kolor"
     },
     "MISC": {
+        "ORDINAL": {
+            "ZERO": "th",
+            "ONE": "st",
+            "TWO": "nd",
+            "FEW": "rd",
+            "MANY": "th",
+            "OTHER": "th"
+        },
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "Błąd",
             "DESCRIPTION": "Próbujesz wykonać akcję wymagającą dostępu do internetu, wyłącz tryb samolotowy, aby kontynuować.",
@@ -1720,7 +1835,6 @@
         "MISC": {
             "VERIFIED": "Twoje konto zostało zweryfikowane",
             "X_PHONE": "Telefon {name}",
-
             "LOGGED_OUT_PASSWORD": {
                 "TITLE": "Zostałeś(aś) wylogowany(a)",
                 "DESCRIPTION": "Zostałeś(aś) wylogowany(a) z konta, ponieważ twoje hasło zostało zmienione."
