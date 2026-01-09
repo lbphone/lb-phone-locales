@@ -1594,6 +1594,20 @@
                 "DESCRIPTION": "Ne možete sačuvati snimku bez audia",
                 "OK": "OK"
             }
+        },
+		"BROWSER": {
+            "TITLE": "Pretraživač",
+            "SEARCH_PLACEHOLDER": "Pretraživanje ili ukucajte URL",
+            "NEW_TAB": "Nova kartica",
+            "TABS": "Kartice",
+            "TAB": "Kartica",
+            "DONE": "Gotovo",
+            "CLOSE_ALL": "Zatvori sve",
+            "HISTORY": "Historija",
+            "BOOKMARKS": "Bookmark",
+            "BOOKMARK_REMOVE": "Obriši bookmark",
+            "NO_BOOKMARKS": "Nemate sačuvanih bookmark",
+            "NO_HISTORY": "Ne postoji historija"
         }
     },
     "COMPONENTS": {
