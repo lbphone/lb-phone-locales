@@ -1594,6 +1594,21 @@
                 "DESCRIPTION": "Você não pode salvar uma gravação sem áudio",
                 "OK": "OK"
             }
+        },
+        "BROWSER": {
+            "TITLE": "Navegador",
+            "SEARCH_PLACEHOLDER": "Pesquise ou digite uma URL",
+            "NEW_TAB": "Nova aba",
+            "TABS": "Abas",
+            "TAB": "Aba",
+            "DONE": "Concluído",
+            "CLOSE_ALL": "Fechar tudo",
+            "HISTORY": "Histórico",
+            "BOOKMARKS": "Favoritos",
+            "BOOKMARK_REMOVE": "Remover favorito",
+            "NO_BOOKMARKS": "Nenhum favorito",
+            "NO_HISTORY": "Nenhum histórico",
+            "FAILED_LOAD_PAGE": "Falha ao carregar a página"
         }
     },
     "COMPONENTS": {

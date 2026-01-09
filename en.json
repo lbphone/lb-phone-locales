@@ -1594,6 +1594,20 @@
                 "DESCRIPTION": "You can't store a recording without any audio",
                 "OK": "OK"
             }
+        },
+        "BROWSER": {
+            "TITLE": "Browser",
+            "SEARCH_PLACEHOLDER": "Search or enter a URL",
+            "NEW_TAB": "New Tab",
+            "TABS": "Tabs",
+            "TAB": "Tab",
+            "DONE": "Done",
+            "CLOSE_ALL": "Close All",
+            "HISTORY": "History",
+            "BOOKMARKS": "Bookmarks",
+            "BOOKMARK_REMOVE": "Remove bookmark",
+            "NO_BOOKMARKS": "No bookmarks yet",
+            "NO_HISTORY": "No history yet"
         }
     },
     "COMPONENTS": {

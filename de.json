@@ -1596,6 +1596,20 @@
                 "DESCRIPTION": "Du kannst keine Aufnahme ohne Ton speichern",
                 "OK": "OK"
             }
+        },
+        "BROWSER": {
+            "TITLE": "Browser",
+            "SEARCH_PLACEHOLDER": "Suchen oder URL eingeben",
+            "NEW_TAB": "Neuer Tab",
+            "TABS": "Tabs",
+            "TAB": "Tab",
+            "DONE": "Fertig",
+            "CLOSE_ALL": "Alle schließen",
+            "HISTORY": "Verlauf",
+            "BOOKMARKS": "Lesezeichen",
+            "BOOKMARK_REMOVE": "Lesezeichen löschen",
+            "NO_BOOKMARKS": "Noch keine Lesezeichen",
+            "NO_HISTORY": "Noch kein Verlauf"
         }
     },
     "COMPONENTS": {

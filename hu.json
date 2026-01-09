@@ -1,151 +1,209 @@
 {
     "LABEL": "Magyar",
     "SEARCH": "Keresés",
-    "CANCEL": "Mégsem",
+    "CANCEL": "Mégse",
+    "NOW": "most",
+    "D": "n",
+    "H": "ó",
+    "M": "p",
+    "S": "mp",
+    "SECONDS": "másodperc",
+    "MINUTES": "perc",
+    "HOURS": "óra",
+
+    "APP_NAMES": {
+        "Phone": "Telefon",
+        "Messages": "Üzenetek",
+        "Notes": "Jegyzetek",
+        "Settings": "Beállítások",
+        "Photos": "Fotók",
+        "Camera": "Kamera",
+        "Weather": "Időjárás",
+        "Calculator": "Számológép",
+        "AppStore": "Alkalmazások",
+        "Clock": "Óra",
+        "Maps": "Térképek",
+        "YellowPages": "Cégek",
+        "MarketPlace": "Piactér",
+        "Wallet": "Pénztárca",
+        "Home": "Otthon",
+        "Garage": "Garázs",
+        "Music": "Zene",
+        "DarkChat": "Dark Chat",
+        "Crypto": "Kripto",
+        "Mail": "Levelek",
+        "Services": "Szolgáltatások",
+        "VoiceMemo": "Hangjegyzet",
+        "Twitter": "Birdy",
+        "Instagram": "InstaPic",
+        "Tinder": "Spark",
+        "TikTok": "Trendy"
+    },
 
     "APPS": {
         "SETTINGS": {
             "TITLE": "Beállítások",
             "BACK": "Vissza",
-            "DONE": "Befejez",
+            "DONE": "Kész",
             "EDIT": "Szerkesztés",
-
             "AIRPLANE_MODE": "Repülőgép mód",
-            "STREAMER_MODE": "Streamer Mód",
-            "BLUETOOTH": "Bluetooth",
+            "AIRPLANE_MODE_DESCRIPTION": "Hívások, mobiladat stb. letiltása",
+            "STREAMER_MODE": "Streamer mód",
+            "STREAMER_MODE_DESCRIPTION": "Érzékeny adatok elhomályosítása",
             "GENERAL": "Általános",
-
-            "ABOUT": "Információk",
+            "GENERAL_DESCRIPTION": "Általános beállítások a telefonhoz",
+            "ABOUT": "Névjegy",
             "NAME": "Név",
             "VERSION": "Verzió",
-            "MODEL_NAME": "Model Név",
-            "SERIAL_NUMBER": "Szériaszám",
-            "DEVELOPED_BY": "Fejlesztve",
-            "PURCHASE_AT": "Vásárolva innét",
-            "SONGS": "Zenék",
+            "MODEL_NAME": "Modellnév",
+            "SERIAL_NUMBER": "Sorozatszám",
+            "DEVELOPED_BY": "Fejlesztő",
+            "PURCHASE_AT": "Vásárlás helye",
+            "SONGS": "Dalok",
             "VIDEOS": "Videók",
             "PHOTOS": "Fotók",
             "APPLICATIONS": "Alkalmazások",
-            "CAPACITY": "Tárhely",
+            "CAPACITY": "Kapacitás",
             "AVAILABLE": "Elérhető",
-
-            "SOFTWARE_UPDATE": "Szoftver frissítés",
-            "AUTOMATIC_UPDATES": "Autómatikus frissítések",
-
+            "SOFTWARE_UPDATE": "Szoftverfrissítés",
+            "AUTOMATIC_UPDATES": "Automatikus frissítések",
             "DATE_TIME": "Dátum és idő",
             "24_HOUR_TIME": "24 órás idő",
-            "SET_AUTOMATICALLY": "Beállítás autómatikusan",
+            "SET_AUTOMATICALLY": "Automatikus beállítás",
             "TIME_ZONE": "Időzóna",
-
-            "LANGUAGE_REGION": "Nyelv és hely",
+            "LANGUAGE_REGION": "Nyelv és régió",
             "LANGUAGE": "Nyelv",
             "TEMPERATURE": "Hőmérséklet",
+            "CELCIUS": "Celsius",
+            "FAHRENHEIT": "Fahrenheit",
             "BATTERY": "Akkumulátor",
-
-            "SOUND_HAPTICS": "Hangok",
-            "SOUND_HAPTICS_PATTERNS": "Csengőhang és értesítések",
+            "BATTERY_DESCRIPTION": "Akkumulátor állapot és használat megtekintése",
+            "SOUND_HAPTICS": "Hangok és rezgések",
+            "SOUND_HAPTICS_DESCRIPTION": "Hangok és rezgések módosítása",
+            "SOUND_HAPTICS_PATTERNS": "Hang- és rezgésminták",
             "RINGTONE": "Csengőhang",
-            "TEXT_TONE": "Értesítések",
-            "RINGTONE_VOLUME": "Hívások és értesítések hangereje",
+            "TEXT_TONE": "Üzenethang",
+            "RINGTONE_VOLUME": "Csengőhang és figyelmeztetések hangereje",
+            "CALL_VOLUME": "Híváshangerő",
             "DEFAULT": "Alapértelmezett",
-
-            "PHONE_STORAGE": "Telefon tárhely",
+            "PHONE_STORAGE": "Tárhely",
             "STORAGE": "Tárhely",
-            "USED": "Felhasználva",
-            "OF": "ennyiből",
-
-            "DISPLAY_BRIGHTNESS": "Kijelző & Fényerő",
+            "USED": "Felhasznált",
+            "OF": "/",
+            "DISPLAY_BRIGHTNESS": "Kijelző és fényerő",
+            "DISPLAY_BRIGHTNESS_DESCRIPTION": "Kijelző és fényerő beállítása",
+            "DARK": "Sötét",
+            "LIGHT": "Világos",
             "APPEARANCE": "Megjelenés",
-            "AUTOMATIC": "Autómatikus",
-            "BRIGHTNESS": "Féynerő",
+            "AUTOMATIC": "Automatikus",
+            "BRIGHTNESS": "Fényerő",
             "PHONE_SCALE": "Telefon mérete",
-
-            "WALLPAPER": "Háttér",
-            "WALLPAPERS": "Hátterek",
-            "CHOOSE_NEW_WALLPAPER": "Válassz új hátteret",
-
+            "FRAME_COLOR": "Keret színe",
+            "WALLPAPER": "Háttérkép",
+            "WALLPAPER_DESCRIPTION": "Háttérkép és egyéb háttérbeállítások módosítása",
+            "WALLPAPERS": "Háttérképek",
+            "CHOOSE_NEW_WALLPAPER": "Új háttérkép választása",
             "NOTIFICATIONS": "Értesítések",
+            "NOTIFICATIONS_DESCRIPTION": "Kiválaszthatod, mely alkalmazások küldhetnek értesítéseket",
             "ALLOW_NOTIFICATIONS": "Értesítések engedélyezése",
             "SOUNDS": "Hangok",
-
             "PHONE": "Telefon",
-            "BLOCKED_CONTACTS": "Tiltott kontaktok",
-            "MY_NUMBER": "Saját számom",
-            "SHOW_CALLER_ID": "Hívás azonosító mutatása",
-
+            "PHONE_DESCRIPTION": "Hívóazonosító, blokkolt számok stb.",
+            "BLOCKED_CONTACTS": "Blokkolt névjegyek",
+            "MY_NUMBER": "Saját szám",
+            "SHOW_CALLER_ID": "Hívóazonosító mutatása",
             "UNBLOCK_POPUP": {
-                "TITLE": "Telefonszám feloldása",
+                "TITLE": "Szám feloldása",
                 "TEXT": "Biztosan feloldod ezt a számot?",
-                "CANCEL": "Mégsem",
+                "CANCEL": "Mégse",
                 "CONFIRM": "Feloldás"
             },
-
-            "FACE_ID_PASSWORD": "Face ID & jelszó",
-            "ENTER_PASSCODE": "Írd be a jelszót",
-            "PASSCODE": "Jelszó",
-            "FACE_ID": "Face ID",
-            "RESET_FACE_ID": "Face ID visszaállítása",
-            "ENABLE_FACE_ID": "Face ID bekapcsolása",
-            "PIN_CODE": "Pin kód",
-
+            "FACE_ID_PASSWORD": "Arcfelismerés és jelkód",
+            "FACE_ID_PASSWORD_DESCRIPTION": "A telefon biztonságának kezelése",
+            "ENTER_PASSCODE": "Add meg a jelkódot",
+            "PASSCODE": "Jelkód",
+            "FACE_ID": "Arcfelismerés",
+            "RESET_FACE_ID": "Arcfelismerés visszaállítása",
+            "ENABLE_FACE_ID": "Arcfelismerés engedélyezése",
+            "PIN_CODE": "Pinkód",
+            "PIN_CODE_ERROR": {
+                "TITLE": "Hiba",
+                "WRONG": "Hibás pinkód",
+                "OK": "OK"
+            },
             "DISABLE_FACE_ID_POPUP": {
-                "TITLE": "Face ID kikapcsolása",
-                "TEXT": "Biztosan ki akarod kapcsolni a Face ID-t?",
-                "CANCEL": "Mégsem",
+                "TITLE": "Arcfelismerés kikapcsolása",
+                "TEXT": "Biztosan kikapcsolod az arcfelismerést?",
+                "CANCEL": "Mégse",
                 "CONFIRM": "Kikapcsolás"
             },
-
             "ENABLE_FACE_ID_POPUP": {
-                "TITLE": "Face ID bekapcsolása",
-                "TEXT": "Biztosan bekapcsolod a Face ID-t?",
-                "CANCEL": "Mégsem",
+                "TITLE": "Arcfelismerés bekapcsolása",
+                "TEXT": "Biztosan bekapcsolod az arcfelismerést?",
+                "CANCEL": "Mégse",
                 "CONFIRM": "Bekapcsolás"
             },
             "DISABLE_PIN_POPUP": {
-                "TITLE": "Pin Code kikapcsolása",
-                "TEXT": "Biztosan kikapcsolod a Pin Code-ot? (Ez kikapcsolja a Face ID-t is)",
-                "CANCEL": "Mégsem",
-                "CONFIRM": "Kikapcsolás"
+                "TITLE": "Pinkód kikapcsolása",
+                "TEXT": "Biztosan kikapcsolod a pinkódot? (Ezzel az arcfelismerés is kikapcsol)",
+                "CANCEL": "Mégse",
+                "CONFIRM": "Megerősítés"
             },
-            "TURN_PASSCODE_OFF": "Jelszó kikapcsolása",
-            "TURN_PASSCODE_ON": "Jelszó bekapcsolása",
-            "CHANGE_PASSCODE": "Jelszó megváltoztatása",
-            "CLOUD_BACKUP": "Felhőbeli mentés",
-            "YOUR_PROFILE": "Saját profil",
+            "TURN_PASSCODE_OFF": "Jelkód kikapcsolása",
+            "TURN_PASSCODE_ON": "Jelkód bekapcsolása",
+            "CHANGE_PASSCODE": "Jelkód módosítása",
+            "CLOUD_BACKUP": "Importálás telefonról",
+            "YOUR_PROFILE": "Profilod",
             "CREATE_BACKUP": "Biztonsági mentés készítése",
+            "BACKUPS": "Importok",
             "SAVE_BACKUP_POPUP": {
-                "TITLE": "Biztonsági mentés készítése",
-                "TEXT": "Biztosan elmentesz a felhőbe mindent? (Elmenti a kontaktokat, a galériát és a beállításokat)",
-                "CANCEL": "Mégsem",
+                "TITLE": "Importálás",
+                "TEXT": "Biztosan elmented az adataidat? (Elmenti a névjegyeket, fotókat és beállításokat)",
+                "CANCEL": "Mégse",
                 "CONFIRM": "Mentés"
             },
-            "BACKUPS": "Mentések",
             "APPLY_BACKUP_POPUP": {
-                "TITLE": "Mentés betöltése",
-                "TEXT": "Biztosan betöltöd ezt a mentést? (Felül fogja írni a jelenlegi kontaktokat, galériát és a beállításaidat)",
-                "CANCEL": "Mégsem",
-                "CONFIRM": "Betöltés"
+                "TITLE": "Importálás",
+                "TEXT": "Biztosan importálni szeretnél erről a telefonról? (Felülírja a névjegyeket, fotókat és beállításokat)",
+                "CANCEL": "Mégse",
+                "CONFIRM": "Alkalmaz"
             },
-            "SUCCESS": "Sikeres",
-            "SUCCESS_TEXT": "A telefon újraindul 5 másodpercen belül...",
+            "BACKUP_ERROR_POPUP": {
+                "WARNING": "Figyelem",
+                "ERROR": "Hiba",
+                "ALREADY_HAVE": "Már van import ehhez a számhoz",
+                "SAME_PHONE": "Nem importálhatsz ugyanarról a telefonról",
+                "OK": "OK"
+            },
+            "SUCCESS": "Siker",
+            "SUCCESS_TEXT": "A telefon 5 másodpercen belül újraindul...",
             "OK": "OK",
+            "ON": "Be",
+            "OFF": "Ki",
             "REMOVE_BACKUP_POPUP": {
-                "TITLE": "Mentés eltávolítása",
-                "TEXT": "Biztosan eltávolítod ezt a mentést?",
-                "CANCEL": "Mégsem",
+                "TITLE": "Import eltávolítása",
+                "TEXT": "Biztosan eltávolítod ezt az importot?",
+                "CANCEL": "Mégse",
                 "CONFIRM": "Eltávolítás"
             },
-            "ON": "On"
+            "RESET_POPUP": {
+                "TITLE": "Telefon visszaállítása",
+                "TEXT": "Biztosan visszaállítod a telefont? [MINDEN TÖRLŐDNI FOG]",
+                "CANCEL": "Mégse",
+                "CONFIRM": "Visszaállítás"
+            },
+            "UP_TO_DATE": "A telefon naprakész",
+            "BLUR_HOMESCREEN": "Kezdőképernyő elhomályosítása"
         },
         "NOTES": {
             "TITLE": "Jegyzetek",
             "SEARCH_PLACEHOLDER": "Keresés",
-            "FOOTER": "{amount} Jegyzetek",
+            "FOOTER": "{amount} jegyzet",
             "NEW_NOTE": "Új jegyzet",
             "LAST_EDITED": "Utoljára szerkesztve: {date}",
-            "DELETE_TITLE": "Törlés {title}",
-            "DELETE_TEXT": "Biztosan törlöd ezt '{title}'?",
-            "BUTTON_CANCEL": "Mégsem",
+            "DELETE_TITLE": "{title} törlése",
+            "DELETE_TEXT": "Biztosan törlöd a(z) '{title}' jegyzetet?",
+            "BUTTON_CANCEL": "Mégse",
             "BUTTON_DELETE": "Törlés"
         },
         "CLOCK": {
@@ -153,258 +211,464 @@
                 "TITLE": "Világóra",
                 "TODAY": "Ma",
                 "TOMORROW": "Holnap",
-                "YESTERDAY": "Tegnap"
+                "YESTERDAY": "Tegnap",
+                "LOCAL_TIME": "Helyi idő",
+                "HRS": "{time} óra"
             },
             "ALARM": {
                 "TITLE": "Ébresztő",
                 "ADD": "Ébresztő hozzáadása",
-                "CANCEL": "Mégsem",
+                "CANCEL": "Mégse",
                 "EDIT": "Szerkesztés",
                 "DONE": "Kész",
                 "SAVE": "Mentés",
-                "LABEL": "Elnevezés",
+                "LABEL": "Címke",
                 "SOUND": "Hang",
                 "SNOOZE": "Szundi",
-                "DELETE_TITLE": "Ébresztés törlése",
-                "DELETE_TEXT": "Biztosan törlöd ezt az ébresztést?",
-                "BUTTON_CANCEL": "Mégsem",
-                "BUTTON_DELETE": "Törlés"
+                "DELETE_TITLE": "Ébresztő törlése",
+                "DELETE_TEXT": "Biztosan törlöd ezt az ébresztőt?",
+                "BUTTON_CANCEL": "Mégse",
+                "BUTTON_DELETE": "Törlés",
+                "ALARMS": "Ébresztők",
+                "NEW_ALARM": "Új ébresztő",
+                "EDIT_ALARM": "Ébresztő szerkesztése"
             },
             "STOPWATCH": {
-                "TITLE": "Időzítő",
-                "START": "Start",
-                "STOP": "Stop",
-                "RESET": "Nullázás",
-                "LAP": "Kör"
+                "TITLE": "Stopper",
+                "START": "Indítás",
+                "STOP": "Leállítás",
+                "RESET": "Visszaállítás",
+                "LAP": "Kör",
+                "TIME": "Idő",
+                "TOTAL": "Összes",
+                "NO_LAPS": "Nincsenek körök"
             },
             "TIMER": {
-                "TITLE": "Visszaszámláló",
-                "START": "Start",
-                "STOP": "Stop",
-                "CANCEL": "Mégsem",
-                "HOURS": "óra",
-                "MINUTES": "perc",
-                "SECONDS": "másodperc"
+                "TITLE": "Időzítő",
+                "START": "Indítás",
+                "STOP": "Leállítás",
+                "CANCEL": "Mégse",
+                "HOURS": "Óra",
+                "MINUTES": "Perc",
+                "SECONDS": "Másodperc",
+                "NO_RECENTS": "Nincs előzmény"
             },
             "ALERT": {
-                "STOP": "Stop"
+                "STOP": "Leállítás",
+                "RESTART": "Újraindítás"
             }
         },
         "CAMERA": {
             "VIDEO": "Videó",
-            "PHOTO": "Fotó",
-            "LANDSCAPE": "Portré",
+            "PHOTO": "Fénykép",
+            "LANDSCAPE": "Fekvő",
             "UPLOADING": "Feltöltés"
         },
         "DARKCHAT": {
             "TITLE": "Dark Chat",
-            "USERNAME": "Felhasználónév",
-            "SET_USERNAME": "Állítsd be a felhasználóneved. MEGJEGYZÉS: CSAK EGYSZER ÁLLÍTHATÓ BE.",
-            "CANCEL": "Mégsem",
+            "SEARCH": "Csatornák keresése",
+            "CANCEL": "Mégse",
             "SET": "Beállítás",
             "JOIN": "Csatlakozás",
+            "CREATE": "Létrehozás",
             "LEAVE": "Kilépés",
-            "NEW_ROOM": "Új csatorna",
-            "NEW_ROOM_TEXT": "Írd be egy csatorna kódját, hogy csatlakozz vagy hozz létre eggyet",
-            "ROOM_CODE": "Csatorna kódja",
-            "LEAVE_ROOM": "CSatorna elhagyása",
-            "LEAVE_ROOM_TEXT": "Biztosan elhagyod ezt a csatornát?",
+            "JOIN_ROOM": "Szoba csatlakozása",
+            "JOIN_ROOM_TEXT": "Írj be egy szobakódot a csatlakozáshoz",
+            "CREATE_ROOM": "Szoba létrehozása",
+            "CREATE_ROOM_TEXT": "Írj be egy szobakódot a létrehozáshoz",
+            "ROOM_CODE": "Szobakód",
+
+            "INVALID_CHANNEL": "Érvénytelen csatorna",
+            "INVALID_CHANNEL_TEXT": "A csatorna nem létezik",
+            "ALREADY_IN_CHANNEL": "Már csatlakoztál",
+            "ALREADY_IN_CHANNEL_TEXT": "Már tagja vagy ennek a csatornának",
+            "PASSWORD_REQUIRED": "Jelszó szükséges",
+            "PASSWORD_REQUIRED_TEXT": "A csatorna jelszót igényel",
+            "PASSWORD_PLACEHOLDER": "Jelszó",
+            "PASSWORD_PLACEHOLDER_OPTIONAL": "Jelszó (opcionális)",
+            "INCORRECT_PASSWORD": "Hibás jelszó",
+            "INCORRECT_PASSWORD_TEXT": "A megadott jelszó hibás",
+            "CHANNEL_EXISTS": "A csatorna létezik",
+            "CHANNEL_EXISTS_TEXT": "A csatorna már létezik",
+            "INVALID_NAME": "Érvénytelen név",
+            "INVALID_NAME_TEXT": "A név érvénytelen (min. 1, max. 5 hossz)",
+            "UNKNOWN_ERROR": "Ismeretlen hiba",
+            "UNKNOWN_ERROR_TEXT": "Ismeretlen hiba történt",
+
+            "LEAVE_ROOM": "Kilépés a szobából",
+            "LEAVE_ROOM_TEXT": "Biztosan kilépsz a szobából?",
             "NOW": "Most",
-            "INPUT_PLACEHOLDER": "Írd üzenetet..."
+            "INPUT_PLACEHOLDER": "Írj üzenetet...",
+            "NO_CHATS": "Nincsenek csatornák",
+            "NO_CHATS_TEXT": "Még nem csatlakoztál csatornához. Csatlakozz vagy hozz létre egyet a jobb felső sarokban lévő plusz jellel.",
+            "MEMBER": "Tag",
+            "MEMBERS": "Tagok",
+
+            "USERNAME": "Felhasználónév",
+            "PASSWORD": "Jelszó",
+            "LOGIN": "Bejelentkezés",
+            "SIGN_UP": "Regisztráció",
+            "NO_ACCOUNT": "Nincs még fiókod?",
+            "ALREADY_HAVE": "Már van fiókod?",
+            "USERNAME_NOT_ALLOWED": "Ez a felhasználónév nem engedélyezett",
+
+            "CHANGE_ACCOUNT": "Fiók váltása",
+            "CHANGE_PASSWORD": "Jelszó módosítása",
+            "DELETE_ACCOUNT": "Fiók törlése",
+
+            "ERROR": "Hiba",
+            "INVALID_LENGTH": "A jelszónak legalább 3 karakter hosszúnak kell lennie",
+            "USERNAME_TAKEN": "A felhasználónév már foglalt",
+            "UNKNOWN": "Ismeretlen hiba",
+            "INVALID_USERNAME": "A felhasználónév nem létezik",
+            "OK": "OK",
+
+            "LEAVE_CHANNEL": {
+                "TITLE": "Csatorna elhagyása",
+                "DESCRIPTION": "Biztosan elhagyod ezt a csatornát?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Kilépés"
+            },
+
+            "SET_PASSWORD_POPUP": {
+                "TITLE": "Jelszó beállítása",
+                "DESCRIPTION": "Be kell állítanod egy jelszót a fiókodhoz",
+                "PLACEHOLDER": "Jelszó"
+            }
         },
         "APPSTORE": {
             "TITLE": "Alkalmazások",
             "SEARCH": "Keresés",
             "GET": "Letöltés",
-            "OPEN": "Megynitás",
+            "OPEN": "Megnyitás",
             "TODAY": "Ma",
+            "POPULAR_APPS": "Népszerű alkalmazások",
             "GAMES": "Játékok",
-            "WHAT_WE_PLAYING": "Mit játszunk?",
+            "APPS": "Alkalmazások",
+            "WHAT_WE_PLAYING": "Ezekkel játszunk",
             "INFORMATION": "Információ",
-            "PROVIDER": "Fejlesztő",
+            "PROVIDER": "Kiadó",
             "SIZE": "Méret",
             "COMPATIBILITY": "Kompatibilitás",
-            "IN_APP_PURCHASES": "Alkalmazáson belüli vásárlások"
+            "IN_APP_PURCHASES": "Alkalmazáson belüli vásárlások",
+            "WORKS_WITH_PHONE": "Működik ezzel a telefonnal",
+            "NO": "Nem",
+            "YES": "Igen",
+            "PURCHASE_APP_POPUP": {
+                "TITLE": "Alkalmazás megvásárlása",
+                "DESCRIPTION": "Biztosan meg szeretnéd vásárolni a(z) {app} alkalmazást {price} áron?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Vásárlás"
+            }
         },
         "PHOTOS": {
-            "TITLE": "Galéria",
+            "TITLE": "Fotók",
             "SELECT": "Kiválasztás",
-            "CANCEL": "Mégsem",
+            "CANCEL": "Mégse",
+            "PROCEED": "Folytatás",
+            "OK": "OK",
+            "EDIT": "Szerkesztés",
+            "DONE": "Kész",
+            "DELETE": "Törlés",
             "SELECT_ITEMS": "Elemek kiválasztása",
-            "SELECTED_COUNT": "{count} Elem kiválasztva",
+            "SELECTED_COUNT": "{count} elem kiválasztva",
+
+            "PHOTOS": "Fotók",
+            "ALBUMS": "Albumok",
+            "LIBRARY": "Könyvtár",
+            "GALLERY": "Galéria",
+            "MY_ALBUMS": "Saját albumok",
+            "SHARED_ALBUMS": "Megosztott albumok",
+            "MEDIA_TYPES": "Média típusok",
+            "MANAGE_MEMBERS": "Tagok kezelése",
+            "NEW_ALBUM_POPUP": {
+                "TITLE": "Új album",
+                "DESCRIPTION": "Adj nevet az albumnak",
+                "PLACEHOLDER": "Cím",
+                "CANCEL": "Mégse",
+                "PROCEED": "Mentés"
+            },
+            "REMOVE_ALBUM": {
+                "TITLE": "„{name}” eltávolítása",
+                "DESCRIPTION": "Biztosan törölni szeretnéd a(z) „{name}” albumot? A fotók nem kerülnek törlésre"
+            },
+            "LEAVE_SHARED_ALBUM": {
+                "TITLE": "„{name}” elhagyása",
+                "DESCRIPTION": "Biztosan elhagyod a(z) „{name}” albumot? Többé nem tudsz fotókat feltölteni"
+            },
+            "RENAME_ALBUM_POPUP": {
+                "TITLE": "Album átnevezése",
+                "DESCRIPTION": "Adj új nevet az albumnak",
+                "PLACEHOLDER": "Új album neve",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "DELETE_IMAGE_POPUP": {
+                "TITLE": "Kép törlése",
+                "DESCRIPTION": "Biztosan törölni szeretnéd ezt a képet?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Törlés"
+            },
+            "IMPORT_IMAGE_POPUP": {
+                "TITLE": "Importálás albumba",
+                "DESCRIPTION": "Kép importálása ebbe az albumba",
+                "CANCEL": "Mégse",
+                "PROCEED": "Importálás",
+                "PLACEHOLDER": "Kép URL"
+            },
+            "ERROR": "Hiba",
+            "SUCCESS": "Siker",
+            "CONTACT_ALREADY_IN_ALBUM": "A kontakt már szerepel az albumban",
+            "CONTACT_ADDED_TO_ALBUM": "Kontakt hozzáadva az albumhoz",
+            "MEMBERS": "{count} tag",
+            "INVITE": "Meghívás",
+            "LEAVE_ALBUM": "Album elhagyása",
+            "CREATE_SHARED_ALBUM": "Megosztott album létrehozása",
+            "MANAGE_SHARED_ALBUM": "Megosztott album kezelése",
+            "REMOVE_MEMBER": {
+                "TITLE": "Tag eltávolítása",
+                "DESCRIPTION": "Biztosan eltávolítod ezt a tagot az albumból?",
+                "SUCCESS": "Tag eltávolítva az albumból"
+            },
+
+            "NO_PHOTOS": "Nincsenek fotók vagy videók",
+            "NO_PHOTOS_INSTRUCTIONS": "A kamera használatával készíthetsz fotókat és videókat",
             "PHOTO_COUNT": "{amount} fotó",
+            "VIDEO_COUNT": "{amount} videó",
 
-            "DELETE_TITLE": "{count} kép törlése",
-            "DELETE_TEXT": "Biztosan kitörölsz {count} képet?",
-            "DELETE_BUTTON_CANCEL": "Mégsem",
-            "DELETE_BUTTON_DELETE": "Törlés",
+            "DELETE_CONTEXT_TITLE": "Szeretnéd törölni a(z) {type} elemet, vagy eltávolítani az albumból?",
+            "THESE_PHOTOS": "ezeket a fotókat",
+            "THIS_PHOTO": "ezt a fotót",
+            "REMOVE_FROM_ALBUM": "Eltávolítás az albumból",
+            "ADD_TO_ALBUM": "Hozzáadás albumhoz",
+            "ADD_TO_FAVOURITES": "Hozzáadás a kedvencekhez",
+            "REMOVE_FROM_FAVOURITES": "Eltávolítás a kedvencekből",
+            "VIDEOS": "Videók",
+            "SELFIES": "Selfiek",
+            "SCREENSHOTS": "Képernyőképek",
+            "IMPORTS": "Importáltak",
+            "DUPLICATES": "Duplikátumok",
+            "YEARS": "Évek",
+            "MONTHS": "Hónapok",
+            "DAYS": "Napok",
+            "ALL_PHOTOS": "Összes fotó",
 
-            "DELETE_IMAGE_TITLE": "Kép törlése",
-            "DELETE_IMAGE_TEXT": "Biztosan kitörlöd ezt a képet?",
-            "DELETE_IMAGE_BUTTON_CANCEL": "Mégsem",
-            "DELETE_IMAGE_BUTTON_DELETE": "Törlés"
+            "FAVOURITES": "Kedvencek",
+            "RECENTS": "Legutóbbiak"
         },
         "WEATHER": {
             "TITLE": "Időjárás",
             "HOURLY_FORECAST": "Óránkénti előrejelzés",
             "NOW": "Most",
-            "FEELS_LIKE": "Érzékelhető",
-            "FEELS_LIKE_SAME": "Hasonló a jelenlegi hőmérséklethez.",
-            "FEELS_LIKE_HUMIDITY": "A páratartalomnak köszönhetően melegebbnek érezhető",
-            "FEELS_LIKE_WIND": "A szl miatt hűvösebb",
-
-            "SUNRISE": "Napfelkelte",
-            "SUNSET": "Naplemente",
+            "FEELS_LIKE": "Hőérzet",
+            "FEELS_LIKE_SAME": "Hasonló a tényleges hőmérséklethez.",
+            "FEELS_LIKE_HUMIDITY": "A páratartalom miatt melegebbnek érződik",
+            "FEELS_LIKE_WIND": "A szél miatt hűvösebbnek érződik",
+            "SUNRISE": "Napkelte",
+            "SUNSET": "Napnyugta",
             "WIND": "Szél",
             "PRECIPITATION": "Csapadék",
-            "LAST_24H": "elmúlt 24 órában",
-            "EXPECTED_24H": "előreláthatólag a következő 24 órában",
-
+            "LAST_24H": "az elmúlt 24 órában",
+            "EXPECTED_24H": "a következő 24 órában várható",
             "TYPES": {
                 "CLOUDY": "Felhős",
-                "LIGHT_RAIN": "Enyhe esőzés",
-                "HEAVY_RAIN": "Viharos eső",
+                "LIGHT_RAIN": "Gyenge eső",
+                "HEAVY_RAIN": "Erős eső",
                 "RAIN": "Eső",
-                "SNOW": "Havazás",
+                "SNOW": "Hó",
                 "FOG": "Köd",
-                "CLEAR": "Felhőtlen",
-                "MOSTLY_CLEAR": "Javarészt felhőtlen",
-                "THUNDER": "Vihar",
+                "CLEAR": "Tiszta",
+                "MOSTLY_CLEAR": "Többnyire tiszta",
+                "THUNDER": "Zivatar",
                 "TORNADO": "Tornádó",
-                "WINDY": "Szellős"
+                "WINDY": "Szeles"
             }
         },
         "MESSAGES": {
             "TITLE": "Üzenetek",
-            "NEW_MESSAGE": "Új üzenetek",
-            "PEOPLE": "Emberek",
+            "NEW_MESSAGE": "Új üzenet",
+            "PEOPLE": "Személyek",
             "MEMBERS": "Tagok",
             "OTHER": "Egyéb",
-            "SENT_A_PHOTO": "Fotó küldése",
+            "SENT_A_PHOTO": "Küldött egy fényképet",
+            "SENT_AUDIO_MESSAGE": "Hangüzenetet küldött",
             "SENT": "Elküldve",
-            "REQUESTED": "Igényelve",
-            "MISSED_CALL": "{number} hívni próbélt, de nem válaszoltál, nyomd meg a számot, hogy visszahívd",
-            "NOT_DELIVERED": "Nincs átküldve",
+            "REQUESTED": "Kérve",
+            "MISSED_CALL": "{number} hívott, de nem válaszoltál, nyomd meg a számot a visszahíváshoz",
+            "NOT_DELIVERED": "Nem kézbesítve",
             "PLACEHOLDER": "Szöveges üzenet",
             "DONE": "Kész",
-            "CANCEL": "Mégsem",
-            "SEND": "Elküldés",
+            "EDIT": "Szerkesztés",
+            "READ": "Olvasott",
+            "CANCEL": "Mégse",
+            "SEND": "Küldés",
             "UNKNOWN": "Ismeretlen",
-            "TO": "Neki",
+            "TO": "Címzett",
             "SEARCH": "Keresés",
             "ADD_MEMBER": "Tag hozzáadása",
-            "SHARE_LOCATION": "Pozíció megosztása",
-            "LEAVE_GROUP": "BEszélgetés elhagyása",
-            "SENT_LOCATION": "Megosztotta a helyzetét, kattints rá, hogy megnyisd a térképen",
+            "SHARE_LOCATION": "Helyzetem megosztása",
+            "LEAVE_GROUP": "Csoport elhagyása",
+            "SENT_LOCATION": "Megosztotta a helyzetét, kattints a Térképen való megnyitáshoz",
             "SENT_LOCATION_SHORT": "Megosztotta a helyzetét",
-
+            "TRIED_TO_CALL": "{number} próbált hívni",
+            "DELETE": "Törlés",
+            "GROUP": "Csoport",
+            "GROUP_NAME": "Csoport neve",
             "REMOVE_POPUP": {
                 "TITLE": "Tag eltávolítása",
-                "TEXT": "Biztosan eltávolítod őt {name} a beszélgetésből?",
+                "TEXT": "Biztosan el akarod távolítani {name} nevű tagot a csoportból?",
                 "REMOVE": "Eltávolítás"
             },
             "LEAVE_POPUP": {
-                "TITLE": "BEszélgetés elhagyása",
-                "TEXT": "Biztosan elhagyod ezt a beszélgetést?",
+                "TITLE": "Csoport elhagyása",
+                "TEXT": "Biztosan el akarod hagyni ezt a csoportot?",
                 "LEAVE": "Elhagyás"
             },
             "ADD_POPUP": {
                 "TITLE": "Tag hozzáadása",
-                "TEXT": "Írd be a számát annak, akit hozzá szeretnél adni ehhez a csoporhoz '{name}'",
+                "TEXT": "Írj be egy számot, hogy hozzáadd a következőhöz: '{name}' csoport?",
                 "ADD": "Hozzáadás"
             },
             "SEND_LOCATION_POPUP": {
-                "TITLE": "Pozíció megosztása",
-                "TEXT": "Biztosan megosztod a helyzeted?",
-                "CANCEL": "Mégsem",
+                "TITLE": "Helyzet megosztása",
+                "TEXT": "Szeretnéd megosztani a helyzeted?",
+                "CANCEL": "Mégse",
                 "SEND": "Küldés"
             },
             "PAY": {
-                "REQUEST": "Igénylés",
-                "REQUESTED": "Igényelve",
+                "REQUEST": "Kérés",
+                "REQUESTED": "Kérve",
                 "PAY": "Fizetés",
-                "SEND": "SKüldés",
-                "SEND_TITLE": "Küldés {amount}",
-                "SEND_DESCRIPTION": "Biztosan elküldesz ennyit {amount} neki {name}?",
-                "SEND_BUTTON_CANCEL": "Mégsem",
+                "SEND": "Küldés",
+                "SEND_TITLE": "{amount} küldése",
+                "SEND_DESCRIPTION": "Biztosan el akarod küldeni {amount}-ot {name} számára?",
+                "SEND_BUTTON_CANCEL": "Mégse",
                 "SEND_BUTTON_SEND": "Küldés"
+            },
+            "PAYMENT_FAILED_POPUP": {
+                "TITLE": "Sikertelen fizetés",
+                "DESCRIPTION": "Hiba: {error}",
+                "CLOSE": "Bezárás"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "Beszélgetés törlése",
+                "DESCRIPTION": "Biztosan törölni akarod ezt a beszélgetést?",
+                "CANCEL": "Mégse",
+                "DELETE": "Törlés"
+            },
+            "REMOVE_AVATAR_POPUP": {
+                "TITLE": "Avatar eltávolítása",
+                "DESCRIPTION": "Biztosan el akarod távolítani a csoport avatarját?",
+                "CANCEL": "Mégse",
+                "REMOVE": "Eltávolítás"
+            },
+            "MARK_AS_READ": "Megjelölés olvasottként",
+            "MESSAGE_DELETED": "Üzenet törölve",
+            "OPEN_IN_MAPS": "Megnyitás térképen",
+            "USERS_LOCATION": "{user} helyzete",
+            "START_RECORDING": "Nyomd meg a gombot a felvétel indításához",
+            "LOADING": "Betöltés...",
+            "EMPTY_RECORDING": {
+                "TITLE": "Üres felvétel",
+                "DESCRIPTION": "Nem küldhetsz üres felvételt",
+                "OK": "OK"
+            },
+            "GROUP_MEMBER_LIMIT_NOTIFICATION": {
+                "TITLE": "Elérted a taglimitett",
+                "CONTENT": "Elérted a maximális csoportlétszámot ({limit})."
             }
         },
         "PHONE": {
             "TITLE": "Telefon",
             "DONE": "Kész",
             "EDIT": "Szerkesztés",
-            "CANCEL": "Mégsem",
-
+            "CANCEL": "Mégse",
             "CALL": {
-                "CALL_TITLE": "Felhívás {name}",
-                "CALL_TEXT": "Biztosan felhívod {name}?",
-                "CALL_BUTTON_CANCEL": "Mégsem",
+                "CALL_TITLE": "{name} hívása",
+                "CALL_TEXT": "Biztosan fel akarod hívni {name}?",
+                "CALL_BUTTON_CANCEL": "Mégse",
                 "CALL_BUTTON_CALL": "Hívás",
-
-                "NO_CALLER_ID": "Nincs hívás azonosító",
+                "NO_CALLER_ID": "Nincs hívóazonosító",
                 "UNKNOWN": "Ismeretlen",
-                "USER_BUSY": "Foglalt",
-                "USER_UNAVAILABLE": "Nem elérhető",
+                "USER_BUSY": "A felhasználó foglalt",
+                "USER_UNAVAILABLE": "A felhasználó nem elérhető",
                 "CALL_BACK": "Visszahívás",
                 "DECLINE": "Elutasítás",
                 "ACCEPT": "Elfogadás",
-                "END": "Befejez",
-                "VIDEO_CALL": "Videó hívás",
-
-                "MUTE": "némítás",
-                "KEYPAD": "billentyűk",
-                "SPEAKER": "kihangosítás",
-                "ADD_CALL": "hívás hozzáadása",
-                "VIDEO": "videó",
-                "CONTACTS": "kontaktok",
-                "MOBILE": "Mobil"
+                "END": "Befejezés",
+                "VIDEO_CALL": "Videóhívás",
+                "MUTE": "Némítás",
+                "KEYPAD": "Billentyűzet",
+                "SPEAKER": "Hangszóró",
+                "ADD_CALL": "Új hívás hozzáadása",
+                "VIDEO": "Videó",
+                "CONTACTS": "Névjegyek",
+                "MOBILE": "Mobil",
+                "VIDEO_CALL_REQUEST": {
+                    "TITLE": "Videóhívás kérés",
+                    "DESCRIPTION": "Szeretnéd fogadni a videóhívást?",
+                    "CANCEL": "Mégse",
+                    "PROCEED": "Elfogadás"
+                },
+                "REQUEST_VIDEO": {
+                    "TITLE": "Videóhívás",
+                    "DESCRIPTION": "Szeretnél videóhívást indítani?",
+                    "CANCEL": "Mégse",
+                    "PROCEED": "Folytatás"
+                },
+                "STOP_VIDEO": {
+                    "TITLE": "Videó leállítása",
+                    "DESCRIPTION": "Biztosan le akarod állítani a videó megosztását?",
+                    "CANCEL": "Mégse",
+                    "PROCEED": "Leállítás"
+                }
             },
-
             "CONTACTS": {
-                "TITLE": "Kontaktok",
-                "FIRST_NAME": "Vezetéknév",
-                "LAST_NAME": "Keresztnév",
+                "TITLE": "Névjegyek",
+                "FIRST_NAME": "Keresztnév",
+                "LAST_NAME": "Vezetéknév",
                 "PHONE_NUMBER": "Telefonszám",
-                "MY_CARD": "Saját kártya",
-                "ADD_PHOTO": "Fotó hozzáadása",
-
-                "REMOVE_CONTACT_TITLE": "Kontakt eltávolítása",
-                "REMOVE_CONTACT_TEXT": "Biztosan eltávolítod ezt a kontaktot?",
-                "REMOVE_CONTACT_BUTTON_CANCEL": "Mégsem",
-                "REMOVE_CONTACT_BUTTON_DELETE": "Eltávoltítás",
-                "DELETE_CONTACT": "Kontakt törlése",
-
+                "MY_CARD": "Saját névjegy",
+                "ADD_PHOTO": "Fénykép hozzáadása",
+                "REMOVE_CONTACT_TITLE": "Névjegy eltávolítása",
+                "REMOVE_CONTACT_TEXT": "Biztosan el akarod távolítani ezt a névjegyet?",
+                "REMOVE_CONTACT_BUTTON_CANCEL": "Mégse",
+                "REMOVE_CONTACT_BUTTON_DELETE": "Törlés",
+                "DELETE_CONTACT": "Névjegy törlése",
                 "MESSAGE": "üzenet",
-                "CALL": "hanghívás",
-                "VIDEO": "videóhívás",
-                "MAIN": "telefonszám",
-
-                "SHARE_CONTACT": "Kontakt megosztása",
+                "CALL": "hívás",
+                "VIDEO": "videó",
+                "SHARE": "megosztás",
+                "MAIN": "alapértelmezett",
+                "SHARE_CONTACT": "Névjegy megosztása",
                 "SHARE_LOCATION": "Helyzetem megosztása",
                 "REMOVE_FAVORITE": "Eltávolítás a kedvencekből",
-                "ADD_FAVORITE": "Kedvencekhez adás",
-                "ADD_CONTACT": "Mentés ak ontaktokba",
-
+                "ADD_FAVORITE": "Hozzáadás a kedvencekhez",
+                "ADD_CONTACT": "Hozzáadás a névjegyekhez",
                 "UNBLOCK_CALLER": "Hívó feloldása",
                 "BLOCK_CALLER": "Hívó blokkolása",
-
-                "UNBLOCK_NUMBER_TITLE": "Telefonszám feloldása",
-                "UNBLOCK_NUMBER_TEXT": "Biztosan feloldod ezt a számot {number}?",
-                "UNBLOCK_NUMBER_BUTTON_CANCEL": "Mégsem",
+                "UNBLOCK_NUMBER_TITLE": "Szám feloldása",
+                "UNBLOCK_NUMBER_TEXT": "Biztosan feloldod a következőt: {number}?",
+                "UNBLOCK_NUMBER_BUTTON_CANCEL": "Mégse",
                 "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Feloldás",
-
-                "BLOCK_NUMBER_TITLE": "Telefonszám blokkolása",
-                "BLOCK_NUMBER_TEXT": "Biztosan szeretnéd blokkolni ezt a számot {number}?",
-                "BLOCK_NUMBER_BUTTON_CANCEL": "Mégsem",
-                "BLOCK_NUMBER_BUTTON_BLOCK": "Blokkolás"
+                "BLOCK_NUMBER_TITLE": "Szám blokkolása",
+                "BLOCK_NUMBER_TEXT": "Biztosan blokkolni szeretnéd a következőt: {number}?",
+                "BLOCK_NUMBER_BUTTON_CANCEL": "Mégse",
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Blokkolás",
+                "EMAIL": "Email",
+                "ADDRESS": "Cím",
+                "CHANGE_AVATAR": "Avatar cseréje",
+                "REMOVE_AVATAR": "Avatar eltávolítása",
+                "RINGTONES": "Csengőhangok",
+                "RINGTONE": "Csengőhang",
+                "DEFAULT": "Alapértelmezett",
+                "BACK": "Vissza"
             },
             "FAVOURITES": {
                 "TITLE": "Kedvencek",
-
                 "REMOVE_TITLE": "Eltávolítás a kedvencekből",
-                "REMOVE_TEXT": "Biztopsan eltávolítod ezt a kontaktok a kedvencekből?",
-                "REMOVE_BUTTON_CANCEL": "Mégsem",
+                "REMOVE_TEXT": "Biztosan el akarod távolítani ezt a névjegyet a kedvencekből?",
+                "REMOVE_BUTTON_CANCEL": "Mégse",
                 "REMOVE_BUTTON_REMOVE": "Eltávolítás"
             },
             "KEYPAD": {
@@ -412,204 +676,1246 @@
                 "ADD_NUMBER": "Szám hozzáadása"
             },
             "RECENTS": {
-                "TITLE": "Előzmények"
+                "TITLE": "Előzmények",
+                "ALL": "Összes",
+                "MISSED": "Nem fogadott",
+                "OUTGOING_CALL": "Kimenő hívás",
+                "INCOMING_CALL": "Bejövő hívás",
+                "CANCELLED_CALL": "Megszakított hívás",
+                "MISSED_CALL": "Nem fogadott hívás"
+            },
+            "VOICEMAIL": {
+                "TITLE": "Hangposta",
+                "AT": "ekkor",
+                "DELETE_POPUP": {
+                    "TITLE": "Hangposta törlése",
+                    "DESCRIPTION": "Biztosan törölni akarod ezt a hangüzenetet?",
+                    "CANCEL": "Mégse",
+                    "PROCEED": "Törlés"
+                },
+                "CALL_POPUP": {
+                    "TITLE": "Hívás",
+                    "DESCRIPTION": "Biztosan fel akarod hívni {number} számot?",
+                    "CANCEL": "Mégse",
+                    "PROCEED": "Hívás"
+                }
             }
         },
         "WALLET": {
-            "TITLE": "Wallet",
+            "TITLE": "Pénztárca",
             "BALANCE": "Egyenleg",
             "SEND": "Küldés",
-            "NEXT": "Következő",
+            "NEXT": "Tovább",
             "DONE": "Kész",
-            "DONE_SUBTITLE": "Elküldve {amount} neki {number}",
-
-            "NO_REFUNDS": "A kifizetések nem visszavonhatóak, ellenőrizd a számot kétszer.",
+            "DONE_SUBTITLE": "{amount} elküldve {number} részére",
+            "NO_REFUNDS": "A fizetések nem visszatéríthetők, ellenőrizd a számot.",
             "NEW_BALANCE": "Új egyenleg",
-            "LATEST_TRANSACTIONS": "Tranzakció előzmények",
-
+            "HOME": "Főoldal",
+            "LATEST_TRANSACTIONS": "Legutóbbi tranzakciók",
+            "TRANSACTIONS": "Tranzakciók",
+            "ALL_TRANSACTIONS": "Összes tranzakció",
+            "LATEST_BILLS": "Legutóbbi számlák",
             "NOW": "Most",
-            "AGO": "ideje"
+            "AGO": "ezelőtt",
+            "SELECT_CONTACT": "Válassz névjegyet",
+            "TODAY": "Ma",
+            "YESTERDAY": "Tegnap",
+
+            "INSUFFICIENT_FUNDS": {
+                "TITLE": "Nincs elég pénzed",
+                "DESCRIPTION": "Nincs elég pénzed ekkora összeg küldéséhez"
+            },
+            "NUMBER_DOES_NOT_EXIST": {
+                "TITLE": "Nem sikerült végrehajtani",
+                "DESCRIPTION": "A megadott szám nem létezik, vagy a játékos nincs online"
+            },
+            "AIRPLANE_MODE": {
+                "TITLE": "Hiba",
+                "DESCRIPTION": "Olyan műveletet próbálsz végrehajtani, amihez internet kell. Kapcsold ki a repülő módot vagy szerezz hálózatot."
+            },
+            "INVALID_AMOUNT": {
+                "TITLE": "Érvénytelen összeg",
+                "DESCRIPTION": "Érvénytelen összeget adtál meg"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Sikertelen küldés",
+                "DESCRIPTION": "Nem sikerült pénzt küldeni (nincs telefon felszerelve)"
+            },
+            "EXCEED_DAILY": {
+                "TITLE": "Napi limit túllépve",
+                "DESCRIPTION": "Túllépted a napi limitet"
+            },
+            "EXCEED_WEEKLY": {
+                "TITLE": "Heti limit túllépve",
+                "DESCRIPTION": "Túllépted a heti limitet"
+            },
+            "FAILED_ADD": {
+                "TITLE": "Sikertelen feltöltés",
+                "DESCRIPTION": "Nem sikerült pénzt hozzáadni a megadott fiókhoz"
+            },
+
+            "OK": "OK"
         },
         "GARAGE": {
             "TITLTE": "Garázs",
-
-            "ACTIONS": "Lehetőségek",
-            "MY_CARS": "Járműveim",
+            "ACTIONS": "Műveletek",
+            "MY_CARS": "Autóim",
             "OUT": "Kint",
             "GARAGE": "Garázs",
-            "LOCATION": "Elhelyezkedése",
-            "SUMMON": "Megidézés",
+            "IMPOUNDED": "Elkobozva",
+            "IMPOUND_INFO": "Elkobzási információ",
+            "LOCATION": "Helyszín",
+            "SUMMON": "Előhívás",
             "VALET": "Valet",
-            "STATISTICS": "Statisztikák",
+            "STATISTICS": "Statisztika",
             "FUEL": "Üzemanyag",
             "ENGINE": "Motor",
             "BODY": "Karosszéria",
+            "VEHICLE": "Jármű",
+            "STATUS": "Állapot",
+            "LOCKED": "Zárva",
+            "LOCK": "Zár",
+            "UNLOCKED": "Nyitva",
+            "UNLOCK": "Nyitás",
 
             "WAYPOINT_POPUP": {
-                "TITLE": "Jelöléss térképen",
-                "TEXT": "Szeretnél egy jelölést a térképen ehhez {model}?",
-                "CANCEL": "Mégsem",
-                "PROCEED": "Mehet"
+                "TITLE": "Útvonal beállítása",
+                "TEXT": "Be akarod állítani az útvonalat a(z) {model} járműhöz?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
             },
             "VALET_POPUP": {
                 "TITLE": "Valet",
-                "TEXT": "Do you want to valet your {model} ({plate})?",
-                "TEXT_PAID": "Do you want to valet your {model} ({plate}) for {amount}?",
-                "CANCEL": "Cancel",
-                "PROCEED": "Proceed"
+                "TEXT": "Valet szolgáltatást szeretnél a(z) {model} ({plate}) járműre?",
+                "TEXT_PAID": "Valet szolgáltatást szeretnél a(z) {model} ({plate}) járműre {amount} összegért?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} jármű",
+                "TEXT": "Biztosan szeretnéd {toggle} a járművet?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "IMPOUND_REASON": {
+                "REASON": "Ok",
+                "RETRIEVABLE": "Visszaszerezhető",
+                "IMPOUNDER": "Elkobozta",
+                "PRICE": "Költség"
             }
         },
         "HOME": {
             "TITLE": "Otthon",
             "MY_HOMES": "Otthonaim",
-            "MY_HOME": "Otthonom",
+            "MY_HOME": "Saját Otthon",
             "KEY_ACCESS": "Kulcs hozzáférés",
-            "ACTIONS": "Lehetőségek",
+            "ACTIONS": "Műveletek",
             "FRONT_DOOR": "Bejárati ajtó",
-            "LOCATION": "Terület",
-            "SET_WAYPOINT": "Jelölés a térképen",
-            "UNLOCK": "Kinyitás",
-            "UNLOCKED": "Kinyitva",
-            "LOCK": "Bezárás",
-            "LOCKED": "Bezárva",
-            "GIVE_KEY": "Kulcs adása",
+            "LOCATION": "Helyszín",
+            "SET_WAYPOINT": "Útvonal beállítása",
+            "UNLOCK": "Nyitás",
+            "UNLOCKED": "Nyitva",
+            "LOCK": "Zár",
+            "LOCKED": "Zárva",
+            "GIVE_KEY": "Kulcs átadása",
             "MANAGE": "Kezelés",
-
             "WAYPOINT_POPUP": {
-                "TITLE": "Célpont beállítása",
-                "TEXT": "Biztosan szeretnéd a célállomásodat erre állítani {home}?",
-                "CANCEL": "Mégsem",
-                "PROCEED": "Induljunk"
+                "TITLE": "Útvonal beállítása",
+                "TEXT": "Szeretnéd beállítani az útvonalat ide: {home}?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
             },
             "LOCK_POPUP": {
                 "TITLE": "{toggle} Otthon",
-                "TEXT": "Biztosan szeretnéd {toggle} az otthonod?",
-                "CANCEL": "Mégsem",
-                "PROCEED": "Mehet"
+                "TEXT": "Biztosan szeretnéd {toggle} az otthonodat?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
             },
             "GIVE_KEY_POPUP": {
-                "TITLE": "Kulcs adása",
-                "TEXT": "Írd be a játékos számát akinek a kulcsot szeretnéd adni",
-                "CANCEL": "Mégsem",
-                "PROCEED": "Mehet"
+                "TITLE": "Kulcs átadása",
+                "TEXT": "Add meg annak az ID-jét, akinek át szeretnéd adni a kulcsot",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
             },
-
             "REMOVE_KEY_POPUP": {
-                "TITLE": "Kulcstartó eltávolítása",
-                "TEXT": "Biztosan elveszed a hozzáférést ettől a háztól {name}?",
-                "CANCEL": "Mégsem",
-                "PROCEED": "Mehet"
+                "TITLE": "Kulcstulajdonos eltávolítása",
+                "TEXT": "Biztosan el akarod venni a hozzáférést {name}-tól?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
             }
         },
         "MARKETPLACE": {
-            "CANCEL": "Mégsem",
-            "SEARCH": "Keressen listákat vagy számokat",
-            "NEW_POST": "Új poszt",
+            "MARKETPLACE": "Piac",
             "TITLE": "Cím",
-            "DESCRIPTION": "Leíráss",
-            "PRICE": "ÁR",
-            "POST": "Poszt",
-            "CONTACT": "Kontakt",
+            "SEARCH": "Keresés hirdetések vagy számok között",
+            "HOME": "Otthon",
+            "YOUR_POSTS": "Saját Hirdetések",
+            "PRICE": "Ár",
+            "DESCRIPTION": "Leírás",
+            "IMAGES": "Képek",
+            "POST": "Hirdetés feladása",
+            "AMOUNT_OF_TOTAL": "{amount} / {total}",
+            "MESSAGE": "Üzenet",
+            "CALL": "Hívás",
             "REMOVE": "Eltávolítás",
 
+            "ERROR_POPUP": {
+                "TITLE": "Hiba",
+                "NO_TITLE": "Meg kell adnod egy címet",
+                "NO_DESCRIPTION": "Meg kell adnod egy leírást",
+                "NO_PRICE": "Meg kell adnod egy árat",
+                "NO_ATTACHMENTS": "Csatolj legalább egy képet",
+                "OK": "OK"
+            },
             "DELETE_POPUP": {
-                "TITLE": "Eltávolítás a listából",
-                "TEXT": "Biztossan törlöd a listátból?",
-                "CANCEL": "Mégsem",
-                "PROCEED": "TÖRLÉS"
+                "TITLE": "Hirdetés törlése",
+                "TEXT": "Biztosan törölni szeretnéd ezt a hirdetést?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Törlés"
             }
         },
         "YELLOWPAGES": {
-            "SEARCH": "Keress posztokat vagy számokat",
-            "FROM": "Tőle",
-            "CANCEL": "Mégsem",
-            "NEW_POST": "Úk poszt",
-
+            "PAGES": "Oldalak",
+            "SEARCH": "Keresés bejegyzések vagy számok között",
+            "FROM": "Feladó",
+            "CANCEL": "Mégse",
+            "NEW_POST": "Új bejegyzés",
             "TITLE": "Cím",
             "DESCRIPTION": "Leírás",
-            "PRICE": "ÁR",
-            "POST": "Poszt",
+            "PRICE": "Ár",
+            "POST": "Feladás",
             "CALL": "Hívás",
-
+            "ERROR_POPUP": {
+                "TITLE": "Hiba",
+                "NO_TITLE": "Meg kell adnod egy címet",
+                "NO_DESCRIPTION": "Meg kell adnod egy leírást",
+                "OK": "OK"
+            },
             "DELETE_POPUP": {
-                "TITLE": "Poszt törlése",
-                "TEXT": "Biztosan törlöd ezt a posztot?",
-                "CANCEL": "Mégsem",
+                "TITLE": "Bejegyzés törlése",
+                "TEXT": "Biztosan törölni szeretnéd ezt a bejegyzést?",
+                "CANCEL": "Mégse",
                 "PROCEED": "Törlés"
             }
+        },
+        "MAIL": {
+            "TITLE": "Levelezés",
+            "YOU": "Te",
+            "UPDATED_NOW": "Éppen frissítve",
+            "NEW_MESSAGE": "Új üzenet",
+            "INBOX": "Beérkező",
+            "TO": "Címzett",
+            "FROM": "Feladó",
+            "SUBJECT": "Tárgy",
+            "MESSAGE": "Üzenet",
+            "CANCEL": "Mégse",
+            "SEND": "Küldés",
+            "EMAIL": "Email",
+            "EMAIL_INVALID": "Érvénytelen email cím",
+            "EMAIL_EXISTS": "Az email már létezik",
+            "PASSWORD": "Jelszó",
+            "WRONG_PASSWORD": "Hibás jelszó",
+            "LOGIN": "Bejelentkezés",
+            "NO_EMAIL": "Nincs email címed?",
+            "CREATE_ONE": "Hozz létre egyet",
+            "UNREAD": "Olvasatlan",
+            "CREATE_MAIL": "Email létrehozása",
+            "ALREADY_HAVE": "Már van email címed?",
+            "ADD_EMAIL": "Email hozzáadása",
+            "RE": "Re: {subject}",
+            "CHANGE_ACCOUNT": "Fiók váltás",
+            "CHANGE_PASSWORD": "Jelszó módosítása",
+            "DELETE_ACCOUNT": "Fiók törlése",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Kijelentkezés",
+                "DESCRIPTION": "Biztosan ki akarsz jelentkezni?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "DELETE_MAIL_POPUP": {
+                "TITLE": "Email törlése",
+                "DESCRIPTION": "Biztosan törölni szeretnéd ezt az emailt?",
+                "CANCEL": "Mégse",
+                "DELETE": "Törlés"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Küldés sikertelen",
+                "DESCRIPTION": "Nem sikerült az email küldése (létezik a címzett?)",
+                "OK": "OK"
+            }
+        },
+        "MAPS": {
+            "TITLE": "Térképek",
+            "GO": "Menj",
+            "ADD": "Hozzáadás",
+            "EDIT": "Szerkesztés",
+            "DELETE": "Törlés",
+            "SET_WAYPOINT": "Útvonal beállítása",
+            "SHARE": "Megosztás",
+
+            "ADD_LOCATION_POPUP": {
+                "TITLE": "Hely hozzáadása",
+                "DESCRIPTION": "Add meg a hozzáadni kívánt hely nevét",
+                "PLACEHOLDER": "Név",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "CHANGE_NAME_POPUP": {
+                "TITLE": "Név módosítása",
+                "DESCRIPTION": "Add meg a hely új nevét",
+                "PLACEHOLDER": "Név",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            }
+        },
+        "MUSIC": {
+            "TITLE": "Zene",
+            "HOME": "Kezdőlap",
+            "RECENTLY_ADDED": "Frissen hozzáadott",
+            "CATEGORIES": "Kategóriák",
+            "PLAYLISTS": "Lejátszási listák",
+            "LIBRARY": "Könyvtár",
+            "SEARCH": "Keresés",
+            "ADD_QUEUE": "Hozzáadás a sorhoz",
+            "ADD_PLAYLIST": "Hozzáadás a lejátszási listához",
+            "REMOVE_SONG": "Dal eltávolítása",
+            "NOT_PLAYING": "Nem játszik",
+            "EDIT_PLAYLIST": "Lejátszási lista szerkesztése",
+            "DELETE_PLAYLIST": "Lejátszási lista törlése",
+            "SEARCH_PLACEHOLDER": "Előadók, dalok, albumok, lejátszási listák",
+            "SONGS": "Dalok",
+            "ALBUMS": "Albumok",
+            "ARTISTS": "Előadók",
+            "PLAY": "Lejátszás",
+            "SHUFFLE": "Véletlenszerű",
+            "ARTIST": "Előadó",
+            "ALBUM": "Album",
+            "PLAYLIST": "Lejátszási lista",
+            "SONG": "Dal",
+            "SONG_EXISTS_POPUP": {
+                "TITLE": "A dal már létezik",
+                "DESCRIPTION": "Ez a dal már szerepel a lejátszási listában",
+                "CANCEL": "Mégse"
+            },
+            "NEW_PLAYLIST_POPUP": {
+                "TITLE": "Új lejátszási lista",
+                "DESCRIPTION": "Hozz létre egy új lejátszási listát",
+                "PLACEHOLDER": "Lejátszási lista neve",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "REMOVE_SONG_POPUP": {
+                "TITLE": "Dal eltávolítása",
+                "DESCRIPTION": "Biztosan el akarod távolítani ezt a dalt a lejátszási listából?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            }
+        },
+        "TINDER": {
+            "TITLE": "Spark",
+            "LIKES_YOU_TOO": "is kedvel téged!",
+            "KEEP_SWIPING": "Lapozz tovább",
+            "SAY_SOMETHING_NICE": "Mondj valami kedveset",
+            "TYPE_A_MESSAGE": "Írj üzenetet...",
+            "NO_MORE": "Elfogytak az emberek, akiken lapozhatsz, nézz vissza később!",
+            "SEND": "Küldés",
+            "AGREE_TERMS": "A 'Fiók létrehozása' gomb megnyomásával elfogadod a Szolgáltatási feltételeket és az Adatvédelmi szabályzatot",
+            "CREATE_ACCOUNT": "Fiók létrehozása",
+            "AGE_PUBLIC": "Az életkorod nyilvános lesz",
+            "BE_OVER_18": "Több mint 18 évesnek kell lenned a szolgáltatás használatához",
+            "NAME_MINIMUM": "A nevednek legalább 3 karakter hosszúnak kell lennie",
+            "ADD_PHOTOS": "Fotók hozzáadása",
+            "PHOTOS_MINIMUM": "Legalább egy fotót kell hozzáadnod",
+            "DESCRIPTION": "Mesélj kicsit magadról",
+            "DESCRIPTION_MINIMUM": "A leírásodnak legalább 10 karakter hosszúnak kell lennie",
+            "SHOW_ME": "Mutass nekem",
+            "WOMEN": "Nők",
+            "MEN": "Férfiak",
+            "EVERYONE": "Mindenki",
+            "EVERYTHING": "Minden",
+            "I_AM": "Én egy",
+            "MALE": "Férfi",
+            "FEMALE": "Nő",
+            "CONTINUE": "Folytatás",
+            "NAME": "Név",
+            "PHOTOS": "Fotók",
+            "ABOUT_ME": "Rólam",
+            "INTERESTED_IN": "Érdeklődési kör",
+            "GENDER": "Nem",
+            "SAVE": "Mentés",
+            "NEW_MATCHES": "Új párosítások",
+            "MESSAGES": "Üzenetek",
+            "VISIBILITY": "Profil láthatósága",
+            "VISIBLE": "Látható",
+            "HIDDEN": "Rejtett",
+            "HIDDEN_WARNING": "A profilod jelenleg rejtett. Nem leszel látható más felhasználóknak, és nem tudsz lapozni.",
+            "HIDDEN_PROFILE": "A profilod nem aktív. A profilod aktiválható a beállításokban.",
+            "SEARCH_MATCHES": "Párosítások keresése",
+            "DELETE_ACCOUNT": "Fiók törlése",
+            "ERROR": {
+                "TITLE": "Hiba",
+                "SHORT_NAME": "Hiba a Spark profil mentésénél, (a névnek legalább 2 karakter hosszúnak kell lennie)",
+                "SHORT_BIO": "Hiba a Spark profil mentésénél, (a bemutatkozásnak legalább 5 karakter hosszúnak kell lennie)",
+                "NO_PHOTOS": "Hiba a Spark profil mentésénél, (nincsenek fotók)",
+                "OK": "OK"
+            }
+        },
+        "INSTAGRAM": {
+            "TITLE": "InstaPic",
+            "SEND": "Küldés",
+            "POST": "Poszt",
+            "MESSAGE_PLACEHOLDER": "Üzenet...",
+            "NEW_MESSAGE": "Új üzenet",
+            "NOW": "Most",
+            "GO_LIVE_POPUP": {
+                "TITLE": "Élő közvetítés",
+                "DESCRIPTION": "Biztosan el akarod indítani az élő közvetítést?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "END_LIVE_POPUP": {
+                "TITLE": "Élő befejezése",
+                "DESCRIPTION": "Biztosan szeretnéd {action} ezt az élőt?",
+                "CANCEL": "Mégse",
+                "END": "Befejezés",
+                "LEAVE": "Elhagyás"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Követés megszüntetése",
+                "DESCRIPTION": "Biztosan szeretnéd nem követni {name}-t?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "DELETE_POST_POPUP": {
+                "TITLE": "Poszt törlése",
+                "DESCRIPTION": "Biztosan törölni szeretnéd ezt a posztot?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Kijelentkezés",
+                "DESCRIPTION": "Biztosan ki akarsz jelentkezni?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "DELETE_STORY": {
+                "TITLE": "Történet törlése",
+                "DESCRIPTION": "Biztosan törölni szeretnéd ezt a történetet?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "INVITE_LIVE_POPUP": {
+                "TITLE": "Élő meghívó",
+                "DESCRIPTION": "{username} meghívott az élő közvetítésére. Szeretnél csatlakozni?",
+                "NO": "Nem",
+                "YES": "Igen"
+            },
+            "REMOVE_LIVE_POPUP": {
+                "TITLE": "{username} eltávolítása",
+                "DESCRIPTION": "Biztosan szeretnéd eltávolítani {username}-t az élő közvetítésből?",
+                "CANCEL": "Mégse",
+                "REMOVE": "Eltávolítás"
+            },
+            "LEAVE_LIVE_POPUP": {
+                "TITLE": "Élő elhagyása",
+                "DESCRIPTION": "Biztosan el akarod hagyni ezt az élőt?",
+                "LEAVE": "Elhagyás"
+            },
+            "LIVE_ENDED": "Élő véget ért",
+            "COMMENT_PLACEHOLDER": "Hozzászólás",
+            "LIVE": "Élő",
+            "YOUR_STORY": "Saját történet",
+            "CREATE_STORY": "Történet készítése",
+            "GO_LIVE": "Élő közvetítés indítása",
+            "EMPTY_FEED": "Kezdj el követni embereket, hogy itt lásd a fotóikat és videóikat",
+            "COMMENTS": "Hozzászólások",
+            "ADD_COMMENT_AS": "Hozzászólás hozzáadása mint {name}",
+            "NEW_POST": "Új poszt",
+            "NEXT": "Következő",
+            "CAPTION_PLACEHOLDER": "Írj feliratot...",
+            "ACTIVITY": "Tevékenység",
+            "FOLLOW": "Követés",
+            "FOLLOWING": "Követve",
+            "FOLLOWERS": "Követők",
+            "FOLLOWER": "Követő",
+            "REQUESTED": "Kérést küldve",
+            "LIKES": "Kedvelések",
+            "LIKED_BY": "Kedvelte",
+            "VIEW_ALL_COMMENTS": "Összes {count} hozzászólás megtekintése",
+            "FIRST_COMMENT": "Legyél az első, aki hozzászól...",
+            "LOG_IN": "Bejelentkezés",
+            "CREATE_ACCOUNT": "Fiók létrehozása",
+            "USERNAME_PLACEHOLDER": "Felhasználónév",
+            "NAME_PLACEHOLDER": "Név",
+            "PASSWORD_PLACEHOLDER": "Jelszó",
+            "NOT_HAVE_ACCOUNT": "Nincs fiókod?",
+            "HAVE_ACCOUNT": "Már van fiókod?",
+            "LIKED_PHOTO": "kedvelte a fotódat.",
+            "LIKED_COMMENT": "kedvelte a hozzászólásod: {comment}",
+            "COMMENTED": "hozzászólt a posztodhoz: {comment}",
+            "FOLLOWED": "követni kezdett.",
+            "DONE": "Kész",
+            "EDIT_PROFILE": "Profil szerkesztése",
+            "CHANGE_PICTURE": "Profilkép módosítása",
+            "NAME": "Név",
+            "BIO": "Bemutatkozás",
+            "PRIVATE": "Privát mód be/ki",
+            "SIGN_OUT": "Kijelentkezés",
+            "CHANGE_PASSWORD": "Jelszó módosítása",
+            "DELETE_ACCOUNT": "Fiók törlése",
+            "POSTS": "Posztok",
+            "MESSAGE": "Üzenet",
+            "SENT_A_PHOTO": "fotót küldött",
+            "TO": "Címzett",
+            "SEND_A_MESSAGE": "Üzenet küldése...",
+            "STORY_VIEWERS": "Megtekintők",
+            "PARTICIPANTS": "Résztvevők",
+            "SEEN_BY": "{count} megtekintette",
+            "ADD_ACCOUNT": "Fiók hozzáadása",
+            "INVITE": "Meghívás",
+            "INVITED": "Meghívva",
+            "REMOVE": "Eltávolítás",
+            "IN_THIS_ROOM": "Ebben a szobában",
+            "WHOS_WATCHING": "Ki nézi",
+            "FOLLOW_REQUESTS": "Követési kérések",
+            "CONFIRM": "Megerősítés",
+            "DELETE": "Törlés",
+            "ANDOTHERS": "{username} + {amount} más",
+            "PRIVATE_ACCOUNT": "Ez a fiók privát",
+            "PRIVATE_ACCOUNT_DESCRIPTION": "Kövess ezt a fiókot, hogy lásd a fotóit és videóit.",
+            "ERROR": "Hiba",
+            "USERNAME_TAKEN": "A felhasználónév már foglalt",
+            "UNKNOWN": "Ismeretlen hiba",
+            "UNKNOWN_ACCOUNT": "A fiók nem létezik",
+            "INVALID_USERNAME": "Érvénytelen felhasználónév",
+            "INCORRECT_PASSWORD": "Hibás jelszó",
+            "USERNAME_NOT_ALLOWED": "Felhasználónév nem engedélyezett",
+            "OK": "OK",
+            "LOCATION": "Helyszín",
+            "CHOOSE_LOCATION": {
+                "TITLE": "Helyszín kiválasztása",
+                "DESCRIPTION": "Válassz helyszínt ehhez a poszthoz",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "REPLIED_TO_YOUR_STORY": "Válaszolt a történetedre",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "Válaszolt a történetedre: {content}",
+
+            "SHARE_TO_STORY": {
+                "TITLE": "Megosztás a történetben",
+                "SUCCESS": "Poszt megosztva",
+                "DESCRIPTION": "A posztod meg lett osztva a történetedben"
+            },
+            "VIEW_POST": "Poszt megtekintése"
+        },
+        "TWITTER": {
+            "TITLE": "Birdy",
+            "SEARCH_FOR": "Keresés '{search}' után",
+            "START_SEARCHING": "Kezdj el keresni a Birdy felfedezéséhez",
+            "TRENDING_HASHTAGS": "Trendelő hashtagek",
+            "SENT_ATTACHMENT": "csatolmányt küldött",
+            "TO": "Címzett",
+            "TWEETS": "Posztok",
+            "REPLIES": "Válaszok",
+            "MEDIA": "Média",
+            "LIKES": "Kedvelések",
+            "CANCEL": "Mégse",
+            "TWEET": "Poszt",
+            "TWEET_REPLY": "Poszt válasza",
+            "TWEET_GENERAL": "Mi történik?",
+            "EDIT_PROFILE": "Profil szerkesztése",
+            "SAVE": "Mentés",
+            "NAME": "Név",
+            "JOIN_DATE": "Csatlakozás dátuma",
+            "PROTECTED_POSTS": "Védd a posztjaidat",
+            "BIO": "Bemutatkozás",
+            "SIGN_OUT": "Kijelentkezés",
+            "CHANGE_PASSWORD": "Jelszó módosítása",
+            "DELETE_ACCOUNT": "Fiók törlése",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Kijelentkezés",
+                "DESCRIPTION": "Biztosan ki akarsz jelentkezni?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Követés megszüntetése",
+                "DESCRIPTION": "Biztosan szeretnéd nem követni {name}-t?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "RETWEET_POPUP": {
+                "RETWEET": "Újraküldés",
+                "UNDO_RETWEET": "Újraküldés visszavonása",
+                "DESCRIPTION": "Biztosan szeretnéd {action}?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "Poszt törlése",
+                "DESCRIPTION": "Biztosan törölni szeretnéd ezt a posztot?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "NOTIFICATIONS_POPUP": {
+                "TITLE": "Értesítések",
+                "DESCRIPTION": "Biztosan szeretnéd {action} az értesítéseket @{name}-on?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás",
+                "ENABLE": "Engedélyezés",
+                "DISABLE": "Letiltás"
+            },
+            "PROMOTE_POPUP": {
+                "TITLE": "Poszt promóciója",
+                "DESCRIPTION": "Szeretnéd ezt a posztot {price} értékben {views} megtekintésre promotálni?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "YOU": "Te",
+            "FOLLOW": "Követés",
+            "PENDING": "Függőben",
+            "FOLLOWING": "Követve",
+            "FOLLOWERS": "Követők",
+            "RETWEETED": "Újraküldve",
+            "REPLYING_TO": "Válasz {name}-nek",
+            "RETWEETED_BY": "Újraküldte",
+            "LIKED_BY": "Kedvelte",
+            "ALL": "Mind",
+            "NOTIFICATIONS": "Értesítések",
+            "FOLLOWS_YOU": "Követ téged",
+            "JOINED": "Csatlakozott: {date}",
+            "PINNED_POST": "Kitűzött poszt",
+            "LIKED_TWEET": "kedvelte a posztodat",
+            "RETWEETED_TWEET": "újraküldte a posztodat",
+            "FOLLOWED": "követni kezdett",
+            "SIGN_UP_TEXT": "Lásd, mi történik a világban most",
+            "TERMS_OF_SERVICE": "A regisztrációval elfogadod a Szolgáltatási feltételeket és az Adatvédelmi szabályzatot.",
+            "HAS_ACCOUNT": "Már van fiókod?",
+            "CREATE_YOUR_ACCOUNT": "Hozd létre a fiókod",
+            "NAME_PLACEHOLDER": "Név",
+            "USERNAME_PLACEHOLDER": "Felhasználónév",
+            "PASSWORD_PLACEHOLDER": "Jelszó",
+            "GET_STARTED": "Kezdéshez először add meg @felhasználóneved",
+            "FORGOT_PASSWORD": "Elfelejtett jelszó?",
+            "ENTER_PASSWORD": "Add meg a jelszavad",
+            "SEARCH_DIRECT_MESSAGES": "Keresés privát üzenetekben",
+            "SEARCH_TWITTER": "Keresés Birdy-n",
+            "MESSAGE_PLACEHOLDER": "Üzenet...",
+            "NOW": "Most",
+            "LOGIN": "Bejelentkezés",
+            "NEXT": "Következő",
+            "CREATE_ACCOUNT": "Fiók létrehozása",
+            "PROMOTE": "Promótálás",
+            "PIN": "Poszt kitűzése",
+            "UNPIN": "Poszt kitűzés visszavonása",
+            "NEW_MESSAGE": "Új üzenet",
+            "PROMOTED": "Promotálva",
+            "ADD_ACCOUNT": "Fiók hozzáadása",
+            "FOLLOWER_REQUESTS": "Követési kérelmek",
+            "NEW_POSTS": "Új posztok",
+            "NEW_POST": "Új poszt",
+            "PROTECTED_TWEETS_TITLE": "Ezek a posztok védettek.",
+            "PROTECTED_TWEETS_DESCRIPTION": "Csak a megerősített követők férhetnek hozzá @{username} posztjaihoz és teljes profiljához. Érintsd a 'Követés' gombot a követési kérelem elküldéséhez.",
+            "INVALID_ACCOUNT": "Érvénytelen fiók",
+            "INVALID_PASSWORD": "Érvénytelen jelszó",
+            "USERNAME_TAKEN": "A felhasználónév már foglalt",
+            "USERNAME_NOT_ALLOWED": "Felhasználónév nem engedélyezett"
+        },
+        "SERVICES": {
+            "ACTIONS": "Műveletek",
+            "COMPANIES": "Vállalatok",
+            "MESSAGES": "Üzenetek",
+            "SETTINGS": "Beállítások",
+
+            "CLOSED": "Zárva",
+            "YOUR_MESSAGES": "Üzeneteid",
+            "JOB_MESSAGES": "Munkaüzenetek",
+
+            "DUTY": "Szolgálat",
+            "DUTY_DESCRIPTION": "Kapcsold a szolgálati státuszod",
+            "GO_ON_DUTY": "Szolgálatba lépés",
+            "GO_OFF_DUTY": "Szolgálat befejezése",
+            "JOB_CALLS": "Munka hívások",
+            "JOB_CALLS_DESCRIPTION": "{toggle} ügyfélhívások fogadása.",
+
+            "ENABLE": "Engedélyezés",
+            "DISABLE": "Letiltás",
+
+            "DISABLE_CALLS": "Hívások letiltása",
+            "ENABLE_CALLS": "Hívások engedélyezése",
+            "BALANCE": "Egyenleg",
+            "MANAGE_EMPLOYEES": "Alkalmazottak kezelése",
+            "HIRE": "Felvétel",
+            "SET_GRADE": "Fokozat beállítása",
+            "UNEMPLOYED": "Jelenleg munkanélküli vagy",
+
+            "ALL": "Mind",
+            "AVAILABLE": "Elérhető",
+            "SEARCH_EMPLOYEES": "Alkalmazottak keresése",
+
+            "PERSONAL": "Személyes",
+            "JOB": "Munka",
+
+            "DEPOSIT_POPUP": {
+                "TITLE": "Befizetés",
+                "DESCRIPTION": "Pénz befizetése a vállalati számlára",
+                "AMOUNT": "Összeg",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "WITHDRAW_POPUP": {
+                "TITLE": "Kifizetés",
+                "DESCRIPTION": "Pénz kifizetése a vállalati számláról",
+                "NOT_ENOUGH_MONEY": "Nincs elég pénz a vállalati számlán",
+                "AMOUNT": "Összeg",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "HIRE_POPUP": {
+                "TITLE": "Felvétel",
+                "DESCRIPTION": "Új alkalmazott felvétele",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "FIRE_POPUP": {
+                "TITLE": "Elbocsátás",
+                "DESCRIPTION": "Biztosan el akarod bocsátani {name}-t?",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "CALL_POPUP": {
+                "TITLE": "Hívás",
+                "DESCRIPTION": "Biztosan fel akarod hívni {name}-t?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            }
+        },
+        "CRYPTO": {
+            "TITLE": "Kripto",
+            "BALANCE": "Becsült egyenleg",
+            "BUY": "Vásárlás",
+            "SELL": "Eladás",
+            "TRANSFER": "Átutalás",
+            "SELL_ALL": "Összes eladása",
+            "NO_MONEY": "Nincs elég pénzed",
+            "NO_COINS": "Nincs ilyen érméd",
+            "NOT_ENOUGH_COINS": "Nincs elég érméd",
+            "ATLEAST_ONE_COIN": "Legalább egy {currency}-t kell {action} tenned",
+            "INVALID_COIN": "Érvénytelen érme",
+            "TOO_HIGH": "Az összeg túl magas (max {amount})",
+            "NO_NUMBER": "Nem adott meg telefonszámot",
+            "INVALID_NUMBER": "Érvénytelen telefonszám (a felhasználó lehet, hogy nincs online)",
+            "ERROR": "Hiba",
+            "CLOSE": "Bezárás",
+            "BUY_POPUP": {
+                "TITLE": "{coin} vásárlása",
+                "DESCRIPTION": "Add meg, mennyi {coin}-t (USD-ben) szeretnél vásárolni",
+                "PLACEHOLDER": "$1000",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "SELL_POPUP": {
+                "TITLE": "{coin} eladása",
+                "DESCRIPTION": "Add meg, mennyi {coin}-t (USD-ben) szeretnél eladni",
+                "PLACEHOLDER": "$1000"
+            },
+            "SELL_ALL_POPUP": {
+                "TITLE": "Összes {coin} eladása",
+                "DESCRIPTION": "Biztosan el akarod adni az összes {coin}-odat ${amount}-ért?"
+            },
+            "TRANSFER_POPUP": {
+                "TITLE": "{coin} átutalása",
+                "DESCRIPTION": "Add meg, mennyi {coin}-t (USD-ben) szeretnél átutalni (a következő lépésben válaszd ki a kontaktot)",
+                "PLACEHOLDER": "$1000",
+                "NEXT": "Következő"
+            },
+            "SUCCESSFULLY_TRANSFERED_POPUP": {
+                "TITLE": "Sikeres átutalás",
+                "DESCRIPTION": "Sikeresen átutaltál ${amount} {coin}-t {number}-nek",
+                "CLOSE": "Bezárás"
+            }
+        },
+        "TIKTOK": {
+            "TITLE": "Trendy",
+
+            "HOME": "Kezdőlap",
+            "DISCOVER": "Felfedezés",
+            "INBOX": "Beérkezett üzenetek",
+            "PROFILE": "Profil",
+
+            "COMMENTS_TITLE": "{count} hozzászólás",
+            "REPLY": "Válasz",
+            "VIEW_REPLIES": "Válaszok megtekintése",
+            "ADD_COMMENT": "Hozzászólás hozzáadása...",
+            "REPLY_TO": "Válasz {name}-nak",
+            "PIN_COMMENT": "Hozzászólás kitűzése",
+            "UNPIN_COMMENT": "Hozzászólás eltávolítása",
+            "DELETE_COMMENT": "Hozzászólás törlése",
+            "DELETE": "Törlés",
+            "PINNED": "Kitűzve",
+            "PIN_VIDEO": "Videó kitűzése",
+            "UNPIN_VIDEO": "Videó eltávolítása",
+            "PIN": "kitűzés",
+            "UNPIN": "eltávolítás",
+            "MAX_PINNED_TITLE": "Maximum kitűzve",
+            "MAX_PINNED_DESCRIPTION": "Legfeljebb 3 videót lehet kitűzni",
+            "OK": "OK",
+            "CREATOR": "Készítő",
+            "LIKED_BY_CREATOR": "A készítőnek tetszik",
+
+            "PIN_VIDEO_POPUP": {
+                "TITLE": "Videó kitűzése",
+                "DESCRIPTION": "Biztosan szeretnéd {action} ezt a videót?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "DELETE_VIDEO_POPUP": {
+                "TITLE": "Videó törlése",
+                "DESCRIPTION": "Biztosan szeretnéd törölni ezt a videót?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "FAILED_UPLOAD_POPUP": {
+                "TITLE": "TTS feltöltés sikertelen",
+                "DESCRIPTION": "A szerver tulajdonosa nem állította be helyesen a hangfájl feltöltést. Kérjük, vedd fel vele a kapcsolatot a javítás érdekében.",
+                "CANCEL": "Mégse",
+                "PROCEED": "Figyelmen kívül hagyás"
+            },
+
+            "SHARE_TITLE": "Megosztás ide",
+            "SHARE": "Megosztás",
+            "REPORT": "Jelentés",
+            "SAVE_VIDEO": "Videó mentése",
+            "ADD_FAVOURITE": "Hozzáadás a kedvencekhez",
+            "CANCEL": "Mégse",
+            "GO_BACK": "Vissza",
+
+            "FOLLOWING": "Követett",
+            "FOLLOWERS": "Követők",
+            "UNFOLLOW": "Követés megszüntetése",
+            "FOLLOW": "Követés",
+            "FOR_YOU": "Neked",
+            "VIDEOS": "Videók",
+            "LIKES": "Tetszik",
+
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Követés megszüntetése",
+                "DESCRIPTION": "Biztosan szeretnéd követés nélkül hagyni {name}-t?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+
+            "LOGIN_TITLE": "Bejelentkezés a Trendy-be",
+            "LOGIN_SUBTITLE": "Kezeld fiókodat, ellenőrizd az értesítéseket, kommentelj videókat és még sok más.",
+            "SIGNUP_TITLE": "Regisztráció a Trendy-be",
+            "SIGNUP_SUBTITLE": "Hozz létre profilt, kövess másokat, készíts saját videókat és még sok más.",
+            "NAME": "Név",
+            "USERNAME": "Felhasználónév",
+            "PASSWORD": "Jelszó",
+            "BIO": "Bemutatkozás",
+            "SHOW_LIKES": "Tetszések mutatása",
+
+            "LOGIN": "Bejelentkezés",
+            "SIGNUP": "Regisztráció",
+            "NO_ACCOUNT": "Nincs fiókod?",
+            "ALREADY_ACCOUNT": "Már van fiókod?",
+            "SEARCH_PLACEHOLDER": "Felhasználók keresése",
+
+            "STARTED_FOLLOWING": "követni kezdett téged.",
+            "LIKED_VIDEO": "tetszett a videód.",
+            "LIKED_COMMENT": "tetszett a hozzászólásod.",
+            "SAVED_VIDEO": "hozzáadta a videódat a kedvencekhez.",
+            "COMMENTED": "hozzászólt: {comment}",
+            "REPLIED": "válaszolt a hozzászólásodra: {comment}",
+
+            "EDIT_PROFILE": "Profil szerkesztése",
+            "MESSAGE": "Üzenet",
+            "CHANGE_PHOTO": "Fotó módosítása",
+            "LOGOUT": "Kijelentkezés",
+            "CHANGE_PASSWORD": "Jelszó módosítása",
+            "DELETE_ACCOUNT": "Fiók törlése",
+            "ADD_TO_YOUR_PROFILE": "Hozzáadás a profilodhoz",
+            "LIKED_HIDDEN_TITLE": "Ennek a felhasználónak a tetszett videói privátok.",
+            "LIKED_HIDDEN_SUBTITLE": "{name} által kedvelt videók jelenleg el vannak rejtve.",
+
+            "INVALID_ACCOUNT_POPUP": {
+                "TITLE": "Érvénytelen {name}",
+                "DESCRIPTION": "Nem vagy bejelentkezve a megadott {name} fiókkal, kérlek javítsd.",
+                "OK": "OK"
+            },
+            "REMOVE_ACCOUNT_POPUP": {
+                "TITLE": "{name} fiók eltávolítása",
+                "DESCRIPTION": "Biztosan szeretnéd eltávolítani a {name} fiókodat a profilodból?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+
+            "ADD_ACCOUNT_TITLE": "Fiók hozzáadása",
+            "ADD_ACCOUNT": "{name} hozzáadása a profilodhoz",
+            "UPLOAD_VIDEO": "Videó feltöltése",
+            "UPLOAD": "Feltöltés",
+            "PREVIEW": "Előnézet",
+            "CAPTION": "Leírás",
+            "CAPTION_PLACEHOLDER": "Adj hozzá leírást...",
+            "TTS": "Szöveg beszéddé (TTS)",
+            "TTS_PLACEHOLDER": "Adj hozzá szöveget beszédhez...",
+            "MUSIC": "Zene",
+            "SELECT_MUSIC": "Zene kiválasztása",
+            "OPTIONAL": "Opcionális",
+
+            "DIRECT_MESSAGES": "Privát üzenetek",
+            "ALL_ACTIVITY": "Összes tevékenység",
+            "NO_NOTIFICATIONS": "Nincsenek elérhető értesítések",
+            "NO_NOTIFICATIONS_SUBTITLE": "Itt jelennek meg a fiókodra vonatkozó értesítések.",
+            "NO_FOLLOWING_TITLE": "Kezdj el embereket követni, és videóik itt fognak megjelenni.",
+            "NO_MESSAGES_TITLE": "Üzenet küldése barátaidnak",
+            "NO_MESSAGES_SUBTITLE": "Oszd meg a videókat vagy indíts beszélgetést"
+        },
+        "VOICEMEMO": {
+            "TITLE": "Hangjegyzet",
+            "VOICE_RECORDINGS": "Hangfelvételek",
+            "SEARCH_RECORDINGS": "Felvételek keresése",
+            "DEFAULT_NAME": "Új felvétel",
+            "DELETE_POPUP": {
+                "TITLE": "Hangjegyzet törlése",
+                "DESCRIPTION": "Biztosan törölni szeretnéd ezt a hangjegyzetet?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "NO_MICROPHONE_POPUP": {
+                "TITLE": "Nincs mikrofon",
+                "DESCRIPTION": "Nincs hozzáférésünk a mikrofonodhoz, ellenőrizd, hogy csatlakoztatva van, és fogadd el a jobb felső sarokban megjelenő felugró ablakot",
+                "OK": "OK"
+            },
+            "EMPTY_RECORDING_POPUP": {
+                "TITLE": "Üres felvétel",
+                "DESCRIPTION": "Nem tárolhatsz felvételt hang nélkül",
+                "OK": "OK"
+            }
+        },
+        "BROWSER": {
+            "TITLE": "Böngésző",
+            "SEARCH_PLACEHOLDER": "Keress vagy írj be egy linket",
+            "NEW_TAB": "Új lap",
+            "TABS": "Lapok",
+            "TAB": "Lap",
+            "DONE": "Kész",
+            "CLOSE_ALL": "Összes bezárása",
+            "HISTORY": "Élőzmények",
+            "BOOKMARKS": "Könyvjelzők",
+            "BOOKMARK_REMOVE": "Könyvjelző eltávolítása",
+            "NO_BOOKMARKS": "Még nincs könyvjelződ",
+            "NO_HISTORY": "Még nincsenek előzményeid",
+            "FAILED_LOAD_PAGE": "Nem sikerült betölteni az oldalt"
         }
     },
     "COMPONENTS": {
         "CONTEXT_MENU": {
-            "CANCEL": "Mégsem",
+            "CANCEL": "Mégse",
             "CALL": "Hívás",
-            "VIDEO_CALL": "Videó hívás",
+            "VIDEO_CALL": "Videóhívás",
             "MESSAGE": "Üzenet"
         },
         "IMAGE": {
             "SAVE_TO_GALLERY": "Mentés galériába"
         },
         "GALLERY": {
-            "CANCEL": "Mégsem",
-            "EXTERNAL_URL": "Külső URL"
+            "CANCEL": "Mégse",
+            "EXTERNAL_URL": "Külső URL",
+            "EXTERNAL_URL_BLACKLISTED": "Ez az URL tiltólistán van",
+            "NO_IMAGES": "Nincsenek képek"
         },
         "NOTIFICATIONS": {
-            "SENT_PHOTO": "Fényképet küldött",
-            "SENT_GIF": "GIF-et küldött",
+            "SENT_PHOTO": "Küldött egy képet",
+            "SENT_GIF": "Küldött egy GIF-et",
             "NOW": "most"
         },
         "SHARE": {
             "COPY_PHOTO": "Kép másolása",
-            "USE_WALLPAPER": "Beállítás háttérképként",
-            "COPY_NUMBER": "telefonszám másolása",
-
+            "COPY_VIDEO": "Videó másolása",
+            "USE_WALLPAPER": "Háttérképnek beállítás",
+            "COPY_NUMBER": "Szám másolása",
+            "COPY_LINK": "Link másolása",
             "AIRDROP_SENT": "Elküldve",
-
+            "AIRDROP_ACCEPTED": "Elfogadva",
+            "AIRDROP_DECLINED": "Elutasítva",
+            "AIRDROP_NO_USERS": "Nincsenek közeli telefonok",
             "WALLPAPER_POPUP": {
-                "TITLE": "Beállítás háttérképként",
-                "TEXT": "Biztosan beállítod háttérképként?",
-                "CANCEL": "Mégsem",
-                "PROCEED": "Beállítás"
+                "TITLE": "Háttérképnek beállítás",
+                "TEXT": "Biztosan be akarod állítani ezt a képet háttérképként?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
+            "COPY_POPUP": {
+                "TITLE": "Siker",
+                "DESCRIPTION": "Sikeresen másolva a vágólapra",
+                "OK": "OK"
             }
         },
         "AIRDROP": {
-            "TITLE": "Airdrop",
-            "TEXT": "{sender} meg szeretne osztani egy {type}",
+            "TITLE": "AirShare",
+            "TEXT": "{sender} szeretne megosztani egy {type}-t",
             "VIDEO": "videót",
-            "PHOTO": "fényképet",
+            "PHOTO": "képet",
             "CONTACT": "kontaktot",
+            "LOCATION": "helyet",
+            "NOTE": "jegyzetet",
+            "VOICEMEMO": "hangjegyzetet",
+            "PLAYLIST": "lejátszási listát",
+            "ALBUM": "albumot",
             "DECLINE": "Elutasítás",
             "ACCEPT": "Elfogadás"
+        },
+        "DYNAMICISLAND": {
+            "SILENT": "Néma",
+            "RING": "Csengés",
+            "TIMER": "Időzítő"
+        },
+        "MUSIC_SELECTOR": {
+            "CANCEL": "Mégse",
+            "NO-RESULTS": "Nincs konfigurált zene, kérd a szerver tulajdonosát, hogy adjon hozzá dalokat",
+            "SEARCH": "Dal keresése",
+            "SELECT_POPUP": {
+                "TITLE": "Dal kiválasztása",
+                "DESCRIPTION": "Biztosan ki akarod választani a(z) {song} dalt?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            }
+        },
+        "BATTERY": {
+            "LOW_BATTERY": "Alacsony töltöttség",
+            "BATTERY_REMAINING": "{percent}% töltés maradt",
+            "LOW_POWER_MODE": "Energiatakarékos mód",
+            "CLOSE": "Bezárás"
+        },
+        "COLOR_PICKER": {
+            "COLOR": "Szín"
+        },
+        "GIF_SELECTOR": {
+            "SEARCH": "Keresés a Tenor-on",
+            "BACK": "Vissza"
         }
     },
     "SETUP": {
-        "HELLO": "Szia",
+        "HELLO": "Helló",
+        "SELECT_LANGUAGE": "Válaszd ki a nyelved",
         "NEXT": "Kattints a megnyitáshoz",
-
-        "CREATE_PASSCODE": "Készíts egy jelszót",
-        "CREATE_PASSCODE_TEXT": "A jeslzó megvédi az adataidat és atelefonodat.",
-        "SKIP": "Lépés átugrása",
-
-        "FACE_ID_SETUP": "Face ID Beállíása",
-        "FACE_ID_TEXT": "A Face ID autómatikusan feloldja a elefonod ha a kamerába nézel.",
-        "ENABLE_FACE_ID": "Face ID bekapcsolása",
-
-        "APPEARANCE": "Megjelenés",
-        "APPEARANCE_TEXT": "Válassz a világos és sötét megjelenések közül",
-
-        "CONTINUE": "Folyatás",
-        "WELCOME_TO": "Üdbözlünk",
+        "CREATE_PASSCODE": "PIN létrehozása",
+        "CREATE_PASSCODE_TEXT": "A PIN-kód a készüléked biztonságához szükséges, és a feloldáshoz kötelező.",
+        "SKIP": "Kihagyás",
+        "FACE_ID_SETUP": "Arcfelismerés",
+        "FACE_ID_TEXT": "Állítsd be az Arcfelismerést, hogy könnyedén nyithasd a telefont PIN-kód megadása nélkül.",
+        "FACE_ID_TEXT_ALT": "Az Arcfelismerés csak akkor működik, ha az arcod nincs eltakarva.",
+        "ENABLE_FACE_ID": "Arcfelismerés engedélyezése",
+        "APPEARANCE": "Téma",
+        "APPEARANCE_TEXT": "Válassz világos vagy sötét témát a készülékedhez",
+        "CONTINUE": "Folytatás",
+        "WELCOME_TO": "Üdvözöl a",
         "CLICK": "Kattints a kezdéshez"
     },
     "HOMESCREEN": {
         "DONE": "Kész",
-        "REMOVE": "Eltávolítás",
-        "REMOVE_TEXT": "Az alkalmazás törlésekor az adat nem vész el. Az alkalmazás továbbra is elérhető marad az AppStore-ban.",
-        "BUTTON_CANCEL": "Mégsem",
-        "BUTTON_DELETE": "Eltávolítás"
+        "CLOSE_ALL": "Összes bezárása",
+        "REMOVE_APP_POPUP": {
+            "TITLE": "Eltávolítod a(z) '{app}' alkalmazást?",
+            "DESCRIPTION": "Az alkalmazás törlése NEM törli az adatait. Később az App Store-ból újra telepíthető.",
+            "CANCEL": "Mégse",
+            "PROCEED": "Törlés"
+        }
     },
     "LOCKSCREEN": {
-        "ENTER_PASSCODE": "Írd be a jelszót",
-        "DELETE": "Törlés"
+        "ENTER_PASSCODE": "PIN kód megadása",
+        "DELETE": "Törlés",
+        "FONT_AND_COLOR": "Betűtípus & Szín"
+    },
+    "MISC": {
+        "ORDINAL": {
+            "ZERO": ".",
+            "ONE": ".",
+            "TWO": ".",
+            "FEW": ".",
+            "MANY": ".",
+            "OTHER": "."
+        },
+        "AIRPLANE_MODE_POPUP": {
+            "TITLE": "Hiba",
+            "DESCRIPTION": "Olyan műveletet próbálsz végrehajtani, ami internetkapcsolatot igényel. Kapcsold ki a repülőgép módot, vagy biztosíts hálózatot a folytatáshoz.",
+            "OK": "OK"
+        },
+        "TODAY_TIME": "Ma, {hours}:{minutes}",
+        "YESTERDAY_TIME": "Tegnap, {hours}:{minutes}",
+        "CHANGE_PASSWORD": {
+            "TITLE": "Jelszó módosítása",
+            "DESCRIPTION": "Kérlek add meg {type} {app} jelszavad",
+            "ERROR": "A jelszó módosítása sikertelen",
+            "CURRENT": "jelenlegi",
+            "NEW": "új",
+            "PLACEHOLDER_CURRENT": "Jelenlegi jelszó",
+            "PLACEHOLDER_NEW": "Új jelszó",
+            "CANCEL": "Mégse",
+            "NEXT": "Következő",
+            "PROCEED": "Folytatás",
+            "SUCCESS": "A jelszó sikeresen módosítva",
+            "OK": "OK"
+        },
+        "DELETE_ACCOUNT": {
+            "TITLE": "Fiók törlése",
+            "DESCRIPTION": "A(z) {app} fiókod törléséhez add meg az alábbi jelszót. MEGJEGYZÉS: Ez a művelet visszafordíthatatlan.",
+            "ERROR": "A fiók törlése sikertelen",
+            "PLACEHOLDER": "Jelszó",
+            "CANCEL": "Mégse",
+            "PROCEED": "Folytatás",
+            "OK": "OK"
+        }
+    },
+    "BACKEND": {
+        "CALLS": {
+            "NO_CALLER_ID": "Nincs hívóazonosító",
+            "MISSED_CALL": "Nem fogadott hívás",
+            "NEW_VOICEMAIL": "Hangposta"
+        },
+        "GARAGE": {
+            "VALET": "Parkolófiú",
+            "COULDNT_FIND": "Nem található a jármű.",
+            "ALREADY_OUT": "A jármű már kint van.",
+            "NO_MONEY": "Nincs elég pénzed.",
+            "ON_WAY": "A járműved úton van.",
+            "MARKED": "A járműved jelölve lett a GPS-en."
+        },
+        "INSTAGRAM": {
+            "NOT_ALLOWED_LIVE": "Nem engedélyezett az élő videó indítása",
+            "NOT_ALLOWED_STORY": "Nem engedélyezett történet közzététele",
+            "STARTED_LIVE": "{username} élő videót indított",
+            "JOINED_LIVE": "{invitee} most élőzik {inviter}-rel.",
+            "LIKED_PHOTO": "{username} tetszett a képed",
+            "LIKED_COMMENT": "{username} tetszett a hozzászólásod",
+            "COMMENTED": "{username} hozzászólt a bejegyzésedhez",
+            "NEW_FOLLOWER": "{username} követni kezdett téged",
+            "FOLLOW_REQUEST_ACCEPTED_TITLE": "Követési kérés elfogadva",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "{displayName} ({username}) elfogadta a követési kérésed.",
+            "NEW_FOLLOW_REQUEST_TITLE": "Új követési kérés",
+            "NEW_FOLLOW_REQUEST_DESCRIPTION": "{displayName} ({username}) követni szeretne téged."
+        },
+        "TINDER": {
+            "NEW_MATCH": "Új párosítás",
+            "MATCHED_WITH": "Összepárosítottatok {name}-val/-vel"
+        },
+        "CAMERA": {
+            "TAKE_PHOTO": "{key} fényképezés",
+            "FLIP_CAMERA": "{key} kamera váltása",
+            "TOGGLE_FLASH": "{key} vaku be/ki",
+            "TOGGLE_CURSOR": "{key} kurzor be/ki",
+            "CHANGE_MODE": "{key} {key2} módváltás",
+            "ROLL": "{key} {key2} kamera forgatása",
+            "FREEZE": "{key} kamera lefagyasztása/feloldása"
+        },
+        "SERVICES": {
+            "NEW_MESSAGE": "Új üzenet",
+            "ANONYMOUS": "Anonim"
+        },
+        "TWITTER": {
+            "LIKE": "{displayName} tetszett:",
+            "RETWEET": "{displayName} újraközölte:",
+            "REPLY": "{displayName} válaszolt:",
+            "FOLLOW": "{username} követni kezdett téged",
+            "TWEET": "{username} épp posztolt",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "@{username} elfogadta a követési kérésed.",
+            "NEW_FOLLOW_REQUEST": "@{username} követni szeretne téged!"
+        },
+        "TIKTOK": {
+            "LIKE": "{displayName}-nak tetszett a videód.",
+            "COMMENT": "{displayName} hozzászólt a videódhoz.",
+            "FOLLOW": "{displayName} követni kezdett téged.",
+            "SAVE": "{displayName} hozzáadta a videódat a kedvencekhez.",
+            "LIKED_COMMENT": "{displayName}-nak tetszett a hozzászólásod.",
+            "REPLIED_COMMENT": "{displayName} válaszolt a hozzászólásodra.",
+            "DM": "{displayName}"
+        },
+        "MISC": {
+            "VERIFIED": "A fiókod ellenőrizve lett",
+            "X_PHONE": "{name} telefonja",
+            "LOGGED_OUT_PASSWORD": {
+                "TITLE": "Kijelentkeztél",
+                "DESCRIPTION": "Kijelentkeztél a fiókodból, mert a jelszavad megváltozott."
+            },
+            "DELETED_NOTIFICATION": {
+                "TITLE": "Fiók törölve",
+                "DESCRIPTION": "A fiókodat törölték."
+            }
+        },
+        "CRYPTO": {
+            "RECEIVED_TRANSFER_TITLE": "{coin} érkezett",
+            "RECEIVED_TRANSFER_DESCRIPTION": "{amount} {coin}-t kaptál, értéke ${value}"
+        },
+        "MAIL": {
+            "AUTOMATIC_PASSWORD": {
+                "SENDER": "Rendszer",
+                "SUBJECT": "E-mail címed",
+                "MESSAGE": "Szia,\n\nA automatikusan generált e-mail címed: {address}, és a jelszavad: {password}"
+            }
+        },
+        "LOGS": {
+            "MAIL_TITLE": "E-mail",
+            "NEW_MAIL": "{sender} e-mailt küldött {recipient}-nek",
+
+            "MESSAGE_TITLE": "Szöveges üzenet",
+            "NEW_MESSAGE": "{sender} üzenetet küldött {recipient}-nek: {message}",
+
+            "CALL_ENDED": "Hívás véget ért",
+            "CALL_DESCRIPTION": "A `{caller}` és `{callee}` közötti hívás, amely {duration} másodpercig tartott, véget ért. Fogadva: `{answered}`",
+
+            "NEW_SERVICE_TITLE": "Új üzenet",
+            "NEW_SERVICE_CONTENT": "{sender} üzenetet küldött a(z) {channel}-nak: {message}",
+
+            "RECEIVED_TITLE": "Kapott ${amount}",
+            "PAID_TITLE": "Fizetett ${amount}",
+            "TRANSACTION": "{number} tranzakciót hajtott végre ${amount} értékben {company}-nak/-nek",
+
+            "BOUGHT_CRYPTO": "Kripto vásárlás",
+            "SOLD_CRYPTO": "Kripto eladás",
+            "CRYPTO_DETAILS": "**Érme**: {coin}\n**Mennyiség**: {amount}\n**Érték**: ${price}",
+            "TRANSFERRED_CRYPTO": "Kripto átutalás",
+            "TRANSFERRED_CRYPTO_DETAILS": "**Érme**: {coin}\n**Mennyiség**: {amount}\n**Címzett**: {to}\n**Feladó**: {from}",
+
+            "DARKCHAT_CREATED_TITLE": "Csatorna létrehozva",
+            "DARKCHAT_CREATED_DESCRIPTION": "{creator} létrehozott egy csatornát, neve: {channel}",
+            "DARKCHAT_MESSAGE_TITLE": "Új üzenet",
+            "DARKCHAT_MESSAGE_DESCRIPTION": "{sender} üzenetet küldött a(z) {channel}-ban/-ben: {message}",
+
+            "MARKETPLACE_NEW_TITLE": "Új hirdetés",
+            "MARKETPLACE_NEW_DESCRIPTION": "**Eladó**: {seller}\n**Cím**: {title}\n**Ár**: ${price}\n**Leírás**: {description}\n**Mellékletek**: {attachments}\n**ID:** {id}",
+            "MARKETPLACE_DELETED": "Hirdetés törölve",
+
+            "YELLOWPAGES_NEW_TITLE": "Új bejegyzés",
+            "YELLOWPAGES_NEW_DESCRIPTION": "**Cím**: {title}\n**Leírás**: {description}\n**Melléklet**: {attachment}\n**ID:** {id}",
+            "YELLOWPAGES_DELETED": "Bejegyzés törölve",
+
+            "LIVE_TITLE": "Élő",
+            "STARTED_LIVE": "{username} élő videót indított",
+            "ENDED_LIVE": "{username} befejezte az élő videót",
+            "ADDED_STORY": "{username} fényképet adott hozzá a történetéhez",
+
+            "TRENDY_UPLOAD_TITLE": "Új videó",
+            "TRENDY_UPLOAD_DESCRIPTION": "{username} új videót töltött fel a következő leírással: {caption}, azonosító: {id}",
+            "TRENDY_DELETE_TITLE": "Videó törölve",
+            "TRENDY_DELETE_DESCRIPTION": "{username} törölt egy videót az azonosítóval: {id}",
+
+            "UPLOADED_MEDIA": "Média feltöltve",
+            "UPLOADED_MEDIA_DESCRIPTION": "Készített egy {type}-t az azonosítóval {id}\n{link}",
+            "VIDEO": "videó",
+            "PHOTO": "kép",
+
+            "CHANGED_PASSWORD": {
+                "TITLE": "Jelszó módosítva",
+                "DESCRIPTION": "{number} módosította a(z) {username} fiók jelszavát a(z) {app}-on/-en."
+            },
+
+            "DELETED_ACCOUNT": {
+                "TITLE": "Fiók törölve",
+                "DESCRIPTION": "{number} törölte a(z) {username} fiókot a(z) {app}-on/-en."
+            }
+        }
     }
 }
