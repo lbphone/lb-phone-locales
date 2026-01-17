@@ -295,8 +295,6 @@
             "UNKNOWN_ERROR": "Unbekannter Fehler",
             "UNKNOWN_ERROR_TEXT": "Ein unbekannter Fehler ist aufgetreten",
 
-            "NEW_ROOM": "Neuer Raum",
-            "NEW_ROOM_TEXT": "Gib einen Raum-Code ein um einen neuen Raum zu erstellen oder einem bestehenden Raum beizutreten",
             "LEAVE_ROOM": "Raum verlassen",
             "LEAVE_ROOM_TEXT": "Bist du sicher, dass du den Raum verlassen möchtest?",
             "NOW": "Jetzt",
@@ -563,6 +561,11 @@
                 "DESCRIPTION": "Bist du sicher, dass du das Gruppenavatar entfernen möchtest?",
                 "CANCEL": "Abbrechen",
                 "REMOVE": "Entfernen"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Sendefehler",
+                "DESCRIPTION": "Nachricht konnte nicht gesendet werden",
+                "OK": "OK"
             },
             "MARK_AS_READ": "Als gelesen markieren",
             "MESSAGE_DELETED": "Nachricht gelöscht",
@@ -1409,6 +1412,7 @@
             "TOO_HIGH": "Betrag ist zu hoch (max {amount})",
             "NO_NUMBER": "Keine Telefonnummer angegeben",
             "INVALID_NUMBER": "Falsche Telefonnummer (der Nutzer darf nicht online sein)",
+            "CHECK_FAILED": "Prüfungen fehlgeschlagen",
             "ERROR": "Fehler",
             "CLOSE": "Schließen",
             "BUY_POPUP": {
@@ -1596,6 +1600,22 @@
                 "DESCRIPTION": "Du kannst keine Aufnahme ohne Ton speichern",
                 "OK": "OK"
             }
+        },
+        "BROWSER": {
+            "TITLE": "Browser",
+            "SEARCH_PLACEHOLDER": "Suchen oder URL eingeben",
+            "NEW_TAB": "Neuer Tab",
+            "TABS": "Tabs",
+            "TAB": "Tab",
+            "DONE": "Fertig",
+            "CLOSE_ALL": "Alle schließen",
+            "HISTORY": "Verlauf",
+            "BOOKMARKS": "Lesezeichen",
+            "BOOKMARK_REMOVE": "Lesezeichen löschen",
+            "NO_BOOKMARKS": "Noch keine Lesezeichen",
+            "NO_HISTORY": "Noch kein Verlauf",
+            "FAILED_LOAD_PAGE": "Website nicht erreichbar",
+            "FAILED_LOAD_PAGE_DESCRIPTION": "Diese Website erlaubt kein Iframing. Dies ist kein Fehler."
         }
     },
     "COMPONENTS": {

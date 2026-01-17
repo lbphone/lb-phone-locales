@@ -20,7 +20,7 @@
       "AppStore": "AppStore",
       "Clock": "Orologio",
       "Maps": "Mappe",
-      "YellowPages": "PagineGialle",
+      "YellowPages": "Pagine",
       "MarketPlace": "MarketPlace",
       "Wallet": "Wallet",
       "Home": "Home",
@@ -818,7 +818,7 @@
           }
       },
       "YELLOWPAGES": {
-          "PAGES": "PagineGialle",
+          "PAGES": "Pagine",
           "SEARCH": "Cerca post o numero",
           "FROM": "Da",
           "CANCEL": "Annulla",

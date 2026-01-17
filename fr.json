@@ -23,7 +23,7 @@
         "AppStore": "Apps",
         "Clock": "Horloge",
         "Maps": "Cartes",
-        "YellowPages": "Pages Jaunes",
+        "YellowPages": "Pages",
         "MarketPlace": "Marché",
         "Wallet": "Portefeuille",
         "Home": "Maison",
@@ -561,6 +561,11 @@
                 "DESCRIPTION": "Êtes-vous sûr de vouloir supprimer l'avatar du groupe ?",
                 "CANCEL": "Annuler",
                 "REMOVE": "Supprimer"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Envoie échoué",
+                "DESCRIPTION": "L'envoie du message a échoué",
+                "OK": "OK"
             },
             "MARK_AS_READ": "Marquer comme lu",
             "MESSAGE_DELETED": "Message supprimer",
@@ -1407,6 +1412,7 @@
             "TOO_HIGH": "Somme trop grande (max {amount})",
             "NO_NUMBER": "Aucun numéro n'a été entré",
             "INVALID_NUMBER": "Numéro invalide (l'utilisateur peut ne pas être en ligne)",
+            "CHECK_FAILED": "Les contrôles de validation ont échoué.",
             "ERROR": "Erreur",
             "CLOSE": "Fermer",
             "BUY_POPUP": {
@@ -1594,6 +1600,22 @@
                 "DESCRIPTION": "Impossible de stocker un enregistrement sans son.",
                 "OK": "OK"
             }
+        },
+        "BROWSER": {
+            "TITLE": "Navigateur",
+            "SEARCH_PLACEHOLDER": "Saisir une recherche ou un URL",
+            "NEW_TAB": "Nouvel onglet",
+            "TABS": "Onglets",
+            "TAB": "Onglet",
+            "DONE": "Terminé",
+            "CLOSE_ALL": "Tout fermer",
+            "HISTORY": "Historique",
+            "BOOKMARKS": "Favoris",
+            "BOOKMARK_REMOVE": "Retirer des favoris",
+            "NO_BOOKMARKS": "Aucun favoris",
+            "NO_HISTORY": "Aucun historique",
+            "FAILED_LOAD_PAGE": "Ce site n'est pas accessible",
+            "FAILED_LOAD_PAGE_DESCRIPTION": "Ce site Web n'autorise pas l'utilisation d'iframes. Il ne s'agit pas d'un bug."
         }
     },
     "COMPONENTS": {
@@ -1654,7 +1676,7 @@
             "ACCEPT": "Accepter"
         },
         "DYNAMICISLAND": {
-            "SILENT": "Silencieux",
+            "SILENT": "Vibration",
             "RING": "Sonner",
             "TIMER": "Minuterie"
         },
@@ -1821,12 +1843,10 @@
         "MISC": {
             "VERIFIED": "Votre compte a été vérifié",
             "X_PHONE": "Téléphone de {name}",
-
             "LOGGED_OUT_PASSWORD": {
                 "TITLE": "Vous avez été déconnecté",
                 "DESCRIPTION": "Vous avez été déconnecté de votre compte suite à la modification de votre mot de passe."
             },
-
             "DELETED_NOTIFICATION": {
                 "TITLE": "Compte supprimé",
                 "DESCRIPTION": "Votre compte a été supprimé."

@@ -23,7 +23,7 @@
         "AppStore": "Apps",
         "Clock": "Reloj",
         "Maps": "Mapas",
-        "YellowPages": "Páginas Amarillas",
+        "YellowPages": "Páginas",
         "MarketPlace": "Mercado",
         "Wallet": "Billetera",
         "Home": "Propiedad",
@@ -849,7 +849,7 @@
             }
         },
         "YELLOWPAGES": {
-            "PAGES": "Páginas Amarillas",
+            "PAGES": "Páginas",
             "SEARCH": "Buscar publicaciones o números",
             "FROM": "De",
             "CANCEL": "Cancelar",
