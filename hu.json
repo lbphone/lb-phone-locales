@@ -562,6 +562,11 @@
                 "CANCEL": "Mégse",
                 "REMOVE": "Eltávolítás"
             },
+            "FAILED_SEND": {
+                "TITLE": "Üzenet küldése sikertelen",
+                "DESCRIPTION": "Nem sikerült elküldeni az üzenetet",
+                "OK": "OK"
+            },
             "MARK_AS_READ": "Megjelölés olvasottként",
             "MESSAGE_DELETED": "Üzenet törölve",
             "OPEN_IN_MAPS": "Megnyitás térképen",
@@ -1407,6 +1412,7 @@
             "TOO_HIGH": "Az összeg túl magas (max {amount})",
             "NO_NUMBER": "Nem adott meg telefonszámot",
             "INVALID_NUMBER": "Érvénytelen telefonszám (a felhasználó lehet, hogy nincs online)",
+            "CHECK_FAILED": "Az ellenőrzés sikertelen",
             "ERROR": "Hiba",
             "CLOSE": "Bezárás",
             "BUY_POPUP": {
@@ -1608,7 +1614,8 @@
             "BOOKMARK_REMOVE": "Könyvjelző eltávolítása",
             "NO_BOOKMARKS": "Még nincs könyvjelződ",
             "NO_HISTORY": "Még nincsenek előzményeid",
-            "FAILED_LOAD_PAGE": "Nem sikerült betölteni az oldalt"
+            "FAILED_LOAD_PAGE": "A weboldal nem nyitható meg ebben az alkalmazásban",
+            "FAILED_LOAD_PAGE_DESCRIPTION": "Nem sikerült betölteni az oldalt"
         }
     },
     "COMPONENTS": {
