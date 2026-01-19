@@ -562,6 +562,11 @@
                 "CANCEL": "Odustani",
                 "REMOVE": "Makni"
             },
+			"FAILED_SEND": {
+                "TITLE": "Poruka nije poslana",
+                "DESCRIPTION": "Došlo je do greške, poruka nije poslana",
+                "OK": "OK"
+            },
             "MARK_AS_READ": "Označi kao pročitano",
             "MESSAGE_DELETED": "Poruka obrisana",
             "OPEN_IN_MAPS": "Otvori u Mapama",
@@ -1407,6 +1412,7 @@
 			"TOO_HIGH": "Količina je prevelika (max {amount})",
             "NO_NUMBER": "Broj telefona nije upisan",
             "INVALID_NUMBER": "Pogrešan broj telefona (korisnik možda nije aktivan)",
+			"CHECK_FAILED": "Verifikacija neuspješna",
             "ERROR": "Greška",
             "CLOSE": "Zatvori",
             "BUY_POPUP": {
@@ -1607,7 +1613,9 @@
             "BOOKMARKS": "Bookmark",
             "BOOKMARK_REMOVE": "Obriši bookmark",
             "NO_BOOKMARKS": "Nemate sačuvanih bookmark",
-            "NO_HISTORY": "Ne postoji historija"
+            "NO_HISTORY": "Ne postoji historija",
+			"FAILED_LOAD_PAGE": "Nije moguće pristupiti stranici putem ove aplikacije",
+            "FAILED_LOAD_PAGE_DESCRIPTION": "Ova stranica ne dozvoljava iframing. Ovo nije bug."
         }
     },
     "COMPONENTS": {
@@ -1835,12 +1843,10 @@
         "MISC": {
             "VERIFIED": "Vaš nalog je verifikovan",
             "X_PHONE": "Telefon od {name}",
-
             "LOGGED_OUT_PASSWORD": {
                 "TITLE": "Odjavljeni ste",
                 "DESCRIPTION": "Odjavljeni ste, jer je šifra promjenjena."
             },
-
             "DELETED_NOTIFICATION": {
                 "TITLE": "Nalog obrisan",
                 "DESCRIPTION": "Vaš nalog je obrisan."
