@@ -1395,6 +1395,16 @@
                 "DESCRIPTION": "Voulez-vous vraiment appeler {name} ?",
                 "CANCEL": "Annuler",
                 "PROCEED": "Confirmer"
+            },
+            "QUICK_REPLIES": {
+                "REQUEST_LOCATION": {
+                    "TITLE": "Demande d'emplacement",
+                    "MESSAGE": "Pouvez-vous nous envoyer votre positions?"
+                },
+                "OFFICER_EN_ROUTE": {
+                    "TITLE": "Agent en route",
+                    "MESSAGE": "Un agent est en route vers votre position."
+                }
             }
         },
         "CRYPTO": {
@@ -1413,6 +1423,9 @@
             "NO_NUMBER": "Aucun numéro n'a été entré",
             "INVALID_NUMBER": "Numéro invalide (l'utilisateur peut ne pas être en ligne)",
             "CHECK_FAILED": "Les contrôles de validation ont échoué.",
+            "BUY_DISABLED": "L'achat de cette crypto-monnaie a été désactivé.",
+            "SELL_DISABLED": "La vente de cette crypto-monnaie est désactivée.",
+            "TRANSFER_DISABLED": "Le transfert a été désactivé pour cette crypto-monnaie.",
             "ERROR": "Erreur",
             "CLOSE": "Fermer",
             "BUY_POPUP": {
@@ -1441,6 +1454,11 @@
                 "TITLE": "Transfert réussi",
                 "DESCRIPTION": "Vous avez bien transféré ${amount} de {coin} à {number}",
                 "CLOSE": "Fermer"
+            },
+            "REFUND_TRANSACTION": "Remboursement due au retrait des cryptomonnaies.",
+            "CONVERT_NOTIFICATION": {
+                "TITLE": "Cryptomonnaies converties",
+                "DESCRIPTION": "Certaines cryptomonnaies ont été supprimées et converties en {amount} {coinName}."
             }
         },
         "TIKTOK": {

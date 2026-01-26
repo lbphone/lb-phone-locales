@@ -1395,6 +1395,16 @@
                 "DESCRIPTION": "Bist du sicher, dass du {name} anrufen möchtest?",
                 "CANCEL": "Abbrechen",
                 "PROCEED": "Anrufen"
+            },
+            "QUICK_REPLIES": {
+                "REQUEST_LOCATION": {
+                    "TITLE": "Standort anfragen",
+                    "MESSAGE": "Können Sie bitte Ihren Standort teilen?"
+                },
+                "OFFICER_EN_ROUTE": {
+                    "TITLE": "Beamter unterwegs",
+                    "MESSAGE": "Ein Beamter ist auf dem Weg zu Ihnen."
+                }
             }
         },
         "CRYPTO": {
@@ -1413,6 +1423,9 @@
             "NO_NUMBER": "Keine Telefonnummer angegeben",
             "INVALID_NUMBER": "Falsche Telefonnummer (der Nutzer darf nicht online sein)",
             "CHECK_FAILED": "Prüfungen fehlgeschlagen",
+            "BUY_DISABLED": "Der Kauf dieser Kryptowährung wurde deaktiviert",
+            "SELL_DISABLED": "Der Verkauf dieser Kryptowährung wurde deaktiviert.",
+            "TRANSFER_DISABLED": "Die Übertragung wurde für diese Kryptowährung deaktiviert.",
             "ERROR": "Fehler",
             "CLOSE": "Schließen",
             "BUY_POPUP": {
@@ -1441,6 +1454,11 @@
                 "TITLE": "Erfolgreich überwiesen",
                 "DESCRIPTION": "Du hast erfolgreich ${amount} {coin} an {number} überwiesen",
                 "CLOSE": "Schließen"
+            },
+            "REFUND_TRANSACTION": "Rückerstattung aufgrund entferfter Kryptowährungen.",
+            "CONVERT_NOTIFICATION": {
+                "TITLE": "Kryptowährungen umgewandelt",
+                "DESCRIPTION": "Einige Kryptowährungen wurden entfernt und in {amount} {coinName} umgewandelt.."
             }
         },
         "TIKTOK": {
