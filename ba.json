@@ -1395,7 +1395,17 @@
                 "DESCRIPTION": "Da li ste sigurni da želite pozvati {name}?",
                 "CANCEL": "Odustani",
                 "PROCEED": "Nastavi"
-            }
+            },
+            "QUICK_REPLIES": {
+                "REQUEST_LOCATION": {
+                    "TITLE": "Potražnja lokacije",
+                    "MESSAGE": "Da li možete ostaviti vašu lokaciju?"
+                },
+                "OFFICER_EN_ROUTE": {
+                    "TITLE": "Oficir dolazi",
+                    "MESSAGE": "Oficir je na putu do vaše lokacije."
+				}
+			}
         },
         "CRYPTO": {
             "TITLE": "Crypto",
@@ -1413,7 +1423,10 @@
             "NO_NUMBER": "Broj telefona nije upisan",
             "INVALID_NUMBER": "Pogrešan broj telefona (korisnik možda nije aktivan)",
 			"CHECK_FAILED": "Verifikacija neuspješna",
-            "ERROR": "Greška",
+			"BUY_DISABLED": "Kupovina je onemogućena za ovu valutu",
+            "SELL_DISABLED": "Prodaja je onemogućena za ovu valutu",
+            "TRANSFER_DISABLED": "Transfer je onemogućen za ovu valutu",
+			"ERROR": "Greška",
             "CLOSE": "Zatvori",
             "BUY_POPUP": {
                 "TITLE": "Kupi {coin}",
@@ -1441,7 +1454,12 @@
                 "TITLE": "Uspješan transfer",
                 "DESCRIPTION": "Uspješno ste prebacili ${amount} {coin} {number}",
                 "CLOSE": "Zatvori"
-            }
+            },
+            "REFUND_TRANSACTION": "Povrat novca zbog uklonjenih kriptovaluta.",
+            "CONVERT_NOTIFICATION": {
+                "TITLE": "Kripto valute pretvorene",
+                "DESCRIPTION": "Određene kripto valute su obrisane i pretvorene u {amount} {coinName}."
+			}
         },
         "TIKTOK": {
             "TITLE": "Trendy",
