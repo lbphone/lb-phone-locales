@@ -1395,7 +1395,17 @@
                 "DESCRIPTION": "Biztosan fel akarod hívni {name}-t?",
                 "CANCEL": "Mégse",
                 "PROCEED": "Folytatás"
-            }
+            },
+            "QUICK_REPLIES": {
+                "REQUEST_LOCATION": {
+                    "TITLE": "Helyzetkérelem",
+                    "MESSAGE": "Meg tudod adni a helyzeted?"
+                },
+                "OFFICER_EN_ROUTE": {
+                    "TITLE": "Egység úton",
+                    "MESSAGE": "Egy rendőr egység úton van a helyzetedhez."
+                }
+                }
         },
         "CRYPTO": {
             "TITLE": "Kripto",
@@ -1412,7 +1422,10 @@
             "TOO_HIGH": "Az összeg túl magas (max {amount})",
             "NO_NUMBER": "Nem adott meg telefonszámot",
             "INVALID_NUMBER": "Érvénytelen telefonszám (a felhasználó lehet, hogy nincs online)",
-            "CHECK_FAILED": "Az ellenőrzés sikertelen",
+            "CHECK_FAILED": "Érvényesítési hiba",
+            "BUY_DISABLED": "A vásárlás le van tiltva ehhez az érmehez",
+            "SELL_DISABLED": "Az eladás le van tiltva ehhez az érmehez",
+            "TRANSFER_DISABLED": "Az átutalás le van tiltva ehhez az érmehez",
             "ERROR": "Hiba",
             "CLOSE": "Bezárás",
             "BUY_POPUP": {
@@ -1441,6 +1454,11 @@
                 "TITLE": "Sikeres átutalás",
                 "DESCRIPTION": "Sikeresen átutaltál ${amount} {coin}-t {number}-nek",
                 "CLOSE": "Bezárás"
+            },
+            "REFUND_TRANSACTION": "Visszatérítés a kriptovaluták eltávolítása miatt.",
+            "CONVERT_NOTIFICATION": {
+                "TITLE": "Kriptovaluták átváltva",
+                "DESCRIPTION": "Néhány kriptovaluta eltávolításra került és átváltva {amount} {coinName}-re."
             }
         },
         "TIKTOK": {
