@@ -562,6 +562,11 @@
                 "CANCEL": "Odustani",
                 "REMOVE": "Makni"
             },
+			"FAILED_SEND": {
+                "TITLE": "Poruka nije poslana",
+                "DESCRIPTION": "Došlo je do greške, poruka nije poslana",
+                "OK": "OK"
+            },
             "MARK_AS_READ": "Označi kao pročitano",
             "MESSAGE_DELETED": "Poruka obrisana",
             "OPEN_IN_MAPS": "Otvori u Mapama",
@@ -1390,7 +1395,17 @@
                 "DESCRIPTION": "Da li ste sigurni da želite pozvati {name}?",
                 "CANCEL": "Odustani",
                 "PROCEED": "Nastavi"
-            }
+            },
+            "QUICK_REPLIES": {
+                "REQUEST_LOCATION": {
+                    "TITLE": "Potražnja lokacije",
+                    "MESSAGE": "Da li možete ostaviti vašu lokaciju?"
+                },
+                "OFFICER_EN_ROUTE": {
+                    "TITLE": "Oficir dolazi",
+                    "MESSAGE": "Oficir je na putu do vaše lokacije."
+				}
+			}
         },
         "CRYPTO": {
             "TITLE": "Crypto",
@@ -1407,7 +1422,11 @@
 			"TOO_HIGH": "Količina je prevelika (max {amount})",
             "NO_NUMBER": "Broj telefona nije upisan",
             "INVALID_NUMBER": "Pogrešan broj telefona (korisnik možda nije aktivan)",
-            "ERROR": "Greška",
+			"CHECK_FAILED": "Verifikacija neuspješna",
+			"BUY_DISABLED": "Kupovina je onemogućena za ovu valutu",
+            "SELL_DISABLED": "Prodaja je onemogućena za ovu valutu",
+            "TRANSFER_DISABLED": "Transfer je onemogućen za ovu valutu",
+			"ERROR": "Greška",
             "CLOSE": "Zatvori",
             "BUY_POPUP": {
                 "TITLE": "Kupi {coin}",
@@ -1435,7 +1454,12 @@
                 "TITLE": "Uspješan transfer",
                 "DESCRIPTION": "Uspješno ste prebacili ${amount} {coin} {number}",
                 "CLOSE": "Zatvori"
-            }
+            },
+            "REFUND_TRANSACTION": "Povrat novca zbog uklonjenih kriptovaluta.",
+            "CONVERT_NOTIFICATION": {
+                "TITLE": "Kripto valute pretvorene",
+                "DESCRIPTION": "Određene kripto valute su obrisane i pretvorene u {amount} {coinName}."
+			}
         },
         "TIKTOK": {
             "TITLE": "Trendy",
@@ -1607,7 +1631,9 @@
             "BOOKMARKS": "Bookmark",
             "BOOKMARK_REMOVE": "Obriši bookmark",
             "NO_BOOKMARKS": "Nemate sačuvanih bookmark",
-            "NO_HISTORY": "Ne postoji historija"
+            "NO_HISTORY": "Ne postoji historija",
+			"FAILED_LOAD_PAGE": "Nije moguće pristupiti stranici putem ove aplikacije",
+            "FAILED_LOAD_PAGE_DESCRIPTION": "Ova stranica ne dozvoljava iframing. Ovo nije bug."
         }
     },
     "COMPONENTS": {
@@ -1835,12 +1861,10 @@
         "MISC": {
             "VERIFIED": "Vaš nalog je verifikovan",
             "X_PHONE": "Telefon od {name}",
-
             "LOGGED_OUT_PASSWORD": {
                 "TITLE": "Odjavljeni ste",
                 "DESCRIPTION": "Odjavljeni ste, jer je šifra promjenjena."
             },
-
             "DELETED_NOTIFICATION": {
                 "TITLE": "Nalog obrisan",
                 "DESCRIPTION": "Vaš nalog je obrisan."

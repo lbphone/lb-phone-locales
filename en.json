@@ -1395,6 +1395,16 @@
                 "DESCRIPTION": "Are you sure you want to call {name}?",
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
+            },
+            "QUICK_REPLIES": {
+                "REQUEST_LOCATION": {
+                    "TITLE": "Request Location",
+                    "MESSAGE": "Can you please provide your location?"
+                },
+                "OFFICER_EN_ROUTE": {
+                    "TITLE": "Officer En Route",
+                    "MESSAGE": "An officer is en route to your location."
+                }
             }
         },
         "CRYPTO": {
@@ -1413,6 +1423,9 @@
             "NO_NUMBER": "No phonenumber provided",
             "INVALID_NUMBER": "Invalid phonenumber (the user may not be online)",
             "CHECK_FAILED": "Vaildation checks failed",
+            "BUY_DISABLED": "Buying has been disabled for this coin",
+            "SELL_DISABLED": "Selling has been disabled for this coin",
+            "TRANSFER_DISABLED": "Transferring has been disabled for this coin",
             "ERROR": "Error",
             "CLOSE": "Close",
             "BUY_POPUP": {
@@ -1441,6 +1454,11 @@
                 "TITLE": "Successfully transfered",
                 "DESCRIPTION": "You successfully transfered ${amount} of {coin} to {number}",
                 "CLOSE": "Close"
+            },
+            "REFUND_TRANSACTION": "Refund due to removed cryptocurrencies.",
+            "CONVERT_NOTIFICATION": {
+                "TITLE": "Cryptocurrencies converted",
+                "DESCRIPTION": "Some cryptocurrencies have been removed and converted to {amount} {coinName}."
             }
         },
         "TIKTOK": {
