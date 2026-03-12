@@ -270,10 +270,30 @@
             "CANCEL": "キャンセル",
             "SET": "設定",
             "JOIN": "参加",
+            "CREATE": "作成",
             "LEAVE": "退出",
-            "NEW_ROOM": "新しい部屋",
-            "NEW_ROOM_TEXT": "部屋に参加または作成するには部屋コードを入力してください",
+            "JOIN_ROOM": "部屋に参加",
+            "JOIN_ROOM_TEXT": "部屋に参加するには部屋コードを入力してください",
+            "CREATE_ROOM": "部屋を作成",
+            "CREATE_ROOM_TEXT": "部屋を作成するには部屋コードを入力してください",
             "ROOM_CODE": "部屋コード",
+
+            "INVALID_CHANNEL": "無効なチャンネル",
+            "INVALID_CHANNEL_TEXT": "チャンネルが存在しません",
+            "ALREADY_IN_CHANNEL": "すでにチャンネルにいます",
+            "ALREADY_IN_CHANNEL_TEXT": "すでにこのチャンネルにいます",
+            "PASSWORD_REQUIRED": "パスワードが必要です",
+            "PASSWORD_REQUIRED_TEXT": "このチャンネルにはパスワードが必要です",
+            "PASSWORD_PLACEHOLDER": "パスワード",
+            "PASSWORD_PLACEHOLDER_OPTIONAL": "パスワード (任意)",
+            "INCORRECT_PASSWORD_TEXT": "パスワードが正しくありません",
+            "CHANNEL_EXISTS": "チャンネルが存在します",
+            "CHANNEL_EXISTS_TEXT": "チャンネルはすでに存在します",
+            "INVALID_NAME": "無効な名前",
+            "INVALID_NAME_TEXT": "名前が無効です (最小1文字、最大5文字)",
+            "UNKNOWN_ERROR": "不明なエラー",
+            "UNKNOWN_ERROR_TEXT": "不明なエラーが発生しました",
+
             "LEAVE_ROOM": "部屋を退出",
             "LEAVE_ROOM_TEXT": "この部屋を退出してもよろしいですか？",
             "NOW": "今",
@@ -552,6 +572,15 @@
                 "TITLE": "空の録音",
                 "DESCRIPTION": "空の録音は送信できません",
                 "OK": "OK"
+            },
+            "FAILED_SEND": {
+                "TITLE": "メッセージの送信に失敗しました",
+                "DESCRIPTION": "メッセージの送信に失敗しました",
+                "OK": "OK"
+            },
+            "GROUP_MEMBER_LIMIT_NOTIFICATION": {
+                "TITLE": "メンバー上限に達しました",
+                "CONTENT": "グループの最大メンバー数（{limit}人）に達しました。"
             }
         },
         "PHONE": {
@@ -634,7 +663,11 @@
                 "EMAIL": "メールアドレス",
                 "ADDRESS": "住所",
                 "CHANGE_AVATAR": "アバターを変更",
-                "REMOVE_AVATAR": "アバターを削除"
+                "REMOVE_AVATAR": "アバターを削除",
+                "RINGTONES": "着信音",
+                "RINGTONE": "着信音",
+                "DEFAULT": "デフォルト",
+                "BACK": "戻る"
             },
             "FAVOURITES": {
                 "TITLE": "お気に入り",
@@ -988,6 +1021,7 @@
             "LIKES_YOU_TOO": "もあなたにいいね！しました！",
             "KEEP_SWIPING": "スワイプを続ける",
             "SAY_SOMETHING_NICE": "何か素敵なことを言ってください",
+            "TYPE_A_MESSAGE": "メッセージを入力...",
             "NO_MORE": "スワイプできる人がいなくなりました。後で確認してください！",
             "SEND": "送信",
             "AGREE_TERMS": "「アカウントを作成」を押すと、利用規約とプライバシーポリシーに同意したことになります",
@@ -1022,7 +1056,14 @@
             "HIDDEN_WARNING": "現在アカウントは非表示になっています。他のユーザーに表示されず、スワイプできません。",
             "HIDDEN_PROFILE": "プロフィールはアクティブではありません。設定でプロフィールを有効にできます。",
             "SEARCH_MATCHES": "マッチを検索",
-            "DELETE_ACCOUNT": "アカウントを削除"
+            "DELETE_ACCOUNT": "アカウントを削除",
+            "ERROR": {
+                "TITLE": "エラー",
+                "SHORT_NAME": "スパークプロフィールの保存に問題があります（名前は2文字以上必要です）",
+                "SHORT_BIO": "スパークプロフィールの保存に問題があります（自己紹介は5文字以上必要です）",
+                "NO_PHOTOS": "スパークプロフィールの保存に問題があります（写真がありません）",
+                "OK": "OK"
+            }
         },
         "INSTAGRAM": {
             "TITLE": "インスタピック",
@@ -1354,6 +1395,16 @@
                 "DESCRIPTION": "{name}に電話してもよろしいですか？",
                 "CANCEL": "キャンセル",
                 "PROCEED": "続行"
+            },
+            "QUICK_REPLIES": {
+                "REQUEST_LOCATION": {
+                    "TITLE": "場所を要求",
+                    "MESSAGE": "場所を教えていただけますか？"
+                },
+                "OFFICER_EN_ROUTE": {
+                    "TITLE": "職員が向かっています",
+                    "MESSAGE": "職員があなたの場所に向かっています。"
+                }
             }
         },
         "CRYPTO": {
@@ -1368,8 +1419,13 @@
             "NOT_ENOUGH_COINS": "コインが不足しています",
             "ATLEAST_ONE_COIN": "少なくとも{currency}を1つ{action}する必要があります",
             "INVALID_COIN": "無効なコイン",
+            "TOO_HIGH": "金額が大きすぎます（最大{amount}）",
             "NO_NUMBER": "電話番号が提供されていません",
             "INVALID_NUMBER": "無効な電話番号（ユーザーがオンラインではない可能性があります）",
+            "CHECK_FAILED": "バリデーションチェックに失敗しました",
+            "BUY_DISABLED": "このコインの購入は無効になっています",
+            "SELL_DISABLED": "このコインの売却は無効になっています",
+            "TRANSFER_DISABLED": "このコインの送金は無効になっています",
             "ERROR": "エラー",
             "CLOSE": "閉じる",
             "BUY_POPUP": {
@@ -1398,6 +1454,11 @@
                 "TITLE": "送金に成功しました",
                 "DESCRIPTION": "{coin}の${amount}を{number}に正常に送金しました",
                 "CLOSE": "閉じる"
+            },
+            "REFUND_TRANSACTION": "仮想通貨削除による返金。",
+            "CONVERT_NOTIFICATION": {
+                "TITLE": "仮想通貨が変換されました",
+                "DESCRIPTION": "一部の仮想通貨が削除され、{amount} {coinName}に変換されました。"
             }
         },
         "TIKTOK": {
@@ -1557,6 +1618,22 @@
                 "DESCRIPTION": "音声がない録音は保存できません",
                 "OK": "OK"
             }
+        },
+        "BROWSER": {
+            "TITLE": "ブラウザ",
+            "SEARCH_PLACEHOLDER": "検索またはURLを入力",
+            "NEW_TAB": "新しいタブ",
+            "TABS": "タブ",
+            "TAB": "タブ",
+            "DONE": "完了",
+            "CLOSE_ALL": "すべて閉じる",
+            "HISTORY": "履歴",
+            "BOOKMARKS": "ブックマーク",
+            "BOOKMARK_REMOVE": "ブックマークを削除",
+            "NO_BOOKMARKS": "ブックマークはまだありません",
+            "NO_HISTORY": "履歴はまだありません",
+            "FAILED_LOAD_PAGE": "このアプリではウェブサイトにアクセスできません",
+            "FAILED_LOAD_PAGE_DESCRIPTION": "このウェブサイトはiframeを許可していません。これはバグではありません。"
         }
     },
     "COMPONENTS": {
@@ -1679,6 +1756,14 @@
         "FONT_AND_COLOR": "フォントと色"
     },
     "MISC": {
+        "ORDINAL": {
+            "ZERO": ".",
+            "ONE": ".",
+            "TWO": ".",
+            "FEW": ".",
+            "MANY": ".",
+            "OTHER": "."
+        },
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "エラー",
             "DESCRIPTION": "インターネットアクセスが必要なアクションを実行しようとしています。続行するには機内モードを無効にしてください。",
