@@ -512,6 +512,11 @@
             "SENT_LOCATION_SHORT": "Standort wurde geteilt",
             "TRIED_TO_CALL": "{number} hat versucht dich anzurufen",
             "DELETE": "Löschen",
+            "REPLY": "Antworten",
+            "REACT": "Reagieren",
+            "REPLYING_TO": "Antwort auf",
+            "ATTACHMENT": "Anhang",
+            "YOU": "Sie",
             "GROUP": "Gruppe",
             "GROUP_NAME": "Gruppenname",
             "REMOVE_POPUP": {
@@ -581,6 +586,10 @@
             "GROUP_MEMBER_LIMIT_NOTIFICATION": {
                 "TITLE": "Mitgliederlimit erreicht",
                 "CONTENT": "Du hast die maximale Anzahl an Mitgliedern in einer Gruppe erreicht ({limit})."
+            },
+            "REACT_NOTIFICATION": {
+                "TITLE": "Neue Reaktion",
+                "CONTENT": "{name} hat mit {reaction} auf deine Nachricht reagiert"
             }
         },
         "PHONE": {
@@ -1276,6 +1285,14 @@
                 "CANCEL": "Abbrechen",
                 "PROCEED": "Weiter"
             },
+            "VERIFIED": {
+                "LABEL": "Verifiziertes Konto",
+                "DESCRIPTION": "Dieses Konto ist verifiziert."
+            },
+            "VERIFIED_GOVERNMENT": {
+                "LABEL": "Staatskonto",
+                "DESCRIPTION": "Dieser Account ist ein offizieller Regierungsaccount."
+            },
             "YOU": "Du",
             "FOLLOW": "Folgen",
             "PENDING": "Ausstehend",
@@ -1793,7 +1810,9 @@
             "CANCEL": "Abbrechen",
             "PROCEED": "Fortfahren",
             "OK": "OK"
-        }
+        },
+        "COPY": "Kopieren",
+        "OPEN_IN_BROWSER": "Im Browser öffnen"
     },
     "BACKEND": {
         "CALLS": {
