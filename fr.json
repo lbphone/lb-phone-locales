@@ -512,6 +512,11 @@
             "SENT_LOCATION_SHORT": "A partagé sa position",
             "TRIED_TO_CALL": "{number} a essayé de vous appeler",
             "DELETE": "Supprimer",
+            "REPLY": "Répondre",
+            "REACT": "Réagir",
+            "REPLYING_TO": "Réponse à",
+            "ATTACHMENT": "Pièce jointe",
+            "YOU": "Vous",
             "GROUP": "Groupe",
             "GROUP_NAME": "Nom du Groupe",
             "REMOVE_POPUP": {
@@ -581,6 +586,10 @@
             "GROUP_MEMBER_LIMIT_NOTIFICATION": {
                 "TITLE": "Limites de membres atteinte",
                 "CONTENT": "Vous avez atteint la limite de membres pour ce groupe ({limit})."
+            },
+            "REACT_NOTIFICATION": {
+                "TITLE": "Nouvelle Réaction",
+                "CONTENT": "{name} a réagit avec {reaction} à votre message"
             }
         },
         "PHONE": {
@@ -1276,6 +1285,14 @@
                 "CANCEL": "Annuler",
                 "PROCEED": "Confirmer"
             },
+            "VERIFIED": {
+                "LABEL": "Compte vérifié",
+                "DESCRIPTION": "Ce compte est vérifié."
+            },
+            "VERIFIED_GOVERNMENT": {
+                "LABEL": "Compte gouvernemental",
+                "DESCRIPTION": "Ce compte est un compte officiel du gouvernement."
+            },
             "YOU": "Vous",
             "FOLLOW": "Suivre",
             "PENDING": "En attente",
@@ -1793,7 +1810,9 @@
             "CANCEL": "Annuler",
             "PROCEED": "Procéder",
             "OK": "OK"
-        }
+        },
+        "COPY": "Copier",
+        "OPEN_IN_BROWSER": "Ouvrir dans le navigateur"
     },
     "BACKEND": {
         "CALLS": {
