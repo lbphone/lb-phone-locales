@@ -512,6 +512,11 @@
             "SENT_LOCATION_SHORT": "Megosztotta a helyzetét",
             "TRIED_TO_CALL": "{number} próbált hívni",
             "DELETE": "Törlés",
+            "REPLY": "Válasz",
+            "REACT": "Reakció",
+            "REPLYING_TO": "Válasz neki",
+            "ATTACHMENT": "Csatolmány",
+            "YOU": "Te",
             "GROUP": "Csoport",
             "GROUP_NAME": "Csoport neve",
             "REMOVE_POPUP": {
@@ -581,6 +586,10 @@
             "GROUP_MEMBER_LIMIT_NOTIFICATION": {
                 "TITLE": "Elérted a taglimitett",
                 "CONTENT": "Elérted a maximális csoportlétszámot ({limit})."
+            },
+            "REACT_NOTIFICATION": {
+                "TITLE": "Új Reakció",
+                "CONTENT": "{name} reagált a {reaction} reakcióval az üzenetedre"
             }
         },
         "PHONE": {
@@ -766,9 +775,9 @@
             "ACTIONS": "Műveletek",
             "MY_CARS": "Autóim",
             "OUT": "Kint",
-            "GARAGE": "Garázs",
-            "IMPOUNDED": "Elkobozva",
-            "IMPOUND_INFO": "Elkobzási információ",
+            "GARAGE": "Garázs/Parkoló",
+            "IMPOUNDED": "Lefoglalva",
+            "IMPOUND_INFO": "Lefoglalt információ",
             "LOCATION": "Helyszín",
             "SUMMON": "Előhívás",
             "VALET": "Valet",
@@ -1276,7 +1285,15 @@
                 "CANCEL": "Mégse",
                 "PROCEED": "Folytatás"
             },
-            "YOU": "Te",
+            "VERIFIED": {
+                "LABEL": "Hitelesített fiók",
+                "DESCRIPTION": "Ez a fiók hitelesített."
+            },
+            "VERIFIED_GOVERNMENT": {
+                "LABEL": "Állami fiók",
+                "DESCRIPTION": "Ez a fiók egy hivatalos állam/állami szerv fiókja."
+            },
+            "YOU": "You",
             "FOLLOW": "Követés",
             "PENDING": "Függőben",
             "FOLLOWING": "Követve",
@@ -1793,7 +1810,9 @@
             "CANCEL": "Mégse",
             "PROCEED": "Folytatás",
             "OK": "OK"
-        }
+        },
+        "COPY": "Másolás",
+        "OPEN_IN_BROWSER": "Megnyitás böngészőben"
     },
     "BACKEND": {
         "CALLS": {
