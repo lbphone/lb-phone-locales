@@ -512,6 +512,11 @@
             "SENT_LOCATION_SHORT": "Shared their location",
             "TRIED_TO_CALL": "{number} tried to call you",
             "DELETE": "Delete",
+            "REPLY": "Reply",
+            "REACT": "React",
+            "REPLYING_TO": "Replying to",
+            "ATTACHMENT": "Attachment",
+            "YOU": "You",
             "GROUP": "Group",
             "GROUP_NAME": "Group Name",
             "REMOVE_POPUP": {
@@ -581,6 +586,10 @@
             "GROUP_MEMBER_LIMIT_NOTIFICATION": {
                 "TITLE": "Member limit reached",
                 "CONTENT": "You have reached the maximum amount of members in a group ({limit})."
+            },
+            "REACT_NOTIFICATION": {
+                "TITLE": "New Reaction",
+                "CONTENT": "{name} reacted with {reaction} to your message"
             }
         },
         "PHONE": {
@@ -1276,6 +1285,14 @@
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             },
+            "VERIFIED": {
+                "LABEL": "Verified account",
+                "DESCRIPTION": "This account is verified."
+            },
+            "VERIFIED_GOVERNMENT": {
+                "LABEL": "Government account",
+                "DESCRIPTION": "This account is an official government account."
+            },
             "YOU": "You",
             "FOLLOW": "Follow",
             "PENDING": "Pending",
@@ -1793,7 +1810,9 @@
             "CANCEL": "Cancel",
             "PROCEED": "Proceed",
             "OK": "OK"
-        }
+        },
+        "COPY": "Copy",
+        "OPEN_IN_BROWSER": "Open in browser"
     },
     "BACKEND": {
         "CALLS": {
