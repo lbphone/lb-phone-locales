@@ -512,6 +512,11 @@
             "SENT_LOCATION_SHORT": "Lokacija podjeljena",
             "TRIED_TO_CALL": "{number} Vas je pokušao nazvati",
             "DELETE": "Obriši",
+			"REPLY": "Odgovori",
+            "REACT": "Reaguj",
+            "REPLYING_TO": "Odgovaranje",
+            "ATTACHMENT": "Dodatak",
+            "YOU": "Vi",
             "GROUP": "Grupa",
             "GROUP_NAME": "Ime grupe",
             "REMOVE_POPUP": {
@@ -581,6 +586,10 @@
 			"GROUP_MEMBER_LIMIT_NOTIFICATION": {
                 "TITLE": "Limit članova",
                 "CONTENT": "Limit članova je dostignut - ({limit})."
+            },
+            "REACT_NOTIFICATION": {
+                "TITLE": "Nova reakcija",
+                "CONTENT": "{name} je reagovao sa {reaction} na poruku"
             }
         },
         "PHONE": {
@@ -1276,6 +1285,14 @@
                 "CANCEL": "Odustani",
                 "PROCEED": "Nastavi"
             },
+			"VERIFIED": {
+                "LABEL": "Verifikovan nalog",
+                "DESCRIPTION": "Ovaj nalog je verifikovan."
+            },
+            "VERIFIED_GOVERNMENT": {
+                "LABEL": "Vladin nalog",
+                "DESCRIPTION": "Ovaj nalog je oficijalni vladin nalog."
+            },
             "YOU": "Vi",
             "FOLLOW": "Zaprati",
             "PENDING": "Na čekanju",
@@ -1793,7 +1810,9 @@
             "CANCEL": "Odustani",
             "PROCEED": "Nastavi",
             "OK": "OK"
-        }
+        },
+        "COPY": "Kopiraj",
+        "OPEN_IN_BROWSER": "Otvori u pretraživaču"
     },
     "BACKEND": {
         "CALLS": {
