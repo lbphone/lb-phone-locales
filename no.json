@@ -1,967 +1,2023 @@
 {
-    "LABEL": "Norsk",
-    "SEARCH": "Søk",
-    "CANCEL": "Avbryt",
-    "NOW": "nå",
-    "D": "d",
-    "H": "t",
-    "M": "m",
-    "S": "s",
-
-    "APPS": {
-        "SETTINGS": {
-            "TITLE": "Innstillinger",
-            "BACK": "Tilbake",
-            "DONE": "Ferdig",
-            "EDIT": "Endre",
-            "AIRPLANE_MODE": "Flymodus",
-            "STREAMER_MODE": "Streamermodus",
-            "BLUETOOTH": "Bluetooth",
-            "GENERAL": "Generelt",
-            "ABOUT": "Om",
-            "NAME": "Navn",
-            "VERSION": "Versjon",
-            "MODEL_NAME": "Modelnavn",
-            "SERIAL_NUMBER": "Serienummer",
-            "DEVELOPED_BY": "Utviklet av",
-            "PURCHASE_AT": "Kjøp hos",
-            "SONGS": "Sanger",
-            "VIDEOS": "Videoer",
-            "PHOTOS": "Bilder",
-            "APPLICATIONS": "Applikasjoner",
-            "CAPACITY": "Kapasitet",
-            "AVAILABLE": "Tilgjengelig",
-            "SOFTWARE_UPDATE": "Programvareoppdatering",
-            "AUTOMATIC_UPDATES": "Automatiske Oppdateringer",
-            "DATE_TIME": "Dato & Tid",
-            "24_HOUR_TIME": "24 Timers Tid",
-            "SET_AUTOMATICALLY": "Sett Automatisk",
-            "TIME_ZONE": "Tidssone",
-            "LANGUAGE_REGION": "Språk & Region",
-            "LANGUAGE": "Språk",
-            "TEMPERATURE": "Temperatur",
-            "BATTERY": "Batteri",
-            "SOUND_HAPTICS": "Lyd & Vibrasjoner",
-            "SOUND_HAPTICS_PATTERNS": "Lyd- og Vibrasjonsmønster",
-            "RINGTONE": "Ringetone",
-            "TEXT_TONE": "Meldingstone",
-            "RINGTONE_VOLUME": "Ringetone- og varselvolum",
-            "DEFAULT": "Standard",
-            "PHONE_STORAGE": "Telefonlagring",
-            "STORAGE": "Lagring",
-            "USED": "Brukt",
-            "OF": "av",
-            "DISPLAY_BRIGHTNESS": "Skjerm & Lysstyrke",
-            "APPEARANCE": "Utseende",
-            "AUTOMATIC": "Automatisk",
-            "BRIGHTNESS": "Lysstyrke",
-            "PHONE_SCALE": "Telefonskala",
-            "WALLPAPER": "Bakgrunn",
-            "WALLPAPERS": "Bakgrunner",
-            "CHOOSE_NEW_WALLPAPER": "Velg en ny bakgrunn",
-            "NOTIFICATIONS": "Varsler",
-            "ALLOW_NOTIFICATIONS": "Godta Varsler",
-            "SOUNDS": "Lyder",
-            "PHONE": "Telefon",
-            "BLOCKED_CONTACTS": "Blokkerte Kontakter",
-            "MY_NUMBER": "Mitt Nummer",
-            "SHOW_CALLER_ID": "Vis oppringer ID",
-            "UNBLOCK_POPUP": {
-                "TITLE": "Fjern Blokkering",
-                "TEXT": "Er du sikker på at du vil fjerne blokkeringen?",
-                "CANCEL": "Avbryt",
-                "CONFIRM": "Fjern"
-            },
-            "FACE_ID_PASSWORD": "Face ID & Pin-kode",
-            "ENTER_PASSCODE": "Skriv Pin-kode",
-            "PASSCODE": "Pin-kode",
-            "FACE_ID": "Face ID",
-            "RESET_FACE_ID": "Tilbakestill Face ID",
-            "ENABLE_FACE_ID": "Skru på Face ID",
-            "PIN_CODE": "Pin-kode",
-            "DISABLE_FACE_ID_POPUP": {
-                "TITLE": "Skru av Face ID",
-                "TEXT": "Er du sikker på at du vil skru av Face ID?",
-                "CANCEL": "Avbryt",
-                "CONFIRM": "Skru Av"
-            },
-            "ENABLE_FACE_ID_POPUP": {
-                "TITLE": "Skru på Face ID",
-                "TEXT": "Er du sikker på at du vil skru på Face ID?",
-                "CANCEL": "Avbryt",
-                "CONFIRM": "Skru På"
-            },
-            "DISABLE_PIN_POPUP": {
-                "TITLE": "Skru av Pin-kode",
-                "TEXT": "Er du sikker på at du vil skru av pin-koden? (Dette vil også skru av Face ID)",
-                "CANCEL": "Avbryt",
-                "CONFIRM": "Bekreft"
-            },
-            "TURN_PASSCODE_OFF": "Skru pin-kode Av",
-            "TURN_PASSCODE_ON": "Skru pin-kode På",
-            "CHANGE_PASSCODE": "Endre Pin-kode",
-            "CLOUD_BACKUP": "Sikkerhetskopiering",
-            "YOUR_PROFILE": "Din profil",
-            "CREATE_BACKUP": "Opprett Sikkerhetskopiering",
-            "SAVE_BACKUP_POPUP": {
-                "TITLE": "Lagre",
-                "TEXT": "Er du sikker på at du vil kopiere dine data? (Lagrer kontakter, bilder og innstillinger)",
-                "CANCEL": "Avbryt",
-                "CONFIRM": "Lagre"
-            },
-            "BACKUPS": "Sikkerhetskopieringer",
-            "APPLY_BACKUP_POPUP": {
-                "TITLE": "Bruk Sikkerhetskopiering",
-                "TEXT": "Er du sikker på at du vil bruke denne kopien? (Overskriver kontakter, bilder og innstillinger)",
-                "CANCEL": "Avbryt",
-                "CONFIRM": "Bekreft"
-            },
-            "SUCCESS": "Vellykket",
-            "SUCCESS_TEXT": "Telefonen starter på nytt om 5 sekunder...",
-            "OK": "OK",
-            "ON": "På",
-            "REMOVE_BACKUP_POPUP": {
-                "TITLE": "Fjern Sikkerhetskopiering",
-                "TEXT": "Er du sikker på at du fjerne Sikkerhetskopieringen?",
-                "CANCEL": "Avbryt",
-                "CONFIRM": "Slett"
-            },
-            "RESET_POPUP": {
-                "TITLE": "Tilbakestill Telefonen",
-                "TEXT": "Er du sikker på at du vil tilbakestille telefonen? [DETTE FJERNER ALT]",
-                "CANCEL": "Avbryt",
-                "CONFIRM": "Tilbakestill"
-            }
-        },
-        "NOTES": {
-            "TITLE": "Notater",
-            "SEARCH_PLACEHOLDER": "Søk",
-            "FOOTER": "{amount} Notater",
-            "NEW_NOTE": "Nytt Notat",
-            "LAST_EDITED": "Sist Endret: {date}",
-            "DELETE_TITLE": "Slett {title}",
-            "DELETE_TEXT": "Er du sikker på at du vil slette '{title}'?",
-            "BUTTON_CANCEL": "Avbryt",
-            "BUTTON_DELETE": "Slett"
-        },
-        "CLOCK": {
-            "WORLDCLOCK": {
-                "TITLE": "Verdensklokke",
-                "TODAY": "I dag",
-                "TOMORROW": "I morgen",
-                "YESTERDAY": "I går"
-            },
-            "ALARM": {
-                "TITLE": "Alarm",
-                "ADD": "Legg til Alarm",
-                "CANCEL": "Avbryt",
-                "EDIT": "Endre",
-                "DONE": "Ferdig",
-                "SAVE": "Lagre",
-                "LABEL": "Merknad",
-                "SOUND": "Lyd",
-                "SNOOZE": "Snooze",
-                "DELETE_TITLE": "Slett Alarm",
-                "DELETE_TEXT": "Er du sikker på at du vil slette alarmen?",
-                "BUTTON_CANCEL": "Avbryt",
-                "BUTTON_DELETE": "Slett"
-            },
-            "STOPWATCH": {
-                "TITLE": "Stoppeklokke",
-                "START": "Start",
-                "STOP": "Stopp",
-                "RESET": "Resett",
-                "LAP": "Lap"
-            },
-            "TIMER": {
-                "TITLE": "Timer",
-                "START": "Start",
-                "STOP": "Stopp",
-                "CANCEL": "Avbryt",
-                "HOURS": "timer",
-                "MINUTES": "min",
-                "SECONDS": "sek"
-            },
-            "ALERT": {
-                "STOP": "Stopp"
-            }
-        },
-        "CAMERA": {
-            "VIDEO": "Video",
-            "PHOTO": "Bilde",
-            "LANDSCAPE": "Landskap",
-            "UPLOADING": "Laster opp"
-        },
-        "DARKCHAT": {
-            "TITLE": "Dark Chat",
-            "USERNAME": "Brukernavn",
-            "SET_USERNAME": "Sett ditt brukernavn. OBS: DETTE KAN KUN GJØRES EN GANG.",
-            "CANCEL": "Avbryt",
-            "SET": "Sett",
-            "JOIN": "Join",
-            "LEAVE": "Forlat",
-            "NEW_ROOM": "Nytt Rom",
-            "NEW_ROOM_TEXT": "Skriv inn en romkode for å bli med i eller opprette et rom.",
-            "ROOM_CODE": "Romkode",
-            "LEAVE_ROOM": "Forlat Rom",
-            "LEAVE_ROOM_TEXT": "Er du sikker på at du vil forlate rommet?",
-            "NOW": "Nå",
-            "INPUT_PLACEHOLDER": "Skriv en melding..."
-        },
-        "APPSTORE": {
-            "TITLE": "Apper",
-            "SEARCH": "Søk",
-            "GET": "Skaff",
-            "OPEN": "Åpne",
-            "TODAY": "I dag",
-            "GAMES": "Spill",
-            "WHAT_WE_PLAYING": "Hva vi spiller",
-            "INFORMATION": "Informasjon",
-            "PROVIDER": "Leverandør",
-            "SIZE": "Størrelse",
-            "COMPATIBILITY": "Kompatibilitet",
-            "IN_APP_PURCHASES": "Kjøp I App"
-        },
-        "PHOTOS": {
-            "TITLE": "Bilder",
-            "SELECT": "Velg",
-            "CANCEL": "Avbryt",
-            "SELECT_ITEMS": "Velg Bilder",
-            "SELECTED_COUNT": "{count} Bilder Valgt",
-            "PHOTO_COUNT": "{amount} bilder",
-            "DELETE_TITLE": "Slett {count} bilder",
-            "DELETE_TEXT": "Vil du slette {count} bilder",
-            "DELETE_BUTTON_CANCEL": "Avbryt",
-            "DELETE_BUTTON_DELETE": "Slett",
-            "DELETE_IMAGE_TITLE": "Slett Bilde",
-            "DELETE_IMAGE_TEXT": "Vil du slette dette bildet?",
-            "DELETE_IMAGE_BUTTON_CANCEL": "Avbryt",
-            "DELETE_IMAGE_BUTTON_DELETE": "Slett"
-        },
-        "WEATHER": {
-            "TITLE": "Vær",
-            "HOURLY_FORECAST": "Timevarsel",
-            "NOW": "Nå",
-            "FEELS_LIKE": "Føles som",
-            "FEELS_LIKE_SAME": "Føles som den faktiske temperaturen.",
-            "FEELS_LIKE_HUMIDITY": "Luftfuktigheten får det til å føles varmere.",
-            "FEELS_LIKE_WIND": "Vind får det til å føles kaldere.",
-            "SUNRISE": "Soloppgang",
-            "SUNSET": "Solnedgang",
-            "WIND": "Vind",
-            "PRECIPITATION": "Nedbør",
-            "LAST_24H": "de siste 24t",
-            "EXPECTED_24H": "forventet neste 24t",
-            "TYPES": {
-                "CLOUDY": "Skyet",
-                "LIGHT_RAIN": "Lett Regn",
-                "HEAVY_RAIN": "Mye Regn",
-                "RAIN": "Regn",
-                "SNOW": "Snø",
-                "FOG": "Tåke",
-                "CLEAR": "Klart",
-                "MOSTLY_CLEAR": "For det meste klart",
-                "THUNDER": "Torden",
-                "TORNADO": "Tornado",
-                "WINDY": "Vindfullt"
-            }
-        },
-        "MESSAGES": {
-            "TITLE": "Meldinger",
-            "NEW_MESSAGE": "Ny Melding",
-            "PEOPLE": "Personer",
-            "MEMBERS": "Medlemmer",
-            "OTHER": "Annet",
-            "SENT_A_PHOTO": "Sendte et bilde",
-            "SENT_AUDIO_MESSAGE": "Sendte en lydmelding",
-            "SENT": "Sendt",
-            "REQUESTED": "Forespurt",
-            "MISSED_CALL": "{number} prøvde å ringe deg, men du svarte ikke. Trykk på numeret for å ringe opp igjen",
-            "NOT_DELIVERED": "Ikke levert",
-            "PLACEHOLDER": "Tekstmelding",
-            "DONE": "Ferdig",
-            "CANCEL": "Avbryt",
-            "SEND": "Send",
-            "UNKNOWN": "Ukjent",
-            "TO": "Til",
-            "SEARCH": "Søk",
-            "ADD_MEMBER": "Legg til medlem",
-            "SHARE_LOCATION": "Del min Lokasjon",
-            "LEAVE_GROUP": "Forlat Samtale",
-            "SENT_LOCATION": " Deler sin lokasjon, trykk for å åpne i Maps",
-            "SENT_LOCATION_SHORT": "Deler sin lokasjon",
-            "REMOVE_POPUP": {
-                "TITLE": "Fjern medlem",
-                "TEXT": "Er du sikker på at du vil fjerne {name} fra gruppen?",
-                "DELETE": "Slett"
-            },
-            "LEAVE_POPUP": {
-                "TITLE": "Forlat gruppe",
-                "TEXT": "Er du sikker på at du vil forlate gruppen?",
-                "LEAVE": "Forlat"
-            },
-            "ADD_POPUP": {
-                "TITLE": "Legg til medlem",
-                "TEXT": "Skriv inn et nummer for å legge til i '{name}'",
-                "ADD": "Legg til"
-            },
-            "SEND_LOCATION_POPUP": {
-                "TITLE": "Del Lokasjon",
-                "TEXT": "Vil du dele din lokasjon?",
-                "CANCEL": "Avbryt",
-                "SEND": "Send"
-            },
-            "PAY": {
-                "REQUEST": "Forespør",
-                "REQUESTED": "Forespurt",
-                "PAY": "Betal",
-                "SEND": "Send",
-                "SEND_TITLE": "Send {amount}",
-                "SEND_DESCRIPTION": "Vil du sende {amount} til {name}?",
-                "SEND_BUTTON_CANCEL": "Avbryt",
-                "SEND_BUTTON_SEND": "Send"
-            }
-        },
-        "PHONE": {
-            "TITLE": "Telefon",
-            "DONE": "Ferdig",
-            "EDIT": "Endre",
-            "CANCEL": "Avbryt",
-            "CALL": {
-                "CALL_TITLE": "Ring {name}",
-                "CALL_TEXT": "Er du sikker på at du vil ringe {name}?",
-                "CALL_BUTTON_CANCEL": "Avbryt",
-                "CALL_BUTTON_CALL": "Ring",
-                "NO_CALLER_ID": "Ingen anrops-ID",
-                "UNKNOWN": "Ukjent",
-                "USER_BUSY": "Bruker Opptatt",
-                "USER_UNAVAILABLE": "Bruker Utilgjengelig",
-                "CALL_BACK": "Ring Tilbake",
-                "DECLINE": "Avslå",
-                "ACCEPT": "Godta",
-                "END": "Avslutt",
-                "VIDEO_CALL": "Videosamtale",
-                "MUTE": "mute",
-                "KEYPAD": "keypad",
-                "SPEAKER": "høyttaler",
-                "ADD_CALL": "legg til i samtale",
-                "VIDEO": "video",
-                "CONTACTS": "kontakter",
-                "MOBILE": "Mobil"
-            },
-            "CONTACTS": {
-                "TITLE": "Kontakter",
-                "FIRST_NAME": "Fornavn",
-                "LAST_NAME": "Etternavn",
-                "PHONE_NUMBER": "Telefonnummer",
-                "MY_CARD": "Mitt Kort",
-                "ADD_PHOTO": "Legg til Bilde",
-                "REMOVE_CONTACT_TITLE": "Slett Kontakt",
-                "REMOVE_CONTACT_TEXT": "Er du sikker på at du vil slette denne kontakten?",
-                "REMOVE_CONTACT_BUTTON_CANCEL": "Avbryt",
-                "REMOVE_CONTACT_BUTTON_DELETE": "Slett",
-                "DELETE_CONTACT": "Slett kontakt",
-                "MESSAGE": "melding",
-                "CALL": "anrop",
-                "VIDEO": "video",
-                "MAIN": "main",
-                "SHARE_CONTACT": "Del Kontakt",
-                "SHARE_LOCATION": "Del min lokasjon",
-                "REMOVE_FAVORITE": "Fjern fra Favoritter",
-                "ADD_FAVORITE": "Legg til i Favoritter",
-                "ADD_CONTACT": "Legg til i Kontakter",
-                "UNBLOCK_CALLER": "Fjern blokkering",
-                "BLOCK_CALLER": "Blokker denne personen",
-                "UNBLOCK_NUMBER_TITLE": "Fjern blokkering",
-                "UNBLOCK_NUMBER_TEXT": "Er du sikker på at du vil fjerne blokkeringen av {number}?",
-                "UNBLOCK_NUMBER_BUTTON_CANCEL": "Avbryt",
-                "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Fjern",
-                "BLOCK_NUMBER_TITLE": "Blokker Nummer",
-                "BLOCK_NUMBER_TEXT": "Er du sikker på at du vil blokker {number}?",
-                "BLOCK_NUMBER_BUTTON_CANCEL": "Avbryt",
-                "BLOCK_NUMBER_BUTTON_BLOCK": "Blokker"
-            },
-            "FAVOURITES": {
-                "TITLE": "Favoritter",
-                "REMOVE_TITLE": "Fjern fra Favorites",
-                "REMOVE_TEXT": "Er du sikker på at du vil fjerne kontakten fra favoritter?",
-                "REMOVE_BUTTON_CANCEL": "Avbryt",
-                "REMOVE_BUTTON_REMOVE": "Slett"
-            },
-            "KEYPAD": {
-                "TITLE": "Tastatur",
-                "ADD_NUMBER": "Legg til Nummer"
-            },
-            "RECENTS": {
-                "TITLE": "Siste"
-            }
-        },
-        "WALLET": {
-            "TITLE": "Wallet",
-            "BALANCE": "Balanse",
-            "SEND": "Send",
-            "NEXT": "Neste",
-            "DONE": "Ferdig",
-            "DONE_SUBTITLE": "Du sendte {amount} til {number}",
-            "NO_REFUNDS": "Betalinger kan ikke refunderes, dobbeltsjekk nummeret.",
-            "NEW_BALANCE": "Ny Saldo",
-            "LATEST_TRANSACTIONS": "Siste Transaksjoner",
-            "NOW": "Nå",
-            "AGO": "siden"
-        },
-        "GARAGE": {
-            "TITLTE": "Garasje",
-            "ACTIONS": "Handlinger",
-            "MY_CARS": "Mine Kjøretøy",
-            "OUT": "Ute",
-            "GARAGE": "Garasje",
-            "LOCATION": "Lokasjon",
-            "SUMMON": "Tilkall",
-            "VALET": "Valet",
-            "STATISTICS": "Statistikk",
-            "FUEL": "Drivstoff",
-            "ENGINE": "Motor",
-            "BODY": "Karosseri",
-            "WAYPOINT_POPUP": {
-                "TITLE": "Sett Veipunkt",
-                "TEXT": "Vil du sette veipunkt til din {model}?",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            },
-            "VALET_POPUP": {
-                "TITLE": "Valet",
-                "TEXT": "Vil du få tilkjørt din {model} ({plate})?",
-                "TEXT_PAID": "Vil du få tilkjørt din {model} ({plate}) for {amount}?",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            }
-        },
-        "HOME": {
-            "TITLE": "Hjem",
-            "MY_HOMES": "Mine Hjem",
-            "MY_HOME": "Mitt Hjem",
-            "KEY_ACCESS": "Nøkler",
-            "ACTIONS": "Handlinger",
-            "FRONT_DOOR": "Inngangsdør",
-            "LOCATION": "Lokasjon",
-            "SET_WAYPOINT": "Sett Veipunkt",
-            "UNLOCK": "Lås opp",
-            "UNLOCKED": "Opplåst",
-            "LOCK": "Lås",
-            "LOCKED": "Låst",
-            "GIVE_KEY": "Gi Nøkler",
-            "MANAGE": "Administrer",
-            "WAYPOINT_POPUP": {
-                "TITLE": "Sett Veipunkt",
-                "TEXT": "Vil du sette veipunkt til {home}?",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            },
-            "LOCK_POPUP": {
-                "TITLE": "{toggle} Hjem",
-                "TEXT": "Vil du {toggle} ditt hjem?",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            },
-            "GIVE_KEY_POPUP": {
-                "TITLE": "Gi Nøkkel",
-                "TEXT": "Skriv ID på personen du vil gi nøkkel til",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            },
-            "REMOVE_KEY_POPUP": {
-                "TITLE": "Fjern nøkkelholder",
-                "TEXT": "Vil du fjerne tilgangen til {name}?",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            }
-        },
-        "MARKETPLACE": {
-            "CANCEL": "Avbryt",
-            "SEARCH": "Søk etter annonser eller nummer",
-            "NEW_POST": "Ny Annonse",
-            "TITLE": "Tittel",
-            "DESCRIPTION": "Beskrivelse",
-            "PRICE": "Pris",
-            "POST": "Legg ut",
-            "CONTACT": "Kontakt",
-            "DELETE": "Slett",
-            "REMOVE": "Fjern",
-            "DELETE_POPUP": {
-                "TITLE": "Slett Annonse",
-                "TEXT": "Er du sikker på at du vil slette annonsen?",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Slett"
-            }
-        },
-        "YELLOWPAGES": {
-            "SEARCH": "Søk etter innlegg eller nummer",
-            "FROM": "Fra",
-            "CANCEL": "Avbryt",
-            "NEW_POST": "Nytt Innlegg",
-            "TITLE": "Tittel",
-            "DESCRIPTION": "Beskrivelse",
-            "PRICE": "Pris",
-            "POST": "Legg ut",
-            "CALL": "Ring",
-            "DELETE_POPUP": {
-                "TITLE": "Slett Innlegg",
-                "TEXT": "Er du sikker på at du vil slette innlegget?",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Slett"
-            }
-        },
-        "MAIL": {
-            "TITLE": "Mail",
-            "YOU": "Du",
-            "UPDATED_NOW": "Oppdatert akkurat nå",
-            "NEW_MESSAGE": "Ny melding",
-            "INBOX": "Innboks",
-            "TO": "Til",
-            "FROM": "Fra",
-            "SUBJECT": "Emne",
-            "MESSAGE": "Melding",
-            "CANCEL": "Avbryt",
-            "SEND": "Send",
-            "EMAIL": "E-post",
-            "EMAIL_INVALID": "Ugyldig epostadresse",
-            "EMAIL_EXISTS": "E-post eksisterer allerede",
-            "PASSWORD": "Passord",
-            "WRONG_PASSWORD": "Feil passord",
-            "LOGIN": "Logg Inn",
-            "NO_EMAIL": "Har du ikke en e-postadresse?",
-            "CREATE_ONE": "Lag en",
-            "UNREAD": "Ulest",
-            "CREATE_MAIL": "Opprett e-post",
-            "ALREADY_HAVE": "Har du allerede en e-postadresse?",
-            "SIGN_OUT_POPUP": {
-                "TITLE": "Logg ut",
-                "DESCRIPTION": "Er du sikker på at du vil logge ut?",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            }
-        },
-        "MAPS": {
-            "TITLE": "Maps",
-            "GO": "Sett GPS",
-            "ADD": "Legg til",
-            "EDIT": "Rediger",
-            "DELETE": "Slett",
-            "SET_WAYPOINT": "Sett Veipunkt",
-
-            "ADD_LOCATION_POPUP": {
-                "TITLE": "Legg til lokasjon",
-                "DESCRIPTION": "Skriv inn navnet på stedet du vil legge til",
-                "PLACEHOLDER": "Navn", 
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            },
-            "CHANGE_NAME_POPUP": {
-                "TITLE": "Endre Navn",
-                "DESCRIPTION": "Skriv inn det nye navnet på stedet",
-                "PLACEHOLDER": "Navn", 
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            }
-        },
-        "MUSIC": {
-            "TITLE": "Musikk",
-            "LIBRARY": "Bibliotek",
-            "SEARCH": "Søk",
-            "ADD_QUEUE": "Legg til i kø",
-            "ADD_PLAYLIST": "Legg til i spilleliste",
-            "REMOVE_SONG": "Fjern Sang",
-            "NOT_PLAYING": "Spiller Ikke",
-            "DELETE_PLAYLIST": "Slett Spilleliste",
-            "SEARCH_PLACEHOLDER": "Artister, Sanger, Album, Spillelister",
-            "SONGS": "Sanger",
-            "ALBUMS": "Album",
-            "PLAY": "Spill",
-            "SHUFFLE": "Aktiver Gjenta",
-            "ARTIST": "Artist",
-            "ALBUM": "Album",
-            "PLAYLIST": "Spilleliste",
-            "SONG": "Sang",
-            "SONG_EXISTS_POPUP": {
-                "TITLE": "Sangen eksisterer allerede",
-                "DESCRIPTION": "Denne sangen finnes allerede i denne spillelisten",
-                "CANCEL": "Avbryt"
-            },
-            "NEW_PLAYLIST_POPUP": {
-                "TITLE": "Ny spilleliste",
-                "DESCRIPTION": "Opprett en ny spilleliste",
-                "PLACEHOLDER": "Spilleliste Navn",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            }
-        },
-        "TINDER": {
-            "TITLE": "Tinder",
-            "LIKES_YOU_TOO": "liker deg også!",
-            "KEEP_SWIPING": "Fortsett å sveipe",
-            "SAY_SOMETHING_NICE": "Si noe hyggelig",
-            "NO_MORE": "Vi har gått tom for folk du kan sveipe på, kom tilbake senere!",
-            "SEND": "Send",
-            "AGREE_TERMS": "Ved å trykke 'Opprett konto' godtar du våre vilkår for bruk og personvernerklæring",
-            "CREATE_ACCOUNT": "Opprett konto",
-            "AGE_PUBLIC": "Din alder vil være offentlig",
-            "BE_OVER_18": "Du må være over 18 år for å bruke denne tjenesten",
-            "NAME_MINIMUM": "Navnet ditt må være på minst 3 tegn",
-            "ADD_PHOTOS": "Legg til bilder",
-            "PHOTOS_MINIMUM": "Du må ha minst ett bilde",
-            "DESCRIPTION": "Fortell oss litt om deg selv",
-            "DESCRIPTION_MINIMUM": "Beskrivelsen din må være på minst 10 tegn",
-            "SHOW_ME": "Vis Meg",
-            "WOMEN": "Kvinner",
-            "MEN": "Menn",
-            "EVERYONE": "Alle",
-            "EVERYTHING": "Alt",
-            "I_AM": "Jeg er en",
-            "MALE": "Mann",
-            "FEMALE": "Kvinne",
-            "CONTINUE": "Fortsett",
-            "NAME": "Navn",
-            "PHOTOS": "Bilder",
-            "ABOUT_ME": "Om meg",
-            "INTERESTED_IN": "Interessert i",
-            "GENDER": "Kjønn",
-            "SAVE": "Lagre",
-            "NEW_MATCHES": "Nye Matches",
-            "MESSAGES": "Meldinger",
-            "SEARCH_MATCHES": "Søk Matches"
-        },
-        "INSTAGRAM": {
-            "TITLE": "Instagram",
-            "SEND": "Send",
-            "POST": "Post",
-            "MESSAGE_PLACEHOLDER": "Melding...",
-            "NEW_MESSAGE": "Ny Melding",
-            "NOW": "Nå",
-            "GO_LIVE_POPUP": {
-                "TITLE": "Gå Live",
-                "DESCRIPTION": "Er du sikker på at du vil gå live?",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            },
-            "END_LIVE_POPUP": {
-                "TITLE": "Avslutt Live",
-                "DESCRIPTION": "Er du sikker på at du vil {action} denne liven?",
-                "CANCEL": "Avbryt",
-                "END": "Avslutt",
-                "LEAVE": "Forlat"
-            },
-            "UNFOLLOW_POPUP": {
-                "TITLE": "Slutt å følge",
-                "DESCRIPTION": "Er du sikker på at du vil slutte å følge {name}?",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            },
-            "DELETE_POST_POPUP": {
-                "TITLE": "Slett Innlegg",
-                "DESCRIPTION": "Er du sikker på at du vil slette dette innlegget?",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            },
-            "SIGN_OUT_POPUP": {
-                "TITLE": "Logg ut",
-                "DESCRIPTION": "Er du sikker på at du vil logge ut?",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            },
-            "LIVE_ENDED": "Live avsluttet",
-            "COMMENT_PLACEHOLDER": "Kommentar",
-            "LIVE": "Live",
-            "YOUR_STORY": "Din Historie",
-            "CREATE_STORY": "Lag Historie",
-            "GO_LIVE": "Gå Live",
-            "EMPTY_FEED": "Begynn å følge folk for å se bildene og videoene deres her",
-            "COMMENTS": "Kommentarer",
-            "ADD_COMMENT_AS": "Legg til kommentar som {name}",
-            "NEW_POST": "Nytt Innlegg",
-            "NEXT": "Neste",
-            "CAPTION_PLACEHOLDER": "Skriv en caption...",
-            "ACTIVITY": "Aktivitet",
-            "FOLLOW": "Følg",
-            "FOLLOWING": "Følger",
-            "FOLLOWERS": "Følgere",
-            "FOLLOWER": "Følger",
-            "LIKES": "Likes",
-            "LIKED_BY": "Likt av",
-            "VIEW_ALL_COMMENTS": "Se alle {count} kommentarer",
-            "FIRST_COMMENT": "Vær den første til å kommentere...",
-            "NO_ACCOUNT": "Det er ingen konto med dette brukernavnet",
-            "WRONG_USERNAME_OR_PASSWORD": "Feil brukernavn eller passord",
-            "LOG_IN": "Logg Inn",
-            "ACCOUNT_WITH_USERNAME": "Det finnes allerede en konto med dette brukernavnet",
-            "CREATE_ACCOUNT": "Opprett Konto",
-            "USERNAME_PLACEHOLDER": "Brukernavn",
-            "NAME_PLACEHOLDER": "Navn",
-            "PASSWORD_PLACEHOLDER": "Passord",
-            "NOT_HAVE_ACCOUNT": "Har du ikke en konto?",
-            "HAVE_ACCOUNT": "Har du en konto?",
-            "LIKED_PHOTO": "likte bildet ditt.",
-            "LIKED_COMMENT": "likte kommentaren din: {comment}",
-            "COMMENTED": "kommenterte innlegget ditt: {comment}",
-            "FOLLOWED": "begynt å følge deg.",
-            "DONE": "Gjort",
-            "EDIT_PROFILE": "Rediger profil",
-            "CHANGE_PICTURE": "Bytt profilbilde",
-            "NAME": "Navn",
-            "BIO": "Bio",
-            "SIGN_OUT": "Logg ut",
-            "POSTS": "Innlegg",
-            "MESSAGE": "Melding",
-            "SENT_A_PHOTO": "sendte et bilde",
-            "TO": "Til",
-            "SEND_A_MESSAGE": "Send en melding..."
-        },
-        "TWITTER": {
-            "TITLE": "Twitter",
-            "SEARCH_FOR": "Søk etter '{search}'",
-            "START_SEARCHING": "Begynn å søke for å utforske Twitter",
-            "TRENDING_HASHTAGS": "Trending hashtags",
-            "SENT_ATTACHMENT": "sendte et vedlegg",
-            "TO": "Til",
-            "TWEETS": "Tweets",
-            "REPLIES": "Svar",
-            "MEDIA": "Media",
-            "LIKES": "Likes",
-            "CANCEL": "Avbryt",
-            "TWEET": "Tweet",
-            "TWEET_REPLY": "Tweet svaret ditt",
-            "TWEET_GENERAL": "Hva skjer?",
-            "EDIT_PROFILE": "Rediger profil",
-            "SAVE": "Lagre",
-            "NAME": "Navn",
-            "JOIN_DATE": "Bli med på Date",
-            "BIO": "Bio",
-            "SIGN_OUT": "Logg ut",
-            "SIGN_OUT_POPUP": {
-                "TITLE": "Logg ut",
-                "DESCRIPTION": "Er du sikker på at du vil logge ut?",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            },
-            "UNFOLLOW_POPUP": {
-                "TITLE": "Slutt å følge",
-                "DESCRIPTION": "Er du sikker på at du vil slutte å følge {name}?",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            },
-            "RETWEET_POPUP": {
-                "RETWEET": "Retweet",
-                "UNDO_RETWEET": "Angre Retweet",
-                "DESCRIPTION": "Er du sikker på at du vil {action}?",
-                "CANCEL": "Avbryt"
-            },
-            "DELETE_POPUP": {
-                "TITLE": "Slett Tweet",
-                "DESCRIPTION": "Er du sikker på at du vil slette denne tweeten?",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            },
-            "NOTIFICATIONS_POPUP": {
-                "TITLE": "Varsler",
-                "DESCRIPTION": "Er du sikker på at du vil {action} varsler på @{name}?",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett",
-                "ENABLE": "Aktivere",
-                "DISABLE": "Deaktivere"
-            },
-            "PROMOTE_POPUP": {
-                "TITLE": "Promoter Tweet",
-                "DESCRIPTION": "Vil du promotere denne tweeten for {price} for {views} visninger?",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            },
-            "YOU": "Du",
-            "FOLLOW": "Følg",
-            "FOLLOWING": "Følger",
-            "FOLLOWERS": "Følgere",
-            "RETWEETED": "Retweeted",
-            "REPLYING_TO": "Svarer til {name}",
-            "RETWEETED_BY": "Retweeted Av",
-            "LIKED_BY": "Likt av",
-            "ALL": "Alle",
-            "NOTIFICATIONS": "Varsler",
-            "FOLLOWS_YOU": "Følger deg",
-            "JOINED": "Ble med {date}",
-            "LIKED_TWEET": "likte tweeten din",
-            "RETWEETED_TWEET": "retweetet tweeten din",
-            "FOLLOWED": "fulgte deg",
-            "SIGN_UP_TEXT": "Se hva som skjer i verden akkurat nå",
-            "TERMS_OF_SERVICE": "Ved å registrere deg godtar du våre vilkår for bruk og personvernerklæring.",
-            "HAS_ACCOUNT": "Har du allerede en konto?",
-            "CREATE_YOUR_ACCOUNT": "Lag din konto",
-            "NAME_PLACEHOLDER": "Navn",
-            "USERNAME_PLACEHOLDER": "Brukernavn",
-            "PASSWORD_PLACEHOLDER": "Passord",
-            "GET_STARTED": "For å komme i gang, skriv først inn @brukernavnet ditt",
-            "FORGOT_PASSWORD": "Glemt passord?",
-            "ENTER_PASSWORD": "Skriv inn passordet ditt",
-            "SEARCH_DIRECT_MESSAGES": "Søk på direktemeldinger",
-            "SEARCH_TWITTER": "Søk på Twitter",
-            "MESSAGE_PLACEHOLDER": "Melding...",
-            "NOW": "Nå",
-            "LOGIN": "Logg Inn",
-            "CREATE_ACCOUNT": "Opprett konto",
-            "PROMOTE": "Promoter",
-            "PIN": "Pin Tweet",
-            "UNPIN": "Løsne Tweet"
-        },
-        "SERVICES": {
-            "ACTIONS": "Handlinger",
-            "COMPANIES": "Bedrifter",
-            "MESSAGES": "Meldinger",
-
-            "CLOSED": "Lukket",
-            "YOUR_MESSAGES": "Dine Meldinger",
-            "JOB_MESSAGES": "Jobbmeldinger",
-
-            "DUTY": "Vakt",
-            "GO_ON_DUTY": "Gå på Vakt",
-            "GO_OFF_DUTY": "Gå av Vakt",
-            "BALANCE": "Saldo",
-            "MANAGE_EMPLOYEES": "Administrer ansatte",
-            "HIRE": "Ansett",
-            "SET_GRADE": "Sett Gradering",
-            "UNEMPLOYED": "Du er arbeidsledig",
-
-            "DEPOSIT_POPUP": {
-                "TITLE": "Innskudd",
-                "DESCRIPTION": "Sett inn penger på firmakontoen",
-                "AMOUNT": "Beløp",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            },
-            "WITHDRAW_POPUP": {
-                "TITLE": "Ta ut",
-                "DESCRIPTION": "Ta ut penger fra firmakontoen",
-                "AMOUNT": "Amount",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            },
-            "HIRE_POPUP": {
-                "TITLE": "Ansett",
-                "DESCRIPTION": "Ansett en ny arbeider",
-                "PLACEHOLDER": "ID",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            },
-            "FIRE_POPUP": {
-                "TITLE": "Spark",
-                "DESCRIPTION": "Er du sikker på at du vil sparke {name}?",
-                "PLACEHOLDER": "ID",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            },
-            "CALL_POPUP": {
-                "TITLE": "Ring",
-                "DESCRIPTION": "Er du sikker på at du vil ringe {name}?",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Fortsett"
-            }
-        }
+  "LABEL": "Norsk",
+  "SEARCH": "Søk",
+  "CANCEL": "Avbryt",
+  "OPTIONAL": "Valgfritt",
+  "ADD": "Legg til",
+  "NOW": "nå",
+  "D": "d",
+  "H": "t",
+  "M": "m",
+  "S": "s",
+  "APP_NAMES": {
+    "Police": "Politi",
+    "Ambulance": "Ambulanse",
+    "Registration": "Registrering",
+    "Notes": "Notater",
+    "Browser": "Nettleser",
+    "Settings": "Innstillinger",
+    "Photos": "Bilder",
+    "Camera": "Kamera",
+    "Calculator": "Kalkulator",
+    "Apps": "Apper",
+    "Clock": "Klokke",
+    "Maps": "Kart",
+    "Mail": "Mail",
+    "Services": "Tjenester",
+    "VoiceMemo": "Taleopptak"
+  },
+  "APPS": {
+    "SETTINGS": {
+      "TITLE": "Innstillinger",
+      "BACK": "Tilbake",
+      "DONE": "Ferdig",
+      "EDIT": "Rediger",
+      "AIRPLANE_MODE": "Flymodus",
+      "AIRPLANE_MODE_DESCRIPTION": "Deaktiver anrop, mobildata osv.",
+      "STREAMER_MODE": "Streamer-modus",
+      "STREAMER_MODE_DESCRIPTION": "Slører sensitiv informasjon",
+      "GENERAL": "Generelt",
+      "GENERAL_DESCRIPTION": "Generelle innstillinger for nettbrettet ditt",
+      "ABOUT": "Om",
+      "NAME": "Navn",
+      "VERSION": "Versjon",
+      "MODEL_NAME": "Modellnavn",
+      "SERIAL_NUMBER": "Serienummer",
+      "DEVELOPED_BY": "Utviklet av",
+      "PURCHASE_AT": "Kjøpt hos",
+      "SONGS": "Sanger",
+      "VIDEOS": "Videoer",
+      "PHOTOS": "Bilder",
+      "APPLICATIONS": "Applikasjoner",
+      "CAPACITY": "Kapasitet",
+      "AVAILABLE": "Tilgjengelig",
+      "SOFTWARE_UPDATE": "Programvareoppdatering",
+      "AUTOMATIC_UPDATES": "Automatiske oppdateringer",
+      "DATE_TIME": "Dato og tid",
+      "24_HOUR_TIME": "24-timers klokke",
+      "SET_AUTOMATICALLY": "Still inn automatisk",
+      "TIME_ZONE": "Tidssone",
+      "LANGUAGE_REGION": "Språk og region",
+      "LANGUAGE": "Språk",
+      "TEMPERATURE": "Temperatur",
+      "CELCIUS": "Celsius",
+      "FAHRENHEIT": "Fahrenheit",
+      "BATTERY": "Batteri",
+      "BATTERY_DESCRIPTION": "Se batteritid og bruk",
+      "SOUND_HAPTICS": "Lyd og haptikk",
+      "SOUND_HAPTICS_DESCRIPTION": "Endre lyder og vibrasjoner",
+      "SOUND_HAPTICS_PATTERNS": "Lyd- og haptikkmønstre",
+      "RINGTONE": "Ringetone",
+      "RINGTONE_VOLUME": "Volum for ringetone",
+      "TEXT_TONE": "Meldingstone",
+      "DEFAULT": "Standard",
+      "PHONE_STORAGE": "Nettbrettlagring",
+      "STORAGE": "Lagring",
+      "USED": "Brukt",
+      "OF": "av",
+      "DISPLAY_BRIGHTNESS": "Skjerm og lysstyrke",
+      "DISPLAY_BRIGHTNESS_DESCRIPTION": "Juster skjerm og lysstyrke",
+      "DARK": "Mørk",
+      "LIGHT": "Lys",
+      "APPEARANCE": "Utseende",
+      "AUTOMATIC": "Automatisk",
+      "BRIGHTNESS": "Lysstyrke",
+      "FRAME_COLOR": "Rammefarge",
+      "TABLET_SCALE": "Nettbrettskala",
+      "WALLPAPER": "Bakgrunn",
+      "WALLPAPER_DESCRIPTION": "Endre bakgrunn og andre bakgrunnsinnstillinger",
+      "WALLPAPERS": "Bakgrunner",
+      "CHOOSE_NEW_WALLPAPER": "Velg en ny bakgrunn",
+      "NOTIFICATIONS": "Varsler",
+      "NOTIFICATIONS_DESCRIPTION": "Velg hvilke apper som kan sende varsler",
+      "ALLOW_NOTIFICATIONS": "Tillat varsler",
+      "SOUNDS": "Lyder",
+      "CLOUD_BACKUP": "Skysikkerhetskopi",
+      "YOUR_PROFILE": "Din profil",
+      "SUCCESS": "Vellykket",
+      "SUCCESS_TEXT": "Nettbrettet starter på nytt om 5 sekunder...",
+      "OK": "OK",
+      "ON": "På",
+      "OFF": "Av",
+      "RESET_POPUP": {
+        "TITLE": "Tilbakestill nettbrett",
+        "TEXT": "Er du sikker på at du vil tilbakestille nettbrettet ditt? [DETTE VIL FJERNE ALT]",
+        "CANCEL": "Avbryt",
+        "CONFIRM": "Tilbakestill"
+      },
+      "UP_TO_DATE": "Nettbrettet ditt er oppdatert",
+      "BLUR_HOMESCREEN": "Slør hjemskjerm"
     },
-    "COMPONENTS": {
-        "CONTEXT_MENU": {
-            "CANCEL": "Avbryt",
-            "CALL": "Anrop",
-            "VIDEO_CALL": "Videoanrop",
-            "MESSAGE": "Melding"
-        },
-        "IMAGE": {
-            "SAVE_TO_GALLERY": "Lagre til Galleri"
-        },
-        "GALLERY": {
-            "CANCEL": "Avbryt",
-            "EXTERNAL_URL": "Ekstern URL"
-        },
-        "NOTIFICATIONS": {
-            "SENT_PHOTO": "Sendte et bilde",
-            "SENT_GIF": "Sendte en GIF",
-            "NOW": "nå"
-        },
-        "SHARE": {
-            "COPY_PHOTO": "Kopier Bilde",
-            "USE_WALLPAPER": "Bruk som Bakgrunn",
-            "COPY_NUMBER": "Kopier Nummer",
-            "AIRDROP_SENT": "Sendt",
-            "AIRDROP_ACCEPTED": "Akseptert",
-            "AIRDROP_DECLINED": "Avslått",
-            "WALLPAPER_POPUP": {
-                "TITLE": "Bruk som Bakgrunn",
-                "TEXT": "Er du sikker på at du vil bruke dette bildet som bakgrunn?",
-                "CANCEL": "Avbryt",
-                "PROCEED": "Forsett"
-            }
-        },
-        "AIRDROP": {
-            "TITLE": "Airdrop",
-            "TEXT": "{sender} vil dele {type}",
-            "VIDEO": "video",
-            "PHOTO": "bilde",
-            "CONTACT": "kontakt",
-            "DECLINE": "Avslå",
-            "ACCEPT": "Godta"
-        }
+    "NOTES": {
+      "TITLE": "Notater",
+      "SEARCH_PLACEHOLDER": "Søk",
+      "FOOTER": "{amount} notater",
+      "NEW_NOTE": "Nytt notat",
+      "LAST_EDITED": "Sist redigert: {date}",
+      "DELETE_TITLE": "Slett {title}",
+      "DELETE_TEXT": "Er du sikker på at du vil slette '{title}'?",
+      "BUTTON_CANCEL": "Avbryt",
+      "BUTTON_DELETE": "Slett",
+      "PHONE": "Telefon",
+      "TABLET": "Nettbrett"
     },
-    "SETUP": {
-        "HELLO": "Hei",
-        "NEXT": "Klikk for å åpne",
-        "CREATE_PASSCODE": "Opprett Pin-kode",
-        "CREATE_PASSCODE_TEXT": "En pin-kode beskytter dine data og brukes for å låse opp din telefon.",
-        "SKIP": "Hopp over",
-        "FACE_ID_SETUP": "Face ID Oppsett",
-        "FACE_ID_TEXT": "Sett opp Face ID for å automatisk låse opp din telefon med ansiktet ditt.",
-        "ENABLE_FACE_ID": "Skru på Face ID",
-        "APPEARANCE": "Utseende",
-        "APPEARANCE_TEXT": "Velg lyst eller mørkt utseende",
-        "CONTINUE": "Forsett",
-        "WELCOME_TO": "Velkommen til",
-        "CLICK": "Trykk for å starte"
-    },
-    "HOMESCREEN": {
+    "CLOCK": {
+      "WORLDCLOCK": {
+        "TITLE": "Verdensklokke",
+        "TODAY": "I dag",
+        "TOMORROW": "I morgen",
+        "YESTERDAY": "I går",
+        "LOCAL_TIME": "Lokal tid",
+        "HRS": "{time} t"
+      },
+      "ALARM": {
+        "TITLE": "Alarm",
+        "ADD": "Legg til alarm",
+        "CANCEL": "Avbryt",
+        "EDIT": "Rediger",
         "DONE": "Ferdig",
-        "DELETE": "Slett",
-        "REMOVE_TEXT": "Sletting av appen vil IKKE slette dataen. Appen kan lastes ned på nytt fra App Store.",
+        "SAVE": "Lagre",
+        "LABEL": "Etikett",
+        "SOUND": "Lyd",
+        "SNOOZE": "Slumre",
+        "DELETE_TITLE": "Slett alarm",
+        "DELETE_TEXT": "Er du sikker på at du vil slette denne alarmen?",
         "BUTTON_CANCEL": "Avbryt",
-        "BUTTON_DELETE": "Slett"
+        "BUTTON_DELETE": "Slett",
+        "ALARMS": "Alarmer",
+        "NEW_ALARM": "Ny alarm",
+        "EDIT_ALARM": "Rediger alarm"
+      },
+      "STOPWATCH": {
+        "TITLE": "Stoppeklokke",
+        "START": "Start",
+        "STOP": "Stopp",
+        "RESET": "Nullstill",
+        "LAP": "Runde",
+        "TIME": "Tid",
+        "TOTAL": "Totalt",
+        "NO_LAPS": "Ingen runder"
+      },
+      "TIMER": {
+        "TITLE": "Nedtelling",
+        "START": "Start",
+        "STOP": "Stopp",
+        "CANCEL": "Avbryt",
+        "HOURS": "Timer",
+        "MINUTES": "Minutter",
+        "SECONDS": "Sekunder",
+        "NO_RECENTS": "Ingen nylige"
+      },
+      "ALERT": {
+        "STOP": "Stopp",
+        "RESTART": "Start på nytt"
+      }
     },
-    "LOCKSCREEN": {
-        "ENTER_PASSCODE": "Skriv Pin-kode",
+    "CAMERA": {
+      "VIDEO": "Video",
+      "PHOTO": "Bilde",
+      "LANDSCAPE": "Landskap",
+      "UPLOADING": "Laster opp"
+    },
+    "APPSTORE": {
+      "TITLE": "Apper",
+      "SEARCH": "Søk",
+      "GET": "Hent",
+      "OPEN": "Åpne",
+      "TODAY": "I dag",
+      "POPULAR_APPS": "Populære apper",
+      "GAMES": "Spill",
+      "APPS": "Apper",
+      "WHAT_WE_PLAYING": "Hva vi spiller",
+      "INFORMATION": "Informasjon",
+      "PROVIDER": "Leverandør",
+      "SIZE": "Størrelse",
+      "COMPATIBILITY": "Kompatibilitet",
+      "IN_APP_PURCHASES": "Kjøp i app",
+      "WORKS_WITH_PHONE": "Fungerer med dette nettbrettet",
+      "NO": "Nei",
+      "YES": "Ja",
+      "PURCHASE_APP_POPUP": {
+        "TITLE": "Kjøp app",
+        "DESCRIPTION": "Vil du kjøpe {app} for {price}?",
+        "CANCEL": "Avbryt",
+        "PROCEED": "Kjøp"
+      }
+    },
+    "PHOTOS": {
+      "TITLE": "Bilder",
+      "SELECT": "Velg",
+      "CANCEL": "Avbryt",
+      "EDIT": "Rediger",
+      "DONE": "Ferdig",
+      "DELETE": "Slett",
+      "SELECT_ITEMS": "Velg elementer",
+      "SELECTED_COUNT": "{count} elementer valgt",
+      "PHOTOS": "Bilder",
+      "ALBUMS": "Album",
+      "LIBRARY": "Bibliotek",
+      "GALLERY": "Galleri",
+      "MY_ALBUMS": "Mine album",
+      "MEDIA_TYPES": "Medietyper",
+      "FROM_MY_PHONE": "Fra telefonen min",
+      "NEW_ALBUM_POPUP": {
+        "TITLE": "Nytt album",
+        "DESCRIPTION": "Skriv inn et navn for dette albumet",
+        "PLACEHOLDER": "Tittel",
+        "CANCEL": "Avbryt",
+        "PROCEED": "Lagre"
+      },
+      "REMOVE_ALBUM": {
+        "TITLE": "Fjern \"{name}\"",
+        "DESCRIPTION": "Er du sikker på at du vil slette albumet \"{name}\"? Bildene vil ikke bli slettet",
+        "CANCEL": "Avbryt",
+        "PROCEED": "Fjern"
+      },
+      "RENAME_ALBUM_POPUP": {
+        "TITLE": "Gi nytt navn til album",
+        "DESCRIPTION": "Skriv inn et nytt navn for dette albumet",
+        "PLACEHOLDER": "Nytt albumnavn",
+        "CANCEL": "Avbryt",
+        "PROCEED": "Fortsett"
+      },
+      "DELETE_IMAGE_POPUP": {
+        "TITLE": "Slett bilde",
+        "DESCRIPTION": "Er du sikker på at du vil slette dette bildet?",
+        "CANCEL": "Avbryt",
+        "PROCEED": "Slett"
+      },
+      "IMPORT_IMAGE_POPUP": {
+        "TITLE": "Importer til album",
+        "DESCRIPTION": "Importer et bilde til dette albumet",
+        "CANCEL": "Avbryt",
+        "PROCEED": "Importer",
+        "PLACEHOLDER": "Bilde-URL"
+      },
+      "NO_PHOTOS": "Ingen bilder eller videoer",
+      "NO_PHOTOS_INSTRUCTIONS": "Du kan ta bilder og videoer med kameraet",
+      "PHOTO_COUNT": "{amount} bilder",
+      "VIDEO_COUNT": "{amount} videoer",
+      "DELETE_CONTEXT_TITLE": "Vil du slette {type} eller fjerne dem fra dette albumet",
+      "THESE_PHOTOS": "disse bildene",
+      "THIS_PHOTO": "dette bildet",
+      "REMOVE_FROM_ALBUM": "Fjern fra album",
+      "ADD_TO_ALBUM": "Legg til i album",
+      "ADD_TO_FAVOURITES": "Legg til i favoritter",
+      "REMOVE_FROM_FAVOURITES": "Fjern fra favoritter",
+      "VIDEOS": "Videoer",
+      "SELFIES": "Selfier",
+      "SCREENSHOTS": "Skjermbilder",
+      "IMPORTS": "Importer",
+      "DUPLICATES": "Duplikater",
+      "YEARS": "År",
+      "MONTHS": "Måneder",
+      "DAYS": "Dager",
+      "ALL_PHOTOS": "Alle bilder",
+      "FAVOURITES": "Favoritter",
+      "RECENTS": "Nylige"
+    },
+    "MAIL": {
+      "TITLE": "Mail",
+      "YOU": "Du",
+      "UPDATED_NOW": "Oppdatert akkurat nå",
+      "NEW_MESSAGE": "Ny melding",
+      "INBOX": "Innboks",
+      "TO": "Til",
+      "FROM": "Fra",
+      "SUBJECT": "Emne",
+      "MESSAGE": "Melding",
+      "CANCEL": "Avbryt",
+      "SEND": "Send",
+      "EMAIL": "E-post",
+      "EMAIL_INVALID": "Ugyldig e-postadresse",
+      "EMAIL_EXISTS": "E-post finnes allerede",
+      "PASSWORD": "Passord",
+      "WRONG_PASSWORD": "Feil passord",
+      "LOGIN": "Logg inn",
+      "NO_EMAIL": "Har du ikke en e-postadresse?",
+      "CREATE_ONE": "Opprett en",
+      "UNREAD": "Ulest",
+      "CREATE_MAIL": "Opprett e-post",
+      "ALREADY_HAVE": "Har du allerede en e-postadresse?",
+      "ADD_EMAIL": "Legg til e-post",
+      "RE": "Sv: {subject}",
+      "CHANGE_ACCOUNT": "Bytt konto",
+      "CHANGE_PASSWORD": "Endre passord",
+      "DELETE_ACCOUNT": "Slett konto",
+      "SIGN_OUT_POPUP": {
+        "TITLE": "Logg ut",
+        "DESCRIPTION": "Er du sikker på at du vil logge ut?",
+        "CANCEL": "Avbryt",
+        "PROCEED": "Fortsett"
+      },
+      "DELETE_MAIL_POPUP": {
+        "TITLE": "Slett e-post",
+        "DESCRIPTION": "Er du sikker på at du vil slette denne e-posten?",
+        "CANCEL": "Avbryt",
         "DELETE": "Slett"
+      }
     },
-    "BACKEND": {
-        "CALLS": {
-            "NO_CALLER_ID": "Ingen Anrops-ID",
-            "MISSED_CALL": "Ubesvart anrop"
-        },
-        "GARAGE": {
-            "VALET": "Valet",
-            "COULDNT_FIND": "Kunne ikke finne kjøretøyet.",
-            "ALREADY_OUT": "Kjøretøyet er allerede ute.",
-            "NO_MONEY": "Du har ikke nok penger.",
-            "ON_WAY": "Kjøretøyet ditt er på vei.",
-            "MARKED": "Kjøretøyet ditt er merket på GPS-en."
-        },
-        "INSTAGRAM": {
-            "NOT_ALLOWED_LIVE": "Du har ikke lov til å gå live",
-            "STARTED_LIVE": "{username} startet en direktesending"
-        },
-        "TINDER": {
-            "NEW_MATCH": "Ny match",
-            "MATCHED_WITH": "Du matchet med {name}"
-        },
-        "CAMERA": {
-            "TAKE_PHOTO": "Trykk {key} for å ta et bilde",
-            "FLIP_CAMERA": "Trykk {key} for å snu kameraet",
-            "TOGGLE_FLASH": "Trykk {key} for å slå på/av blitsen",
-            "TOGGLE_CURSOR": "Trykk {key} for å toggle med markøren og se deg rundt",
-            "CHANGE_MODE": "Trykk {key} {key2} for å endre kameramodus"
-        },
-        "SERVICES": {
-            "NEW_MESSAGE": "Ny Melding"
+    "VOICEMEMO": {
+      "TITLE": "Taleopptak",
+      "VOICE_RECORDINGS": "Lydopptak",
+      "SEARCH_RECORDINGS": "Søk i opptak",
+      "DEFAULT_NAME": "Nytt opptak",
+      "DELETE_POPUP": {
+        "TITLE": "Slett taleopptak",
+        "DESCRIPTION": "Er du sikker på at du vil slette dette taleopptaket?",
+        "CANCEL": "Avbryt",
+        "PROCEED": "Fortsett"
+      },
+      "NO_MICROPHONE_POPUP": {
+        "TITLE": "Ingen mikrofon",
+        "DESCRIPTION": "Vi har ikke tilgang til mikrofonen din. Sørg for at en er koblet til og godta popup-vinduet øverst til høyre på skjermen",
+        "OK": "OK"
+      },
+      "EMPTY_RECORDING_POPUP": {
+        "TITLE": "Tomt opptak",
+        "DESCRIPTION": "Du kan ikke lagre et opptak uten lyd",
+        "OK": "OK"
+      }
+    },
+    "SERVICES": {
+      "ACTIONS": "Handlinger",
+      "COMPANIES": "Selskaper",
+      "MESSAGES": "Meldinger",
+      "SETTINGS": "Innstillinger",
+      "CLOSED": "Stengt",
+      "YOUR_MESSAGES": "Dine meldinger",
+      "JOB_MESSAGES": "Jobbmeldinger",
+      "DUTY": "Tjeneste",
+      "DUTY_DESCRIPTION": "Slå tjenestestatus av/på",
+      "GO_ON_DUTY": "Gå på vakt",
+      "GO_OFF_DUTY": "Gå av vakt",
+      "JOB_CALLS": "Jobbanrop",
+      "JOB_CALLS_DESCRIPTION": "{toggle} mottak av anrop fra kunder.",
+      "ENABLE": "Aktiver",
+      "DISABLE": "Deaktiver",
+      "DISABLE_CALLS": "Deaktiver anrop",
+      "ENABLE_CALLS": "Aktiver anrop",
+      "BALANCE": "Saldo",
+      "CURRENT_BALANCE": "Nåværende saldo for selskapet",
+      "MANAGE_EMPLOYEES": "Administrer ansatte",
+      "HIRE": "Ansett",
+      "SET_GRADE": "Sett rang",
+      "UNEMPLOYED": "Du er arbeidsledig",
+      "ALL": "Alle",
+      "AVAILABLE": "Tilgjengelig",
+      "SEARCH_EMPLOYEES": "Søk ansatte",
+      "PERSONAL": "Personlig",
+      "JOB": "Jobb",
+      "PLACEHOLDER": "Tekstmelding",
+      "NOT_DELIVERED": "Ikke levert",
+      "SENT_LOCATION": "Delte posisjonen sin, klikk for å åpne i Kart",
+      "SENT_LOCATION_SHORT": "Delte posisjonen sin",
+      "SEND_LOCATION_POPUP": {
+        "TITLE": "Del posisjon",
+        "TEXT": "Vil du dele posisjonen din?",
+        "CANCEL": "Avbryt",
+        "SEND": "Send"
+      },
+      "DELETE_CONVERSATION": {
+        "TITLE": "Slett samtale",
+        "DESCRIPTION": "Er du sikker på at du vil slette denne samtalen?",
+        "CANCEL": "Avbryt",
+        "DELETE": "Slett"
+      },
+      "DEPOSIT_POPUP": {
+        "TITLE": "Sett inn",
+        "DESCRIPTION": "Sett inn penger på bedriftskontoen",
+        "AMOUNT": "Beløp",
+        "CANCEL": "Avbryt",
+        "PROCEED": "Fortsett"
+      },
+      "WITHDRAW_POPUP": {
+        "TITLE": "Ta ut",
+        "DESCRIPTION": "Ta ut penger fra bedriftskontoen",
+        "NOT_ENOUGH_MONEY": "Det er ikke nok penger på bedriftskontoen",
+        "AMOUNT": "Beløp",
+        "CANCEL": "Avbryt",
+        "PROCEED": "Fortsett"
+      },
+      "HIRE_POPUP": {
+        "TITLE": "Ansett",
+        "DESCRIPTION": "Ansett en ny medarbeider",
+        "PLACEHOLDER": "ID",
+        "CANCEL": "Avbryt",
+        "PROCEED": "Fortsett"
+      },
+      "FIRE_POPUP": {
+        "TITLE": "Spark",
+        "DESCRIPTION": "Er du sikker på at du vil sparke {name}?",
+        "PLACEHOLDER": "ID",
+        "CANCEL": "Avbryt",
+        "PROCEED": "Fortsett"
+      }
+    },
+    "MDT": {
+      "CANCEL": "Avbryt",
+      "CLOSE": "Lukk",
+      "BACK": "Tilbake",
+      "EDIT": "Rediger",
+      "DELETE": "Slett",
+      "REMOVE": "Fjern",
+      "SAVE": "Lagre",
+      "CREATE": "Opprett",
+      "OK": "OK",
+      "ADD": "Legg til",
+      "NEW": "Ny",
+      "PROCEED": "Fortsett",
+      "YES": "Ja",
+      "NO": "Nei",
+      "ALL": "Alle",
+      "ADD_TAB": "Legg til fane",
+      "SEARCH": "Søk",
+      "SEARCH_FOR": "Søk etter {query} for å komme i gang",
+      "NO_RESULTS_FOR": "Ingen resultater funnet for '{query}'",
+      "CLEAR_HISTORY": "Tøm historikk",
+      "EXPORT": {
+        "TITLE": "Eksporter",
+        "DESCRIPTION": "Eksporter rapporten til et element",
+        "VIEW": "Vis",
+        "EXPORT_TO_ITEM": "Eksporter til element",
+        "SUCCESS": "Rapporten ble eksportert",
+        "SUCCESS_DESCRIPTION": "Rapporten har blitt eksportert til elementet"
+      },
+      "HOME": {
+        "TITLE": "Hjem"
+      },
+      "BULLETIN": {
+        "TITLE": "Oppslagstavle",
+        "SEARCH": "Søk i oppslagstavle",
+        "BULLETIN_BOARD": "Oppslagstavle",
+        "SEARCH_PLACEHOLDER": "Søk i oppslagstavle",
+        "SEARCH_FOR": "Søk etter {query} for å komme i gang",
+        "NO_RESULTS_FOR": "Ingen resultater funnet for '{query}'",
+        "NEW_BULLETIN": "Nytt oppslag",
+        "PIN": "Fest",
+        "UNPIN": "Løsne",
+        "DELETE_BULLETIN": {
+          "TITLE": "Slett oppslag",
+          "DESCRIPTION": "Er du sikker på at du vil slette dette oppslaget?"
         }
+      },
+      "DISPATCH": {
+        "TITLE": "Oppdrag",
+        "SEARCH_ALARMS": "Søk alarmer",
+        "SHOW_EMPLOYEES": "Vis ansatte",
+        "SHOW_ALARMS": "Vis alarmer",
+        "SHOW_POPUPS": "Vis popup-vinduer",
+        "OPTIONS": "Valg",
+        "OFFICERS": "Betjenter",
+        "ALARMS": "Alarmer",
+        "MAP": "Kart",
+        "LIST": "Liste",
+        "RESPOND": "Responder",
+        "RESPONDED": "Respondert",
+        "COLLAPSE": "Skjul",
+        "EXPAND": "Utvid",
+        "DISMISS": "Lukk",
+        "VIEW_IN_TABLET": "Vis på nettbrett",
+        "SET_WAYPOINT": "Sett veipunkt",
+        "LOS_SANTOS": "Los Santos",
+        "CAYO_PERICO": "Cayo Perico",
+        "OLD_NOTIFICATION": "{count} gammel varsling",
+        "OLD_NOTIFICATIONS": "{count} gamle varslinger",
+        "NEW_NOTIFICATION": "{count} ny varsling",
+        "NEW_NOTIFICATIONS": "{count} nye varslinger",
+        "PRIORITY_LEVELS": {
+          "HIGH": "Høy",
+          "MEDIUM": "Middels",
+          "LOW": "Lav"
+        },
+        "PRIORITY": "Prioritet",
+        "TIME": "Tid",
+        "CODE": "Kode",
+        "LOCATION": "Sted",
+        "RESPONDERS": "Respondenter",
+        "ACTIONS": "Handlinger",
+        "NONE": "Ingen",
+        "REMOVE": "Fjern",
+        "REMOVE_ALL": "Fjern alle",
+        "VIEW": "Vis",
+        "CREATE_DISPATCH": "Opprett oppdrag",
+        "CREATE_DISPATCH_MODAL": {
+          "TITLE": "Opprett oppdrag",
+          "TITLE_LABEL": "Tittel",
+          "TITLE_PLACEHOLDER": "Tittel på oppdrag",
+          "CODE_LABEL": "Kode",
+          "CODE_PLACEHOLDER": "00-99",
+          "PRIORITY_LABEL": "Prioritet",
+          "DESCRIPTION_LABEL": "Beskrivelse",
+          "DESCRIPTION_PLACEHOLDER": "Beskrivelse av oppdrag",
+          "LOCATION_LABEL": "Sted",
+          "LOCATION_PLACEHOLDER": "Stedsnavn",
+          "FIELDS_LABEL": "Felt",
+          "FIELD_NUMBER": "Felt {number}",
+          "ICON_LABEL": "Ikon",
+          "ICON_PLACEHOLDER": "Ikon",
+          "LABEL_LABEL": "Etikett",
+          "LABEL_PLACEHOLDER": "Feltnavn",
+          "VALUE_LABEL": "Verdi",
+          "VALUE_PLACEHOLDER": "Feltverdi"
+        },
+        "JUST_NOW": "Akkurat nå",
+        "MINUTES_AGO": "{minutes}m siden",
+        "HOURS_AGO": "{hours}t siden",
+        "REMOVE_ALARM": {
+          "TITLE": "Fjern alarm",
+          "DESCRIPTION": "Er du sikker på at du vil fjerne alarmen? (Dette vil fjerne oppdraget for alle ansatte)",
+          "CANCEL": "Avbryt",
+          "REMOVE": "Fjern"
+        },
+        "REMOVE_ALL_ALARMS": {
+          "TITLE": "Fjern alle alarmer",
+          "DESCRIPTION": "Er du sikker på at du vil fjerne alle alarmer? (Dette vil fjerne oppdraget for alle ansatte)"
+        },
+        "REMOVE_FOR_YOURSELF": "Fjern for deg selv",
+        "REMOVE_FOR_EVERYONE": "Fjern for alle"
+      },
+      "UNITS": {
+        "TITLE": "Enheter",
+        "SEARCH_UNITS": "Søk enheter",
+        "ACTIVE_UNITS": "Aktive enheter",
+        "AVALIABLE_OFFICERS": "Tilgjengelige betjenter",
+        "SEARCH_OFFICERS": "Søk betjenter",
+        "DROP_OFFICER": "Slipp betjent her",
+        "DROP_OFFICER_AVAILABLE": "Slipp betjent her for å gjøre tilgjengelig",
+        "OFFICER": "Betjent",
+        "OFFICERS": "Betjenter",
+        "NO_UNITS": "Legg til en enhet for å komme i gang",
+        "ADD_UNIT": {
+          "TITLE": "Legg til enhet",
+          "DESCRIPTION": "Opprett en ny enhet",
+          "PLACEHOLDER": "Enhetsnavn"
+        },
+        "RENAME_UNIT": {
+          "TITLE": "Gi nytt navn til enhet",
+          "DESCRIPTION": "Gi nytt navn til enheten",
+          "PLACEHOLDER": "Enhetsnavn"
+        },
+        "DELETE_UNIT": {
+          "TITLE": "Slett enhet",
+          "DESCRIPTION": "Er du sikker på at du vil slette denne enheten?"
+        }
+      },
+      "PROFILES": {
+        "TITLE": "Profil",
+        "PERSON": "Person",
+        "SEARCH": "Søk profiler",
+        "REMOVE_AVATAR": "Fjern avatar",
+        "IDENTIFIER": "Identifikator",
+        "FINGERPRINT": "Fingeravtrykk",
+        "DOB": "Fødselsdato",
+        "PHONE_NR": "Telefonnummer",
+        "GENDER": "Kjønn",
+        "JOB": "Jobb",
+        "MALE": "Mann",
+        "MALE_FULL": "Mann (M)",
+        "FEMALE": "Kvinne",
+        "FEMALE_FULL": "Kvinne (K)",
+        "NOTES": "Notater",
+        "NOTES_PLACEHOLDER": "Skriv inn notater her...",
+        "LICENSES": {
+          "TITLE": "Lisenser",
+          "ADD_LICENSE": "Legg til lisens",
+          "ADD": "Legg til",
+          "NO_LICENSES": "Ingen lisenser",
+          "REVOKE_LICENSE": {
+            "TITLE": "Trekk tilbake lisens",
+            "DESCRIPTION": "Er du sikker på at du vil trekke tilbake lisensen {license}?",
+            "CANCEL": "Avbryt",
+            "REVOKE": "Trekk tilbake"
+          }
+        },
+        "ADD_AVATAR": {
+          "TITLE": "Legg til avatar",
+          "SET_PHOTO": "Velg bilde",
+          "PASTE_URL": "Lim inn URL",
+          "PASTE_URL_DESCRIPTION": "Skriv inn en URL til et bilde",
+          "PASTE_URL_PLACEHOLDER": "Bilde-URL",
+          "INVALID_URL": "Ugyldig URL",
+          "INVALID_URL_DESCRIPTION": "URL-en du oppga er ikke en gyldig bilde-URL",
+          "OK": "OK"
+        },
+        "VEHICLES": "Kjøretøy",
+        "PROPERTIES": "Eiendommer",
+        "REPORTS": "Rapporter",
+        "WEAPONS": "Våpen",
+        "INVOLVED": "Involvert",
+        "CHARGES": "Anklager",
+        "NO_CHARGES": "Ingen anklager",
+        "FINE_PLAYER": {
+          "TITLE": "Gi bot",
+          "DESCRIPTION": "Vil du bøtelegge {name}?",
+          "DESCRIPTION_DETAILS": "Fyll inn beløp og beskrivelse",
+          "FINE_WITH_X": "Gi bot med {catalogLabel}",
+          "FINE_WITHOUT_X": "Gi bot uten {catalogLabel}",
+          "X_ADDED": "{catalogLabel} lagt til",
+          "ADD_MORE_X": "Lagt til: {catalogLabel}. Legg til en til {catalogLabel}?",
+          "ADD_ANOTHER": "Legg til en til",
+          "CANCEL": "Avbryt",
+          "PROCEED": "Fortsett",
+          "FINE": "Bot",
+          "AMOUNT_PLACEHOLDER": "Beløp",
+          "DESCRIPTION_PLACEHOLDER": "Beskrivelse",
+          "SEND_FINE": "Send bot",
+          "SUCCESS": "Vellykket",
+          "FINE_SENT": "Bot sendt til {name}",
+          "OK": "OK"
+        }
+      },
+      "VEHICLES": {
+        "TITLE": "Kjøretøy",
+        "VEHICLE": "Kjøretøy",
+        "SEARCH": "Søk kjøretøy",
+        "REMOVE_PICTURE": "Fjern bilde",
+        "DETAILS": "Detaljer",
+        "VEHICLES": "Kjøretøy",
+        "NO_VEHICLES": "Ingen kjøretøy",
+        "VEHICLES_INVOLVED": "Involverte kjøretøy",
+        "NO_VEHICLES_INVOLVED": "Ingen involverte kjøretøy",
+        "ADD_PHOTO": {
+          "TITLE": "Legg til bilde",
+          "SELECT_PHOTO": "Velg bilde",
+          "PASTE_URL": "Lim inn URL",
+          "PASTE_URL_DESCRIPTION": "Skriv inn en URL til et bilde",
+          "PASTE_URL_PLACEHOLDER": "Bilde-URL",
+          "INVALID_URL": "Ugyldig URL",
+          "INVALID_URL_DESCRIPTION": "URL-en du oppga er ikke en gyldig bilde-URL",
+          "OK": "OK"
+        },
+        "MODEL": "Modell",
+        "PLATE": "Skilt",
+        "COLOR": "Farge",
+        "LOCATION": "Sted",
+        "OWNER": "Eier",
+        "NOTES": "Notater",
+        "NOTES_PLACEHOLDER": "Skriv inn notater her...",
+        "SET_WAYPOINT": "Sett veipunkt",
+        "OPEN_IN_MAPS": "Åpne i Kart",
+        "WAYPOINT_SET": "Veipunkt satt",
+        "WAYPOINT_SET_DESCRIPTION": "Veipunktet er satt til kjøretøyets posisjon"
+      },
+      "PROPERTIES": {
+        "TITLE": "Eiendommer",
+        "PROPERTY": "Eiendom",
+        "SEARCH": "Søk eiendommer",
+        "NO_PROPERTIES": "Ingen eiendommer",
+        "REMOVE_PICTURE": "Fjern bilde",
+        "DETAILS": "Detaljer",
+        "ADD_PHOTO": {
+          "TITLE": "Legg til bilde",
+          "SELECT_PHOTO": "Velg bilde",
+          "PASTE_URL": "Lim inn URL",
+          "PASTE_URL_DESCRIPTION": "Skriv inn en URL til et bilde",
+          "PASTE_URL_PLACEHOLDER": "Bilde-URL",
+          "INVALID_URL": "Ugyldig URL",
+          "INVALID_URL_DESCRIPTION": "URL-en du oppga er ikke en gyldig bilde-URL",
+          "OK": "OK"
+        },
+        "LABEL": "Etikett",
+        "ADDRESS": "Adresse",
+        "OWNER": "Eier",
+        "LOCATION": "Sted",
+        "OPEN_IN_MAPS": "Åpne i Kart",
+        "NOTES": "Notater",
+        "NOTES_PLACEHOLDER": "Skriv inn notater her..."
+      },
+      "WEAPONS": {
+        "TITLE": "Våpen",
+        "WEAPON": "Våpen",
+        "SEARCH": "Søk våpen",
+        "NO_WEAPONS": "Ingen våpen",
+        "WEAPONS_INVOLVED": "Involverte våpen",
+        "NO_WEAPONS_INVOLVED": "Ingen involverte våpen",
+        "REMOVE_PICTURE": "Fjern bilde",
+        "DETAILS": "Detaljer",
+        "ADD_PHOTO": {
+          "TITLE": "Legg til bilde",
+          "SELECT_PHOTO": "Velg bilde",
+          "PASTE_URL": "Lim inn URL",
+          "PASTE_URL_DESCRIPTION": "Skriv inn en URL til et bilde",
+          "PASTE_URL_PLACEHOLDER": "Bilde-URL",
+          "INVALID_URL": "Ugyldig URL",
+          "INVALID_URL_DESCRIPTION": "URL-en du oppga er ikke en gyldig bilde-URL",
+          "OK": "OK"
+        },
+        "MODEL_MAKE": "Modell",
+        "SERIAL_NUMBER": "Serienr",
+        "NOTES": "Notater",
+        "NOTES_PLACEHOLDER": "Skriv inn notater her...",
+        "UNREGISTERED": "Uregistrert",
+        "OWNER": "Eier",
+        "SELECT_MODEL": "Velg modell",
+        "SELECT_OWNER": "Velg eier",
+        "REMOVE_OWNER": {
+          "TITLE": "Fjern eier",
+          "DESCRIPTION": "Er du sikker på at du vil fjerne {name} som eier?"
+        },
+        "DELETE_WEAPON": {
+          "TITLE": "Slett våpen",
+          "DESCRIPTION": "Er du sikker på at du vil slette dette våpenet?"
+        }
+      },
+      "REPORTS": {
+        "TITLE": "Rapporter",
+        "REPORT": "Rapport",
+        "SEARCH": "Søk rapporter",
+        "SEARCH_TYPE": "Søk {type}",
+        "RECENT_REPORTS": "Nylige rapporter",
+        "NO_REPORTS": "Ingen rapporter",
+        "LINKED_REPORTS": "Koblede rapporter",
+        "NO_LINKED_REPORTS": "Ingen koblede rapporter",
+        "NO_PERSONS_INVOLVED": "Ingen involverte personer",
+        "NO_TYPE_INVOLVED": "Ingen {type}",
+        "VIEW_PROFILE": "Vis profil",
+        "FOOTER": "{author} - {type} ID: {id}",
+        "FOOTER_TIMESTAMP": "{timestamp} - {author}",
+        "NEW_REPORT_TITLE": "Ny rapport",
+        "NEW_REPORT_TITLE_TEMPLATE": "Ny {type}",
+        "TYPE": "Type",
+        "DESCRIPTION": "Beskrivelse",
+        "DESCRIPTION_PLACEHOLDER": "Skriv inn en beskrivelse...",
+        "GALLERY": "Galleri",
+        "NO_ATTACHMENTS": "Ingen vedlegg",
+        "HIGH_PRIORITY": "Høy prioritet",
+        "MEDIUM_PRIORITY": "Middels prioritet",
+        "LOW_PRIORITY": "Lav prioritet",
+        "SELECT_TARGET": "Velg mål",
+        "SELECT_TARGET_TYPE": "Velg måltype",
+        "SELECT_VEHICLE": "Velg kjøretøy",
+        "NO_TARGET_SELECTED": "Ingen mål valgt",
+        "NO_VEHICLE_SELECTED": "Intet kjøretøy valgt",
+        "SELECT_PERSON": "Velg person",
+        "NO_PERSON_SELECTED": "Ingen person valgt",
+        "SELECT_PROPERTY": "Velg eiendom",
+        "NO_PROPERTY_SELECTED": "Ingen eiendom valgt",
+        "SELECT_WEAPON": "Velg våpen",
+        "NO_WEAPON_SELECTED": "Intet våpen valgt",
+        "CHARGES": "Anklager",
+        "CHARGES_AMOUNT": "Anklager: {amount}",
+        "FINE": "Bot",
+        "SENTENCE": "Straff",
+        "ACTIVE": "Aktiv",
+        "INACTIVE": "Inaktiv",
+        "CLOSED": "Lukket",
+        "SET_LOCATION": "Sett sted",
+        "ADD_LOCATION": "Legg til sted",
+        "USE_CURRENT_LOCATION": "Bruk nåværende posisjon",
+        "ADD_CURRENT_LOCATION": "Legg til nåværende posisjon",
+        "NO_LOCATION_SET": "Ingen posisjon satt",
+        "REMOVE_LOCATION": {
+          "TITLE": "Fjern posisjon",
+          "DESCRIPTION": "Er du sikker på at du vil fjerne denne posisjonen?"
+        },
+        "REMOVE_TARGET": {
+          "TITLE": "Fjern mål",
+          "DESCRIPTION": "Er du sikker på at du vil fjerne målet?"
+        },
+        "REMOVE_PERSON": {
+          "TITLE": "Fjern person",
+          "DESCRIPTION": "Er du sikker på at du vil fjerne denne personen fra rapporten?"
+        },
+        "REMOVE_VEHICLE": {
+          "TITLE": "Fjern kjøretøy",
+          "DESCRIPTION": "Er du sikker på at du vil fjerne kjøretøyet?"
+        },
+        "REMOVE_WEAPON": {
+          "TITLE": "Fjern våpen",
+          "DESCRIPTION": "Er du sikker på at du vil fjerne våpenet?"
+        },
+        "REMOVE_REPORT": {
+          "TITLE": "Fjern rapport",
+          "DESCRIPTION": "Er du sikker på at du vil fjerne rapporten?"
+        },
+        "OFFICERS_INVOLVED": "Involverte betjenter",
+        "NO_OFFICERS_INVOLVED": "Ingen involverte betjenter",
+        "REMOVE_OFFICER": {
+          "TITLE": "Fjern betjent",
+          "DESCRIPTION": "Er du sikker på at du vil fjerne {name}?"
+        },
+        "CIVILLIANS_INVOLVED": "Involverte sivile",
+        "NO_CIVILLIANS_INVOLVED": "Ingen involverte sivile",
+        "REMOVE_CIVILIAN": {
+          "TITLE": "Fjern sivil",
+          "DESCRIPTION": "Er du sikker på at du vil fjerne {name}?"
+        },
+        "REMOVE_CRIMINAL": {
+          "TITLE": "Fjern kriminell",
+          "DESCRIPTION": "Er du sikker på at du vil fjerne {name}?"
+        },
+        "CRIMINALS_INVOLVED": "Involverte kriminelle",
+        "NO_CRIMINALS_INVOLVED": "Ingen involverte kriminelle",
+        "REMOVE_SUSPECT": {
+          "TITLE": "Fjern mistenkt",
+          "DESCRIPTION": "Er du sikker på at du vil fjerne {name}?"
+        },
+        "SEND_FINE": {
+          "TITLE": "Send bot",
+          "DESCRIPTION": "Vil du sende bot på {fine} til {name}?"
+        },
+        "JAIL_PLAYER": {
+          "TITLE": "Sett i fengsel",
+          "DESCRIPTION": "Vil du sende {name} i fengsel i {sentence} måneder?"
+        },
+        "DELETE_REPORT": {
+          "TITLE": "Slett rapport",
+          "DESCRIPTION": "Er du sikker på at du vil slette denne rapporten?"
+        },
+        "TYPES": {
+          "CASE": "Sak",
+          "REPORT": "Rapport",
+          "WARRANT": "Arrestordre"
+        },
+        "ERROR": {
+          "TITLE": "Feil",
+          "NO_TYPE": "Du må velge en rapporttype",
+          "TITLE_LENGTH": "Tittelen må være minst 3 tegn lang",
+          "DESCRIPTION_LENGTH": "Beskrivelsen må være minst 10 tegn lang"
+        }
+      },
+      "EVIDENCE": {
+        "TITLE": "Bevis",
+        "OPEN_STASH": "Åpne lager"
+      },
+      "CATALOG": {
+        "TITLE": "Katalog",
+        "SEARCH": "Søk i katalog",
+        "SEARCH_TYPE": "Søk {type}",
+        "MONTHS": "{amount} måneder",
+        "FINE": "{amount} i bot",
+        "SELECT_SEVERITY": "Velg alvorlighetsgrad",
+        "SEVERITIES": {
+          "INFRACTION": "Forseelse",
+          "MISDEMEANOR": "Mindre lovbrudd",
+          "FELONY": "Alvorlig lovbrudd"
+        },
+        "NO_ITEMS_FOUND": "Ingen elementer funnet",
+        "ADD_ITEM": {
+          "TITLE": "Legg til {type}",
+          "DESCRIPTION": "Opprett et nytt element",
+          "PLACEHOLDER": "Skriv inn tittel på elementet",
+          "DESCRIPTION_PLACEHOLDER": "Skriv inn en beskrivelse..."
+        },
+        "EDIT_ITEM": {
+          "TITLE": "Rediger element",
+          "DESCRIPTION": "Rediger detaljene for elementet"
+        },
+        "DELETE_ITEM": {
+          "TITLE": "Slett element",
+          "DESCRIPTION": "Er du sikker på at du vil slette dette elementet?"
+        },
+        "SET_JAILTIME": {
+          "TITLE": "Anbefalt fengselstid",
+          "DESCRIPTION": "Sett anbefalt fengselstid for elementet",
+          "PLACEHOLDER": "Anbefalt fengselstid (i måneder) (0 for kun bot)"
+        },
+        "SET_FINE": {
+          "TITLE": "Anbefalt bot",
+          "DESCRIPTION": "Sett anbefalt bot for elementet",
+          "PLACEHOLDER": "Anbefalt bøtebeløp (0 for kun fengselstid)"
+        },
+        "ADD_CATEGORY": {
+          "TITLE": "Legg til kategori",
+          "DESCRIPTION": "Legg til en ny kategori i kataloglisten",
+          "PLACEHOLDER": "Skriv inn kategorinavn"
+        },
+        "EDIT_CATEGORY": {
+          "TITLE": "Rediger kategori",
+          "DESCRIPTION": "Rediger kategoridetaljer",
+          "PLACEHOLDER": "Skriv inn nytt kategorinavn"
+        },
+        "DELETE_CATEGORY": {
+          "TITLE": "Slett kategori",
+          "DESCRIPTION": "Er du sikker på at du vil slette denne kategorien?"
+        }
+      },
+      "EMPLOYEES": {
+        "TITLE": "Ansatte",
+        "SEARCH": "Søk ansatte"
+      },
+      "CHAT": {
+        "TITLE": "Chat",
+        "SEARCH": "Søk chatter",
+        "PLACEHOLDER": "Send en melding...",
+        "JOINED_CHATS": "Deltatte chatter",
+        "PUBLIC_CHATS": "Offentlige chatter",
+        "JOINED": "Deltar",
+        "PUBLIC": "Offentlig",
+        "PRIVATE_CHATS": "Private chatter",
+        "ROOM_ID": "Rom-ID: {id}",
+        "TOGGLE_PRIVATE": "Bytt privat",
+        "CHANGE_AVATAR": "Endre avatar",
+        "SET_AVATAR": "Velg avatar",
+        "REMOVE_AVATAR": "Fjern avatar",
+        "MANAGE": "Administrer",
+        "REPLY": "Svar",
+        "REPLYING_TO": "Svarer på",
+        "ATTACHMENT": "Vedlegg",
+        "LEAVE": {
+          "TITLE": "Forlat",
+          "DESCRIPTION": "Er du sikker på at du vil forlate chatterommet?"
+        },
+        "KICK": {
+          "TITLE": "Kast ut",
+          "DESCRIPTION": "Er du sikker på at du vil kaste {name} ut av chatterommet?"
+        },
+        "DELETE": {
+          "TITLE": "Slett",
+          "DESCRIPTION": "Er du sikker på at du vil slette chatterommet?"
+        },
+        "CREATE_CHATROOM": {
+          "TITLE": "Opprett chatterom",
+          "DESCRIPTION": "Skriv inn et navn for chatterommet",
+          "PLACEHOLDER": "Navn på chatterom",
+          "CREATE": "Opprett",
+          "SET_VISIBILITY": "Sett synlighet",
+          "PUBLIC": "Offentlig",
+          "PRIVATE": "Privat"
+        },
+        "JOIN_CHAT": {
+          "TITLE": "Bli med i chat",
+          "DESCRIPTION": "Er du sikker på at du vil bli med i {channel}?",
+          "JOIN": "Bli med"
+        },
+        "ERROR": {
+          "TITLE": "Feil",
+          "FAILED_JOIN": "Kunne ikke bli med i chatterommet",
+          "FAILED_INVITE": "Kunne ikke invitere {name} til chatterommet",
+          "FAILED_SET_AVATAR": "Kunne ikke angi avatar for chatterommet",
+          "FAILED_REMOVE_AVATAR": "Kunne ikke fjerne avatar for chatterommet",
+          "FAILED_GET_MEMBERS": "Kunne ikke hente medlemmer i chatterommet",
+          "FAILED_KICK": "Kunne ikke kaste ut {name} fra chatterommet",
+          "FAILED_LEAVE": "Kunne ikke forlate chatterommet",
+          "FAILED_DELETE": "Kunne ikke slette chatterommet"
+        },
+        "SUCCESS": {
+          "TITLE": "Vellykket",
+          "INVITED": "Du har invitert {name} til chatterommet",
+          "KICKED": "Du har kastet {name} ut av chatterommet"
+        }
+      },
+      "PHONE": {
+        "TITLE": "Telefon",
+        "MESSAGES": "Meldinger",
+        "TRIANGULATE": {
+          "TITLE": "Trianguler",
+          "DESCRIPTION": "Skriv inn telefonnummeret du vil triangulere",
+          "PLACEHOLDER": "Telefonnummer",
+          "SUCCESS": {
+            "TITLE": "Triangulering vellykket",
+            "DESCRIPTION": "Telefonnummeret du prøver å triangulere er registrert på en mobilmast i området. Sjekk kartet for plasseringen."
+          },
+          "FAILED": {
+            "TITLE": "Triangulering mislyktes",
+            "DESCRIPTION": "Telefonnummeret du prøver å triangulere er ikke registrert på noen mobilmast i området."
+          }
+        },
+        "CALLS": {
+          "TITLE": "Samtaler",
+          "CALL_HISTORY": "Anropshistorikk",
+          "CALL_STATUS": "Anropsstatus",
+          "SEARCH": "Søk samtaler",
+          "NO_CALLER_ID": "Skjult nummer",
+          "UNKNOWN": "Ukjent",
+          "INCOMING": "Innkommende",
+          "OUTGOING": "Utgående",
+          "IN_CALL": "I samtale",
+          "NOT_IN_CALL": "Ikke i samtale",
+          "SUBSCRIBED": "Abonnert",
+          "NOT_SUBSCRIBED": "Ikke abonnert",
+          "YES": "Ja",
+          "NO": "Nei",
+          "GET_NOTIFIED": "Få varsler",
+          "LISTEN_TO_CALL": "Lytt til samtale",
+          "LISTEN_TO_CALL_DESCRIPTION": "Er du sikker på at du vil lytte til denne samtalen?",
+          "STOP_LISTENING": "Stopp lytting",
+          "STOP_LISTENING_DESCRIPTION": "Er du sikker på at du vil stoppe lyttingen til denne samtalen?",
+          "SUBSCRIBE_TO_CALLS": "Abonner på samtaler",
+          "SUBSCRIBE_TO_CALLS_DESCRIPTION": "Er du sikker på at du vil abonnere på samtaler?",
+          "UNSUBSCRIBE_FROM_CALLS": "Avslutt abonnement på samtaler",
+          "UNSUBSCRIBE_FROM_CALLS_DESCRIPTION": "Er du sikker på at du vil avslutte abonnementet på samtaler?",
+          "FOOTER": "av {name}",
+          "WIRETAP_PHONENUMBER": {
+            "TITLE": "Avlytt telefonnummer",
+            "DESCRIPTION": "Skriv inn telefonnummeret du vil avlytte",
+            "PLACEHOLDER": "Telefonnummer"
+          },
+          "REMOVE_WIRETAP": {
+            "TITLE": "Fjern avlytting",
+            "DESCRIPTION": "Er du sikker på at du vil fjerne avlyttingen fra telefonnummeret {phoneNumber}?"
+          },
+          "CALL_ENDED": {
+            "TITLE": "Samtalen er avsluttet",
+            "DESCRIPTION": "Samtalen du avlyttet er avsluttet."
+          }
+        },
+        "UNLOCK": {
+          "TITLE": "Lås opp",
+          "NO_PHONES": "Det finnes ingen telefoner i inventaret ditt",
+          "SEARCH": "Søk etter en telefon",
+          "SELECT_PHONE": "Velg en telefon",
+          "PHONE": "Telefon",
+          "PROCESSED": "Behandlet",
+          "PROCESSING": "Behandler",
+          "LOCKED": "Låst",
+          "PROCESS_PHONE": "Behandle telefon",
+          "PHONE_PROCESSED": "Telefon behandlet",
+          "REMAINING_TIME": "Gjenstår: {time}",
+          "PROCESSING_PHONE": "Behandler {phone}...",
+          "ATTEMPTS": "Forsøk: {attempts}/{maxAttempts}",
+          "RESET_PIN": {
+            "TITLE": "Tilbakestill PIN",
+            "SUCCESS": "PIN-koden for telefonen ble tilbakestilt."
+          },
+          "SUCCESS": {
+            "TITLE": "Telefon behandlet",
+            "DESCRIPTION": "Telefonen har blitt behandlet."
+          },
+          "FAILED": {
+            "TITLE": "Behandling av telefon mislyktes",
+            "DESCRIPTION": "Telefonen kunne ikke behandles. Prøv igjen."
+          }
+        }
+      },
+      "JAIL": {
+        "TITLE": "Fengsel",
+        "SEARCH": "Søk innsatt",
+        "JAILED_PERSON": "Innsatt person",
+        "JAILED_BY": "Fengslet av",
+        "JAILED_BY_NAME": "Fengslet av {name}",
+        "REMAINING_TIME": "Gjenstående tid",
+        "REMAINING_TIME_DATE": "Gjenstående tid {time} ({date})",
+        "ORIGINAL_SENTENCE": "Opprinnelig straff",
+        "RELEASE_DATE": "Løslatelsesdato",
+        "DESCRIPTION": "Beskrivelse",
+        "DESCRIPTION_PLACEHOLDER": "Skriv inn en beskrivelse...",
+        "RELEASED": "Løslatt",
+        "LESS_THAN_MINUTE": "Mindre enn ett minutt",
+        "UNJAIL": "Løslat",
+        "PROFILE": "Profil",
+        "JAILED_AT": "Fengslet kl.",
+        "LINKED_CASE": "Koblet sak",
+        "NO_LINKED_CASE": "Ingen koblet sak",
+        "REMOVE_LINKED_CASE": {
+          "TITLE": "Fjern koblet sak",
+          "DESCRIPTION": "Er du sikker på at du vil fjerne den koblede saken?"
+        },
+        "JAIL_PERSON": {
+          "TITLE": "Fengsle",
+          "DESCRIPTION": "Fyll inn detaljene nedenfor for å fengsle {name}",
+          "SENTENCE_PLACEHOLDER": "Straff (i minutter)",
+          "REASON_PLACEHOLDER": "Grunn",
+          "JAIL_WITH_CASE": "Fengsle med koblet sak",
+          "JAIL_WITHOUT_CASE": "Fengsle uten koblet sak",
+          "PROCEED": "Fortsett"
+        },
+        "UNJAIL_PERSON": {
+          "TITLE": "Løslat",
+          "DESCRIPTION": "Er du sikker på at du vil løslate {name}?",
+          "PROCEED": "Fortsett"
+        },
+        "ERROR": {
+          "TITLE": "Feil",
+          "MISSING_DETAILS": "Du må oppgi straff og grunn"
+        }
+      },
+      "LOGS": {
+        "TITLE": "Logger",
+        "SEARCH": "Søk logger",
+        "FILTER": "Filter",
+        "CREATED": "Opprettet",
+        "UPDATED": "Oppdatert",
+        "DELETED": "Slettet",
+        "LOG_ID": "ID",
+        "TYPE": "Type",
+        "ACTION": "Handling",
+        "TIMESTAMP": "Tidsstempel",
+        "DESCRIPTION": "Beskrivelse",
+        "VIEW_FOOTER": "Vis {type} ({id})",
+        "TAG_TYPES": {
+          "PROFILE": "profil",
+          "VEHICLE": "kjøretøy",
+          "REPORT": "rapport",
+          "WARRANT": "arrestordre",
+          "INCIDENT": "sak"
+        },
+        "CREATE": {
+          "CATALOG": {
+            "CATEGORY": {
+              "TITLE": "Opprettet en katalogkategori",
+              "DESCRIPTION": "Opprettet katalogkategorien \"{name}\""
+            },
+            "ITEM": {
+              "TITLE": "Opprettet et katalogelement",
+              "DESCRIPTION": "Opprettet katalogelementet \"{name}\" i kategorien \"{category}\""
+            }
+          },
+          "BULLETIN": {
+            "TITLE": "Opprettet et oppslag",
+            "DESCRIPTION": "Opprettet oppslaget \"{title}\""
+          },
+          "TAG": {
+            "TITLE": "Opprettet en tagg",
+            "DESCRIPTION": "Opprettet taggen \"{name}\""
+          },
+          "JAIL": {
+            "TITLE": "Fengslet en person",
+            "DESCRIPTION": "Fengslet {name} i {sentence} minutter"
+          },
+          "TRIANGULATE": {
+            "TITLE": "Triangulerte et telefonnummer",
+            "DESCRIPTION": "Triangulerte telefonnummeret {phoneNumber}"
+          },
+          "WIRETAP": {
+            "TITLE": "Avlyttet et telefonnummer",
+            "DESCRIPTION": "Avlyttet telefonnummeret {phoneNumber}"
+          },
+          "UNLOCK": {
+            "TITLE": "La en telefon i kø for opplåsing",
+            "DESCRIPTION": "La telefonnummeret {phoneNumber} i kø for opplåsing"
+          },
+          "REPORT": {
+            "TITLE": "Opprettet en {tab}",
+            "DESCRIPTION": "Opprettet {tab} \"{title}\""
+          },
+          "LICENSE": {
+            "TITLE": "La til en lisens",
+            "DESCRIPTION": "Ga lisensen {license} til {name}"
+          },
+          "WEAPON": {
+            "TITLE": "Registrerte et våpen",
+            "DESCRIPTION": "Registrerte en {model} med serienummer {serialNumber}"
+          }
+        },
+        "UPDATE": {
+          "CATALOG": {
+            "CATEGORY": {
+              "TITLE": "Oppdaterte en katalogkategori",
+              "DESCRIPTION": "Endret navn på katalogkategorien \"{oldName}\" til \"{newName}\""
+            },
+            "ITEM": {
+              "TITLE": "Oppdaterte et katalogelement",
+              "DESCRIPTION": "Oppdaterte katalogelementet \"{name}\""
+            }
+          },
+          "BULLETIN": {
+            "TITLE": "Oppdaterte et oppslag",
+            "DESCRIPTION": "Oppdaterte oppslaget \"{title}\""
+          },
+          "JAIL": {
+            "TITLE": "Oppdaterte en fengselsstraff",
+            "DESCRIPTION": "Oppdaterte fengselsstraffen til {name}"
+          },
+          "REPORT": {
+            "TITLE": "Oppdaterte en {tab}",
+            "DESCRIPTION": "Oppdaterte {tab} \"{title}\""
+          },
+          "USER": {
+            "TITLE": "Oppdaterte en profil",
+            "DESCRIPTION": "Oppdaterte profilen til {name}"
+          },
+          "VEHICLE": {
+            "TITLE": "Oppdaterte et kjøretøy",
+            "DESCRIPTION": "Oppdaterte kjøretøyet med skilt {plate}"
+          },
+          "PROPERTY": {
+            "TITLE": "Oppdaterte en eiendom",
+            "DESCRIPTION": "Oppdaterte eiendommen {label}"
+          },
+          "WEAPON": {
+            "TITLE": "Oppdaterte et våpen",
+            "DESCRIPTION": "Oppdaterte våpenet med serienummer {serialNumber}"
+          }
+        },
+        "DELETE": {
+          "CATALOG": {
+            "CATEGORY": {
+              "TITLE": "Slettet en katalogkategori",
+              "DESCRIPTION": "Slettet katalogkategorien \"{name}\""
+            },
+            "ITEM": {
+              "TITLE": "Slettet et katalogelement",
+              "DESCRIPTION": "Slettet katalogelementet \"{name}\""
+            }
+          },
+          "BULLETIN": {
+            "TITLE": "Slettet et oppslag",
+            "DESCRIPTION": "Slettet oppslaget \"{title}\""
+          },
+          "TAG": {
+            "TITLE": "Slettet en tagg",
+            "DESCRIPTION": "Slettet taggen \"{name}\""
+          },
+          "JAIL": {
+            "TITLE": "Slettet en fengselsstraff",
+            "DESCRIPTION": "Slettet fengselsstraffen til {name}"
+          },
+          "WIRETAP": {
+            "TITLE": "Slettet en avlytting",
+            "DESCRIPTION": "Slettet avlyttingen på telefonnummeret {phoneNumber}"
+          },
+          "REPORT": {
+            "TITLE": "Slettet en {tab}",
+            "DESCRIPTION": "Slettet {tab} \"{title}\""
+          },
+          "LICENSE": {
+            "TITLE": "Fjernet en lisens",
+            "DESCRIPTION": "Fjernet lisensen {license} fra {name}"
+          },
+          "WEAPON": {
+            "TITLE": "Slettet et våpen",
+            "DESCRIPTION": "Slettet våpenet med serienummer {serialNumber}"
+          }
+        }
+      },
+      "TAGS": {
+        "TITLE": "Tagger",
+        "ADD": "Legg til",
+        "NO_TAGS": "Ingen tagger",
+        "ADD_TAG": "Legg til tagg",
+        "CREATE_TAG": {
+          "TITLE": "Opprett tagg",
+          "DESCRIPTION": "Skriv inn et taggnavn",
+          "PLACEHOLDER": "Taggnavn",
+          "CANCEL": "Avbryt",
+          "NEXT": "Neste",
+          "SELECT_COLOR": "Velg en farge"
+        },
+        "DELETE_TAG": {
+          "TITLE": "Slett tagg",
+          "DESCRIPTION": "Er du sikker på at du vil slette denne taggen?",
+          "CANCEL": "Avbryt",
+          "DELETE": "Slett"
+        },
+        "REMOVE_TAG": {
+          "TITLE": "Fjern tagg",
+          "DESCRIPTION": "Er du sikker på at du vil fjerne taggen '{tag}'?",
+          "CANCEL": "Avbryt",
+          "REMOVE": "Fjern"
+        },
+        "COLORS": {
+          "GREY": "Grå",
+          "BLUE": "Blå",
+          "GREEN": "Grønn",
+          "RED": "Rød",
+          "ORANGE": "Oransje",
+          "YELLOW": "Gul",
+          "PINK": "Rosa",
+          "PURPLE": "Lilla",
+          "BROWN": "Brun",
+          "NAVY": "Marineblå",
+          "CYAN": "Cyan"
+        }
+      },
+      "MISC": {
+        "SOON": "Snart",
+        "UNKNOWN": "Ukjent",
+        "MINUTES": "{minutes}m",
+        "HOURS": "{hours}t",
+        "DAYS": "{days}d",
+        "FORMATTED_DATE": "{day} {month} {year} kl. {hours}:{minutes}",
+        "CHANGE_AVATAR": "Endre avatar",
+        "REMOVE_AVATAR": "Fjern avatar",
+        "SET_CALLSIGN": "Sett kallesignal",
+        "SET_WAYPOINT": "Sett veipunkt",
+        "WAYPOINT_SET": "Veipunkt satt",
+        "WAYPOINT_SET_DESCRIPTION": "Veipunktet er satt til posisjonen",
+        "CALLSIGN": {
+          "TITLE": "Kallesignal",
+          "DESCRIPTION": "Skriv inn et kallesignal",
+          "CANCEL": "Avbryt",
+          "PROCEED": "Fortsett",
+          "ERROR": {
+            "TITLE": "Feil",
+            "DESCRIPTION": "Kallesignalet du skrev inn følger ikke det påkrevde formatet ({format}). Prøv igjen."
+          }
+        }
+      },
+      "FILTERS": {
+        "TITLE": "Filtre",
+        "ALL": "Alle",
+        "UNKNOWN": "Ukjent",
+        "WEAPONS_INVOLVED": "Involverte våpen",
+        "VEHICLES_INVOLVED": "Involverte kjøretøy",
+        "PROPERTIES_INVOLVED": "Involverte eiendommer",
+        "PERSONS_INVOLVED": "Involverte personer",
+        "OFFICERS_INVOLVED": "Involverte betjenter",
+        "TARGET": "Mål",
+        "PROFILE": "Profil",
+        "VEHICLE": "Kjøretøy",
+        "WEAPON": "Våpen",
+        "PROPERTY": "Eiendom",
+        "YES": "Ja",
+        "NO": "Nei",
+        "WARRANTS": {
+          "ACTIVE": "Aktiv",
+          "CLOSED": "Lukket",
+          "INACTIVE": "Inaktiv",
+          "PRIORITY": "Prioritet",
+          "ACTIVE_WARRANT": "Aktiv arrestordre"
+        },
+        "DISPATCH": {
+          "PRIORITY": {
+            "LOW": "Lav",
+            "MEDIUM": "Middels",
+            "HIGH": "Høy"
+          }
+        },
+        "LOGS": {
+          "EMPLOYEE": "Ansatt",
+          "TYPE": "Type",
+          "TAB": "Fane"
+        }
+      }
+    },
+    "BROWSER": {
+      "TITLE": "Nettleser",
+      "SEARCH_PLACEHOLDER": "Søk eller skriv inn en URL",
+      "NEW_TAB": "Ny fane",
+      "TABS": "Faner",
+      "TAB": "Fane",
+      "DONE": "Ferdig",
+      "CLOSE_ALL": "Lukk alle",
+      "HISTORY": "Historikk",
+      "BOOKMARKS": "Bokmerker",
+      "BOOKMARK_REMOVE": "Fjern bokmerke",
+      "NO_BOOKMARKS": "Ingen bokmerker ennå",
+      "NO_HISTORY": "Ingen historikk ennå",
+      "FAILED_LOAD_PAGE": "Nettsiden kan ikke åpnes i denne appen",
+      "FAILED_LOAD_PAGE_DESCRIPTION": "Denne nettsiden tillater ikke iframing. Dette er ikke en feil."
+    },
+    "REGISTRATION": {
+      "TITLE": "Registrering",
+      "SELECT_CHARACTER": " Velg karakter",
+      "PLEASE_SELECT_CHARACTER": "Vennligst velg en karakter",
+      "CREATE_NEW": "Opprett ny",
+      "EDIT": "Rediger",
+      "SAVE": "Lagre",
+      "DELETE": "Slett",
+      "CANCEL": "Avbryt",
+      "DELETE_CHARACTER": "Slett karakter",
+      "DESCRIPTION": "Beskrivelse",
+      "DESCRIPTION_PLACEHOLDER": "Dette er en beskrivelse...",
+      "ADD": "Legg til",
+      "CHARACTER_INFO": "Karakterinfo",
+      "REMOVE_AVATAR": "Fjern avatar",
+      "FIRSTNAME": "Fornavn",
+      "LASTNAME": "Etternavn",
+      "DOB": "Fødselsdato",
+      "PHONE_NUMBER": "Telefonnummer",
+      "GENDER": "Kjønn",
+      "MALE": "Mann",
+      "FEMALE": "Kvinne",
+      "JOB": "Jobb",
+      "HEIGHT": "Høyde",
+      "FORMATTED_HEIGHT": "{height} cm",
+      "VEHICLES": "Kjøretøy",
+      "VEHICLE": "Kjøretøy",
+      "REMOVE_PICTURE": "Fjern bilde",
+      "SEARCH_VEHICLES": "Søk kjøretøy",
+      "MODEL": "Modell",
+      "PLATE": "Skilt",
+      "COLOR": "Farge",
+      "CREATE": "Opprett",
+      "DELETE_VEHICLE": "Slett kjøretøy",
+      "DELETE_VEHICLE_POPUP": {
+        "TITLE": "Slett kjøretøy",
+        "DESCRIPTION": "Er du sikker på at du vil slette dette kjøretøyet?"
+      },
+      "LICENSES": "Lisenser",
+      "ADD_LICENSE": "Legg til lisens",
+      "DELETE_LICENSE_POPUP": {
+        "TITLE": "Slett lisens",
+        "DESCRIPTION": "Er du sikker på at du vil slette denne lisensen?"
+      },
+      "PROPERTIES": "Eiendommer",
+      "ADD_PROPERTY_POPUP": {
+        "TITLE": "Ny eiendom",
+        "DESCRIPTION": "Opprett en ny eiendom",
+        "LABEL": "Navn på eiendom",
+        "ADDRESS": "Adresse til eiendom"
+      },
+      "DELETE_PROPERTY_POPUP": {
+        "TITLE": "Slett eiendom",
+        "DESCRIPTION": "Er du sikker på at du vil slette denne eiendommen?"
+      },
+      "ERROR": {
+        "TITLE": "Feil",
+        "MISSING_FIELDS": "Du mangler følgende felter: {fields}",
+        "OK": "OK"
+      }
+    },
+    "MAPS": {
+      "GO": "Gå"
     }
+  },
+  "COMPONENTS": {
+    "CONTEXT_MENU": {
+      "CANCEL": "Avbryt"
+    },
+    "IMAGE": {
+      "SAVE_TO_GALLERY": "Lagre i galleri"
+    },
+    "GALLERY": {
+      "CANCEL": "Avbryt",
+      "EXTERNAL_URL": "Ekstern URL",
+      "EXTERNAL_URL_BLACKLISTED": "Denne URL-en er svartelistet",
+      "NO_IMAGES": "Ingen bilder"
+    },
+    "NOTIFICATIONS": {
+      "SENT_PHOTO": "Sendte et bilde",
+      "SENT_GIF": "Sendte en GIF",
+      "NOW": "nå"
+    },
+    "SHARE": {
+      "COPY_PHOTO": "Kopier bilde",
+      "COPY_VIDEO": "Kopier video",
+      "USE_WALLPAPER": "Bruk som bakgrunn",
+      "COPY_NUMBER": "Kopier nummer",
+      "COPY_LINK": "Kopier lenke",
+      "AIRDROP_SENT": "Sendt",
+      "AIRDROP_ACCEPTED": "Godtatt",
+      "AIRDROP_DECLINED": "Avslått",
+      "AIRDROP_NO_USERS": "Ingen telefoner i nærheten",
+      "WALLPAPER_POPUP": {
+        "TITLE": "Bruk som bakgrunn",
+        "TEXT": "Er du sikker på at du vil sette dette bildet som bakgrunn?",
+        "CANCEL": "Avbryt",
+        "PROCEED": "Fortsett"
+      },
+      "COPY_POPUP": {
+        "TITLE": "Vellykket",
+        "DESCRIPTION": "Kopiert til utklippstavlen",
+        "OK": "OK"
+      }
+    },
+    "AIRDROP": {
+      "TITLE": "AirShare",
+      "TEXT": "{sender} ønsker å dele en {type}",
+      "VIDEO": "video",
+      "PHOTO": "bilde",
+      "CONTACT": "kontakt",
+      "LOCATION": "posisjon",
+      "NOTE": "notat",
+      "VOICEMEMO": "taleopptak",
+      "PLAYLIST": "spilleliste",
+      "DECLINE": "Avslå",
+      "ACCEPT": "Godta"
+    },
+    "BATTERY": {
+      "LOW_BATTERY": "Lavt batteri",
+      "BATTERY_REMAINING": "{percent}% batteri igjen",
+      "LOW_POWER_MODE": "Strømsparingsmodus",
+      "CLOSE": "Lukk"
+    },
+    "COLOR_PICKER": {
+      "COLOR": "Farge"
+    },
+    "ICON_PICKER": {
+      "SELECT_ICON": "Velg et ikon",
+      "SEARCH_PLACEHOLDER": "Søk ikoner...",
+      "NO_ICONS_FOUND": "Ingen ikoner funnet som matcher \"{query}\""
+    }
+  },
+  "SETUP": {
+    "HELLO": "Hei",
+    "SELECT_LANGUAGE": "Velg språk",
+    "NEXT": "Klikk for å åpne",
+    "APPEARANCE": "Tema",
+    "APPEARANCE_TEXT": "Velg et mørkt eller lyst tema for enheten din",
+    "CONTINUE": "Fortsett",
+    "WELCOME_TO": "Velkommen til",
+    "CLICK": "Klikk for å komme i gang"
+  },
+  "HOMESCREEN": {
+    "DONE": "Ferdig",
+    "CLOSE_ALL": "Lukk alle",
+    "REMOVE_APP_POPUP": {
+      "TITLE": "Fjern '{app}'?",
+      "DESCRIPTION": "Sletting av denne appen vil IKKE slette dataene dens. Appen kan installeres på nytt senere fra App Store.",
+      "CANCEL": "Avbryt",
+      "PROCEED": "Slett"
+    }
+  },
+  "LOCKSCREEN": {
+    "DELETE": "Slett",
+    "FONT_AND_COLOR": "Skrift og farge"
+  },
+  "MISC": {
+    "COPY": "Kopier",
+    "OPEN_IN_BROWSER": "Åpne i nettleser",
+    "GENDERS": {
+      "MALE": "Mann",
+      "FEMALE": "Kvinne"
+    },
+    "AIRPLANE_MODE_POPUP": {
+      "TITLE": "Feil",
+      "DESCRIPTION": "Du prøver å utføre en handling som krever internettilgang. Deaktiver flymodus for å fortsette.",
+      "OK": "OK"
+    }
+  },
+  "EXPORTED_DOCUMENT": {
+    "TITLE": "Eksportert dokument",
+    "UNKNOWN": "Ukjent",
+    "N_A": "I/T",
+    "TAGS": "Tagger",
+    "DESCRIPTION": "Beskrivelse",
+    "DETAILS": "Detaljer",
+    "CREATED_UPDATED": "Opprettet {created} og sist oppdatert {updated}",
+    "REPORT": {
+      "UNTITLED_REPORT": "Rapport uten tittel",
+      "DOB": "Fødselsdato {dob}",
+      "COLOR": "Farge {color}",
+      "NAME": "Navn {name}",
+      "ID": "ID ",
+      "TYPE": "Type",
+      "AUTHOR": "Forfatter",
+      "CREATED": "Opprettet",
+      "LAST_UPDATED": "Sist oppdatert",
+      "LINKED_REPORTS": "Koblede rapporter"
+    },
+    "PERSON": {
+      "NAME": "Navn",
+      "CHARGES": "Anklager",
+      "FINE": "Bot",
+      "SENTENCE": "Straff",
+      "JAIL_TIME": "Fengselstid",
+      "SENTENCE_LENGTH": "{amount} måneder"
+    },
+    "VEHICLE": {
+      "MODEL": "Modell",
+      "PLATE": "Skilt",
+      "UNKNOWN": "Ukjent kjøretøy"
+    },
+    "WEAPON": {
+      "MODEL": "Modell",
+      "SERIAL_NUMBER": "Serienummer",
+      "UNKNOWN": "Ukjent våpen"
+    }
+  },
+  "BACKEND": {
+    "CAMERA": {
+      "TAKE_PHOTO": "{key} Ta bilde",
+      "FLIP_CAMERA": "{key} Bytt",
+      "TOGGLE_FLASH": "{key} Blitz",
+      "TOGGLE_CURSOR": "{key} Markør",
+      "CHANGE_MODE": "{key} {key2} Modus",
+      "ROLL": "{key} {key2} Rull",
+      "FREEZE": "{key} Frys",
+      "UNFREEZE": "{key} Opphev frys",
+      "TOGGLE_TIP": "{key} Skjul"
+    },
+    "SERVICES": {
+      "NEW_MESSAGE": "Ny melding",
+      "ANONYMOUS": "Anonym"
+    },
+    "MISC": {
+      "X_TABLET": "{firstname}s nettbrett"
+    },
+    "MAIL": {
+      "AUTOMATIC_PASSWORD": {
+        "SENDER": "System",
+        "SUBJECT": "Passordet ditt",
+        "MESSAGE": "Hei,\n\nDin automatiske e-postadresse er {address} og passordet ditt er {password}"
+      }
+    },
+    "LOGS": {
+      "TOOK_PHOTO": "Tok et bilde",
+      "TOOK_VIDEO": "Tok en video",
+      "NEW_DISPATCH": "Nytt oppdrag: {title}"
+    },
+    "BASE_DISPATCH": {
+      "VEHICLE_CLASSES": {
+        "0": "kompaktbil",
+        "1": "sedan",
+        "2": "SUV",
+        "3": "kupé",
+        "4": "muskelbil",
+        "5": "klassisk sportsbil",
+        "6": "sportsbil",
+        "7": "superbil",
+        "8": "motorsykkel",
+        "9": "terrengkjøretøy",
+        "10": "industrikjøretøy",
+        "11": "nyttekjøretøy",
+        "12": "varebil",
+        "13": "sykkel",
+        "14": "båt",
+        "15": "helikopter",
+        "16": "fly",
+        "17": "servicekjøretøy",
+        "18": "utrykningskjøretøy",
+        "19": "militærkjøretøy",
+        "20": "næringskjøretøy",
+        "21": "tog",
+        "22": "formelbil"
+      },
+      "VEHICLE_DATA": {
+        "BODY_TYPE": "Karosseritype",
+        "MANUFACTURER": "Produsent",
+        "MODEL": "Modell",
+        "COLOR": "Farge",
+        "PLATE": "Skilt"
+      },
+      "VEHICLE_THEFT": {
+        "CODE": "10-31",
+        "TITLE": "Kjøretøytyveri - {plate}",
+        "DESCRIPTION": "En {gender_lower} har blitt sett stjele en {color_lower} {class} {manufacturer} {model} med registreringsnummer {plate}."
+      },
+      "VEHICLE_JACKING": {
+        "CODE": "10-31",
+        "TITLE": "Bilkapring - {plate}",
+        "DESCRIPTION": "En {gender_lower} har blitt sett kapre en {color_lower} {class} {manufacturer} {model} med registreringsnummer {plate}."
+      },
+      "WEAPON_TYPES": {
+        "DIGISCANNER": "Digiskanner",
+        "FIREEXTINGUISHER": "Brannslukningsapparat",
+        "HACKINGDEVICE": "Hackingenhet",
+        "HEAVY": "Tungt våpen",
+        "MELEE": "Nærkamp",
+        "METALDETECTOR": "Metalldetektor",
+        "MG": "Maskingevær",
+        "NIGHTVISION": "Nattsyn",
+        "PARACHUTE": "Fallskjerm",
+        "PETROLCAN": "Bensinkanne",
+        "PISTOL": "Pistol",
+        "RIFLE": "Rifle",
+        "SHOTGUN": "Hagle",
+        "SMG": "Maskinpistol",
+        "SNIPER": "Snikskyttergevær",
+        "STUNGUN": "Elektrosjokkvåpen",
+        "THROWN": "Kastevåpen",
+        "TRANQILIZER": "Bedøvelsesvåpen",
+        "UNARMED": "Ubevæpnet",
+        "UNKNOWN": "Skytevåpen"
+      },
+      "GUNSHOT": {
+        "CODE": "10-31",
+        "TITLE": "Skudd avfyrt - {location}",
+        "DESCRIPTION": "En {gender_lower} har blitt sett avfyre en {weapon_type_lower} ved {location}."
+      },
+      "EXPLOSION": {
+        "TITLE": "Eksplosjon",
+        "DESCRIPTION": "En eksplosjon har blitt hørt ved {location}.",
+        "CODE": "10-31"
+      },
+      "ARMED": {
+        "TITLE": "Bevæpnet {gender}",
+        "DESCRIPTION": "En {gender_lower} har blitt sett bevæpnet med en {weapon_type_lower} ved {location}.",
+        "CODE": "10-31"
+      }
+    },
+    "MDT": {
+      "EVIDENCE_LABEL": "Bevis - {label} {id}"
+    },
+    "MDT_NOTIFICATIONS": {
+      "NEW_CHAT_CHANNEL": {
+        "TITLE": "Ny chat",
+        "CONTENT": "En ny kanal '{channel}' har blitt opprettet."
+      },
+      "NEW_CHAT_MESSAGE": {
+        "TITLE": "Ny melding i {channel}",
+        "CONTENT": "{name}: {message}",
+        "ATTACHMENT": "vedlegg"
+      },
+      "CHAT_INVITE": {
+        "TITLE": "Chatinvitasjon",
+        "CONTENT": "Du har blitt invitert til å bli med i '{channel}'"
+      },
+      "CHAT_REACTION": {
+        "TITLE": "{name} reagerte på meldingen din",
+        "CONTENT": "{name} reagerte med {reaction} på meldingen din i {channel}"
+      },
+      "NEW_BULLETIN": {
+        "TITLE": "Nytt oppslag",
+        "CONTENT": "{title}"
+      },
+      "NEW_CATALOG_CATEGORY": {
+        "TITLE": "Ny kategori i {catalog_name}",
+        "CONTENT": "{name}"
+      },
+      "NEW_CATALOG_ITEM": {
+        "TITLE": "Nytt element i {category}",
+        "CONTENT": "{name}"
+      },
+      "NEW_WEAPON": {
+        "TITLE": "Nytt våpen registrert",
+        "CONTENT": "{model} med serienummer {serialNumber} har blitt registrert."
+      },
+      "NEW_REPORT": {
+        "TITLE": "Ny {report_name}",
+        "CONTENT": "{title}"
+      },
+      "CANT_FINE_YOURSELF": {
+        "TITLE": "Kunne ikke gi bot",
+        "CONTENT": "Du kan ikke gi deg selv bot."
+      },
+      "CANT_JAIL_YOURSELF": {
+        "TITLE": "Kunne ikke fengsle",
+        "CONTENT": "Du kan ikke fengsle deg selv."
+      },
+      "WIRETAP": {
+        "TITLE": "Avlyttet samtale",
+        "CONTENT": "Det avlyttede telefonnummeret {number} er i en samtale."
+      }
+    }
+  },
+  "MDT": {
+    "Police": {
+      "TABS": {
+        "HOME": "Hjem",
+        "BULLETIN": "Oppslagstavle",
+        "DISPATCH": "Oppdrag",
+        "UNITS": "Enheter",
+        "USERS": "Profiler",
+        "VEHICLES": "Kjøretøy",
+        "PROPERTIES": "Eiendommer",
+        "WEAPONS": "Våpen",
+        "REPORTS": "Rapporter",
+        "CASES": "Saker",
+        "WARRANTS": "Arrestordrer",
+        "CATALOG": "Lovbrudd",
+        "EMPLOYEES": "Ansatte",
+        "CHAT": "Chat",
+        "PHONE": "Telefon",
+        "JAIL": "Fengsel",
+        "LOGS": "Logger"
+      },
+      "FIELDS": {
+        "PROFILE": "Profilinformasjon",
+        "NOTES": "Notater",
+        "TAGS": "Tagger",
+        "LICENSES": "Lisenser",
+        "VEHICLES": "Involverte kjøretøy",
+        "PROPERTIES": "Eiendommer",
+        "WEAPONS": "Involverte våpen",
+        "REPORTS": "Koblede rapporter",
+        "CASES": "Koblede saker",
+        "WARRANTS": "Arrestordrer",
+        "CHARGES": "Anklager",
+        "VEHICLE": "Kjøretøyinformasjon",
+        "PROPERTY": "Eiendomsinformasjon",
+        "WEAPON": "Våpeninformasjon",
+        "TYPE": "Type",
+        "GALLERY": "Galleri",
+        "DESCRIPTION": "Beskrivelse",
+        "OFFICERS": "Involverte betjenter",
+        "CIVILIANS": "Involverte sivile",
+        "SUSPECTS": "Involverte mistenkte",
+        "LINKED_WARRANTS": "Koblede arrestordrer",
+        "EVIDENCE": "Bevis",
+        "STASH": "Lager",
+        "CRIMINALS": "Involverte kriminelle",
+        "TARGET": "Mål",
+        "STATUS": "Status",
+        "PRIORITY": "Prioritet",
+        "LINKED_REPORTS": "Koblede rapporter",
+        "CASE": "Koblet sak"
+      },
+      "STATUSES": {
+        "AVAILABLE": "Tilgjengelig",
+        "BUSY": "Opptatt"
+      },
+      "OPTIONS": {
+        "PROFILE.ACTIVEWARRANT.TRUE": "Ja",
+        "PROFILE.ACTIVEWARRANT.FALSE": "Nei",
+        "VEHICLE.ACTIVEWARRANT.TRUE": "Ja",
+        "VEHICLE.ACTIVEWARRANT.FALSE": "Nei",
+        "TYPE.ASSAULT": "Overfall",
+        "TYPE.ROBBERY": "Ran",
+        "TYPE.BURGLARY": "Innbrudd",
+        "TYPE.THEFT": "Tyveri",
+        "TYPE.FRAUD": "Bedrageri",
+        "TYPE.HOMICIDE": "Drap",
+        "TYPE.KIDNAPPING": "Kidnapping",
+        "TYPE.ARSON": "Mordbrann",
+        "TYPE.VANDALISM": "Hærverk",
+        "TYPE.DRUG_OFFENSE": "Narkotikalovbrudd",
+        "TYPE.TRAFFIC_VIOLATION": "Trafikkovertredelse",
+        "TYPE.DOMESTIC_VIOLENCE": "Vold i hjemmet",
+        "TYPE.CYBERCRIME": "Cyberkriminalitet",
+        "TYPE.WEAPONS_VIOLATION": "Våpenlovbrudd",
+        "TYPE.PUBLIC_DISTURBANCE": "Ordensforstyrrelse",
+        "TYPE.TRESPASSING": "Ulovlig inntrenging",
+        "TYPE.HARASSMENT": "Trakassering",
+        "TYPE.MISSING_PERSON": "Savnet person",
+        "TYPE.EXTORTION": "Utpressing",
+        "TYPE.IDENTITY_THEFT": "Identitetstyveri",
+        "TYPE.INTERROGATION": "Avhør",
+        "TYPE.OTHER": "Annet",
+        "TYPE.ARREST_WARRANT": "Pågripelsesordre",
+        "TYPE.SEARCH_WARRANT": "Ransakingsordre",
+        "TYPE.BENCH_WARRANT": "Rettens arrestordre",
+        "TYPE.EXTRADITION_WARRANT": "Utleveringsordre",
+        "TYPE.PROBATION_VIOLATION_WARRANT": "Arrestordre for brudd på prøvetid",
+        "TYPE.MATERIAL_WITNESS_WARRANT": "Arrestordre for materiell vitne",
+        "TYPE.EXECUTION_WARRANT": "Fullbyrdelsesordre",
+        "TYPE.PAROLE_VIOLATION_WARRANT": "Arrestordre for brudd på løslatelsesvilkår",
+        "STATUS.ACTIVE": "Aktiv",
+        "STATUS.SERVED": "Forkynt",
+        "STATUS.EXPIRED": "Utløpt",
+        "STATUS.CANCELLED": "Kansellert",
+        "PRIORITY.LOW": "Lav",
+        "PRIORITY.MEDIUM": "Middels",
+        "PRIORITY.HIGH": "Høy"
+      },
+      "ENTITY_FIELDS": {
+        "PROFILE.DOB": "Fødselsdato",
+        "PROFILE.PHONENUMBER": "Telefonnummer",
+        "PROFILE.GENDER": "Kjønn",
+        "PROFILE.JOB": "Jobb",
+        "PROFILE.IDENTIFIER": "Identifikator",
+        "PROFILE.FINGERPRINT": "Fingeravtrykk",
+        "PROFILE.ACTIVEWARRANT": "Aktiv arrestordre",
+        "VEHICLE.MODEL": "Modell",
+        "VEHICLE.PLATE": "Skilt",
+        "VEHICLE.COLOR": "Farge",
+        "VEHICLE.OWNER": "Eier",
+        "VEHICLE.ACTIVEWARRANT": "Aktiv arrestordre",
+        "PROPERTY.LABEL": "Etikett",
+        "PROPERTY.OWNER": "Eier",
+        "PROPERTY.ADDRESS": "Adresse",
+        "WEAPON.MODEL": "Modell",
+        "WEAPON.SERIALNUMBER": "Serienummer",
+        "WEAPON.OWNER": "Eier"
+      }
+    },
+    "Ambulance": {
+      "TABS": {
+        "HOME": "Hjem",
+        "BULLETIN": "Oppslagstavle",
+        "DISPATCH": "Oppdrag",
+        "UNITS": "Enheter",
+        "USERS": "Journaler",
+        "REPORTS": "Rapporter",
+        "CATALOG": "Tilstander",
+        "EMPLOYEES": "Ansatte",
+        "CHAT": "Chat",
+        "LOGS": "Logger"
+      },
+      "FIELDS": {
+        "PROFILE": "Pasientinformasjon",
+        "TAGS": "Tagger",
+        "DIAGNOSES_CONDITIONS": "Diagnoser / tilstander",
+        "NOTES": "Notater",
+        "REPORTS": "Medisinske rapporter",
+        "TARGET": "Pasient",
+        "TYPE": "Type",
+        "DESCRIPTION": "Rapportdetaljer",
+        "GALLERY": "Galleri",
+        "INJURIES_CONDITIONS": "Skader / tilstander",
+        "DOCTORS": "Involverte leger"
+      },
+      "STATUSES": {
+        "AVAILABLE": "Tilgjengelig",
+        "BUSY": "Opptatt",
+        "AT_STATION": "På stasjonen",
+        "ON_CALL": "På oppdrag"
+      },
+      "OPTIONS": {
+        "TYPE.INJURY": "Skade",
+        "TYPE.ILLNESS": "Sykdom",
+        "TYPE.VEHICLE_ACCIDENT": "Trafikkulykke",
+        "TYPE.OVERDOSE": "Overdose",
+        "TYPE.CARDIAC_ARREST": "Hjertestans",
+        "TYPE.STROKE": "Hjerneslag",
+        "TYPE.RESPIRATORY_DISTRESS": "Pustebesvær",
+        "TYPE.BURN_INJURY": "Brannskade",
+        "TYPE.FALL_INJURY": "Fallskade",
+        "TYPE.DROWNING": "Drukning",
+        "TYPE.POISONING": "Forgiftning",
+        "TYPE.SEIZURE": "Anfall",
+        "TYPE.TRAUMA": "Traume",
+        "TYPE.ALLERGIC_REACTION": "Allergisk reaksjon",
+        "TYPE.SHOCK": "Sjokk",
+        "TYPE.HEATSTROKE": "Heteslag",
+        "TYPE.HYPOTHERMIA": "Hypotermi",
+        "TYPE.LABOR_AND_DELIVERY": "Fødsel",
+        "TYPE.MENTAL_HEALTH_CRISIS": "Psykisk helsekrise",
+        "TYPE.OTHER": "Annet"
+      },
+      "ENTITY_FIELDS": {
+        "PROFILE.DOB": "Fødselsdato",
+        "PROFILE.PHONENUMBER": "Telefonnummer",
+        "PROFILE.GENDER": "Kjønn",
+        "PROFILE.HEIGHT": "Høyde",
+        "PROFILE.BLOODTYPE": "Blodtype"
+      }
+    },
+    "Fire": {
+      "TABS": {
+        "HOME": "Hjem",
+        "BULLETIN": "Oppslagstavle",
+        "DISPATCH": "Oppdrag",
+        "UNITS": "Enheter",
+        "REPORTS": "Rapporter",
+        "EMPLOYEES": "Ansatte",
+        "CHAT": "Chat",
+        "LOGS": "Logger"
+      },
+      "FIELDS": {
+        "TYPE": "Hendelsestype",
+        "LOCATION": "Sted",
+        "TAGS": "Tagger",
+        "GALLERY": "Bilder fra stedet",
+        "DESCRIPTION": "Hendelsesrapport",
+        "FIREFIGHTERS": "Utrykkende brannkonstabler",
+        "CIVILIANS": "Involverte sivile/pasienter"
+      },
+      "STATUSES": {
+        "IN_STATION": "På stasjonen",
+        "RESPONDING": "På vei",
+        "ON_SCENE": "På stedet",
+        "RETURNING": "På vei tilbake",
+        "OUT_OF_SERVICE": "Ute av drift"
+      },
+      "OPTIONS": {
+        "TYPE.STRUCTURE_FIRE": "Bygningsbrann",
+        "TYPE.VEHICLE_FIRE": "Kjøretøybrann",
+        "TYPE.WILDFIRE/BRUSH_FIRE": "Skog-/gressbrann",
+        "TYPE.MEDICAL_EMERGENCY": "Medisinsk nødsituasjon",
+        "TYPE.HAZMAT_INCIDENT": "Farlig gods-hendelse",
+        "TYPE.GAS_LEAK": "Gasslekkasje",
+        "TYPE.CARBON_MONOXIDE_ALARM": "Karbonmonoksidalarm",
+        "TYPE.VEHICLE_ACCIDENT": "Trafikkulykke",
+        "TYPE.WATER_RESCUE": "Vannredning",
+        "TYPE.FALSE_ALARM": "Falsk alarm",
+        "TYPE.PUBLIC_ASSIST": "Bistand til publikum",
+        "TYPE.OTHER": "Annet"
+      },
+      "ENTITY_FIELDS": {}
+    },
+    "Mechanic": {
+      "TABS": {
+        "HOME": "Hjem",
+        "BULLETIN": "Oppslagstavle",
+        "DISPATCH": "Oppdrag",
+        "UNITS": "Enheter",
+        "VEHICLES": "Kjøretøy",
+        "SERVICEREPORTS": "Servicerapporter",
+        "EMPLOYEES": "Ansatte",
+        "CHAT": "Chat",
+        "LOGS": "Logger"
+      },
+      "FIELDS": {
+        "VEHICLE": "Kjøretøyinformasjon",
+        "NOTES": "Kjøretøynotater",
+        "TAGS": "Tagger",
+        "SERVICEREPORTS": "Servicehistorikk",
+        "TARGET": "Kjøretøy",
+        "CUSTOMER": "Kunde",
+        "TYPE": "Servicetype",
+        "STATUS": "Status",
+        "PRIORITY": "Prioritet",
+        "GALLERY": "Bilder",
+        "DESCRIPTION": "Servicerapport",
+        "MECHANICS": "Involverte mekanikere"
+      },
+      "STATUSES": {
+        "AVAILABLE": "Tilgjengelig",
+        "BUSY": "Opptatt",
+        "ON_CALL": "På oppdrag",
+        "AT_SHOP": "På verkstedet",
+        "OUT_OF_SERVICE": "Ute av drift"
+      },
+      "OPTIONS": {
+        "TYPE.ENGINE_REPAIR": "Motorreparasjon",
+        "TYPE.BODY_WORK": "Karosseriarbeid",
+        "TYPE.PAINT_JOB": "Lakkering",
+        "TYPE.TIRE_REPLACEMENT": "Dekkskift",
+        "TYPE.OIL_CHANGE": "Oljeskift",
+        "TYPE.BATTERY_REPLACEMENT": "Batteribytte",
+        "TYPE.TRANSMISSION_REPAIR": "Girkassereparasjon",
+        "TYPE.BRAKE_SERVICE": "Bremseservice",
+        "TYPE.SUSPENSION_REPAIR": "Fjæringsreparasjon",
+        "TYPE.ELECTRICAL_REPAIR": "Elektrisk reparasjon",
+        "TYPE.EXHAUST_SYSTEM": "Eksosanlegg",
+        "TYPE.DIAGNOSTIC_CHECK": "Diagnostisk sjekk",
+        "TYPE.MODIFICATION": "Modifisering",
+        "TYPE.INSPECTION": "Inspeksjon",
+        "TYPE.TOWING_SERVICE": "Tauing",
+        "TYPE.ROADSIDE_ASSISTANCE": "Veihjelp",
+        "TYPE.OTHER": "Annet",
+        "STATUS.IN_PROGRESS": "Pågår",
+        "STATUS.COMPLETED": "Fullført",
+        "STATUS.WAITING_PARTS": "Venter på deler",
+        "STATUS.CANCELLED": "Kansellert",
+        "PRIORITY.LOW": "Lav",
+        "PRIORITY.NORMAL": "Normal",
+        "PRIORITY.HIGH": "Høy",
+        "PRIORITY.URGENT": "Haster"
+      },
+      "ENTITY_FIELDS": {
+        "VEHICLE.MODEL": "Modell",
+        "VEHICLE.PLATE": "Registreringsnummer",
+        "VEHICLE.COLOR": "Farge",
+        "VEHICLE.OWNER": "Eier",
+        "VEHICLE.LOCATION": "Sist kjente posisjon"
+      }
+    }
+  }
 }
