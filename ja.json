@@ -286,6 +286,7 @@
             "PASSWORD_REQUIRED_TEXT": "このチャンネルにはパスワードが必要です",
             "PASSWORD_PLACEHOLDER": "パスワード",
             "PASSWORD_PLACEHOLDER_OPTIONAL": "パスワード (任意)",
+            "INCORRECT_PASSWORD": "パスワードが間違っています",
             "INCORRECT_PASSWORD_TEXT": "パスワードが正しくありません",
             "CHANNEL_EXISTS": "チャンネルが存在します",
             "CHANNEL_EXISTS_TEXT": "チャンネルはすでに存在します",
@@ -320,7 +321,6 @@
             "USERNAME_TAKEN": "ユーザー名はすでに使用されています",
             "UNKNOWN": "不明なエラー",
             "INVALID_USERNAME": "ユーザー名が存在しません",
-            "INCORRECT_PASSWORD": "パスワードが間違っています",
             "OK": "OK",
 
             "LEAVE_CHANNEL": {
@@ -512,6 +512,11 @@
             "SENT_LOCATION_SHORT": "現在地を共有しました",
             "TRIED_TO_CALL": "{number}があなたに電話をかけようとしました",
             "DELETE": "削除",
+            "REPLY": "返信",
+            "REACT": "リアクション",
+            "REPLYING_TO": "返信先",
+            "ATTACHMENT": "添付ファイル",
+            "YOU": "あなた",
             "GROUP": "グループ",
             "GROUP_NAME": "グループ名",
             "REMOVE_POPUP": {
@@ -581,6 +586,10 @@
             "GROUP_MEMBER_LIMIT_NOTIFICATION": {
                 "TITLE": "メンバー上限に達しました",
                 "CONTENT": "グループの最大メンバー数（{limit}人）に達しました。"
+            },
+            "REACT_NOTIFICATION": {
+                "TITLE": "新しいリアクション",
+                "CONTENT": "{name}がメッセージに{reaction}でリアクションしました"
             }
         },
         "PHONE": {
@@ -1276,6 +1285,14 @@
                 "CANCEL": "キャンセル",
                 "PROCEED": "続行"
             },
+            "VERIFIED": {
+                "LABEL": "認証済みアカウント",
+                "DESCRIPTION": "このアカウントは認証されています。"
+            },
+            "VERIFIED_GOVERNMENT": {
+                "LABEL": "政府機関アカウント",
+                "DESCRIPTION": "このアカウントは公式の政府機関アカウントです。"
+            },
             "YOU": "あなた",
             "FOLLOW": "フォロー",
             "PENDING": "保留中",
@@ -1793,7 +1810,9 @@
             "CANCEL": "キャンセル",
             "PROCEED": "続行",
             "OK": "OK"
-        }
+        },
+        "COPY": "コピー",
+        "OPEN_IN_BROWSER": "ブラウザで開く"
     },
     "BACKEND": {
         "CALLS": {
