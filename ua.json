@@ -490,7 +490,7 @@
             "PEOPLE": "Люди",
             "MEMBERS": "Користувачi",
             "OTHER": "iнше",
-            "SENT_A_PHOTO": "Вiлправити фото",
+            "SENT_A_PHOTO": "Вiдправити фото",
             "SENT_AUDIO_MESSAGE": "Вiдправити аудiо",
             "SENT": "Надiслати",
             "REQUESTED": "Запити",
@@ -512,6 +512,11 @@
             "SENT_LOCATION_SHORT": "Переслати мiсцезнаходження",
             "TRIED_TO_CALL": "{number} намагався додзвонитися до вас",
             "DELETE": "Видалити",
+            "REPLY": "Відповісти",
+            "REACT": "Реакція",
+            "REPLYING_TO": "Відповідь на",
+            "ATTACHMENT": "Вкладення",
+            "YOU": "Ви",
             "GROUP": "Група",
             "GROUP_NAME": "Назва групи",
             "REMOVE_POPUP": {
@@ -562,6 +567,11 @@
                 "CANCEL": "Скасувати",
                 "REMOVE": "Видалити"
             },
+            "FAILED_SEND": {
+                "TITLE": "Не вдалося надіслати повідомлення",
+                "DESCRIPTION": "Не вдалося надіслати повідомлення",
+                "OK": "OK"
+            },
             "MARK_AS_READ": "Позначити як прочитане",
             "MESSAGE_DELETED": "Повiдомлення видалено",
             "OPEN_IN_MAPS": "Вiдкрити в Картах",
@@ -576,6 +586,10 @@
             "GROUP_MEMBER_LIMIT_NOTIFICATION": {
                 "TITLE": "Досягнуто ліміт учасників",
                 "CONTENT": "Ви досягли максимальної кількості учасників у групі ({limit})."
+            },
+            "REACT_NOTIFICATION": {
+                "TITLE": "Нова реакція",
+                "CONTENT": "{name} відреагував(ла) {reaction} на ваше повідомлення"
             }
         },
         "PHONE": {
@@ -1271,6 +1285,14 @@
                 "CANCEL": "Скасувати",
                 "PROCEED": "Пiдтвердити"
             },
+            "VERIFIED": {
+                "LABEL": "Підтверджений акаунт",
+                "DESCRIPTION": "Цей акаунт підтверджено."
+            },
+            "VERIFIED_GOVERNMENT": {
+                "LABEL": "Державний акаунт",
+                "DESCRIPTION": "Це офіційний державний акаунт."
+            },
             "YOU": "Ви",
             "FOLLOW": "Стежити",
             "PENDING": "В очiкуваннi",
@@ -1390,6 +1412,16 @@
                 "DESCRIPTION": "Ви впевненi, що хочете зателефонувати {name}?",
                 "CANCEL": "Скасувати",
                 "PROCEED": "Пiдтвердити"
+            },
+            "QUICK_REPLIES": {
+                "REQUEST_LOCATION": {
+                    "TITLE": "Запит локації",
+                    "MESSAGE": "Будь ласка, надішліть вашу локацію."
+                },
+                "OFFICER_EN_ROUTE": {
+                    "TITLE": "Офіцер прямує",
+                    "MESSAGE": "Офіцер уже прямує до вашого місця."
+                }
             }
         },
         "CRYPTO": {
@@ -1407,6 +1439,10 @@
             "TOO_HIGH": "Сума занадто велика (максимум {amount})",
             "NO_NUMBER": "Номер телефону не вказано",
             "INVALID_NUMBER": "Недiйсний номер телефону (можливо, користувач не в мережi)",
+            "CHECK_FAILED": "Перевірка не пройдена",
+            "BUY_DISABLED": "Купівля цієї монети вимкнена",
+            "SELL_DISABLED": "Продаж цієї монети вимкнено",
+            "TRANSFER_DISABLED": "Переказ цієї монети вимкнено",
             "ERROR": "Помилка",
             "CLOSE": "Закрити",
             "BUY_POPUP": {
@@ -1435,6 +1471,11 @@
                 "TITLE": "Успiшно переведено",
                 "DESCRIPTION": "Ви успiшно переказали ${amount} у розмiрi {coin} до {number}",
                 "CLOSE": "Закрити"
+            },
+            "REFUND_TRANSACTION": "Повернення коштів через видалення криптовалюти",
+            "CONVERT_NOTIFICATION": {
+                "TITLE": "Криптовалюти конвертовано",
+                "DESCRIPTION": "Деякі криптовалюти було видалено та конвертовано у {amount} {coinName}."
             }
         },
         "TIKTOK": {
@@ -1608,7 +1649,8 @@
             "BOOKMARK_REMOVE": "Видалити закладку",
             "NO_BOOKMARKS": "Закладок поки немає",
             "NO_HISTORY": "Історії поки немає",
-            "FAILED_LOAD_PAGE": "Не вдалося завантажити сторінку"
+            "FAILED_LOAD_PAGE": "Не вдалося завантажити сторінку",
+            "FAILED_LOAD_PAGE_DESCRIPTION": "Цей сайт не дозволяє вбудовування через iframe. Це не помилка."
         }
     },
     "COMPONENTS": {
@@ -1768,7 +1810,9 @@
             "CANCEL": "Скасувати",
             "PROCEED": "Пiдтвердити",
             "OK": "OK"
-        }
+        },
+        "COPY": "Копіювати",
+        "OPEN_IN_BROWSER": "Відкрити в браузері"
     },
     "BACKEND": {
         "CALLS": {
