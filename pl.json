@@ -720,7 +720,7 @@
             "SELECT_CONTACT": "Wybierz kontakt",
             "TODAY": "Dzisiaj",
             "YESTERDAY": "Wczoraj",
-    
+
             "INSUFFICIENT_FUNDS": {
                 "TITLE": "Niewystarczające środki",
                 "DESCRIPTION": "Nie masz wystarczających środków, aby wysłać tę kwotę"
@@ -753,7 +753,7 @@
                 "TITLE": "Nie udało się dodać pieniędzy",
                 "DESCRIPTION": "Nie udało się dodać pieniędzy na wskazane konto"
             },
-    
+
             "OK": "OK"
         },
         "GARAGE": {
@@ -777,7 +777,7 @@
             "LOCK": "Zablokuj",
             "UNLOCKED": "Odblokowany",
             "UNLOCK": "Odblokuj",
-    
+
             "WAYPOINT_POPUP": {
                 "TITLE": "Ustaw punkt",
                 "TEXT": "Czy chcesz ustawić punkt do swojego {model}?",
@@ -1551,7 +1551,7 @@
                 "CANCEL": "Anuluj",
                 "PROCEED": "Kontynuuj"
             },
-    
+
             "ADD_ACCOUNT_TITLE": "Dodaj konto",
             "ADD_ACCOUNT": "Dodaj {name} do swojego profilu",
             "UPLOAD_VIDEO": "Prześlij wideo",
