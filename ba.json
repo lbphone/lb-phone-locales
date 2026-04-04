@@ -7,7 +7,7 @@
     "H": "s",
     "M": "m",
     "S": "s",
-	"SECONDS": "sekundi",
+    "SECONDS": "sekundi",
     "MINUTES": "minuta",
     "HOURS": "sati",
 
@@ -270,15 +270,15 @@
             "CANCEL": "Odustani",
             "SET": "Postavi",
             "JOIN": "Pridruži se",
-			"CREATE": "Kreiraj",
+            "CREATE": "Kreiraj",
             "LEAVE": "Napusti",
             "JOIN_ROOM": "Uđi u sobu",
             "JOIN_ROOM_TEXT": "Pošalji poruku da se pridružiš",
             "CREATE_ROOM": "Kreiraj sobu",
             "CREATE_ROOM_TEXT": "Upiši kod sobe da kreiraš",
             "ROOM_CODE": "Šifra sobe",
-			
-			"INVALID_CHANNEL": "Nepostojeći kanal",
+
+            "INVALID_CHANNEL": "Nepostojeći kanal",
             "INVALID_CHANNEL_TEXT": "Kanal ne postoji",
             "ALREADY_IN_CHANNEL": "Već ste u kanalu",
             "ALREADY_IN_CHANNEL_TEXT": "Već se nalazite u ovom kanalu",
@@ -294,7 +294,7 @@
             "INVALID_NAME_TEXT": "Ime nije ispravno (min 1, max 5)",
             "UNKNOWN_ERROR": "Nepoznata greška",
             "UNKNOWN_ERROR_TEXT": "Desila se nepoznata greška",
-			
+
             "LEAVE_ROOM": "Napusti sobu",
             "LEAVE_ROOM_TEXT": "Da li ste sigurni da želite napustiti sobu?",
             "NOW": "Sada",
@@ -365,7 +365,7 @@
             "TITLE": "Slike",
             "SELECT": "Odaberi",
             "CANCEL": "Odustani",
-			"PROCEED": "Nastavi",
+            "PROCEED": "Nastavi",
             "OK": "OK",
             "EDIT": "Izmjeni",
             "DONE": "Gotovo",
@@ -378,9 +378,9 @@
             "LIBRARY": "Biblioteka",
             "GALLERY": "Galerija",
             "MY_ALBUMS": "Moji albumi",
-			"SHARED_ALBUMS": "Podijeljeni albumi",
+            "SHARED_ALBUMS": "Podijeljeni albumi",
             "MEDIA_TYPES": "Vrste dokumenata",
-			"MANAGE_MEMBERS": "Uredi članove",
+            "MANAGE_MEMBERS": "Uredi članove",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "Novi album",
                 "DESCRIPTION": "Odaberite ime za album",
@@ -392,7 +392,7 @@
                 "TITLE": "Obriši \"{name}\"",
                 "DESCRIPTION": "Da li sigurni da želite obrisati album \"{name}\"? Slike neće biti obrisane"
             },
-			"LEAVE_SHARED_ALBUM": {
+            "LEAVE_SHARED_ALBUM": {
                 "TITLE": "Napusti \"{name}\"",
                 "DESCRIPTION": "Da li sigurni da želite napustiti album \"{name}\"? Više nećete moći ubacivati slike"
             },
@@ -416,7 +416,7 @@
                 "PROCEED": "Ubaci",
                 "PLACEHOLDER": "URL fotografije"
             },
-			"ERROR": "Greška",
+            "ERROR": "Greška",
             "SUCCESS": "Uspješno",
             "CONTACT_ALREADY_IN_ALBUM": "Kontakt se već nalazi u albumu",
             "CONTACT_ADDED_TO_ALBUM": "Kontakt dodan u album",
@@ -430,7 +430,7 @@
                 "DESCRIPTION": "Da li ste sigurni da želite izbaciti člana?",
                 "SUCCESS": "Član izbačen iz albuma"
             },
-			
+
             "NO_PHOTOS": "Nema fotografija ili videa",
             "NO_PHOTOS_INSTRUCTIONS": "Možete uslikati slike i snimiti videe pomoću kamere",
             "PHOTO_COUNT": "{amount} Slika",
@@ -512,7 +512,7 @@
             "SENT_LOCATION_SHORT": "Lokacija podjeljena",
             "TRIED_TO_CALL": "{number} Vas je pokušao nazvati",
             "DELETE": "Obriši",
-			"REPLY": "Odgovori",
+            "REPLY": "Odgovori",
             "REACT": "Reaguj",
             "REPLYING_TO": "Odgovaranje",
             "ATTACHMENT": "Dodatak",
@@ -567,7 +567,7 @@
                 "CANCEL": "Odustani",
                 "REMOVE": "Makni"
             },
-			"FAILED_SEND": {
+            "FAILED_SEND": {
                 "TITLE": "Poruka nije poslana",
                 "DESCRIPTION": "Došlo je do greške, poruka nije poslana",
                 "OK": "OK"
@@ -583,7 +583,7 @@
                 "DESCRIPTION": "Ne možete slati prazne snimke",
                 "OK": "OK"
             },
-			"GROUP_MEMBER_LIMIT_NOTIFICATION": {
+            "GROUP_MEMBER_LIMIT_NOTIFICATION": {
                 "TITLE": "Limit članova",
                 "CONTENT": "Limit članova je dostignut - ({limit})."
             },
@@ -673,7 +673,7 @@
                 "ADDRESS": "Adresa",
                 "CHANGE_AVATAR": "Izmjeni avatar",
                 "REMOVE_AVATAR": "Obrisi avatar",
-				"RINGTONES": "Zvona",
+                "RINGTONES": "Zvona",
                 "RINGTONE": "Zvono",
                 "DEFAULT": "Default",
                 "BACK": "Nazad"
@@ -693,7 +693,7 @@
                 "TITLE": "Nedavno",
                 "ALL": "Svi",
                 "MISSED": "Propušteni",
-				"OUTGOING_CALL": "Odlazni poziv",
+                "OUTGOING_CALL": "Odlazni poziv",
                 "INCOMING_CALL": "Dolazni poziv",
                 "CANCELLED_CALL": "Otkazan poziv",
                 "MISSED_CALL": "Propušten poziv"
@@ -984,7 +984,7 @@
         },
         "MUSIC": {
             "TITLE": "Muzika",
-			"HOME": "Početna",
+            "HOME": "Početna",
             "RECENTLY_ADDED": "Nedavno dodano",
             "CATEGORIES": "Kategorije",
             "PLAYLISTS": "Playliste",
@@ -999,7 +999,7 @@
             "SEARCH_PLACEHOLDER": "Izvođači, Pjesme, Albumi, Playliste",
             "SONGS": "Pjesme",
             "ALBUMS": "Albumi",
-			"ARTISTS": "Izođači",
+            "ARTISTS": "Izođači",
             "PLAY": "Pusti",
             "SHUFFLE": "Izmješaj",
             "ARTIST": "Izvođač",
@@ -1030,7 +1030,7 @@
             "LIKES_YOU_TOO": "je Vaš par!",
             "KEEP_SWIPING": "Nastavi dalje",
             "SAY_SOMETHING_NICE": "Recite nešto lijepo",
-			"TYPE_A_MESSAGE": "Upišite poruku...",
+            "TYPE_A_MESSAGE": "Upišite poruku...",
             "NO_MORE": "Trenutno ne postoji više profila koje niste vidjeli, pokušajte kasnije!",
             "SEND": "Pošalji",
             "AGREE_TERMS": "Stiskanjem na 'Kreiraj nalog' slažete se sa Uslovima korištenja i Politikom privatnosti",
@@ -1066,7 +1066,7 @@
             "HIDDEN_PROFILE": "Vaš nalog nije aktiviran. Možete aktivirati Vaš nalog u postavkama.",
             "SEARCH_MATCHES": "Pretraži pogotke",
             "DELETE_ACCOUNT": "Obriši nalog",
-			"ERROR": {
+            "ERROR": {
                 "TITLE": "Greška",
                 "SHORT_NAME": "Greška pri čuvanju Spark profila, (ime mora biti duže od 2 slova)",
                 "SHORT_BIO": "Greška pri čuvanju Spark profila, (biografija mora biti duža od 5 slova)",
@@ -1285,7 +1285,7 @@
                 "CANCEL": "Odustani",
                 "PROCEED": "Nastavi"
             },
-			"VERIFIED": {
+            "VERIFIED": {
                 "LABEL": "Verifikovan nalog",
                 "DESCRIPTION": "Ovaj nalog je verifikovan."
             },
@@ -1306,7 +1306,7 @@
             "NOTIFICATIONS": "Notifikacije",
             "FOLLOWS_YOU": "Vas je zapratio",
             "JOINED": "Pridružio se {date}",
-			"PINNED_POST": "Prikvačena objava",
+            "PINNED_POST": "Prikvačena objava",
             "LIKED_TWEET": "je likeovao Vašu objavu",
             "RETWEETED_TWEET": "je repostovao Vašu objavu",
             "FOLLOWED": "Vas je zapratio",
@@ -1421,8 +1421,8 @@
                 "OFFICER_EN_ROUTE": {
                     "TITLE": "Oficir dolazi",
                     "MESSAGE": "Oficir je na putu do vaše lokacije."
-				}
-			}
+                }
+            }
         },
         "CRYPTO": {
             "TITLE": "Crypto",
@@ -1436,14 +1436,14 @@
             "NOT_ENOUGH_COINS": "Nemate dovoljan broj coina",
             "ATLEAST_ONE_COIN": "Morate {action} minimalno jedan {currency}",
             "INVALID_COIN": "Nepostojeći coin",
-			"TOO_HIGH": "Količina je prevelika (max {amount})",
+            "TOO_HIGH": "Količina je prevelika (max {amount})",
             "NO_NUMBER": "Broj telefona nije upisan",
             "INVALID_NUMBER": "Pogrešan broj telefona (korisnik možda nije aktivan)",
-			"CHECK_FAILED": "Verifikacija neuspješna",
-			"BUY_DISABLED": "Kupovina je onemogućena za ovu valutu",
+            "CHECK_FAILED": "Verifikacija neuspješna",
+            "BUY_DISABLED": "Kupovina je onemogućena za ovu valutu",
             "SELL_DISABLED": "Prodaja je onemogućena za ovu valutu",
             "TRANSFER_DISABLED": "Transfer je onemogućen za ovu valutu",
-			"ERROR": "Greška",
+            "ERROR": "Greška",
             "CLOSE": "Zatvori",
             "BUY_POPUP": {
                 "TITLE": "Kupi {coin}",
@@ -1476,7 +1476,7 @@
             "CONVERT_NOTIFICATION": {
                 "TITLE": "Kripto valute pretvorene",
                 "DESCRIPTION": "Određene kripto valute su obrisane i pretvorene u {amount} {coinName}."
-			}
+            }
         },
         "TIKTOK": {
             "TITLE": "Trendy",
@@ -1636,7 +1636,7 @@
                 "OK": "OK"
             }
         },
-		"BROWSER": {
+        "BROWSER": {
             "TITLE": "Pretraživač",
             "SEARCH_PLACEHOLDER": "Pretraživanje ili ukucajte URL",
             "NEW_TAB": "Nova kartica",
@@ -1649,7 +1649,7 @@
             "BOOKMARK_REMOVE": "Obriši bookmark",
             "NO_BOOKMARKS": "Nemate sačuvanih bookmark",
             "NO_HISTORY": "Ne postoji historija",
-			"FAILED_LOAD_PAGE": "Nije moguće pristupiti stranici putem ove aplikacije",
+            "FAILED_LOAD_PAGE": "Nije moguće pristupiti stranici putem ove aplikacije",
             "FAILED_LOAD_PAGE_DESCRIPTION": "Ova stranica ne dozvoljava iframing. Ovo nije bug."
         }
     },
@@ -1706,7 +1706,7 @@
             "NOTE": "bilješku",
             "VOICEMEMO": "glasovni zapis",
             "PLAYLIST": "playlistu",
-			"ALBUM": "album",
+            "ALBUM": "album",
             "DECLINE": "Odbij",
             "ACCEPT": "Prihvati"
         },
@@ -1773,7 +1773,7 @@
         "FONT_AND_COLOR": "Font & Boja"
     },
     "MISC": {
-		"ORDINAL": {
+        "ORDINAL": {
             "ZERO": ".",
             "ONE": ".",
             "TWO": ".",
