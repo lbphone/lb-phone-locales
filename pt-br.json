@@ -512,6 +512,11 @@
             "SENT_LOCATION_SHORT": "Compartilhou sua localização",
             "TRIED_TO_CALL": "{number} tentou te ligar",
             "DELETE": "Excluir",
+            "REPLY": "Responder",
+            "REACT": "Reagir",
+            "REPLYING_TO": "Respondendo a",
+            "ATTACHMENT": "Anexo",
+            "YOU": "Você",
             "GROUP": "Grupo",
             "GROUP_NAME": "Nome do Grupo",
             "REMOVE_POPUP": {
@@ -562,6 +567,11 @@
                 "CANCEL": "Cancelar",
                 "REMOVE": "Remover"
             },
+            "FAILED_SEND": {
+                "TITLE": "Falha ao enviar mensagem",
+                "DESCRIPTION": "Falha ao enviar mensagem",
+                "OK": "OK"
+            },
             "MARK_AS_READ": "Marcar como lido",
             "MESSAGE_DELETED": "Mensagem excluída",
             "OPEN_IN_MAPS": "Abrir no Mapa",
@@ -576,6 +586,10 @@
             "GROUP_MEMBER_LIMIT_NOTIFICATION": {
                 "TITLE": "Limite de membros do grupo atingido",
                 "CONTENT": "Você atingiu o limite máximo de membros do grupo ({limit})"
+            },
+            "REACT_NOTIFICATION": {
+                "TITLE": "Nova Reação",
+                "CONTENT": "{name} reagiu com {reaction} à sua mensagem"
             }
         },
         "PHONE": {
@@ -1271,6 +1285,14 @@
                 "CANCEL": "Cancelar",
                 "PROCEED": "Prosseguir"
             },
+            "VERIFIED": {
+                "LABEL": "Conta Verificada",
+                "DESCRIPTION": "Esta conta é verificada."
+            },
+            "VERIFIED_GOVERNMENT": {
+                "LABEL": "Conta Governamental",
+                "DESCRIPTION": "Esta conta é uma conta oficial do governo."
+            },
             "YOU": "Você",
             "FOLLOW": "Seguir",
             "PENDING": "Pendente",
@@ -1390,6 +1412,16 @@
                 "DESCRIPTION": "Você tem certeza de que deseja ligar para {name}?",
                 "CANCEL": "Cancelar",
                 "PROCEED": "Prosseguir"
+            },
+            "QUICK_REPLIES": {
+                "REQUEST_LOCATION": {
+                    "TITLE": "Solicitar Localização",
+                    "MESSAGE": "Você pode fornecer sua localização, por favor?"
+                },
+                "OFFICER_EN_ROUTE": {
+                    "TITLE": "Oficial a Caminho",
+                    "MESSAGE": "Um oficial está a caminho da sua localização."
+                }
             }
         },
         "CRYPTO": {
@@ -1407,6 +1439,10 @@
             "TOO_HIGH": "O valor é muito alto (máx {amount})",
             "NO_NUMBER": "Nenhum número de telefone fornecido",
             "INVALID_NUMBER": "Número de telefone inválido (o usuário pode não estar online)",
+            "CHECK_FAILED": "Falha na verificação",
+            "BUY_DISABLED": "Compra foi desativada para esta moeda",
+            "SELL_DISABLED": "Venda foi desativada para esta moeda",
+            "TRANSFER_DISABLED": "Transferência foi desativada para esta moeda",
             "ERROR": "Erro",
             "CLOSE": "Fechar",
             "BUY_POPUP": {
@@ -1435,6 +1471,11 @@
                 "TITLE": "Transferência realizada com sucesso",
                 "DESCRIPTION": "Você transferiu com sucesso ${amount} de {coin} para {number}",
                 "CLOSE": "Fechar"
+            },
+            "REFUND_TRANSACTION": "Reembolso devido a criptomoedas removidas.",
+            "CONVERT_NOTIFICATION": {
+                "TITLE": "Criptomoedas convertidas",
+                "DESCRIPTION": "Algumas criptomoedas foram removidas e convertidas para {amount} {coinName}."
             }
         },
         "TIKTOK": {
@@ -1608,7 +1649,8 @@
             "BOOKMARK_REMOVE": "Remover favorito",
             "NO_BOOKMARKS": "Nenhum favorito",
             "NO_HISTORY": "Nenhum histórico",
-            "FAILED_LOAD_PAGE": "Falha ao carregar a página"
+            "FAILED_LOAD_PAGE": "Não é possível acessar o site neste aplicativo",
+            "FAILED_LOAD_PAGE_DESCRIPTION": "Este site não permite iframing. Isso não é um bug."
         }
     },
     "COMPONENTS": {
@@ -1768,7 +1810,9 @@
             "CANCEL": "Cancelar",
             "PROCEED": "Continuar",
             "OK": "OK"
-        }
+        },
+        "COPY": "Copiar",
+        "OPEN_IN_BROWSER": "Abrir no navegador"
     },
     "BACKEND": {
         "CALLS": {

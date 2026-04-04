@@ -512,6 +512,11 @@
             "SENT_LOCATION_SHORT": "Megosztotta a helyzetét",
             "TRIED_TO_CALL": "{number} próbált hívni",
             "DELETE": "Törlés",
+            "REPLY": "Válasz",
+            "REACT": "Reakció",
+            "REPLYING_TO": "Válasz neki",
+            "ATTACHMENT": "Csatolmány",
+            "YOU": "Te",
             "GROUP": "Csoport",
             "GROUP_NAME": "Csoport neve",
             "REMOVE_POPUP": {
@@ -562,6 +567,11 @@
                 "CANCEL": "Mégse",
                 "REMOVE": "Eltávolítás"
             },
+            "FAILED_SEND": {
+                "TITLE": "Üzenet küldése sikertelen",
+                "DESCRIPTION": "Nem sikerült elküldeni az üzenetet",
+                "OK": "OK"
+            },
             "MARK_AS_READ": "Megjelölés olvasottként",
             "MESSAGE_DELETED": "Üzenet törölve",
             "OPEN_IN_MAPS": "Megnyitás térképen",
@@ -576,6 +586,10 @@
             "GROUP_MEMBER_LIMIT_NOTIFICATION": {
                 "TITLE": "Elérted a taglimitett",
                 "CONTENT": "Elérted a maximális csoportlétszámot ({limit})."
+            },
+            "REACT_NOTIFICATION": {
+                "TITLE": "Új Reakció",
+                "CONTENT": "{name} reagált a {reaction} reakcióval az üzenetedre"
             }
         },
         "PHONE": {
@@ -761,9 +775,9 @@
             "ACTIONS": "Műveletek",
             "MY_CARS": "Autóim",
             "OUT": "Kint",
-            "GARAGE": "Garázs",
-            "IMPOUNDED": "Elkobozva",
-            "IMPOUND_INFO": "Elkobzási információ",
+            "GARAGE": "Garázs/Parkoló",
+            "IMPOUNDED": "Lefoglalva",
+            "IMPOUND_INFO": "Lefoglalt információ",
             "LOCATION": "Helyszín",
             "SUMMON": "Előhívás",
             "VALET": "Valet",
@@ -1271,7 +1285,15 @@
                 "CANCEL": "Mégse",
                 "PROCEED": "Folytatás"
             },
-            "YOU": "Te",
+            "VERIFIED": {
+                "LABEL": "Hitelesített fiók",
+                "DESCRIPTION": "Ez a fiók hitelesített."
+            },
+            "VERIFIED_GOVERNMENT": {
+                "LABEL": "Állami fiók",
+                "DESCRIPTION": "Ez a fiók egy hivatalos állam/állami szerv fiókja."
+            },
+            "YOU": "You",
             "FOLLOW": "Követés",
             "PENDING": "Függőben",
             "FOLLOWING": "Követve",
@@ -1390,6 +1412,16 @@
                 "DESCRIPTION": "Biztosan fel akarod hívni {name}-t?",
                 "CANCEL": "Mégse",
                 "PROCEED": "Folytatás"
+            },
+            "QUICK_REPLIES": {
+                "REQUEST_LOCATION": {
+                    "TITLE": "Helyzetkérelem",
+                    "MESSAGE": "Meg tudod adni a helyzeted?"
+                },
+                "OFFICER_EN_ROUTE": {
+                    "TITLE": "Egység úton",
+                    "MESSAGE": "Egy rendőr egység úton van a helyzetedhez."
+                }
             }
         },
         "CRYPTO": {
@@ -1407,6 +1439,10 @@
             "TOO_HIGH": "Az összeg túl magas (max {amount})",
             "NO_NUMBER": "Nem adott meg telefonszámot",
             "INVALID_NUMBER": "Érvénytelen telefonszám (a felhasználó lehet, hogy nincs online)",
+            "CHECK_FAILED": "Érvényesítési hiba",
+            "BUY_DISABLED": "A vásárlás le van tiltva ehhez az érmehez",
+            "SELL_DISABLED": "Az eladás le van tiltva ehhez az érmehez",
+            "TRANSFER_DISABLED": "Az átutalás le van tiltva ehhez az érmehez",
             "ERROR": "Hiba",
             "CLOSE": "Bezárás",
             "BUY_POPUP": {
@@ -1435,6 +1471,11 @@
                 "TITLE": "Sikeres átutalás",
                 "DESCRIPTION": "Sikeresen átutaltál ${amount} {coin}-t {number}-nek",
                 "CLOSE": "Bezárás"
+            },
+            "REFUND_TRANSACTION": "Visszatérítés a kriptovaluták eltávolítása miatt.",
+            "CONVERT_NOTIFICATION": {
+                "TITLE": "Kriptovaluták átváltva",
+                "DESCRIPTION": "Néhány kriptovaluta eltávolításra került és átváltva {amount} {coinName}-re."
             }
         },
         "TIKTOK": {
@@ -1608,7 +1649,8 @@
             "BOOKMARK_REMOVE": "Könyvjelző eltávolítása",
             "NO_BOOKMARKS": "Még nincs könyvjelződ",
             "NO_HISTORY": "Még nincsenek előzményeid",
-            "FAILED_LOAD_PAGE": "Nem sikerült betölteni az oldalt"
+            "FAILED_LOAD_PAGE": "A weboldal nem nyitható meg ebben az alkalmazásban",
+            "FAILED_LOAD_PAGE_DESCRIPTION": "Nem sikerült betölteni az oldalt"
         }
     },
     "COMPONENTS": {
@@ -1768,7 +1810,9 @@
             "CANCEL": "Mégse",
             "PROCEED": "Folytatás",
             "OK": "OK"
-        }
+        },
+        "COPY": "Másolás",
+        "OPEN_IN_BROWSER": "Megnyitás böngészőben"
     },
     "BACKEND": {
         "CALLS": {

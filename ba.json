@@ -512,6 +512,11 @@
             "SENT_LOCATION_SHORT": "Lokacija podjeljena",
             "TRIED_TO_CALL": "{number} Vas je pokušao nazvati",
             "DELETE": "Obriši",
+			"REPLY": "Odgovori",
+            "REACT": "Reaguj",
+            "REPLYING_TO": "Odgovaranje",
+            "ATTACHMENT": "Dodatak",
+            "YOU": "Vi",
             "GROUP": "Grupa",
             "GROUP_NAME": "Ime grupe",
             "REMOVE_POPUP": {
@@ -562,6 +567,11 @@
                 "CANCEL": "Odustani",
                 "REMOVE": "Makni"
             },
+			"FAILED_SEND": {
+                "TITLE": "Poruka nije poslana",
+                "DESCRIPTION": "Došlo je do greške, poruka nije poslana",
+                "OK": "OK"
+            },
             "MARK_AS_READ": "Označi kao pročitano",
             "MESSAGE_DELETED": "Poruka obrisana",
             "OPEN_IN_MAPS": "Otvori u Mapama",
@@ -576,6 +586,10 @@
 			"GROUP_MEMBER_LIMIT_NOTIFICATION": {
                 "TITLE": "Limit članova",
                 "CONTENT": "Limit članova je dostignut - ({limit})."
+            },
+            "REACT_NOTIFICATION": {
+                "TITLE": "Nova reakcija",
+                "CONTENT": "{name} je reagovao sa {reaction} na poruku"
             }
         },
         "PHONE": {
@@ -1271,6 +1285,14 @@
                 "CANCEL": "Odustani",
                 "PROCEED": "Nastavi"
             },
+			"VERIFIED": {
+                "LABEL": "Verifikovan nalog",
+                "DESCRIPTION": "Ovaj nalog je verifikovan."
+            },
+            "VERIFIED_GOVERNMENT": {
+                "LABEL": "Vladin nalog",
+                "DESCRIPTION": "Ovaj nalog je oficijalni vladin nalog."
+            },
             "YOU": "Vi",
             "FOLLOW": "Zaprati",
             "PENDING": "Na čekanju",
@@ -1390,7 +1412,17 @@
                 "DESCRIPTION": "Da li ste sigurni da želite pozvati {name}?",
                 "CANCEL": "Odustani",
                 "PROCEED": "Nastavi"
-            }
+            },
+            "QUICK_REPLIES": {
+                "REQUEST_LOCATION": {
+                    "TITLE": "Potražnja lokacije",
+                    "MESSAGE": "Da li možete ostaviti vašu lokaciju?"
+                },
+                "OFFICER_EN_ROUTE": {
+                    "TITLE": "Oficir dolazi",
+                    "MESSAGE": "Oficir je na putu do vaše lokacije."
+				}
+			}
         },
         "CRYPTO": {
             "TITLE": "Crypto",
@@ -1407,7 +1439,11 @@
 			"TOO_HIGH": "Količina je prevelika (max {amount})",
             "NO_NUMBER": "Broj telefona nije upisan",
             "INVALID_NUMBER": "Pogrešan broj telefona (korisnik možda nije aktivan)",
-            "ERROR": "Greška",
+			"CHECK_FAILED": "Verifikacija neuspješna",
+			"BUY_DISABLED": "Kupovina je onemogućena za ovu valutu",
+            "SELL_DISABLED": "Prodaja je onemogućena za ovu valutu",
+            "TRANSFER_DISABLED": "Transfer je onemogućen za ovu valutu",
+			"ERROR": "Greška",
             "CLOSE": "Zatvori",
             "BUY_POPUP": {
                 "TITLE": "Kupi {coin}",
@@ -1435,7 +1471,12 @@
                 "TITLE": "Uspješan transfer",
                 "DESCRIPTION": "Uspješno ste prebacili ${amount} {coin} {number}",
                 "CLOSE": "Zatvori"
-            }
+            },
+            "REFUND_TRANSACTION": "Povrat novca zbog uklonjenih kriptovaluta.",
+            "CONVERT_NOTIFICATION": {
+                "TITLE": "Kripto valute pretvorene",
+                "DESCRIPTION": "Određene kripto valute su obrisane i pretvorene u {amount} {coinName}."
+			}
         },
         "TIKTOK": {
             "TITLE": "Trendy",
@@ -1594,6 +1635,22 @@
                 "DESCRIPTION": "Ne možete sačuvati snimku bez audia",
                 "OK": "OK"
             }
+        },
+		"BROWSER": {
+            "TITLE": "Pretraživač",
+            "SEARCH_PLACEHOLDER": "Pretraživanje ili ukucajte URL",
+            "NEW_TAB": "Nova kartica",
+            "TABS": "Kartice",
+            "TAB": "Kartica",
+            "DONE": "Gotovo",
+            "CLOSE_ALL": "Zatvori sve",
+            "HISTORY": "Historija",
+            "BOOKMARKS": "Bookmark",
+            "BOOKMARK_REMOVE": "Obriši bookmark",
+            "NO_BOOKMARKS": "Nemate sačuvanih bookmark",
+            "NO_HISTORY": "Ne postoji historija",
+			"FAILED_LOAD_PAGE": "Nije moguće pristupiti stranici putem ove aplikacije",
+            "FAILED_LOAD_PAGE_DESCRIPTION": "Ova stranica ne dozvoljava iframing. Ovo nije bug."
         }
     },
     "COMPONENTS": {
@@ -1753,7 +1810,9 @@
             "CANCEL": "Odustani",
             "PROCEED": "Nastavi",
             "OK": "OK"
-        }
+        },
+        "COPY": "Kopiraj",
+        "OPEN_IN_BROWSER": "Otvori u pretraživaču"
     },
     "BACKEND": {
         "CALLS": {
@@ -1821,12 +1880,10 @@
         "MISC": {
             "VERIFIED": "Vaš nalog je verifikovan",
             "X_PHONE": "Telefon od {name}",
-
             "LOGGED_OUT_PASSWORD": {
                 "TITLE": "Odjavljeni ste",
                 "DESCRIPTION": "Odjavljeni ste, jer je šifra promjenjena."
             },
-
             "DELETED_NOTIFICATION": {
                 "TITLE": "Nalog obrisan",
                 "DESCRIPTION": "Vaš nalog je obrisan."

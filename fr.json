@@ -512,6 +512,11 @@
             "SENT_LOCATION_SHORT": "A partagé sa position",
             "TRIED_TO_CALL": "{number} a essayé de vous appeler",
             "DELETE": "Supprimer",
+            "REPLY": "Répondre",
+            "REACT": "Réagir",
+            "REPLYING_TO": "Réponse à",
+            "ATTACHMENT": "Pièce jointe",
+            "YOU": "Vous",
             "GROUP": "Groupe",
             "GROUP_NAME": "Nom du Groupe",
             "REMOVE_POPUP": {
@@ -562,6 +567,11 @@
                 "CANCEL": "Annuler",
                 "REMOVE": "Supprimer"
             },
+            "FAILED_SEND": {
+                "TITLE": "Envoie échoué",
+                "DESCRIPTION": "L'envoie du message a échoué",
+                "OK": "OK"
+            },
             "MARK_AS_READ": "Marquer comme lu",
             "MESSAGE_DELETED": "Message supprimer",
             "OPEN_IN_MAPS": "Ouvrir dans Maps",
@@ -576,6 +586,10 @@
             "GROUP_MEMBER_LIMIT_NOTIFICATION": {
                 "TITLE": "Limites de membres atteinte",
                 "CONTENT": "Vous avez atteint la limite de membres pour ce groupe ({limit})."
+            },
+            "REACT_NOTIFICATION": {
+                "TITLE": "Nouvelle Réaction",
+                "CONTENT": "{name} a réagit avec {reaction} à votre message"
             }
         },
         "PHONE": {
@@ -1271,6 +1285,14 @@
                 "CANCEL": "Annuler",
                 "PROCEED": "Confirmer"
             },
+            "VERIFIED": {
+                "LABEL": "Compte vérifié",
+                "DESCRIPTION": "Ce compte est vérifié."
+            },
+            "VERIFIED_GOVERNMENT": {
+                "LABEL": "Compte gouvernemental",
+                "DESCRIPTION": "Ce compte est un compte officiel du gouvernement."
+            },
             "YOU": "Vous",
             "FOLLOW": "Suivre",
             "PENDING": "En attente",
@@ -1390,6 +1412,16 @@
                 "DESCRIPTION": "Voulez-vous vraiment appeler {name} ?",
                 "CANCEL": "Annuler",
                 "PROCEED": "Confirmer"
+            },
+            "QUICK_REPLIES": {
+                "REQUEST_LOCATION": {
+                    "TITLE": "Demande d'emplacement",
+                    "MESSAGE": "Pouvez-vous nous envoyer votre positions?"
+                },
+                "OFFICER_EN_ROUTE": {
+                    "TITLE": "Agent en route",
+                    "MESSAGE": "Un agent est en route vers votre position."
+                }
             }
         },
         "CRYPTO": {
@@ -1407,6 +1439,10 @@
             "TOO_HIGH": "Somme trop grande (max {amount})",
             "NO_NUMBER": "Aucun numéro n'a été entré",
             "INVALID_NUMBER": "Numéro invalide (l'utilisateur peut ne pas être en ligne)",
+            "CHECK_FAILED": "Les contrôles de validation ont échoué.",
+            "BUY_DISABLED": "L'achat de cette crypto-monnaie a été désactivé.",
+            "SELL_DISABLED": "La vente de cette crypto-monnaie est désactivée.",
+            "TRANSFER_DISABLED": "Le transfert a été désactivé pour cette crypto-monnaie.",
             "ERROR": "Erreur",
             "CLOSE": "Fermer",
             "BUY_POPUP": {
@@ -1435,6 +1471,11 @@
                 "TITLE": "Transfert réussi",
                 "DESCRIPTION": "Vous avez bien transféré ${amount} de {coin} à {number}",
                 "CLOSE": "Fermer"
+            },
+            "REFUND_TRANSACTION": "Remboursement due au retrait des cryptomonnaies.",
+            "CONVERT_NOTIFICATION": {
+                "TITLE": "Cryptomonnaies converties",
+                "DESCRIPTION": "Certaines cryptomonnaies ont été supprimées et converties en {amount} {coinName}."
             }
         },
         "TIKTOK": {
@@ -1607,7 +1648,9 @@
             "BOOKMARKS": "Favoris",
             "BOOKMARK_REMOVE": "Retirer des favoris",
             "NO_BOOKMARKS": "Aucun favoris",
-            "NO_HISTORY": "Aucun historique"
+            "NO_HISTORY": "Aucun historique",
+            "FAILED_LOAD_PAGE": "Ce site n'est pas accessible",
+            "FAILED_LOAD_PAGE_DESCRIPTION": "Ce site Web n'autorise pas l'utilisation d'iframes. Il ne s'agit pas d'un bug."
         }
     },
     "COMPONENTS": {
@@ -1668,7 +1711,7 @@
             "ACCEPT": "Accepter"
         },
         "DYNAMICISLAND": {
-            "SILENT": "Silencieux",
+            "SILENT": "Vibration",
             "RING": "Sonner",
             "TIMER": "Minuterie"
         },
@@ -1767,7 +1810,9 @@
             "CANCEL": "Annuler",
             "PROCEED": "Procéder",
             "OK": "OK"
-        }
+        },
+        "COPY": "Copier",
+        "OPEN_IN_BROWSER": "Ouvrir dans le navigateur"
     },
     "BACKEND": {
         "CALLS": {
@@ -1835,12 +1880,10 @@
         "MISC": {
             "VERIFIED": "Votre compte a été vérifié",
             "X_PHONE": "Téléphone de {name}",
-
             "LOGGED_OUT_PASSWORD": {
                 "TITLE": "Vous avez été déconnecté",
                 "DESCRIPTION": "Vous avez été déconnecté de votre compte suite à la modification de votre mot de passe."
             },
-
             "DELETED_NOTIFICATION": {
                 "TITLE": "Compte supprimé",
                 "DESCRIPTION": "Votre compte a été supprimé."

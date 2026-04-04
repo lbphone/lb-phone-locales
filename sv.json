@@ -562,6 +562,11 @@
                 "CANCEL": "Avbryt",
                 "REMOVE": "Ta bort"
             },
+            "FAILED_SEND": {
+                "TITLE": "Kunde inte skicka meddelandet",
+                "DESCRIPTION": "Kunde inte skicka meddelandet",
+                "OK": "OK"
+            },
             "MARK_AS_READ": "Markera som läst",
             "MESSAGE_DELETED": "Meddelande borttaget",
             "OPEN_IN_MAPS": "Öppna i Kartor",
@@ -1407,6 +1412,7 @@
             "TOO_HIGH": "Beloppet är för högt (max {amount})",
             "NO_NUMBER": "Inget telefonnummer angivet",
             "INVALID_NUMBER": "Ogiltigt telefonnummer (användaren kanske inte är online)",
+            "CHECK_FAILED": "Vissa fält är ogiltiga",
             "ERROR": "Fel",
             "CLOSE": "Stäng",
             "BUY_POPUP": {
@@ -1594,6 +1600,22 @@
                 "DESCRIPTION": "Du kan inte spara en inspelning utan ljud",
                 "OK": "OK"
             }
+        },
+        "BROWSER": {
+            "TITLE": "Webbläsare",
+            "SEARCH_PLACEHOLDER": "Sök eller ange en webbadress",
+            "NEW_TAB": "Ny flik",
+            "TABS": "Flikar",
+            "TAB": "Flik",
+            "DONE": "Klar",
+            "CLOSE_ALL": "Stäng alla",
+            "HISTORY": "Historik",
+            "BOOKMARKS": "Bokmärken",
+            "BOOKMARK_REMOVE": "Ta bort bokmärke",
+            "NO_BOOKMARKS": "Inga bokmärken än",
+            "NO_HISTORY": "Ingen historik än",
+            "FAILED_LOAD_PAGE": "Webbplatsen kan inte öppnas i denna app",
+            "FAILED_LOAD_PAGE_DESCRIPTION": "Den här webbplatsen tillåter inte inbäddning via iframe. Detta är inte en bugg."
         }
     },
     "COMPONENTS": {
