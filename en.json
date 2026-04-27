@@ -24,7 +24,7 @@
         "Clock": "Clock",
         "Maps": "Maps",
         "YellowPages": "Pages",
-        "MarketPlace": "MarketPlace",
+        "MarketPlace": "Marketplace",
         "Wallet": "Wallet",
         "Home": "Home",
         "Garage": "Garage",
@@ -88,6 +88,8 @@
             "DEFAULT": "Default",
             "PHONE_STORAGE": "Phone Storage",
             "STORAGE": "Storage",
+            "MICROPHONE": "Microphone",
+            "MICROPHONE_DESCRIPTION": "Choose which microphone to use for recordings",
             "USED": "Used",
             "OF": "of",
             "DISPLAY_BRIGHTNESS": "Display & Brightness",
@@ -368,6 +370,12 @@
             "PROCEED": "Proceed",
             "OK": "OK",
             "EDIT": "Edit",
+            "EDITOR_MARKUP": "Markup",
+            "EDITOR_CROP": "Crop",
+            "EDITOR_SAVE": "Save",
+            "EDITOR_SIZE": "Size",
+            "EDITOR_UNDO": "Undo",
+            "EDITOR_APPLY_CROP": "Apply Crop",
             "DONE": "Done",
             "DELETE": "Delete",
             "SELECT_ITEMS": "Select Items",
@@ -872,13 +880,23 @@
             "MESSAGE": "Message",
             "CALL": "Call",
             "REMOVE": "Remove",
+            "TRANSACTION": "Posted to Marketplace",
 
+            "CREATION_COST_POPUP": {
+                "TITLE": "Create Post",
+                "DESCRIPTION": "Creating a post costs {cost}, do you want to proceed?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
             "ERROR_POPUP": {
                 "TITLE": "Error",
                 "NO_TITLE": "You need to enter a title",
                 "NO_DESCRIPTION": "You need to enter a description",
                 "NO_PRICE": "You need to enter a price",
                 "NO_ATTACHMENTS": "You need to attach at least one image",
+                "NO_MONEY": "You do not have enough money to create a post",
+                "RATE_LIMIT": "You have reached the rate limit for creating posts",
+                "POST_LIMIT": "You have reached the post limit for creating posts",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -899,10 +917,22 @@
             "PRICE": "Price",
             "POST": "Post",
             "CALL": "Call",
+            "HOME": "Home",
+            "YOUR_POSTS": "Your Posts",
+            "TRANSACTION": "Posted to Pages",
+            "CREATION_COST_POPUP": {
+                "TITLE": "Create Post",
+                "DESCRIPTION": "Creating a post costs {cost}, do you want to proceed?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
             "ERROR_POPUP": {
                 "TITLE": "Error",
                 "NO_TITLE": "You need to enter a title",
                 "NO_DESCRIPTION": "You need to enter a description",
+                "NO_MONEY": "You do not have enough money to create a post",
+                "RATE_LIMIT": "You have reached the rate limit for creating posts",
+                "POST_LIMIT": "You have reached the post limit for creating posts",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -1773,6 +1803,11 @@
         "FONT_AND_COLOR": "Font & Color"
     },
     "MISC": {
+        "ERROR": {
+            "TITLE": "Error",
+            "DESCRIPTION": "An error occurred while performing the action",
+            "OK": "OK"
+        },
         "ORDINAL": {
             "ZERO": "th",
             "ONE": "st",
@@ -1811,6 +1846,7 @@
             "PROCEED": "Proceed",
             "OK": "OK"
         },
+
         "COPY": "Copy",
         "OPEN_IN_BROWSER": "Open in browser"
     },
