@@ -24,7 +24,7 @@
         "Clock": "Relógio",
         "Maps": "Mapas",
         "YellowPages": "Páginas",
-        "MarketPlace": "Mercado",
+        "MarketPlace": "Marketplace",
         "Wallet": "Carteira",
         "Home": "Casa",
         "Garage": "Garagem",
@@ -88,6 +88,8 @@
             "DEFAULT": "Padrão",
             "PHONE_STORAGE": "Armazenamento do Telefone",
             "STORAGE": "Armazenamento",
+            "MICROPHONE": "Microfone",
+            "MICROPHONE_DESCRIPTION": "Escolha qual microfone usar para gravações",
             "USED": "Usado",
             "OF": "de",
             "DISPLAY_BRIGHTNESS": "Tela e Brilho",
@@ -368,6 +370,12 @@
             "PROCEED": "Prosseguir",
             "OK": "OK",
             "EDIT": "Editar",
+            "EDITOR_MARKUP": "Marcação",
+            "EDITOR_CROP": "Cortar",
+            "EDITOR_SAVE": "Salvar",
+            "EDITOR_SIZE": "Tamanho",
+            "EDITOR_UNDO": "Desfazer",
+            "EDITOR_APPLY_CROP": "Aplicar Corte",
             "DONE": "Concluído",
             "DELETE": "Excluir",
             "SELECT_ITEMS": "Selecionar Itens",
@@ -872,13 +880,23 @@
             "MESSAGE": "Mensagem",
             "CALL": "Ligar",
             "REMOVE": "Remover",
+            "TRANSACTION": "Publicado no Marketplace",
 
+            "CREATION_COST_POPUP": {
+                "TITLE": "Criar Anúncio",
+                "DESCRIPTION": "Criar um anúncio custa {cost}, você deseja continuar?",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Prosseguir"
+            },
             "ERROR_POPUP": {
                 "TITLE": "Erro",
                 "NO_TITLE": "Você precisa inserir um título",
                 "NO_DESCRIPTION": "Você precisa inserir uma descrição",
                 "NO_PRICE": "Você precisa inserir um preço",
                 "NO_ATTACHMENTS": "Você precisa anexar pelo menos uma imagem",
+                "NO_MONEY": "Você não tem dinheiro suficiente para criar um anúncio",
+                "RATE_LIMIT": "Você atingiu o limite para criar novos anúncios",
+                "POST_LIMIT": "Você atingiu o limite de postagens para criar novos anúncios",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -899,10 +917,22 @@
             "PRICE": "Preço",
             "POST": "Postar",
             "CALL": "Ligar",
+            "HOME": "Início",
+            "YOUR_POSTS": "Suas Postagens",
+            "TRANSACTION": "Publicado nas Páginas",
+            "CREATION_COST_POPUP": {
+                "TITLE": "Criar Postagem",
+                "DESCRIPTION": "Criar uma postagem custa {cost}, você deseja prosseguir?",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Prosseguir"
+            },
             "ERROR_POPUP": {
                 "TITLE": "Erro",
                 "NO_TITLE": "Você precisa inserir um título",
                 "NO_DESCRIPTION": "Você precisa inserir uma descrição",
+                "NO_MONEY": "Você não tem dinheiro suficiente para criar um anúncio",
+                "RATE_LIMIT": "Você atingiu o limite para criar novos anúncios",
+                "POST_LIMIT": "Você atingiu o limite de postagens para criar novos anúncios",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -1773,6 +1803,11 @@
         "FONT_AND_COLOR": "Fonte e Cor"
     },
     "MISC": {
+        "ERROR": {
+            "TITLE": "Erro",
+            "DESCRIPTION": "Ocorreu um erro ao realizar a ação",
+            "OK": "OK"
+        },
         "ORDINAL": {
             "ZERO": "º",
             "ONE": "º",
@@ -1811,6 +1846,7 @@
             "PROCEED": "Continuar",
             "OK": "OK"
         },
+
         "COPY": "Copiar",
         "OPEN_IN_BROWSER": "Abrir no navegador"
     },
