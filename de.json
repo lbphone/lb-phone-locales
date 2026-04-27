@@ -88,6 +88,8 @@
             "DEFAULT": "Standard",
             "PHONE_STORAGE": "Telefonspeicher",
             "STORAGE": "Speicher",
+            "MICROPHONE": "Mikrofon",
+            "MICROPHONE_DESCRIPTION": "Wähle aus, welches Mikrofon du für Aufnahmen verwenden möchtest",
             "USED": "Benutzt",
             "OF": "von",
             "DISPLAY_BRIGHTNESS": "Bildschirm & Helligkeit",
@@ -368,6 +370,12 @@
             "PROCEED": "Speichern",
             "OK": "OK",
             "EDIT": "Bearbeiten",
+            "EDITOR_MARKUP": "Markierung",
+            "EDITOR_CROP": "Bildausschnitt",
+            "EDITOR_SAVE": "Speichern",
+            "EDITOR_SIZE": "Größe",
+            "EDITOR_UNDO": "Rückgängig",
+            "EDITOR_APPLY_CROP": "Zuschneiden anwenden",
             "DONE": "Fertig",
             "DELETE": "Löschen",
             "SELECT_ITEMS": "Ausgewählte Elemente",
@@ -872,13 +880,23 @@
             "MESSAGE": "Nachricht",
             "CALL": "Anrufen",
             "REMOVE": "Entfernen",
+            "TRANSACTION": "Im Marktplatz veröffentlicht",
 
+            "CREATION_COST_POPUP": {
+                "TITLE": "Anzeige erstellen",
+                "DESCRIPTION": "Das Erstellen einer Anzeige kostet {cost}. Möchtest du fortfahren?",
+                "CANCEL": "Abbrechen",
+                "PROCEED": "Fortfahren"
+            },
             "ERROR_POPUP": {
                 "TITLE": "Fehler",
                 "NO_TITLE": "Du musst einen Titel eingeben",
                 "NO_DESCRIPTION": "Du musst eine Beschreibung eingeben",
                 "NO_PRICE": "Du musst einen Preis eingeben",
                 "NO_ATTACHMENTS": "Du musst mindestens ein Bild anhängen",
+                "NO_MONEY": "Du hast nicht genug Geld, um eine Anzeige zu erstellen",
+                "RATE_LIMIT": "Du hast das Limit für das Erstellen von Anzeigen erreicht",
+                "POST_LIMIT": "Du hast das maximale Anzeigenlimit erreicht",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -899,10 +917,22 @@
             "PRICE": "Preis",
             "POST": "Inserieren",
             "CALL": "Anrufen",
+            "HOME": "Startseite",
+            "YOUR_POSTS": "Deine Anzeigen",
+            "TRANSACTION": "In den Gelben Seiten veröffentlicht",
+            "CREATION_COST_POPUP": {
+                "TITLE": "Anzeige erstellen",
+                "DESCRIPTION": "Das Erstellen einer Anzeige kostet {cost}. Möchtest du fortfahren?",
+                "CANCEL": "Abbrechen",
+                "PROCEED": "Fortfahren"
+            },
             "ERROR_POPUP": {
                 "TITLE": "Fehler",
                 "NO_TITLE": "Du musst einen Titel eingeben",
                 "NO_DESCRIPTION": "Du musst eine Beschreibung eingeben",
+                "NO_MONEY": "Du hast nicht genug Geld, um eine Anzeige zu erstellen",
+                "RATE_LIMIT": "Du hast das Limit für das Erstellen von Anzeigen erreicht",
+                "POST_LIMIT": "Du hast das maximale Anzeigenlimit erreicht",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -1773,6 +1803,11 @@
         "FONT_AND_COLOR": "Schrift und Farbe"
     },
     "MISC": {
+        "ERROR": {
+            "TITLE": "Fehler",
+            "DESCRIPTION": "Beim Ausführen der Aktion ist ein Fehler aufgetreten",
+            "OK": "OK"
+        },
         "ORDINAL": {
             "ZERO": ".",
             "ONE": ".",
