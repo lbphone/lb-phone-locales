@@ -88,6 +88,8 @@
             "DEFAULT": "デフォルト",
             "PHONE_STORAGE": "電話ストレージ",
             "STORAGE": "ストレージ",
+            "MICROPHONE": "マイク",
+            "MICROPHONE_DESCRIPTION": "録音に使用するマイクを選択してください",
             "USED": "使用済み",
             "OF": "の",
             "DISPLAY_BRIGHTNESS": "ディスプレイと明るさ",
@@ -368,6 +370,12 @@
             "PROCEED": "続行",
             "OK": "OK",
             "EDIT": "編集",
+            "EDITOR_MARKUP": "マークアップ",
+            "EDITOR_CROP": "トリミング",
+            "EDITOR_SAVE": "保存",
+            "EDITOR_SIZE": "サイズ",
+            "EDITOR_UNDO": "元に戻す",
+            "EDITOR_APPLY_CROP": "トリミングを適用",
             "DONE": "完了",
             "DELETE": "削除",
             "SELECT_ITEMS": "アイテムを選択",
@@ -872,13 +880,23 @@
             "MESSAGE": "メッセージ",
             "CALL": "電話",
             "REMOVE": "削除",
+            "TRANSACTION": "マーケットプレイスに投稿",
 
+            "CREATION_COST_POPUP": {
+                "TITLE": "投稿を作成",
+                "DESCRIPTION": "投稿の作成には{cost}かかります。続行しますか？",
+                "CANCEL": "キャンセル",
+                "PROCEED": "続行"
+            },
             "ERROR_POPUP": {
                 "TITLE": "エラー",
                 "NO_TITLE": "タイトルを入力する必要があります",
                 "NO_DESCRIPTION": "説明を入力する必要があります",
                 "NO_PRICE": "価格を入力する必要があります",
                 "NO_ATTACHMENTS": "画像を少なくとも1枚添付する必要があります",
+                "NO_MONEY": "投稿を作成するための資金が不足しています",
+                "RATE_LIMIT": "投稿作成のレート制限に達しました",
+                "POST_LIMIT": "投稿作成の上限に達しました",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -899,10 +917,22 @@
             "PRICE": "価格",
             "POST": "投稿",
             "CALL": "電話",
+            "HOME": "ホーム",
+            "YOUR_POSTS": "あなたの投稿",
+            "TRANSACTION": "ページに投稿",
+            "CREATION_COST_POPUP": {
+                "TITLE": "投稿を作成",
+                "DESCRIPTION": "投稿の作成には{cost}かかります。続行しますか？",
+                "CANCEL": "キャンセル",
+                "PROCEED": "続行"
+            },
             "ERROR_POPUP": {
                 "TITLE": "エラー",
                 "NO_TITLE": "タイトルを入力する必要があります",
                 "NO_DESCRIPTION": "説明を入力する必要があります",
+                "NO_MONEY": "投稿を作成するための資金が不足しています",
+                "RATE_LIMIT": "投稿作成のレート制限に達しました",
+                "POST_LIMIT": "投稿作成の上限に達しました",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -1773,6 +1803,11 @@
         "FONT_AND_COLOR": "フォントと色"
     },
     "MISC": {
+        "ERROR": {
+            "TITLE": "エラー",
+            "DESCRIPTION": "アクションの実行中にエラーが発生しました",
+            "OK": "OK"
+        },
         "ORDINAL": {
             "ZERO": ".",
             "ONE": ".",
