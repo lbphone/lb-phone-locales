@@ -88,6 +88,8 @@
             "DEFAULT": "Défaut",
             "PHONE_STORAGE": "Stockage du téléphone",
             "STORAGE": "Stockage",
+            "MICROPHONE": "Microphone",
+            "MICROPHONE_DESCRIPTION": "Choisir votre microphone pour les enregistrements",
             "USED": "Utilisé",
             "OF": "sur",
             "DISPLAY_BRIGHTNESS": "Affichage et luminosité",
@@ -368,6 +370,12 @@
             "PROCEED": "Procéder",
             "OK": "OK",
             "EDIT": "Modifier",
+            "EDITOR_MARKUP": "Dessiner",
+            "EDITOR_CROP": "Recadrer",
+            "EDITOR_SAVE": "Sauvegarder",
+            "EDITOR_SIZE": "Taille",
+            "EDITOR_UNDO": "Annuler",
+            "EDITOR_APPLY_CROP": "Appliquer le recadrage",
             "DONE": "Fini",
             "DELETE": "Supprimer",
             "SELECT_ITEMS": "Sélectionnez les éléments",
@@ -512,6 +520,11 @@
             "SENT_LOCATION_SHORT": "A partagé sa position",
             "TRIED_TO_CALL": "{number} a essayé de vous appeler",
             "DELETE": "Supprimer",
+            "REPLY": "Répondre",
+            "REACT": "Réagir",
+            "REPLYING_TO": "Réponse à",
+            "ATTACHMENT": "Pièce jointe",
+            "YOU": "Vous",
             "GROUP": "Groupe",
             "GROUP_NAME": "Nom du Groupe",
             "REMOVE_POPUP": {
@@ -581,6 +594,10 @@
             "GROUP_MEMBER_LIMIT_NOTIFICATION": {
                 "TITLE": "Limites de membres atteinte",
                 "CONTENT": "Vous avez atteint la limite de membres pour ce groupe ({limit})."
+            },
+            "REACT_NOTIFICATION": {
+                "TITLE": "Nouvelle Réaction",
+                "CONTENT": "{name} a réagit avec {reaction} à votre message"
             }
         },
         "PHONE": {
@@ -863,13 +880,23 @@
             "MESSAGE": "Message",
             "CALL": "Appeler",
             "REMOVE": "Supprimer",
+            "TRANSACTION": "Publié sur Marketplace",
 
+            "CREATION_COST_POPUP": {
+                "TITLE": "Créer un Post",
+                "DESCRIPTION": "Créer un post coûte {cost}, voulez-vous procédez?",
+                "CANCEL": "Annuler",
+                "PROCEED": "Procéder"
+            },
             "ERROR_POPUP": {
                 "TITLE": "Erreur",
                 "NO_TITLE": "Vous devez entrer un titre",
                 "NO_DESCRIPTION": "Vous devez entrer une description",
                 "NO_PRICE": "Vous devez entrer un prix",
                 "NO_ATTACHMENTS": "Vous devez ajouter au moins une photo",
+                "NO_MONEY": "Vous n'avez pas assez d'argent pour créer un post",
+                "RATE_LIMIT": "Vous avez atteint la limite de fréquence pour la création de publications",
+                "POST_LIMIT": "Vous avez atteint la limite autorisée pour la création de messages",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -890,10 +917,22 @@
             "PRICE": "Prix",
             "POST": "Publication",
             "CALL": "Téléphoner",
+            "HOME": "Accueil",
+            "YOUR_POSTS": "Vos Posts",
+            "TRANSACTION": "Publié sur Pages",
+            "CREATION_COST_POPUP": {
+                "TITLE": "Créer un Post",
+                "DESCRIPTION": "Créer un post coûte {cost}, voulez-vous procédez?",
+                "CANCEL": "Annuler",
+                "PROCEED": "Procéder"
+            },
             "ERROR_POPUP": {
                 "TITLE": "Erreur",
                 "NO_TITLE": "Vous devez entrer un titre",
                 "NO_DESCRIPTION": "Vous devez entrer une description",
+                "NO_MONEY": "Vous n'avez pas assez d'argent pour créer un post",
+                "RATE_LIMIT": "Vous avez atteint la limite de fréquence pour la création de publications",
+                "POST_LIMIT": "Vous avez atteint la limite autorisée pour la création de messages",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -1275,6 +1314,14 @@
                 "DESCRIPTION": "Voulez-vous promouvoir cette publication pour {price} pour {views} vues ?",
                 "CANCEL": "Annuler",
                 "PROCEED": "Confirmer"
+            },
+            "VERIFIED": {
+                "LABEL": "Compte vérifié",
+                "DESCRIPTION": "Ce compte est vérifié."
+            },
+            "VERIFIED_GOVERNMENT": {
+                "LABEL": "Compte gouvernemental",
+                "DESCRIPTION": "Ce compte est un compte officiel du gouvernement."
             },
             "YOU": "Vous",
             "FOLLOW": "Suivre",
@@ -1756,6 +1803,11 @@
         "FONT_AND_COLOR": "Police & Couleur"
     },
     "MISC": {
+        "ERROR": {
+            "TITLE": "Erreur",
+            "DESCRIPTION": "Une erreure est survenue pendant l'accomplissement de l'action",
+            "OK": "OK"
+        },
         "ORDINAL": {
             "ZERO": "",
             "ONE": "er",
@@ -1793,7 +1845,9 @@
             "CANCEL": "Annuler",
             "PROCEED": "Procéder",
             "OK": "OK"
-        }
+        },
+        "COPY": "Copier",
+        "OPEN_IN_BROWSER": "Ouvrir dans le navigateur"
     },
     "BACKEND": {
         "CALLS": {

@@ -88,6 +88,8 @@
             "DEFAULT": "Standard",
             "PHONE_STORAGE": "Telefonspeicher",
             "STORAGE": "Speicher",
+            "MICROPHONE": "Mikrofon",
+            "MICROPHONE_DESCRIPTION": "Wähle aus, welches Mikrofon du für Aufnahmen verwenden möchtest",
             "USED": "Benutzt",
             "OF": "von",
             "DISPLAY_BRIGHTNESS": "Bildschirm & Helligkeit",
@@ -368,6 +370,12 @@
             "PROCEED": "Speichern",
             "OK": "OK",
             "EDIT": "Bearbeiten",
+            "EDITOR_MARKUP": "Markierung",
+            "EDITOR_CROP": "Bildausschnitt",
+            "EDITOR_SAVE": "Speichern",
+            "EDITOR_SIZE": "Größe",
+            "EDITOR_UNDO": "Rückgängig",
+            "EDITOR_APPLY_CROP": "Zuschneiden anwenden",
             "DONE": "Fertig",
             "DELETE": "Löschen",
             "SELECT_ITEMS": "Ausgewählte Elemente",
@@ -512,6 +520,11 @@
             "SENT_LOCATION_SHORT": "Standort wurde geteilt",
             "TRIED_TO_CALL": "{number} hat versucht dich anzurufen",
             "DELETE": "Löschen",
+            "REPLY": "Antworten",
+            "REACT": "Reagieren",
+            "REPLYING_TO": "Antwort auf",
+            "ATTACHMENT": "Anhang",
+            "YOU": "Sie",
             "GROUP": "Gruppe",
             "GROUP_NAME": "Gruppenname",
             "REMOVE_POPUP": {
@@ -581,6 +594,10 @@
             "GROUP_MEMBER_LIMIT_NOTIFICATION": {
                 "TITLE": "Mitgliederlimit erreicht",
                 "CONTENT": "Du hast die maximale Anzahl an Mitgliedern in einer Gruppe erreicht ({limit})."
+            },
+            "REACT_NOTIFICATION": {
+                "TITLE": "Neue Reaktion",
+                "CONTENT": "{name} hat mit {reaction} auf deine Nachricht reagiert"
             }
         },
         "PHONE": {
@@ -716,8 +733,8 @@
             "NO_REFUNDS": "Zahlungen können nicht erstattet werden. Überprüfe die Nummer.",
             "NEW_BALANCE": "Neuer Saldo",
             "HOME": "Home",
-            "LATEST_TRANSACTIONS": "Letzte Tranksaktionen",
-            "TRANSACTIONS": "Tranksaktionen",
+            "LATEST_TRANSACTIONS": "Letzte Transaktionen",
+            "TRANSACTIONS": "Transaktionen",
             "ALL_TRANSACTIONS": "Alle Transaktionen",
             "LATEST_BILLS": "Letzte Rechnungen",
             "NOW": "Jetzt",
@@ -863,13 +880,23 @@
             "MESSAGE": "Nachricht",
             "CALL": "Anrufen",
             "REMOVE": "Entfernen",
+            "TRANSACTION": "Im Marktplatz veröffentlicht",
 
+            "CREATION_COST_POPUP": {
+                "TITLE": "Anzeige erstellen",
+                "DESCRIPTION": "Das Erstellen einer Anzeige kostet {cost}. Möchtest du fortfahren?",
+                "CANCEL": "Abbrechen",
+                "PROCEED": "Fortfahren"
+            },
             "ERROR_POPUP": {
                 "TITLE": "Fehler",
                 "NO_TITLE": "Du musst einen Titel eingeben",
                 "NO_DESCRIPTION": "Du musst eine Beschreibung eingeben",
                 "NO_PRICE": "Du musst einen Preis eingeben",
                 "NO_ATTACHMENTS": "Du musst mindestens ein Bild anhängen",
+                "NO_MONEY": "Du hast nicht genug Geld, um eine Anzeige zu erstellen",
+                "RATE_LIMIT": "Du hast das Limit für das Erstellen von Anzeigen erreicht",
+                "POST_LIMIT": "Du hast das maximale Anzeigenlimit erreicht",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -890,10 +917,22 @@
             "PRICE": "Preis",
             "POST": "Inserieren",
             "CALL": "Anrufen",
+            "HOME": "Startseite",
+            "YOUR_POSTS": "Deine Anzeigen",
+            "TRANSACTION": "In den Gelben Seiten veröffentlicht",
+            "CREATION_COST_POPUP": {
+                "TITLE": "Anzeige erstellen",
+                "DESCRIPTION": "Das Erstellen einer Anzeige kostet {cost}. Möchtest du fortfahren?",
+                "CANCEL": "Abbrechen",
+                "PROCEED": "Fortfahren"
+            },
             "ERROR_POPUP": {
                 "TITLE": "Fehler",
                 "NO_TITLE": "Du musst einen Titel eingeben",
                 "NO_DESCRIPTION": "Du musst eine Beschreibung eingeben",
+                "NO_MONEY": "Du hast nicht genug Geld, um eine Anzeige zu erstellen",
+                "RATE_LIMIT": "Du hast das Limit für das Erstellen von Anzeigen erreicht",
+                "POST_LIMIT": "Du hast das maximale Anzeigenlimit erreicht",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -1275,6 +1314,14 @@
                 "DESCRIPTION": "Bist du sicher, dass du diesen Tweet für {price} ({views} views) bewerben möchtest?",
                 "CANCEL": "Abbrechen",
                 "PROCEED": "Weiter"
+            },
+            "VERIFIED": {
+                "LABEL": "Verifiziertes Konto",
+                "DESCRIPTION": "Dieses Konto ist verifiziert."
+            },
+            "VERIFIED_GOVERNMENT": {
+                "LABEL": "Staatskonto",
+                "DESCRIPTION": "Dieser Account ist ein offizieller Regierungsaccount."
             },
             "YOU": "Du",
             "FOLLOW": "Folgen",
@@ -1756,6 +1803,11 @@
         "FONT_AND_COLOR": "Schrift und Farbe"
     },
     "MISC": {
+        "ERROR": {
+            "TITLE": "Fehler",
+            "DESCRIPTION": "Beim Ausführen der Aktion ist ein Fehler aufgetreten",
+            "OK": "OK"
+        },
         "ORDINAL": {
             "ZERO": ".",
             "ONE": ".",
@@ -1793,7 +1845,9 @@
             "CANCEL": "Abbrechen",
             "PROCEED": "Fortfahren",
             "OK": "OK"
-        }
+        },
+        "COPY": "Kopieren",
+        "OPEN_IN_BROWSER": "Im Browser öffnen"
     },
     "BACKEND": {
         "CALLS": {
