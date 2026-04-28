@@ -88,6 +88,8 @@
             "DEFAULT": "Alapértelmezett",
             "PHONE_STORAGE": "Tárhely",
             "STORAGE": "Tárhely",
+            "MICROPHONE": "Mikrofon",
+            "MICROPHONE_DESCRIPTION": "Válaszdd ki melyik mikrofont használd a felvételekhez",
             "USED": "Felhasznált",
             "OF": "/",
             "DISPLAY_BRIGHTNESS": "Kijelző és fényerő",
@@ -368,6 +370,12 @@
             "PROCEED": "Folytatás",
             "OK": "OK",
             "EDIT": "Szerkesztés",
+            "EDITOR_MARKUP": "Jelölés",
+            "EDITOR_CROP": "Kivágás",
+            "EDITOR_SAVE": "Mentés",
+            "EDITOR_SIZE": "Méret",
+            "EDITOR_UNDO": "Visszavonás",
+            "EDITOR_APPLY_CROP": "Kivágás alkalmazása",
             "DONE": "Kész",
             "DELETE": "Törlés",
             "SELECT_ITEMS": "Elemek kiválasztása",
@@ -872,13 +880,23 @@
             "MESSAGE": "Üzenet",
             "CALL": "Hívás",
             "REMOVE": "Eltávolítás",
+            "TRANSACTION": "Közzétéve a Marketplace-en",
 
+            "CREATION_COST_POPUP": {
+                "TITLE": "Hirdetés létrehozása",
+                "DESCRIPTION": "A hirdetés feladása {cost}-ba kerül. Szeretnéd folytatni?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
             "ERROR_POPUP": {
                 "TITLE": "Hiba",
                 "NO_TITLE": "Meg kell adnod egy címet",
                 "NO_DESCRIPTION": "Meg kell adnod egy leírást",
                 "NO_PRICE": "Meg kell adnod egy árat",
                 "NO_ATTACHMENTS": "Csatolj legalább egy képet",
+                "NO_MONEY": "Nincs elég pénzed a hirdetés létrehozásához",
+                "RATE_LIMIT": "Túl sok hirdetést próbálsz feladni, várj egy kicsit",
+                "POST_LIMIT": "Elérted a maximális hirdetési korlátot",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -899,10 +917,22 @@
             "PRICE": "Ár",
             "POST": "Feladás",
             "CALL": "Hívás",
+            "HOME": "Kezdőlap",
+            "YOUR_POSTS": "Saját posztok",
+            "TRANSACTION": "Közzétéve az Oldalakon",
+            "CREATION_COST_POPUP": {
+                "TITLE": "Poszt létrehozása",
+                "DESCRIPTION": "A poszt létrehozása {cost}-ba kerül. Szeretnéd folytatni?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Folytatás"
+            },
             "ERROR_POPUP": {
                 "TITLE": "Hiba",
                 "NO_TITLE": "Meg kell adnod egy címet",
                 "NO_DESCRIPTION": "Meg kell adnod egy leírást",
+                "NO_MONEY": "Nincs elég pénzed a poszt létrehozásához",
+                "RATE_LIMIT": "Túl sok posztot próbálsz közzétenni, várj egy kicsit",
+                "POST_LIMIT": "Elérted a maximális posztolási korlátot",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -1422,7 +1452,7 @@
                     "TITLE": "Egység úton",
                     "MESSAGE": "Egy rendőr egység úton van a helyzetedhez."
                 }
-            }
+                }
         },
         "CRYPTO": {
             "TITLE": "Kripto",
@@ -1773,6 +1803,11 @@
         "FONT_AND_COLOR": "Betűtípus & Szín"
     },
     "MISC": {
+        "ERROR": {
+            "TITLE": "Hiba",
+            "DESCRIPTION": "Hiba történt az interakció során",
+            "OK": "OK"
+        },
         "ORDINAL": {
             "ZERO": ".",
             "ONE": ".",
@@ -1811,6 +1846,7 @@
             "PROCEED": "Folytatás",
             "OK": "OK"
         },
+
         "COPY": "Másolás",
         "OPEN_IN_BROWSER": "Megnyitás böngészőben"
     },
