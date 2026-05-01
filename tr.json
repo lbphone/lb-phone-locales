@@ -23,7 +23,7 @@
         "AppStore": "Uygulamalar",
         "Clock": "Saat",
         "Maps": "Haritalar",
-        "YellowPages": "Sarı Sayfalar",
+        "YellowPages": "Sayfalar",
         "MarketPlace": "Market",
         "Wallet": "Cüzdan",
         "Home": "Ana Ekran",
@@ -270,10 +270,31 @@
             "CANCEL": "İptal",
             "SET": "Ayarla",
             "JOIN": "Katıl",
+            "CREATE": "Oluştur",
             "LEAVE": "Ayrıl",
-            "NEW_ROOM": "Yeni Oda",
-            "NEW_ROOM_TEXT": "Bir odaya katılmak veya oluşturmak için bir oda kodu gir",
+            "JOIN_ROOM": "Odaya Katıl",
+            "JOIN_ROOM_TEXT": "Bir odaya katılmak için oda kodu yazın",
+            "CREATE_ROOM": "Oda Oluştur",
+            "CREATE_ROOM_TEXT": "Oda oluşturmak için oda kodu yazın",
             "ROOM_CODE": "Oda Kodu",
+
+            "INVALID_CHANNEL": "Geçersiz Kanal",
+            "INVALID_CHANNEL_TEXT": "Bu kanal mevcut değil",
+            "ALREADY_IN_CHANNEL": "Zaten Kanaldasın",
+            "ALREADY_IN_CHANNEL_TEXT": "Zaten bu kanaldasınız",
+            "PASSWORD_REQUIRED": "Şifre Gerekli",
+            "PASSWORD_REQUIRED_TEXT": "Bu kanal şifre gerektiriyor",
+            "PASSWORD_PLACEHOLDER": "Şifre",
+            "PASSWORD_PLACEHOLDER_OPTIONAL": "Şifre (isteğe bağlı)",
+            "INCORRECT_PASSWORD": "Hatalı Şifre",
+            "INCORRECT_PASSWORD_TEXT": "Girilen şifre yanlış",
+            "CHANNEL_EXISTS": "Kanal Mevcut",
+            "CHANNEL_EXISTS_TEXT": "Bu kanal zaten mevcut",
+            "INVALID_NAME": "Geçersiz İsim",
+            "INVALID_NAME_TEXT": "İsim geçersiz (min 1, max 5 karakter)",
+            "UNKNOWN_ERROR": "Bilinmeyen Hata",
+            "UNKNOWN_ERROR_TEXT": "Bilinmeyen bir hata oluştu",
+
             "LEAVE_ROOM": "Odadan Ayrıl",
             "LEAVE_ROOM_TEXT": "Bu odadan ayrılmak istediğine emin misin?",
             "NOW": "Şimdi",
@@ -300,7 +321,6 @@
             "USERNAME_TAKEN": "Kullanıcı adı zaten alınmış",
             "UNKNOWN": "Bilinmeyen hata",
             "INVALID_USERNAME": "Kullanıcı adı bulunamadı",
-            "INCORRECT_PASSWORD": "Yanlış şifre",
             "OK": "Tamam",
 
             "LEAVE_CHANNEL": {
@@ -552,6 +572,10 @@
                 "TITLE": "Boş Kayıt",
                 "DESCRIPTION": "Boş kayıt gönderemezsiniz",
                 "OK": "Tamam"
+            },
+            "GROUP_MEMBER_LIMIT_NOTIFICATION": {
+                "TITLE": "Üye sınırına ulaşıldı",
+                "CONTENT": "Bir gruptaki maksimum üye sayısına ulaştınız ({limit})."
             }
         },
         "PHONE": {
@@ -634,7 +658,11 @@
                 "EMAIL": "E-posta",
                 "ADDRESS": "Adres",
                 "CHANGE_AVATAR": "Avatarı Değiştir",
-                "REMOVE_AVATAR": "Avatarı Kaldır"
+                "REMOVE_AVATAR": "Avatarı Kaldır",
+                "RINGTONES": "Zil Sesleri",
+                "RINGTONE": "Zil Sesi",
+                "DEFAULT": "Varsayılan",
+                "BACK": "Geri"
             },
             "FAVOURITES": {
                 "TITLE": "Favoriler",
@@ -988,6 +1016,7 @@
             "LIKES_YOU_TOO": "seni de beğendi!",
             "KEEP_SWIPING": "Kaydırmaya devam et",
             "SAY_SOMETHING_NICE": "Güzel bir şey söyle",
+            "TYPE_A_MESSAGE": "Mesaj yaz...",
             "NO_MORE": "Kaydıracak başka kimse kalmadı, daha sonra tekrar kontrol et!",
             "SEND": "Gönder",
             "AGREE_TERMS": "'Hesap Oluştur' butonuna basarak Hizmet Şartlarımızı ve Gizlilik Politikamızı kabul etmiş olursunuz",
@@ -1022,7 +1051,14 @@
             "HIDDEN_WARNING": "Hesabınız şu anda gizli. Diğer kullanıcılara gösterilmeyecek ve kaydırma yapamayacaksınız.",
             "HIDDEN_PROFILE": "Profiliniz aktif değil. Profilinizi ayarlardan aktifleştirebilirsiniz.",
             "SEARCH_MATCHES": "Eşleşmeleri Ara",
-            "DELETE_ACCOUNT": "Hesabı Sil"
+            "DELETE_ACCOUNT": "Hesabı Sil",
+            "ERROR": {
+                "TITLE": "Hata",
+                "SHORT_NAME": "Spark profilini kaydederken sorun oluştu (isim en az 2 karakter olmalıdır)",
+                "SHORT_BIO": "Spark profilini kaydederken sorun oluştu (bio en az 5 karakter olmalıdır)",
+                "NO_PHOTOS": "Spark profilini kaydederken sorun oluştu (fotoğraf yok)",
+                "OK": "OK"
+            }
         },
         "INSTAGRAM": {
             "TITLE": "InstaPic",
@@ -1368,6 +1404,7 @@
             "NOT_ENOUGH_COINS": "Yeterli coin yok",
             "ATLEAST_ONE_COIN": "En az bir {currency} {action} yapmalısınız",
             "INVALID_COIN": "Geçersiz coin",
+            "TOO_HIGH": "Miktar çok yüksek (en fazla {amount})",
             "NO_NUMBER": "Telefon numarası sağlanmadı",
             "INVALID_NUMBER": "Geçersiz telefon numarası (kullanıcı çevrimiçi olmayabilir)",
             "ERROR": "Hata",
@@ -1679,6 +1716,14 @@
         "FONT_AND_COLOR": "Yazı Tipi & Renk"
     },
     "MISC": {
+        "ORDINAL": {
+            "ZERO": ".",
+            "ONE": ".",
+            "TWO": ".",
+            "FEW": ".",
+            "MANY": ".",
+            "OTHER": "."
+        },
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "Hata",
             "DESCRIPTION": "İnternet erişimi gerektiren bir işlem yapmaya çalışıyorsunuz, devam etmek için uçak modunu kapatın veya hizmet alın.",
@@ -1743,13 +1788,13 @@
             "MATCHED_WITH": "{name} ile eşleştiniz"
         },
         "CAMERA": {
-            "TAKE_PHOTO": "{key} tuşuna basarak fotoğraf çekin",
-            "FLIP_CAMERA": "{key} tuşuna basarak kamerayı çevirin",
-            "TOGGLE_FLASH": "{key} tuşuna basarak flaşı açıp kapatın",
-            "TOGGLE_CURSOR": "{key} tuşuna basarak imleci açıp kapatın",
-            "CHANGE_MODE": "{key} {key2} tuşlarına basarak modu değiştirin",
-            "ROLL": "{key} {key2} tuşlarına basarak kamerayı döndürün",
-            "FREEZE": "{key} tuşuna basarak kamerayı dondurun/çözün"
+            "TAKE_PHOTO": "Fotoğraf çekmek için {key}",
+            "FLIP_CAMERA": "Kamerayı çevirmek için {key}",
+            "TOGGLE_FLASH": "Flaş aç/kapat: {key}",
+            "TOGGLE_CURSOR": "İmleci aç/kapat: {key}",
+            "CHANGE_MODE": "Mod değiştirmek için {key} {key2}",
+            "ROLL": "Kamerayı döndürmek için {key} {key2}",
+            "FREEZE": "Kamerayı dondur/aç: {key}"
         },
         "SERVICES": {
             "NEW_MESSAGE": "Yeni Mesaj",

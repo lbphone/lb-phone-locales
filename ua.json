@@ -7,6 +7,9 @@
     "H": "h",
     "M": "m",
     "S": "s",
+    "SECONDS": "seconds",
+    "MINUTES": "minutes",
+    "HOURS": "hours",
 
     "APP_NAMES": {
         "Phone": "Телефон",
@@ -23,7 +26,7 @@
         "YellowPages": "Сторiнки",
         "MarketPlace": "Торгова площа",
         "Wallet": "Гаманець",
-        "Home": "Головна",
+        "Home": "Мій будинок",
         "Garage": "Гараж",
         "Music": "Музика",
         "DarkChat": "Дарк-нет",
@@ -32,7 +35,7 @@
         "Services": "Послуги",
         "VoiceMemo": "Диктофон",
         "Twitter": "Пташка",
-        "Instagram": "iнста-пiк",
+        "Instagram": "Інста-пiк",
         "Tinder": "Знайомства",
         "TikTok": "ТiкТут"
     },
@@ -267,29 +270,50 @@
             "CANCEL": "Скасувати",
             "SET": "Встановити",
             "JOIN": "Приєднатися",
+            "CREATE": "Створити",
             "LEAVE": "Вийти",
-            "NEW_ROOM": "Нова кiмната",
-            "NEW_ROOM_TEXT": "Введiть код кiмнати, щоб приєднатися або створити кiмнату",
-            "ROOM_CODE": "Код кiмнати",
-            "LEAVE_ROOM": "Вийти з кiмнати",
-            "LEAVE_ROOM_TEXT": "Ви впевненi, що бажаєте залишити цю кiмнату?",
+            "JOIN_ROOM": "Приєднатися до кімнати",
+            "JOIN_ROOM_TEXT": "Введіть код кімнати, щоб приєднатися",
+            "CREATE_ROOM": "Створити кімнату",
+            "CREATE_ROOM_TEXT": "Введіть код кімнати, щоб створити кімнату",
+            "ROOM_CODE": "Код кімнати",
+
+            "INVALID_CHANNEL": "Невірний канал",
+            "INVALID_CHANNEL_TEXT": "Канал не існує",
+            "ALREADY_IN_CHANNEL": "Ви вже в каналі",
+            "ALREADY_IN_CHANNEL_TEXT": "Ви вже приєднані до цього каналу",
+            "PASSWORD_REQUIRED": "Потрібен пароль",
+            "PASSWORD_REQUIRED_TEXT": "Канал потребує пароль",
+            "PASSWORD_PLACEHOLDER": "Пароль",
+            "PASSWORD_PLACEHOLDER_OPTIONAL": "Пароль (необов’язково)",
+            "INCORRECT_PASSWORD": "Невірний пароль",
+            "INCORRECT_PASSWORD_TEXT": "Пароль введено неправильно",
+            "CHANNEL_EXISTS": "Канал існує",
+            "CHANNEL_EXISTS_TEXT": "Такий канал вже існує",
+            "INVALID_NAME": "Невірна назва",
+            "INVALID_NAME_TEXT": "Назва некоректна (мін 1 символ, макс 5)",
+            "UNKNOWN_ERROR": "Невідома помилка",
+            "UNKNOWN_ERROR_TEXT": "Сталася невідома помилка",
+
+            "LEAVE_ROOM": "Вийти з кімнати",
+            "LEAVE_ROOM_TEXT": "Ви впевнені, що хочете вийти з цієї кімнати?",
             "NOW": "Зараз",
-            "INPUT_PLACEHOLDER": "Введiть повiдомлення...",
-            "NO_CHATS": "Немає чатiв",
-            "NO_CHATS_TEXT": "Ви ще не приєдналися до каналу. Приєднайтеся/створiть, натиснувши знак плюс у верхньому правому кутi.",
+            "INPUT_PLACEHOLDER": "Введіть повідомлення...",
+            "NO_CHATS": "Немає чатів",
+            "NO_CHATS_TEXT": "Ви ще не приєдналися до каналу. Приєднайтеся або створіть канал, натиснувши плюс у верхньому правому куті.",
             "MEMBER": "Учасник",
             "MEMBERS": "Учасники",
 
-            "USERNAME": "iм'я користувача",
+            "USERNAME": "Ім'я користувача",
             "PASSWORD": "Пароль",
-            "LOGIN": "Увiйти",
+            "LOGIN": "Увійти",
             "SIGN_UP": "Зареєструватися",
-            "NO_ACCOUNT": "Немає облiкового запису?",
+            "NO_ACCOUNT": "Немає акаунта?",
             "ALREADY_HAVE": "Вже маєте акаунт?",
-            "USERNAME_NOT_ALLOWED": "Ім'я користувача заборонено",
+            "USERNAME_NOT_ALLOWED": "Недопустиме ім'я користувача",
 
-            "CHANGE_ACCOUNT": "Змiнити облiковий запис",
-            "CHANGE_PASSWORD": "Змiнити пароль",
+            "CHANGE_ACCOUNT": "Змінити акаунт",
+            "CHANGE_PASSWORD": "Змінити пароль",
             "DELETE_ACCOUNT": "Видалити акаунт",
 
             "ERROR": "Помилка",
@@ -297,7 +321,6 @@
             "USERNAME_TAKEN": "iм'я користувача вже зайнято",
             "UNKNOWN": "Невiдома помилка",
             "INVALID_USERNAME": "iм'я користувача не iснує",
-            "INCORRECT_PASSWORD": "Невiрний пароль",
             "OK": "OK",
 
             "LEAVE_CHANNEL": {
@@ -342,6 +365,8 @@
             "TITLE": "Галерея",
             "SELECT": "Обрати",
             "CANCEL": "Скасувати",
+            "PROCEED": "Продовжити",
+            "OK": "OK",
             "EDIT": "Редагувати",
             "DONE": "Готово",
             "DELETE": "Видалити",
@@ -353,7 +378,9 @@
             "LIBRARY": "Бiблiотека",
             "GALLERY": "Галерея",
             "MY_ALBUMS": "Мої альбоми",
+            "SHARED_ALBUMS": "Спільні альбоми",
             "MEDIA_TYPES": "Тип медiа",
+            "MANAGE_MEMBERS": "Керування учасниками",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "Новий альбом",
                 "DESCRIPTION": "Введiть назву альбома",
@@ -363,9 +390,11 @@
             },
             "REMOVE_ALBUM": {
                 "TITLE": "Видалити \"{name}\"",
-                "DESCRIPTION": "Ви впевненi, що хочете видалити альбом \"{name}\"? Фотографiї не будуть видаленi",
-                "CANCEL": "Скасувати",
-                "PROCEED": "Видалити"
+                "DESCRIPTION": "Ви впевненi, що хочете видалити альбом \"{name}\"? Фотографiї не будуть видаленi"
+            },
+            "LEAVE_SHARED_ALBUM": {
+                "TITLE": "Вийти з \"{name}\"",
+                "DESCRIPTION": "Ви впевнені, що хочете вийти з альбому \"{name}\"? Після цього ви більше не зможете завантажувати фото до нього"
             },
             "RENAME_ALBUM_POPUP": {
                 "TITLE": "Перейменувати альбом",
@@ -386,6 +415,20 @@
                 "CANCEL": "Скасувати",
                 "PROCEED": "iмпортувати",
                 "PLACEHOLDER": "URL зображення"
+            },
+            "ERROR": "Помилка",
+            "SUCCESS": "Успішно",
+            "CONTACT_ALREADY_IN_ALBUM": "Контакт уже додано до альбому",
+            "CONTACT_ADDED_TO_ALBUM": "Контакт додано до альбому",
+            "MEMBERS": "{count} учасників",
+            "INVITE": "Запросити",
+            "LEAVE_ALBUM": "Вийти з альбому",
+            "CREATE_SHARED_ALBUM": "Створити спільний альбом",
+            "MANAGE_SHARED_ALBUM": "Керувати спільним альбомом",
+            "REMOVE_MEMBER": {
+                "TITLE": "Видалити учасника",
+                "DESCRIPTION": "Ви впевнені, що хочете видалити цього учасника з альбому?",
+                "SUCCESS": "Учасника видалено з альбому"
             },
 
             "NO_PHOTOS": "Немає фото чи вiдео",
@@ -447,7 +490,7 @@
             "PEOPLE": "Люди",
             "MEMBERS": "Користувачi",
             "OTHER": "iнше",
-            "SENT_A_PHOTO": "Вiлправити фото",
+            "SENT_A_PHOTO": "Вiдправити фото",
             "SENT_AUDIO_MESSAGE": "Вiдправити аудiо",
             "SENT": "Надiслати",
             "REQUESTED": "Запити",
@@ -469,6 +512,11 @@
             "SENT_LOCATION_SHORT": "Переслати мiсцезнаходження",
             "TRIED_TO_CALL": "{number} намагався додзвонитися до вас",
             "DELETE": "Видалити",
+            "REPLY": "Відповісти",
+            "REACT": "Реакція",
+            "REPLYING_TO": "Відповідь на",
+            "ATTACHMENT": "Вкладення",
+            "YOU": "Ви",
             "GROUP": "Група",
             "GROUP_NAME": "Назва групи",
             "REMOVE_POPUP": {
@@ -519,6 +567,11 @@
                 "CANCEL": "Скасувати",
                 "REMOVE": "Видалити"
             },
+            "FAILED_SEND": {
+                "TITLE": "Не вдалося надіслати повідомлення",
+                "DESCRIPTION": "Не вдалося надіслати повідомлення",
+                "OK": "OK"
+            },
             "MARK_AS_READ": "Позначити як прочитане",
             "MESSAGE_DELETED": "Повiдомлення видалено",
             "OPEN_IN_MAPS": "Вiдкрити в Картах",
@@ -529,6 +582,14 @@
                 "TITLE": "Порожнiй запис",
                 "DESCRIPTION": "Ви не можете надiслати порожнiй запис",
                 "OK": "OK"
+            },
+            "GROUP_MEMBER_LIMIT_NOTIFICATION": {
+                "TITLE": "Досягнуто ліміт учасників",
+                "CONTENT": "Ви досягли максимальної кількості учасників у групі ({limit})."
+            },
+            "REACT_NOTIFICATION": {
+                "TITLE": "Нова реакція",
+                "CONTENT": "{name} відреагував(ла) {reaction} на ваше повідомлення"
             }
         },
         "PHONE": {
@@ -611,7 +672,11 @@
                 "EMAIL": "Електронна пошта",
                 "ADDRESS": "Адреса",
                 "CHANGE_AVATAR": "Змiнити аватар",
-                "REMOVE_AVATAR": "Видалити аватар"
+                "REMOVE_AVATAR": "Видалити аватар",
+                "RINGTONES": "Рингтони",
+                "RINGTONE": "Рингтон",
+                "DEFAULT": "За замовчуванням",
+                "BACK": "Назад"
             },
             "FAVOURITES": {
                 "TITLE": "Обране",
@@ -625,9 +690,13 @@
                 "ADD_NUMBER": "Додати номер"
             },
             "RECENTS": {
-                "TITLE": "Нещодавнi",
-                "ALL": "Всі",
-                "MISSED": "Пропущені"
+                "TITLE": "Нещодавні",
+                "ALL": "Усі",
+                "MISSED": "Пропущені",
+                "OUTGOING_CALL": "Вихідний дзвінок",
+                "INCOMING_CALL": "Вхідний дзвінок",
+                "CANCELLED_CALL": "Скасований дзвінок",
+                "MISSED_CALL": "Пропущений дзвінок"
             },
             "VOICEMAIL": {
                 "TITLE": "Голосове повiдомлення",
@@ -882,6 +951,11 @@
                 "DESCRIPTION": "Ви впевненi, що хочете видалити цей електронний лист?",
                 "CANCEL": "Скасувати",
                 "DELETE": "Видалити"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Не вдалося надіслати",
+                "DESCRIPTION": "Не вдалося надіслати лист (чи існує одержувач?)",
+                "OK": "OK"
             }
         },
         "MAPS": {
@@ -910,7 +984,11 @@
         },
         "MUSIC": {
             "TITLE": "Музика",
-            "LIBRARY": "Бiблiотека",
+            "HOME": "Головна",
+            "RECENTLY_ADDED": "Нещодавно додані",
+            "CATEGORIES": "Категорії",
+            "PLAYLISTS": "Плейлисти",
+            "LIBRARY": "Бібліотека",
             "SEARCH": "Пошук",
             "ADD_QUEUE": "Додати в чергу",
             "ADD_PLAYLIST": "Додати до плейлiста",
@@ -921,6 +999,7 @@
             "SEARCH_PLACEHOLDER": "Виконавцi, пiснi, альбоми, плейлiсти",
             "SONGS": "Пiснi",
             "ALBUMS": "Альбоми",
+            "ARTISTS": "Виконавці",
             "PLAY": "Грати",
             "SHUFFLE": "Перетасувати",
             "ARTIST": "Виконавець",
@@ -930,7 +1009,7 @@
             "SONG_EXISTS_POPUP": {
                 "TITLE": "Пiсня вже iснує",
                 "DESCRIPTION": "Ця пiсня вже iснує в цьому плейлiстi",
-                "CANCEL": "Cancel"
+                "CANCEL": "Скасувати"
             },
             "NEW_PLAYLIST_POPUP": {
                 "TITLE": "Новий плейлiст",
@@ -951,6 +1030,7 @@
             "LIKES_YOU_TOO": "ти теж подобаєшся!",
             "KEEP_SWIPING": "Продовжити гортати",
             "SAY_SOMETHING_NICE": "Напишiть щось приємне",
+            "TYPE_A_MESSAGE": "Введіть повідомлення...",
             "NO_MORE": "Ви переглянули всю стрiчку, повертайтесь пiзнiше!",
             "SEND": "Надiслати",
             "AGREE_TERMS": "Натискаючи «Створити облiковий запис», Ви погоджуєтеся з нашими Умовами обслуговування та Полiтикою конфiденцiйностi",
@@ -985,7 +1065,14 @@
             "HIDDEN_WARNING": "Ваш облiковий запис зараз приховано. Вас не бачитимуть iншi користувачi, i ви не зможете гортати.",
             "HIDDEN_PROFILE": "Ваш профiль неактивний. Ви можете активувати свiй профiль в налаштуваннях.",
             "SEARCH_MATCHES": "Пошук спiвпадiнь",
-            "DELETE_ACCOUNT": "Видалити акаунт"
+            "DELETE_ACCOUNT": "Видалити акаунт",
+            "ERROR": {
+                "TITLE": "Помилка",
+                "SHORT_NAME": "Помилка збереження профілю Spark (ім’я має містити щонайменше 2 символи)",
+                "SHORT_BIO": "Помилка збереження профілю Spark (біографія має містити щонайменше 5 символів)",
+                "NO_PHOTOS": "Помилка збереження профілю Spark (немає фото)",
+                "OK": "OK"
+            }
         },
         "INSTAGRAM": {
             "TITLE": "iнста-Пiк",
@@ -1124,7 +1211,16 @@
                 "DESCRIPTION": "Оберіть місце для цієї публікації",
                 "CANCEL": "Скасувати",
                 "PROCEED": "Продовжити"
-            }
+            },
+            "REPLIED_TO_YOUR_STORY": "Відповів(ла) на вашу історію",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "Відповів(ла) на вашу історію: {content}",
+
+            "SHARE_TO_STORY": {
+                "TITLE": "Поділитися в історії",
+                "SUCCESS": "Допис опубліковано",
+                "DESCRIPTION": "Ваш допис додано до історії"
+            },
+            "VIEW_POST": "Переглянути допис"
         },
         "TWITTER": {
             "TITLE": "Цьвiрк",
@@ -1189,6 +1285,14 @@
                 "CANCEL": "Скасувати",
                 "PROCEED": "Пiдтвердити"
             },
+            "VERIFIED": {
+                "LABEL": "Підтверджений акаунт",
+                "DESCRIPTION": "Цей акаунт підтверджено."
+            },
+            "VERIFIED_GOVERNMENT": {
+                "LABEL": "Державний акаунт",
+                "DESCRIPTION": "Це офіційний державний акаунт."
+            },
             "YOU": "Ви",
             "FOLLOW": "Стежити",
             "PENDING": "В очiкуваннi",
@@ -1202,6 +1306,7 @@
             "NOTIFICATIONS": "Сповiщення",
             "FOLLOWS_YOU": "Слiдкує за вами",
             "JOINED": "Приєднався {date}",
+            "PINNED_POST": "Pinned Post",
             "LIKED_TWEET": "сподобався ваш пост",
             "RETWEETED_TWEET": "перепублiкував ваш пост",
             "FOLLOWED": "стежить за вами",
@@ -1307,6 +1412,16 @@
                 "DESCRIPTION": "Ви впевненi, що хочете зателефонувати {name}?",
                 "CANCEL": "Скасувати",
                 "PROCEED": "Пiдтвердити"
+            },
+            "QUICK_REPLIES": {
+                "REQUEST_LOCATION": {
+                    "TITLE": "Запит локації",
+                    "MESSAGE": "Будь ласка, надішліть вашу локацію."
+                },
+                "OFFICER_EN_ROUTE": {
+                    "TITLE": "Офіцер прямує",
+                    "MESSAGE": "Офіцер уже прямує до вашого місця."
+                }
             }
         },
         "CRYPTO": {
@@ -1321,8 +1436,13 @@
             "NOT_ENOUGH_COINS": "У вас недостатньо монет",
             "ATLEAST_ONE_COIN": "Ви повиннi {action} принаймнi одну {currency}",
             "INVALID_COIN": "Недiйсна монета",
+            "TOO_HIGH": "Сума занадто велика (максимум {amount})",
             "NO_NUMBER": "Номер телефону не вказано",
             "INVALID_NUMBER": "Недiйсний номер телефону (можливо, користувач не в мережi)",
+            "CHECK_FAILED": "Перевірка не пройдена",
+            "BUY_DISABLED": "Купівля цієї монети вимкнена",
+            "SELL_DISABLED": "Продаж цієї монети вимкнено",
+            "TRANSFER_DISABLED": "Переказ цієї монети вимкнено",
             "ERROR": "Помилка",
             "CLOSE": "Закрити",
             "BUY_POPUP": {
@@ -1351,6 +1471,11 @@
                 "TITLE": "Успiшно переведено",
                 "DESCRIPTION": "Ви успiшно переказали ${amount} у розмiрi {coin} до {number}",
                 "CLOSE": "Закрити"
+            },
+            "REFUND_TRANSACTION": "Повернення коштів через видалення криптовалюти",
+            "CONVERT_NOTIFICATION": {
+                "TITLE": "Криптовалюти конвертовано",
+                "DESCRIPTION": "Деякі криптовалюти було видалено та конвертовано у {amount} {coinName}."
             }
         },
         "TIKTOK": {
@@ -1510,6 +1635,22 @@
                 "DESCRIPTION": "Ви не можете зберегти запис без аудiо",
                 "OK": "OK"
             }
+        },
+        "BROWSER": {
+            "TITLE": "Браузер",
+            "SEARCH_PLACEHOLDER": "Пошук або введення URL",
+            "NEW_TAB": "Нова вкладка",
+            "TABS": "Вкладки",
+            "TAB": "Вкладка",
+            "DONE": "Готово",
+            "CLOSE_ALL": "Закрити всі",
+            "HISTORY": "Історія",
+            "BOOKMARKS": "Закладки",
+            "BOOKMARK_REMOVE": "Видалити закладку",
+            "NO_BOOKMARKS": "Закладок поки немає",
+            "NO_HISTORY": "Історії поки немає",
+            "FAILED_LOAD_PAGE": "Не вдалося завантажити сторінку",
+            "FAILED_LOAD_PAGE_DESCRIPTION": "Цей сайт не дозволяє вбудовування через iframe. Це не помилка."
         }
     },
     "COMPONENTS": {
@@ -1565,6 +1706,7 @@
             "NOTE": "нотатки",
             "VOICEMEMO": "голосовий",
             "PLAYLIST": "плейлiст",
+            "ALBUM": "альбом",
             "DECLINE": "Скасувати",
             "ACCEPT": "Пiдтвердити"
         },
@@ -1631,6 +1773,14 @@
         "FONT_AND_COLOR": "Шрифт i колiр"
     },
     "MISC": {
+        "ORDINAL": {
+            "ZERO": "th",
+            "ONE": "st",
+            "TWO": "nd",
+            "FEW": "rd",
+            "MANY": "th",
+            "OTHER": "th"
+        },
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "Помилка",
             "DESCRIPTION": "Ви намагаєтеся виконати дiю, для якої потрiбен доступ до iнтернету, вимкнiть режим польоту, щоб продовжити.",
@@ -1660,7 +1810,9 @@
             "CANCEL": "Скасувати",
             "PROCEED": "Пiдтвердити",
             "OK": "OK"
-        }
+        },
+        "COPY": "Копіювати",
+        "OPEN_IN_BROWSER": "Відкрити в браузері"
     },
     "BACKEND": {
         "CALLS": {
@@ -1728,12 +1880,10 @@
         "MISC": {
             "VERIFIED": "Ваш облiковий запис перевiрено",
             "X_PHONE": "Телефон {name}",
-
             "LOGGED_OUT_PASSWORD": {
                 "TITLE": "Ви вийшли з системи",
                 "DESCRIPTION": "Ви вийшли зi свого облiкового запису, оскiльки ваш пароль було змiнено."
             },
-
             "DELETED_NOTIFICATION": {
                 "TITLE": "Облiковий запис видалено",
                 "DESCRIPTION": "Ваш облiковий запис видалено."

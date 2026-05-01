@@ -23,7 +23,7 @@
         "AppStore": "Apps",
         "Clock": "Horloge",
         "Maps": "Cartes",
-        "YellowPages": "Pages Jaunes",
+        "YellowPages": "Pages",
         "MarketPlace": "Marché",
         "Wallet": "Portefeuille",
         "Home": "Maison",
@@ -88,6 +88,8 @@
             "DEFAULT": "Défaut",
             "PHONE_STORAGE": "Stockage du téléphone",
             "STORAGE": "Stockage",
+            "MICROPHONE": "Microphone",
+            "MICROPHONE_DESCRIPTION": "Choisir votre microphone pour les enregistrements",
             "USED": "Utilisé",
             "OF": "sur",
             "DISPLAY_BRIGHTNESS": "Affichage et luminosité",
@@ -270,10 +272,31 @@
             "CANCEL": "Annuler",
             "SET": "Régler",
             "JOIN": "Rejoindre",
+            "CREATE": "Créer",
             "LEAVE": "Quitter",
-            "NEW_ROOM": "Nouveau salon",
-            "NEW_ROOM_TEXT": "Tapez un code de salon pour rejoindre ou créer un salon",
+            "JOIN_ROOM": "Rejoindre le salon",
+            "JOIN_ROOM_TEXT": "Tapez un code de salon pour rejoindre",
+            "CREATE_ROOM": "Créer un salon",
+            "CREATE_ROOM_TEXT": "Tapez un code de salon pour créer un salon",
             "ROOM_CODE": "Indicatif du salon",
+
+            "INVALID_CHANNEL": "Salon invalid",
+            "INVALID_CHANNEL_TEXT": "Le salon n'existe pas",
+            "ALREADY_IN_CHANNEL": "Déjà rejoins",
+            "ALREADY_IN_CHANNEL_TEXT": "Vous êtes déjà dans ce salon",
+            "PASSWORD_REQUIRED": "Mot de passe reqis",
+            "PASSWORD_REQUIRED_TEXT": "Ce salon nécessite un mot de passe",
+            "PASSWORD_PLACEHOLDER": "Mot de passe",
+            "PASSWORD_PLACEHOLDER_OPTIONAL": "Mot de passe (optional)",
+            "INCORRECT_PASSWORD": "Mot de passe incorrect",
+            "INCORRECT_PASSWORD_TEXT": "Le mot de passe saisie est incorrect",
+            "CHANNEL_EXISTS": "Salon déjà existant",
+            "CHANNEL_EXISTS_TEXT": "Ce salon existe déjà",
+            "INVALID_NAME": "Nom invalide",
+            "INVALID_NAME_TEXT": "Le nom du salon est invalide (minimum 1 charactère, maximum 5)",
+            "UNKNOWN_ERROR": "Erreure Inconnue",
+            "UNKNOWN_ERROR_TEXT": "Une erreure inconnue est survenue.",
+
             "LEAVE_ROOM": "Quitter le salon",
             "LEAVE_ROOM_TEXT": "Voulez-vous vraiment quitter ce salon ?",
             "NOW": "Maintenant",
@@ -300,7 +323,6 @@
             "USERNAME_TAKEN": "Nom d'utilisateur est déjà pris",
             "UNKNOWN": "Erreur Inconnue",
             "INVALID_USERNAME": "Nom d'utilisateur inexistant",
-            "INCORRECT_PASSWORD": "Mot de passe incorrect",
             "OK": "OK",
 
             "LEAVE_CHANNEL": {
@@ -348,6 +370,12 @@
             "PROCEED": "Procéder",
             "OK": "OK",
             "EDIT": "Modifier",
+            "EDITOR_MARKUP": "Dessiner",
+            "EDITOR_CROP": "Recadrer",
+            "EDITOR_SAVE": "Sauvegarder",
+            "EDITOR_SIZE": "Taille",
+            "EDITOR_UNDO": "Annuler",
+            "EDITOR_APPLY_CROP": "Appliquer le recadrage",
             "DONE": "Fini",
             "DELETE": "Supprimer",
             "SELECT_ITEMS": "Sélectionnez les éléments",
@@ -492,6 +520,11 @@
             "SENT_LOCATION_SHORT": "A partagé sa position",
             "TRIED_TO_CALL": "{number} a essayé de vous appeler",
             "DELETE": "Supprimer",
+            "REPLY": "Répondre",
+            "REACT": "Réagir",
+            "REPLYING_TO": "Réponse à",
+            "ATTACHMENT": "Pièce jointe",
+            "YOU": "Vous",
             "GROUP": "Groupe",
             "GROUP_NAME": "Nom du Groupe",
             "REMOVE_POPUP": {
@@ -542,6 +575,11 @@
                 "CANCEL": "Annuler",
                 "REMOVE": "Supprimer"
             },
+            "FAILED_SEND": {
+                "TITLE": "Envoie échoué",
+                "DESCRIPTION": "L'envoie du message a échoué",
+                "OK": "OK"
+            },
             "MARK_AS_READ": "Marquer comme lu",
             "MESSAGE_DELETED": "Message supprimer",
             "OPEN_IN_MAPS": "Ouvrir dans Maps",
@@ -552,6 +590,14 @@
                 "TITLE": "Enregistrement vide",
                 "DESCRIPTION": "Impossible d'envoyer un enregistrement vide",
                 "OK": "OK"
+            },
+            "GROUP_MEMBER_LIMIT_NOTIFICATION": {
+                "TITLE": "Limites de membres atteinte",
+                "CONTENT": "Vous avez atteint la limite de membres pour ce groupe ({limit})."
+            },
+            "REACT_NOTIFICATION": {
+                "TITLE": "Nouvelle Réaction",
+                "CONTENT": "{name} a réagit avec {reaction} à votre message"
             }
         },
         "PHONE": {
@@ -634,7 +680,11 @@
                 "EMAIL": "Email",
                 "ADDRESS": "Adresse",
                 "CHANGE_AVATAR": "Changer l'avatar",
-                "REMOVE_AVATAR": "Supprimer l'avatar"
+                "REMOVE_AVATAR": "Supprimer l'avatar",
+                "RINGTONES": "Sonneries",
+                "RINGTONE": "Sonnerie",
+                "DEFAULT": "Par défaut",
+                "BACK": "Retour"
             },
             "FAVOURITES": {
                 "TITLE": "Favoris",
@@ -830,13 +880,23 @@
             "MESSAGE": "Message",
             "CALL": "Appeler",
             "REMOVE": "Supprimer",
+            "TRANSACTION": "Publié sur Marketplace",
 
+            "CREATION_COST_POPUP": {
+                "TITLE": "Créer un Post",
+                "DESCRIPTION": "Créer un post coûte {cost}, voulez-vous procédez?",
+                "CANCEL": "Annuler",
+                "PROCEED": "Procéder"
+            },
             "ERROR_POPUP": {
                 "TITLE": "Erreur",
                 "NO_TITLE": "Vous devez entrer un titre",
                 "NO_DESCRIPTION": "Vous devez entrer une description",
                 "NO_PRICE": "Vous devez entrer un prix",
                 "NO_ATTACHMENTS": "Vous devez ajouter au moins une photo",
+                "NO_MONEY": "Vous n'avez pas assez d'argent pour créer un post",
+                "RATE_LIMIT": "Vous avez atteint la limite de fréquence pour la création de publications",
+                "POST_LIMIT": "Vous avez atteint la limite autorisée pour la création de messages",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -857,10 +917,22 @@
             "PRICE": "Prix",
             "POST": "Publication",
             "CALL": "Téléphoner",
+            "HOME": "Accueil",
+            "YOUR_POSTS": "Vos Posts",
+            "TRANSACTION": "Publié sur Pages",
+            "CREATION_COST_POPUP": {
+                "TITLE": "Créer un Post",
+                "DESCRIPTION": "Créer un post coûte {cost}, voulez-vous procédez?",
+                "CANCEL": "Annuler",
+                "PROCEED": "Procéder"
+            },
             "ERROR_POPUP": {
                 "TITLE": "Erreur",
                 "NO_TITLE": "Vous devez entrer un titre",
                 "NO_DESCRIPTION": "Vous devez entrer une description",
+                "NO_MONEY": "Vous n'avez pas assez d'argent pour créer un post",
+                "RATE_LIMIT": "Vous avez atteint la limite de fréquence pour la création de publications",
+                "POST_LIMIT": "Vous avez atteint la limite autorisée pour la création de messages",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -988,6 +1060,7 @@
             "LIKES_YOU_TOO": "t'a liké aussi!",
             "KEEP_SWIPING": "Continue de swipe",
             "SAY_SOMETHING_NICE": "Dis-lui quelque chose...",
+            "TYPE_A_MESSAGE": "Écrivez un message...",
             "NO_MORE": "Il n'y a plus personne a swipe pour le moment, reviens plus tard!",
             "SEND": "Envoyer",
             "AGREE_TERMS": "En appuyant sur 'Créer un compte', vous acceptez nos conditions d'utilisation et notre politique de confidentialité",
@@ -1022,7 +1095,14 @@
             "HIDDEN_WARNING": "Votre compte est actuellement caché. Vous ne serez pas visible par les autres utilisateurs et vous ne pourrez pas effectuer de swipe..",
             "HIDDEN_PROFILE": "Votre profil n'est pas actif. Vous pouvez activer votre profil dans les paramètres.",
             "SEARCH_MATCHES": "Rechercher les matchs",
-            "DELETE_ACCOUNT": "Supprimer le compte"
+            "DELETE_ACCOUNT": "Supprimer le compte",
+            "ERROR": {
+                "TITLE": "Erreure",
+                "SHORT_NAME": "Erreure de sauvgarde du profile, (le nom doit contenir minimum 2 charactères)",
+                "SHORT_BIO": "Erreure de sauvgarde du profile, (la Biographie doit contenir minimum 5 charactères)",
+                "NO_PHOTOS": "Erreure de sauvgarde du profile, (aucune photos)",
+                "OK": "OK"
+            }
         },
         "INSTAGRAM": {
             "TITLE": "Instagram",
@@ -1235,6 +1315,14 @@
                 "CANCEL": "Annuler",
                 "PROCEED": "Confirmer"
             },
+            "VERIFIED": {
+                "LABEL": "Compte vérifié",
+                "DESCRIPTION": "Ce compte est vérifié."
+            },
+            "VERIFIED_GOVERNMENT": {
+                "LABEL": "Compte gouvernemental",
+                "DESCRIPTION": "Ce compte est un compte officiel du gouvernement."
+            },
             "YOU": "Vous",
             "FOLLOW": "Suivre",
             "PENDING": "En attente",
@@ -1354,6 +1442,16 @@
                 "DESCRIPTION": "Voulez-vous vraiment appeler {name} ?",
                 "CANCEL": "Annuler",
                 "PROCEED": "Confirmer"
+            },
+            "QUICK_REPLIES": {
+                "REQUEST_LOCATION": {
+                    "TITLE": "Demande d'emplacement",
+                    "MESSAGE": "Pouvez-vous nous envoyer votre positions?"
+                },
+                "OFFICER_EN_ROUTE": {
+                    "TITLE": "Agent en route",
+                    "MESSAGE": "Un agent est en route vers votre position."
+                }
             }
         },
         "CRYPTO": {
@@ -1368,8 +1466,13 @@
             "NOT_ENOUGH_COINS": "Vous n'avez pas assez de cet actif",
             "ATLEAST_ONE_COIN": "Vous devez {action} au moins une unité de {currency}",
             "INVALID_COIN": "Actif invalide",
+            "TOO_HIGH": "Somme trop grande (max {amount})",
             "NO_NUMBER": "Aucun numéro n'a été entré",
             "INVALID_NUMBER": "Numéro invalide (l'utilisateur peut ne pas être en ligne)",
+            "CHECK_FAILED": "Les contrôles de validation ont échoué.",
+            "BUY_DISABLED": "L'achat de cette crypto-monnaie a été désactivé.",
+            "SELL_DISABLED": "La vente de cette crypto-monnaie est désactivée.",
+            "TRANSFER_DISABLED": "Le transfert a été désactivé pour cette crypto-monnaie.",
             "ERROR": "Erreur",
             "CLOSE": "Fermer",
             "BUY_POPUP": {
@@ -1398,6 +1501,11 @@
                 "TITLE": "Transfert réussi",
                 "DESCRIPTION": "Vous avez bien transféré ${amount} de {coin} à {number}",
                 "CLOSE": "Fermer"
+            },
+            "REFUND_TRANSACTION": "Remboursement due au retrait des cryptomonnaies.",
+            "CONVERT_NOTIFICATION": {
+                "TITLE": "Cryptomonnaies converties",
+                "DESCRIPTION": "Certaines cryptomonnaies ont été supprimées et converties en {amount} {coinName}."
             }
         },
         "TIKTOK": {
@@ -1557,6 +1665,22 @@
                 "DESCRIPTION": "Impossible de stocker un enregistrement sans son.",
                 "OK": "OK"
             }
+        },
+        "BROWSER": {
+            "TITLE": "Navigateur",
+            "SEARCH_PLACEHOLDER": "Saisir une recherche ou un URL",
+            "NEW_TAB": "Nouvel onglet",
+            "TABS": "Onglets",
+            "TAB": "Onglet",
+            "DONE": "Terminé",
+            "CLOSE_ALL": "Tout fermer",
+            "HISTORY": "Historique",
+            "BOOKMARKS": "Favoris",
+            "BOOKMARK_REMOVE": "Retirer des favoris",
+            "NO_BOOKMARKS": "Aucun favoris",
+            "NO_HISTORY": "Aucun historique",
+            "FAILED_LOAD_PAGE": "Ce site n'est pas accessible",
+            "FAILED_LOAD_PAGE_DESCRIPTION": "Ce site Web n'autorise pas l'utilisation d'iframes. Il ne s'agit pas d'un bug."
         }
     },
     "COMPONENTS": {
@@ -1617,7 +1741,7 @@
             "ACCEPT": "Accepter"
         },
         "DYNAMICISLAND": {
-            "SILENT": "Silencieux",
+            "SILENT": "Vibration",
             "RING": "Sonner",
             "TIMER": "Minuterie"
         },
@@ -1679,6 +1803,19 @@
         "FONT_AND_COLOR": "Police & Couleur"
     },
     "MISC": {
+        "ERROR": {
+            "TITLE": "Erreur",
+            "DESCRIPTION": "Une erreure est survenue pendant l'accomplissement de l'action",
+            "OK": "OK"
+        },
+        "ORDINAL": {
+            "ZERO": "",
+            "ONE": "er",
+            "TWO": "nd",
+            "FEW": "ème",
+            "MANY": "ème",
+            "OTHER": "ème"
+        },
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "Erreur",
             "DESCRIPTION": "Vous essayez d'effectuer une action qui nécessite une connexion internet, mais vous êtes en mode avion. Veuillez désactiver le mode avion pour continuer.",
@@ -1708,7 +1845,9 @@
             "CANCEL": "Annuler",
             "PROCEED": "Procéder",
             "OK": "OK"
-        }
+        },
+        "COPY": "Copier",
+        "OPEN_IN_BROWSER": "Ouvrir dans le navigateur"
     },
     "BACKEND": {
         "CALLS": {
@@ -1776,12 +1915,10 @@
         "MISC": {
             "VERIFIED": "Votre compte a été vérifié",
             "X_PHONE": "Téléphone de {name}",
-
             "LOGGED_OUT_PASSWORD": {
                 "TITLE": "Vous avez été déconnecté",
                 "DESCRIPTION": "Vous avez été déconnecté de votre compte suite à la modification de votre mot de passe."
             },
-
             "DELETED_NOTIFICATION": {
                 "TITLE": "Compte supprimé",
                 "DESCRIPTION": "Votre compte a été supprimé."

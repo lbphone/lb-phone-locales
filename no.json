@@ -228,7 +228,7 @@
             "CANCEL": "Avbryt",
             "SELECT_ITEMS": "Velg Bilder",
             "SELECTED_COUNT": "{count} Bilder Valgt",
-            "PHOTO_COUNT": "{count} bilder",
+            "PHOTO_COUNT": "{amount} bilder",
             "DELETE_TITLE": "Slett {count} bilder",
             "DELETE_TEXT": "Vil du slette {count} bilder",
             "DELETE_BUTTON_CANCEL": "Avbryt",
