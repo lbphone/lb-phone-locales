@@ -73,6 +73,12 @@
             "TIME_ZONE": "Fuseau horaire",
             "LANGUAGE_REGION": "Langue & Région",
             "LANGUAGE": "Langue",
+            "LANGUAGE_RESTART_POPUP": {
+                "TITLE": "Changer de Langue",
+                "TEXT": "Changer le language va redémarrer l'appareil. Voulez-vous procéder?",
+                "CANCEL": "Annuler",
+                "CONFIRM": "Changer"
+            },
             "TEMPERATURE": "Température",
             "CELCIUS": "Celsius",
             "FAHRENHEIT": "Fahrenheit",
@@ -1263,6 +1269,7 @@
             "REPLIES": "Réponses",
             "MEDIA": "Média",
             "LIKES": "Likes",
+            "RETWEETS": "Reposts",
             "CANCEL": "Annuler",
             "TWEET": "Publier",
             "TWEET_REPLY": "Publie ta réponse",
@@ -1271,7 +1278,7 @@
             "SAVE": "Sauvegarder",
             "NAME": "Nom",
             "JOIN_DATE": "Date de création",
-            "PROTECTED_POSTS": "Protégez vos publications",
+            "PRIVATE_ACCOUNT": "Compte privé",
             "BIO": "Bio",
             "SIGN_OUT": "Se déconnecter",
             "CHANGE_PASSWORD": "Changer de mot de passe",
@@ -1353,6 +1360,9 @@
             "SEARCH_DIRECT_MESSAGES": "Recherchez un message direct",
             "SEARCH_TWITTER": "Recherchez sur Birdy",
             "MESSAGE_PLACEHOLDER": "Message...",
+            "MESSAGES": "Messages",
+            "SEARCH_PEOPLE": "Chercher un compte",
+            "CHANGE_PHOTO": "Changer la photo",
             "NOW": "Maintenant",
             "LOGIN": "Connexion",
             "NEXT": "Suivant",
@@ -1846,6 +1856,7 @@
             "PROCEED": "Procéder",
             "OK": "OK"
         },
+
         "COPY": "Copier",
         "OPEN_IN_BROWSER": "Ouvrir dans le navigateur"
     },
