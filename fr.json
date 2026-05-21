@@ -1482,6 +1482,7 @@
             "CHECK_FAILED": "Les contrôles de validation ont échoué.",
             "BUY_DISABLED": "L'achat de cette crypto-monnaie a été désactivé.",
             "SELL_DISABLED": "La vente de cette crypto-monnaie est désactivée.",
+            "INVALID_COIN_PRICE": "La crypto-monnaie n'a aucune valeur",
             "TRANSFER_DISABLED": "Le transfert a été désactivé pour cette crypto-monnaie.",
             "ERROR": "Erreur",
             "CLOSE": "Fermer",
