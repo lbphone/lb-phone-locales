@@ -91,9 +91,12 @@
             "RINGTONE": "Sons de Toque",
             "TEXT_TONE": "Sons de mensagem",
             "RINGTONE_VOLUME": "Volume de Toque e Alertas",
+            "CALL_VOLUME": "Volume da chamada",
             "DEFAULT": "Padrão",
             "PHONE_STORAGE": "Memória do Telefone",
             "STORAGE": "Memória",
+            "MICROPHONE": "Microfone",
+            "MICROPHONE_DESCRIPTION": "Escolha o microfone a usar nas gravações",
             "USED": "Em uso",
             "OF": "de",
             "DISPLAY_BRIGHTNESS": "Ajustes do ecrã",
@@ -290,6 +293,7 @@
             "ALREADY_IN_CHANNEL_TEXT": "Já se encontra neste canal",
             "PASSWORD_REQUIRED": "Password obrigatória",
             "PASSWORD_REQUIRED_TEXT": "O canal requer uma password",
+            "PASSWORD_PLACEHOLDER": "Password",
             "PASSWORD_PLACEHOLDER_OPTIONAL": "Password (opcional)",
             "INCORRECT_PASSWORD_TEXT": "A password está incorreta",
             "CHANNEL_EXISTS": "Canal já existe",
@@ -370,7 +374,6 @@
             "PROCEED": "Avançar",
             "OK": "OK",
             "SHARED_ALBUMS": "Álbuns Partilhados",
-            "MEDIA_TYPES": "Tipos de Média",
             "MANAGE_MEMBERS": "Gerir Membros",
             "LEAVE_SHARED_ALBUM": {
                 "TITLE": "Sair de \"{name}\"",
@@ -394,6 +397,12 @@
             "SELECT": "Selecionar",
             "CANCEL": "Cancelar",
             "EDIT": "Editar",
+            "EDITOR_MARKUP": "Marcação",
+            "EDITOR_CROP": "Cortar",
+            "EDITOR_SAVE": "Guardar",
+            "EDITOR_SIZE": "Tamanho",
+            "EDITOR_UNDO": "Anular",
+            "EDITOR_APPLY_CROP": "Aplicar corte",
             "DONE": "Concluido",
             "DELETE": "Apagar",
             "SELECT_ITEMS": "Selecionar itens",
@@ -601,18 +610,6 @@
             }
         },
         "PHONE": {
-            "RECENTS": {
-                "OUTGOING_CALL": "Chamada Efetuada",
-                "INCOMING_CALL": "Chamada Recebida",
-                "CANCELLED_CALL": "Chamada Cancelada",
-                "MISSED_CALL": "Chamada Perdida"
-            },
-            "CONTACTS": {
-                "RINGTONES": "Toques",
-                "RINGTONE": "Toque",
-                "DEFAULT": "Padrão",
-                "BACK": "Voltar"
-            },
             "TITLE": "Telefone",
             "DONE": "Finalizar",
             "EDIT": "Editar",
@@ -692,7 +689,11 @@
                 "EMAIL": "Email",
                 "ADDRESS": "Morada",
                 "CHANGE_AVATAR": "Alterar avatar",
-                "REMOVE_AVATAR": "Remover Avatar"
+                "REMOVE_AVATAR": "Remover Avatar",
+                "RINGTONES": "Toques",
+                "RINGTONE": "Toque",
+                "DEFAULT": "Padrão",
+                "BACK": "Voltar"
             },
             "FAVOURITES": {
                 "TITLE": "Favoritos",
@@ -708,7 +709,11 @@
             "RECENTS": {
                 "TITLE": "Recentes",
                 "ALL": "Todas",
-                "MISSED": "Perdidas"
+                "MISSED": "Perdidas",
+                "OUTGOING_CALL": "Chamada Efetuada",
+                "INCOMING_CALL": "Chamada Recebida",
+                "CANCELLED_CALL": "Chamada Cancelada",
+                "MISSED_CALL": "Chamada Perdida"
             },
             "VOICEMAIL": {
                 "TITLE": "Voicemail",
@@ -898,6 +903,9 @@
                 "NO_DESCRIPTION": "É necessário inserir a descrição",
                 "NO_PRICE": "É necessário inserir o Preço",
                 "NO_ATTACHMENTS": "É necessário anexar pelo menos uma imagem",
+                "NO_MONEY": "Não tens dinheiro suficiente para criar uma publicação",
+                "RATE_LIMIT": "Atingiste o limite de criação de publicações",
+                "POST_LIMIT": "Atingiste o limite de publicações",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -931,6 +939,9 @@
                 "TITLE": "Erro",
                 "NO_TITLE": "É necessário inserir um título",
                 "NO_DESCRIPTION": "É necessário inserir uma descrição",
+                "NO_MONEY": "Não tens dinheiro suficiente para criar uma publicação",
+                "RATE_LIMIT": "Atingiste o limite de criação de publicações",
+                "POST_LIMIT": "Atingiste o limite de publicações",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -1240,6 +1251,7 @@
             "UNKNOWN_ACCOUNT": "A conta não existe",
             "INVALID_USERNAME": "Username inválido",
             "INCORRECT_PASSWORD": "Password incorreta",
+            "USERNAME_NOT_ALLOWED": "Nome de utilizador não permitido",
             "OK": "OK",
             "LOCATION": "Localização",
             "CHOOSE_LOCATION": {
@@ -1272,6 +1284,7 @@
             "REPLIES": "respostas",
             "MEDIA": "Mídia",
             "LIKES": "Likes",
+            "RETWEETS": "Reposts",
             "CANCEL": "Cancelar",
             "TWEET": "Post",
             "TWEET_REPLY": "Postar sua resposta",
@@ -1337,6 +1350,7 @@
             "NOTIFICATIONS": "Notificações",
             "FOLLOWS_YOU": "Seguiu você",
             "JOINED": "Entrou em {date}",
+            "PINNED_POST": "Post fixado",
             "LIKED_TWEET": "Curtiu seu post",
             "RETWEETED_TWEET": "Repostou seu post",
             "FOLLOWED": "seguiu você",
@@ -1672,6 +1686,22 @@
                 "DESCRIPTION": "Não pode armazenar uma gravação sem áudio",
                 "OK": "OK"
             }
+        },
+        "BROWSER": {
+            "TITLE": "Navegador",
+            "SEARCH_PLACEHOLDER": "Pesquisar ou introduzir um URL",
+            "NEW_TAB": "Novo separador",
+            "TABS": "Separadores",
+            "TAB": "Separador",
+            "DONE": "Concluído",
+            "CLOSE_ALL": "Fechar tudo",
+            "HISTORY": "Histórico",
+            "BOOKMARKS": "Favoritos",
+            "BOOKMARK_REMOVE": "Remover favorito",
+            "NO_BOOKMARKS": "Ainda não há favoritos",
+            "NO_HISTORY": "Ainda não há histórico",
+            "FAILED_LOAD_PAGE": "Não é possível aceder a este site nesta aplicação",
+            "FAILED_LOAD_PAGE_DESCRIPTION": "Este site não permite iframes. Isto não é um erro."
         }
     },
     "COMPONENTS": {
@@ -1727,6 +1757,7 @@
             "NOTE": "notas",
             "VOICEMEMO": "gravação",
             "PLAYLIST": "playlist",
+            "ALBUM": "álbum",
             "DECLINE": "Recusar",
             "ACCEPT": "Aceitar"
         },
