@@ -6,31 +6,35 @@
     "D": "d",
     "H": "h",
     "M": "m",
+
     "S": "s",
+    "SECONDS": "segundos",
+    "MINUTES": "minutos",
+    "HOURS": "horas",
 
     "APP_NAMES": {
-        "Phone": "Telefone",
-        "Messages": "Messagens",
+        "Phone": "Telemóvel",
+        "Messages": "Mensagens",
         "Notes": "Notas",
-        "Settings": "Configurações",
-        "Photos": "Galeria",
-        "Camera": "Camera",
-        "Weather": "Metereologia",
+        "Settings": "Definições",
+        "Photos": "Fotografias",
+        "Camera": "Câmara",
+        "Weather": "Meteorologia",
         "Calculator": "Calculadora",
         "AppStore": "Apps",
         "Clock": "Relógio",
         "Maps": "Mapas",
-        "YellowPages": "Páginas",
-        "MarketPlace": "MarketPlace",
+        "YellowPages": "Páginas Amarelas",
+        "MarketPlace": "Mercado",
         "Wallet": "Carteira",
-        "Home": "Ecrá Inicial",
+        "Home": "Casa",
         "Garage": "Garagem",
-        "Music": "Musica",
+        "Music": "Música",
         "DarkChat": "Dark Chat",
-        "Crypto": "Crypto",
-        "Mail": "Mail",
+        "Crypto": "Cripto",
+        "Mail": "Correio",
         "Services": "Serviços",
-        "VoiceMemo": "Lembretes de Voz",
+        "VoiceMemo": "Notas de Voz",
         "Twitter": "Birdy",
         "Instagram": "InstaPic",
         "Tinder": "Spark",
@@ -39,7 +43,7 @@
 
     "APPS": {
         "SETTINGS": {
-            "TITLE": "Configurações",
+            "TITLE": "Definições",
             "BACK": "Voltar",
             "DONE": "Feito",
             "EDIT": "Editar",
@@ -70,6 +74,12 @@
             "TIME_ZONE": "Fuso horário",
             "LANGUAGE_REGION": "Idioma e região",
             "LANGUAGE": "Idioma",
+            "LANGUAGE_RESTART_POPUP": {
+                "TITLE": "Mudar Idioma",
+                "TEXT": "Alterar o idioma irá reiniciar o telemóvel. Deseja continuar?",
+                "CANCEL": "Cancelar",
+                "CONFIRM": "Alterar"
+            },
             "TEMPERATURE": "Temperatura",
             "CELCIUS": "Celsius",
             "FAHRENHEIT": "Fahrenheit",
@@ -154,13 +164,13 @@
             "BACKUPS": "Backups",
             "SAVE_BACKUP_POPUP": {
                 "TITLE": "Salvar Backup",
-                "TEXT": "Tem certeza que quer fazer backup do seu telefone? (Vai salvar contatos, fotos e configurações)",
+                "TEXT": "Tem certeza que quer fazer backup do seu telefone? (Vai salvar contatos, fotos e Definições)",
                 "CANCEL": "Cancelar",
                 "CONFIRM": "Confirmar"
             },
             "APPLY_BACKUP_POPUP": {
                 "TITLE": "Aplicar Backup",
-                "TEXT": "Tem certeza que quer aplicar o backup? (Vai substituir contatos, fotos e configurações)",
+                "TEXT": "Tem certeza que quer aplicar o backup? (Vai substituir contatos, fotos e Definições)",
                 "CANCEL": "Cancelar",
                 "CONFIRM": "Confirmar"
             },
@@ -267,8 +277,28 @@
             "SET": "Definir",
             "JOIN": "Entrar",
             "LEAVE": "Sair",
+            "CREATE": "Criar",
+            "JOIN_ROOM": "Entrar na Sala",
+            "JOIN_ROOM_TEXT": "Introduza um código de sala para entrar numa sala",
+            "CREATE_ROOM": "Criar Sala",
+            "CREATE_ROOM_TEXT": "Introduza um código de sala para criar uma sala",
             "NEW_ROOM": "Nova Sala",
             "NEW_ROOM_TEXT": "Digite um código de sala para entrar ou criar uma sala",
+            "INVALID_CHANNEL": "Canal inválido",
+            "INVALID_CHANNEL_TEXT": "O canal não existe",
+            "ALREADY_IN_CHANNEL": "Já está no canal",
+            "ALREADY_IN_CHANNEL_TEXT": "Já se encontra neste canal",
+            "PASSWORD_REQUIRED": "Password obrigatória",
+            "PASSWORD_REQUIRED_TEXT": "O canal requer uma password",
+            "PASSWORD_PLACEHOLDER_OPTIONAL": "Password (opcional)",
+            "INCORRECT_PASSWORD_TEXT": "A password está incorreta",
+            "CHANNEL_EXISTS": "Canal já existe",
+            "CHANNEL_EXISTS_TEXT": "O canal já existe",
+            "INVALID_NAME": "Nome inválido",
+            "INVALID_NAME_TEXT": "O nome é inválido (mínimo 1, máximo 5 caracteres)",
+            "UNKNOWN_ERROR": "Erro desconhecido",
+            "UNKNOWN_ERROR_TEXT": "Ocorreu um erro desconhecido",
+            "USERNAME_NOT_ALLOWED": "Nome de utilizador não permitido",
             "ROOM_CODE": "Código da Sala",
             "LEAVE_ROOM": "Deixar Sala",
             "LEAVE_ROOM_TEXT": "Tem certeza de que deseja sair desta sala?",
@@ -337,6 +367,29 @@
             }
         },
         "PHOTOS": {
+            "PROCEED": "Avançar",
+            "OK": "OK",
+            "SHARED_ALBUMS": "Álbuns Partilhados",
+            "MEDIA_TYPES": "Tipos de Média",
+            "MANAGE_MEMBERS": "Gerir Membros",
+            "LEAVE_SHARED_ALBUM": {
+                "TITLE": "Sair de \"{name}\"",
+                "DESCRIPTION": "Tem a certeza que pretende sair do álbum \"{name}\"? Deixará de poder enviar fotos para este álbum."
+            },
+            "ERROR": "Erro",
+            "SUCCESS": "Sucesso",
+            "CONTACT_ALREADY_IN_ALBUM": "Contacto já está no álbum",
+            "CONTACT_ADDED_TO_ALBUM": "Contacto adicionado ao álbum",
+            "MEMBERS": "{count} Membros",
+            "INVITE": "Convidar",
+            "LEAVE_ALBUM": "Sair do Álbum",
+            "CREATE_SHARED_ALBUM": "Criar Álbum Partilhado",
+            "MANAGE_SHARED_ALBUM": "Gerir Álbum Partilhado",
+            "REMOVE_MEMBER": {
+                "TITLE": "Remover Membro",
+                "DESCRIPTION": "Tem a certeza que pretende remover este membro do álbum?",
+                "SUCCESS": "Membro removido do álbum"
+            },
             "TITLE": "Fotos",
             "SELECT": "Selecionar",
             "CANCEL": "Cancelar",
@@ -388,7 +441,7 @@
 
             "NO_PHOTOS": "Sem fotos ou videos",
             "NO_PHOTOS_INSTRUCTIONS": "Pode captar fotos ou videos usando a camera",
-            "PHOTO_COUNT": "{amount} Fotos",
+            "PHOTO_COUNT": "{photos} Fotos",
             "VIDEO_COUNT": "{amount} Videos",
 
             "DELETE_CONTEXT_TITLE": "Quer apagar {type} ou remove-los deste album",
@@ -440,6 +493,24 @@
             }
         },
         "MESSAGES": {
+            "REPLY": "Responder",
+            "REACT": "Reagir",
+            "REPLYING_TO": "A responder a",
+            "ATTACHMENT": "Anexo",
+            "YOU": "Você",
+            "FAILED_SEND": {
+                "TITLE": "Falha ao enviar mensagem",
+                "DESCRIPTION": "Não foi possível enviar a mensagem",
+                "OK": "OK"
+            },
+            "GROUP_MEMBER_LIMIT_NOTIFICATION": {
+                "TITLE": "Limite de membros atingido",
+                "CONTENT": "Atingiu o número máximo de membros num grupo ({limit})."
+            },
+            "REACT_NOTIFICATION": {
+                "TITLE": "Nova reação",
+                "CONTENT": "{name} reagiu com {reaction} à sua mensagem"
+            },
             "TITLE": "Mensagens",
             "NEW_MESSAGE": "Nova Mensagem",
             "PEOPLE": "Pessoas",
@@ -530,6 +601,18 @@
             }
         },
         "PHONE": {
+            "RECENTS": {
+                "OUTGOING_CALL": "Chamada Efetuada",
+                "INCOMING_CALL": "Chamada Recebida",
+                "CANCELLED_CALL": "Chamada Cancelada",
+                "MISSED_CALL": "Chamada Perdida"
+            },
+            "CONTACTS": {
+                "RINGTONES": "Toques",
+                "RINGTONE": "Toque",
+                "DEFAULT": "Padrão",
+                "BACK": "Voltar"
+            },
             "TITLE": "Telefone",
             "DONE": "Finalizar",
             "EDIT": "Editar",
@@ -750,9 +833,9 @@
         "HOME": {
             "TITLE": "Propriedades",
             "MY_HOMES": "Minhas Propriedades",
-            "MY_HOME": "Minha Pripriedade",
+            "MY_HOME": "Minhas Propriedades",
             "KEY_ACCESS": "Chaves",
-            "ACTIONS": "Açõess",
+            "ACTIONS": "Ações",
             "FRONT_DOOR": "Porta da frente",
             "LOCATION": "Localização",
             "SET_WAYPOINT": "Mostrar no mapa",
@@ -788,6 +871,13 @@
             }
         },
         "MARKETPLACE": {
+            "TRANSACTION": "Posted to Marketplace",
+            "CREATION_COST_POPUP": {
+                "TITLE": "Create Post",
+                "DESCRIPTION": "Creating a post costs {cost}, do you want to proceed?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Proceed"
+            },
             "MARKETPLACE": "Marketplace",
             "TITLE": "Titulo",
             "SEARCH": "Pesquise por anúncios ou números",
@@ -818,6 +908,15 @@
             }
         },
         "YELLOWPAGES": {
+            "HOME": "Início",
+            "YOUR_POSTS": "Seus Posts",
+            "TRANSACTION": "Publicado nas Páginas",
+            "CREATION_COST_POPUP": {
+                "TITLE": "Criar Post",
+                "DESCRIPTION": "Criar um post custa {cost}, deseja prosseguir?",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Confirmar"
+            },
             "PAGES": "Paginas",
             "SEARCH": "Pesquise posts ou números",
             "FROM": "De",
@@ -842,6 +941,11 @@
             }
         },
         "MAIL": {
+            "FAILED_SEND": {
+                "TITLE": "Falha ao enviar e-mail",
+                "DESCRIPTION": "Falha ao enviar e-mail (o destinatário existe?)",
+                "OK": "OK"
+            },
             "TITLE": "E-mail",
             "YOU": "Você",
             "UPDATED_NOW": "Atualizado agora",
@@ -907,7 +1011,12 @@
             }
         },
         "MUSIC": {
-            "TITLE": "Musicas",
+            "HOME": "Início",
+            "RECENTLY_ADDED": "Recentemente Adicionado",
+            "CATEGORIES": "Categorias",
+            "PLAYLISTS": "Playlists",
+            "ARTISTS": "Artistas",
+            "TITLE": "Músicas",
             "LIBRARY": "Biblioteca",
             "SEARCH": "Pesquisar",
             "ADD_QUEUE": "Adicionar à fila",
@@ -915,7 +1024,7 @@
             "REMOVE_SONG": "Remover Música",
             "NOT_PLAYING": "Nada a tocar",
             "EDIT_PLAYLIST": "Editar Playlist",
-            "DELETE_PLAYLIST": "apagar Playlist",
+            "DELETE_PLAYLIST": "Apagar Playlist",
             "SEARCH_PLACEHOLDER": "Artistas, Músicas, Albuns, Playlists",
             "SONGS": "Músicas",
             "ALBUMS": "Albuns",
@@ -945,6 +1054,14 @@
             }
         },
         "TINDER": {
+            "TYPE_A_MESSAGE": "Digite uma mensagem...",
+            "ERROR": {
+                "TITLE": "Erro",
+                "SHORT_NAME": "Problema ao salvar o perfil Spark, (o nome precisa ter pelo menos 2 caracteres)",
+                "SHORT_BIO": "Problema ao salvar o perfil Spark, (a biografia precisa ter pelo menos 5 caracteres)",
+                "NO_PHOTOS": "Problema ao salvar o perfil Spark, (sem fotos)",
+                "OK": "OK"
+            },
             "TITLE": "Hot meet",
             "LIKES_YOU_TOO": "gosta de Também!",
             "KEEP_SWIPING": "Continue deslizando",
@@ -986,6 +1103,15 @@
             "DELETE_ACCOUNT": "Apagar conta"
         },
         "INSTAGRAM": {
+            "INVITED": "Convidado",
+            "REPLIED_TO_YOUR_STORY": "Respondeu à sua história",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "Respondeu à sua história: {content}",
+            "SHARE_TO_STORY": {
+                "TITLE": "Compartilhar na História",
+                "SUCCESS": "Postagem Compartilhada",
+                "DESCRIPTION": "Sua postagem foi compartilhada na sua história"
+            },
+            "VIEW_POST": "Ver Postagem",
             "TITLE": "Fotogram",
             "SEND": "Enviar",
             "POST": "Postar",
@@ -1065,6 +1191,7 @@
             "FOLLOWER": "Seguidor",
             "REQUESTED": "Pedido",
             "LIKES": "Likes",
+            "RETWEETS": "Reposts",
             "LIKED_BY": "Recebeste like de",
             "VIEW_ALL_COMMENTS": "Ver todos os {count} comentários",
             "FIRST_COMMENT": "Seja o primeiro a comentar...",
@@ -1123,6 +1250,18 @@
             }
         },
         "TWITTER": {
+            "VERIFIED": {
+                "LABEL": "Verificado",
+                "DESCRIPTION": "Esta conta é verificada."
+            },
+            "VERIFIED_GOVERNMENT": {
+                "LABEL": "Conta do governo",
+                "DESCRIPTION": "Esta conta é uma conta oficial do governo."
+            },
+            "INVALID_ACCOUNT": "Conta inválida",
+            "INVALID_PASSWORD": "Senha inválida",
+            "USERNAME_TAKEN": "Nome de usuário já está em uso",
+            "USERNAME_NOT_ALLOWED": "Nome de usuário não permitido",
             "TITLE": "Blue Bird",
             "SEARCH_FOR": "Procurar '{search}'",
             "START_SEARCHING": "Comece a pesquisar para explorar o Twitter",
@@ -1141,7 +1280,7 @@
             "SAVE": "Salvar",
             "NAME": "Nome",
             "JOIN_DATE": "Data de Criação",
-            "PROTECTED_POSTS": "Protege os seus posts",
+            "PRIVATE_ACCOUNT": "Conta Privada",
             "BIO": "Bio",
             "SIGN_OUT": "Sair",
             "CHANGE_PASSWORD": "Alterar Password",
@@ -1214,6 +1353,9 @@
             "SEARCH_DIRECT_MESSAGES": "Pesquisar mensagens diretas",
             "SEARCH_TWITTER": "Procurar Posts",
             "MESSAGE_PLACEHOLDER": "Mensagem...",
+            "MESSAGES": "Mensagens",
+            "SEARCH_PEOPLE": "Procurar pessoas",
+            "CHANGE_PHOTO": "Alterar foto",
             "NOW": "Agora",
             "LOGIN": "Entrar",
             "NEXT": "Próximo",
@@ -1231,9 +1373,20 @@
             "PROTECTED_TWEETS_DESCRIPTION": "Apenas os seguidores confirmados têm acesso às publicações e ao perfil completo de @{username}. Toque no botão ‘Seguir’ para enviar um pedido de acompanhamento."
         },
         "SERVICES": {
+            "QUICK_REPLIES": {
+                "REQUEST_LOCATION": {
+                    "TITLE": "Solicitar Localização",
+                    "MESSAGE": "Pode fornecer sua localização, por favor?"
+                },
+                "OFFICER_EN_ROUTE": {
+                    "TITLE": "Oficial a Caminho",
+                    "MESSAGE": "Um oficial está a caminho da sua localização."
+                }
+            },
             "ACTIONS": "Ações",
             "COMPANIES": "Empresas",
             "MESSAGES": "Mensagens",
+            "JOBS": "Trabalho",
             "SETTINGS": "Definições",
 
             "CLOSED": "Fechada",
@@ -1295,13 +1448,30 @@
                 "PROCEED": "Confirmar"
             },
             "CALL_POPUP": {
-                "TITLE": "Ligação",
-                "DESCRIPTION": "Tem certeza que quer ligar para {name}?",
+                "TITLE": "Chamada",
+                "DESCRIPTION": "Tem certeza que quer ligar?",
                 "CANCEL": "Cancelar",
                 "PROCEED": "Confirmar"
+            },
+            "LEAVE_POPUP": {
+                "TITLE": "Sair do Emprego",
+                "DESCRIPTION": "Tem a certeza que deseja sair de {name}?",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Sair"
             }
         },
         "CRYPTO": {
+            "TOO_HIGH": "Quantia é demasiado alta (máx {amount})",
+            "CHECK_FAILED": "Falha na verificação",
+            "BUY_DISABLED": "Compra desativada para esta moeda",
+            "INVALID_COIN_PRICE": "A moeda não custa nada.",
+            "SELL_DISABLED": "Venda desativada para esta moeda",
+            "TRANSFER_DISABLED": "Transferência desativada para esta moeda",
+            "REFUND_TRANSACTION": "Reembolso devido à remoção de criptomoedas.",
+            "CONVERT_NOTIFICATION": {
+                "TITLE": "Criptomoedas convertidas",
+                "DESCRIPTION": "Algumas criptomoedas foram removidas e convertidas para {amount} {coinName}."
+            },
             "TITLE": "Crypto",
             "BALANCE": "Saldo estimado",
             "BUY": "Comprar",
@@ -1311,7 +1481,7 @@
             "NO_MONEY": "Não tem dinheiro",
             "NO_COINS": "Não tem nenhuma moeda.",
             "NOT_ENOUGH_COINS": "Não tem moedas suficientes",
-            "ATLEAST_ONE_COIN": "É necessário {action} pelo menos 1 {currency}.",
+            "ATLEAST_ONE_COIN": "É necessário {action} pelo menos 1 moeda.",
             "INVALID_COIN": "Moeda inválida",
             "NO_NUMBER": "Não foi fornecido numero de telefone",
             "INVALID_NUMBER": "Numero de telefone inválido (O destinatário pode estar offline)",
@@ -1623,32 +1793,47 @@
         "FONT_AND_COLOR": "Font & Cor"
     },
     "MISC": {
+        "ERROR": {
+            "TITLE": "Erro",
+            "DESCRIPTION": "Ocorreu um erro ao executar a ação",
+            "OK": "OK"
+        },
+        "ORDINAL": {
+            "ZERO": "º",
+            "ONE": "º",
+            "TWO": "º",
+            "FEW": "º",
+            "MANY": "º",
+            "OTHER": "º"
+        },
+        "COPY": "Copiar",
+        "OPEN_IN_BROWSER": "Abrir no navegador",
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "Erro",
-            "DESCRIPTION": "Está a tentar efetuar uma ação que necessita de acesso à internet, desativar modo avião para continuar.",
+            "DESCRIPTION": "Está a tentar realizar uma ação que necessita de acesso à internet, desative o modo avião para continuar.",
             "OK": "OK"
         },
         "TODAY_TIME": "Hoje, {hours}:{minutes}",
         "YESTERDAY_TIME": "Ontem, {hours}:{minutes}",
         "CHANGE_PASSWORD": {
-            "TITLE": "Alterar password",
-            "DESCRIPTION": "Por favor preencha o seu {type} {app} password",
+            "TITLE": "Alterar palavra-passe",
+            "DESCRIPTION": "Por favor preencha a sua {type} {app} palavra-passe",
             "ERROR": "Falha ao alterar a palavra-passe",
             "CURRENT": "atual",
-            "NEW": "novo",
-            "PLACEHOLDER_CURRENT": "Password atual",
-            "PLACEHOLDER_NEW": "Nova password",
+            "NEW": "nova",
+            "PLACEHOLDER_CURRENT": "Palavra-passe atual",
+            "PLACEHOLDER_NEW": "Nova palavra-passe",
             "CANCEL": "Cancelar",
-            "NEXT": "Próximo",
+            "NEXT": "Seguinte",
             "PROCEED": "Continuar",
-            "SUCCESS": "Password alterada com sucesso",
+            "SUCCESS": "Palavra-passe alterada com sucesso",
             "OK": "OK"
         },
         "DELETE_ACCOUNT": {
-            "TITLE": "Apagar conta",
+            "TITLE": "Eliminar conta",
             "DESCRIPTION": "Para eliminar a sua conta {app}, preencha a sua palavra-passe abaixo. NOTA: Esta ação é irreversível.",
             "ERROR": "Falha ao eliminar conta",
-            "PLACEHOLDER": "Password",
+            "PLACEHOLDER": "Palavra-passe",
             "CANCEL": "Cancelar",
             "PROCEED": "Continuar",
             "OK": "OK"
