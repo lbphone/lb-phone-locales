@@ -1387,6 +1387,7 @@
             "ACTIONS": "Actions",
             "COMPANIES": "Companies",
             "MESSAGES": "Messages",
+            "JOBS": "Jobs",
             "SETTINGS": "Settings",
 
             "CLOSED": "Closed",
@@ -1452,6 +1453,12 @@
                 "DESCRIPTION": "Are you sure you want to call {name}?",
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
+            },
+            "LEAVE_POPUP": {
+                "TITLE": "Leave Job",
+                "DESCRIPTION": "Are you sure you want to leave {name}?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Leave"
             },
             "QUICK_REPLIES": {
                 "REQUEST_LOCATION": {
