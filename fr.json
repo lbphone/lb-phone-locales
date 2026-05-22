@@ -1387,6 +1387,7 @@
             "ACTIONS": "Actions",
             "COMPANIES": "Entreprises",
             "MESSAGES": "Messages",
+            "JOBS": "Emplois",
             "SETTINGS": "Paramètres",
 
             "CLOSED": "Fermé",
@@ -1452,6 +1453,12 @@
                 "DESCRIPTION": "Voulez-vous vraiment appeler {name} ?",
                 "CANCEL": "Annuler",
                 "PROCEED": "Confirmer"
+            },
+            "LEAVE_POPUP": {
+                "TITLE": "Quitter l'emploi",
+                "DESCRIPTION": "Êtes vous sûr de vouloir quitter {name}",
+                "CANCEL": "Annuler",
+                "PROCEED": "Quitter"
             },
             "QUICK_REPLIES": {
                 "REQUEST_LOCATION": {
