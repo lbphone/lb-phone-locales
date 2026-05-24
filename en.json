@@ -1387,6 +1387,7 @@
             "ACTIONS": "Actions",
             "COMPANIES": "Companies",
             "MESSAGES": "Messages",
+            "JOBS": "Jobs",
             "SETTINGS": "Settings",
 
             "CLOSED": "Closed",
@@ -1453,6 +1454,12 @@
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             },
+            "LEAVE_POPUP": {
+                "TITLE": "Leave Job",
+                "DESCRIPTION": "Are you sure you want to leave {name}?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Leave"
+            },
             "QUICK_REPLIES": {
                 "REQUEST_LOCATION": {
                     "TITLE": "Request Location",
@@ -1482,6 +1489,7 @@
             "CHECK_FAILED": "Vaildation checks failed",
             "BUY_DISABLED": "Buying has been disabled for this coin",
             "SELL_DISABLED": "Selling has been disabled for this coin",
+            "INVALID_COIN_PRICE": "The coin is not worth anything",
             "TRANSFER_DISABLED": "Transferring has been disabled for this coin",
             "ERROR": "Error",
             "CLOSE": "Close",
