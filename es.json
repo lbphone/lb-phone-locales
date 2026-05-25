@@ -1387,6 +1387,7 @@
             "ACTIONS": "Acciones",
             "COMPANIES": "Compañías",
             "MESSAGES": "Mensajes",
+            "JOBS": "Trabajos",
             "SETTINGS": "Ajustes",
 
             "CLOSED": "Cerrado",
@@ -1453,6 +1454,12 @@
                 "CANCEL": "Cancelar",
                 "PROCEED": "Continuar"
             },
+            "LEAVE_POPUP": {
+                "TITLE": "Dejar trabajo",
+                "DESCRIPTION": "¿Estás seguro que deseas dejar {name}?",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Dejar"
+            },
             "QUICK_REPLIES": {
                 "REQUEST_LOCATION": {
                     "TITLE": "Solicitar ubicación",
@@ -1482,6 +1489,7 @@
             "CHECK_FAILED": "Fallaron las comprobaciones de validación",
             "BUY_DISABLED": "Se ha deshabilitado la compra de esta moneda",
             "SELL_DISABLED": "La venta de esta moneda ha sido deshabilitada",
+            "INVALID_COIN_PRICE": "La moneda no vale nada",
             "TRANSFER_DISABLED": "La transferencia de esta moneda ha sido deshabilitada",
             "ERROR": "Error",
             "CLOSE": "Cerrar",
