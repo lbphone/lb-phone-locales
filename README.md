@@ -7,12 +7,12 @@ Please refer to the [Contributing Guidelines](https://github.com/lbphone/lb-phon
 Discord: https://discord.gg/zKfDSem4Sj
 
 ## Locales Status:
-*4/25 locales up to date*
+*5/25 locales up to date*
 - ✅ **en.json** (Base Locale)
 - ❌ **ar.json**
 - ❌ **ba.json**
 - ❌ **cs.json**
-- ❌ **de.json**
+- ✅ **de.json**
 - ❌ **dk.json**
 - ✅ **es.json**
 - ✅ **fr.json**
