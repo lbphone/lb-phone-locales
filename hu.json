@@ -73,6 +73,12 @@
             "TIME_ZONE": "Időzóna",
             "LANGUAGE_REGION": "Nyelv és régió",
             "LANGUAGE": "Nyelv",
+            "LANGUAGE_RESTART_POPUP": {
+                "TITLE": "Nyelv megváltoztatása",
+                "TEXT": "A nyelv megváltoztatása a telefon újraindulásával jár. Szeretnéd folytatni?",
+                "CANCEL": "Mégse",
+                "CONFIRM": "Módosítás"
+            },
             "TEMPERATURE": "Hőmérséklet",
             "CELCIUS": "Celsius",
             "FAHRENHEIT": "Fahrenheit",
@@ -1263,6 +1269,7 @@
             "REPLIES": "Válaszok",
             "MEDIA": "Média",
             "LIKES": "Kedvelések",
+            "RETWEETS": "Újraposztolás",
             "CANCEL": "Mégse",
             "TWEET": "Poszt",
             "TWEET_REPLY": "Poszt válasza",
@@ -1353,6 +1360,9 @@
             "SEARCH_DIRECT_MESSAGES": "Keresés privát üzenetekben",
             "SEARCH_TWITTER": "Keresés Birdy-n",
             "MESSAGE_PLACEHOLDER": "Üzenet...",
+            "MESSAGES": "Üzenetek",
+            "SEARCH_PEOPLE": "Emberek keresése",
+            "CHANGE_PHOTO": "Fotó váltása",
             "NOW": "Most",
             "LOGIN": "Bejelentkezés",
             "NEXT": "Következő",
@@ -1377,6 +1387,7 @@
             "ACTIONS": "Műveletek",
             "COMPANIES": "Vállalatok",
             "MESSAGES": "Üzenetek",
+            "JOBS": "Munkák",
             "SETTINGS": "Beállítások",
 
             "CLOSED": "Zárva",
@@ -1443,6 +1454,12 @@
                 "CANCEL": "Mégse",
                 "PROCEED": "Folytatás"
             },
+            "LEAVE_POPUP": {
+                "TITLE": "Munka felmondása",
+                "DESCRIPTION": "Biztosan ott szeretnéd hagyni a következőt: {name}?",
+                "CANCEL": "Mégse",
+                "PROCEED": "Kilépés"
+            },
             "QUICK_REPLIES": {
                 "REQUEST_LOCATION": {
                     "TITLE": "Helyzetkérelem",
@@ -1452,7 +1469,7 @@
                     "TITLE": "Egység úton",
                     "MESSAGE": "Egy rendőr egység úton van a helyzetedhez."
                 }
-                }
+            }
         },
         "CRYPTO": {
             "TITLE": "Kripto",
@@ -1472,6 +1489,7 @@
             "CHECK_FAILED": "Érvényesítési hiba",
             "BUY_DISABLED": "A vásárlás le van tiltva ehhez az érmehez",
             "SELL_DISABLED": "Az eladás le van tiltva ehhez az érmehez",
+            "INVALID_COIN_PRICE": "Ez az érme nem ér semmit",
             "TRANSFER_DISABLED": "Az átutalás le van tiltva ehhez az érmehez",
             "ERROR": "Hiba",
             "CLOSE": "Bezárás",
@@ -1846,6 +1864,7 @@
             "PROCEED": "Folytatás",
             "OK": "OK"
         },
+
         "COPY": "Másolás",
         "OPEN_IN_BROWSER": "Megnyitás böngészőben"
     },
