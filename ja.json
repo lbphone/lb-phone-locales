@@ -1387,6 +1387,7 @@
             "ACTIONS": "アクション",
             "COMPANIES": "会社",
             "MESSAGES": "メッセージ",
+            "JOBS": "ジョブ",
             "SETTINGS": "設定",
 
             "CLOSED": "閉鎖",
@@ -1452,6 +1453,12 @@
                 "DESCRIPTION": "{name}に電話してもよろしいですか？",
                 "CANCEL": "キャンセル",
                 "PROCEED": "続行"
+            },
+            "LEAVE_POPUP": {
+                "TITLE": "ジョブを辞める",
+                "DESCRIPTION": "{name}を辞めてもよろしいですか？",
+                "CANCEL": "キャンセル",
+                "PROCEED": "辞める"
             },
             "QUICK_REPLIES": {
                 "REQUEST_LOCATION": {
