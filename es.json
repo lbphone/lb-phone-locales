@@ -533,6 +533,8 @@
             "YOU": "Tú",
             "GROUP": "Grupo",
             "GROUP_NAME": "Nombre de grupo",
+            "ADD_PHOTO": "Añadir foto",
+            "REMOVE_PHOTO": "Quitar foto",
             "REMOVE_POPUP": {
                 "TITLE": "Quitar miembro",
                 "TEXT": "¿Deseas quitar a {name} del grupo?",
@@ -1838,6 +1840,10 @@
             "TITLE": "Error",
             "DESCRIPTION": "Estás intentando realizar una acción que requiere acceso a Internet, deshabilita el modo avión para continuar",
             "OK": "OK"
+        },
+        "NO_CONNECTION": {
+            "TITLE": "No Connection",
+            "DESCRIPTION": "You need internet access to use this app."
         },
         "TODAY_TIME": "Hoy, {hours}:{minutes}",
         "YESTERDAY_TIME": "Ayer, {hours}:{minutes}",
