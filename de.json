@@ -10,6 +10,7 @@
     "SECONDS": "sekunden",
     "MINUTES": "minuten",
     "HOURS": "stunden",
+
     "APP_NAMES": {
         "Phone": "Telefon",
         "Messages": "Nachrichten",
@@ -38,6 +39,7 @@
         "Tinder": "Spark",
         "TikTok": "Trendy"
     },
+
     "APPS": {
         "SETTINGS": {
             "TITLE": "Einstellungen",
@@ -283,6 +285,7 @@
             "CREATE_ROOM": "Raum erstellen",
             "CREATE_ROOM_TEXT": "Gib einen Raum-Code ein, um einen neuen Raum zu erstellen",
             "ROOM_CODE": "Raum-Code",
+
             "INVALID_CHANNEL": "Ungültiger Kanal",
             "INVALID_CHANNEL_TEXT": "Der Kanal existiert nicht",
             "ALREADY_IN_CHANNEL": "Bereits im Kanal",
@@ -299,6 +302,7 @@
             "INVALID_NAME_TEXT": "Der Name ist ungültig (mind. 1 Zeichen, max. 5)",
             "UNKNOWN_ERROR": "Unbekannter Fehler",
             "UNKNOWN_ERROR_TEXT": "Ein unbekannter Fehler ist aufgetreten",
+
             "LEAVE_ROOM": "Raum verlassen",
             "LEAVE_ROOM_TEXT": "Bist du sicher, dass du den Raum verlassen möchtest?",
             "NOW": "Jetzt",
@@ -307,6 +311,7 @@
             "NO_CHATS_TEXT": "Du hast noch keinem Kanal beigetreten. Tritt einem bei oder erstelle einen, indem du auf das Pluszeichen in der oberen rechten Ecke drückst.",
             "MEMBER": "Mitglied",
             "MEMBERS": "Mitglieder",
+
             "USERNAME": "Benutzername",
             "PASSWORD": "Passwort",
             "LOGIN": "Anmelden",
@@ -314,21 +319,25 @@
             "NO_ACCOUNT": "Haben sie kein Konto?",
             "ALREADY_HAVE": "Hast du schon ein Konto?",
             "USERNAME_NOT_ALLOWED": "Benutzername nicht erlaubt",
+
             "CHANGE_ACCOUNT": "Konto wechseln",
             "CHANGE_PASSWORD": "Passwort verändern",
             "DELETE_ACCOUNT": "Konto löschen",
+
             "ERROR": "Fehler",
             "INVALID_LENGTH": "Passwort muss mindestens 3 Zeichen lang sein",
             "USERNAME_TAKEN": "Benutzername ist bereits vergeben",
             "UNKNOWN": "Unbekannter Fehler",
             "INVALID_USERNAME": "Benutzername existiert nicht",
             "OK": "OK",
+
             "LEAVE_CHANNEL": {
                 "TITLE": "Kanal verlassen",
                 "DESCRIPTION": "Bist du sicher, dass du diesen Kanal verlassen möchtest?",
                 "CANCEL": "Abbrechen",
                 "PROCEED": "Verlassen"
             },
+
             "SET_PASSWORD_POPUP": {
                 "TITLE": "Passwort festlegen",
                 "DESCRIPTION": "Du musst ein Passwort für dein Konto festlegen",
@@ -377,6 +386,7 @@
             "DELETE": "Löschen",
             "SELECT_ITEMS": "Ausgewählte Elemente",
             "SELECTED_COUNT": "{count} Elemente ausgewählt",
+
             "PHOTOS": "Fotos",
             "ALBUMS": "Alben",
             "LIBRARY": "Mediathek",
@@ -434,10 +444,12 @@
                 "DESCRIPTION": "Bist du sicher, dass du dieses Mitglied aus dem Album entfernen möchtest?",
                 "SUCCESS": "Mitglied aus dem Album entfernt"
             },
+
             "NO_PHOTOS": "Keine Bilder oder Videos",
             "NO_PHOTOS_INSTRUCTIONS": "Du kannst Fotos und Videos mit deiner Kamera machen",
             "PHOTO_COUNT": "{amount} Fotos",
             "VIDEO_COUNT": "{amount} Videos",
+
             "DELETE_CONTEXT_TITLE": "Möchtest du {type} löschen oder aus dem Album entfernen?",
             "THESE_PHOTOS": "diese Fotos",
             "THIS_PHOTO": "dieses Foto",
@@ -454,6 +466,7 @@
             "MONTHS": "Monate",
             "DAYS": "Tage",
             "ALL_PHOTOS": "Alle Fotos",
+
             "FAVOURITES": "Favoriten",
             "RECENTS": "Neueste"
         },
@@ -520,6 +533,8 @@
             "YOU": "Sie",
             "GROUP": "Gruppe",
             "GROUP_NAME": "Gruppenname",
+            "ADD_PHOTO": "Foto hinzufügen",
+            "REMOVE_PHOTO": "Foto entfernen",
             "REMOVE_POPUP": {
                 "TITLE": "Mitglied entfernen",
                 "TEXT": "Willst du {name} wirklich aus der Gruppe entfernen?",
@@ -735,6 +750,7 @@
             "SELECT_CONTACT": "Kontakt auswählen",
             "TODAY": "Heute",
             "YESTERDAY": "Gestern",
+
             "INSUFFICIENT_FUNDS": {
                 "TITLE": "Nicht genügend Geld",
                 "DESCRIPTION": "Du hast nicht genug Geld, um diesen Betrag zu senden"
@@ -767,6 +783,7 @@
                 "TITLE": "Geld hinzufügen fehlgeschlagen",
                 "DESCRIPTION": "Geld konnte nicht auf das angegebene Konto hinzugefügt werden"
             },
+
             "OK": "OK"
         },
         "GARAGE": {
@@ -790,6 +807,7 @@
             "LOCK": "Schließen",
             "UNLOCKED": "Aufgeschlossen",
             "UNLOCK": "Aufschließen",
+
             "WAYPOINT_POPUP": {
                 "TITLE": "Wegpunkt setzen",
                 "TEXT": "Willst du wirklich einen Wegpunkt zu deinem {model} setzen?",
@@ -871,6 +889,7 @@
             "CALL": "Anrufen",
             "REMOVE": "Entfernen",
             "TRANSACTION": "Im Marktplatz veröffentlicht",
+
             "CREATION_COST_POPUP": {
                 "TITLE": "Anzeige erstellen",
                 "DESCRIPTION": "Das Erstellen einer Anzeige kostet {cost}. Möchtest du fortfahren?",
@@ -985,6 +1004,7 @@
             "DELETE": "Löschen",
             "SET_WAYPOINT": "Wegpunkt setzen",
             "SHARE": "Teilen",
+
             "ADD_LOCATION_POPUP": {
                 "TITLE": "Standort hinzufügen",
                 "DESCRIPTION": "Gib den Namen des Standorts ein, den du hinzufügen möchtest",
@@ -1232,6 +1252,7 @@
             },
             "REPLIED_TO_YOUR_STORY": "Auf deine Story geantwortet",
             "REPLIED_TO_YOUR_STORY_CONTENT": "Hat geantwortet: {content}",
+
             "SHARE_TO_STORY": {
                 "TITLE": "Zur Story teilen",
                 "SUCCESS": "Post geteilt",
@@ -1368,18 +1389,23 @@
             "ACTIONS": "Verwaltung",
             "COMPANIES": "Unternehmen",
             "MESSAGES": "Nachrichten",
+            "JOBS": "Berufe",
             "SETTINGS": "Einstellungen",
+
             "CLOSED": "Geschlossen",
             "YOUR_MESSAGES": "Deine Nachrichten",
             "JOB_MESSAGES": "Dienstnachrichten",
+
             "DUTY": "Dienst",
             "DUTY_DESCRIPTION": "Deinen Dienststatus umschalten",
             "GO_ON_DUTY": "Melde dich zum Dienst",
             "GO_OFF_DUTY": "Melde dich vom Dienst ab",
             "JOB_CALLS": "Dienstanrufe",
             "JOB_CALLS_DESCRIPTION": "{toggle} Anrufe von Kunden entgegennehmen.",
+
             "ENABLE": "Einschalten",
             "DISABLE": "Ausschalten",
+
             "DISABLE_CALLS": "Anrufe deaktivieren",
             "ENABLE_CALLS": "Anrufe aktivieren",
             "BALANCE": "Kontostand",
@@ -1387,11 +1413,14 @@
             "HIRE": "Einstellen",
             "SET_GRADE": "Stufe wählen",
             "UNEMPLOYED": "Du bist arbeitslos",
+
             "ALL": "Alles",
             "AVAILABLE": "Verfügbar",
             "SEARCH_EMPLOYEES": "Mitarbeiter suchen",
+
             "PERSONAL": "Persönlich",
             "JOB": "Job",
+
             "DEPOSIT_POPUP": {
                 "TITLE": "Einzahlen",
                 "DESCRIPTION": "Zahle Geld auf dein Firmenkonto",
@@ -1427,6 +1456,12 @@
                 "CANCEL": "Abbrechen",
                 "PROCEED": "Anrufen"
             },
+            "LEAVE_POPUP": {
+                "TITLE": "Job kündigen",
+                "DESCRIPTION": "Bist du sicher, dass du {name} verlassen möchtest?",
+                "CANCEL": "Abbrechen",
+                "PROCEED": "Verlassen"
+            },
             "QUICK_REPLIES": {
                 "REQUEST_LOCATION": {
                     "TITLE": "Standort anfragen",
@@ -1436,13 +1471,6 @@
                     "TITLE": "Beamter unterwegs",
                     "MESSAGE": "Ein Beamter ist auf dem Weg zu dir."
                 }
-            },
-            "JOBS": "Berufe",
-            "LEAVE_POPUP": {
-                "TITLE": "Job kündigen",
-                "DESCRIPTION": "Bist du sicher, dass du {name} verlassen möchtest?",
-                "CANCEL": "Abbrechen",
-                "PROCEED": "Verlassen"
             }
         },
         "CRYPTO": {
@@ -1502,10 +1530,12 @@
         },
         "TIKTOK": {
             "TITLE": "Trendy",
+
             "HOME": "Start",
             "DISCOVER": "Erkunden",
             "INBOX": "Posteingang",
             "PROFILE": "Profil",
+
             "COMMENTS_TITLE": "{count} Kommentare",
             "REPLY": "Antworten",
             "VIEW_REPLIES": "Antworten anzeigen",
@@ -1525,6 +1555,7 @@
             "OK": "OK",
             "CREATOR": "Ersteller",
             "LIKED_BY_CREATOR": "Gefällt dem Ersteller",
+
             "PIN_VIDEO_POPUP": {
                 "TITLE": "Video anpinnen",
                 "DESCRIPTION": "Bist du sicher dass du das Video {action} möchtest?",
@@ -1543,6 +1574,7 @@
                 "CANCEL": "Abbrechen",
                 "PROCEED": "Ignorieren"
             },
+
             "SHARE_TITLE": "Teilen mit",
             "SHARE": "Teilen",
             "REPORT": "Melden",
@@ -1550,6 +1582,7 @@
             "ADD_FAVOURITE": "Zu Favoriten hinzufügen",
             "CANCEL": "Abbrechen",
             "GO_BACK": "Zurück",
+
             "FOLLOWING": "Folge ich",
             "FOLLOWERS": "Follower",
             "UNFOLLOW": "Entfolgen",
@@ -1557,12 +1590,14 @@
             "FOR_YOU": "Für dich",
             "VIDEOS": "Videos",
             "LIKES": "Likes",
+
             "UNFOLLOW_POPUP": {
                 "TITLE": "Entfolgen",
                 "DESCRIPTION": "Bist du dir sicher dass du {name} nicht mehr folgen möchtest?",
                 "CANCEL": "Abbrechen",
                 "PROCEED": "Entfolgen"
             },
+
             "LOGIN_TITLE": "Bei Trendy anmelden",
             "LOGIN_SUBTITLE": "Verwalte dein Konto, prüfe Benachrichtigungen, kommentiere Videos und vieles mehr.",
             "SIGNUP_TITLE": "Bei Trendy registrieren",
@@ -1572,17 +1607,20 @@
             "PASSWORD": "Passwort",
             "BIO": "Bio",
             "SHOW_LIKES": "Likes anzeigen",
+
             "LOGIN": "Anmelden",
             "SIGNUP": "Registrieren",
             "NO_ACCOUNT": "Noch keinen Account?",
             "ALREADY_ACCOUNT": "Hasst du bereits einen Account?",
             "SEARCH_PLACEHOLDER": "Suche nach Usern",
+
             "STARTED_FOLLOWING": "folgt dir jetzt.",
             "LIKED_VIDEO": "hat dein Video geliked.",
             "LIKED_COMMENT": "hat deinen Kommentar geliked.",
             "SAVED_VIDEO": "hat dein Video zu Favoriten hinzugefügt.",
             "COMMENTED": "kommentierte: {comment}",
             "REPLIED": "hat auf deinen Kommentar geantwortet: {comment}",
+
             "EDIT_PROFILE": "Profil bearbeiten",
             "MESSAGE": "Nachricht",
             "CHANGE_PHOTO": "Foto ändern",
@@ -1592,6 +1630,7 @@
             "ADD_TO_YOUR_PROFILE": "Zu deinem Profil hinzufügen",
             "LIKED_HIDDEN_TITLE": "Die von diesem User geliketen Videos sind privat.",
             "LIKED_HIDDEN_SUBTITLE": "Videos, die {name} geliket hat, sind derzeit privat.",
+
             "INVALID_ACCOUNT_POPUP": {
                 "TITLE": "Ungültig {name}",
                 "DESCRIPTION": "Du bist nicht bei dem von dir eingegebenen Konto {name} angemeldet, bitte korrigiere es.",
@@ -1603,6 +1642,7 @@
                 "CANCEL": "Abbrechen",
                 "PROCEED": "Entfernen"
             },
+
             "ADD_ACCOUNT_TITLE": "Account hinzufügen",
             "ADD_ACCOUNT": "Füge {name} zu deinem Profil hinzu",
             "UPLOAD_VIDEO": "Video hochladen",
@@ -1615,6 +1655,7 @@
             "MUSIC": "Musik",
             "SELECT_MUSIC": "Wähle Musik aus",
             "OPTIONAL": "Optional",
+
             "DIRECT_MESSAGES": "Direktnachrichten",
             "ALL_ACTIVITY": "Alle Aktivitäten",
             "NO_NOTIFICATIONS": "Benachrichtigungen sind nicht verfügbar",
@@ -1800,6 +1841,10 @@
             "DESCRIPTION": "Du versuchst eine Aktion auszuführen, die Internetzugang erfordert. Deaktiviere den Flugmodus, um fortzufahren.",
             "OK": "OK"
         },
+        "NO_CONNECTION": {
+            "TITLE": "Keine Verbindung",
+            "DESCRIPTION": "Um diese App nutzen zu können, benötigen Sie einen Internetzugang."
+        },
         "TODAY_TIME": "Heute, {hours}:{minutes}",
         "YESTERDAY_TIME": "Gestern, {hours}:{minutes}",
         "CHANGE_PASSWORD": {
@@ -1825,6 +1870,7 @@
             "PROCEED": "Fortfahren",
             "OK": "OK"
         },
+
         "COPY": "Kopieren",
         "OPEN_IN_BROWSER": "Im Browser öffnen"
     },
@@ -1917,46 +1963,59 @@
         "LOGS": {
             "MAIL_TITLE": "E-Mail",
             "NEW_MAIL": "{sender} hat eine Email an {recipient} gesendet",
+
             "MESSAGE_TITLE": "Textnachricht",
             "NEW_MESSAGE": "{sender} hat eine Textnachricht an {recipient} gesendet: {message}",
+
             "CALL_ENDED": "Anruf beendet",
             "CALL_DESCRIPTION": "Ein Anruf zwischen`{caller}` und `{callee}` welcher {duration}s dauerte wurde beendet. Antwortet: `{answered}`",
+
             "NEW_SERVICE_TITLE": "Neue Nachricht",
             "NEW_SERVICE_CONTENT": "{sender} hat eine Nachricht an {channel} gesendet: {message}",
+
             "RECEIVED_TITLE": "${amount} erhalten",
             "PAID_TITLE": "${amount} bezahlt",
             "TRANSACTION": "{number} hat eine Transaktion von ${amount} an {company} vorgenommen",
+
             "BOUGHT_CRYPTO": "Crypto gekauft",
             "SOLD_CRYPTO": "Crypto verkauft",
             "CRYPTO_DETAILS": "**Währung**: {coin}\n**Menge**: {amount}\n**Wert**: ${price}",
             "TRANSFERRED_CRYPTO": "Krypto übertragen",
             "TRANSFERRED_CRYPTO_DETAILS": "**Währung**: {coin}\n**Menge**: {amount}\n**An**: {to}\n**Von**: {from}",
+
             "DARKCHAT_CREATED_TITLE": "Kanal erstellt",
             "DARKCHAT_CREATED_DESCRIPTION": "{creator} hat einen Kanal namens {channel} erstellt",
             "DARKCHAT_MESSAGE_TITLE": "Neue Nachricht",
             "DARKCHAT_MESSAGE_DESCRIPTION": "{sender} hat eine Nachricht in {channel} gesendet: {message}",
+
             "MARKETPLACE_NEW_TITLE": "Neues Angebot",
             "MARKETPLACE_NEW_DESCRIPTION": "**Verkäufer**: {seller}\n**Titel**: {title}\n**Preis**: ${price}\n**Beschreibung**: {description}\n**Anhänge**: {attachments}\n**ID**: {id}",
             "MARKETPLACE_DELETED": "Beitrag gelöscht",
+
             "YELLOWPAGES_NEW_TITLE": "Neuer Beitrag",
             "YELLOWPAGES_NEW_DESCRIPTION": "**Titel**: {title}\n**Beschreibung**: {description}\n**Anhang**: {attachment}\n**ID**: {id}",
             "YELLOWPAGES_DELETED": "Beitrag gelöscht",
+
             "LIVE_TITLE": "Live",
             "STARTED_LIVE": "{username} hat ein Live-Video gestartet",
             "ENDED_LIVE": "{username} hat ein Live-Video beendet",
             "ADDED_STORY": "{username} hat ein Foto zu ihrer Story hinzugefügt",
+
             "TRENDY_UPLOAD_TITLE": "Neues Video",
             "TRENDY_UPLOAD_DESCRIPTION": "{username} hat ein neues Video mit dem Untertitel {caption} und der ID {id} hochgeladen",
             "TRENDY_DELETE_TITLE": "Ein Video gelöscht",
             "TRENDY_DELETE_DESCRIPTION": "{username} hat ein Video mit der ID {id} gelöscht",
+
             "UPLOADED_MEDIA": "Medien hochgeladen",
             "UPLOADED_MEDIA_DESCRIPTION": "Hat ein {type} mit der ID {id} aufgenommen\n{link}",
             "VIDEO": "Video",
             "PHOTO": "Foto",
+
             "CHANGED_PASSWORD": {
                 "TITLE": "Passwort geändert",
                 "DESCRIPTION": "{number} hat das Passwort für das Konto {username} auf {app} geändert."
             },
+
             "DELETED_ACCOUNT": {
                 "TITLE": "Konto gelöscht",
                 "DESCRIPTION": "{number} hat das Konto {username} auf {app} gelöscht."
