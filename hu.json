@@ -1839,6 +1839,10 @@
             "DESCRIPTION": "Olyan műveletet próbálsz végrehajtani, ami internetkapcsolatot igényel. Kapcsold ki a repülőgép módot, vagy biztosíts hálózatot a folytatáshoz.",
             "OK": "OK"
         },
+        "NO_CONNECTION": {
+            "TITLE": "Nincs Kapcsolat",
+            "DESCRIPTION": "Internetre van szükséged az app használatához."
+        },
         "TODAY_TIME": "Ma, {hours}:{minutes}",
         "YESTERDAY_TIME": "Tegnap, {hours}:{minutes}",
         "CHANGE_PASSWORD": {
