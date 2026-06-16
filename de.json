@@ -75,7 +75,7 @@
             "LANGUAGE": "Sprache",
             "LANGUAGE_RESTART_POPUP": {
                 "TITLE": "Sprache ändern",
-                "TEXT": "Durch das Ändern der Sprache wird das Telefon neu gestartet. Möchten Sie fortfahren?",
+                "TEXT": "Durch das Ändern der Sprache wird das Telefon neu gestartet. Möchtest du fortfahren?",
                 "CANCEL": "Abbrechen",
                 "CONFIRM": "Ändern"
             },
@@ -127,7 +127,7 @@
                 "CONFIRM": "Freigeben"
             },
             "FACE_ID_PASSWORD": "Face ID & Passwort",
-            "FACE_ID_PASSWORD_DESCRIPTION": "Ihr Telefon sichern",
+            "FACE_ID_PASSWORD_DESCRIPTION": "Dein Telefon sichern",
             "ENTER_PASSCODE": "Passcode eingeben",
             "PASSCODE": "Passcode",
             "FACE_ID": "Face ID",
@@ -135,7 +135,7 @@
             "ENABLE_FACE_ID": "Face ID aktivieren",
             "PIN_CODE": "PIN-Code",
             "PIN_CODE_ERROR": {
-                "TITLE": "Error",
+                "TITLE": "Fehler",
                 "WRONG": "Falscher Pin-Code",
                 "OK": "OK"
             },
@@ -230,8 +230,8 @@
                 "EDIT": "Bearbeiten",
                 "DONE": "Fertig",
                 "SAVE": "Speichern",
-                "LABEL": "Label",
-                "SOUND": "Sound",
+                "LABEL": "Bezeichnung",
+                "SOUND": "Ton",
                 "SNOOZE": "Schlummern",
                 "DELETE_TITLE": "Wecker löschen",
                 "DELETE_TEXT": "Bist du dir sicher, dass du diesen Wecker löschen möchtest?",
@@ -244,17 +244,17 @@
             "STOPWATCH": {
                 "TITLE": "Stoppuhr",
                 "START": "Start",
-                "STOP": "Stop",
+                "STOP": "Stopp",
                 "RESET": "Löschen",
                 "LAP": "Runde",
                 "TIME": "Zeit",
-                "TOTAL": "Total",
+                "TOTAL": "Gesamt",
                 "NO_LAPS": "Keine Runden"
             },
             "TIMER": {
                 "TITLE": "Timer",
                 "START": "Start",
-                "STOP": "Stop",
+                "STOP": "Stopp",
                 "CANCEL": "Abbrechen",
                 "HOURS": "Stunden",
                 "MINUTES": "Min.",
@@ -262,7 +262,7 @@
                 "NO_RECENTS": "Keine Vorfälle"
             },
             "ALERT": {
-                "STOP": "Stop",
+                "STOP": "Stopp",
                 "RESTART": "Neu starten"
             }
         },
@@ -314,10 +314,10 @@
 
             "USERNAME": "Benutzername",
             "PASSWORD": "Passwort",
-            "LOGIN": "Log In",
+            "LOGIN": "Anmelden",
             "SIGN_UP": "Anmelden",
             "NO_ACCOUNT": "Haben sie kein Konto?",
-            "ALREADY_HAVE": "Haben Sie schon ein Konto?",
+            "ALREADY_HAVE": "Hast du schon ein Konto?",
             "USERNAME_NOT_ALLOWED": "Benutzername nicht erlaubt",
 
             "CHANGE_ACCOUNT": "Konto wechseln",
@@ -408,7 +408,7 @@
             },
             "LEAVE_SHARED_ALBUM": {
                 "TITLE": "\"{name}\" verlassed",
-                "DESCRIPTION": "Sind Sie sicher, dass Sie das Album \"{name}\" verlassen möchten? Sie können dann keine Fotos mehr in das Album hochladen."
+                "DESCRIPTION": "Bist du sicher, dass du das Album \"{name}\" verlassen möchtest? Du kannst dann keine Fotos mehr in das Album hochladen."
             },
             "RENAME_ALBUM_POPUP": {
                 "TITLE": "Album umbenennen",
@@ -441,7 +441,7 @@
             "MANAGE_SHARED_ALBUM": "Gemeinsames Album verwalten",
             "REMOVE_MEMBER": {
                 "TITLE": "Mitglied entfernen",
-                "DESCRIPTION": "Sind Sie sicher, dass Sie dieses Mitglied aus dem Album entfernen möchten?",
+                "DESCRIPTION": "Bist du sicher, dass du dieses Mitglied aus dem Album entfernen möchtest?",
                 "SUCCESS": "Mitglied aus dem Album entfernt"
             },
 
@@ -533,6 +533,8 @@
             "YOU": "Sie",
             "GROUP": "Gruppe",
             "GROUP_NAME": "Gruppenname",
+            "ADD_PHOTO": "Foto hinzufügen",
+            "REMOVE_PHOTO": "Foto entfernen",
             "REMOVE_POPUP": {
                 "TITLE": "Mitglied entfernen",
                 "TEXT": "Willst du {name} wirklich aus der Gruppe entfernen?",
@@ -713,11 +715,11 @@
                 "MISSED_CALL": "Verpasster Anruf"
             },
             "VOICEMAIL": {
-                "TITLE": "Voicemail",
+                "TITLE": "Sprachnachricht",
                 "AT": "um",
                 "DELETE_POPUP": {
-                    "TITLE": "Voicemail löschen",
-                    "DESCRIPTION": "Bist du sicher, dass du diese Voicemail löschen möchtest?",
+                    "TITLE": "Sprachnachricht löschen",
+                    "DESCRIPTION": "Bist du sicher, dass du diese Sprachnachricht löschen möchtest?",
                     "CANCEL": "Abbrechen",
                     "PROCEED": "Löschen"
                 },
@@ -738,7 +740,7 @@
             "DONE_SUBTITLE": "Du hast {amount} an {number} gesendet",
             "NO_REFUNDS": "Zahlungen können nicht erstattet werden. Überprüfe die Nummer.",
             "NEW_BALANCE": "Neuer Saldo",
-            "HOME": "Home",
+            "HOME": "Start",
             "LATEST_TRANSACTIONS": "Letzte Transaktionen",
             "TRANSACTIONS": "Transaktionen",
             "ALL_TRANSACTIONS": "Alle Transaktionen",
@@ -866,7 +868,7 @@
                 "PROCEED": "Weiter"
             },
             "REMOVE_KEY_POPUP": {
-                "TITLE": "Remove Keyholder",
+                "TITLE": "Schlüsselinhaber entfernen",
                 "TEXT": "Bist du sicher, dass du den Zugang von {name} entfernen möchtest?",
                 "CANCEL": "Abbrechen",
                 "PROCEED": "Weiter"
@@ -876,11 +878,11 @@
             "MARKETPLACE": "Marktplatz",
             "TITLE": "Titel",
             "SEARCH": "Suche nach Inseraten oder Nummern",
-            "HOME": "Home",
+            "HOME": "Start",
             "YOUR_POSTS": "Deine Posts",
             "PRICE": "Preis",
             "DESCRIPTION": "Beschreibung",
-            "IMAGES": "Images",
+            "IMAGES": "Bilder",
             "POST": "Inserieren",
             "AMOUNT_OF_TOTAL": "{amount} vom {total}",
             "MESSAGE": "Nachricht",
@@ -984,7 +986,7 @@
             },
             "DELETE_MAIL_POPUP": {
                 "TITLE": "Email löschen",
-                "DESCRIPTION": "Sind Sie sicher, dass Sie diese E-Mail löschen möchten?",
+                "DESCRIPTION": "Bist du sicher, dass du diese E-Mail löschen möchtest?",
                 "CANCEL": "Abbrechen",
                 "DELETE": "Löschen"
             },
@@ -1037,7 +1039,7 @@
             "ALBUMS": "Alben",
             "ARTISTS": "Künstler",
             "PLAY": "Abspielen",
-            "SHUFFLE": "Shuffle",
+            "SHUFFLE": "Zufällig",
             "ARTIST": "Künstler",
             "ALBUM": "Album",
             "PLAYLIST": "Playlist",
@@ -1098,8 +1100,8 @@
             "VISIBILITY": "Profil-Sichtbarkeit",
             "VISIBLE": "Sichtbar",
             "HIDDEN": "Versteckt",
-            "HIDDEN_WARNING": "Ihr Konto ist derzeit verborgen. Sie werden anderen Nutzern nicht angezeigt und können nicht wischen.",
-            "HIDDEN_PROFILE": "Ihr Profil ist nicht aktiv. Sie können Ihr Profil in den Einstellungen aktivieren.",
+            "HIDDEN_WARNING": "Dein Konto ist derzeit verborgen. Du wirst anderen Nutzern nicht angezeigt und kannst nicht wischen.",
+            "HIDDEN_PROFILE": "Dein Profil ist nicht aktiv. Du kannst dein Profil in den Einstellungen aktivieren.",
             "SEARCH_MATCHES": "Matches durchsuchen",
             "DELETE_ACCOUNT": "Konto löschen",
             "ERROR": {
@@ -1227,12 +1229,12 @@
             "REMOVE": "Entfernen",
             "IN_THIS_ROOM": "In diesem Raum",
             "WHOS_WATCHING": "Wer schaut zu",
-            "FOLLOW_REQUESTS": "Follow-Anfragen",
+            "FOLLOW_REQUESTS": "Folge-Anfragen",
             "CONFIRM": "Bestätigen",
             "DELETE": "Löschen",
             "ANDOTHERS": "{username} + {amount} andere",
             "PRIVATE_ACCOUNT": "Dieses Konto ist privat",
-            "PRIVATE_ACCOUNT_DESCRIPTION": "Folgen Sie diesem Konto, um ihre Fotos und Videos zu sehen.",
+            "PRIVATE_ACCOUNT_DESCRIPTION": "Folge diesem Konto, um Fotos und Videos zu sehen.",
             "ERROR": "Fehler",
             "USERNAME_TAKEN": "Benutzername ist schon vergeben",
             "UNKNOWN": "Unbekannter Fehler",
@@ -1244,17 +1246,17 @@
             "LOCATION": "Standort",
             "CHOOSE_LOCATION": {
                 "TITLE": "Standort auswählen",
-                "DESCRIPTION": "Wählen Sie einen Standort für diesen Beitrag aus",
+                "DESCRIPTION": "Wähle einen Standort für diesen Beitrag aus",
                 "CANCEL": "Abbrechen",
                 "PROCEED": "Fortfahren"
             },
-            "REPLIED_TO_YOUR_STORY": "Auf Ihre Story geantwortet",
+            "REPLIED_TO_YOUR_STORY": "Auf deine Story geantwortet",
             "REPLIED_TO_YOUR_STORY_CONTENT": "Hat geantwortet: {content}",
 
             "SHARE_TO_STORY": {
                 "TITLE": "Zur Story teilen",
                 "SUCCESS": "Post geteilt",
-                "DESCRIPTION": "Ihr Post wurde für Ihre Story freigegeben"
+                "DESCRIPTION": "Dein Post wurde für deine Story freigegeben"
             },
             "VIEW_POST": "Post ansehen"
         },
@@ -1334,7 +1336,7 @@
             "FOLLOW": "Folgen",
             "PENDING": "Ausstehend",
             "FOLLOWING": "Folge ich",
-            "FOLLOWERS": "Followers",
+            "FOLLOWERS": "Follower",
             "RETWEETED": "Retweeted",
             "REPLYING_TO": "Antwort an {name}",
             "RETWEETED_BY": "Retweeted von",
@@ -1348,7 +1350,7 @@
             "RETWEETED_TWEET": "hat deinen Tweet retweeted",
             "FOLLOWED": "folgt dir",
             "SIGN_UP_TEXT": "Schau was gerade in der Welt passiert",
-            "TERMS_OF_SERVICE": "Mit der Anmeldung stimmen Sie unseren Nutzungsbedingungen und Datenschutzbestimmungen zu.",
+            "TERMS_OF_SERVICE": "Mit der Anmeldung stimmst du unseren Nutzungsbedingungen und Datenschutzbestimmungen zu.",
             "HAS_ACCOUNT": "Du hast schon einen Account?",
             "CREATE_YOUR_ACCOUNT": "Account erstellen",
             "NAME_PLACEHOLDER": "Name",
@@ -1367,17 +1369,17 @@
             "LOGIN": "Anmelden",
             "NEXT": "Weiter",
             "CREATE_ACCOUNT": "Account erstellen",
-            "PROMOTE": "Promote",
+            "PROMOTE": "Bewerben",
             "PIN": "Tweet anpinnen",
             "UNPIN": "Tweet nicht mehr anpinnen",
             "NEW_MESSAGE": "Neue Nachricht",
-            "PROMOTED": "Promoted",
+            "PROMOTED": "Beworben",
             "ADD_ACCOUNT": "Account hinzufügen",
             "FOLLOWER_REQUESTS": "Follower anfragen",
             "NEW_POSTS": "Neue Posts",
             "NEW_POST": "Neuer Post",
             "PROTECTED_TWEETS_TITLE": "Diese Stellen sind geschützt.",
-            "PROTECTED_TWEETS_DESCRIPTION": "Nur bestätigte Follower haben Zugang zu den Beiträgen und dem vollständigen Profil von @{username}. Tippen Sie auf die Schaltfläche \"Folgen\", um eine Folgeanfrage zu senden.",
+            "PROTECTED_TWEETS_DESCRIPTION": "Nur bestätigte Follower haben Zugang zu den Beiträgen und dem vollständigen Profil von @{username}. Tippe auf „Folgen“, um eine Folgeanfrage zu senden.",
             "INVALID_ACCOUNT": "Ungültiger Account",
             "INVALID_PASSWORD": "Ungültiges Passwort",
             "USERNAME_NOT_ALLOWED": "Benutzername nicht erlaubt",
@@ -1387,17 +1389,18 @@
             "ACTIONS": "Verwaltung",
             "COMPANIES": "Unternehmen",
             "MESSAGES": "Nachrichten",
-            "SETTINGS": "Settings",
+            "JOBS": "Berufe",
+            "SETTINGS": "Einstellungen",
 
             "CLOSED": "Geschlossen",
             "YOUR_MESSAGES": "Deine Nachrichten",
-            "JOB_MESSAGES": "Job Nachrichten",
+            "JOB_MESSAGES": "Dienstnachrichten",
 
             "DUTY": "Dienst",
-            "DUTY_DESCRIPTION": "Ihren Dienststatus umschalten",
+            "DUTY_DESCRIPTION": "Deinen Dienststatus umschalten",
             "GO_ON_DUTY": "Melde dich zum Dienst",
             "GO_OFF_DUTY": "Melde dich vom Dienst ab",
-            "JOB_CALLS": "Job Anrufe",
+            "JOB_CALLS": "Dienstanrufe",
             "JOB_CALLS_DESCRIPTION": "{toggle} Anrufe von Kunden entgegennehmen.",
 
             "ENABLE": "Einschalten",
@@ -1453,14 +1456,20 @@
                 "CANCEL": "Abbrechen",
                 "PROCEED": "Anrufen"
             },
+            "LEAVE_POPUP": {
+                "TITLE": "Job kündigen",
+                "DESCRIPTION": "Bist du sicher, dass du {name} verlassen möchtest?",
+                "CANCEL": "Abbrechen",
+                "PROCEED": "Verlassen"
+            },
             "QUICK_REPLIES": {
                 "REQUEST_LOCATION": {
                     "TITLE": "Standort anfragen",
-                    "MESSAGE": "Können Sie bitte Ihren Standort teilen?"
+                    "MESSAGE": "Kannst du bitte deinen Standort teilen?"
                 },
                 "OFFICER_EN_ROUTE": {
                     "TITLE": "Beamter unterwegs",
-                    "MESSAGE": "Ein Beamter ist auf dem Weg zu Ihnen."
+                    "MESSAGE": "Ein Beamter ist auf dem Weg zu dir."
                 }
             }
         },
@@ -1522,7 +1531,7 @@
         "TIKTOK": {
             "TITLE": "Trendy",
 
-            "HOME": "Home",
+            "HOME": "Start",
             "DISCOVER": "Erkunden",
             "INBOX": "Posteingang",
             "PROFILE": "Profil",
@@ -1544,8 +1553,8 @@
             "MAX_PINNED_TITLE": "Maximale Anzahl angepinnt",
             "MAX_PINNED_DESCRIPTION": "Du kannst nur bis zu 3 Videos anpinnen",
             "OK": "OK",
-            "CREATOR": "Creator",
-            "LIKED_BY_CREATOR": "Gefällt dem Creator",
+            "CREATOR": "Ersteller",
+            "LIKED_BY_CREATOR": "Gefällt dem Ersteller",
 
             "PIN_VIDEO_POPUP": {
                 "TITLE": "Video anpinnen",
@@ -1574,25 +1583,25 @@
             "CANCEL": "Abbrechen",
             "GO_BACK": "Zurück",
 
-            "FOLLOWING": "Following",
-            "FOLLOWERS": "Followers",
-            "UNFOLLOW": "Unfollow",
-            "FOLLOW": "Follow",
+            "FOLLOWING": "Folge ich",
+            "FOLLOWERS": "Follower",
+            "UNFOLLOW": "Entfolgen",
+            "FOLLOW": "Folgen",
             "FOR_YOU": "Für dich",
             "VIDEOS": "Videos",
             "LIKES": "Likes",
 
             "UNFOLLOW_POPUP": {
-                "TITLE": "Unfollow",
+                "TITLE": "Entfolgen",
                 "DESCRIPTION": "Bist du dir sicher dass du {name} nicht mehr folgen möchtest?",
                 "CANCEL": "Abbrechen",
-                "PROCEED": "Unfollow"
+                "PROCEED": "Entfolgen"
             },
 
             "LOGIN_TITLE": "Bei Trendy anmelden",
-            "LOGIN_SUBTITLE": "Verwalten Sie Ihr Konto, prüfen Sie Benachrichtigungen, kommentieren Sie Videos und vieles mehr.",
+            "LOGIN_SUBTITLE": "Verwalte dein Konto, prüfe Benachrichtigungen, kommentiere Videos und vieles mehr.",
             "SIGNUP_TITLE": "Bei Trendy registrieren",
-            "SIGNUP_SUBTITLE": "Erstellen Sie ein Profil, folgen Sie anderen Konten, machen Sie Ihre eigenen Videos und vieles mehr.",
+            "SIGNUP_SUBTITLE": "Erstelle ein Profil, folge anderen Konten, erstelle deine eigenen Videos und vieles mehr.",
             "NAME": "Name",
             "USERNAME": "Benutzername",
             "PASSWORD": "Passwort",
@@ -1641,7 +1650,7 @@
             "PREVIEW": "Vorschau",
             "CAPTION": "Titel",
             "CAPTION_PLACEHOLDER": "Füge einen Titel hinzu...",
-            "TTS": "Text to Speech (TTS)",
+            "TTS": "Text-zu-Sprache (TTS)",
             "TTS_PLACEHOLDER": "Füge text to speech hinzu...",
             "MUSIC": "Musik",
             "SELECT_MUSIC": "Wähle Musik aus",
@@ -1783,14 +1792,14 @@
     },
     "SETUP": {
         "HELLO": "Hallo",
-        "SELECT_LANGUAGE": "Wählen Sie Ihre Sprache",
+        "SELECT_LANGUAGE": "Wähle deine Sprache",
         "NEXT": "Klicke zum öffnen",
         "CREATE_PASSCODE": "Passcode erstellen",
         "CREATE_PASSCODE_TEXT": "Erstelle einen Passcode, dieser wird genutzt um dein Handy zu entsperren",
         "SKIP": "Überspringen",
         "FACE_ID_SETUP": "Face ID einrichten",
         "FACE_ID_TEXT": "Richte Face ID ein, um dein Telefon automatisch zu entsperren, wenn dein Gesicht im Bild ist.",
-        "FACE_ID_TEXT_ALT": "Die Gesichtsentsperrung funktioniert nur, wenn Ihr Gesicht nicht verdeckt ist.",
+        "FACE_ID_TEXT_ALT": "Die Gesichtsentsperrung funktioniert nur, wenn dein Gesicht nicht verdeckt ist.",
         "ENABLE_FACE_ID": "Face ID aktivieren",
         "APPEARANCE": "Aussehen",
         "APPEARANCE_TEXT": "Wähle ein helles oder dunkles Aussehen",
@@ -1832,6 +1841,10 @@
             "DESCRIPTION": "Du versuchst eine Aktion auszuführen, die Internetzugang erfordert. Deaktiviere den Flugmodus, um fortzufahren.",
             "OK": "OK"
         },
+        "NO_CONNECTION": {
+            "TITLE": "Keine Verbindung",
+            "DESCRIPTION": "Um diese App nutzen zu können, benötigen Sie einen Internetzugang."
+        },
         "TODAY_TIME": "Heute, {hours}:{minutes}",
         "YESTERDAY_TIME": "Gestern, {hours}:{minutes}",
         "CHANGE_PASSWORD": {
@@ -1857,6 +1870,7 @@
             "PROCEED": "Fortfahren",
             "OK": "OK"
         },
+
         "COPY": "Kopieren",
         "OPEN_IN_BROWSER": "Im Browser öffnen"
     },
@@ -1864,7 +1878,7 @@
         "CALLS": {
             "NO_CALLER_ID": "Keine Anrufer ID",
             "MISSED_CALL": "Verpasster Anruf",
-            "NEW_VOICEMAIL": "Voicemail"
+            "NEW_VOICEMAIL": "Sprachnachricht"
         },
         "GARAGE": {
             "VALET": "Parkservice",
@@ -1881,11 +1895,11 @@
             "JOINED_LIVE": "{invitee} ist jetzt live mit {inviter}.",
             "LIKED_PHOTO": "{username} hat gefällt dein Foto",
             "LIKED_COMMENT": "{username} gefällt dein Kommentar",
-            "COMMENTED": "{username} commented on your post",
+            "COMMENTED": "{username} hat deinen Beitrag kommentiert",
             "NEW_FOLLOWER": "{username} folgt dir jetzt",
-            "FOLLOW_REQUEST_ACCEPTED_TITLE": "Follow-Anfrage akzeptiert",
-            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "{displayName} ({username}) hat deine Follow-Anfrage akzeptiert.",
-            "NEW_FOLLOW_REQUEST_TITLE": "Neue Follow-Anfrage",
+            "FOLLOW_REQUEST_ACCEPTED_TITLE": "Folge-Anfrage akzeptiert",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "{displayName} ({username}) hat deine Folge-Anfrage akzeptiert.",
+            "NEW_FOLLOW_REQUEST_TITLE": "Neue Folge-Anfrage",
             "NEW_FOLLOW_REQUEST_DESCRIPTION": "{displayName} ({username}) möchte dir folgen."
         },
         "TINDER": {
@@ -1911,8 +1925,8 @@
             "REPLY": "{displayName} antwortet:",
             "FOLLOW": "{username} folgt dir jetzt",
             "TWEET": "{username} hat gepostet",
-            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "@{username} hat deine Follow-Anfrage akzeptiert.",
-            "NEW_FOLLOW_REQUEST": "@{username} hat dir eine Follow-Anfrage gesendet."
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "@{username} hat deine Folge-Anfrage akzeptiert.",
+            "NEW_FOLLOW_REQUEST": "@{username} hat dir eine Folge-Anfrage gesendet."
         },
         "TIKTOK": {
             "LIKE": "{displayName} gefällt dein Video",
@@ -1925,13 +1939,11 @@
         },
         "MISC": {
             "VERIFIED": "Dein Account wurde verifiziert",
-            "X_PHONE": "{name}'s Phone",
-
+            "X_PHONE": "Telefon von {name}",
             "LOGGED_OUT_PASSWORD": {
                 "TITLE": "Du wurdest abgemeldet",
                 "DESCRIPTION": "Du wurdest von deinem Konto abgemeldet, da dein Passwort geändert wurde."
             },
-
             "DELETED_NOTIFICATION": {
                 "TITLE": "Konto gelöscht",
                 "DESCRIPTION": "Dein Konto wurde gelöscht."
@@ -1949,7 +1961,7 @@
             }
         },
         "LOGS": {
-            "MAIL_TITLE": "Email",
+            "MAIL_TITLE": "E-Mail",
             "NEW_MAIL": "{sender} hat eine Email an {recipient} gesendet",
 
             "MESSAGE_TITLE": "Textnachricht",
