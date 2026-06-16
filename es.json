@@ -1842,8 +1842,8 @@
             "OK": "OK"
         },
         "NO_CONNECTION": {
-            "TITLE": "No Connection",
-            "DESCRIPTION": "You need internet access to use this app."
+            "TITLE": "Sin conexión",
+            "DESCRIPTION": "Necesitas internet para usar esta app."
         },
         "TODAY_TIME": "Hoy, {hours}:{minutes}",
         "YESTERDAY_TIME": "Ayer, {hours}:{minutes}",
