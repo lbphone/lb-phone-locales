@@ -533,6 +533,8 @@
             "YOU": "Vous",
             "GROUP": "Groupe",
             "GROUP_NAME": "Nom du Groupe",
+            "ADD_PHOTO": "Ajouter une photo",
+            "REMOVE_PHOTO": "Retirer la photo",
             "REMOVE_POPUP": {
                 "TITLE": "Retirer un membre",
                 "TEXT": "Voulez-vous vraiment retirer {name} du groupe ?",
@@ -1838,6 +1840,10 @@
             "TITLE": "Erreur",
             "DESCRIPTION": "Vous essayez d'effectuer une action qui nécessite une connexion internet, mais vous êtes en mode avion. Veuillez désactiver le mode avion pour continuer.",
             "OK": "OK"
+        },
+        "NO_CONNECTION": {
+            "TITLE": "Aucune Connection",
+            "DESCRIPTION": "Vous avez besoin d'un accès à internet pour cet application."
         },
         "TODAY_TIME": "Aujourd'hui, {hours}:{minutes}",
         "YESTERDAY_TIME": "Hier, {hours}:{minutes}",
