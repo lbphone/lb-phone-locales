@@ -533,6 +533,8 @@
             "YOU": "Você",
             "GROUP": "Grupo",
             "GROUP_NAME": "Nome do Grupo",
+            "ADD_PHOTO": "Adicionar Foto",
+            "REMOVE_PHOTO": "Remover Foto",
             "REMOVE_POPUP": {
                 "TITLE": "Remover membro",
                 "TEXT": "Tem certeza de que deseja remover {name} do grupo?",
@@ -1387,6 +1389,7 @@
             "ACTIONS": "Ações",
             "COMPANIES": "Empresas",
             "MESSAGES": "Mensagens",
+            "JOBS": "Trabalhos",
             "SETTINGS": "Configurações",
 
             "CLOSED": "Fechado",
@@ -1453,6 +1456,12 @@
                 "CANCEL": "Cancelar",
                 "PROCEED": "Prosseguir"
             },
+            "LEAVE_POPUP": {
+                "TITLE": "Sair do Trabalho",
+                "DESCRIPTION": "Você tem certeza de que deseja sair de {name}?",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Sair"
+            },
             "QUICK_REPLIES": {
                 "REQUEST_LOCATION": {
                     "TITLE": "Solicitar Localização",
@@ -1482,6 +1491,7 @@
             "CHECK_FAILED": "Falha na verificação",
             "BUY_DISABLED": "Compra foi desativada para esta moeda",
             "SELL_DISABLED": "Venda foi desativada para esta moeda",
+            "INVALID_COIN_PRICE": "A moeda não vale mais nada",
             "TRANSFER_DISABLED": "Transferência foi desativada para esta moeda",
             "ERROR": "Erro",
             "CLOSE": "Fechar",
@@ -1830,6 +1840,10 @@
             "TITLE": "Erro",
             "DESCRIPTION": "Você está tentando realizar uma ação que requer acesso à internet. Desative o modo avião para continuar.",
             "OK": "OK"
+        },
+        "NO_CONNECTION": {
+            "TITLE": "Sem Conexão",
+            "DESCRIPTION": "Você precisa de acesso à internet para usar este aplicativo."
         },
         "TODAY_TIME": "Hoje, {hours}:{minutes}",
         "YESTERDAY_TIME": "Ontem, {hours}:{minutes}",
