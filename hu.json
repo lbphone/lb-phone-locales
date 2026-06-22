@@ -533,6 +533,8 @@
             "YOU": "Te",
             "GROUP": "Csoport",
             "GROUP_NAME": "Csoport neve",
+            "ADD_PHOTO": "Fotó hozzáadása",
+            "REMOVE_PHOTO": "Fotó eltávolítása",
             "REMOVE_POPUP": {
                 "TITLE": "Tag eltávolítása",
                 "TEXT": "Biztosan el akarod távolítani {name} nevű tagot a csoportból?",
