@@ -1290,7 +1290,7 @@
             "COMPANIES": "회사",
             "MESSAGES": "메시지",
             "SETTINGS": "설정",
-    
+
             "CLOSED": "닫힘",
             "YOUR_MESSAGES": "내 메시지",
             "JOB_MESSAGES": "업무 메시지",
@@ -1402,7 +1402,7 @@
         },
         "TIKTOK": {
             "TITLE": "트렌디",
-    
+
             "HOME": "홈",
             "DISCOVER": "발견",
             "INBOX": "받은 편지함",
@@ -1642,7 +1642,7 @@
             "COLOR": "색상"
         },
         "GIF_SELECTOR": {
-            "SEARCH": "Tenor 검색",
+            "SEARCH": "KLIPY 검색",
             "BACK": "뒤로"
         }
     },

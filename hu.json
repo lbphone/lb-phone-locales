@@ -1471,7 +1471,7 @@
                     "TITLE": "Egység úton",
                     "MESSAGE": "Egy rendőr egység úton van a helyzetedhez."
                 }
-                }
+            }
         },
         "CRYPTO": {
             "TITLE": "Kripto",
@@ -1786,7 +1786,7 @@
             "COLOR": "Szín"
         },
         "GIF_SELECTOR": {
-            "SEARCH": "Keresés a Tenor-on",
+            "SEARCH": "Keresés a KLIPY-on",
             "BACK": "Vissza"
         }
     },

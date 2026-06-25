@@ -302,7 +302,7 @@
             "INVALID_NAME_TEXT": "El nombre no es válido (min 1 caracter, max 5)",
             "UNKNOWN_ERROR": "Error",
             "UNKNOWN_ERROR_TEXT": "Se produjo un error desconocido",
-            
+
             "LEAVE_ROOM": "Dejar canal",
             "LEAVE_ROOM_TEXT": "¿Estás segur@ que deseas salir de este canal?",
             "NOW": "Ahora",
@@ -1786,7 +1786,7 @@
             "COLOR": "Color"
         },
         "GIF_SELECTOR": {
-            "SEARCH": "Buscar Tenor",
+            "SEARCH": "Buscar KLIPY",
             "BACK": "Volver"
         }
     },
@@ -1827,7 +1827,7 @@
             "TITLE": "Error",
             "DESCRIPTION": "Se produjo un error al realizar la acción",
             "OK": "OK"
-        },        
+        },
         "ORDINAL": {
             "ZERO": "th",
             "ONE": "st",
