@@ -10,7 +10,6 @@
     "SECONDS": "secunde",
     "MINUTES": "minute",
     "HOURS": "ore",
-
     "APP_NAMES": {
         "Phone": "Telefon",
         "Messages": "Mesaje",
@@ -39,7 +38,6 @@
         "Tinder": "Spark",
         "TikTok": "Trendy"
     },
-
     "APPS": {
         "SETTINGS": {
             "TITLE": "Setari",
@@ -73,6 +71,12 @@
             "TIME_ZONE": "Fus Orar",
             "LANGUAGE_REGION": "Limba si Regiune",
             "LANGUAGE": "Limba",
+            "LANGUAGE_RESTART_POPUP": {
+                "TITLE": "Schimba Limba",
+                "TEXT": "Schimbarea limbii va reporni telefonul. Vrei sa continui?",
+                "CANCEL": "Anuleaza",
+                "CONFIRM": "Schimba"
+            },
             "TEMPERATURE": "Temperatura",
             "CELCIUS": "Celsius",
             "FAHRENHEIT": "Fahrenheit",
@@ -88,6 +92,8 @@
             "DEFAULT": "Implicit",
             "PHONE_STORAGE": "Stocare Telefon",
             "STORAGE": "Stocare",
+            "MICROPHONE": "Microfon",
+            "MICROPHONE_DESCRIPTION": "Alege ce microfon sa fie folosit pentru inregistrari",
             "USED": "Utilizat",
             "OF": "din",
             "DISPLAY_BRIGHTNESS": "Ecran si Luminozitate",
@@ -224,7 +230,7 @@
                 "SAVE": "Salveaza",
                 "LABEL": "Eticheta",
                 "SOUND": "Sunet",
-                "SNOOZE": "Amânare",
+                "SNOOZE": "Amanare",
                 "DELETE_TITLE": "Sterge Alarma",
                 "DELETE_TEXT": "Esti sigur ca vrei sa stergi aceasta alarma?",
                 "BUTTON_CANCEL": "Anuleaza",
@@ -270,10 +276,29 @@
             "CANCEL": "Anuleaza",
             "SET": "Seteaza",
             "JOIN": "Alatura-te",
+            "CREATE": "Creeaza",
             "LEAVE": "Paraseste",
-            "NEW_ROOM": "Camera Noua",
-            "NEW_ROOM_TEXT": "Introdu un cod de camera pentru a te alatura sau a crea o camera",
+            "JOIN_ROOM": "Alatura-te unei Camere",
+            "JOIN_ROOM_TEXT": "Introdu un cod de camera pentru a te alatura unei camere",
+            "CREATE_ROOM": "Creeaza o Camera",
+            "CREATE_ROOM_TEXT": "Introdu un cod de camera pentru a crea o camera",
             "ROOM_CODE": "Cod Camera",
+            "INVALID_CHANNEL": "Canal Invalid",
+            "INVALID_CHANNEL_TEXT": "Canalul nu exista",
+            "ALREADY_IN_CHANNEL": "Deja in Canal",
+            "ALREADY_IN_CHANNEL_TEXT": "Esti deja in acest canal",
+            "PASSWORD_REQUIRED": "Parola Necesara",
+            "PASSWORD_REQUIRED_TEXT": "Canalul necesita o parola",
+            "PASSWORD_PLACEHOLDER": "Parola",
+            "PASSWORD_PLACEHOLDER_OPTIONAL": "Parola (optional)",
+            "INCORRECT_PASSWORD": "Parola incorecta",
+            "INCORRECT_PASSWORD_TEXT": "Parola este incorecta",
+            "CHANNEL_EXISTS": "Canalul Exista",
+            "CHANNEL_EXISTS_TEXT": "Canalul exista deja",
+            "INVALID_NAME": "Nume Invalid",
+            "INVALID_NAME_TEXT": "Numele este invalid (minim 1 caracter, maxim 5)",
+            "UNKNOWN_ERROR": "Eroare Necunoscuta",
+            "UNKNOWN_ERROR_TEXT": "A aparut o eroare necunoscuta",
             "LEAVE_ROOM": "Paraseste Camera",
             "LEAVE_ROOM_TEXT": "Esti sigur ca vrei sa parasesti aceasta camera?",
             "NOW": "Acum",
@@ -282,7 +307,6 @@
             "NO_CHATS_TEXT": "Nu te-ai alaturat inca unui canal. Alatura-te/creeaza unul apasand semnul plus din coltul din dreapta sus.",
             "MEMBER": "Membru",
             "MEMBERS": "Membri",
-
             "USERNAME": "Nume Utilizator",
             "PASSWORD": "Parola",
             "LOGIN": "Autentificare",
@@ -290,26 +314,21 @@
             "NO_ACCOUNT": "Nu ai un cont?",
             "ALREADY_HAVE": "Ai deja un cont?",
             "USERNAME_NOT_ALLOWED": "Numele de utilizator nu este acceptat!",
-
             "CHANGE_ACCOUNT": "Schimba Contul",
             "CHANGE_PASSWORD": "Schimba Parola",
             "DELETE_ACCOUNT": "Sterge Contul",
-
             "ERROR": "Eroare",
             "INVALID_LENGTH": "Parola trebuie sa aiba minimum 3 caractere",
             "USERNAME_TAKEN": "Numele de utilizator este deja folosit",
             "UNKNOWN": "Eroare necunoscuta",
             "INVALID_USERNAME": "Numele de utilizator nu exista",
-            "INCORRECT_PASSWORD": "Parola incorecta",
             "OK": "OK",
-
             "LEAVE_CHANNEL": {
                 "TITLE": "Paraseste Canalul",
                 "DESCRIPTION": "Esti sigur ca vrei sa parasesti acest canal?",
                 "CANCEL": "Anuleaza",
                 "PROCEED": "Paraseste"
             },
-
             "SET_PASSWORD_POPUP": {
                 "TITLE": "Seteaza Parola",
                 "DESCRIPTION": "Trebuie sa setezi o parola pentru contul tau",
@@ -348,11 +367,16 @@
             "PROCEED": "Continua",
             "OK": "OK",
             "EDIT": "Editeaza",
+            "EDITOR_MARKUP": "Adnotare",
+            "EDITOR_CROP": "Decupeaza",
+            "EDITOR_SAVE": "Salveaza",
+            "EDITOR_SIZE": "Dimensiune",
+            "EDITOR_UNDO": "Anuleaza",
+            "EDITOR_APPLY_CROP": "Aplica Decuparea",
             "DONE": "Gata",
             "DELETE": "Sterge",
             "SELECT_ITEMS": "Selecteaza Elemente",
             "SELECTED_COUNT": "{count} Elemente selectate",
-
             "PHOTOS": "Fotografii",
             "ALBUMS": "Albume",
             "LIBRARY": "Biblioteca",
@@ -410,12 +434,10 @@
                 "DESCRIPTION": "Esti sigur ca vrei sa inlaturi acest membru din album?",
                 "SUCCESS": "Membru inlaturat din album"
             },
-
             "NO_PHOTOS": "Nicio Fotografie sau Video",
             "NO_PHOTOS_INSTRUCTIONS": "Poti face fotografii si videoclipuri folosind camera",
             "PHOTO_COUNT": "{amount} Fotografii",
             "VIDEO_COUNT": "{amount} Videoclipuri",
-
             "DELETE_CONTEXT_TITLE": "Vrei sa stergi {type} sau sa le stergi din acest album",
             "THESE_PHOTOS": "aceste fotografii",
             "THIS_PHOTO": "aceasta fotografie",
@@ -432,7 +454,6 @@
             "MONTHS": "Luni",
             "DAYS": "Zile",
             "ALL_PHOTOS": "Toate Fotografiile",
-
             "FAVOURITES": "Favorite",
             "RECENTS": "Recente"
         },
@@ -492,8 +513,15 @@
             "SENT_LOCATION_SHORT": "A trimis locatia sa",
             "TRIED_TO_CALL": "{number} a incercat sa te sune",
             "DELETE": "Sterge",
+            "REPLY": "Raspunde",
+            "REACT": "Reactioneaza",
+            "REPLYING_TO": "Raspunzi la",
+            "ATTACHMENT": "Atasament",
+            "YOU": "Tu",
             "GROUP": "Grup",
             "GROUP_NAME": "Nume Grup",
+            "ADD_PHOTO": "Adauga Fotografie",
+            "REMOVE_PHOTO": "Elimina Fotografia",
             "REMOVE_POPUP": {
                 "TITLE": "Sterge membru",
                 "TEXT": "Esti sigur ca vrei sa stergi {name} din grup?",
@@ -542,6 +570,11 @@
                 "CANCEL": "Anuleaza",
                 "REMOVE": "Sterge"
             },
+            "FAILED_SEND": {
+                "TITLE": "Trimiterea mesajului a esuat",
+                "DESCRIPTION": "Trimiterea mesajului a esuat",
+                "OK": "OK"
+            },
             "MARK_AS_READ": "Marcheaza ca citit",
             "MESSAGE_DELETED": "Mesaj sters",
             "OPEN_IN_MAPS": "Deschide in Harti",
@@ -552,6 +585,14 @@
                 "TITLE": "Inregistrare Goala",
                 "DESCRIPTION": "Nu poti trimite o inregistrare goala",
                 "OK": "OK"
+            },
+            "GROUP_MEMBER_LIMIT_NOTIFICATION": {
+                "TITLE": "Limita de membri atinsa",
+                "CONTENT": "Ai atins numarul maxim de membri intr-un grup ({limit})."
+            },
+            "REACT_NOTIFICATION": {
+                "TITLE": "Reactie Noua",
+                "CONTENT": "{name} a reactionat cu {reaction} la mesajul tau"
             }
         },
         "PHONE": {
@@ -634,7 +675,11 @@
                 "EMAIL": "Email",
                 "ADDRESS": "Adresa",
                 "CHANGE_AVATAR": "Schimba Avatar",
-                "REMOVE_AVATAR": "Sterge Avatar"
+                "REMOVE_AVATAR": "Sterge Avatar",
+                "RINGTONES": "Tonuri de Apel",
+                "RINGTONE": "Ton de Apel",
+                "DEFAULT": "Implicit",
+                "BACK": "Inapoi"
             },
             "FAVOURITES": {
                 "TITLE": "Favorite",
@@ -692,7 +737,6 @@
             "SELECT_CONTACT": "Selecteaza Contact",
             "TODAY": "Azi",
             "YESTERDAY": "Ieri",
-
             "INSUFFICIENT_FUNDS": {
                 "TITLE": "Nu ai destui bani",
                 "DESCRIPTION": "Nu ai destui bani pentru a trimite aceasta suma"
@@ -725,7 +769,6 @@
                 "TITLE": "Nu s-au putut adauga bani",
                 "DESCRIPTION": "Nu s-au putut adauga bani in contul specificat"
             },
-
             "OK": "OK"
         },
         "GARAGE": {
@@ -749,7 +792,6 @@
             "LOCK": "Blocheaza",
             "UNLOCKED": "Deblocat",
             "UNLOCK": "Deblocheaza",
-
             "WAYPOINT_POPUP": {
                 "TITLE": "Seteaza Punct de Trecere",
                 "TEXT": "Vrei sa setezi un punct de trecere catre {model}?",
@@ -830,13 +872,22 @@
             "MESSAGE": "Mesaj",
             "CALL": "Suna",
             "REMOVE": "Elimina",
-
+            "TRANSACTION": "Postat pe Piata",
+            "CREATION_COST_POPUP": {
+                "TITLE": "Creeaza Postare",
+                "DESCRIPTION": "Crearea unei postari costa {cost}, vrei sa continui?",
+                "CANCEL": "Anuleaza",
+                "PROCEED": "Continua"
+            },
             "ERROR_POPUP": {
                 "TITLE": "Eroare",
                 "NO_TITLE": "Trebuie sa introduci un titlu",
                 "NO_DESCRIPTION": "Trebuie sa introduci o descriere",
                 "NO_PRICE": "Trebuie sa introduci un pret",
                 "NO_ATTACHMENTS": "Trebuie sa atasezi cel putin o imagine",
+                "NO_MONEY": "Nu ai suficienti bani pentru a crea o postare",
+                "RATE_LIMIT": "Ai atins limita de rata pentru crearea postarilor",
+                "POST_LIMIT": "Ai atins limita de postari pentru crearea postarilor",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -857,10 +908,22 @@
             "PRICE": "Pret",
             "POST": "Posteaza",
             "CALL": "Suna",
+            "HOME": "Acasa",
+            "YOUR_POSTS": "Postarile Tale",
+            "TRANSACTION": "Postat pe Pagini",
+            "CREATION_COST_POPUP": {
+                "TITLE": "Creeaza Postare",
+                "DESCRIPTION": "Crearea unei postari costa {cost}, vrei sa continui?",
+                "CANCEL": "Anuleaza",
+                "PROCEED": "Continua"
+            },
             "ERROR_POPUP": {
                 "TITLE": "Eroare",
                 "NO_TITLE": "Trebuie sa introduci un titlu",
                 "NO_DESCRIPTION": "Trebuie sa introduci o descriere",
+                "NO_MONEY": "Nu ai suficienti bani pentru a crea o postare",
+                "RATE_LIMIT": "Ai atins limita de rata pentru crearea postarilor",
+                "POST_LIMIT": "Ai atins limita de postari pentru crearea postarilor",
                 "OK": "OK"
             },
             "DELETE_POPUP": {
@@ -911,8 +974,8 @@
                 "DELETE": "Sterge"
             },
             "FAILED_SEND": {
-                "TITLE": "Nu a reușit să trimită",
-                "DESCRIPTION": "A eșuat trimiterea mesajului (destinatarul există?)",
+                "TITLE": "Nu a reusit sa trimita",
+                "DESCRIPTION": "A esuat trimiterea mesajului (destinatarul exista?)",
                 "OK": "OK"
             }
         },
@@ -924,7 +987,6 @@
             "DELETE": "Sterge",
             "SET_WAYPOINT": "Seteaza Punct de Trecere",
             "SHARE": "Partajeaza",
-
             "ADD_LOCATION_POPUP": {
                 "TITLE": "Adauga Locatie",
                 "DESCRIPTION": "Introdu numele locatiei pe care vrei sa o adaugi",
@@ -938,16 +1000,7 @@
                 "PLACEHOLDER": "Nume",
                 "CANCEL": "Anuleaza",
                 "PROCEED": "Continua"
-            },
-            "REPLIED_TO_YOUR_STORY": "Ti-a raspuns la story",
-            "REPLIED_TO_YOUR_STORY_CONTENT": "Ti-a raspuns la story: {content}",
-
-            "SHARE_TO_STORY": {
-                "TITLE": "Posteaza pe Story",
-                "SUCCESS": "Postare trimis",
-                "DESCRIPTION": "Postarea a fost postatat pe Story"
-            },
-            "VIEW_POST": "Vezi postare"
+            }
         },
         "MUSIC": {
             "TITLE": "Muzica",
@@ -997,6 +1050,7 @@
             "LIKES_YOU_TOO": "te place si pe tine!",
             "KEEP_SWIPING": "Continua sa dai swipe",
             "SAY_SOMETHING_NICE": "Spune ceva frumos",
+            "TYPE_A_MESSAGE": "Scrie un mesaj...",
             "NO_MORE": "Nu mai avem persoane pentru tine, revino mai tarziu!",
             "SEND": "Trimite",
             "AGREE_TERMS": "Apasand 'Creeaza Cont' esti de acord cu Termenii si Conditiile si Politica de Confidentialitate",
@@ -1031,7 +1085,14 @@
             "HIDDEN_WARNING": "Contul tau este ascuns. Nu vei fi aratat altor utilizatori si nu vei putea da swipe.",
             "HIDDEN_PROFILE": "Profilul tau nu este activ. Poti activa profilul in setari.",
             "SEARCH_MATCHES": "Cauta Meciuri",
-            "DELETE_ACCOUNT": "Sterge Contul"
+            "DELETE_ACCOUNT": "Sterge Contul",
+            "ERROR": {
+                "TITLE": "Eroare",
+                "SHORT_NAME": "Problema la salvarea profilului Spark, (numele trebuie sa aiba minim 2 caractere)",
+                "SHORT_BIO": "Problema la salvarea profilului Spark, (biografia trebuie sa aiba minim 5 caractere)",
+                "NO_PHOTOS": "Problema la salvarea profilului Spark, (nicio fotografie)",
+                "OK": "OK"
+            }
         },
         "INSTAGRAM": {
             "TITLE": "InstaPic",
@@ -1173,7 +1234,6 @@
             },
             "REPLIED_TO_YOUR_STORY": "A raspuns la povestea ta",
             "REPLIED_TO_YOUR_STORY_CONTENT": "A raspuns la povestea ta: {content}",
-
             "SHARE_TO_STORY": {
                 "TITLE": "Distribuie in Poveste",
                 "SUCCESS": "Postare Distribuita",
@@ -1192,6 +1252,7 @@
             "REPLIES": "Raspunsuri",
             "MEDIA": "Media",
             "LIKES": "Aprecieri",
+            "RETWEETS": "Repostari",
             "CANCEL": "Anuleaza",
             "TWEET": "Posteaza",
             "TWEET_REPLY": "Posteaza raspunsul tau",
@@ -1200,7 +1261,7 @@
             "SAVE": "Salveaza",
             "NAME": "Nume",
             "JOIN_DATE": "Data Inregistrarii",
-            "PROTECTED_POSTS": "Protejeaza-ti postarile",
+            "PRIVATE_ACCOUNT": "Cont privat",
             "BIO": "Bio",
             "SIGN_OUT": "Deconectare",
             "CHANGE_PASSWORD": "Schimba Parola",
@@ -1244,6 +1305,14 @@
                 "CANCEL": "Anuleaza",
                 "PROCEED": "Continua"
             },
+            "VERIFIED": {
+                "LABEL": "Cont verificat",
+                "DESCRIPTION": "Acest cont este verificat."
+            },
+            "VERIFIED_GOVERNMENT": {
+                "LABEL": "Cont guvernamental",
+                "DESCRIPTION": "Acest cont este un cont guvernamental oficial."
+            },
             "YOU": "Tu",
             "FOLLOW": "Urmareste",
             "PENDING": "In asteptare",
@@ -1274,6 +1343,9 @@
             "SEARCH_DIRECT_MESSAGES": "Cauta mesaje directe",
             "SEARCH_TWITTER": "Cauta Birdy",
             "MESSAGE_PLACEHOLDER": "Mesaj...",
+            "MESSAGES": "Mesaje",
+            "SEARCH_PEOPLE": "Cauta persoane",
+            "CHANGE_PHOTO": "Schimba fotografia",
             "NOW": "Acum",
             "LOGIN": "Logare",
             "NEXT": "Inainte",
@@ -1298,22 +1370,19 @@
             "ACTIONS": "Actiuni",
             "COMPANIES": "Companii",
             "MESSAGES": "Mesaje",
+            "JOBS": "Joburi",
             "SETTINGS": "Setari",
-
             "CLOSED": "Inchis",
             "YOUR_MESSAGES": "Mesajele tale",
             "JOB_MESSAGES": "Mesaje de serviciu",
-
             "DUTY": "Serviciu",
             "DUTY_DESCRIPTION": "Comuta starea ta de serviciu",
             "GO_ON_DUTY": "Intra in Serviciu",
             "GO_OFF_DUTY": "Iesi din Serviciu",
             "JOB_CALLS": "Apeluri de serviciu",
             "JOB_CALLS_DESCRIPTION": "{toggle} primirea de apeluri de la clienti.",
-
             "ENABLE": "Activeaza",
             "DISABLE": "Dezactiveaza",
-
             "DISABLE_CALLS": "Dezactiveaza Apelurile",
             "ENABLE_CALLS": "Activeaza Apelurile",
             "BALANCE": "Balanta",
@@ -1321,14 +1390,11 @@
             "HIRE": "Angajeaza",
             "SET_GRADE": "Seteaza Gradul",
             "UNEMPLOYED": "Esti somer",
-
             "ALL": "Toate",
             "AVAILABLE": "Disponibil",
             "SEARCH_EMPLOYEES": "Cauta Angajati",
-
             "PERSONAL": "Personal",
             "JOB": "Serviciu",
-
             "DEPOSIT_POPUP": {
                 "TITLE": "Depozit",
                 "DESCRIPTION": "Depune bani in contul companiei",
@@ -1363,6 +1429,22 @@
                 "DESCRIPTION": "Esti sigur ca vrei sa il suni pe {name}?",
                 "CANCEL": "Anuleaza",
                 "PROCEED": "Continua"
+            },
+            "LEAVE_POPUP": {
+                "TITLE": "Paraseste Jobul",
+                "DESCRIPTION": "Esti sigur ca vrei sa parasesti {name}?",
+                "CANCEL": "Anuleaza",
+                "PROCEED": "Paraseste"
+            },
+            "QUICK_REPLIES": {
+                "REQUEST_LOCATION": {
+                    "TITLE": "Solicita Locatia",
+                    "MESSAGE": "Poti sa imi trimiti locatia ta?"
+                },
+                "OFFICER_EN_ROUTE": {
+                    "TITLE": "Ofiter in Drum",
+                    "MESSAGE": "Un ofiter este in drum spre locatia ta."
+                }
             }
         },
         "CRYPTO": {
@@ -1377,8 +1459,14 @@
             "NOT_ENOUGH_COINS": "Nu ai suficiente monede",
             "ATLEAST_ONE_COIN": "Trebuie sa {action} cel putin o {currency}",
             "INVALID_COIN": "Moneda invalida",
+            "TOO_HIGH": "Suma este prea mare (maxim {amount})",
             "NO_NUMBER": "Nu a fost furnizat niciun numar de telefon",
             "INVALID_NUMBER": "Numar de telefon invalid (utilizatorul poate sa nu fie online)",
+            "CHECK_FAILED": "Verificarile de validare au esuat",
+            "BUY_DISABLED": "Cumpararea a fost dezactivata pentru acest coin",
+            "SELL_DISABLED": "Vanzarea a fost dezactivata pentru acest coin",
+            "INVALID_COIN_PRICE": "Coin-ul nu are nicio valoare",
+            "TRANSFER_DISABLED": "Transferul a fost dezactivat pentru acest coin",
             "ERROR": "Eroare",
             "CLOSE": "Inchide",
             "BUY_POPUP": {
@@ -1407,16 +1495,19 @@
                 "TITLE": "Transferat cu succes",
                 "DESCRIPTION": "Ai transferat cu succes ${amount} de {coin} catre {number}",
                 "CLOSE": "Inchide"
+            },
+            "REFUND_TRANSACTION": "Rambursare din cauza criptomonedelor eliminate.",
+            "CONVERT_NOTIFICATION": {
+                "TITLE": "Criptomonede convertite",
+                "DESCRIPTION": "Unele criptomonede au fost eliminate si convertite in {amount} {coinName}."
             }
         },
         "TIKTOK": {
             "TITLE": "Trendy",
-
             "HOME": "Acasa",
             "DISCOVER": "Descopera",
             "INBOX": "Inbox",
             "PROFILE": "Profil",
-
             "COMMENTS_TITLE": "{count} comentarii",
             "REPLY": "Raspunde",
             "VIEW_REPLIES": "Vezi raspunsurile",
@@ -1436,7 +1527,6 @@
             "OK": "OK",
             "CREATOR": "Creator",
             "LIKED_BY_CREATOR": "Apreciat de creator",
-
             "PIN_VIDEO_POPUP": {
                 "TITLE": "Fixeaza Video",
                 "DESCRIPTION": "Esti sigur ca vrei sa {action} acest videoclip?",
@@ -1455,7 +1545,6 @@
                 "CANCEL": "Anuleaza",
                 "PROCEED": "Ignora"
             },
-
             "SHARE_TITLE": "Partajeaza catre",
             "SHARE": "Partajeaza",
             "REPORT": "Raporteaza",
@@ -1463,7 +1552,6 @@
             "ADD_FAVOURITE": "Adauga la Favorite",
             "CANCEL": "Anuleaza",
             "GO_BACK": "Inapoi",
-
             "FOLLOWING": "Urmaresti",
             "FOLLOWERS": "Urmaritori",
             "UNFOLLOW": "Nu mai urmari",
@@ -1471,14 +1559,12 @@
             "FOR_YOU": "Pentru Tine",
             "VIDEOS": "Videoclipuri",
             "LIKES": "Aprecieri",
-
             "UNFOLLOW_POPUP": {
                 "TITLE": "Nu mai urmari",
                 "DESCRIPTION": "Esti sigur ca vrei sa nu mai urmaresti pe {name}?",
                 "CANCEL": "Anuleaza",
                 "PROCEED": "Continua"
             },
-
             "LOGIN_TITLE": "Conecteaza-te la Trendy",
             "LOGIN_SUBTITLE": "Gestioneaza-ti contul, verifica notificarile, comenteaza videoclipuri si multe altele.",
             "SIGNUP_TITLE": "Inregistreaza-te pentru Trendy",
@@ -1488,20 +1574,17 @@
             "PASSWORD": "Parola",
             "BIO": "Bio",
             "SHOW_LIKES": "Arata Aprecierile",
-
             "LOGIN": "Conecteaza-te",
             "SIGNUP": "Inregistreaza-te",
             "NO_ACCOUNT": "Nu ai un cont?",
             "ALREADY_ACCOUNT": "Ai deja un cont?",
             "SEARCH_PLACEHOLDER": "Cauta utilizatori",
-
             "STARTED_FOLLOWING": "a inceput sa te urmareasca.",
             "LIKED_VIDEO": "a apreciat videoclipul tau.",
             "LIKED_COMMENT": "a apreciat comentariul tau.",
             "SAVED_VIDEO": "a adaugat videoclipul tau la Favorite.",
             "COMMENTED": "a comentat: {comment}",
             "REPLIED": "a raspuns la comentariul tau: {comment}",
-
             "EDIT_PROFILE": "Editeaza Profilul",
             "MESSAGE": "Mesaj",
             "CHANGE_PHOTO": "Schimba Fotografia",
@@ -1511,7 +1594,6 @@
             "ADD_TO_YOUR_PROFILE": "Adauga la profilul tau",
             "LIKED_HIDDEN_TITLE": "Videoclipurile apreciate ale acestui utilizator sunt private.",
             "LIKED_HIDDEN_SUBTITLE": "Videoclipurile apreciate de {name} sunt ascunse in prezent.",
-
             "INVALID_ACCOUNT_POPUP": {
                 "TITLE": "{name} invalid",
                 "DESCRIPTION": "Nu esti conectat la contul {name} pe care l-ai introdus, te rugam sa il corectezi.",
@@ -1523,7 +1605,6 @@
                 "CANCEL": "Anuleaza",
                 "PROCEED": "Continua"
             },
-
             "ADD_ACCOUNT_TITLE": "Adauga cont",
             "ADD_ACCOUNT": "Adauga {name} la profilul tau",
             "UPLOAD_VIDEO": "Incarca Video",
@@ -1536,7 +1617,6 @@
             "MUSIC": "Muzica",
             "SELECT_MUSIC": "Selecteaza Muzica",
             "OPTIONAL": "Optional",
-
             "DIRECT_MESSAGES": "Mesaje Directe",
             "ALL_ACTIVITY": "Toata Activitatea",
             "NO_NOTIFICATIONS": "Notificarile nu sunt disponibile",
@@ -1566,6 +1646,22 @@
                 "DESCRIPTION": "Nu poti stoca o inregistrare fara audio",
                 "OK": "OK"
             }
+        },
+        "BROWSER": {
+            "TITLE": "Browser",
+            "SEARCH_PLACEHOLDER": "Cauta sau introdu un URL",
+            "NEW_TAB": "Tab Nou",
+            "TABS": "Tab-uri",
+            "TAB": "Tab",
+            "DONE": "Gata",
+            "CLOSE_ALL": "Inchide Tot",
+            "HISTORY": "Istoric",
+            "BOOKMARKS": "Favorite",
+            "BOOKMARK_REMOVE": "Elimina din favorite",
+            "NO_BOOKMARKS": "Niciun favorit inca",
+            "NO_HISTORY": "Niciun istoric inca",
+            "FAILED_LOAD_PAGE": "Site-ul nu poate fi accesat in aceasta aplicatie",
+            "FAILED_LOAD_PAGE_DESCRIPTION": "Acest site nu permite iframing. Aceasta nu este o eroare."
         }
     },
     "COMPONENTS": {
@@ -1688,10 +1784,27 @@
         "FONT_AND_COLOR": "Font si Culoare"
     },
     "MISC": {
+        "ERROR": {
+            "TITLE": "Eroare",
+            "DESCRIPTION": "A aparut o eroare in timpul efectuarii actiunii",
+            "OK": "OK"
+        },
+        "ORDINAL": {
+            "ZERO": "-a",
+            "ONE": "-a",
+            "TWO": "-a",
+            "FEW": "-a",
+            "MANY": "-a",
+            "OTHER": "-a"
+        },
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "Eroare",
             "DESCRIPTION": "Incercati sa efectuati o actiune care necesita acces la internet, dezactivati modul avion sau fa rost de semnal pentru a continua.",
             "OK": "OK"
+        },
+        "NO_CONNECTION": {
+            "TITLE": "Fara Conexiune",
+            "DESCRIPTION": "Ai nevoie de acces la internet pentru a folosi aceasta aplicatie."
         },
         "TODAY_TIME": "Astazi, {hours}:{minutes}",
         "YESTERDAY_TIME": "Ieri, {hours}:{minutes}",
@@ -1717,7 +1830,9 @@
             "CANCEL": "Anuleaza",
             "PROCEED": "Continua",
             "OK": "OK"
-        }
+        },
+        "COPY": "Copiaza",
+        "OPEN_IN_BROWSER": "Deschide in browser"
     },
     "BACKEND": {
         "CALLS": {
@@ -1785,12 +1900,10 @@
         "MISC": {
             "VERIFIED": "Contul tau a fost verificat",
             "X_PHONE": "Telefonul lui {name}",
-
             "LOGGED_OUT_PASSWORD": {
                 "TITLE": "Ai fost deconectat",
                 "DESCRIPTION": "Ai fost deconectat de la contul tau deoarece parola ta a fost schimbata."
             },
-
             "DELETED_NOTIFICATION": {
                 "TITLE": "Cont sters",
                 "DESCRIPTION": "Contul tau a fost sters."
@@ -1810,59 +1923,46 @@
         "LOGS": {
             "MAIL_TITLE": "Email",
             "NEW_MAIL": "{sender} a trimis un email catre {recipient}",
-
             "MESSAGE_TITLE": "Mesaj text",
             "NEW_MESSAGE": "{sender} a trimis un mesaj catre {recipient}: {message}",
-
             "CALL_ENDED": "Apel incheiat",
             "CALL_DESCRIPTION": "Un apel intre `{caller}` si `{callee}` care a durat {duration}s s-a incheiat. Raspuns: `{answered}`",
-
             "NEW_SERVICE_TITLE": "Mesaj nou",
             "NEW_SERVICE_CONTENT": "{sender} a trimis un mesaj catre {channel}: {message}",
-
             "RECEIVED_TITLE": "Ai primit ${amount}",
             "PAID_TITLE": "Ai platit ${amount}",
             "TRANSACTION": "{number} a facut o tranzactie de ${amount} catre {company}",
-
             "BOUGHT_CRYPTO": "Ai cumparat crypto",
             "SOLD_CRYPTO": "Ai vandut crypto",
             "CRYPTO_DETAILS": "**Moneda**: {coin}\n**Cantitate**: {amount}\n**Valoare**: ${price}",
             "TRANSFERRED_CRYPTO": "Ai transferat crypto",
             "TRANSFERRED_CRYPTO_DETAILS": "**Moneda**: {coin}\n**Cantitate**: {amount}\n**Catre**: {to}\n**De la**: {from}",
-
             "DARKCHAT_CREATED_TITLE": "Canal creat",
             "DARKCHAT_CREATED_DESCRIPTION": "{creator} a creat un canal numit {channel}",
             "DARKCHAT_MESSAGE_TITLE": "Mesaj nou",
             "DARKCHAT_MESSAGE_DESCRIPTION": "{sender} a trimis un mesaj in {channel}: {message}",
-
             "MARKETPLACE_NEW_TITLE": "Anunt nou",
             "MARKETPLACE_NEW_DESCRIPTION": "**Vanzator**: {seller}\n**Titlu**: {title}\n**Pret**: ${price}\n**Descriere**: {description}\n**Atasamente**: {attachments}\n**ID:** {id}",
             "MARKETPLACE_DELETED": "Postare stearsa",
-
             "YELLOWPAGES_NEW_TITLE": "Postare noua",
             "YELLOWPAGES_NEW_DESCRIPTION": "**Titlu**: {title}\n**Descriere**: {description}\n**Atasament**: {attachment}\n**ID:** {id}",
             "YELLOWPAGES_DELETED": "Postare stearsa",
-
             "LIVE_TITLE": "Live",
             "STARTED_LIVE": "{username} a inceput un video live",
             "ENDED_LIVE": "{username} a incheiat un video live",
             "ADDED_STORY": "{username} a adaugat o fotografie la story-ul sau",
-
             "TRENDY_UPLOAD_TITLE": "Video nou",
             "TRENDY_UPLOAD_DESCRIPTION": "{username} a incarcat un video nou cu subtitrarea {caption} si id-ul {id}",
             "TRENDY_DELETE_TITLE": "Video sters",
             "TRENDY_DELETE_DESCRIPTION": "{username} a sters un video cu id-ul {id}",
-
             "UPLOADED_MEDIA": "Media incarcata",
             "UPLOADED_MEDIA_DESCRIPTION": "A facut un {type} cu id-ul {id}\n{link}",
             "VIDEO": "video",
             "PHOTO": "fotografie",
-
             "CHANGED_PASSWORD": {
                 "TITLE": "Parola schimbata",
                 "DESCRIPTION": "{number} a schimbat parola pentru contul {username} pe {app}."
             },
-
             "DELETED_ACCOUNT": {
                 "TITLE": "Cont sters",
                 "DESCRIPTION": "{number} a sters contul {username} pe {app}."
