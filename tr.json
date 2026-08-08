@@ -10,7 +10,6 @@
     "SECONDS": "saniye",
     "MINUTES": "dakika",
     "HOURS": "saat",
-
     "APP_NAMES": {
         "Phone": "Telefon",
         "Messages": "Mesajlar",
@@ -39,7 +38,6 @@
         "Tinder": "Spark",
         "TikTok": "Trendy"
     },
-
     "APPS": {
         "SETTINGS": {
             "TITLE": "Ayarlar",
@@ -277,7 +275,6 @@
             "CREATE_ROOM": "Oda Oluştur",
             "CREATE_ROOM_TEXT": "Oda oluşturmak için oda kodu yazın",
             "ROOM_CODE": "Oda Kodu",
-
             "INVALID_CHANNEL": "Geçersiz Kanal",
             "INVALID_CHANNEL_TEXT": "Bu kanal mevcut değil",
             "ALREADY_IN_CHANNEL": "Zaten Kanaldasın",
@@ -294,7 +291,6 @@
             "INVALID_NAME_TEXT": "İsim geçersiz (min 1, max 5 karakter)",
             "UNKNOWN_ERROR": "Bilinmeyen Hata",
             "UNKNOWN_ERROR_TEXT": "Bilinmeyen bir hata oluştu",
-
             "LEAVE_ROOM": "Odadan Ayrıl",
             "LEAVE_ROOM_TEXT": "Bu odadan ayrılmak istediğine emin misin?",
             "NOW": "Şimdi",
@@ -303,7 +299,6 @@
             "NO_CHATS_TEXT": "Henüz bir kanala katılmadın. Sağ üst köşedeki artı (+) işaretine basarak bir kanal oluşturabilir ya da katılabilirsin.",
             "MEMBER": "Üye",
             "MEMBERS": "Üyeler",
-
             "USERNAME": "Kullanıcı Adı",
             "PASSWORD": "Şifre",
             "LOGIN": "Giriş Yap",
@@ -311,25 +306,21 @@
             "NO_ACCOUNT": "Hesabın yok mu?",
             "ALREADY_HAVE": "Zaten bir hesabın var mı?",
             "USERNAME_NOT_ALLOWED": "Bu kullanıcı adına izin verilmiyor",
-
             "CHANGE_ACCOUNT": "Hesap Değiştir",
             "CHANGE_PASSWORD": "Şifre Değiştir",
             "DELETE_ACCOUNT": "Hesabı Sil",
-
             "ERROR": "Hata",
             "INVALID_LENGTH": "Şifre en az 3 karakter olmalı",
             "USERNAME_TAKEN": "Kullanıcı adı zaten alınmış",
             "UNKNOWN": "Bilinmeyen hata",
             "INVALID_USERNAME": "Kullanıcı adı bulunamadı",
             "OK": "Tamam",
-
             "LEAVE_CHANNEL": {
                 "TITLE": "Kanaldan Ayrıl",
                 "DESCRIPTION": "Bu kanaldan ayrılmak istediğinizden emin misiniz?",
                 "CANCEL": "İptal",
                 "PROCEED": "Ayrıl"
             },
-
             "SET_PASSWORD_POPUP": {
                 "TITLE": "Şifre Belirle",
                 "DESCRIPTION": "Hesabınız için bir şifre belirlemeniz gerekiyor",
@@ -372,7 +363,6 @@
             "DELETE": "Sil",
             "SELECT_ITEMS": "Öğeleri Seç",
             "SELECTED_COUNT": "{count} öğe seçildi",
-
             "PHOTOS": "Fotoğraflar",
             "ALBUMS": "Albümler",
             "LIBRARY": "Kütüphane",
@@ -430,12 +420,10 @@
                 "DESCRIPTION": "Bu üyeyi albümden kaldırmak istediğinize emin misiniz?",
                 "SUCCESS": "Üye albümden kaldırıldı"
             },
-
             "NO_PHOTOS": "Fotoğraf veya Video Yok",
             "NO_PHOTOS_INSTRUCTIONS": "Kamera kullanarak fotoğraf ve video çekebilirsiniz",
             "PHOTO_COUNT": "{amount} Fotoğraf",
             "VIDEO_COUNT": "{amount} Video",
-
             "DELETE_CONTEXT_TITLE": "{type} silmek mi yoksa bu albümden kaldırmak mı istiyorsunuz?",
             "THESE_PHOTOS": "bu fotoğraflar",
             "THIS_PHOTO": "bu fotoğraf",
@@ -452,7 +440,6 @@
             "MONTHS": "Aylar",
             "DAYS": "Günler",
             "ALL_PHOTOS": "Tüm Fotoğraflar",
-
             "FAVOURITES": "Favoriler",
             "RECENTS": "Son Eklenenler"
         },
@@ -720,7 +707,6 @@
             "SELECT_CONTACT": "Kişi Seç",
             "TODAY": "Bugün",
             "YESTERDAY": "Dün",
-
             "INSUFFICIENT_FUNDS": {
                 "TITLE": "Yetersiz Bakiye",
                 "DESCRIPTION": "Bu tutarı göndermek için yeterli bakiyeniz yok"
@@ -753,7 +739,6 @@
                 "TITLE": "Para Eklenemedi",
                 "DESCRIPTION": "Belirtilen hesaba para eklenemedi"
             },
-
             "OK": "Tamam"
         },
         "GARAGE": {
@@ -777,7 +762,6 @@
             "LOCK": "Kilitle",
             "UNLOCKED": "Kilitsiz",
             "UNLOCK": "Kilidi Aç",
-
             "WAYPOINT_POPUP": {
                 "TITLE": "Konum Belirle",
                 "TEXT": "{model} aracınıza konum belirlemek istiyor musunuz?",
@@ -858,7 +842,6 @@
             "MESSAGE": "Mesaj",
             "CALL": "Ara",
             "REMOVE": "Kaldır",
-
             "ERROR_POPUP": {
                 "TITLE": "Hata",
                 "NO_TITLE": "Bir başlık girmeniz gerekiyor",
@@ -952,7 +935,6 @@
             "DELETE": "Sil",
             "SET_WAYPOINT": "Konum Belirle",
             "SHARE": "Paylaş",
-
             "ADD_LOCATION_POPUP": {
                 "TITLE": "Konum Ekle",
                 "DESCRIPTION": "Eklemek istediğiniz konumun adını girin",
@@ -1200,7 +1182,6 @@
             },
             "REPLIED_TO_YOUR_STORY": "Hikayene yanıt verdi",
             "REPLIED_TO_YOUR_STORY_CONTENT": "Hikayene yanıt verdi: {content}",
-
             "SHARE_TO_STORY": {
                 "TITLE": "Hikayede Paylaş",
                 "SUCCESS": "Gönderi Paylaşıldı",
@@ -1326,21 +1307,17 @@
             "COMPANIES": "Şirketler",
             "MESSAGES": "Mesajlar",
             "SETTINGS": "Ayarlar",
-
             "CLOSED": "Kapalı",
             "YOUR_MESSAGES": "Mesajların",
             "JOB_MESSAGES": "İş Mesajları",
-
             "DUTY": "Görev",
             "DUTY_DESCRIPTION": "Görev durumunuzu değiştirin",
             "GO_ON_DUTY": "Göreve Başla",
             "GO_OFF_DUTY": "Görevden Ayrıl",
             "JOB_CALLS": "İş Çağrıları",
             "JOB_CALLS_DESCRIPTION": "{toggle} müşterilerden çağrı almayı.",
-
             "ENABLE": "Etkinleştir",
             "DISABLE": "Devre Dışı Bırak",
-
             "DISABLE_CALLS": "Aramaları Devre Dışı Bırak",
             "ENABLE_CALLS": "Aramaları Etkinleştir",
             "BALANCE": "Bakiye",
@@ -1348,14 +1325,11 @@
             "HIRE": "İşe Al",
             "SET_GRADE": "Derece Belirle",
             "UNEMPLOYED": "İşsizsin",
-
             "ALL": "Tümü",
             "AVAILABLE": "Mevcut",
             "SEARCH_EMPLOYEES": "Çalışanları Ara",
-
             "PERSONAL": "Kişisel",
             "JOB": "İş",
-
             "DEPOSIT_POPUP": {
                 "TITLE": "Para Yatır",
                 "DESCRIPTION": "Şirket hesabına para yatırın",
@@ -1439,12 +1413,10 @@
         },
         "TIKTOK": {
             "TITLE": "Trendy",
-
             "HOME": "Ana Sayfa",
             "DISCOVER": "Keşfet",
             "INBOX": "Gelen Kutusu",
             "PROFILE": "Profil",
-
             "COMMENTS_TITLE": "{count} yorum",
             "REPLY": "Yanıtla",
             "VIEW_REPLIES": "Yanıtları Görüntüle",
@@ -1464,7 +1436,6 @@
             "OK": "Tamam",
             "CREATOR": "Oluşturan",
             "LIKED_BY_CREATOR": "Oluşturan tarafından beğenildi",
-
             "PIN_VIDEO_POPUP": {
                 "TITLE": "Videoyu Sabitle",
                 "DESCRIPTION": "Bu videoyu {action} istediğinizden emin misiniz?",
@@ -1483,7 +1454,6 @@
                 "CANCEL": "İptal",
                 "PROCEED": "Yoksay"
             },
-
             "SHARE_TITLE": "Paylaş",
             "SHARE": "Paylaş",
             "REPORT": "Bildir",
@@ -1491,7 +1461,6 @@
             "ADD_FAVOURITE": "Favorilere Ekle",
             "CANCEL": "İptal",
             "GO_BACK": "Geri Dön",
-
             "FOLLOWING": "Takip Edilenler",
             "FOLLOWERS": "Takipçiler",
             "UNFOLLOW": "Takibi Bırak",
@@ -1499,14 +1468,12 @@
             "FOR_YOU": "Senin İçin",
             "VIDEOS": "Videolar",
             "LIKES": "Beğeniler",
-
             "UNFOLLOW_POPUP": {
                 "TITLE": "Takibi Bırak",
                 "DESCRIPTION": "{name} kişisini takipten çıkmak istediğine emin misin?",
                 "CANCEL": "İptal",
                 "PROCEED": "Devam Et"
             },
-
             "LOGIN_TITLE": "Trendy'e Giriş Yap",
             "LOGIN_SUBTITLE": "Hesabını yönet, bildirimleri kontrol et, videolara yorum yap ve daha fazlası.",
             "SIGNUP_TITLE": "Trendy'e Kayıt Ol",
@@ -1516,20 +1483,17 @@
             "PASSWORD": "Şifre",
             "BIO": "Biyografi",
             "SHOW_LIKES": "Beğenileri Göster",
-
             "LOGIN": "Giriş Yap",
             "SIGNUP": "Kayıt Ol",
             "NO_ACCOUNT": "Hesabın yok mu?",
             "ALREADY_ACCOUNT": "Zaten bir hesabın var mı?",
             "SEARCH_PLACEHOLDER": "Kullanıcıları ara",
-
             "STARTED_FOLLOWING": "seni takip etmeye başladı.",
             "LIKED_VIDEO": "videonu beğendi.",
             "LIKED_COMMENT": "yorumunu beğendi.",
             "SAVED_VIDEO": "videonu favorilere ekledi.",
             "COMMENTED": "yorum yaptı: {comment}",
             "REPLIED": "yorumuna cevap verdi: {comment}",
-
             "EDIT_PROFILE": "Profili Düzenle",
             "MESSAGE": "Mesaj",
             "CHANGE_PHOTO": "Fotoğrafı Değiştir",
@@ -1539,7 +1503,6 @@
             "ADD_TO_YOUR_PROFILE": "Profiline ekle",
             "LIKED_HIDDEN_TITLE": "Bu kullanıcının beğendiği videolar gizli.",
             "LIKED_HIDDEN_SUBTITLE": "{name} adlı kullanıcının beğendiği videolar şu anda gizli.",
-
             "INVALID_ACCOUNT_POPUP": {
                 "TITLE": "Geçersiz {name}",
                 "DESCRIPTION": "Girdiğiniz {name} hesabına giriş yapmadınız, lütfen düzeltin.",
@@ -1551,7 +1514,6 @@
                 "CANCEL": "İptal",
                 "PROCEED": "Onayla"
             },
-
             "ADD_ACCOUNT_TITLE": "Hesap ekle",
             "ADD_ACCOUNT": "Profiline {name} ekle",
             "UPLOAD_VIDEO": "Video Yükle",
@@ -1564,7 +1526,6 @@
             "MUSIC": "Müzik",
             "SELECT_MUSIC": "Müzik Seç",
             "OPTIONAL": "İsteğe bağlı",
-
             "DIRECT_MESSAGES": "Özel Mesajlar",
             "ALL_ACTIVITY": "Tüm Aktivite",
             "NO_NOTIFICATIONS": "Bildirimler mevcut değil",
@@ -1821,12 +1782,10 @@
         "MISC": {
             "VERIFIED": "Hesabınız doğrulandı",
             "X_PHONE": "{name} - Telefon",
-
             "LOGGED_OUT_PASSWORD": {
                 "TITLE": "Oturumunuz kapatıldı",
                 "DESCRIPTION": "Parolanız değiştirildiği için hesabınızdan çıkış yapıldı."
             },
-
             "DELETED_NOTIFICATION": {
                 "TITLE": "Hesap silindi",
                 "DESCRIPTION": "Hesabınız silindi."
@@ -1846,59 +1805,46 @@
         "LOGS": {
             "MAIL_TITLE": "E-posta",
             "NEW_MAIL": "{sender}, {recipient} adresine bir e-posta gönderdi",
-
             "MESSAGE_TITLE": "Metin mesajı",
             "NEW_MESSAGE": "{sender}, {recipient} adresine bir mesaj gönderdi: {message}",
-
             "CALL_ENDED": "Arama sona erdi",
             "CALL_DESCRIPTION": "`{caller}` ile `{callee}` arasında {duration} saniye süren arama sona erdi. Cevaplandı: `{answered}`",
-
             "NEW_SERVICE_TITLE": "Yeni mesaj",
             "NEW_SERVICE_CONTENT": "{sender}, {channel} kanalına mesaj gönderdi: {message}",
-
             "RECEIVED_TITLE": "${amount} alındı",
             "PAID_TITLE": "${amount} ödendi",
             "TRANSACTION": "{number}, {company}'ye ${amount} tutarında işlem yaptı",
-
             "BOUGHT_CRYPTO": "Kripto satın alındı",
             "SOLD_CRYPTO": "Kripto satıldı",
             "CRYPTO_DETAILS": "**Coin**: {coin}\n**Miktar**: {amount}\n**Değer**: ${price}",
             "TRANSFERRED_CRYPTO": "Kripto transfer edildi",
             "TRANSFERRED_CRYPTO_DETAILS": "**Coin**: {coin}\n**Miktar**: {amount}\n**Alıcı**: {to}\n**Gönderen**: {from}",
-
             "DARKCHAT_CREATED_TITLE": "Kanal oluşturuldu",
             "DARKCHAT_CREATED_DESCRIPTION": "{creator} adlı kullanıcı {channel} adlı bir kanal oluşturdu",
             "DARKCHAT_MESSAGE_TITLE": "Yeni mesaj",
             "DARKCHAT_MESSAGE_DESCRIPTION": "{sender} {channel} kanalına bir mesaj gönderdi: {message}",
-
             "MARKETPLACE_NEW_TITLE": "Yeni ilan",
             "MARKETPLACE_NEW_DESCRIPTION": "**Satıcı**: {seller}\n**Başlık**: {title}\n**Fiyat**: ${price}\n**Açıklama**: {description}\n**Ekler**: {attachments}\n**ID:** {id}",
             "MARKETPLACE_DELETED": "İlan silindi",
-
             "YELLOWPAGES_NEW_TITLE": "Yeni gönderi",
             "YELLOWPAGES_NEW_DESCRIPTION": "**Başlık**: {title}\n**Açıklama**: {description}\n**Ek**: {attachment}\n**ID:** {id}",
             "YELLOWPAGES_DELETED": "Gönderi silindi",
-
             "LIVE_TITLE": "Canlı",
             "STARTED_LIVE": "{username} canlı yayın başlattı",
             "ENDED_LIVE": "{username} canlı yayını sonlandırdı",
             "ADDED_STORY": "{username} hikayesine bir fotoğraf ekledi",
-
             "TRENDY_UPLOAD_TITLE": "Yeni video",
             "TRENDY_UPLOAD_DESCRIPTION": "{username} yeni bir video yükledi: {caption} (ID: {id})",
             "TRENDY_DELETE_TITLE": "Video silindi",
             "TRENDY_DELETE_DESCRIPTION": "{username} ID'si {id} olan bir videoyu sildi",
-
             "UPLOADED_MEDIA": "Yüklenen medya",
             "UPLOADED_MEDIA_DESCRIPTION": "{id} kimlikli bir {type} yükledi\n{link}",
             "VIDEO": "video",
             "PHOTO": "fotoğraf",
-
             "CHANGED_PASSWORD": {
                 "TITLE": "Şifre değiştirildi",
                 "DESCRIPTION": "{number}, {app} uygulamasında {username} hesabının şifresini değiştirdi."
             },
-
             "DELETED_ACCOUNT": {
                 "TITLE": "Hesap silindi",
                 "DESCRIPTION": "{number}, {app} uygulamasında {username} hesabını sildi."
