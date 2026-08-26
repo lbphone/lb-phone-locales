@@ -783,6 +783,10 @@
                 "TITLE": "Échec de l'ajout",
                 "DESCRIPTION": "Échec de l'ajout d'argent sur le compte spécifié"
             },
+            "UNKNOWN_ERROR": {
+                "TITLE": "Erreure Inconnue",
+                "DESCRIPTION": "Une erreure inconnue est survenue"
+            },
 
             "OK": "OK"
         },
