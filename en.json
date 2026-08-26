@@ -783,6 +783,10 @@
                 "TITLE": "Failed to add money",
                 "DESCRIPTION": "Failed to add money to the specified account"
             },
+            "UNKNOWN_ERROR": {
+                "TITLE": "Unknown Error",
+                "DESCRIPTION": "An unknown error occurred"
+            },
 
             "OK": "OK"
         },
