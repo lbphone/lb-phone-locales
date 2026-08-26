@@ -783,6 +783,10 @@
                 "TITLE": "Sikertelen feltöltés",
                 "DESCRIPTION": "Nem sikerült pénzt hozzáadni a megadott fiókhoz"
             },
+            "UNKNOWN_ERROR": {
+                "TITLE": "Ismeretlen hiba",
+                "DESCRIPTION": "AnIsmeretlen hiba történt"
+            },
 
             "OK": "OK"
         },
