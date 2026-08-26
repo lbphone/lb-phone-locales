@@ -783,6 +783,10 @@
                 "TITLE": "Geld hinzufügen fehlgeschlagen",
                 "DESCRIPTION": "Geld konnte nicht auf das angegebene Konto hinzugefügt werden"
             },
+            "UNKNOWN_ERROR": {
+                "TITLE": "Unbekannter Fehler",
+                "DESCRIPTION": "Ein unbekannter Fehler ist aufgetreten"
+            },
 
             "OK": "OK"
         },
