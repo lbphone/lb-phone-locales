@@ -769,6 +769,10 @@
                 "TITLE": "Nu s-au putut adauga bani",
                 "DESCRIPTION": "Nu s-au putut adauga bani in contul specificat"
             },
+            "UNKNOWN_ERROR": {
+                "TITLE": "Eroare Necunoscuta",
+                "DESCRIPTION": "A aparut o eroare necunoscuta"
+            },
             "OK": "OK"
         },
         "GARAGE": {
