@@ -73,6 +73,12 @@
             "TIME_ZONE": "Time Zone",
             "LANGUAGE_REGION": "Language & Region",
             "LANGUAGE": "Language",
+            "LANGUAGE_RESTART_POPUP": {
+                "TITLE": "Change Language",
+                "TEXT": "Changing language will restart the phone. Do you want to continue?",
+                "CANCEL": "Cancel",
+                "CONFIRM": "Change"
+            },
             "TEMPERATURE": "Temperature",
             "CELCIUS": "Celsius",
             "FAHRENHEIT": "Fahrenheit",
@@ -527,6 +533,8 @@
             "YOU": "You",
             "GROUP": "Group",
             "GROUP_NAME": "Group Name",
+            "ADD_PHOTO": "Add Photo",
+            "REMOVE_PHOTO": "Remove Photo",
             "REMOVE_POPUP": {
                 "TITLE": "Remove member",
                 "TEXT": "Are you sure you want to remove {name} from the group?",
@@ -774,6 +782,10 @@
             "FAILED_ADD": {
                 "TITLE": "Failed to add money",
                 "DESCRIPTION": "Failed to add money to the specified account"
+            },
+            "UNKNOWN_ERROR": {
+                "TITLE": "Unknown Error",
+                "DESCRIPTION": "An unknown error occurred"
             },
 
             "OK": "OK"
@@ -1263,6 +1275,7 @@
             "REPLIES": "Replies",
             "MEDIA": "Media",
             "LIKES": "Likes",
+            "RETWEETS": "Reposts",
             "CANCEL": "Cancel",
             "TWEET": "Post",
             "TWEET_REPLY": "Post your reply",
@@ -1271,7 +1284,7 @@
             "SAVE": "Save",
             "NAME": "Name",
             "JOIN_DATE": "Join Date",
-            "PROTECTED_POSTS": "Protect your posts",
+            "PRIVATE_ACCOUNT": "Private account",
             "BIO": "Bio",
             "SIGN_OUT": "Sign Out",
             "CHANGE_PASSWORD": "Change Password",
@@ -1353,6 +1366,9 @@
             "SEARCH_DIRECT_MESSAGES": "Search direct messages",
             "SEARCH_TWITTER": "Search Birdy",
             "MESSAGE_PLACEHOLDER": "Message...",
+            "MESSAGES": "Messages",
+            "SEARCH_PEOPLE": "Search people",
+            "CHANGE_PHOTO": "Change photo",
             "NOW": "Now",
             "LOGIN": "Log In",
             "NEXT": "Next",
@@ -1377,6 +1393,7 @@
             "ACTIONS": "Actions",
             "COMPANIES": "Companies",
             "MESSAGES": "Messages",
+            "JOBS": "Jobs",
             "SETTINGS": "Settings",
 
             "CLOSED": "Closed",
@@ -1443,6 +1460,12 @@
                 "CANCEL": "Cancel",
                 "PROCEED": "Proceed"
             },
+            "LEAVE_POPUP": {
+                "TITLE": "Leave Job",
+                "DESCRIPTION": "Are you sure you want to leave {name}?",
+                "CANCEL": "Cancel",
+                "PROCEED": "Leave"
+            },
             "QUICK_REPLIES": {
                 "REQUEST_LOCATION": {
                     "TITLE": "Request Location",
@@ -1472,6 +1495,7 @@
             "CHECK_FAILED": "Vaildation checks failed",
             "BUY_DISABLED": "Buying has been disabled for this coin",
             "SELL_DISABLED": "Selling has been disabled for this coin",
+            "INVALID_COIN_PRICE": "The coin is not worth anything",
             "TRANSFER_DISABLED": "Transferring has been disabled for this coin",
             "ERROR": "Error",
             "CLOSE": "Close",
@@ -1766,7 +1790,7 @@
             "COLOR": "Color"
         },
         "GIF_SELECTOR": {
-            "SEARCH": "Search Tenor",
+            "SEARCH": "Search KLIPY",
             "BACK": "Back"
         }
     },
@@ -1820,6 +1844,10 @@
             "TITLE": "Error",
             "DESCRIPTION": "You're trying to perform an action that requires internet access, disable airplane mode or get service to continue.",
             "OK": "OK"
+        },
+        "NO_CONNECTION": {
+            "TITLE": "No Connection",
+            "DESCRIPTION": "You need internet access to use this app."
         },
         "TODAY_TIME": "Today, {hours}:{minutes}",
         "YESTERDAY_TIME": "Yesterday, {hours}:{minutes}",

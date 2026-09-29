@@ -73,6 +73,12 @@
             "TIME_ZONE": "Fuso Horário",
             "LANGUAGE_REGION": "Idioma e Região",
             "LANGUAGE": "Idioma",
+            "LANGUAGE_RESTART_POPUP": {
+                "TITLE": "Alterar Idioma",
+                "TEXT": "Alterar o idioma reiniciará o telefone. Deseja continuar?",
+                "CANCEL": "Cancelar",
+                "CONFIRM": "Alterar"
+            },
             "TEMPERATURE": "Temperatura",
             "CELCIUS": "Celsius",
             "FAHRENHEIT": "Fahrenheit",
@@ -527,6 +533,8 @@
             "YOU": "Você",
             "GROUP": "Grupo",
             "GROUP_NAME": "Nome do Grupo",
+            "ADD_PHOTO": "Adicionar Foto",
+            "REMOVE_PHOTO": "Remover Foto",
             "REMOVE_POPUP": {
                 "TITLE": "Remover membro",
                 "TEXT": "Tem certeza de que deseja remover {name} do grupo?",
@@ -774,6 +782,10 @@
             "FAILED_ADD": {
                 "TITLE": "Falha ao Adicionar Dinheiro",
                 "DESCRIPTION": "Falha ao adicionar dinheiro à conta especificada"
+            },
+            "UNKNOWN_ERROR": {
+                "TITLE": "Erro desconhecido",
+                "DESCRIPTION": "Ocorreu um erro desconhecido"
             },
 
             "OK": "OK"
@@ -1263,6 +1275,7 @@
             "REPLIES": "Respostas",
             "MEDIA": "Mídia",
             "LIKES": "Curtidas",
+            "RETWEETS": "Repostagens",
             "CANCEL": "Cancelar",
             "TWEET": "Postar",
             "TWEET_REPLY": "Poste sua resposta",
@@ -1271,7 +1284,7 @@
             "SAVE": "Salvar",
             "NAME": "Nome",
             "JOIN_DATE": "Data de Entrada",
-            "PROTECTED_POSTS": "Proteger suas postagens",
+            "PRIVATE_ACCOUNT": "Conta Privada",
             "BIO": "Bio",
             "SIGN_OUT": "Sair",
             "CHANGE_PASSWORD": "Alterar Senha",
@@ -1353,6 +1366,9 @@
             "SEARCH_DIRECT_MESSAGES": "Buscar mensagens diretas",
             "SEARCH_TWITTER": "Buscar no Birdy",
             "MESSAGE_PLACEHOLDER": "Mensagem...",
+            "MESSAGES": "Mensagens",
+            "SEARCH_PEOPLE": "Buscar pessoas",
+            "CHANGE_PHOTO": "Alterar foto",
             "NOW": "Agora",
             "LOGIN": "Entrar",
             "NEXT": "Próximo",
@@ -1377,6 +1393,7 @@
             "ACTIONS": "Ações",
             "COMPANIES": "Empresas",
             "MESSAGES": "Mensagens",
+            "JOBS": "Trabalhos",
             "SETTINGS": "Configurações",
 
             "CLOSED": "Fechado",
@@ -1443,6 +1460,12 @@
                 "CANCEL": "Cancelar",
                 "PROCEED": "Prosseguir"
             },
+            "LEAVE_POPUP": {
+                "TITLE": "Sair do Trabalho",
+                "DESCRIPTION": "Você tem certeza de que deseja sair de {name}?",
+                "CANCEL": "Cancelar",
+                "PROCEED": "Sair"
+            },
             "QUICK_REPLIES": {
                 "REQUEST_LOCATION": {
                     "TITLE": "Solicitar Localização",
@@ -1472,6 +1495,7 @@
             "CHECK_FAILED": "Falha na verificação",
             "BUY_DISABLED": "Compra foi desativada para esta moeda",
             "SELL_DISABLED": "Venda foi desativada para esta moeda",
+            "INVALID_COIN_PRICE": "A moeda não vale mais nada",
             "TRANSFER_DISABLED": "Transferência foi desativada para esta moeda",
             "ERROR": "Erro",
             "CLOSE": "Fechar",
@@ -1766,7 +1790,7 @@
             "COLOR": "Cor"
         },
         "GIF_SELECTOR": {
-            "SEARCH": "Procurar GIF",
+            "SEARCH": "Procurar KLIPY",
             "BACK": "Voltar"
         }
     },
@@ -1820,6 +1844,10 @@
             "TITLE": "Erro",
             "DESCRIPTION": "Você está tentando realizar uma ação que requer acesso à internet. Desative o modo avião para continuar.",
             "OK": "OK"
+        },
+        "NO_CONNECTION": {
+            "TITLE": "Sem Conexão",
+            "DESCRIPTION": "Você precisa de acesso à internet para usar este aplicativo."
         },
         "TODAY_TIME": "Hoje, {hours}:{minutes}",
         "YESTERDAY_TIME": "Ontem, {hours}:{minutes}",
@@ -1883,14 +1911,14 @@
             "MATCHED_WITH": "Você deu match com {name}"
         },
         "CAMERA": {
-			"TAKE_PHOTO": "{key} Tirar foto",
-			"FLIP_CAMERA": "{key} Alternar câmera",
-			"TOGGLE_FLASH": "{key} Alternar flash",
-			"TOGGLE_CURSOR": "{key} Alternar cursor e olhar ao redor",
-			"CHANGE_MODE": "{key} {key2} Mudar modo da câmera",
-			"ROLL": "{key} {key2} Girar câmera",
-			"FREEZE": "{key} Travar/Retomar a câmera"
-		},
+            "TAKE_PHOTO": "{key} Tirar foto",
+            "FLIP_CAMERA": "{key} Alternar câmera",
+            "TOGGLE_FLASH": "{key} Alternar flash",
+            "TOGGLE_CURSOR": "{key} Alternar cursor e olhar ao redor",
+            "CHANGE_MODE": "{key} {key2} Mudar modo da câmera",
+            "ROLL": "{key} {key2} Girar câmera",
+            "FREEZE": "{key} Travar/Retomar a câmera"
+        },
         "SERVICES": {
             "NEW_MESSAGE": "Nova Mensagem",
             "ANONYMOUS": "Anônimo"

@@ -73,6 +73,12 @@
             "TIME_ZONE": "タイムゾーン",
             "LANGUAGE_REGION": "言語と地域",
             "LANGUAGE": "言語",
+            "LANGUAGE_RESTART_POPUP": {
+                "TITLE": "言語を変更",
+                "TEXT": "言語を変更すると電話が再起動されます。続行しますか？",
+                "CANCEL": "キャンセル",
+                "CONFIRM": "変更"
+            },
             "TEMPERATURE": "温度",
             "CELCIUS": "摂氏",
             "FAHRENHEIT": "華氏",
@@ -527,6 +533,8 @@
             "YOU": "あなた",
             "GROUP": "グループ",
             "GROUP_NAME": "グループ名",
+            "ADD_PHOTO": "写真を追加",
+            "REMOVE_PHOTO": "写真を削除",
             "REMOVE_POPUP": {
                 "TITLE": "メンバーを削除",
                 "TEXT": "{name}をグループから削除してもよろしいですか？",
@@ -575,6 +583,11 @@
                 "CANCEL": "キャンセル",
                 "REMOVE": "削除"
             },
+            "FAILED_SEND": {
+                "TITLE": "メッセージの送信に失敗しました",
+                "DESCRIPTION": "メッセージの送信に失敗しました",
+                "OK": "OK"
+            },
             "MARK_AS_READ": "既読にする",
             "MESSAGE_DELETED": "メッセージを削除しました",
             "OPEN_IN_MAPS": "マップで開く",
@@ -584,11 +597,6 @@
             "EMPTY_RECORDING": {
                 "TITLE": "空の録音",
                 "DESCRIPTION": "空の録音は送信できません",
-                "OK": "OK"
-            },
-            "FAILED_SEND": {
-                "TITLE": "メッセージの送信に失敗しました",
-                "DESCRIPTION": "メッセージの送信に失敗しました",
                 "OK": "OK"
             },
             "GROUP_MEMBER_LIMIT_NOTIFICATION": {
@@ -775,6 +783,10 @@
                 "TITLE": "送金に失敗しました",
                 "DESCRIPTION": "指定されたアカウントへの送金に失敗しました"
             },
+            "UNKNOWN_ERROR": {
+                "TITLE": "不明なエラー",
+                "DESCRIPTION": "不明なエラーが発生しました"
+            },
 
             "OK": "OK"
         },
@@ -876,7 +888,7 @@
             "DESCRIPTION": "説明",
             "IMAGES": "画像",
             "POST": "投稿",
-            "AMOUNT_OF_TOTAL": "{total}件中{amount}件",
+            "AMOUNT_OF_TOTAL": "{amount}件 / 全{total}件",
             "MESSAGE": "メッセージ",
             "CALL": "電話",
             "REMOVE": "削除",
@@ -1263,6 +1275,7 @@
             "REPLIES": "返信",
             "MEDIA": "メディア",
             "LIKES": "いいね！",
+            "RETWEETS": "リポスト",
             "CANCEL": "キャンセル",
             "TWEET": "投稿",
             "TWEET_REPLY": "返信を投稿",
@@ -1271,7 +1284,7 @@
             "SAVE": "保存",
             "NAME": "名前",
             "JOIN_DATE": "参加日",
-            "PROTECTED_POSTS": "投稿を保護",
+            "PRIVATE_ACCOUNT": "プライベートアカウント",
             "BIO": "自己紹介",
             "SIGN_OUT": "サインアウト",
             "CHANGE_PASSWORD": "パスワードを変更",
@@ -1303,7 +1316,7 @@
             },
             "NOTIFICATIONS_POPUP": {
                 "TITLE": "通知",
-                "DESCRIPTION": "@{name}の通知を{action}してもよろしいですか？",
+                "DESCRIPTION": "通知を{action}にしますか？（対象: @{name}）",
                 "CANCEL": "キャンセル",
                 "PROCEED": "続行",
                 "ENABLE": "有効にする",
@@ -1311,7 +1324,7 @@
             },
             "PROMOTE_POPUP": {
                 "TITLE": "投稿を宣伝",
-                "DESCRIPTION": "この投稿を{views}ビューのために{price}で宣伝しますか？",
+                "DESCRIPTION": "この投稿を{price}で宣伝して、{views}ビューを獲得しますか？",
                 "CANCEL": "キャンセル",
                 "PROCEED": "続行"
             },
@@ -1353,6 +1366,9 @@
             "SEARCH_DIRECT_MESSAGES": "ダイレクトメッセージを検索",
             "SEARCH_TWITTER": "バーディーを検索",
             "MESSAGE_PLACEHOLDER": "メッセージ...",
+            "MESSAGES": "メッセージ",
+            "SEARCH_PEOPLE": "ユーザーを検索",
+            "CHANGE_PHOTO": "写真を変更",
             "NOW": "今",
             "LOGIN": "ログイン",
             "NEXT": "次へ",
@@ -1377,6 +1393,7 @@
             "ACTIONS": "アクション",
             "COMPANIES": "会社",
             "MESSAGES": "メッセージ",
+            "JOBS": "ジョブ",
             "SETTINGS": "設定",
 
             "CLOSED": "閉鎖",
@@ -1443,6 +1460,12 @@
                 "CANCEL": "キャンセル",
                 "PROCEED": "続行"
             },
+            "LEAVE_POPUP": {
+                "TITLE": "ジョブを辞める",
+                "DESCRIPTION": "{name}を辞めてもよろしいですか？",
+                "CANCEL": "キャンセル",
+                "PROCEED": "辞める"
+            },
             "QUICK_REPLIES": {
                 "REQUEST_LOCATION": {
                     "TITLE": "場所を要求",
@@ -1464,7 +1487,7 @@
             "NO_MONEY": "十分な資金がありません",
             "NO_COINS": "このコインを所有していません",
             "NOT_ENOUGH_COINS": "コインが不足しています",
-            "ATLEAST_ONE_COIN": "少なくとも{currency}を1つ{action}する必要があります",
+            "ATLEAST_ONE_COIN": "{action}するには少なくとも1 {currency}が必要です",
             "INVALID_COIN": "無効なコイン",
             "TOO_HIGH": "金額が大きすぎます（最大{amount}）",
             "NO_NUMBER": "電話番号が提供されていません",
@@ -1472,6 +1495,7 @@
             "CHECK_FAILED": "バリデーションチェックに失敗しました",
             "BUY_DISABLED": "このコインの購入は無効になっています",
             "SELL_DISABLED": "このコインの売却は無効になっています",
+            "INVALID_COIN_PRICE": "このコインには価値がありません",
             "TRANSFER_DISABLED": "このコインの送金は無効になっています",
             "ERROR": "エラー",
             "CLOSE": "閉じる",
@@ -1499,7 +1523,7 @@
             },
             "SUCCESSFULLY_TRANSFERED_POPUP": {
                 "TITLE": "送金に成功しました",
-                "DESCRIPTION": "{coin}の${amount}を{number}に正常に送金しました",
+                "DESCRIPTION": "${amount}分の{coin}を{number}に正常に送金しました",
                 "CLOSE": "閉じる"
             },
             "REFUND_TRANSACTION": "仮想通貨削除による返金。",
@@ -1766,7 +1790,7 @@
             "COLOR": "色"
         },
         "GIF_SELECTOR": {
-            "SEARCH": "Tenorを検索",
+            "SEARCH": "KLIPYを検索",
             "BACK": "戻る"
         }
     },
@@ -1821,11 +1845,15 @@
             "DESCRIPTION": "インターネットアクセスが必要なアクションを実行しようとしています。続行するには機内モードを無効にしてください。",
             "OK": "OK"
         },
+        "NO_CONNECTION": {
+            "TITLE": "接続なし",
+            "DESCRIPTION": "このアプリを使用するにはインターネット接続が必要です。"
+        },
         "TODAY_TIME": "今日、{hours}:{minutes}",
         "YESTERDAY_TIME": "昨日、{hours}:{minutes}",
         "CHANGE_PASSWORD": {
             "TITLE": "パスワードを変更",
-            "DESCRIPTION": "{app}の{type}パスワードを入力してください",
+            "DESCRIPTION": "{type}{app}パスワードを入力してください",
             "ERROR": "パスワードの変更に失敗しました",
             "CURRENT": "現在の",
             "NEW": "新しい",
@@ -1928,7 +1956,7 @@
         },
         "CRYPTO": {
             "RECEIVED_TRANSFER_TITLE": "{coin}を受信しました",
-            "RECEIVED_TRANSFER_DESCRIPTION": "{coin}を{amount}受け取り、${value}の価値があります"
+            "RECEIVED_TRANSFER_DESCRIPTION": "{amount} {coin}（${value}相当）を受け取りました"
         },
         "MAIL": {
             "AUTOMATIC_PASSWORD": {
@@ -1952,7 +1980,7 @@
 
             "RECEIVED_TITLE": "${amount}を受信しました",
             "PAID_TITLE": "${amount}を支払いました",
-            "TRANSACTION": "{number}が{company}に${amount}のトランザクションを行いました",
+            "TRANSACTION": "{number}が${amount}の取引を{company}に対して行いました",
 
             "BOUGHT_CRYPTO": "仮想通貨を購入しました",
             "SOLD_CRYPTO": "仮想通貨を売却しました",
@@ -1984,18 +2012,18 @@
             "TRENDY_DELETE_DESCRIPTION": "{username}がID{id}のビデオを削除しました",
 
             "UPLOADED_MEDIA": "アップロードされたメディア",
-            "UPLOADED_MEDIA_DESCRIPTION": "ID{id}の{type}を撮影しました\n{link}",
+            "UPLOADED_MEDIA_DESCRIPTION": "{type}を撮影しました（ID: {id}）\n{link}",
             "VIDEO": "ビデオ",
             "PHOTO": "写真",
 
             "CHANGED_PASSWORD": {
                 "TITLE": "パスワードを変更しました",
-                "DESCRIPTION": "{number}が{app}の{username}アカウントのパスワードを変更しました。"
+                "DESCRIPTION": "{number}がアカウント{username}（{app}）のパスワードを変更しました。"
             },
 
             "DELETED_ACCOUNT": {
                 "TITLE": "アカウントが削除されました",
-                "DESCRIPTION": "{number}が{app}の{username}アカウントを削除しました。"
+                "DESCRIPTION": "{number}がアカウント{username}（{app}）を削除しました。"
             }
         }
     }
